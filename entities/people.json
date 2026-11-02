@@ -1,0 +1,240 @@
+{
+  "schema": "ldv-entities-people/1",
+  "updated": "2026-11-02",
+  "note": "Research dossiers. Every claim is pending until checked against a source of an admitted type. Web and model recall sources can raise questions and point to where to check. They cannot verify.",
+  "people": [
+    {
+      "id": "per-pacioli",
+      "name": "Luca Pacioli",
+      "variants": ["Luca Paciolo", "Fra Luca dal Borgo", "Lucas de Burgo Sancti Sepulchri"],
+      "records": ["pe-pacioli", "w-pacioli", "e-leaves"],
+      "summary": "Franciscan mathematician from Sansepolcro. At the Sforza court in Milan from about 1496, where Leonardo drew the solids for De divina proportione. After the fall of Milan both men are reported in Mantua, Venice and Florence.",
+      "claims": [
+        {
+          "id": "pac-1", "layer": "fact", "status": "pending",
+          "text": "Pacioli came to Milan in or about 1496 to teach mathematics at the court of Ludovico Sforza. One account gives 1497.",
+          "sources": [
+            { "type": "other", "cite": "Dictionary of Scientific Biography, s.v. Pacioli, Luca (online copy, MacTutor).", "url": "https://mathshistory.st-andrews.ac.uk/DSB/Pacioli.pdf" },
+            { "type": "web", "cite": "MacTutor History of Mathematics, Luca Pacioli.", "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Pacioli/" }
+          ],
+          "check_in": ["Villata 1999, documents of 1496 to 1499", "a peer reviewed Pacioli biography"]
+        },
+        {
+          "id": "pac-2", "layer": "fact", "status": "pending",
+          "text": "Two manuscript copies of De divina proportione survive, at the Biblioteca Ambrosiana in Milan and the Bibliothèque de Genève. The Ambrosiana copy is reported as dated 14 December 1498. The Geneva copy bears the Sforza arms and is described as the one presented to Ludovico. The printed edition appeared in Venice in 1509.",
+          "sources": [
+            { "type": "web", "cite": "Swissinfo, report on the Geneva manuscript, 2019.", "url": "https://www.swissinfo.ch/eng/culture/de-divina-proportione-_treasured-manuscript-with-da-vinci-drawings-unveiled-in-geneva/44796096" },
+            { "type": "web", "cite": "Wikipedia, Luca Pacioli. Background only, not a ground.", "url": "https://en.wikipedia.org/wiki/Luca_Pacioli" }
+          ],
+          "check_in": ["Ambrosiana and Geneva library catalogue entries", "Marani or Zöllner on the polyhedra drawings"]
+        },
+        {
+          "id": "pac-3", "layer": "interpretation", "status": "pending",
+          "text": "The attribution of the polyhedra illustrations to Leonardo rests on Pacioli's own statements in the text. At least one secondary account calls the attribution controversial. This is an attribution question and belongs to the interpretive layer.",
+          "sources": [
+            { "type": "web", "cite": "Summary of secondary accounts of the Geneva and Milan copies, search results of 2026-11-02." }
+          ],
+          "check_in": ["Pacioli's dedication and his references to Leonardo, in the original text", "Zöllner, catalogue entry for the polyhedra"]
+        },
+        {
+          "id": "pac-4", "layer": "fact", "status": "pending",
+          "text": "Secondary accounts state that Pacioli and Leonardo left Milan together in December 1499, went by way of Mantua and Venice, and shared lodgings in Florence. Pacioli then taught geometry for the Studio of Pisa, then sitting in Florence, until about 1506.",
+          "sources": [
+            { "type": "other", "cite": "Dictionary of Scientific Biography, s.v. Pacioli, Luca (online copy, MacTutor).", "url": "https://mathshistory.st-andrews.ac.uk/DSB/Pacioli.pdf" },
+            { "type": "web", "cite": "Encyclopedia.com, Pacioli, Luca.", "url": "https://www.encyclopedia.com/people/literature-and-arts/architecture-biographies/luca-pacioli" }
+          ],
+          "check_in": ["Villata 1999, for a contemporary document naming both men on the journey or in the same house"],
+          "bearing": "Reference works state the joint journey as fact, but no contemporary document was found in this round. Until one is found, the chronology should keep calling it an inference."
+        }
+      ],
+      "open_questions": [
+        "Is there a contemporary document, rather than a later narrative, that places Pacioli and Leonardo together on the journey of December 1499?",
+        "Leonardo's notebooks are often said to mention Pacioli by name. Locate the folio and the wording.",
+        "Should the People bar be extended past 1500 to cover the Florentine years to about 1506, if the shared lodging is confirmed?"
+      ]
+    },
+    {
+      "id": "per-melzi",
+      "name": "Francesco Melzi",
+      "variants": ["Francesco da Melzo", "Giovan Francesco Melzi"],
+      "records": ["pe-melzi", "pl-milan2", "e-rome-leave", "e-france", "e-will", "e-death"],
+      "summary": "Milanese nobleman from Vaprio d'Adda, Leonardo's assistant from about 1508, executor and heir to his books and instruments, and compiler of the Libro di pittura from the notebooks.",
+      "claims": [
+        {
+          "id": "mel-1", "layer": "fact", "status": "pending",
+          "text": "Sources disagree on his year of birth: about 1490, about 1491, and 1493 are all given. The usual later span is 1493 to about 1570.",
+          "sources": [
+            { "type": "web", "cite": "National Gallery, London, Leonardo's legacy: Francesco Melzi and the Leonardeschi.", "url": "https://www.nationalgallery.org.uk/paintings/leonardo-s-legacy-francesco-melzi-and-the-leonardeschi" },
+            { "type": "web", "cite": "Catholic Encyclopedia (1913), Francesco Melzi.", "url": "https://www.newadvent.org/cathen/10171b.htm" },
+            { "type": "web", "cite": "Discovering Da Vinci, Francesco Melzi.", "url": "https://discoveringdavinci.com/notebooks/researchers/melzi.html" }
+          ],
+          "check_in": ["a dated inscription by Melzi giving his age", "the Melzi family records as published in a monograph"]
+        },
+        {
+          "id": "mel-2", "layer": "fact", "status": "pending",
+          "text": "His association with Leonardo is first documented in Milan around 1508. Some accounts place his entry into the workshop between 1505 and 1508. The chronology's start of c.1508 matches the more cautious reading.",
+          "sources": [
+            { "type": "web", "cite": "Musée du Louvre, Léonard de Vinci 2019, exhibition pages.", "url": "https://mini-site.louvre.fr/trimestriel/2019/l%c3%a9onard_de_vinciGB/111/" },
+            { "type": "web", "cite": "Discovering Da Vinci, Melzi.", "url": "https://discoveringdavinci.com/cast/melzi.html" }
+          ],
+          "check_in": ["Villata 1999, documents of 1507 to 1508", "Leonardo's draft letter to Melzi, Richter edition (number to locate)"]
+        },
+        {
+          "id": "mel-3", "layer": "fact", "status": "pending",
+          "text": "A 1519 notarial document names him as M. Francesco da Melzo, a gentleman of Milan.",
+          "sources": [
+            { "type": "web", "cite": "Amoretti, Memorie storiche su la vita, gli studj e le opere di Lionardo da Vinci (1804), page image on Wikisource.", "url": "https://it.wikisource.org/wiki/Pagina:Memorie_storiche_su_la_vita_gli_studj_e_le_opere_di_Lionardo_da_Vinci.djvu/132" }
+          ],
+          "check_in": ["Villata 1999 or Beltrami 1919, text of the will of 23 April 1519"]
+        },
+        {
+          "id": "mel-4", "layer": "fact", "status": "pending",
+          "text": "After Leonardo's death he compiled the treatise on painting from the notebooks, the text preserved in the Codex Urbinas. Work on it is placed between the 1520s and the 1550s.",
+          "sources": [
+            { "type": "web", "cite": "Museo Galileo, The three years in France (1516 to 1519).", "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/TheThreeYearsFrance.html" },
+            { "type": "web", "cite": "Discovering Da Vinci, Melzi.", "url": "https://discoveringdavinci.com/cast/melzi.html" }
+          ],
+          "check_in": ["Pedretti's studies of the Codex Urbinas"]
+        }
+      ],
+      "open_questions": [
+        "The chronology dates Melzi's letter announcing the death to 1 June 1519. This round did not confirm the day. Check the text of the letter in Villata or Beltrami.",
+        "Which document fixes the start of the relationship? Without one, the bar's start stays an estimate."
+      ]
+    },
+    {
+      "id": "per-lorenzo",
+      "name": "Lorenzo de' Medici",
+      "variants": ["Lorenzo il Magnifico"],
+      "records": ["pe-lorenzo", "h-lorenzo-power", "h-lorenzo-death", "po-sixtus4", "po-innocent8"],
+      "summary": "De facto ruler of Florence from 1469 to his death in 1492. Leonardo's place in his circle rests on later sources.",
+      "claims": [
+        {
+          "id": "lor-1", "layer": "fact", "status": "pending",
+          "text": "The Anonimo Gaddiano states that Leonardo as a young man stayed with Lorenzo, who provided for him and had him work in the garden at Piazza San Marco. This is a fact about what the Anonimo says, not about Leonardo's life.",
+          "sources": [
+            { "type": "web", "cite": "La Toscana di Leonardo, The garden of Lorenzo de' Medici at San Marco.", "url": "https://www.latoscanadileonardo.it/en/places/metropolitan-city-of-florence/municipality-of-florence/the-garden-of-lorenzo-de-medici-at-san-marco.html" },
+            { "type": "web", "cite": "Wikipedia, Anonimo Gaddiano. Background only, not a ground.", "url": "https://en.wikipedia.org/wiki/Anonimo_Gaddiano" }
+          ],
+          "check_in": ["Frey 1892, edition of the Anonimo Gaddiano (Codice Magliabechiano)", "Villata 1999, which prints the early biographical testimonies"]
+        },
+        {
+          "id": "lor-2", "layer": "fact", "status": "pending",
+          "text": "On the move to Milan the two early biographies differ. The Anonimo has Leonardo sent by Lorenzo with a lyre for Ludovico Sforza. Vasari has him invited by Ludovico. The chronology's basis line names both sources for the lyre, which may overstate Vasari's support.",
+          "sources": [
+            { "type": "web", "cite": "La Toscana di Leonardo, Places where Leonardo lived and worked.", "url": "https://www.latoscanadileonardo.it/en/itineraries/florentine-area/places-where-leonardo-lived-and-worked.html" }
+          ],
+          "check_in": ["Frey 1892, Anonimo Gaddiano", "Vasari 1550 and 1568, Life of Leonardo, original text"]
+        },
+        {
+          "id": "lor-3", "layer": "fact", "status": "pending",
+          "text": "One secondary account says Lorenzo bought the San Marco garden in 1480 and that its contents were dispersed in 1494. If correct, a garden based association cannot predate 1480, while the chronology's bar starts in 1478.",
+          "sources": [
+            { "type": "web", "cite": "Brunelleschi, Museo Galileo itinerary, Notes and anecdotes on daily life.", "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/NotesAndAnecdotesOnDailyLife.html" }
+          ],
+          "check_in": ["a monograph on the San Marco garden (e.g. the study of the San Marco sculpture garden and the Medici collection of classical marbles)"]
+        }
+      ],
+      "open_questions": [
+        "A note attributed to Leonardo, 'li Medici mi crearono e mi destrussono', is often quoted. This round found no folio. Do not use it until located in a manuscript edition.",
+        "What fixes the 1478 start of the bar?"
+      ]
+    },
+    {
+      "id": "per-torre",
+      "name": "Marcantonio della Torre",
+      "variants": ["Marco Antonio della Torre", "Marcus Antonius Turrianus"],
+      "records": ["pe-torre", "w-anatomy2"],
+      "summary": "Veronese physician and lecturer in anatomy at Pavia. Vasari reports that he and Leonardo helped each other in anatomy. Leonardo's own writings do not name him.",
+      "claims": [
+        {
+          "id": "tor-1", "layer": "fact", "status": "pending",
+          "text": "Took his medical degree at Padua, then moved to Pavia as professor. The year of the Pavia appointment is given as 1509 or 1510.",
+          "sources": [
+            { "type": "web", "cite": "Article on Marcantonio della Torre, open.icm.edu.pl (journal PDF, title to record).", "url": "https://open.icm.edu.pl/bitstreams/320ee747-aee9-48a9-bf39-3712d23db137/download" },
+            { "type": "web", "cite": "Child's Nervous System article (Springer), 2021.", "url": "https://link.springer.com/article/10.1007/s00381-021-05205-9" }
+          ],
+          "check_in": ["Pavia university records as published", "a peer reviewed study of della Torre"]
+        },
+        {
+          "id": "tor-2", "layer": "fact", "status": "pending",
+          "text": "Died of plague, usually in 1511, at Riva del Garda. One source gives 1511 or 1512, and an older notebook edition gives 1512.",
+          "sources": [
+            { "type": "web", "cite": "Child's Nervous System article (Springer), 2021.", "url": "https://link.springer.com/article/10.1007/s00381-021-05205-9" },
+            { "type": "web", "cite": "Richter, The Notebooks of Leonardo da Vinci, editorial note (online copy).", "url": "https://neonvagabond.xyz/mirrors/sacred-texts/aor/dv/dv20107.htm" }
+          ],
+          "check_in": ["a peer reviewed study of della Torre"]
+        },
+        {
+          "id": "tor-3", "layer": "interpretation", "status": "pending",
+          "text": "That Leonardo's anatomical work of about 1510 to 1511 was shaped by della Torre rests on Vasari. One secondary author argues that Vasari overstates it, since Leonardo's anatomy began decades earlier. Leonardo never names him in the manuscripts.",
+          "sources": [
+            { "type": "web", "cite": "Article on Marcantonio della Torre, open.icm.edu.pl.", "url": "https://open.icm.edu.pl/bitstreams/320ee747-aee9-48a9-bf39-3712d23db137/download" },
+            { "type": "web", "cite": "Richter, editorial note (online copy).", "url": "https://neonvagabond.xyz/mirrors/sacred-texts/aor/dv/dv20107.htm" }
+          ],
+          "check_in": ["Clark and Pedretti 1968, Windsor catalogue, anatomical sheets of 1510 to 1511"]
+        },
+        {
+          "id": "tor-4", "layer": "fact", "status": "pending",
+          "text": "A Windsor anatomical sheet carries Leonardo's note that he hoped to finish all this anatomy in the winter of 1510. The note itself does not mention della Torre.",
+          "sources": [
+            { "type": "web", "cite": "Royal Collection Trust, Leonardo da Vinci exhibition, Last works.", "url": "https://www.rct.uk/collection/themes/exhibitions/leonardo-da-vinci/the-queens-gallery-palace-of-holyroodhouse/last-works" }
+          ],
+          "check_in": ["Clark and Pedretti 1968, Windsor catalogue, for the RL number and the exact wording"]
+        }
+      ],
+      "open_questions": [
+        "Record the RL number and Italian wording of the 'winter of 1510' note.",
+        "Is there any document placing Leonardo in Pavia in 1510 to 1511?"
+      ]
+    },
+    {
+      "id": "per-salai",
+      "name": "Gian Giacomo Caprotti, called Salaì",
+      "variants": ["Salai", "Salaì", "Giacomo", "Andrea Salaì (later usage)"],
+      "records": ["pe-salai", "e-salai", "e-rome-leave", "e-will"],
+      "summary": "Joined Leonardo's household at about ten in 1490 and stayed in his circle for most of the rest of his life. Left a share of the Milan vineyard in the will. Died in Milan in 1524.",
+      "claims": [
+        {
+          "id": "sal-1", "layer": "fact", "status": "pending",
+          "text": "Leonardo's notes record his entry into the household in 1490 at about ten years old, the cost of his clothes, and several thefts. One account counts at least five. Leonardo calls him thief, liar, obstinate and greedy.",
+          "sources": [
+            { "type": "web", "cite": "Finestre sull'Arte, Gian Giacomo Caprotti known as the Salaì.", "url": "https://finestresullarte.info/en/works-and-artists/gian-giacomo-caprotti-known-as-the-salai-the-thief-and-liar-pupil-of-leonardo-da-vinci" }
+          ],
+          "check_in": ["the notebook folio (recalled as Paris Manuscript C, to confirm) in a manuscript edition", "Villata 1999"]
+        },
+        {
+          "id": "sal-2", "layer": "fact", "status": "pending",
+          "text": "Died in Milan on 19 January 1524, a violent death. The cause is reported as a gunshot in one source and a crossbow wound in another.",
+          "sources": [
+            { "type": "web", "cite": "Finestre sull'Arte, Italian edition.", "url": "https://www.finestresullarte.info/opere-e-artisti/salai-gian-giacomo-caprotti-allievo-ladro-e-bugiardo-di-leonardo-da-vinci" },
+            { "type": "web", "cite": "Panorama, on Salaì.", "url": "https://www.panorama.it/lifestyle/salai-leonardo-da-vinci-capolavoro" },
+            { "type": "web", "cite": "Discovering Da Vinci, Salai.", "url": "https://discoveringdavinci.com/cast/salai.html" }
+          ],
+          "check_in": ["Shell and Sironi 1991 (see sal-3)"]
+        },
+        {
+          "id": "sal-3", "layer": "fact", "status": "pending",
+          "text": "An inventory of his property dated 21 April 1525, in the Archivio di Stato di Milano, lists paintings including a Leda and an unfinished Christ at the Column. It was published by Janice Shell, with Grazioso Sironi, in 1991.",
+          "sources": [
+            { "type": "web", "cite": "Finestre sull'Arte, Gian Giacomo Caprotti known as the Salaì.", "url": "https://finestresullarte.info/en/works-and-artists/gian-giacomo-caprotti-known-as-the-salai-the-thief-and-liar-pupil-of-leonardo-da-vinci" },
+            { "type": "model_recall", "cite": "Shell, Janice, and Grazioso Sironi, 'Salaì and Leonardo's legacy', Burlington Magazine 133 (1991). Recalled, not confirmed in this round." }
+          ],
+          "check_in": ["Shell and Sironi 1991, Burlington Magazine (archive publication of the inventory)"]
+        },
+        {
+          "id": "sal-4", "layer": "interpretation", "status": "pending",
+          "text": "Readings of the 1525 inventory that identify its entries with surviving Leonardo paintings, such as the Mona Lisa, are interpretations. One popular source states them as fact.",
+          "sources": [
+            { "type": "web", "cite": "Discovering Da Vinci, Salai.", "url": "https://discoveringdavinci.com/cast/salai.html" }
+          ],
+          "check_in": ["Shell and Sironi 1991", "Marani or Zöllner on the provenance of the paintings concerned"]
+        }
+      ],
+      "open_questions": [
+        "Was Salaì in France at Leonardo's death? The People bar runs to 2 May 1519, which implies continuous presence.",
+        "His death in 1524 falls outside the chart's range (1450 to 1520). Record it here only, or widen the range?"
+      ]
+    }
+  ]
+}

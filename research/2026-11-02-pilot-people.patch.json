@@ -1,0 +1,104 @@
+{
+  "schema": "ldv-chronology-reviews/1",
+  "updated": "2026-11-02",
+  "source": "entities/people.json, pilot of 2026-11-02",
+  "reviews": {
+    "pe-pacioli": {
+      "flags": [
+        "Joint travel after 1499 is an inference. The Milan collaboration is better attested.",
+        "Reference works (Dictionary of Scientific Biography) state the joint departure in December 1499 and shared lodging in Florence as fact. No contemporary document found yet. See entities/people.json, pac-4."
+      ],
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Dictionary of Scientific Biography, s.v. Pacioli, Luca.",
+          "url": "https://mathshistory.st-andrews.ac.uk/DSB/Pacioli.pdf"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, web research",
+          "note": "Pilot people research. Findings and sources are in entities/people.json. Nothing here verifies the record."
+        }
+      ]
+    },
+    "e-leaves": {
+      "flags": [
+        "Travel together with Pacioli is an inference, not a recorded fact.",
+        "Same question as pe-pacioli: the companionship is stated in reference works but no contemporary document was found in this round."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, web research",
+          "note": "Pilot people research. Findings and sources are in entities/people.json. Nothing here verifies the record."
+        }
+      ]
+    },
+    "pe-melzi": {
+      "flags": [
+        "The start of the relationship is estimated.",
+        "Birth year differs between sources (c.1490, c.1491, 1493). Affects any age based reasoning about the start of the relationship."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, web research",
+          "note": "Pilot people research. Findings and sources are in entities/people.json. Nothing here verifies the record."
+        }
+      ]
+    },
+    "e-death": {
+      "flags": [
+        "The date 1 June 1519 for Melzi's letter was not confirmed in the pilot research. Check the text in Villata or Beltrami."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, web research",
+          "note": "Pilot people research. Findings and sources are in entities/people.json. Nothing here verifies the record."
+        }
+      ]
+    },
+    "pe-lorenzo": {
+      "flags": [
+        "Rests on later sources only. No contemporary document is known to the compiler.",
+        "The basis names Vasari and the Anonimo for the lyre story, but in Vasari Leonardo is invited by Ludovico, and only the Anonimo has him sent by Lorenzo. The basis line may need splitting.",
+        "The start of 1478 has no stated ground. One secondary source dates Lorenzo's purchase of the San Marco garden to 1480."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, web research",
+          "note": "Pilot people research. Findings and sources are in entities/people.json. Nothing here verifies the record."
+        }
+      ]
+    },
+    "pe-torre": {
+      "flags": [
+        "Rests on later sources only. No contemporary document is known to the compiler.",
+        "Death year given as 1511 in most accounts, 1512 in some. Pavia appointment given as 1509 or 1510."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, web research",
+          "note": "Pilot people research. Findings and sources are in entities/people.json. Nothing here verifies the record."
+        }
+      ]
+    },
+    "pe-salai": {
+      "flags": [
+        "The bar ends at Leonardo's death, which implies Salai was with him in 1519. This was not confirmed. Salai died in Milan in January 1524, outside the chart range."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, web research",
+          "note": "Pilot people research. Findings and sources are in entities/people.json. Nothing here verifies the record."
+        }
+      ]
+    }
+  }
+}

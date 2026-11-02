@@ -16,6 +16,8 @@ The records were first entered from model recall. They therefore stay **pending*
 | `index.html` | The page, single file. Holds the base records (`PLACES`, `WORKS`, `PEOPLE`, `EVENTS`, `POPES`, `HISTORY`) and the app. |
 | `reviews.json` | Review layer: status, flags, proposed corrections, sources and history per record id. |
 | `extra.json` | New records added after the base draft. They start as pending. |
+| `entities/people.json` | Research dossiers per person: claims with layer (fact or interpretation), status, typed sources, and the admitted edition to check. |
+| `research/*.patch.json` | Review patches produced by research rounds. Not applied until the researcher accepts them. Preview in the page under Update protocol. |
 | `scripts/validate.mjs` | Enforces the update protocol. Run before every commit. |
 | `.github/workflows/pages.yml` | Runs the validator on every push and pull request, and deploys `main` to GitHub Pages. |
 

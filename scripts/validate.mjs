@@ -12,7 +12,7 @@
 // Usage: node scripts/validate.mjs [--base <git ref>]
 // Exit code 1 on any error. Warnings are printed but do not fail.
 
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
@@ -145,6 +145,60 @@ if (baseIdx > 0 && reviews) {
     const now = reviews.reviews?.[id]?.history ?? [];
     const kept = before.every((h, i) => JSON.stringify(h) === JSON.stringify(now[i]));
     if (!kept) err(`reviews.json/${id}: history lines were edited or removed since ${ref} (history is append only)`);
+  }
+}
+
+// ---------- entities/*.json (research dossiers) ----------
+const CLAIM_LAYERS = ['fact', 'interpretation', 'hypothesis'];
+const CLAIM_STATUSES = ['pending', 'verified', 'disputed', 'rejected'];
+const ENTITY_FILES = { 'entities/people.json': ['ldv-entities-people/1', 'people'] };
+for (const [file, [schema, key]] of Object.entries(ENTITY_FILES)) {
+  let text;
+  try { text = readFileSync(path.join(ROOT, file), 'utf8'); } catch { continue; }
+  const doc = readJSON(file, text);
+  if (!doc) continue;
+  if (doc.schema !== schema) err(`${file}: schema must be "${schema}"`);
+  const seen = new Set();
+  (doc[key] ?? []).forEach((e, i) => {
+    const where = `${file}/${e.id ?? '#' + i}`;
+    if (!e.id || !e.name) err(`${where}: id and name are required`);
+    if (seen.has(e.id)) err(`${where}: duplicate entity id`);
+    seen.add(e.id);
+    (e.records ?? []).forEach((r) => { if (!ids.has(r)) err(`${where}: links to unknown record "${r}"`); });
+    const claimIds = new Set();
+    (e.claims ?? []).forEach((c, j) => {
+      const cw = `${where}.claims[${c.id ?? j}]`;
+      if (!c.id || claimIds.has(c.id)) err(`${cw}: claim id missing or duplicated`);
+      claimIds.add(c.id);
+      if (!CLAIM_LAYERS.includes(c.layer)) err(`${cw}: layer must be one of ${CLAIM_LAYERS.join(', ')}`);
+      if (!CLAIM_STATUSES.includes(c.status)) err(`${cw}: status must be one of ${CLAIM_STATUSES.join(', ')}`);
+      if (!Array.isArray(c.sources) || !c.sources.length) err(`${cw}: at least one source is required`);
+      (c.sources ?? []).forEach((s, k) => {
+        if (!SOURCE_TYPES.includes(s.type)) err(`${cw}.sources[${k}]: unknown type "${s.type}"`);
+        if (!s.cite) err(`${cw}.sources[${k}]: cite is required`);
+      });
+      if (c.status === 'verified' && !(c.sources ?? []).some((s) => ADMITTED.includes(s.type))) err(`${cw}: verified without a source of an admitted type`);
+    });
+    checkText(where, e);
+  });
+}
+
+// ---------- research/*.patch.json (unapplied review patches) ----------
+
+let patchFiles = [];
+try { patchFiles = readdirSync(path.join(ROOT, 'research')).filter((f) => f.endsWith('.patch.json')); } catch {}
+for (const f of patchFiles) {
+  const file = `research/${f}`;
+  const doc = readJSON(file);
+  if (!doc) continue;
+  for (const [id, rv] of Object.entries(doc.reviews ?? {})) {
+    const where = `${file}/${id}`;
+    if (!ids.has(id)) err(`${where}: no record with this id`);
+    if (rv.status && !STATUSES.includes(rv.status)) err(`${where}: unknown status "${rv.status}"`);
+    if (rv.status === 'verified' && !(rv.sources ?? []).some((s) => ADMITTED.includes(s.type))) err(`${where}: verified without a source of an admitted type`);
+    const existing = reviews?.reviews?.[id]?.flags ?? [];
+    if (rv.flags && !existing.every((x) => rv.flags.includes(x))) warn(`${where}: flags replace the current list and would drop an existing flag`);
+    checkText(where, rv);
   }
 }
 
