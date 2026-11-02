@@ -1,0 +1,38 @@
+name: Import from collection APIs
+
+# Fetches raw records from Wikidata, the Met, the Louvre, Wikipedia and the
+# Royal Collection Trust, and pushes them to a branch for review. Nothing is
+# merged into data/ automatically.
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Comma separated subset: wikidata,met,louvre,wikipedia,rct (empty = all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch
+        run: |
+          if [ -n "${{ inputs.only }}" ]; then node scripts/import/fetch.mjs --only "${{ inputs.only }}"; else node scripts/import/fetch.mjs; fi
+      - name: Push raw data to a review branch
+        run: |
+          BR="import/api-$(date -u +%Y%m%d-%H%M)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BR"
+          git add research/api/raw
+          git commit -m "Raw API import $(date -u +%Y-%m-%d)" || { echo "nothing fetched"; exit 0; }
+          git push origin "$BR"
+          echo "Pushed $BR" >> "$GITHUB_STEP_SUMMARY"
