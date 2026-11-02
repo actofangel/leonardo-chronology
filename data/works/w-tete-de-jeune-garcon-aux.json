@@ -1,0 +1,150 @@
+{
+  "id": "w-tete-de-jeune-garcon-aux",
+  "type": "work",
+  "label": "Tête de jeune garçon, aux cheveux mi-longs, vue de face ; Tête de Christ adolescent",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "portrait",
+      "religious",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q123570912 (instance of: drawing; material: laid paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q123570912",
+    "inventory": "794.1.3049"
+  },
+  "claims": [
+    {
+      "id": "api2271",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123570912 (Tête de jeune garçon, aux cheveux mi-longs, vue de face ; Tête de Christ adolescent), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123570912"
+        }
+      ]
+    },
+    {
+      "id": "api2272",
+      "about": "date",
+      "value": {
+        "text": "16th century",
+        "start": 1511
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 16th century.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123570912 (Tête de jeune garçon, aux cheveux mi-longs, vue de face ; Tête de Christ adolescent), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123570912"
+        }
+      ]
+    },
+    {
+      "id": "api2273",
+      "about": "inventory",
+      "value": {
+        "text": "794.1.3049"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 794.1.3049 in Musée des Beaux-Arts de Rennes, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123570912 (Tête de jeune garçon, aux cheveux mi-longs, vue de face ; Tête de Christ adolescent), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123570912"
+        }
+      ]
+    },
+    {
+      "id": "api2274",
+      "about": "current_location",
+      "value": {
+        "text": "Musée des Beaux-Arts de Rennes"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Musée des Beaux-Arts de Rennes, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123570912 (Tête de jeune garçon, aux cheveux mi-longs, vue de face ; Tête de Christ adolescent), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123570912"
+        }
+      ]
+    },
+    {
+      "id": "api2275",
+      "about": "medium",
+      "value": {
+        "text": "laid paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: laid paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123570912 (Tête de jeune garçon, aux cheveux mi-longs, vue de face ; Tête de Christ adolescent), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123570912"
+        }
+      ]
+    },
+    {
+      "id": "api2276",
+      "about": "dimensions",
+      "value": {
+        "text": "15 cm x 18 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 15 cm, width 18 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123570912 (Tête de jeune garçon, aux cheveux mi-longs, vue de face ; Tête de Christ adolescent), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123570912"
+        }
+      ]
+    },
+    {
+      "id": "api2277",
+      "about": "depicts",
+      "value": {
+        "text": "young adult man; head; Jesus Christ"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: young adult man; head; Jesus Christ. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123570912 (Tête de jeune garçon, aux cheveux mi-longs, vue de face ; Tête de Christ adolescent), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123570912"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-musee-rennes"
+    }
+  ],
+  "current_location": "geo-musee-rennes"
+}

@@ -1,0 +1,125 @@
+{
+  "id": "w-last-supper-saint-912552",
+  "type": "work",
+  "label": "Study for the Last Supper (Saint James the Elder) and Architectural Sketches",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "religious",
+      "architecture"
+    ],
+    "basis": "Derived automatically from Wikidata Q131613972 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q131613972",
+    "rcin": "912552",
+    "inventory": "RCIN 912552"
+  },
+  "variants": [
+    "La testa di San Giacomo e schizzi architettonici",
+    "Study for the Last Supper (St James the Elder) and Architectural Sketches"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_The_head_of_St_James%2C_and_architectural_sketches%2C_c.1495.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_The_head_of_St_James%2C_and_architectural_sketches%2C_c.1495.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2461",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613972 (Study for the Last Supper (Saint James the Elder) and Architectural Sketches), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613972"
+        }
+      ]
+    },
+    {
+      "id": "api2462",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912552"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912552 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613972 (Study for the Last Supper (Saint James the Elder) and Architectural Sketches), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613972"
+        }
+      ]
+    },
+    {
+      "id": "api2463",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912552 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912552 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613972 (Study for the Last Supper (Saint James the Elder) and Architectural Sketches), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613972"
+        }
+      ]
+    },
+    {
+      "id": "api2464",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613972 (Study for the Last Supper (Saint James the Elder) and Architectural Sketches), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613972"
+        }
+      ]
+    },
+    {
+      "id": "api2465",
+      "about": "depicts",
+      "value": {
+        "text": "Saint James the Elder"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Saint James the Elder. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613972 (Study for the Last Supper (Saint James the Elder) and Architectural Sketches), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613972"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

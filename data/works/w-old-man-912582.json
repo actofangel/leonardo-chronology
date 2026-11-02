@@ -1,0 +1,86 @@
+{
+  "id": "w-old-man-912582",
+  "type": "work",
+  "label": "Drawing of an Old Man with a Grotesque Profile",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389649 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389649",
+    "rcin": "912582",
+    "inventory": "RCIN 912582 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912582%2C_A_caricature_of_a_lawyer_or_an_academic_c.1495.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912582%2C_A_caricature_of_a_lawyer_or_an_academic_c.1495.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api820",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389649 (Drawing of an Old Man with a Grotesque Profile), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389649"
+        }
+      ]
+    },
+    {
+      "id": "api821",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912582 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912582 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389649 (Drawing of an Old Man with a Grotesque Profile), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389649"
+        }
+      ]
+    },
+    {
+      "id": "api822",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389649 (Drawing of an Old Man with a Grotesque Profile), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389649"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

@@ -1,0 +1,134 @@
+{
+  "id": "w-aristotle-phyllis",
+  "type": "work",
+  "label": "Aristotle and Phyllis",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q9160995 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q9160995",
+    "inventory": "21487"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Aristoteles_und_Phyllis%2C_um_1475%2C_21487.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Aristoteles_und_Phyllis%2C_um_1475%2C_21487.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1311",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q9160995 (Aristotle and Phyllis), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q9160995"
+        }
+      ]
+    },
+    {
+      "id": "api1312",
+      "about": "date",
+      "value": {
+        "text": "c.1475",
+        "start": 1475
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1475.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q9160995 (Aristotle and Phyllis), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q9160995"
+        }
+      ]
+    },
+    {
+      "id": "api1313",
+      "about": "inventory",
+      "value": {
+        "text": "21487"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 21487 in Hamburger Kunsthalle, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q9160995 (Aristotle and Phyllis), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q9160995"
+        }
+      ]
+    },
+    {
+      "id": "api1314",
+      "about": "current_location",
+      "value": {
+        "text": "Hamburger Kunsthalle"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Hamburger Kunsthalle, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q9160995 (Aristotle and Phyllis), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q9160995"
+        }
+      ]
+    },
+    {
+      "id": "api1315",
+      "about": "dimensions",
+      "value": {
+        "text": "93 mm x 136 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 93 mm, width 136 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q9160995 (Aristotle and Phyllis), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q9160995"
+        }
+      ]
+    },
+    {
+      "id": "api1316",
+      "about": "depicts",
+      "value": {
+        "text": "Phyllis; Aristotle"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Phyllis; Aristotle. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q9160995 (Aristotle and Phyllis), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q9160995"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-hamburger-kunsthalle"
+    }
+  ],
+  "current_location": "geo-hamburger-kunsthalle"
+}

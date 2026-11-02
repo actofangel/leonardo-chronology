@@ -1,2 +1,4 @@
 dist/
 node_modules/
+research/api/raw/
+research/incoming/api-*/

@@ -1,0 +1,107 @@
+{
+  "id": "w-female-head-profile",
+  "type": "work",
+  "label": "Female Head in Profile",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q131561184 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q131561184",
+    "inventory": "428 E"
+  },
+  "variants": [
+    "Disegno di Leonardo da Vinci (Uffizi, 428 E)"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Da_Vinci_-_Weiblicher_Kopf_im_Profil.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Da_Vinci_-_Weiblicher_Kopf_im_Profil.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2377",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561184 (Female Head in Profile), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561184"
+        }
+      ]
+    },
+    {
+      "id": "api2378",
+      "about": "date",
+      "value": {
+        "text": "c.1468 to 1475",
+        "start": 1468,
+        "end": 1475
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1468 to 1475.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561184 (Female Head in Profile), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561184"
+        }
+      ]
+    },
+    {
+      "id": "api2379",
+      "about": "inventory",
+      "value": {
+        "text": "428 E"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 428 E in Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561184 (Female Head in Profile), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561184"
+        }
+      ]
+    },
+    {
+      "id": "api2380",
+      "about": "current_location",
+      "value": {
+        "text": "Uffizi Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561184 (Female Head in Profile), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561184"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-uffizi"
+    }
+  ],
+  "current_location": "geo-uffizi"
+}

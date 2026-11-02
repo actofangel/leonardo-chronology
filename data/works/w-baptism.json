@@ -194,6 +194,163 @@
         "Marani 2000, catalogue entry",
         "Zöllner 2003, catalogue entry"
       ]
+    },
+    {
+      "id": "api2048",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1059211 (The Baptism of Christ), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1059211"
+        }
+      ]
+    },
+    {
+      "id": "api2049",
+      "about": "date",
+      "value": {
+        "text": "1472",
+        "start": 1472
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1472.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1059211 (The Baptism of Christ), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1059211"
+        }
+      ]
+    },
+    {
+      "id": "api2050",
+      "about": "date",
+      "value": {
+        "text": "1470s",
+        "start": 1470
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1470s.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1059211 (The Baptism of Christ), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1059211"
+        }
+      ]
+    },
+    {
+      "id": "api2051",
+      "about": "date",
+      "value": {
+        "text": "c.1470 to 1475",
+        "start": 1470,
+        "end": 1475
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1470 to 1475.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1059211 (The Baptism of Christ), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1059211"
+        }
+      ]
+    },
+    {
+      "id": "api2052",
+      "about": "inventory",
+      "value": {
+        "text": "8358"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 8358 in Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1059211 (The Baptism of Christ), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1059211"
+        }
+      ]
+    },
+    {
+      "id": "api2053",
+      "about": "current_location",
+      "value": {
+        "text": "Uffizi Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1059211 (The Baptism of Christ), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1059211"
+        }
+      ]
+    },
+    {
+      "id": "api2054",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1059211 (The Baptism of Christ), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1059211"
+        }
+      ]
+    },
+    {
+      "id": "api2055",
+      "about": "dimensions",
+      "value": {
+        "text": "177 cm x 151 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 177 cm, width 151 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1059211 (The Baptism of Christ), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1059211"
+        }
+      ]
+    },
+    {
+      "id": "api2056",
+      "about": "depicts",
+      "value": {
+        "text": "Jesus Christ; John the Baptist; Baptism of Jesus; Monte San Martino"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Jesus Christ; John the Baptist; Baptism of Jesus; Monte San Martino. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1059211 (The Baptism of Christ), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1059211"
+        }
+      ]
     }
   ],
   "current_location": "geo-uffizi",
@@ -217,6 +374,46 @@
   "open_questions": [
     "Inventory number: 1890 n. 8358 or 8359? Read the Uffizi record.",
     "Was the panel made for San Salvi, or did it only arrive there? Check Marani 2000 and Zöllner 2003 entries."
+  ],
+  "identifiers": {
+    "wikidata": "Q1059211",
+    "inventory": "8358"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Verrocchio_and_Leonardo%2C_Baptism_of_Christ%2C_c1470-75%2C_Uffizi.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Verrocchio_and_Leonardo%2C_Baptism_of_Christ%2C_c1470-75%2C_Uffizi.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/The_Baptism_of_Christ_(Verrocchio_and_Leonardo)",
+      "text": "The Baptism of Christ is an oil-on-panel painting finished around 1475 in the studio of the Italian Renaissance painter Andrea del Verrocchio and generally ascribed to him and his pupil Leonardo da Vinci. Some art historians discern the hands of other members of Verrocchio's workshop in the painting as well.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Battesimo_di_Cristo_(Verrocchio_e_Leonardo)",
+      "text": "Il Battesimo di Cristo è un dipinto a olio e tempera su tavola di Andrea del Verrocchio, Leonardo da Vinci e altri pittori di bottega, databile tra il 1475 ed il 1478 e conservato nella Galleria degli Uffizi a Firenze.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Le_Bapt%C3%AAme_du_Christ_(Verrocchio)",
+      "text": "Le Baptême du Christ est un tableau commencé par Andrea del Verrocchio et achevé par Léonard de Vinci entre 1472 et 1475. Il représente saint Jean Baptiste donnant le baptême au Christ dans les eaux du Jourdain. Il est exposé à la Galerie des Offices de Florence.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "The Baptism of Christ",
+    "Battesimo di Cristo",
+    "Le Baptême du Christ",
+    "Baptism of Christ"
   ],
   "timeline": {
     "lane": "works",

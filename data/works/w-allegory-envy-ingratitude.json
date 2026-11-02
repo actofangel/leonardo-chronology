@@ -1,0 +1,36 @@
+{
+  "id": "w-allegory-envy-ingratitude",
+  "type": "work",
+  "label": "Allegory of Envy and Ingratitude",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "subject": [
+      "mythology"
+    ],
+    "basis": "Derived automatically from Wikidata Q11684932 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q11684932"
+  },
+  "claims": [
+    {
+      "id": "api1320",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11684932 (Allegory of Envy and Ingratitude), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11684932"
+        }
+      ]
+    }
+  ]
+}

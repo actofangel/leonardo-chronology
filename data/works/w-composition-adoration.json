@@ -1,0 +1,285 @@
+{
+  "id": "w-composition-adoration",
+  "type": "work",
+  "label": "Composition Sketch for the Adoration of the Magi",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389471 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389471",
+    "louvre_ark": "cl020114864",
+    "inventory": "RF 1978, Recto"
+  },
+  "variants": [
+    "Adoration des Mages"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Adoration_des_Mages%2C_RF_1978%2C_Recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Adoration_des_Mages%2C_RF_1978%2C_Recto.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/11/48/64/00/AGO114864-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020114864"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2972",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389471 (Composition Sketch for the Adoration of the Magi), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389471"
+        }
+      ]
+    },
+    {
+      "id": "api2973",
+      "about": "date",
+      "value": {
+        "text": "1480 to 1481",
+        "start": 1480,
+        "end": 1481
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1480 to 1481.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389471 (Composition Sketch for the Adoration of the Magi), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389471"
+        }
+      ]
+    },
+    {
+      "id": "api2974",
+      "about": "inventory",
+      "value": {
+        "text": "RF 1978, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RF 1978, Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389471 (Composition Sketch for the Adoration of the Magi), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389471"
+        }
+      ]
+    },
+    {
+      "id": "api2975",
+      "about": "current_location",
+      "value": {
+        "text": "Cabinet des dessins"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389471 (Composition Sketch for the Adoration of the Magi), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389471"
+        }
+      ]
+    },
+    {
+      "id": "api2976",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389471 (Composition Sketch for the Adoration of the Magi), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389471"
+        }
+      ]
+    },
+    {
+      "id": "api2977",
+      "about": "dimensions",
+      "value": {
+        "text": "0.284 metre x 0.213 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.284 metre, width 0.213 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389471 (Composition Sketch for the Adoration of the Magi), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389471"
+        }
+      ]
+    },
+    {
+      "id": "api2978",
+      "about": "inventory",
+      "value": {
+        "text": "RF 1978, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number RF 1978, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020114864 (Adoration des Mages), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020114864"
+        }
+      ]
+    },
+    {
+      "id": "api2979",
+      "about": "inventory_history",
+      "value": {
+        "text": "Référence de l'inventaire manuscrit: vol.19, p.166"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Référence de l'inventaire manuscrit: vol.19, p.166.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020114864 (Adoration des Mages), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020114864"
+        }
+      ]
+    },
+    {
+      "id": "api2980",
+      "about": "date",
+      "value": {
+        "text": "1480/1481",
+        "start": 1480,
+        "end": 1481
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: 1480/1481.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020114864 (Adoration des Mages), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020114864"
+        }
+      ]
+    },
+    {
+      "id": "api2981",
+      "about": "medium",
+      "value": {
+        "text": "Plume et encre brune, sur premier tracé à la pointe métallique (alliage de plomb et d'étain). La réflectographie infrarouge a montré que l'attitude de la Vierge a fait l'objet de plusieurs variantes."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Plume et encre brune, sur premier tracé à la pointe métallique (alliage de plomb et d'étain). La réflectographie infrarouge a montré que l'attitude de la Vierge a fait l'objet de plusieurs variantes.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020114864 (Adoration des Mages), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020114864"
+        }
+      ]
+    },
+    {
+      "id": "api2982",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.284 m (à la feuille); Largeur 0.213 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.284 m (à la feuille); Largeur 0.213 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020114864 (Adoration des Mages), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020114864"
+        }
+      ]
+    },
+    {
+      "id": "api2983",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020114864 (Adoration des Mages), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020114864"
+        }
+      ]
+    },
+    {
+      "id": "api2984",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020114864 (Adoration des Mages), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020114864"
+        }
+      ]
+    },
+    {
+      "id": "api2985",
+      "about": "provenance",
+      "value": {
+        "text": "Emile Galichon, vente Paris, 1875, n° 162 ; Louis Galichon (L. 1060 au verso) - legs au Louvre en 1894 ; marques du Louvre (L. 1886a au recto et au verso)."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: Emile Galichon, vente Paris, 1875, n° 162 ; Louis Galichon (L. 1060 au verso) - legs au Louvre en 1894 ; marques du Louvre (L. 1886a au recto et au verso).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020114864 (Adoration des Mages), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020114864"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "w-leonardo-s-fighting-vehicle",
+  "type": "work",
+  "label": "Leonardo's fighting vehicle",
+  "subtype": "engineering_project",
+  "classification": {
+    "form": "engineering_project",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q1124226 (instance of: invention; abandoned project; combat vehicle model; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q1124226"
+  },
+  "variants": [
+    "carro armato di Leonardo",
+    "Char d'assaut",
+    "Leonardo da Vinci's tank"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_tank.JPG?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_tank.JPG"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2062",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1124226 (Leonardo's fighting vehicle), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1124226"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Leonardo's_fighting_vehicle",
+      "text": "Leonardo da Vinci's fighting vehicle, also known as Da Vinci's Tank, is one of the conceptions of the revered Italian polymath and artist Leonardo da Vinci.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Carro_armato_di_Leonardo",
+      "text": "Il carro armato di Leonardo o carro coperto era un progetto del 1485 di Leonardo da Vinci per uno dei primi carri armati al mondo. Il progetto si trova in uno dei fogli conservati al British Museum, n. 1860-6-16-99. Nella parte inferiore del foglio si trovano due disegni, a sinistra il carro scoperto che mostra i meccanismi per il movimento e a destra la sua versione coperta a forma di testuggine. Nella parte superiore dello stesso foglio Leonardo disegnò un altro strumento di guerra, il carro falciante. Il disegno è poco più di uno schizzo dal quale si può comunque dedurre che doveva muoversi attraverso delle manovelle che mettevano in movimento le ruote.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Char_d'assaut_(L%C3%A9onard_de_Vinci)",
+      "text": "Le Char d'assaut est un projet conçu par le peintre et inventeur florentin Léonard de Vinci vers 1485 et dont le dessin se trouve dans le Codex Arundel. Il est considéré comme le prototype des tanks.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

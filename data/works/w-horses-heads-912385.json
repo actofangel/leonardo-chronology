@@ -1,0 +1,146 @@
+{
+  "id": "w-horses-heads-912385",
+  "type": "work",
+  "label": "Studies of Horses' Heads",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "horse",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389534 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389534",
+      "Q136390054"
+    ],
+    "rcin": "912385",
+    "inventory": "RCIN 912385 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912285%2C_Studies_of_horses_and_horses'_heads_c.1490.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912285%2C_Studies_of_horses_and_horses'_heads_c.1490.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912385%2C_A_deluge_c.1517-18.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912385%2C_A_deluge_c.1517-18.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api153",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389534 (Studies of Horses' Heads), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389534"
+        }
+      ]
+    },
+    {
+      "id": "api154",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912385 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912385 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389534 (Studies of Horses' Heads), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389534"
+        }
+      ]
+    },
+    {
+      "id": "api155",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389534 (Studies of Horses' Heads), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389534"
+        }
+      ]
+    },
+    {
+      "id": "api1090",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390054 (Deluge over a Town on a Hill), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390054"
+        }
+      ]
+    },
+    {
+      "id": "api1091",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912385 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912385 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390054 (Deluge over a Town on a Hill), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390054"
+        }
+      ]
+    },
+    {
+      "id": "api1092",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390054 (Deluge over a Town on a Hill), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390054"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

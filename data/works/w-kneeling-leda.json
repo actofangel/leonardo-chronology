@@ -1,0 +1,152 @@
+{
+  "id": "w-kneeling-leda",
+  "type": "work",
+  "label": "Study for a Kneeling Leda and the Swan",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "pen_and_ink"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "mythology"
+    ],
+    "basis": "Derived automatically from Wikidata Q75401791 (instance of: drawing; sketch; material: ink; paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q75401791",
+    "inventory": "I 466 (PK)"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Leda_and_the_Swan%2C_I_466_(PK)%2C_circa_1504-1506_(cropped).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Leda_and_the_Swan%2C_I_466_(PK)%2C_circa_1504-1506_(cropped).jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2863",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q75401791 (Study for a Kneeling Leda and the Swan), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q75401791"
+        }
+      ]
+    },
+    {
+      "id": "api2864",
+      "about": "date",
+      "value": {
+        "text": "1503 to 1507",
+        "start": 1503,
+        "end": 1507
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1503 to 1507.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q75401791 (Study for a Kneeling Leda and the Swan), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q75401791"
+        }
+      ]
+    },
+    {
+      "id": "api2865",
+      "about": "inventory",
+      "value": {
+        "text": "I 466 (PK)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number I 466 (PK) in Museum Boijmans Van Beuningen, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q75401791 (Study for a Kneeling Leda and the Swan), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q75401791"
+        }
+      ]
+    },
+    {
+      "id": "api2866",
+      "about": "inventory",
+      "value": {
+        "text": "446"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 446 in Museum Boijmans Van Beuningen, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q75401791 (Study for a Kneeling Leda and the Swan), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q75401791"
+        }
+      ]
+    },
+    {
+      "id": "api2867",
+      "about": "current_location",
+      "value": {
+        "text": "Museum Boijmans Van Beuningen"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Museum Boijmans Van Beuningen, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q75401791 (Study for a Kneeling Leda and the Swan), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q75401791"
+        }
+      ]
+    },
+    {
+      "id": "api2868",
+      "about": "medium",
+      "value": {
+        "text": "ink; paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: ink; paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q75401791 (Study for a Kneeling Leda and the Swan), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q75401791"
+        }
+      ]
+    },
+    {
+      "id": "api2869",
+      "about": "dimensions",
+      "value": {
+        "text": "126 cm x 109 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 126 cm, width 109 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q75401791 (Study for a Kneeling Leda and the Swan), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q75401791"
+        }
+      ]
+    }
+  ]
+}

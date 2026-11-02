@@ -1,0 +1,83 @@
+{
+  "id": "w-trivulzio-monument-912354",
+  "type": "work",
+  "label": "Study for the Trivulzio Monument",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136389530 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389530",
+    "rcin": "912354",
+    "inventory": "RCIN 912354 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912354%2C_A_design_for_an_equestrian_monument_c.1518-19.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912354%2C_A_design_for_an_equestrian_monument_c.1518-19.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api141",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389530 (Study for the Trivulzio Monument), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389530"
+        }
+      ]
+    },
+    {
+      "id": "api142",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912354 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912354 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389530 (Study for the Trivulzio Monument), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389530"
+        }
+      ]
+    },
+    {
+      "id": "api143",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389530 (Study for the Trivulzio Monument), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389530"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

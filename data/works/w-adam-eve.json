@@ -1,0 +1,36 @@
+{
+  "id": "w-adam-eve",
+  "type": "work",
+  "label": "Adam and Eve",
+  "subtype": "cartoon",
+  "classification": {
+    "form": "cartoon",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q9140603 (instance of: cartoon; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q9140603"
+  },
+  "variants": [
+    "Adam and Eve (Leonardo)"
+  ],
+  "claims": [
+    {
+      "id": "api2749",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q9140603 (Adam and Eve), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q9140603"
+        }
+      ]
+    }
+  ]
+}

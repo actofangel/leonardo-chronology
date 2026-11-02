@@ -1,0 +1,125 @@
+{
+  "id": "w-rearing-horse-mounted-warrior",
+  "type": "work",
+  "label": "Rearing Horse and Mounted Warrior",
+  "subtype": "sculpture_project",
+  "classification": {
+    "form": "sculpture_project",
+    "condition": "extant",
+    "subject": [
+      "horse"
+    ],
+    "basis": "Derived automatically from Wikidata Q1000659 (instance of: sculpture; material: bronze; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q1000659",
+    "met": "195311",
+    "inventory": "inv. 5362"
+  },
+  "variants": [
+    "Cheval d'élevage avec guerrier",
+    "Horse and Rider",
+    "Warrior on Horseback",
+    "Budapest horse"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest_Rearing_Horse_and_Mounted_Warrior%2C_right_side%2C_by_E.C.Rae.png?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Budapest_Rearing_Horse_and_Mounted_Warrior%2C_right_side%2C_by_E.C.Rae.png"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2044",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1000659 (Rearing Horse and Mounted Warrior), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1000659"
+        }
+      ]
+    },
+    {
+      "id": "api2045",
+      "about": "inventory",
+      "value": {
+        "text": "inv. 5362"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number inv. 5362 in Museum of Fine Arts, Budapest, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1000659 (Rearing Horse and Mounted Warrior), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1000659"
+        }
+      ]
+    },
+    {
+      "id": "api2046",
+      "about": "current_location",
+      "value": {
+        "text": "Museum of Fine Arts, Budapest"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Museum of Fine Arts, Budapest, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1000659 (Rearing Horse and Mounted Warrior), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1000659"
+        }
+      ]
+    },
+    {
+      "id": "api2047",
+      "about": "medium",
+      "value": {
+        "text": "bronze"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: bronze.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1000659 (Rearing Horse and Mounted Warrior), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1000659"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Rearing_Horse_and_Mounted_Warrior",
+      "text": "The Rearing Horse and Mounted Warrior or Budapest horse is a bronze sculpture attributed to Leonardo da Vinci. Depicting Francis I of France on a destrier horse, it is estimated to have been cast from a clay or wax model in the first half of the 16th century. The sculpture is in the permanent exhibit of the Budapest Museum of Fine Arts.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Cheval_d'%C3%A9levage_avec_guerrier",
+      "text": "Le cheval d'élevage avec guerrier ou cheval de Budapest est une sculpture en bronze, attribuée à Léonard de Vinci. Représentant François Ier de France sur un cheval destrier, elle aurait été réalisée à partir d'un modèle en argile ou en cire dans la première moitié du XVIe siècle. La sculpture se trouve dans l'exposition permanente du musée des beaux-arts de Budapest.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-szepmuveszeti-budapest"
+    }
+  ],
+  "current_location": "geo-szepmuveszeti-budapest"
+}

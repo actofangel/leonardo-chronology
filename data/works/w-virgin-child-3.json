@@ -1,0 +1,143 @@
+{
+  "id": "w-virgin-child-3",
+  "type": "work",
+  "label": "The Virgin and Child with the young St John the Baptist",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "panel",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q119499274 (instance of: painting; material: oil paint; panel; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q119499274",
+    "inventory": "WA1950.166"
+  },
+  "variants": [
+    "Madonna and Child with the Infant St. John the Baptist"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Madonna_and_Child_with_the_Infant_St._John_the_Baptist%2C_Ashmolean_Museum.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Madonna_and_Child_with_the_Infant_St._John_the_Baptist%2C_Ashmolean_Museum.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2219",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119499274 (The Virgin and Child with the young St John the Baptist), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119499274"
+        }
+      ]
+    },
+    {
+      "id": "api2220",
+      "about": "inventory",
+      "value": {
+        "text": "WA1950.166"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number WA1950.166 in Ashmolean Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119499274 (The Virgin and Child with the young St John the Baptist), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119499274"
+        }
+      ]
+    },
+    {
+      "id": "api2221",
+      "about": "current_location",
+      "value": {
+        "text": "Ashmolean Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Ashmolean Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119499274 (The Virgin and Child with the young St John the Baptist), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119499274"
+        }
+      ]
+    },
+    {
+      "id": "api2222",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119499274 (The Virgin and Child with the young St John the Baptist), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119499274"
+        }
+      ]
+    },
+    {
+      "id": "api2223",
+      "about": "dimensions",
+      "value": {
+        "text": "72.2 cm x 50.5 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 72.2 cm, width 50.5 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119499274 (The Virgin and Child with the young St John the Baptist), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119499274"
+        }
+      ]
+    },
+    {
+      "id": "api2224",
+      "about": "depicts",
+      "value": {
+        "text": "Mary; Christ Child"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Mary; Christ Child. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119499274 (The Virgin and Child with the young St John the Baptist), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119499274"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ashmolean"
+    }
+  ],
+  "current_location": "geo-ashmolean"
+}

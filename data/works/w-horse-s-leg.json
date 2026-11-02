@@ -1,0 +1,105 @@
+{
+  "id": "w-horse-s-leg",
+  "type": "work",
+  "label": "Studies of a Horse's Leg",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "horse"
+    ],
+    "basis": "Derived automatically from Wikidata Q139565440 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139565440",
+    "inventory": "1776"
+  },
+  "variants": [
+    "Studies of Horse's Leg"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Studies_of_Horse's_Leg_-_Google_Art_Project.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Studies_of_Horse's_Leg_-_Google_Art_Project.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1455",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139565440 (Studies of a Horse's Leg), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139565440"
+        }
+      ]
+    },
+    {
+      "id": "api1456",
+      "about": "inventory",
+      "value": {
+        "text": "1776"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1776 in Museum of Fine Arts, Budapest, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139565440 (Studies of a Horse's Leg), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139565440"
+        }
+      ]
+    },
+    {
+      "id": "api1457",
+      "about": "current_location",
+      "value": {
+        "text": "Museum of Fine Arts, Budapest"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Museum of Fine Arts, Budapest, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139565440 (Studies of a Horse's Leg), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139565440"
+        }
+      ]
+    },
+    {
+      "id": "api1458",
+      "about": "dimensions",
+      "value": {
+        "text": "213 mm x 145 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 213 mm, width 145 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139565440 (Studies of a Horse's Leg), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139565440"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-szepmuveszeti-budapest"
+    }
+  ],
+  "current_location": "geo-szepmuveszeti-budapest"
+}

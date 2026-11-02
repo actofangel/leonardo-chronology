@@ -1,0 +1,71 @@
+{
+  "id": "w-angelo-incarnato",
+  "type": "work",
+  "label": "Angelo Incarnato",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q130542445 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q130542445"
+  },
+  "variants": [
+    "The Incarnate Angel"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Angelo_Incarnato.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Angelo_Incarnato.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2297",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q130542445 (Angelo Incarnato), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q130542445"
+        }
+      ]
+    },
+    {
+      "id": "api2298",
+      "about": "date",
+      "value": {
+        "text": "1513 to 1515",
+        "start": 1513,
+        "end": 1515
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1513 to 1515.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q130542445 (Angelo Incarnato), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q130542445"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Angelo_Incarnato",
+      "text": "Angelo incarnato is a sketch attributed to the renowned Italian Renaissance artist Leonardo da Vinci. The drawing is believed to be a portrait of Leonardo's apprentice, Gian Giacomo Caprotti da Oreno, also known as Salaì. Salaì served as both a companion and model for Leonardo for over two decades, playing a key role in the artist's workshop.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

@@ -146,6 +146,127 @@
           "url": "https://nga.gov/content/dam/ngaweb/research/in-depth/provenance-liechtenstein/1967_GinevraAcquisition_NGApressrelease.pdf"
         }
       ]
+    },
+    {
+      "id": "api2077",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1267893 (Ginevra de' Benci), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1267893"
+        }
+      ]
+    },
+    {
+      "id": "api2078",
+      "about": "date",
+      "value": {
+        "text": "c.1474 to 1478",
+        "start": 1474,
+        "end": 1478
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1474 to 1478.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1267893 (Ginevra de' Benci), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1267893"
+        }
+      ]
+    },
+    {
+      "id": "api2079",
+      "about": "inventory",
+      "value": {
+        "text": "1967.6.1.a"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1967.6.1.a in National Gallery of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1267893 (Ginevra de' Benci), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1267893"
+        }
+      ]
+    },
+    {
+      "id": "api2080",
+      "about": "current_location",
+      "value": {
+        "text": "National Gallery of Art"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by National Gallery of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1267893 (Ginevra de' Benci), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1267893"
+        }
+      ]
+    },
+    {
+      "id": "api2081",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1267893 (Ginevra de' Benci), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1267893"
+        }
+      ]
+    },
+    {
+      "id": "api2082",
+      "about": "dimensions",
+      "value": {
+        "text": "38.1 cm x 37 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 38.1 cm, width 37 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1267893 (Ginevra de' Benci), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1267893"
+        }
+      ]
+    },
+    {
+      "id": "api2083",
+      "about": "depicts",
+      "value": {
+        "text": "Ginevra de' Benci; woman"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Ginevra de' Benci; woman. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1267893 (Ginevra de' Benci), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1267893"
+        }
+      ]
     }
   ],
   "current_location": "geo-national-gallery-washington",
@@ -173,6 +294,46 @@
   "open_questions": [
     "Was the panel cut at the bottom (loss of hands)? The NGA mentions a later addition at the bottom; check the catalogues for the reconstruction.",
     "Who commissioned the portrait (Bernardo Bembo has been proposed in the literature; not checked in this session)?"
+  ],
+  "identifiers": {
+    "wikidata": "Q1267893",
+    "inventory": "1967.6.1.a"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ginevra_de'_Benci_-_National_Gallery_of_Art.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ginevra_de'_Benci_-_National_Gallery_of_Art.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Ginevra_de'_Benci",
+      "text": "Ginevra de' Benci is a portrait painting by Leonardo da Vinci of the 15th-century Florentine aristocrat Ginevra de' Benci. It was acquired by the National Gallery of Art in Washington, D.C. US from Franz Joseph II, Prince of Liechtenstein in February 1967 for a record price for a painting of between $5 and $6 million. It is the only painting by Leonardo on public view in the Americas.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Ritratto_di_Ginevra_de'_Benci",
+      "text": "Il Ritratto di Ginevra de' Benci è un dipinto a tempera e olio su tavola (38,8x36,7 cm) di Leonardo da Vinci, databile al 1474 circa e conservato nella National Gallery of Art di Washington.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Portrait_de_Ginevra_de'_Benci",
+      "text": "Le portrait de Ginevra de’ Benci est un tableau de Léonard de Vinci peint vers 1474, 1476 à l’huile sur bois et à la détrempe sur du bois de peuplier. Longtemps propriété des princes de Liechtenstein, Il est acquis en 1967 par la National Gallery of Art de Washington ; c'est le seul tableau de Léonard exposé sur le continent américain.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Ritratto di Ginevra de' Benci",
+    "Portrait de Ginevra de' Benci",
+    "'Ginevra de’ Benci' Portrait",
+    "Portrait of Ginevra de' Benci"
   ],
   "timeline": {
     "lane": "works",

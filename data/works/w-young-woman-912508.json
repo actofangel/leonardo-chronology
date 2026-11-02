@@ -1,0 +1,83 @@
+{
+  "id": "w-young-woman-912508",
+  "type": "work",
+  "label": "Study of a Young Woman in Profile",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q139567061 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567061",
+    "rcin": "912508",
+    "inventory": "RCIN 912508 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912508%2C_The_bust_of_a_masquerader_in_right_profile_c.1517-18.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912508%2C_The_bust_of_a_masquerader_in_right_profile_c.1517-18.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1584",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567061 (Study of a Young Woman in Profile), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567061"
+        }
+      ]
+    },
+    {
+      "id": "api1585",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912508 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912508 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567061 (Study of a Young Woman in Profile), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567061"
+        }
+      ]
+    },
+    {
+      "id": "api1586",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567061 (Study of a Young Woman in Profile), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567061"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

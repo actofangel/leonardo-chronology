@@ -1,0 +1,148 @@
+{
+  "id": "w-portrait-d-homme",
+  "type": "work",
+  "label": "Portrait d'homme",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "portrait"
+    ],
+    "basis": "Derived automatically from Wikidata Q123540605 (instance of: drawing; material: paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q123540605",
+    "inventory": "794.1.2912"
+  },
+  "claims": [
+    {
+      "id": "api2248",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123540605 (Portrait d'homme), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123540605"
+        }
+      ]
+    },
+    {
+      "id": "api2249",
+      "about": "date",
+      "value": {
+        "text": "16th century",
+        "start": 1501
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 16th century.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123540605 (Portrait d'homme), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123540605"
+        }
+      ]
+    },
+    {
+      "id": "api2250",
+      "about": "inventory",
+      "value": {
+        "text": "794.1.2912"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 794.1.2912 in Musée des Beaux-Arts de Rennes, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123540605 (Portrait d'homme), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123540605"
+        }
+      ]
+    },
+    {
+      "id": "api2251",
+      "about": "current_location",
+      "value": {
+        "text": "Musée des Beaux-Arts de Rennes"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Musée des Beaux-Arts de Rennes, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123540605 (Portrait d'homme), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123540605"
+        }
+      ]
+    },
+    {
+      "id": "api2252",
+      "about": "medium",
+      "value": {
+        "text": "paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123540605 (Portrait d'homme), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123540605"
+        }
+      ]
+    },
+    {
+      "id": "api2253",
+      "about": "dimensions",
+      "value": {
+        "text": "17.6 cm x 26.2 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 17.6 cm, width 26.2 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123540605 (Portrait d'homme), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123540605"
+        }
+      ]
+    },
+    {
+      "id": "api2254",
+      "about": "depicts",
+      "value": {
+        "text": "man; bust"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: man; bust. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123540605 (Portrait d'homme), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123540605"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-musee-rennes"
+    }
+  ],
+  "current_location": "geo-musee-rennes"
+}

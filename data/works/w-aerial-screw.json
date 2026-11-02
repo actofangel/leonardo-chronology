@@ -140,6 +140,80 @@
         "Institut de France, Ms B digitised",
         "Ravaisson Mollien edition"
       ]
+    },
+    {
+      "id": "api2487",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q212042 (Leonardo's aerial screw), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q212042"
+        }
+      ]
+    },
+    {
+      "id": "api2488",
+      "about": "depicts",
+      "value": {
+        "text": "airplane"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: airplane. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q212042 (Leonardo's aerial screw), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q212042"
+        }
+      ]
     }
+  ],
+  "identifiers": {
+    "wikidata": "Q212042"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_helicopter.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_helicopter.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Leonardo's_aerial_screw",
+      "text": "The Italian polymath Leonardo da Vinci drew his design for an \"aerial screw\" in the late 1480s, while he was employed as a military engineer by Ludovico Sforza, Duke of Milan from 1494 to 1499. The original drawing is part of a manuscript dated to 1487 to 1490 and appears on folio 83-verso of Paris Manuscript B, part of the papers removed from the Biblioteca Ambrosiana in 1795 by Napoleon and still held by the Institut de France in Paris.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Vite_aerea",
+      "text": "La vite aerea è un progetto ideato da Leonardo da Vinci e descritto nel foglio 83v del Manoscritto B, redatto durante il suo primo soggiorno milanese.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Vis_a%C3%A9rienne_(L%C3%A9onard_de_Vinci)",
+      "text": "La vis aérienne ou l'hélice volante est un plan d'étude visionnaire expérimental d'aéronef à hélice à vol vertical, inventée entre 1487 et 1490 par l'inventeur italien Léonard de Vinci, reconnu comme un des plus anciens prototypes d'études et d'inspiration d'hélice aéronautique et d'hélicoptère de l'histoire de l'aviation et de l'histoire de l'hélicoptère et autres voilures tournantes.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Leonardo's aerial screw",
+    "vite aerea",
+    "vis aérienne",
+    "Design for Helicopter (Drawing)",
+    "Leonardo's helicopter"
   ]
 }

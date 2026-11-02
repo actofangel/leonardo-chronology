@@ -1,0 +1,124 @@
+{
+  "id": "w-perspective-background",
+  "type": "work",
+  "label": "Perspective Study for the Background of the Adoration of the Magi",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q131561185 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q131561185",
+    "inventory": "436 E"
+  },
+  "variants": [
+    "Disegno di Leonardo da Vinci (Uffizi, 436 E)",
+    "Drawing by Leonardo da Vinci (Uffizi, 436 E)"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_study_AdorationofMagi.JPG?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_study_AdorationofMagi.JPG"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2381",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561185 (Perspective Study for the Background of the Adoration of the Magi), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561185"
+        }
+      ]
+    },
+    {
+      "id": "api2382",
+      "about": "date",
+      "value": {
+        "text": "1481",
+        "start": 1481
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1481.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561185 (Perspective Study for the Background of the Adoration of the Magi), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561185"
+        }
+      ]
+    },
+    {
+      "id": "api2383",
+      "about": "inventory",
+      "value": {
+        "text": "436 E"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 436 E in Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561185 (Perspective Study for the Background of the Adoration of the Magi), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561185"
+        }
+      ]
+    },
+    {
+      "id": "api2384",
+      "about": "current_location",
+      "value": {
+        "text": "Uffizi Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561185 (Perspective Study for the Background of the Adoration of the Magi), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561185"
+        }
+      ]
+    },
+    {
+      "id": "api2385",
+      "about": "current_location",
+      "value": {
+        "text": "Gabinetto dei disegni e delle stampe"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Gabinetto dei disegni e delle stampe, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561185 (Perspective Study for the Background of the Adoration of the Magi), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561185"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-uffizi"
+    }
+  ],
+  "current_location": "geo-uffizi"
+}

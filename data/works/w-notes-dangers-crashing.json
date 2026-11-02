@@ -1,0 +1,86 @@
+{
+  "id": "w-notes-dangers-crashing",
+  "type": "work",
+  "label": "Notes on the Dangers of Crashing and on the Stability of the Flying Machine",
+  "subtype": "technical_drawing",
+  "classification": {
+    "form": "technical_drawing",
+    "condition": "extant",
+    "subject": [
+      "mechanics",
+      "flight"
+    ],
+    "basis": "Derived automatically from Wikidata Q136390215 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390215",
+    "inventory": "12v"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codice_Volo_12V_mod.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codice_Volo_12V_mod.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1344",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390215 (Notes on the Dangers of Crashing and on the Stability of the Flying Machine), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390215"
+        }
+      ]
+    },
+    {
+      "id": "api1345",
+      "about": "inventory",
+      "value": {
+        "text": "12v"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 12v in Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390215 (Notes on the Dangers of Crashing and on the Stability of the Flying Machine), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390215"
+        }
+      ]
+    },
+    {
+      "id": "api1346",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Library of Turin"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390215 (Notes on the Dangers of Crashing and on the Stability of the Flying Machine), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390215"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-reale-turin"
+    }
+  ],
+  "current_location": "geo-biblioteca-reale-turin"
+}

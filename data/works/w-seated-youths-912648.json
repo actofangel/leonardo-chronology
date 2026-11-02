@@ -1,0 +1,83 @@
+{
+  "id": "w-seated-youths-912648",
+  "type": "work",
+  "label": "Study of Two Seated Youths and a Washerwoman",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136389576 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389576",
+    "rcin": "912648",
+    "inventory": "RCIN 912648 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912648%2C_Recto_Two_studies_of_naked_youths_bending_forward%2C_and_a_study_of_a_woman_kneeling_at_the_edge_of_a_pool_with_a_bucket.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912648%2C_Recto_Two_studies_of_naked_youths_bending_forward%2C_and_a_study_of_a_woman_kneeling_at_the_edge_of_a_pool_with_a_bucket.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api282",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389576 (Study of Two Seated Youths and a Washerwoman), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389576"
+        }
+      ]
+    },
+    {
+      "id": "api283",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912648 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912648 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389576 (Study of Two Seated Youths and a Washerwoman), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389576"
+        }
+      ]
+    },
+    {
+      "id": "api284",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389576 (Study of Two Seated Youths and a Washerwoman), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389576"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

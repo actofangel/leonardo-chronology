@@ -1,0 +1,148 @@
+{
+  "id": "w-sheet-water-flowing-912660",
+  "type": "work",
+  "label": "Sheet of Studies of Water Flowing past Obstacles and Sketch of Whirlpool",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "water"
+    ],
+    "basis": "Derived automatically from Wikidata Q136390046 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136390046",
+      "Q136390045"
+    ],
+    "rcin": "912660",
+    "inventory": [
+      "RCIN 912660 verso",
+      "RCIN 912660 recto"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912660%2C_v%2C_Studies_of_water_c.1510-12.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912660%2C_v%2C_Studies_of_water_c.1510-12.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912660%2C_Studies_of_water_c.1510-12.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912660%2C_Studies_of_water_c.1510-12.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1069",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390046 (Sheet of Studies of Water Flowing past Obstacles and Sketch of Whirlpool), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390046"
+        }
+      ]
+    },
+    {
+      "id": "api1070",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912660 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912660 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390046 (Sheet of Studies of Water Flowing past Obstacles and Sketch of Whirlpool), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390046"
+        }
+      ]
+    },
+    {
+      "id": "api1071",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390046 (Sheet of Studies of Water Flowing past Obstacles and Sketch of Whirlpool), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390046"
+        }
+      ]
+    },
+    {
+      "id": "api1075",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390045 (Sheet of Studies of Water Flowing past Obstacles), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390045"
+        }
+      ]
+    },
+    {
+      "id": "api1076",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912660 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912660 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390045 (Sheet of Studies of Water Flowing past Obstacles), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390045"
+        }
+      ]
+    },
+    {
+      "id": "api1077",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390045 (Sheet of Studies of Water Flowing past Obstacles), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390045"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

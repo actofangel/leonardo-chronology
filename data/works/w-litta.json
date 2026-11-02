@@ -21,17 +21,6 @@
   "support": "canvas, transferred from panel",
   "dimensions": "42 x 33 cm",
   "summary": "Madonna and Child in the State Hermitage Museum (GE-249), bought from Count Antonio Litta in Milan in 1865.",
-  "timeline": {
-    "lane": "works",
-    "kind": "Painting",
-    "start": 1490,
-    "end": 1496,
-    "date": "c.1490 to mid 1490s",
-    "tier": "S",
-    "place": "Milan, now St Petersburg",
-    "text": "Madonna nursing the Child. Its execution is attributed by some to Leonardo and by others to a pupil on his design.",
-    "basis": "Museum dating; attribution debated."
-  },
   "relations": [
     {
       "rel": "held_by",
@@ -178,6 +167,175 @@
       "alternative_to": [
         "c5"
       ]
+    },
+    {
+      "id": "api2598",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1327676 (Madonna Litta), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1327676"
+        }
+      ]
+    },
+    {
+      "id": "api2599",
+      "about": "date",
+      "value": {
+        "text": "1490",
+        "start": 1490
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1490.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1327676 (Madonna Litta), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1327676"
+        }
+      ]
+    },
+    {
+      "id": "api2600",
+      "about": "inventory",
+      "value": {
+        "text": "ГЭ-249"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number ГЭ-249 in Hermitage Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1327676 (Madonna Litta), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1327676"
+        }
+      ]
+    },
+    {
+      "id": "api2601",
+      "about": "current_location",
+      "value": {
+        "text": "Hermitage Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Hermitage Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1327676 (Madonna Litta), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1327676"
+        }
+      ]
+    },
+    {
+      "id": "api2602",
+      "about": "medium",
+      "value": {
+        "text": "tempera; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: tempera; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1327676 (Madonna Litta), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1327676"
+        }
+      ]
+    },
+    {
+      "id": "api2603",
+      "about": "dimensions",
+      "value": {
+        "text": "42 cm x 33 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 42 cm, width 33 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1327676 (Madonna Litta), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1327676"
+        }
+      ]
+    },
+    {
+      "id": "api2604",
+      "about": "depicts",
+      "value": {
+        "text": "woman; Christ Child; boy; Mary; mother; Nursing Madonna"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: woman; Christ Child; boy; Mary; mother; Nursing Madonna. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1327676 (Madonna Litta), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1327676"
+        }
+      ]
     }
-  ]
+  ],
+  "identifiers": {
+    "wikidata": "Q1327676",
+    "inventory": "ГЭ-249"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_attributed_-_Madonna_Litta.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_attributed_-_Madonna_Litta.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Madonna_Litta",
+      "text": "The Madonna Litta is a late 15th-century painting, by Leonardo da Vinci, in the Hermitage Museum, Saint Petersburg. It depicts the Virgin Mary breastfeeding the Christ child, a devotional subject known as the Madonna lactans. The figures are set in a dark interior with two arched openings, as in Leonardo's earlier Madonna of the Carnation, and a mountainous landscape in aerial perspective can be seen beyond. In his left hand Christ holds a goldfinch, which is symbolic of his future Passion.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Madonna_Litta",
+      "text": "La Madonna Litta è un dipinto a tempera su tavola attribuito generalmente a Leonardo da Vinci, ma eseguito in gran parte da uno dei suoi allievi, forse Giovanni Antonio Boltraffio o Marco d'Oggiono, su un probabile originale perduto del maestro; databile al 1490 circa, è conservato nel Museo dell'Ermitage a San Pietroburgo.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Madone_Litta",
+      "text": "La Madone Litta est un tableau exécuté vers 1490 représentant une Vierge à l'Enfant allaitant. Conçu par Léonard de Vinci, l'exécution finale sur panneau est attribuée soit à Giovanni Antonio Boltraffio soit à Marco d'Oggiono et était destinée à une commande princière.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Madone Litta",
+    "The Madonna and Child (The Litta Madonna)"
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1490,
+    "end": 1496,
+    "date": "c.1490 to mid 1490s",
+    "tier": "S",
+    "place": "Milan, now St Petersburg",
+    "text": "Madonna nursing the Child. Its execution is attributed by some to Leonardo and by others to a pupil on his design.",
+    "basis": "Museum dating; attribution debated."
+  }
 }

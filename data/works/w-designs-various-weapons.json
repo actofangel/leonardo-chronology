@@ -1,0 +1,266 @@
+{
+  "id": "w-designs-various-weapons",
+  "type": "work",
+  "label": "Designs for Various Weapons",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "military"
+    ],
+    "basis": "Derived automatically from Wikidata Q139564920 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139564920",
+    "louvre_ark": "cl020003024",
+    "inventory": "INV 2260, Recto"
+  },
+  "variants": [
+    "Divers projets d'armes"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Divers_projets_d'armes%2C_INV_2260%2C_Recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Divers_projets_d'armes%2C_INV_2260%2C_Recto.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/00/30/24/00/AGO003024-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020003024"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1442",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139564920 (Designs for Various Weapons), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139564920"
+        }
+      ]
+    },
+    {
+      "id": "api1443",
+      "about": "date",
+      "value": {
+        "text": "1487 to 1488",
+        "start": 1487,
+        "end": 1488
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1487 to 1488.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139564920 (Designs for Various Weapons), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139564920"
+        }
+      ]
+    },
+    {
+      "id": "api1444",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2260, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number INV 2260, Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139564920 (Designs for Various Weapons), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139564920"
+        }
+      ]
+    },
+    {
+      "id": "api1445",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139564920 (Designs for Various Weapons), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139564920"
+        }
+      ]
+    },
+    {
+      "id": "api1446",
+      "about": "dimensions",
+      "value": {
+        "text": "0.209 metre x 0.308 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.209 metre, width 0.308 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139564920 (Designs for Various Weapons), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139564920"
+        }
+      ]
+    },
+    {
+      "id": "api1447",
+      "about": "depicts",
+      "value": {
+        "text": "weapon"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: weapon. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139564920 (Designs for Various Weapons), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139564920"
+        }
+      ]
+    },
+    {
+      "id": "api1448",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2260, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number INV 2260, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003024 (Divers projets d'armes), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003024"
+        }
+      ]
+    },
+    {
+      "id": "api1449",
+      "about": "inventory_history",
+      "value": {
+        "text": "Anciens numéros d'inventaire: MI 105; Référence de l'inventaire manuscrit: vol.1, p.386"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Anciens numéros d'inventaire: MI 105; Référence de l'inventaire manuscrit: vol.1, p.386.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003024 (Divers projets d'armes), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003024"
+        }
+      ]
+    },
+    {
+      "id": "api1450",
+      "about": "medium",
+      "value": {
+        "text": "Pointe de métal, plume et encre brune, sur papier préparé bleu. Partiellement repris à la plume et encre brune. Annoté par l'artiste, à la plume et encre brune : [page de droite, de haut en bas]: Prima tona [ ?]/ fronda / mazza di ferro / e scoppietto / d'osso / d'acciaro / di legno / per passare un fiume a ca/vallo e con uno in groppa / da nor [ ?] la spada [page de gauche, de haut en bas] somma scoppietto 100 / Questo si dimanda cacciafrusto e fassi braccia 3. / Gitta grosse pietre a lontano 2/3 della distanzia. Pliure verticale indiquant la provenance d'un recueil. Deux feuillets assemblés par le milieu avec traces de couture sur trois points de la pliure."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Pointe de métal, plume et encre brune, sur papier préparé bleu. Partiellement repris à la plume et encre brune. Annoté par l'artiste, à la plume et encre brune : [page de droite, de haut en bas]: Prima tona [ ?]/ fronda / mazza di ferro / e scoppietto / d'osso / d'acciaro / di legno / per passare un fiume a ca/vallo e con uno in groppa / da nor [ ?] la spada [page de gauche, de haut en bas] somma scoppietto 100 / Questo si dimanda cacciafrusto e fassi braccia 3. / Gitta grosse pietre a lontano 2/3 della distanzia. Pliure verticale indiquant la provenance d'un recueil. Deux feuillets assemblés par le milieu avec traces de couture sur trois points de la pliure.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003024 (Divers projets d'armes), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003024"
+        }
+      ]
+    },
+    {
+      "id": "api1451",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.209 m (à la feuille); Largeur 0.308 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.209 m (à la feuille); Largeur 0.308 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003024 (Divers projets d'armes), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003024"
+        }
+      ]
+    },
+    {
+      "id": "api1452",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003024 (Divers projets d'armes), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003024"
+        }
+      ]
+    },
+    {
+      "id": "api1453",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003024 (Divers projets d'armes), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003024"
+        }
+      ]
+    },
+    {
+      "id": "api1454",
+      "about": "provenance",
+      "value": {
+        "text": "G. Vallardi (L. 1223, en vert au verso); Vallardi, 1855, p. 2 f° 2 (Léonard de Vinci) ; acquis en 1856."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: G. Vallardi (L. 1223, en vert au verso); Vallardi, 1855, p. 2 f° 2 (Léonard de Vinci) ; acquis en 1856.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003024 (Divers projets d'armes), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003024"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

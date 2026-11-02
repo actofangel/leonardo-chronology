@@ -1,0 +1,23 @@
+{
+  "_note": "Manual decisions for the API importer: Wikidata QID -> existing entity id, or \"new\", or \"skip\". Decided on 2026-11-02 from collection and inventory data.",
+  "Q1059211": "w-baptism",
+  "Q11935346": "w-rocks",
+  "Q4009972": "w-rocks-london",
+  "Q972196": "w-jerome",
+  "Q2045726": "w-anghiari",
+  "Q2308934": "w-leda",
+  "Q27970282": "w-yarnwinder-buccleuch",
+  "Q56280397": "w-yarnwinder-lansdowne",
+  "Q783215": "w-baptist",
+  "Q1217213": "w-annunciation",
+  "Q3618186": "w-annunciation-louvre",
+  "Q118680368": "new",
+  "Q119499276": "new",
+  "Q27697259": "new",
+  "Q3829345": "new",
+  "Q1105990": "skip",
+  "Q269342": "skip",
+  "Q1477693": "skip",
+  "Q3492887": "skip",
+  "Q21055389": "w-embryo-919102"
+}

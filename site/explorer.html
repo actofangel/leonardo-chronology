@@ -58,8 +58,8 @@ input[type=search]{width:100%;padding:7px 10px;border:1px solid var(--rule);bord
 .li .m{font:11px var(--mono);color:var(--muted);white-space:nowrap}
 .count{font:11.5px var(--mono);color:var(--muted)}
 .facets{display:grid;grid-template-columns:1fr 1fr;gap:6px 8px}
-.facets label{display:flex;flex-direction:column;gap:2px;font:11px var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
-.facets select{padding:4px 6px;border:1px solid var(--rule);border-radius:5px;background:var(--card);font:13px var(--sans);text-transform:none;letter-spacing:0;color:var(--ink);min-width:0}
+.facets label{display:flex;flex-direction:column;gap:2px;min-width:0;font:11px var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.facets select{width:100%;padding:4px 6px;border:1px solid var(--rule);border-radius:5px;background:var(--card);font:13px var(--sans);text-transform:none;letter-spacing:0;color:var(--ink);min-width:0}
 .cls{display:flex;flex-wrap:wrap;gap:5px}
 .cls .b{color:var(--ink)}
 .main{display:flex;flex-direction:column;gap:14px;min-width:0}
@@ -107,6 +107,8 @@ ul.plain{margin:0;padding-left:18px;font-size:13.5px;display:flex;flex-direction
 .figs{display:flex;flex-wrap:wrap;gap:10px}
 .fig{margin:0;max-width:300px}
 .fig img{display:block;max-width:100%;max-height:320px;height:auto;border:1px solid var(--faint);border-radius:4px;background:var(--card)}
+.fig.noimg img{display:none}
+.fig.noimg a::before{content:'Image not available here: open source page';font:12px var(--sans)}
 .fig figcaption{font:11px var(--mono);color:var(--muted);margin-top:3px}
 details.wl{border-top:1px solid var(--faint);padding:6px 0}
 details.wl summary{cursor:pointer;font-size:14px}
@@ -212,11 +214,12 @@ details.wl ul{margin-top:6px;max-height:320px;overflow:auto}
     function ref(v){ return typeof v === 'string' && /^[a-z]+-/.test(v) ? link(v) : esc(v); }
     add('Variants', txt(e.variants));
     if(e.identifiers){ var I = e.identifiers, il = [];
-      if(I.wikidata) il.push('<a href="https://www.wikidata.org/wiki/' + esc(I.wikidata) + '" rel="noopener">Wikidata ' + esc(I.wikidata) + '</a>');
-      if(I.met) il.push('<a href="https://www.metmuseum.org/art/collection/search/' + esc(I.met) + '" rel="noopener">Met ' + esc(I.met) + '</a>');
-      if(I.louvre_ark) il.push('<a href="https://collections.louvre.fr/ark:/53355/' + esc(I.louvre_ark) + '" rel="noopener">Louvre ' + esc(I.louvre_ark) + '</a>');
-      if(I.rcin) il.push('<a href="https://www.rct.uk/collection/' + esc(I.rcin) + '" rel="noopener">RCIN ' + esc(I.rcin) + '</a>');
-      if(I.inventory) il.push('Inventory ' + esc(I.inventory));
+      function many(v, f){ [].concat(v || []).forEach(function(x){ il.push(f(x)); }); }
+      many(I.wikidata, function(x){ return '<a href="https://www.wikidata.org/wiki/' + esc(x) + '" rel="noopener">Wikidata ' + esc(x) + '</a>'; });
+      many(I.met, function(x){ return '<a href="https://www.metmuseum.org/art/collection/search/' + esc(x) + '" rel="noopener">Met ' + esc(x) + '</a>'; });
+      many(I.louvre_ark, function(x){ return '<a href="https://collections.louvre.fr/ark:/53355/' + esc(x) + '" rel="noopener">Louvre ' + esc(x) + '</a>'; });
+      many(I.rcin, function(x){ return '<a href="https://www.rct.uk/collection/' + esc(x) + '" rel="noopener">RCIN ' + esc(x) + '</a>'; });
+      many(I.inventory, function(x){ return 'Inventory ' + esc(x); });
       add('Records', il.join(' · ')); }
     if(e.classification){ var cl = []; Object.keys(e.classification).forEach(function(ax){ if(ax === 'basis') return; var vs = e.classification[ax]; (Array.isArray(vs) ? vs : [vs]).forEach(function(v){ cl.push('<span class="b" title="' + esc(V[ax] ? V[ax].label : ax) + '">' + esc(vlabel(ax, v)) + '</span>'); }); });
       add('Classification', '<span class="cls">' + cl.join('') + '</span>' + (e.classification.basis ? '<br><span class="rel">' + esc(e.classification.basis) + '</span>' : '')); }
@@ -261,7 +264,7 @@ details.wl ul{margin-top:6px;max-height:320px;overflow:auto}
   function renderEntity(id){
     var e = E[id];
     if(!e){ $('main').innerHTML = '<section class="card"><p class="empty">No entity with id ' + esc(id) + '. It may be referenced before it has been researched.</p></section>'; return; }
-    var imgs = (e.images||[]).slice(0, 3).map(function(im){ return '<figure class="fig"><a href="' + esc(im.page || im.src) + '" rel="noopener"><img loading="lazy" src="' + esc(im.src) + '" alt="' + esc(e.label) + '"></a><figcaption>' + esc(im.credit || '') + '</figcaption></figure>'; }).join('');
+    var imgs = (e.images||[]).slice(0, 3).map(function(im){ return '<figure class="fig"><a href="' + esc(im.page || im.src) + '" rel="noopener"><img loading="lazy" src="' + esc(im.src) + '" alt="Reproduction" onerror="this.closest(\'figure\').classList.add(\'noimg\')"></a><figcaption>' + esc(im.credit || '') + '</figcaption></figure>'; }).join('');
     var h = '<section class="card"><div class="ehead"><p class="kicker">' + esc(TYPE_NAME[e.type] || e.type) + (e.subtype ? ' · ' + esc(e.subtype) : '') + '</p><h2>' + esc(e.label) + '</h2><p class="meta"><span>' + esc(e.id) + '</span></p></div>' +
       (e.summary ? '<p class="summary">' + esc(e.summary) + '</p>' : '') + (imgs ? '<div class="figs">' + imgs + '</div>' : '') + fieldRows(e) + '</section>';
     if((e.background||[]).length) h += '<section class="card"><h3>Background</h3><p class="empty">Texts retrieved from reference sites, shown for orientation. They are not grounds for any claim.</p>' +

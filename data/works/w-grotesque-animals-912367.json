@@ -66,6 +66,72 @@
       "check_in": [
         "Clark and Pedretti 1968"
       ]
+    },
+    {
+      "id": "api537",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389977 (Study of Two Masks of Monsters), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389977"
+        }
+      ]
+    },
+    {
+      "id": "api538",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912367 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912367 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389977 (Study of Two Masks of Monsters), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389977"
+        }
+      ]
+    },
+    {
+      "id": "api539",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389977 (Study of Two Masks of Monsters), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389977"
+        }
+      ]
     }
+  ],
+  "identifiers": {
+    "wikidata": "Q136389977",
+    "rcin": "912367",
+    "inventory": "RCIN 912367 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912367%2C_Two_heads_of_grotesque_animals_c.1490-95.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912367%2C_Two_heads_of_grotesque_animals_c.1490-95.jpg"
+    }
+  ],
+  "variants": [
+    "Study of Two Masks of Monsters"
   ]
 }

@@ -1,0 +1,142 @@
+{
+  "id": "w-last-supper-saint-912548",
+  "type": "work",
+  "label": "Study for the Last Supper (Saint Bartholomew)",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q131613971 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q131613971",
+    "rcin": "912548",
+    "inventory": "RCIN 912548"
+  },
+  "variants": [
+    "La testa di San Bartolomeo",
+    "Study for the Last Supper (St Bartholomew)"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912548%2C_The_head_of_St_Bartholomew_c.1495_or_later.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912548%2C_The_head_of_St_Bartholomew_c.1495_or_later.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2450",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613971 (Study for the Last Supper (Saint Bartholomew)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613971"
+        }
+      ]
+    },
+    {
+      "id": "api2451",
+      "about": "date",
+      "value": {
+        "text": "c.1495",
+        "start": 1495
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1495.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613971 (Study for the Last Supper (Saint Bartholomew)), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613971"
+        }
+      ]
+    },
+    {
+      "id": "api2452",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912548"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912548 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613971 (Study for the Last Supper (Saint Bartholomew)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613971"
+        }
+      ]
+    },
+    {
+      "id": "api2453",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 12548 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 12548 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613971 (Study for the Last Supper (Saint Bartholomew)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613971"
+        }
+      ]
+    },
+    {
+      "id": "api2454",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613971 (Study for the Last Supper (Saint Bartholomew)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613971"
+        }
+      ]
+    },
+    {
+      "id": "api2455",
+      "about": "depicts",
+      "value": {
+        "text": "Bartholomew the Apostle"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Bartholomew the Apostle. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613971 (Study for the Last Supper (Saint Bartholomew)), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613971"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

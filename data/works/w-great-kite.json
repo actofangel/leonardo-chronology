@@ -1,0 +1,59 @@
+{
+  "id": "w-great-kite",
+  "type": "work",
+  "label": "Great Kite",
+  "subtype": "engineering_project",
+  "classification": {
+    "form": "engineering_project",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q30880051 (instance of: invention; kite; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q30880051"
+  },
+  "variants": [
+    "Grande Nibbio"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo3-CodiceDelVolo-GrandeNibbio-GreatKite.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo3-CodiceDelVolo-GrandeNibbio-GreatKite.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2818",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q30880051 (Great Kite), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q30880051"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Great_Kite",
+      "text": "The Great Kite was a wooden machine designed by Leonardo da Vinci. Leonardo realized it between the end of the 15th Century and the beginning of the 16th Century. Drawings of parts and components of this machine can be found in the Codex on the flight of birds, which however lacks the overall description of the machine itself. Some drawings within the same codex suggest that it was created in similarity with flapping flight. However, this was hardly possible to perform given the available technologies, thus Leonardo developed a machine for mainly a gliding flight. The machine is named after the animal from which Leonardo took inspiration to realize the flying machine, the Kite.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Grande_Nibbio",
+      "text": "Il Grande Nibbio è il nome attribuito da Edoardo Zanon a una macchina volante ideata da Leonardo da Vinci tra la fine del '400 e l'inizio del '500 il cui nome si rifà a quello dell'uccello, il nibbio reale dal cui volo Leonardo aveva tratto ispirazione tenendo presente anche il pipistrello la cui membrana alare viene imitata nella copertura delle ali.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

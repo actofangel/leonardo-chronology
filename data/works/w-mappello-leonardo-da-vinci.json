@@ -1,0 +1,53 @@
+{
+  "id": "w-mappello-leonardo-da-vinci",
+  "type": "work",
+  "label": "Mappello (Leonardo da Vinci)",
+  "subtype": "map",
+  "classification": {
+    "form": "map",
+    "condition": "lost",
+    "subject": [
+      "cartography"
+    ],
+    "basis": "Derived automatically from Wikidata Q131870415 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q131870415"
+  },
+  "claims": [
+    {
+      "id": "api2927",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131870415 (Mappello (Leonardo da Vinci)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131870415"
+        }
+      ]
+    },
+    {
+      "id": "api2928",
+      "about": "depicts",
+      "value": {
+        "text": "Lake Como; Valsassina; mountain"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Lake Como; Valsassina; mountain. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131870415 (Mappello (Leonardo da Vinci)), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131870415"
+        }
+      ]
+    }
+  ]
+}

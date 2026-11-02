@@ -1,0 +1,128 @@
+{
+  "id": "w-allegory-man-s-labours-912698",
+  "type": "work",
+  "label": "Allegory of Man's Labours",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "technique": [
+      "pen_and_ink"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "mythology"
+    ],
+    "basis": "Derived automatically from Wikidata Q136390005 (instance of: drawing; material: feather; paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390005",
+    "rcin": "912698",
+    "inventory": "RCIN 912698 recto"
+  },
+  "variants": [
+    "Un nuage de biens matériels"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/A_cloudburst_of_material_possessions_Leonardo_da_vinci.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:A_cloudburst_of_material_possessions_Leonardo_da_vinci.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api612",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390005 (Allegory of Man's Labours), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390005"
+        }
+      ]
+    },
+    {
+      "id": "api613",
+      "about": "date",
+      "value": {
+        "text": "c.1510",
+        "start": 1510
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1510.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390005 (Allegory of Man's Labours), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390005"
+        }
+      ]
+    },
+    {
+      "id": "api614",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912698 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912698 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390005 (Allegory of Man's Labours), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390005"
+        }
+      ]
+    },
+    {
+      "id": "api615",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390005 (Allegory of Man's Labours), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390005"
+        }
+      ]
+    },
+    {
+      "id": "api616",
+      "about": "medium",
+      "value": {
+        "text": "feather; paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: feather; paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390005 (Allegory of Man's Labours), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390005"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

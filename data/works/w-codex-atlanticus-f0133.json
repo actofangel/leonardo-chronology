@@ -1,0 +1,81 @@
+{
+  "id": "w-codex-atlanticus-f0133",
+  "type": "work",
+  "label": "Codex Atlanticus, f. 133",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q131604548 (instance of: folio; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "manuscript": "w-atlanticus",
+  "folio": "f. 133",
+  "relations": [
+    {
+      "rel": "drawn_on",
+      "target": "w-atlanticus"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "identifiers": {
+    "wikidata": "Q131604548",
+    "inventory": "F0133"
+  },
+  "claims": [
+    {
+      "id": "api2415",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604548 (Codex Atlanticus (F0133)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604548"
+        }
+      ]
+    },
+    {
+      "id": "api2416",
+      "about": "inventory",
+      "value": {
+        "text": "F0133"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number F0133 in Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604548 (Codex Atlanticus (F0133)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604548"
+        }
+      ]
+    },
+    {
+      "id": "api2417",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604548 (Codex Atlanticus (F0133)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604548"
+        }
+      ]
+    }
+  ],
+  "current_location": "geo-ambrosiana"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "w-embankment-breakwaters-divert-912680",
+  "type": "work",
+  "label": "Embankment and Breakwaters to Divert the Arno, a few Kilometres East of Florence",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "water"
+    ],
+    "basis": "Derived automatically from Wikidata Q136390071 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390071",
+    "rcin": "912680",
+    "inventory": "RCIN 912680 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912680%2C_A_weir_on_the_Arno_east_of_Florence_1504.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912680%2C_A_weir_on_the_Arno_east_of_Florence_1504.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1138",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390071 (Embankment and Breakwaters to Divert the Arno, a few Kilometres East of Florence), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390071"
+        }
+      ]
+    },
+    {
+      "id": "api1139",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912680 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912680 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390071 (Embankment and Breakwaters to Divert the Arno, a few Kilometres East of Florence), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390071"
+        }
+      ]
+    },
+    {
+      "id": "api1140",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390071 (Embankment and Breakwaters to Divert the Arno, a few Kilometres East of Florence), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390071"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

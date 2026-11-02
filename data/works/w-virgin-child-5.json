@@ -1,0 +1,323 @@
+{
+  "id": "w-virgin-child-5",
+  "type": "work",
+  "label": "Study for the Virgin and Child with Saint Anne",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q131501780 (instance of: drawing; material: paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q131501780",
+    "louvre_ark": "cl020112021",
+    "inventory": "RF 460, Recto"
+  },
+  "variants": [
+    "Sant'Anna, la Vergine e il Bambino",
+    "Sainte Anne, la Vierge et l'Enfant",
+    "St. Anne, the Virgin, and the Child - Leonardo da Vinci",
+    "Study for the Virgin and Child with St Anne"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Sainte_Anne%2C_la_Vierge_et_l'Enfant%2C_RF_460%2C_Recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Sainte_Anne%2C_la_Vierge_et_l'Enfant%2C_RF_460%2C_Recto.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/11/20/21/00/AGO112021-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020112021"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2326",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501780 (Study for the Virgin and Child with Saint Anne), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501780"
+        }
+      ]
+    },
+    {
+      "id": "api2327",
+      "about": "date",
+      "value": {
+        "text": "1500 to 1501",
+        "start": 1500,
+        "end": 1501
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1500 to 1501.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501780 (Study for the Virgin and Child with Saint Anne), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501780"
+        }
+      ]
+    },
+    {
+      "id": "api2328",
+      "about": "inventory",
+      "value": {
+        "text": "RF 460, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RF 460, Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501780 (Study for the Virgin and Child with Saint Anne), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501780"
+        }
+      ]
+    },
+    {
+      "id": "api2329",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501780 (Study for the Virgin and Child with Saint Anne), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501780"
+        }
+      ]
+    },
+    {
+      "id": "api2330",
+      "about": "current_location",
+      "value": {
+        "text": "Cabinet des dessins"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501780 (Study for the Virgin and Child with Saint Anne), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501780"
+        }
+      ]
+    },
+    {
+      "id": "api2331",
+      "about": "medium",
+      "value": {
+        "text": "paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501780 (Study for the Virgin and Child with Saint Anne), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501780"
+        }
+      ]
+    },
+    {
+      "id": "api2332",
+      "about": "dimensions",
+      "value": {
+        "text": "0.164 metre x 0.128 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.164 metre, width 0.128 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501780 (Study for the Virgin and Child with Saint Anne), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501780"
+        }
+      ]
+    },
+    {
+      "id": "api2333",
+      "about": "depicts",
+      "value": {
+        "text": "Saint Anne; Mary; Christ Child; Jesus Christ"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Saint Anne; Mary; Christ Child; Jesus Christ. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501780 (Study for the Virgin and Child with Saint Anne), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501780"
+        }
+      ]
+    },
+    {
+      "id": "api2334",
+      "about": "inventory",
+      "value": {
+        "text": "RF 460, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number RF 460, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112021 (Sainte Anne, la Vierge et l'Enfant), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112021"
+        }
+      ]
+    },
+    {
+      "id": "api2335",
+      "about": "inventory_history",
+      "value": {
+        "text": "Anciens numéros d'inventaire: HDLS 43; Référence de l'inventaire manuscrit: vol.19, p.42"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Anciens numéros d'inventaire: HDLS 43; Référence de l'inventaire manuscrit: vol.19, p.42.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112021 (Sainte Anne, la Vierge et l'Enfant), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112021"
+        }
+      ]
+    },
+    {
+      "id": "api2336",
+      "about": "date",
+      "value": {
+        "text": "Vers 1500/1501",
+        "start": 1500,
+        "end": 1501
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: Vers 1500/1501.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112021 (Sainte Anne, la Vierge et l'Enfant), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112021"
+        }
+      ]
+    },
+    {
+      "id": "api2337",
+      "about": "medium",
+      "value": {
+        "text": "Plume et encre brune sur première pensée au charbon de bois et à l'estompe. Traits d'encadrement à la plume et encre brune, et à la pierre noire. Perforations du papier correspondant à des reprises au stylet pour reports de certains contours sur une nouvelle feuille. Le papier porte un filigrane \"aux trois monts\", que l'on trouve plutôt à Florence. Restauré en 2003."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Plume et encre brune sur première pensée au charbon de bois et à l'estompe. Traits d'encadrement à la plume et encre brune, et à la pierre noire. Perforations du papier correspondant à des reprises au stylet pour reports de certains contours sur une nouvelle feuille. Le papier porte un filigrane \"aux trois monts\", que l'on trouve plutôt à Florence. Restauré en 2003.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112021 (Sainte Anne, la Vierge et l'Enfant), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112021"
+        }
+      ]
+    },
+    {
+      "id": "api2338",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.164 m (à la feuille); Largeur 0.128 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.164 m (à la feuille); Largeur 0.128 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112021 (Sainte Anne, la Vierge et l'Enfant), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112021"
+        }
+      ]
+    },
+    {
+      "id": "api2339",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112021 (Sainte Anne, la Vierge et l'Enfant), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112021"
+        }
+      ]
+    },
+    {
+      "id": "api2340",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112021 (Sainte Anne, la Vierge et l'Enfant), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112021"
+        }
+      ]
+    },
+    {
+      "id": "api2341",
+      "about": "provenance",
+      "value": {
+        "text": "J. Feuchère, vente Paris, 1853, n° 169 - A.-Ch.-H. His de la Salle (L. 1333) - Etat des dessins... His de la Salle..n° 43 (Léonard de Vinci) - legs en 1878."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: J. Feuchère, vente Paris, 1853, n° 169 - A.-Ch.-H. His de la Salle (L. 1333) - Etat des dessins... His de la Salle..n° 43 (Léonard de Vinci) - legs en 1878.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112021 (Sainte Anne, la Vierge et l'Enfant), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112021"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

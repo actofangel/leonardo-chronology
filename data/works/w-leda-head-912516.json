@@ -122,9 +122,75 @@
       "check_in": [
         "Clark and Pedretti 1968"
       ]
+    },
+    {
+      "id": "api123",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389512 (Head of Leda), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389512"
+        }
+      ]
+    },
+    {
+      "id": "api124",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912516 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912516 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389512 (Head of Leda), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389512"
+        }
+      ]
+    },
+    {
+      "id": "api125",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389512 (Head of Leda), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389512"
+        }
+      ]
     }
   ],
   "open_questions": [
     "RCT pages give c.1505 to 1508, c.1505 to 1506 and c.1504 to 1506 for the Leda heads; which is the current record?"
+  ],
+  "identifiers": {
+    "wikidata": "Q136389512",
+    "rcin": "912516",
+    "inventory": "RCIN 912516 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912516%2C_The_head_of_Leda_c.1505-8.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912516%2C_The_head_of_Leda_c.1505-8.jpg"
+    }
+  ],
+  "variants": [
+    "Head of Leda"
   ]
 }

@@ -1,0 +1,85 @@
+{
+  "id": "w-movement",
+  "type": "work",
+  "label": "Studies on the Movement of the Wing and on the Effect of Wind",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "flight"
+    ],
+    "basis": "Derived automatically from Wikidata Q136390223 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390223",
+    "inventory": "18r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codice_Volo_18R.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codice_Volo_18R.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1365",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390223 (Studies on the Movement of the Wing and on the Effect of Wind), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390223"
+        }
+      ]
+    },
+    {
+      "id": "api1366",
+      "about": "inventory",
+      "value": {
+        "text": "18r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 18r in Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390223 (Studies on the Movement of the Wing and on the Effect of Wind), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390223"
+        }
+      ]
+    },
+    {
+      "id": "api1367",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Library of Turin"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390223 (Studies on the Movement of the Wing and on the Effect of Wind), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390223"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-reale-turin"
+    }
+  ],
+  "current_location": "geo-biblioteca-reale-turin"
+}

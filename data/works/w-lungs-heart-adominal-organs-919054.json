@@ -1,0 +1,148 @@
+{
+  "id": "w-lungs-heart-adominal-organs-919054",
+  "type": "work",
+  "label": "The Lungs, Heart and Adominal Organs of a Pig",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "anatomy"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389944 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389944",
+      "Q136389975"
+    ],
+    "rcin": "919054",
+    "inventory": [
+      "RCIN 919054 verso",
+      "RCIN 919054 recto"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919054%2C_Verso_The_lungs_c.1508.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919054%2C_Verso_The_lungs_c.1508.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919054%2C_Recto_The_bladder.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919054%2C_Recto_The_bladder.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api459",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389944 (The Lungs, Heart and Adominal Organs of a Pig), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389944"
+        }
+      ]
+    },
+    {
+      "id": "api460",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919054 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919054 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389944 (The Lungs, Heart and Adominal Organs of a Pig), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389944"
+        }
+      ]
+    },
+    {
+      "id": "api461",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389944 (The Lungs, Heart and Adominal Organs of a Pig), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389944"
+        }
+      ]
+    },
+    {
+      "id": "api522",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389975 (Study of the Male Bladder with Ureter and Kidneys), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389975"
+        }
+      ]
+    },
+    {
+      "id": "api523",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919054 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919054 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389975 (Study of the Male Bladder with Ureter and Kidneys), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389975"
+        }
+      ]
+    },
+    {
+      "id": "api524",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389975 (Study of the Male Bladder with Ureter and Kidneys), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389975"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

@@ -96,6 +96,264 @@
         "Syson 2011",
         "Popham and Pouncey 1950"
       ]
+    },
+    {
+      "id": "api42",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389484 (Study for the Virgin and Child with Saint Anne), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389484"
+        }
+      ]
+    },
+    {
+      "id": "api43",
+      "about": "inventory",
+      "value": {
+        "text": "1875,0612.17 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1875,0612.17 recto in British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389484 (Study for the Virgin and Child with Saint Anne), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389484"
+        }
+      ]
+    },
+    {
+      "id": "api44",
+      "about": "current_location",
+      "value": {
+        "text": "British Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389484 (Study for the Virgin and Child with Saint Anne), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389484"
+        }
+      ]
+    },
+    {
+      "id": "api1673",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567628 (Study for the Virgin and Child with Saint Anne and Drawing of a Head in Profile), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567628"
+        }
+      ]
+    },
+    {
+      "id": "api1674",
+      "about": "inventory",
+      "value": {
+        "text": "1875,0612.17 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1875,0612.17 verso in British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567628 (Study for the Virgin and Child with Saint Anne and Drawing of a Head in Profile), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567628"
+        }
+      ]
+    },
+    {
+      "id": "api1675",
+      "about": "current_location",
+      "value": {
+        "text": "British Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567628 (Study for the Virgin and Child with Saint Anne and Drawing of a Head in Profile), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567628"
+        }
+      ]
+    },
+    {
+      "id": "api2342",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501822 (Studies of The Virgin and Child with Saint Anne and Saint John the Baptist), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501822"
+        }
+      ]
+    },
+    {
+      "id": "api2343",
+      "about": "date",
+      "value": {
+        "text": "c.1505 to 1508",
+        "start": 1505,
+        "end": 1508
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1505 to 1508.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501822 (Studies of The Virgin and Child with Saint Anne and Saint John the Baptist), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501822"
+        }
+      ]
+    },
+    {
+      "id": "api2344",
+      "about": "inventory",
+      "value": {
+        "text": "1875,0612.17"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1875,0612.17 in British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501822 (Studies of The Virgin and Child with Saint Anne and Saint John the Baptist), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501822"
+        }
+      ]
+    },
+    {
+      "id": "api2345",
+      "about": "current_location",
+      "value": {
+        "text": "British Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501822 (Studies of The Virgin and Child with Saint Anne and Saint John the Baptist), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501822"
+        }
+      ]
+    },
+    {
+      "id": "api2346",
+      "about": "medium",
+      "value": {
+        "text": "charcoal; black chalk; pen; watercolor"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: charcoal; black chalk; pen; watercolor.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501822 (Studies of The Virgin and Child with Saint Anne and Saint John the Baptist), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501822"
+        }
+      ]
+    },
+    {
+      "id": "api2347",
+      "about": "dimensions",
+      "value": {
+        "text": "26.5 cm x 19.9 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 26.5 cm, width 19.9 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501822 (Studies of The Virgin and Child with Saint Anne and Saint John the Baptist), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501822"
+        }
+      ]
+    },
+    {
+      "id": "api2348",
+      "about": "depicts",
+      "value": {
+        "text": "sacra conversazione"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: sacra conversazione. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131501822 (Studies of The Virgin and Child with Saint Anne and Saint John the Baptist), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131501822"
+        }
+      ]
     }
+  ],
+  "identifiers": {
+    "wikidata": [
+      "Q136389484",
+      "Q139567628",
+      "Q131501822"
+    ],
+    "inventory": [
+      "1875,0612.17 recto",
+      "1875,0612.17 verso",
+      "1875,0612.17"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_1875%2C0612.17%2C_Studies_for_the_Virgin_and_Child_with_St_Anne_and_the_infant_Baptist%2C_and_some_studies_of_machinery.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_1875%2C0612.17%2C_Studies_for_the_Virgin_and_Child_with_St_Anne_and_the_infant_Baptist%2C_and_some_studies_of_machinery.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/1875%2C0612.17v_(cropped).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1875%2C0612.17v_(cropped).jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_vinci%2C_Study_for_the_Burlington_House_Cartoon.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci%2C_Study_for_the_Burlington_House_Cartoon.jpg"
+    }
+  ],
+  "variants": [
+    "Study for the Virgin and Child with Saint Anne",
+    "Study for the Virgin and Child with St Anne",
+    "Studi per la Vergine e il Bambino con Sant'Anna e San Giovanni Battista",
+    "Études pour La Vierge, l'Enfant Jésus et sainte Anne"
   ]
 }

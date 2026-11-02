@@ -1,0 +1,143 @@
+{
+  "id": "w-virgin-s-right-912532",
+  "type": "work",
+  "label": "Study for the Virgin's Right Arm",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q106466213 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q106466213",
+    "rcin": "912532",
+    "inventory": "RCIN 912532"
+  },
+  "variants": [
+    "Studio per il braccio destro della Vergine",
+    "Étude pour le bras droit de la Vierge",
+    "The drapery of the Madonna's arm",
+    "Study for the Right Arm of the Virgin",
+    "Study for the Drapery of the Virgin's Right Arm"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_The_drapery_of_the_Madonna's_arm%2C_c.1510-15.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_The_drapery_of_the_Madonna's_arm%2C_c.1510-15.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2154",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q106466213 (Study for the Virgin's Right Arm), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q106466213"
+        }
+      ]
+    },
+    {
+      "id": "api2155",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912532"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912532 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q106466213 (Study for the Virgin's Right Arm), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q106466213"
+        }
+      ]
+    },
+    {
+      "id": "api2156",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912532 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912532 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q106466213 (Study for the Virgin's Right Arm), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q106466213"
+        }
+      ]
+    },
+    {
+      "id": "api2157",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q106466213 (Study for the Virgin's Right Arm), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q106466213"
+        }
+      ]
+    },
+    {
+      "id": "api2158",
+      "about": "dimensions",
+      "value": {
+        "text": "? x 8.6 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height not given, width 8.6 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q106466213 (Study for the Virgin's Right Arm), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q106466213"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Study_for_the_Virgin's_Right_Arm",
+      "text": "The Study for the Virgin's Right Arm is a drawing by the Florentine painter Leonardo da Vinci that is kept at Windsor Castle in the United Kingdom. It is drawn in charcoal or black stone, grey chalk, ink, and white gouache highlights on red-tinted paper.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89tude_pour_le_bras_droit_de_la_Vierge",
+      "text": "Étude pour le bras droit de la Vierge est un dessin réalisé par le peintre florentin Léonard de Vinci et conservé au château de Windsor au Royaume-Uni. Il est exécuté au fusain ou à la pierre noire, à la craie grise, à l'encre, avec des rehauts de gouache blanche, sur papier teinté de rouge.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

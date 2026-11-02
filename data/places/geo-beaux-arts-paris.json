@@ -1,0 +1,20 @@
+{
+  "id": "geo-beaux-arts-paris",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Beaux-Arts de Paris",
+  "identifiers": {
+    "wikidata": "Q273593"
+  },
+  "within": "geo-paris",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-paris"
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Stub created on 2026-11-02 for works imported from Wikidata held here. Needs coordinates and sources."
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "w-notes-proportions-919136",
+  "type": "work",
+  "label": "Notes of the Proportions of the Arm, Torso and Leg",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136389671 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389671",
+      "Q136389674"
+    ],
+    "rcin": "919136",
+    "inventory": [
+      "RCIN 919136 recto, 919139 recto",
+      "RCIN 919136 verso, 919139 verso"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919136%2C_Recto_Studies_of_human_proportion.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919136%2C_Recto_Studies_of_human_proportion.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919136%2C_Verso_The_proportions_of_the_leg_and_foot_c.1490.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919136%2C_Verso_The_proportions_of_the_leg_and_foot_c.1490.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api862",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389671 (Notes of the Proportions of the Arm, Torso and Leg), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389671"
+        }
+      ]
+    },
+    {
+      "id": "api863",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919136 recto, 919139 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919136 recto, 919139 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389671 (Notes of the Proportions of the Arm, Torso and Leg), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389671"
+        }
+      ]
+    },
+    {
+      "id": "api864",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389671 (Notes of the Proportions of the Arm, Torso and Leg), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389671"
+        }
+      ]
+    },
+    {
+      "id": "api871",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389674 (Notes on the Proportions of the Leg), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389674"
+        }
+      ]
+    },
+    {
+      "id": "api872",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919136 verso, 919139 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919136 verso, 919139 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389674 (Notes on the Proportions of the Leg), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389674"
+        }
+      ]
+    },
+    {
+      "id": "api873",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389674 (Notes on the Proportions of the Leg), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389674"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

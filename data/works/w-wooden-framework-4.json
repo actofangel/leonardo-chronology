@@ -1,0 +1,82 @@
+{
+  "id": "w-wooden-framework-4",
+  "type": "work",
+  "label": "Sketch of a Wooden Framework for Transporting and Lowering the Mould",
+  "subtype": "sketch",
+  "classification": {
+    "form": "sketch",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q139567629 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567629",
+    "inventory": "Codex Madrid II (MS 8936), fol. 154r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Madrid_II%2C_folio_154_recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codex_Madrid_II%2C_folio_154_recto.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1676",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567629 (Sketch of a Wooden Framework for Transporting and Lowering the Mould), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567629"
+        }
+      ]
+    },
+    {
+      "id": "api1677",
+      "about": "inventory",
+      "value": {
+        "text": "Codex Madrid II (MS 8936), fol. 154r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Codex Madrid II (MS 8936), fol. 154r in Biblioteca Nacional de España, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567629 (Sketch of a Wooden Framework for Transporting and Lowering the Mould), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567629"
+        }
+      ]
+    },
+    {
+      "id": "api1678",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Nacional de España"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Nacional de España, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567629 (Sketch of a Wooden Framework for Transporting and Lowering the Mould), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567629"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-nacional-madrid"
+    }
+  ],
+  "current_location": "geo-biblioteca-nacional-madrid"
+}

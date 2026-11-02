@@ -1,0 +1,82 @@
+{
+  "id": "w-design-catapult-2",
+  "type": "work",
+  "label": "Design for a Catapult",
+  "subtype": "technical_drawing",
+  "classification": {
+    "form": "technical_drawing",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q139567173 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567173",
+    "inventory": "fol. 182a-r/64v-a"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Atlanticus_-_000R-182a.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codex_Atlanticus_-_000R-182a.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1970",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567173 (Design for a Catapult), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567173"
+        }
+      ]
+    },
+    {
+      "id": "api1971",
+      "about": "inventory",
+      "value": {
+        "text": "fol. 182a-r/64v-a"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number fol. 182a-r/64v-a in Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567173 (Design for a Catapult), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567173"
+        }
+      ]
+    },
+    {
+      "id": "api1972",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567173 (Design for a Catapult), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567173"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "current_location": "geo-ambrosiana"
+}

@@ -122,6 +122,132 @@
       "alternative_to": [
         "c3"
       ]
+    },
+    {
+      "id": "api132",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389527 (Study for the Trivulzio Monument), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389527"
+        }
+      ]
+    },
+    {
+      "id": "api133",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912356 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912356 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389527 (Study for the Trivulzio Monument), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389527"
+        }
+      ]
+    },
+    {
+      "id": "api134",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389527 (Study for the Trivulzio Monument), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389527"
+        }
+      ]
+    },
+    {
+      "id": "api147",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389528 (Study for the Trivulzio Monument), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389528"
+        }
+      ]
+    },
+    {
+      "id": "api148",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912356 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912356 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389528 (Study for the Trivulzio Monument), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389528"
+        }
+      ]
+    },
+    {
+      "id": "api149",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389528 (Study for the Trivulzio Monument), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389528"
+        }
+      ]
     }
-  ]
+  ],
+  "identifiers": {
+    "wikidata": [
+      "Q136389527",
+      "Q136389528"
+    ],
+    "rcin": "912356",
+    "inventory": [
+      "RCIN 912356 recto",
+      "RCIN 912356 verso"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912356%2C_Recto_A_study_for_the_Trivulzio_monument_Recto_c.1510-12_and_c.1517-18.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912356%2C_Recto_A_study_for_the_Trivulzio_monument_Recto_c.1510-12_and_c.1517-18.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912356%2C_Verso_A_study_for_an_equestrian_monument_Verso_c.1517-18.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912356%2C_Verso_A_study_for_an_equestrian_monument_Verso_c.1517-18.jpg"
+    }
+  ],
+  "variants": []
 }

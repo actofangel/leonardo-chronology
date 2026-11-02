@@ -1,0 +1,89 @@
+{
+  "id": "w-leonardo-s-horse",
+  "type": "work",
+  "label": "Leonardo's horse",
+  "subtype": "sculpture_project",
+  "classification": {
+    "form": "sculpture_project",
+    "condition": "lost",
+    "subject": [
+      "portrait",
+      "horse"
+    ],
+    "basis": "Derived automatically from Wikidata Q1334925 (instance of: proposed sculpture; material: bronze; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q1334925"
+  },
+  "variants": [
+    "Cavallo di Leonardo",
+    "Cheval de Léonard",
+    "Gran Cavallo"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_vinci%2C_Manuscript_page_on_the_Sforza_monument.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci%2C_Manuscript_page_on_the_Sforza_monument.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2605",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1334925 (Leonardo's horse), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1334925"
+        }
+      ]
+    },
+    {
+      "id": "api2606",
+      "about": "medium",
+      "value": {
+        "text": "bronze"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: bronze.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1334925 (Leonardo's horse), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1334925"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Leonardo's_horse",
+      "text": "Leonardo's Horse is a project for a bronze sculpture that was commissioned from Leonardo da Vinci in 1482 by the Duke of Milan Ludovico il Moro, but never completed. It was intended to be the largest equestrian statue in the world, a monument to the duke's father Francesco Sforza. Leonardo did extensive preparatory work for it but produced only a large clay model, which was later destroyed.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Cavallo_di_Leonardo",
+      "text": "Il Cavallo di Leonardo è parte di un monumento equestre a Francesco Sforza, progettato da Leonardo da Vinci dal 1482 al 1493, per essere fuso in bronzo, del quale riuscì a portare a termine solo un modello in creta, perduto. I disegni dei cavalli di Leonardo sono ora custoditi nel Castello di Windsor.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Cheval_de_L%C3%A9onard",
+      "text": "Le Cheval de Léonard est un monument commandé par le duc de Milan Ludovic Sforza à Léonard de Vinci. Il réussit à terminer uniquement un modèle en argile. En s'inspirant de ce projet, deux reproductions ont été créées à partir des années 1970.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "id": "w-virgin-child-6",
+  "type": "work",
+  "label": "Sketch of a Virgin and Child with a Bowl of Fruit",
+  "subtype": "sketch",
+  "classification": {
+    "form": "sketch",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q131613984 (instance of: drawing; material: paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q131613984",
+    "louvre_ark": "cl020112053",
+    "inventory": "RF 486, Recto"
+  },
+  "variants": [
+    "Madonna e il Bambino con una ciotola di frutta, detta \"Vergine con la frutta\"",
+    "Vierge à l'Enfant, dite 'Vierge aux fruits'",
+    "Virgin and Child"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Vierge_%C3%A0_l'Enfant%2C_dite_'Vierge_aux_fruits'%2C_RF_486%2C_Recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Vierge_%C3%A0_l'Enfant%2C_dite_'Vierge_aux_fruits'%2C_RF_486%2C_Recto.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/11/20/53/00/AGO112053-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020112053"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2902",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613984 (Sketch of a Virgin and Child with a Bowl of Fruit), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613984"
+        }
+      ]
+    },
+    {
+      "id": "api2903",
+      "about": "date",
+      "value": {
+        "text": "1478 to 1480",
+        "start": 1478,
+        "end": 1480
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1478 to 1480.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613984 (Sketch of a Virgin and Child with a Bowl of Fruit), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613984"
+        }
+      ]
+    },
+    {
+      "id": "api2904",
+      "about": "inventory",
+      "value": {
+        "text": "RF 486, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RF 486, Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613984 (Sketch of a Virgin and Child with a Bowl of Fruit), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613984"
+        }
+      ]
+    },
+    {
+      "id": "api2905",
+      "about": "inventory",
+      "value": {
+        "text": "Inv. 486"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Inv. 486 in Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613984 (Sketch of a Virgin and Child with a Bowl of Fruit), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613984"
+        }
+      ]
+    },
+    {
+      "id": "api2906",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613984 (Sketch of a Virgin and Child with a Bowl of Fruit), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613984"
+        }
+      ]
+    },
+    {
+      "id": "api2907",
+      "about": "current_location",
+      "value": {
+        "text": "Cabinet des dessins"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613984 (Sketch of a Virgin and Child with a Bowl of Fruit), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613984"
+        }
+      ]
+    },
+    {
+      "id": "api2908",
+      "about": "medium",
+      "value": {
+        "text": "paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613984 (Sketch of a Virgin and Child with a Bowl of Fruit), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613984"
+        }
+      ]
+    },
+    {
+      "id": "api2909",
+      "about": "dimensions",
+      "value": {
+        "text": "0.355 metre x 0.253 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.355 metre, width 0.253 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613984 (Sketch of a Virgin and Child with a Bowl of Fruit), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613984"
+        }
+      ]
+    },
+    {
+      "id": "api2910",
+      "about": "depicts",
+      "value": {
+        "text": "Madonna and Child; Mary; Jesus Christ"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Madonna and Child; Mary; Jesus Christ. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613984 (Sketch of a Virgin and Child with a Bowl of Fruit), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613984"
+        }
+      ]
+    },
+    {
+      "id": "api2911",
+      "about": "inventory",
+      "value": {
+        "text": "RF 486, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number RF 486, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112053 (Vierge à l'Enfant, dite 'Vierge aux fruits'), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112053"
+        }
+      ]
+    },
+    {
+      "id": "api2912",
+      "about": "inventory_history",
+      "value": {
+        "text": "Anciens numéros d'inventaire: HDLS 69; Référence de l'inventaire manuscrit: vol.19, p.44"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Anciens numéros d'inventaire: HDLS 69; Référence de l'inventaire manuscrit: vol.19, p.44.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112053 (Vierge à l'Enfant, dite 'Vierge aux fruits'), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112053"
+        }
+      ]
+    },
+    {
+      "id": "api2913",
+      "about": "date",
+      "value": {
+        "text": "Vers 1478/1480",
+        "start": 1478,
+        "end": 1480
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: Vers 1478/1480.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112053 (Vierge à l'Enfant, dite 'Vierge aux fruits'), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112053"
+        }
+      ]
+    },
+    {
+      "id": "api2914",
+      "about": "medium",
+      "value": {
+        "text": "Plume et encre brune, lavis brun sur traits au stylet et à la pointe de métal (plomb ?). Feuille endommagée par l'emploi d'une encre métallogallique dont le tanin a dévoré la fibre. La réflectographie infrarouge montre que les contours du corps de l'Enfant sont parsemés d'une série de points de spolvero, procédé rare pour passer de dessin à dessin. Les points de spolvero sont abondants en partie basse de l'Enfant et le long de son bras gauche, ils sont plus rares autour de la tête et totalement absents le long du bras droit et autour de la Vierge. Léonard a ensuite commencé à esquisser son projet à la pointe de plomb (nombreuses incisions et intensification des restes de poudre de plomb en réflectographie infrarouge) en étudiant plusieurs projets d'orientation de la tête de l'Enfant et de la position du bras droit. Puis il a repris les contours les plus intéressants à la plume et a ensuite repris la partie basse du corps de l'Enfant en multipliant les projets de placement des jambes."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Plume et encre brune, lavis brun sur traits au stylet et à la pointe de métal (plomb ?). Feuille endommagée par l'emploi d'une encre métallogallique dont le tanin a dévoré la fibre. La réflectographie infrarouge montre que les contours du corps de l'Enfant sont parsemés d'une série de points de spolvero, procédé rare pour passer de dessin à dessin. Les points de spolvero sont abondants en partie basse de l'Enfant et le long de son bras gauche, ils sont plus rares autour de la tête et totalement absents le long du bras droit et autour de la Vierge. Léonard a ensuite commencé à esquisser son projet à la pointe de plomb (nombreuses incisions et intensification des restes de poudre de plomb en réflectographie infrarouge) en étudiant plusieurs projets d'orientation de la tête de l'Enfant et de la position du bras droit. Puis il a repris les contours les plus intéressants à la plume et a ensuite repris la partie basse du corps de l'Enfant en multipliant les projets de placement des jambes.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112053 (Vierge à l'Enfant, dite 'Vierge aux fruits'), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112053"
+        }
+      ]
+    },
+    {
+      "id": "api2915",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.355 m (à la feuille); Largeur 0.253 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.355 m (à la feuille); Largeur 0.253 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112053 (Vierge à l'Enfant, dite 'Vierge aux fruits'), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112053"
+        }
+      ]
+    },
+    {
+      "id": "api2916",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; Santi, Raffaello, dit Raphaël [ancienne attribution]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; Santi, Raffaello, dit Raphaël [ancienne attribution].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112053 (Vierge à l'Enfant, dite 'Vierge aux fruits'), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112053"
+        }
+      ]
+    },
+    {
+      "id": "api2917",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112053 (Vierge à l'Enfant, dite 'Vierge aux fruits'), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112053"
+        }
+      ]
+    },
+    {
+      "id": "api2918",
+      "about": "provenance",
+      "value": {
+        "text": "A.-Ch.-H. His de la Salle (L. 1333) ; Etat des dessins... His de la Salle.n° 69 (Raphael) - legs en 1878 ; marque du Louvre (L. 1886a)."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: A.-Ch.-H. His de la Salle (L. 1333) ; Etat des dessins... His de la Salle.n° 69 (Raphael) - legs en 1878 ; marque du Louvre (L. 1886a).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112053 (Vierge à l'Enfant, dite 'Vierge aux fruits'), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112053"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

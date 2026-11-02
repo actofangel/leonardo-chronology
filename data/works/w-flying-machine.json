@@ -1,0 +1,86 @@
+{
+  "id": "w-flying-machine",
+  "type": "work",
+  "label": "Studies for a Flying Machine",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "mechanics",
+      "flight"
+    ],
+    "basis": "Derived automatically from Wikidata Q136390184 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390184",
+    "inventory": "74v"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_19-540154.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_19-540154.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1243",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390184 (Studies for a Flying Machine), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390184"
+        }
+      ]
+    },
+    {
+      "id": "api1244",
+      "about": "inventory",
+      "value": {
+        "text": "74v"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 74v in Bibliothèque de l'Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390184 (Studies for a Flying Machine), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390184"
+        }
+      ]
+    },
+    {
+      "id": "api1245",
+      "about": "current_location",
+      "value": {
+        "text": "Bibliothèque de l'Institut de France"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Bibliothèque de l'Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390184 (Studies for a Flying Machine), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390184"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-institut-de-france"
+    }
+  ],
+  "current_location": "geo-institut-de-france"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "w-wing-construction",
+  "type": "work",
+  "label": "Sketches of Wing Construction",
+  "subtype": "sketch",
+  "classification": {
+    "form": "sketch",
+    "condition": "extant",
+    "subject": [
+      "flight"
+    ],
+    "basis": "Derived automatically from Wikidata Q136390212 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390212",
+    "inventory": "11r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codice_Volo_11R_mod.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codice_Volo_11R_mod.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1303",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390212 (Sketches of Wing Construction), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390212"
+        }
+      ]
+    },
+    {
+      "id": "api1304",
+      "about": "inventory",
+      "value": {
+        "text": "11r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 11r in Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390212 (Sketches of Wing Construction), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390212"
+        }
+      ]
+    },
+    {
+      "id": "api1305",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Library of Turin"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390212 (Sketches of Wing Construction), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390212"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-reale-turin"
+    }
+  ],
+  "current_location": "geo-biblioteca-reale-turin"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "w-file-cutting-machine",
+  "type": "work",
+  "label": "Sketch of a File-cutting Machine (first draft)",
+  "subtype": "sketch",
+  "classification": {
+    "form": "sketch",
+    "condition": "extant",
+    "subject": [
+      "mechanics"
+    ],
+    "basis": "Derived automatically from Wikidata Q139567155 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567155",
+    "inventory": "fol. 1022v/366v-c"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/000V-1022.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:000V-1022.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1904",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567155 (Sketch of a File-cutting Machine (first draft)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567155"
+        }
+      ]
+    },
+    {
+      "id": "api1905",
+      "about": "inventory",
+      "value": {
+        "text": "fol. 1022v/366v-c"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number fol. 1022v/366v-c in Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567155 (Sketch of a File-cutting Machine (first draft)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567155"
+        }
+      ]
+    },
+    {
+      "id": "api1906",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567155 (Sketch of a File-cutting Machine (first draft)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567155"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "current_location": "geo-ambrosiana"
+}

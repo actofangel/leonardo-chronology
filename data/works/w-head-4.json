@@ -1,0 +1,314 @@
+{
+  "id": "w-head-4",
+  "type": "work",
+  "label": "Study of the Head of a Woman",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "metalpoint"
+    ],
+    "condition": "extant",
+    "subject": [
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q97171787 (instance of: drawing; material: silverpoint; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q97171787",
+    "louvre_ark": "cl020003165",
+    "inventory": "INV 2376, Recto"
+  },
+  "variants": [
+    "Tête de jeune femme",
+    "Tête de femme presque de profil"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_study_of_a_woman's_head.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_study_of_a_woman's_head.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/00/31/65/00/AGO003165-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020003165"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2882",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q97171787 (Study of the Head of a Woman), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q97171787"
+        }
+      ]
+    },
+    {
+      "id": "api2883",
+      "about": "date",
+      "value": {
+        "text": "c.1490",
+        "start": 1490
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1490.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q97171787 (Study of the Head of a Woman), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q97171787"
+        }
+      ]
+    },
+    {
+      "id": "api2884",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2376, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number INV 2376, Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q97171787 (Study of the Head of a Woman), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q97171787"
+        }
+      ]
+    },
+    {
+      "id": "api2885",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q97171787 (Study of the Head of a Woman), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q97171787"
+        }
+      ]
+    },
+    {
+      "id": "api2886",
+      "about": "current_location",
+      "value": {
+        "text": "Cabinet des dessins"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q97171787 (Study of the Head of a Woman), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q97171787"
+        }
+      ]
+    },
+    {
+      "id": "api2887",
+      "about": "medium",
+      "value": {
+        "text": "silverpoint"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: silverpoint.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q97171787 (Study of the Head of a Woman), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q97171787"
+        }
+      ]
+    },
+    {
+      "id": "api2888",
+      "about": "dimensions",
+      "value": {
+        "text": "0.179 metre x 0.168 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.179 metre, width 0.168 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q97171787 (Study of the Head of a Woman), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q97171787"
+        }
+      ]
+    },
+    {
+      "id": "api2889",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2376, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number INV 2376, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003165 (Tête de femme presque de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003165"
+        }
+      ]
+    },
+    {
+      "id": "api2890",
+      "about": "inventory_history",
+      "value": {
+        "text": "Anciens numéros d'inventaire: MI 301; Référence de l'inventaire manuscrit: vol.1, p.399"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Anciens numéros d'inventaire: MI 301; Référence de l'inventaire manuscrit: vol.1, p.399.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003165 (Tête de femme presque de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003165"
+        }
+      ]
+    },
+    {
+      "id": "api2891",
+      "about": "date",
+      "value": {
+        "text": "Vers 1488/1490",
+        "start": 1488,
+        "end": 1490
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: Vers 1488/1490.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003165 (Tête de femme presque de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003165"
+        }
+      ]
+    },
+    {
+      "id": "api2892",
+      "about": "medium",
+      "value": {
+        "text": "Pointe métallique, pointe d'argent sur papier préparé gris clair, rehauts de blanc. Préparation composée d'un mélange de blanc d'os et de blanc de plomb. A la pointe d'argent, Léonard a d'abord esquissé les contours de son modèle, avec quelques hésitations dont témoignent les traits erratiques sur le front et le long du menton, puis il a procédé à une stabilisation des contours, du détail de la chevelure et des traits du visage, avant de passer à la réalisation du modelé , au moyen de hachures subtilement espacées, tracées à la manière d'un gaucher. Des hachures au pinceau et au blanc de plomb positionnent quelques lumières sur l'arrête du nez, les paupières, le front, les pommettes et le menton : presque invisibles à l'oeil nu, elles sont mises en évidence sous fluorescence d'ultraviolets. Puis il a repris les contours et les traits du visage avec une pointe métallique plus épaisse et d'un alliage différent, de couleur rougeâtre. Restauré en 2003"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Pointe métallique, pointe d'argent sur papier préparé gris clair, rehauts de blanc. Préparation composée d'un mélange de blanc d'os et de blanc de plomb. A la pointe d'argent, Léonard a d'abord esquissé les contours de son modèle, avec quelques hésitations dont témoignent les traits erratiques sur le front et le long du menton, puis il a procédé à une stabilisation des contours, du détail de la chevelure et des traits du visage, avant de passer à la réalisation du modelé , au moyen de hachures subtilement espacées, tracées à la manière d'un gaucher. Des hachures au pinceau et au blanc de plomb positionnent quelques lumières sur l'arrête du nez, les paupières, le front, les pommettes et le menton : presque invisibles à l'oeil nu, elles sont mises en évidence sous fluorescence d'ultraviolets. Puis il a repris les contours et les traits du visage avec une pointe métallique plus épaisse et d'un alliage différent, de couleur rougeâtre. Restauré en 2003",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003165 (Tête de femme presque de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003165"
+        }
+      ]
+    },
+    {
+      "id": "api2893",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.179 m (à la feuille); Largeur 0.168 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.179 m (à la feuille); Largeur 0.168 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003165 (Tête de femme presque de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003165"
+        }
+      ]
+    },
+    {
+      "id": "api2894",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [proposition d'attribution]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [proposition d'attribution].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003165 (Tête de femme presque de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003165"
+        }
+      ]
+    },
+    {
+      "id": "api2895",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003165 (Tête de femme presque de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003165"
+        }
+      ]
+    },
+    {
+      "id": "api2896",
+      "about": "provenance",
+      "value": {
+        "text": "G. Vallardi (L. 1223, en vert au verso) ; Vallardi, 1855, p.35-36 f° 170 (Léonard de Vinci) ; acquis en 1856, marque du Louvre (L. 1886a)."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: G. Vallardi (L. 1223, en vert au verso) ; Vallardi, 1855, p.35-36 f° 170 (Léonard de Vinci) ; acquis en 1856, marque du Louvre (L. 1886a).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003165 (Tête de femme presque de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003165"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/T%C3%AAte_de_jeune_femme_(L%C3%A9onard_de_Vinci%2C_mus%C3%A9e_du_Louvre)",
+      "text": "La Tête de jeune femme est un dessin réalisé vers 1490 à la pointe d'argent sur papier par Léonard de Vinci et conservé au département des arts graphiques du musée du Louvre à Paris.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "w-head-bear",
+  "type": "work",
+  "label": "Head of a Bear",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "technique": [
+      "metalpoint"
+    ],
+    "support": "prepared_paper",
+    "condition": "lost",
+    "subject": [
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q107460193 (instance of: drawing; material: silverpoint; prepared paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q107460193"
+  },
+  "variants": [
+    "Testa d'orso",
+    "Drawing of the Head of a Bear"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Da_Vinci_-_Head_of_a_Bear.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Da_Vinci_-_Head_of_a_Bear.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2165",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q107460193 (Head of a Bear), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q107460193"
+        }
+      ]
+    },
+    {
+      "id": "api2166",
+      "about": "date",
+      "value": {
+        "text": "1480s",
+        "start": 1480
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1480s.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q107460193 (Head of a Bear), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q107460193"
+        }
+      ]
+    },
+    {
+      "id": "api2167",
+      "about": "medium",
+      "value": {
+        "text": "silverpoint; prepared paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: silverpoint; prepared paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q107460193 (Head of a Bear), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q107460193"
+        }
+      ]
+    },
+    {
+      "id": "api2168",
+      "about": "dimensions",
+      "value": {
+        "text": "7 cm x 7 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 7 cm, width 7 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q107460193 (Head of a Bear), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q107460193"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Head_of_a_Bear",
+      "text": "Head of a Bear is a drawing study made by Leonardo da Vinci circa 1480. It is small in scale, measuring only 7 by 7 centimetres, and is rendered in silverpoint pencil. It is thought to be part of a study of animals that Leonardo made in this period. The artist may have drawn upon this study when painting the head of the animal in his Lady with an Ermine of 1489, 1490. The drawing was owned by the British painter Sir Thomas Lawrence in the 18th century and by the art collector Norman Colville in the early 20th century. The American billionaire Thomas Kaplan purchased the drawing in 2008. It sold in 2021 for a total of £8.8 million, a record for a drawing by Leonardo.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

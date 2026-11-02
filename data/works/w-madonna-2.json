@@ -1,0 +1,85 @@
+{
+  "id": "w-madonna-2",
+  "type": "work",
+  "label": "Study for a Madonna with a Cat",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389559 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389559",
+    "inventory": "Inv. 1856-6-21-1r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_1856%2C0621.1%2C_The_Virgin_and_Christ_Child_with_a_cat_(cropped).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_1856%2C0621.1%2C_The_Virgin_and_Christ_Child_with_a_cat_(cropped).jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api216",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389559 (Study for a Madonna with a Cat), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389559"
+        }
+      ]
+    },
+    {
+      "id": "api217",
+      "about": "inventory",
+      "value": {
+        "text": "Inv. 1856-6-21-1r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Inv. 1856-6-21-1r in British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389559 (Study for a Madonna with a Cat), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389559"
+        }
+      ]
+    },
+    {
+      "id": "api218",
+      "about": "current_location",
+      "value": {
+        "text": "British Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389559 (Study for a Madonna with a Cat), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389559"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-british-museum"
+    }
+  ],
+  "current_location": "geo-british-museum"
+}

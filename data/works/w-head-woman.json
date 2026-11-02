@@ -1,0 +1,187 @@
+{
+  "id": "w-head-woman",
+  "type": "work",
+  "label": "Head of a Woman",
+  "subtype": "sketch",
+  "classification": {
+    "form": "sketch",
+    "technique": [
+      "oil",
+      "white_heightening"
+    ],
+    "support": "panel",
+    "condition": "extant",
+    "subject": [
+      "portrait",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q797902 (instance of: painting; sketch; material: oil paint; panel; umber; amber; white lead; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q797902",
+    "inventory": "362"
+  },
+  "variants": [
+    "La Scapigliata",
+    "Head of a Young Woman, called \"Scapiliata\""
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Lascapigliata.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Lascapigliata.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2576",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q797902 (Head of a Woman), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q797902"
+        }
+      ]
+    },
+    {
+      "id": "api2577",
+      "about": "date",
+      "value": {
+        "text": "1500s",
+        "start": 1500
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1500s.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q797902 (Head of a Woman), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q797902"
+        }
+      ]
+    },
+    {
+      "id": "api2578",
+      "about": "inventory",
+      "value": {
+        "text": "362"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 362 in Galleria nazionale di Parma, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q797902 (Head of a Woman), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q797902"
+        }
+      ]
+    },
+    {
+      "id": "api2579",
+      "about": "current_location",
+      "value": {
+        "text": "Galleria nazionale di Parma"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Galleria nazionale di Parma, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q797902 (Head of a Woman), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q797902"
+        }
+      ]
+    },
+    {
+      "id": "api2580",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel; umber; amber; white lead"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel; umber; amber; white lead.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q797902 (Head of a Woman), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q797902"
+        }
+      ]
+    },
+    {
+      "id": "api2581",
+      "about": "dimensions",
+      "value": {
+        "text": "24.6 cm x 21 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 24.6 cm, width 21 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q797902 (Head of a Woman), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q797902"
+        }
+      ]
+    },
+    {
+      "id": "api2582",
+      "about": "depicts",
+      "value": {
+        "text": "woman; face; waist-length hair; smile"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: woman; face; waist-length hair; smile. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q797902 (Head of a Woman), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q797902"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/La_Scapigliata",
+      "text": "La Scapigliata is an unfinished painting generally attributed to the Italian High Renaissance artist Leonardo da Vinci, and dated c. 1506, 1508. Painted in oil, umber, and white lead pigments on a small poplar wood panel, its attribution remains controversial, with several experts attributing the work to a pupil of Leonardo. The painting has been admired for its captivating beauty, mysterious demeanor, and mastery of sfumato.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/La_Scapigliata",
+      "text": "La Testa di fanciulla è un dipinto a terra ombra, ambra inverdita e biacca su tavola di Leonardo da Vinci, databile al 1508 circa e conservato nella Galleria nazionale di Parma.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/La_Scapigliata",
+      "text": "La Scapigliata ou, selon l'orthographe italienne médiévale, La Scapiliata ou Tête de jeune fille, est une peinture sur bois attribuée à Léonard de Vinci ou à l'un de ses élèves, un travail probablement exécuté entre 1506 et 1508 et conservé à la galerie nationale de Parme en Italie.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-galleria-nazionale-parma"
+    }
+  ],
+  "current_location": "geo-galleria-nazionale-parma"
+}

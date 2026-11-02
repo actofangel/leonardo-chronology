@@ -1,0 +1,285 @@
+{
+  "id": "w-drapery-kneeling-figure-2",
+  "type": "work",
+  "label": "Drapery Study for a Kneeling Figure in Profile to the Right",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389605 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389605",
+    "louvre_ark": "cl020231761",
+    "inventory": "RF 41904, Recto"
+  },
+  "variants": [
+    "Draperie pour une figure agenouillée, de profil"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Draperie_pour_une_figure_agenouill%C3%A9e%2C_RF_41904%2C_Recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Draperie_pour_une_figure_agenouill%C3%A9e%2C_RF_41904%2C_Recto.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/23/17/61/00/AGO231761-000_PE.jpg",
+      "credit": "Musée du Louvre, dist. GrandPalaisRmn / Laurent Chastel",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020231761"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api691",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389605 (Drapery Study for a Kneeling Figure in Profile to the Right), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389605"
+        }
+      ]
+    },
+    {
+      "id": "api692",
+      "about": "date",
+      "value": {
+        "text": "1470 to 1479",
+        "start": 1470,
+        "end": 1479
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1470 to 1479.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389605 (Drapery Study for a Kneeling Figure in Profile to the Right), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389605"
+        }
+      ]
+    },
+    {
+      "id": "api693",
+      "about": "inventory",
+      "value": {
+        "text": "RF 41904, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RF 41904, Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389605 (Drapery Study for a Kneeling Figure in Profile to the Right), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389605"
+        }
+      ]
+    },
+    {
+      "id": "api694",
+      "about": "current_location",
+      "value": {
+        "text": "Cabinet des dessins"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389605 (Drapery Study for a Kneeling Figure in Profile to the Right), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389605"
+        }
+      ]
+    },
+    {
+      "id": "api695",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389605 (Drapery Study for a Kneeling Figure in Profile to the Right), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389605"
+        }
+      ]
+    },
+    {
+      "id": "api696",
+      "about": "dimensions",
+      "value": {
+        "text": "0.206 metre x 0.281 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.206 metre, width 0.281 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389605 (Drapery Study for a Kneeling Figure in Profile to the Right), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389605"
+        }
+      ]
+    },
+    {
+      "id": "api697",
+      "about": "inventory",
+      "value": {
+        "text": "RF 41904, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number RF 41904, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231761 (Draperie pour une figure agenouillée, de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231761"
+        }
+      ]
+    },
+    {
+      "id": "api698",
+      "about": "inventory_history",
+      "value": {
+        "text": "Référence de l'inventaire manuscrit: vol.31, p.134"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Référence de l'inventaire manuscrit: vol.31, p.134.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231761 (Draperie pour une figure agenouillée, de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231761"
+        }
+      ]
+    },
+    {
+      "id": "api699",
+      "about": "date",
+      "value": {
+        "text": "Vers 1473/1477",
+        "start": 1470,
+        "end": 1479
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: Vers 1473/1477.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231761 (Draperie pour une figure agenouillée, de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231761"
+        }
+      ]
+    },
+    {
+      "id": "api700",
+      "about": "medium",
+      "value": {
+        "text": "Pinceau et tempera gris-brun, rehauts de tempera blanche, sur toile de lin préparée grise. Toile décatie puis couverte d'une fine couche de préparation à base de blanc de plomb mélangé à une petite quantité de pigments bruns et noirs pour une préparation grise. Ce ton gris clair a légèrement ouvert les possibilités de gradation des blancs et des gris. Perforations dans les angles supérieurs droit et gauche. Brunissement sur les bords. Dans l'angle supérieur droit, à l'encre brune, partiellement effacé, le chiffre : IIII. Doublé."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Pinceau et tempera gris-brun, rehauts de tempera blanche, sur toile de lin préparée grise. Toile décatie puis couverte d'une fine couche de préparation à base de blanc de plomb mélangé à une petite quantité de pigments bruns et noirs pour une préparation grise. Ce ton gris clair a légèrement ouvert les possibilités de gradation des blancs et des gris. Perforations dans les angles supérieurs droit et gauche. Brunissement sur les bords. Dans l'angle supérieur droit, à l'encre brune, partiellement effacé, le chiffre : IIII. Doublé.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231761 (Draperie pour une figure agenouillée, de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231761"
+        }
+      ]
+    },
+    {
+      "id": "api701",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.206 m (à la feuille); Largeur 0.281 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.206 m (à la feuille); Largeur 0.281 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231761 (Draperie pour une figure agenouillée, de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231761"
+        }
+      ]
+    },
+    {
+      "id": "api702",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; ANONYME FLORENTIN fin XVè s [ancienne attribution]; Dürer, Albrecht [ancienne attribution]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; ANONYME FLORENTIN fin XVè s [ancienne attribution]; Dürer, Albrecht [ancienne attribution].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231761 (Draperie pour une figure agenouillée, de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231761"
+        }
+      ]
+    },
+    {
+      "id": "api703",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231761 (Draperie pour une figure agenouillée, de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231761"
+        }
+      ]
+    },
+    {
+      "id": "api704",
+      "about": "provenance",
+      "value": {
+        "text": "E. Jabach ; Inventaire après décès 1695-1696, portefeuille E : '14. Estudes de draperie dalberdur sur toille collee sur papier et rehaussé de blanc en detrempe' - P. Crozat, vente, Paris 1741, sous le n° 5 (Léonard de Vinci) - Nourri, vente, Paris, 1785, n° 736 (Dürer) - P. Defer - H. Dumesnil (L. 739) ; vente Paris, 1900, n° 251 - Comtesse M. M.-P. de Béhague - Marquis H. de Ganay - Marquis J.-L. de Ganay ; acquis par le Louvre en 1989 ; marque du Louvre (L. 1886a)."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: E. Jabach ; Inventaire après décès 1695-1696, portefeuille E : '14. Estudes de draperie dalberdur sur toille collee sur papier et rehaussé de blanc en detrempe' - P. Crozat, vente, Paris 1741, sous le n° 5 (Léonard de Vinci) - Nourri, vente, Paris, 1785, n° 736 (Dürer) - P. Defer - H. Dumesnil (L. 739) ; vente Paris, 1900, n° 251 - Comtesse M. M.-P. de Béhague - Marquis H. de Ganay - Marquis J.-L. de Ganay ; acquis par le Louvre en 1989 ; marque du Louvre (L. 1886a).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231761 (Draperie pour une figure agenouillée, de profil), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231761"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

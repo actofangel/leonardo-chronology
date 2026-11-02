@@ -1,0 +1,82 @@
+{
+  "id": "w-various-opaque-bodies-their-position",
+  "type": "work",
+  "label": "Various Opaque Bodies and their Position in Relation to the Luminous ody and the Eye",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136390232 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390232",
+    "inventory": "MS C, fol. 10r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_19-547111.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_19-547111.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1398",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390232 (Various Opaque Bodies and their Position in Relation to the Luminous ody and the Eye), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390232"
+        }
+      ]
+    },
+    {
+      "id": "api1399",
+      "about": "inventory",
+      "value": {
+        "text": "MS C, fol. 10r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number MS C, fol. 10r in Bibliothèque de l'Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390232 (Various Opaque Bodies and their Position in Relation to the Luminous ody and the Eye), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390232"
+        }
+      ]
+    },
+    {
+      "id": "api1400",
+      "about": "current_location",
+      "value": {
+        "text": "Bibliothèque de l'Institut de France"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Bibliothèque de l'Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390232 (Various Opaque Bodies and their Position in Relation to the Luminous ody and the Eye), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390232"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-institut-de-france"
+    }
+  ],
+  "current_location": "geo-institut-de-france"
+}

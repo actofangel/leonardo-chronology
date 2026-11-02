@@ -71,9 +71,75 @@
       "check_in": [
         "Clark and Pedretti 1968"
       ]
+    },
+    {
+      "id": "api1132",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390065 (Bird's-eye View of the Region around Arezzo), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390065"
+        }
+      ]
+    },
+    {
+      "id": "api1133",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912682 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912682 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390065 (Bird's-eye View of the Region around Arezzo), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390065"
+        }
+      ]
+    },
+    {
+      "id": "api1134",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390065 (Bird's-eye View of the Region around Arezzo), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390065"
+        }
+      ]
     }
   ],
   "open_questions": [
     "Medium and dimensions to locate on the RCT record."
+  ],
+  "identifiers": {
+    "wikidata": "Q136390065",
+    "rcin": "912682",
+    "inventory": "RCIN 912682 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912682%2C_A_bird's_eye_view_of_the_Valdichiana_c.1503-6.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912682%2C_A_bird's_eye_view_of_the_Valdichiana_c.1503-6.jpg"
+    }
+  ],
+  "variants": [
+    "Bird's-eye View of the Region around Arezzo"
   ]
 }

@@ -1,0 +1,86 @@
+{
+  "id": "w-military-machine-catapult-stones-2",
+  "type": "work",
+  "label": "Military Machine to Catapult Stones",
+  "subtype": "technical_drawing",
+  "classification": {
+    "form": "technical_drawing",
+    "condition": "extant",
+    "subject": [
+      "mechanics",
+      "military"
+    ],
+    "basis": "Derived automatically from Wikidata Q139567171 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567171",
+    "inventory": "fol. 166b-r/57v-b"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Atlanticus_-_000R-160b.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codex_Atlanticus_-_000R-160b.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1952",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567171 (Military Machine to Catapult Stones), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567171"
+        }
+      ]
+    },
+    {
+      "id": "api1953",
+      "about": "inventory",
+      "value": {
+        "text": "fol. 166b-r/57v-b"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number fol. 166b-r/57v-b in Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567171 (Military Machine to Catapult Stones), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567171"
+        }
+      ]
+    },
+    {
+      "id": "api1954",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567171 (Military Machine to Catapult Stones), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567171"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "current_location": "geo-ambrosiana"
+}

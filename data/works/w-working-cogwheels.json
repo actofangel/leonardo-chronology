@@ -1,0 +1,139 @@
+{
+  "id": "w-working-cogwheels",
+  "type": "work",
+  "label": "Studies of the Working of Cogwheels",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "technique": [
+      "pen_and_ink"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q139567120 (instance of: drawing; material: ink; paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567120",
+    "inventory": "Codex Madrid I, MS 8937, fol. 7r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Madrid_I%2C_folio_007_recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codex_Madrid_I%2C_folio_007_recto.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1829",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567120 (Studies of the Working of Cogwheels), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567120"
+        }
+      ]
+    },
+    {
+      "id": "api1830",
+      "about": "date",
+      "value": {
+        "text": "1493 to 1497",
+        "start": 1493,
+        "end": 1497
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1493 to 1497.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567120 (Studies of the Working of Cogwheels), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567120"
+        }
+      ]
+    },
+    {
+      "id": "api1831",
+      "about": "inventory",
+      "value": {
+        "text": "Codex Madrid I, MS 8937, fol. 7r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Codex Madrid I, MS 8937, fol. 7r in Biblioteca Nacional de España, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567120 (Studies of the Working of Cogwheels), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567120"
+        }
+      ]
+    },
+    {
+      "id": "api1832",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Nacional de España"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Nacional de España, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567120 (Studies of the Working of Cogwheels), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567120"
+        }
+      ]
+    },
+    {
+      "id": "api1833",
+      "about": "medium",
+      "value": {
+        "text": "ink; paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: ink; paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567120 (Studies of the Working of Cogwheels), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567120"
+        }
+      ]
+    },
+    {
+      "id": "api1834",
+      "about": "dimensions",
+      "value": {
+        "text": "213 mm x 150 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 213 mm, width 150 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567120 (Studies of the Working of Cogwheels), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567120"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-nacional-madrid"
+    }
+  ],
+  "current_location": "geo-biblioteca-nacional-madrid"
+}

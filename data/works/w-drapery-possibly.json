@@ -1,0 +1,117 @@
+{
+  "id": "w-drapery-possibly",
+  "type": "work",
+  "label": "Drapery study (possibly study of the robe of Matthew the Evangelist)",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q114873240 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q114873240",
+    "inventory": "KdZ 5039"
+  },
+  "variants": [
+    "Drapery Study for a Seated Figure Seen from the Front"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ghirlandaio_-_Draperiestudie_(vielleicht_Studie_zum_Gewand_des_Evangelisten_Matth%C3%A4us)%2C_KdZ_5039%2C_um_1470-1475_(cropped).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ghirlandaio_-_Draperiestudie_(vielleicht_Studie_zum_Gewand_des_Evangelisten_Matth%C3%A4us)%2C_KdZ_5039%2C_um_1470-1475_(cropped).jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1324",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q114873240 (Drapery study (possibly study of the robe of Matthew the Evangelist)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q114873240"
+        }
+      ]
+    },
+    {
+      "id": "api1325",
+      "about": "date",
+      "value": {
+        "text": "c.1470 to 1475",
+        "start": 1470,
+        "end": 1475
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1470 to 1475.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q114873240 (Drapery study (possibly study of the robe of Matthew the Evangelist)), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q114873240"
+        }
+      ]
+    },
+    {
+      "id": "api1326",
+      "about": "inventory",
+      "value": {
+        "text": "KdZ 5039"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number KdZ 5039 in Kupferstichkabinett Berlin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q114873240 (Drapery study (possibly study of the robe of Matthew the Evangelist)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q114873240"
+        }
+      ]
+    },
+    {
+      "id": "api1327",
+      "about": "inventory",
+      "value": {
+        "text": "5039"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 5039 in Kupferstichkabinett Berlin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q114873240 (Drapery study (possibly study of the robe of Matthew the Evangelist)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q114873240"
+        }
+      ]
+    },
+    {
+      "id": "api1328",
+      "about": "current_location",
+      "value": {
+        "text": "Kupferstichkabinett Berlin"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Kupferstichkabinett Berlin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q114873240 (Drapery study (possibly study of the robe of Matthew the Evangelist)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q114873240"
+        }
+      ]
+    }
+  ]
+}

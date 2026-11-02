@@ -1,0 +1,86 @@
+{
+  "id": "w-figural-adoration-2",
+  "type": "work",
+  "label": "Figural Studies for the Adoration of the Magi and a Head in Profile",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "religious",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389475 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389475",
+    "inventory": "1886,0609.42 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_1886%2C0609.42%2C_Studies_of_six_figures_including_an_old_man_leaning_on_a_stick%2C_and_a_head_in_profile.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_1886%2C0609.42%2C_Studies_of_six_figures_including_an_old_man_leaning_on_a_stick%2C_and_a_head_in_profile.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api4",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389475 (Figural Studies for the Adoration of the Magi and a Head in Profile), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389475"
+        }
+      ]
+    },
+    {
+      "id": "api5",
+      "about": "inventory",
+      "value": {
+        "text": "1886,0609.42 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1886,0609.42 recto in British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389475 (Figural Studies for the Adoration of the Magi and a Head in Profile), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389475"
+        }
+      ]
+    },
+    {
+      "id": "api6",
+      "about": "current_location",
+      "value": {
+        "text": "British Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389475 (Figural Studies for the Adoration of the Magi and a Head in Profile), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389475"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-british-museum"
+    }
+  ],
+  "current_location": "geo-british-museum"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "w-man-blowing",
+  "type": "work",
+  "label": "Study of a Man blowing a Trumpet in another's ear, and Two Figures in Conversation",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389567 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389567",
+    "inventory": "Inv. 1895-9-15-478"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_1895%2C0915.478%2C_A_man_blowing_a_trumpet_into_the_ear_of_a_nude_man%2C_and_two_seated_men.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_1895%2C0915.478%2C_A_man_blowing_a_trumpet_into_the_ear_of_a_nude_man%2C_and_two_seated_men.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api234",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389567 (Study of a Man blowing a Trumpet in another's ear, and Two Figures in Conversation), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389567"
+        }
+      ]
+    },
+    {
+      "id": "api235",
+      "about": "inventory",
+      "value": {
+        "text": "Inv. 1895-9-15-478"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Inv. 1895-9-15-478 in British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389567 (Study of a Man blowing a Trumpet in another's ear, and Two Figures in Conversation), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389567"
+        }
+      ]
+    },
+    {
+      "id": "api236",
+      "about": "current_location",
+      "value": {
+        "text": "British Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389567 (Study of a Man blowing a Trumpet in another's ear, and Two Figures in Conversation), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389567"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-british-museum"
+    }
+  ],
+  "current_location": "geo-british-museum"
+}

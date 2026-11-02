@@ -1,0 +1,57 @@
+{
+  "id": "w-medusa",
+  "type": "work",
+  "label": "Medusa",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "condition": "lost",
+    "subject": [
+      "mythology",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q17518862 (instance of: lost painting; painting; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q17518862"
+  },
+  "variants": [
+    "Tête de Méduse"
+  ],
+  "claims": [
+    {
+      "id": "api2751",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q17518862 (Medusa), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q17518862"
+        }
+      ]
+    },
+    {
+      "id": "api2752",
+      "about": "depicts",
+      "value": {
+        "text": "human head; Medusa; shield; woman"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: human head; Medusa; shield; woman. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q17518862 (Medusa), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q17518862"
+        }
+      ]
+    }
+  ]
+}

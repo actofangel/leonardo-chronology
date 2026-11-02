@@ -92,9 +92,134 @@
       "check_in": [
         "Clark and Pedretti 1968"
       ]
+    },
+    {
+      "id": "api69",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389498 (Study of Horsemen in Combat), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389498"
+        }
+      ]
+    },
+    {
+      "id": "api70",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912326 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912326 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389498 (Study of Horsemen in Combat), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389498"
+        }
+      ]
+    },
+    {
+      "id": "api71",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389498 (Study of Horsemen in Combat), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389498"
+        }
+      ]
+    },
+    {
+      "id": "api192",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389551 (Study of a Horse's Head and Various Studies relating to the Solar System), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389551"
+        }
+      ]
+    },
+    {
+      "id": "api193",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912326 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912326 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389551 (Study of a Horse's Head and Various Studies relating to the Solar System), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389551"
+        }
+      ]
+    },
+    {
+      "id": "api194",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389551 (Study of a Horse's Head and Various Studies relating to the Solar System), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389551"
+        }
+      ]
     }
   ],
   "open_questions": [
     "RCT says RCIN 912327 was originally part of the same sheet; confirm."
+  ],
+  "identifiers": {
+    "wikidata": [
+      "Q136389498",
+      "Q136389551"
+    ],
+    "rcin": "912326",
+    "inventory": "RCIN 912326 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912326%2C_Recto_A_rearing_horse%2C_and_heads_of_horses%2C_a_lion_and_a_man.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912326%2C_Recto_A_rearing_horse%2C_and_heads_of_horses%2C_a_lion_and_a_man.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912326%2C_Verso_Notes_and_diagrams_on_astronomy_and_geometry%2C_and_the_head_of_a_horse_c.1503-4.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912326%2C_Verso_Notes_and_diagrams_on_astronomy_and_geometry%2C_and_the_head_of_a_horse_c.1503-4.jpg"
+    }
+  ],
+  "variants": [
+    "Study of Horsemen in Combat"
   ]
 }

@@ -1,0 +1,85 @@
+{
+  "id": "w-building-8",
+  "type": "work",
+  "label": "Studies for a Building on a Centralized Plan",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "architecture"
+    ],
+    "basis": "Derived automatically from Wikidata Q139567100 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567100",
+    "inventory": "Codex Ashburnham 1875/1 (MS B 2184), fol. 4r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_19-540150.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_19-540150.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1772",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567100 (Studies for a Building on a Centralized Plan), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567100"
+        }
+      ]
+    },
+    {
+      "id": "api1773",
+      "about": "inventory",
+      "value": {
+        "text": "Codex Ashburnham 1875/1 (MS B 2184), fol. 4r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Codex Ashburnham 1875/1 (MS B 2184), fol. 4r in Bibliothèque de l'Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567100 (Studies for a Building on a Centralized Plan), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567100"
+        }
+      ]
+    },
+    {
+      "id": "api1774",
+      "about": "current_location",
+      "value": {
+        "text": "Bibliothèque de l'Institut de France"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Bibliothèque de l'Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567100 (Studies for a Building on a Centralized Plan), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567100"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-institut-de-france"
+    }
+  ],
+  "current_location": "geo-institut-de-france"
+}

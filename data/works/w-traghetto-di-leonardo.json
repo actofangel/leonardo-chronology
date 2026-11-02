@@ -1,0 +1,49 @@
+{
+  "id": "w-traghetto-di-leonardo",
+  "type": "work",
+  "label": "Traghetto di Leonardo",
+  "subtype": "work",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q3997262 (instance of: cable ferry; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q3997262"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Traghetto_di_Leonardo_-_Il_traghetto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Traghetto_di_Leonardo_-_Il_traghetto.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2734",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3997262 (Traghetto di Leonardo), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3997262"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Traghetto_di_Leonardo",
+      "text": "Il traghetto di Leonardo è un particolare tipo di traghetto a mano, che prende il nome dal suo presunto inventore, Leonardo da Vinci. Esistono due soli esemplari tuttora funzionanti: uno unisce i moli di Imbersago (Lecco) e Villa d'Adda (Bergamo), all'interno dell'Ecomuseo Adda di Leonardo da Vinci; l'altro collega i moli sulle due sponde opposte del fiume Tevere, all'interno della Riserva Naturale di Nazzano (Roma).",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

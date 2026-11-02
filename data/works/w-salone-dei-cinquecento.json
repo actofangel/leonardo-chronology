@@ -1,0 +1,78 @@
+{
+  "id": "w-salone-dei-cinquecento",
+  "type": "work",
+  "label": "Salone dei Cinquecento",
+  "subtype": "work",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q2198705 (instance of: hall; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q2198705"
+  },
+  "variants": [
+    "salle des Cinq-Cents",
+    "Hall of the Five Hundred"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Firenze.PalVecchio.500.ceiling.JPG?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Firenze.PalVecchio.500.ceiling.JPG"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2621",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2198705 (Salone dei Cinquecento), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2198705"
+        }
+      ]
+    },
+    {
+      "id": "api2622",
+      "about": "date",
+      "value": {
+        "text": "1495-05",
+        "start": 1495
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1495-05.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2198705 (Salone dei Cinquecento), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2198705"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Salone_dei_Cinquecento",
+      "text": "Il Salone dei Cinquecento è la sala più grande e più importante sotto il profilo storico-artistico di Palazzo Vecchio a Firenze. Questa sala imponente ha una lunghezza di 54 metri, una larghezza di 23 e un'altezza di 18 metri. Per volume è la più grande sala in Italia realizzata per la gestione del potere civile. L'ultimo restauro risale al 2000-2001.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Salle_des_Cinq-Cents",
+      "text": "La salle des Cinq-Cents se trouve dans le Palazzo Vecchio, à Florence. C'est une des salles les plus grandes et les plus précieuses d'Italie. Très imposante, elle mesure 54 m de long par 23 m de large, pour une hauteur de 18 m. Elle symbolise la puissance de la République florentine, dirigée par Savonarole. Sa dernière restauration date de 2000-2001.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

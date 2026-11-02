@@ -1,0 +1,85 @@
+{
+  "id": "w-machine-prevent-fortress-walls-being",
+  "type": "work",
+  "label": "Machine to Prevent Fortress Walls being Scaled",
+  "subtype": "technical_drawing",
+  "classification": {
+    "form": "technical_drawing",
+    "condition": "extant",
+    "subject": [
+      "mechanics"
+    ],
+    "basis": "Derived automatically from Wikidata Q139567166 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567166",
+    "inventory": "fol. 89r/32v-a"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Atlanticus_-_000R-89.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codex_Atlanticus_-_000R-89.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1937",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567166 (Machine to Prevent Fortress Walls being Scaled), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567166"
+        }
+      ]
+    },
+    {
+      "id": "api1938",
+      "about": "inventory",
+      "value": {
+        "text": "fol. 89r/32v-a"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number fol. 89r/32v-a in Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567166 (Machine to Prevent Fortress Walls being Scaled), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567166"
+        }
+      ]
+    },
+    {
+      "id": "api1939",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567166 (Machine to Prevent Fortress Walls being Scaled), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567166"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "current_location": "geo-ambrosiana"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "w-overlapping-primitive-shadows-above",
+  "type": "work",
+  "label": "Overlapping of Primitive Shadows (above) and Effect of a Cylindrical Body (below)",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136390235 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390235",
+    "inventory": "MS C, fol. 13r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_19-547117.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_19-547117.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1395",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390235 (Overlapping of Primitive Shadows (above) and Effect of a Cylindrical Body (below)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390235"
+        }
+      ]
+    },
+    {
+      "id": "api1396",
+      "about": "inventory",
+      "value": {
+        "text": "MS C, fol. 13r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number MS C, fol. 13r in Bibliothèque de l'Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390235 (Overlapping of Primitive Shadows (above) and Effect of a Cylindrical Body (below)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390235"
+        }
+      ]
+    },
+    {
+      "id": "api1397",
+      "about": "current_location",
+      "value": {
+        "text": "Bibliothèque de l'Institut de France"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Bibliothèque de l'Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390235 (Overlapping of Primitive Shadows (above) and Effect of a Cylindrical Body (below)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390235"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-institut-de-france"
+    }
+  ],
+  "current_location": "geo-institut-de-france"
+}

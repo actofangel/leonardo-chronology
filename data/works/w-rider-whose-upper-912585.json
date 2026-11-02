@@ -1,0 +1,83 @@
+{
+  "id": "w-rider-whose-upper-912585",
+  "type": "work",
+  "label": "Drawing of a Rider whose Upper Body is disguised as Bagpipes",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136389978 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389978",
+    "rcin": "912585",
+    "inventory": "RCIN 912585 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912585%2C_Recto_A_design_for_a_musical_elephant_costume_Recto_c.1507.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912585%2C_Recto_A_design_for_a_musical_elephant_costume_Recto_c.1507.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api531",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389978 (Drawing of a Rider whose Upper Body is disguised as Bagpipes), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389978"
+        }
+      ]
+    },
+    {
+      "id": "api532",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912585 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912585 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389978 (Drawing of a Rider whose Upper Body is disguised as Bagpipes), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389978"
+        }
+      ]
+    },
+    {
+      "id": "api533",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389978 (Drawing of a Rider whose Upper Body is disguised as Bagpipes), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389978"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

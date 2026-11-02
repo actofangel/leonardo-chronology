@@ -1,0 +1,214 @@
+{
+  "id": "w-arno-landscape",
+  "type": "work",
+  "label": "Arno Landscape",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "pen_and_ink"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "landscape",
+      "water"
+    ],
+    "basis": "Derived automatically from Wikidata Q3373694 (instance of: drawing; material: ink; quill; paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q3373694",
+    "inventory": "436E"
+  },
+  "variants": [
+    "Paesaggio con fiume",
+    "Paysage de la vallée de l'Arno",
+    "Landscape with a River (Leonardo)"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Paisagem_do_Arno_-_Leonardo_da_Vinci.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Paisagem_do_Arno_-_Leonardo_da_Vinci.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2654",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3373694 (Arno Landscape), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3373694"
+        }
+      ]
+    },
+    {
+      "id": "api2655",
+      "about": "date",
+      "value": {
+        "text": "1473-08-05",
+        "start": 1473
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1473-08-05.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3373694 (Arno Landscape), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3373694"
+        }
+      ]
+    },
+    {
+      "id": "api2656",
+      "about": "inventory",
+      "value": {
+        "text": "436E"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 436E in Gabinetto dei disegni e delle stampe, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3373694 (Arno Landscape), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3373694"
+        }
+      ]
+    },
+    {
+      "id": "api2657",
+      "about": "inventory",
+      "value": {
+        "text": "8P"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 8P in Gabinetto dei disegni e delle stampe, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3373694 (Arno Landscape), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3373694"
+        }
+      ]
+    },
+    {
+      "id": "api2658",
+      "about": "current_location",
+      "value": {
+        "text": "Uffizi Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3373694 (Arno Landscape), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3373694"
+        }
+      ]
+    },
+    {
+      "id": "api2659",
+      "about": "current_location",
+      "value": {
+        "text": "Gabinetto dei disegni e delle stampe"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Gabinetto dei disegni e delle stampe, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3373694 (Arno Landscape), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3373694"
+        }
+      ]
+    },
+    {
+      "id": "api2660",
+      "about": "medium",
+      "value": {
+        "text": "ink; quill; paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: ink; quill; paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3373694 (Arno Landscape), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3373694"
+        }
+      ]
+    },
+    {
+      "id": "api2661",
+      "about": "dimensions",
+      "value": {
+        "text": "19 cm x 28.5 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 19 cm, width 28.5 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3373694 (Arno Landscape), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3373694"
+        }
+      ]
+    },
+    {
+      "id": "api2662",
+      "about": "depicts",
+      "value": {
+        "text": "Valsassina; water"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Valsassina; water. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3373694 (Arno Landscape), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3373694"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Paesaggio_con_fiume",
+      "text": "Il Paesaggio con fiume è un disegno di Leonardo da Vinci, datato 1473 e conservato nel Gabinetto dei Disegni e delle Stampe presso la Galleria degli Uffizi a Firenze, in Italia. L'opera è datata in alto a sinistra: è la più antica opera datata di Leonardo.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Paysage_de_la_vall%C3%A9e_de_l'Arno",
+      "text": "Le Paysage de la vallée de l'Arno, ou plus simplement Le Paysage, est un dessin à la plume et à l'encre authentifié par l'écriture du peintre florentin Léonard de Vinci. Il s'agit de son plus ancien dessin daté. Il a noté lui-même dans l'angle supérieur gauche le jour où le dessin a été exécuté : le 5 août 1473, jour de la Fête de Sainte Marie des Neiges. Le paysage représente la vallée de l'Arno, près de Florence, « telle qu’on la trouve dans le fond de maintes peintures florentines, notamment celles d’Antonio Pollaiolo.»",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-uffizi"
+    }
+  ],
+  "current_location": "geo-uffizi"
+}

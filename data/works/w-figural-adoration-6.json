@@ -1,0 +1,120 @@
+{
+  "id": "w-figural-adoration-6",
+  "type": "work",
+  "label": "Figural Studies for the Adoration of the Magi",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389467 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389467",
+    "inventory": "658"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Etude_pour_une_Adoration_des_bergers%2C_NI1776%3BAI658.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Etude_pour_une_Adoration_des_bergers%2C_NI1776%3BAI658.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2967",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389467 (Figural Studies for the Adoration of the Magi), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389467"
+        }
+      ]
+    },
+    {
+      "id": "api2968",
+      "about": "date",
+      "value": {
+        "text": "c.1481",
+        "start": 1481
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1481.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389467 (Figural Studies for the Adoration of the Magi), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389467"
+        }
+      ]
+    },
+    {
+      "id": "api2969",
+      "about": "inventory",
+      "value": {
+        "text": "658"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 658 in Musée Bonnat-Helleu, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389467 (Figural Studies for the Adoration of the Magi), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389467"
+        }
+      ]
+    },
+    {
+      "id": "api2970",
+      "about": "current_location",
+      "value": {
+        "text": "Musée Bonnat-Helleu"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Musée Bonnat-Helleu, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389467 (Figural Studies for the Adoration of the Magi), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389467"
+        }
+      ]
+    },
+    {
+      "id": "api2971",
+      "about": "dimensions",
+      "value": {
+        "text": "213 mm x 152 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 213 mm, width 152 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389467 (Figural Studies for the Adoration of the Magi), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389467"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-musee-bonnat-bayonne"
+    }
+  ],
+  "current_location": "geo-musee-bonnat-bayonne"
+}

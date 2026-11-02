@@ -15,17 +15,6 @@
   "current_location": "geo-louvre",
   "inventory": "MI 598",
   "summary": "Small Annunciation panel in the Louvre (MI 598), central part of the predella of the Verrocchio altarpiece for Pistoia Cathedral, catalogued by the Louvre as Lorenzo di Credi.",
-  "timeline": {
-    "lane": "works",
-    "kind": "Painting",
-    "start": 1475,
-    "end": 1479,
-    "date": "c.1475 to 1479",
-    "tier": "S",
-    "place": "Florence, now Louvre",
-    "text": "Predella panel of the Verrocchio altarpiece for Pistoia Cathedral. Its attribution is divided between Lorenzo di Credi and the young Leonardo.",
-    "basis": "Louvre dating of the altarpiece; attribution disputed."
-  },
   "relations": [
     {
       "rel": "held_by",
@@ -143,9 +132,412 @@
           "url": "https://collections.louvre.fr/en/ark:/53355/cl010064973"
         }
       ]
+    },
+    {
+      "id": "api2663",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3618186 (Annunciation), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3618186"
+        }
+      ]
+    },
+    {
+      "id": "api2664",
+      "about": "date",
+      "value": {
+        "text": "1475",
+        "start": 1475
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1475.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3618186 (Annunciation), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3618186"
+        }
+      ]
+    },
+    {
+      "id": "api2665",
+      "about": "date",
+      "value": {
+        "text": "1470s",
+        "start": 1478
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1470s.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3618186 (Annunciation), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3618186"
+        }
+      ]
+    },
+    {
+      "id": "api2666",
+      "about": "inventory",
+      "value": {
+        "text": "MI 598"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number MI 598 in Department of Paintings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3618186 (Annunciation), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3618186"
+        }
+      ]
+    },
+    {
+      "id": "api2667",
+      "about": "inventory",
+      "value": {
+        "text": "Campana 258"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Campana 258 in Campana collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3618186 (Annunciation), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3618186"
+        }
+      ]
+    },
+    {
+      "id": "api2668",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Paintings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Paintings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3618186 (Annunciation), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3618186"
+        }
+      ]
+    },
+    {
+      "id": "api2669",
+      "about": "current_location",
+      "value": {
+        "text": "Campana collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Campana collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3618186 (Annunciation), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3618186"
+        }
+      ]
+    },
+    {
+      "id": "api2670",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3618186 (Annunciation), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3618186"
+        }
+      ]
+    },
+    {
+      "id": "api2671",
+      "about": "dimensions",
+      "value": {
+        "text": "16 cm x 60 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 16 cm, width 60 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3618186 (Annunciation), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3618186"
+        }
+      ]
+    },
+    {
+      "id": "api2672",
+      "about": "depicts",
+      "value": {
+        "text": "Mary; woman; Annunciation"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Mary; woman; Annunciation. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3618186 (Annunciation), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3618186"
+        }
+      ]
+    },
+    {
+      "id": "api2673",
+      "about": "inventory",
+      "value": {
+        "text": "MI 598"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number MI 598.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010064973 (L'Annonciation), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010064973"
+        }
+      ]
+    },
+    {
+      "id": "api2674",
+      "about": "inventory_history",
+      "value": {
+        "text": "Autre numéro d'inventaire: Campana 258"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Autre numéro d'inventaire: Campana 258.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010064973 (L'Annonciation), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010064973"
+        }
+      ]
+    },
+    {
+      "id": "api2675",
+      "about": "date",
+      "value": {
+        "text": "4e quart du XVe siècle (vers 1475 - 1500)",
+        "start": 1475,
+        "end": 1500
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: 4e quart du XVe siècle (vers 1475 - 1500).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010064973 (L'Annonciation), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010064973"
+        }
+      ],
+      "check_in": [
+        "Delieuvin, Vincent, La découverte du panneau manquant de la \"Madonna di Piazza\", La Revue des musées de France. Revue du Louvre, n°4, 2024, p. 36-46, p. 36-46, ill. en coul., Fig. 4",
+        "Verrocchio : il maestro di Leonardo, cat. exp. (Florence (Italie), Palazzo Strozzi, avec une section au Museo Nazionale del Bargello, 9 mars - 14 juillet 2019), Venise, Marsilio, 2019, p. 252-253, ill. coul., n°8.10b",
+        "Delieuvin, Vincent ; Frank, Louis (dir.), Léonard de Vinci, cat. exp. (Paris, musée du Louvre, 24 octobre 2019 - 24 février 2020), Paris, Hazan / Louvre éditions, 2019, p. 59, 60, 61, 64, 397, ill. coul. p. 61, cat. 12",
+        "Bambach, Carmen C., Leonardo da Vinci rediscovered. 4 vol., New Haven et Londres, 2019, p. 140-150 vol.1",
+        "Gaultier, Françoise ; Haumesser, Laurent ; Trofimova, Anna (dir.), Un rêve d'Italie. La collection du marquis Campana, cat. exp. (Paris, Musée du Louvre, 8 novembre 2018 - 18 février 2019 ; Saint-Petersbourg, Musée de l'Ermitage, 2019), Paris, Lienart, 2018, p. 376, ill. coul., n°367",
+        "Leonardo. Discoveries from Verrocchio’s Studio. Early Paintings and New Attributions, cat. exp. (New Haven (Etats-Unis), Yale University Art Gallery, 29 juin-7 octobre 2018), New Haven / Londres, 2018, p. 23-38",
+        "Leonardo da Vinci 1452-1519. Il disegno del mondo, cat. exp. (Milan, Palazzo Reale, 16 avril-19 juillet 2015), Milan, Skira, 2015, p. 78, 79, 522, ill. coul. p. 78-79, n°I.18",
+        "Bertinet, Arnaud, Les musées de Napoléon III : une institution pour les arts (1849-1872), Paris, mare & martin, 2015, p. 294",
+        "Habert, Jean ; Scailliérez, Cécile, « XVIe siècle », dans Foucart-Walter, Élisabeth (dir.), Catalogue des peintures italiennes du musée du Louvre. Catalogue sommaire, [Musée du Louvre, Département des peintures], Paris, Louvre éditions / Gallimard, 2007, p. 61-122, p. 81, ill. n&b",
+        "Viatte, Françoise ; Forcione, Varena (dir.), Léonard de Vinci. Dessins et manuscrits, cat. exp. (Paris, musée du Louvre, 5 mai-14 juillet 2003), Paris, Réunion des musées nationaux, 2003, n°2"
+      ]
+    },
+    {
+      "id": "api2676",
+      "about": "medium",
+      "value": {
+        "text": "huile sur bois"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: huile sur bois",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010064973 (L'Annonciation), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010064973"
+        }
+      ]
+    },
+    {
+      "id": "api2677",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0,162 m; Largeur 0,607 m"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0,162 m; Largeur 0,607 m.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010064973 (L'Annonciation), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010064973"
+        }
+      ]
+    },
+    {
+      "id": "api2678",
+      "about": "attribution",
+      "value": {
+        "text": "Lorenzo di Credi (Lorenzo di Andrea di Oderigo di Andrea di Credi, dit) [Attribution actuelle]; Italie [Attribution actuelle]; Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [Ancienne Attribution]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Lorenzo di Credi (Lorenzo di Andrea di Oderigo di Andrea di Credi, dit) [Attribution actuelle]; Italie [Attribution actuelle]; Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [Ancienne Attribution].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010064973 (L'Annonciation), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010064973"
+        }
+      ],
+      "check_in": [
+        "Delieuvin, Vincent, La découverte du panneau manquant de la \"Madonna di Piazza\", La Revue des musées de France. Revue du Louvre, n°4, 2024, p. 36-46, p. 36-46, ill. en coul., Fig. 4",
+        "Verrocchio : il maestro di Leonardo, cat. exp. (Florence (Italie), Palazzo Strozzi, avec une section au Museo Nazionale del Bargello, 9 mars - 14 juillet 2019), Venise, Marsilio, 2019, p. 252-253, ill. coul., n°8.10b",
+        "Delieuvin, Vincent ; Frank, Louis (dir.), Léonard de Vinci, cat. exp. (Paris, musée du Louvre, 24 octobre 2019 - 24 février 2020), Paris, Hazan / Louvre éditions, 2019, p. 59, 60, 61, 64, 397, ill. coul. p. 61, cat. 12",
+        "Bambach, Carmen C., Leonardo da Vinci rediscovered. 4 vol., New Haven et Londres, 2019, p. 140-150 vol.1",
+        "Gaultier, Françoise ; Haumesser, Laurent ; Trofimova, Anna (dir.), Un rêve d'Italie. La collection du marquis Campana, cat. exp. (Paris, Musée du Louvre, 8 novembre 2018 - 18 février 2019 ; Saint-Petersbourg, Musée de l'Ermitage, 2019), Paris, Lienart, 2018, p. 376, ill. coul., n°367",
+        "Leonardo. Discoveries from Verrocchio’s Studio. Early Paintings and New Attributions, cat. exp. (New Haven (Etats-Unis), Yale University Art Gallery, 29 juin-7 octobre 2018), New Haven / Londres, 2018, p. 23-38",
+        "Leonardo da Vinci 1452-1519. Il disegno del mondo, cat. exp. (Milan, Palazzo Reale, 16 avril-19 juillet 2015), Milan, Skira, 2015, p. 78, 79, 522, ill. coul. p. 78-79, n°I.18",
+        "Bertinet, Arnaud, Les musées de Napoléon III : une institution pour les arts (1849-1872), Paris, mare & martin, 2015, p. 294",
+        "Habert, Jean ; Scailliérez, Cécile, « XVIe siècle », dans Foucart-Walter, Élisabeth (dir.), Catalogue des peintures italiennes du musée du Louvre. Catalogue sommaire, [Musée du Louvre, Département des peintures], Paris, Louvre éditions / Gallimard, 2007, p. 61-122, p. 81, ill. n&b",
+        "Viatte, Françoise ; Forcione, Varena (dir.), Léonard de Vinci. Dessins et manuscrits, cat. exp. (Paris, musée du Louvre, 5 mai-14 juillet 2003), Paris, Réunion des musées nationaux, 2003, n°2"
+      ]
+    },
+    {
+      "id": "api2679",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Peintures"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Peintures.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010064973 (L'Annonciation), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010064973"
+        }
+      ]
+    },
+    {
+      "id": "api2680",
+      "about": "provenance",
+      "value": {
+        "text": "Provenance : Ce panneau est un élément de la prédelle du retable commandé à Andrea del Verrocchio vers 1475-1477, pour l'oratoire édifié par l'évêque Donato de' Medici, aujourd'hui chapelle du Saint-Sacrement de la cathédrale de Pistoia. Le grand panneau d'autel (Vierge à l'Enfant avec saint Jean Baptiste et saint Donat) est toujours conservé dans la cathédrale, tandis qu'un deuxième élément de prédelle (Miracle de Saint Donat) est au musée de Worcester. L'exécution du retable était encore inachevée en 1485 et fut confiée en grande partie à son atelier, principalement à Lorenzo di Credi. Le panneau du Louvre resurgit dans la collection du marquis G. Campana (1808-1880) à Rome, puis fut acquis du gouvernement pontifical pour le Musée Napoléon III à la suite de la banqueroute de Campana en 1861 ; il entre au musée du Louvre en 1863. Commentaire : Donnée à Domenico Ghirlandaio dans le catalogue de la collection Campana, l’Annonciation est judicieusement présentée au Louvre sous le nom de Lorenzo di Credi par Reiset dès 1863. Mais à partir des années 1880, plusieurs connaisseurs, tels Morelli, Berenson, Venturi, Bode ou Suida, préfèrent le nom plus célèbre de Léonard de Vinci, à qui l’on attribuait également alors une autre version du sujet très comparable, mais de dimensions plus imposantes, la grande Annonciation de la Galerie des Offices à Florence. En 1930, Valentiner propose d’y voir l’élément central de la prédelle du retable de l’oratoire dit de la Madonna di Piazza, édifié contre la cathédrale de Pistoia par l’évêque Donato de’ Medici. Selon un document d’archives de 1485, la peinture de l’autel a été commandée vers 1475-1478 à Andrea del Verrocchio (vers 1435, 1488), le maître de Léonard de Vinci (1452-1519) et de Lorenzo di Credi, mais était encore alors inachevée. Ce document n’évoque que la grande pala, toujours en place, représentant la Vierge et l’Enfant Jésus entourés des saints Jean Baptiste et Donat d’Arezzo. L’existence d’une prédelle est cependant appuyée par la découverte dans les années 1930 au musée de Worcester d’un autre fragment figurant le miracle de Saint Donat et le percepteur. Donat y est en effet présenté avec le même visage et le même habit que dans la pala de Pistoia. Or, l’Annonciation offre de très fortes affinités de dimensions et de style avec le tableau de Worcester. Ce rapprochement du panneau du Louvre avec les autres parties du retable de Pistoia devait faire vaciller l’attribution à Léonard, à partir de Berenson, dès la fin des années 1930. Car la grande majorité des spécialistes considéraient, et considèrent toujours, que la pala et le tableau de Worcester sont de Lorenzo di Credi, à partir d’une probable conception initiale de Verrocchio. La critique se partage aujourd’hui entre trois hypothèses : l’attribution à Lorenzo, à Léonard, ou une collaboration entre les deux. L’Annonciation offre cependant davantage de similitudes avec les œuvres de Lorenzo qu’avec celles du jeune Léonard, comme en témoignent la morphologie des personnages aux grands yeux un peu démesurés, leur expression peu subtile et le modelé moins sculptural des drapés. (Texte de Vincent Delieuvin, juillet 2021)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: Provenance : Ce panneau est un élément de la prédelle du retable commandé à Andrea del Verrocchio vers 1475-1477, pour l'oratoire édifié par l'évêque Donato de' Medici, aujourd'hui chapelle du Saint-Sacrement de la cathédrale de Pistoia. Le grand panneau d'autel (Vierge à l'Enfant avec saint Jean Baptiste et saint Donat) est toujours conservé dans la cathédrale, tandis qu'un deuxième élément de prédelle (Miracle de Saint Donat) est au musée de Worcester. L'exécution du retable était encore inachevée en 1485 et fut confiée en grande partie à son atelier, principalement à Lorenzo di Credi. Le panneau du Louvre resurgit dans la collection du marquis G. Campana (1808-1880) à Rome, puis fut acquis du gouvernement pontifical pour le Musée Napoléon III à la suite de la banqueroute de Campana en 1861 ; il entre au musée du Louvre en 1863. Commentaire : Donnée à Domenico Ghirlandaio dans le catalogue de la collection Campana, l’Annonciation est judicieusement présentée au Louvre sous le nom de Lorenzo di Credi par Reiset dès 1863. Mais à partir des années 1880, plusieurs connaisseurs, tels Morelli, Berenson, Venturi, Bode ou Suida, préfèrent le nom plus célèbre de Léonard de Vinci, à qui l’on attribuait également alors une autre version du sujet très comparable, mais de dimensions plus imposantes, la grande Annonciation de la Galerie des Offices à Florence. En 1930, Valentiner propose d’y voir l’élément central de la prédelle du retable de l’oratoire dit de la Madonna di Piazza, édifié contre la cathédrale de Pistoia par l’évêque Donato de’ Medici. Selon un document d’archives de 1485, la peinture de l’autel a été commandée vers 1475-1478 à Andrea del Verrocchio (vers 1435, 1488), le maître de Léonard de Vinci (1452-1519) et de Lorenzo di Credi, mais était encore alors inachevée. Ce document n’évoque que la grande pala, toujours en place, représentant la Vierge et l’Enfant Jésus entourés des saints Jean Baptiste et Donat d’Arezzo. L’existence d’une prédelle est cependant appuyée par la découverte dans les années 1930 au musée de Worcester d’un autre fragment figurant le miracle de Saint Donat et le percepteur. Donat y est en effet présenté avec le même visage et le même habit que dans la pala de Pistoia. Or, l’Annonciation offre de très fortes affinités de dimensions et de style avec le tableau de Worcester. Ce rapprochement du panneau du Louvre avec les autres parties du retable de Pistoia devait faire vaciller l’attribution à Léonard, à partir de Berenson, dès la fin des années 1930. Car la grande majorité des spécialistes considéraient, et considèrent toujours, que la pala et le tableau de Worcester sont de Lorenzo di Credi, à partir d’une probable conception initiale de Verrocchio. La critique se partage aujourd’hui entre trois hypothèses : l’attribution à Lorenzo, à Léonard, ou une collaboration entre les deux. L’Annonciation offre cependant davantage de similitudes avec les œuvres de Lorenzo qu’avec celles du jeune Léonard, comme en témoignent la morphologie des personnages aux grands yeux un peu démesurés, leur expression peu subtile et le modelé moins sculptural des drapés. (Texte de Vincent Delieuvin, juillet 2021)",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010064973 (L'Annonciation), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010064973"
+        }
+      ]
+    },
+    {
+      "id": "api2681",
+      "about": "inscription",
+      "value": {
+        "text": "Nature de marque : ; cachet de cire"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inscriptions recorded by the Louvre: Nature de marque : ; cachet de cire",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010064973 (L'Annonciation), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010064973"
+        }
+      ]
     }
   ],
   "open_questions": [
     "Dating of the predella panel itself (the Louvre gives the altarpiece c.1475 to 1477; the documents of the Pistoia altarpiece should be checked)."
-  ]
+  ],
+  "identifiers": {
+    "wikidata": "Q3618186",
+    "louvre_ark": "cl010064973",
+    "inventory": "MI 598"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/L'Annonciation%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:L'Annonciation%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/0000000021/0000064973/0001202912_OG.JPG",
+      "credit": "© 2023 GrandPalaisRmn (musée du Louvre) / Mathieu Rabeau",
+      "page": "https://collections.louvre.fr/ark:/53355/cl010064973"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Annunciazione_598",
+      "text": "L'Annunciazione è un dipinto a tempera su tavola, attribuito a Lorenzo di Credi o a Leonardo da Vinci, databile tra il 1475 e il 1478 circa e conservato nel Museo del Louvre di Parigi.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/L'Annonciation_(Louvre)",
+      "text": "L'Annonciation est une prédelle de l'atelier de Verrocchio. Il est attribué selon les auteurs à Lorenzo di Credi ou à Léonard de Vinci.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Annunciation",
+    "Annunciazione 598",
+    "L'Annonciation",
+    "Annunciation of Da Vinci",
+    "Annunciation of Leonardo",
+    "Annuciation of Da Vinci at Louvre"
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1475,
+    "end": 1479,
+    "date": "c.1475 to 1479",
+    "tier": "S",
+    "place": "Florence, now Louvre",
+    "text": "Predella panel of the Verrocchio altarpiece for Pistoia Cathedral. Its attribution is divided between Lorenzo di Credi and the young Leonardo.",
+    "basis": "Louvre dating of the altarpiece; attribution disputed."
+  }
 }

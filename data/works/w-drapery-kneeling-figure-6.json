@@ -1,0 +1,60 @@
+{
+  "id": "w-drapery-kneeling-figure-6",
+  "type": "work",
+  "label": "Drapery Study for a Kneeling Figure turned to the Left",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q139567057 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567057"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Workshop_of_Andrea_del_Verrocchio%2C_circa_1470_-_DRAPERY_STUDY_OF_A_KNEELING_FIGURE_FACING_LEFT.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Workshop_of_Andrea_del_Verrocchio%2C_circa_1470_-_DRAPERY_STUDY_OF_A_KNEELING_FIGURE_FACING_LEFT.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1572",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567057 (Drapery Study for a Kneeling Figure turned to the Left), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567057"
+        }
+      ]
+    },
+    {
+      "id": "api1573",
+      "about": "current_location",
+      "value": {
+        "text": "Barbara Piasecka Johnson Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Barbara Piasecka Johnson Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567057 (Drapery Study for a Kneeling Figure turned to the Left), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567057"
+        }
+      ]
+    }
+  ]
+}

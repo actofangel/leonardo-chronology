@@ -1,0 +1,85 @@
+{
+  "id": "w-figures-decorations",
+  "type": "work",
+  "label": "Studies of Figures and Decorations",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389570 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389570",
+    "inventory": "NI1778; AI660"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Feuille_d'%C3%A9tudes%2C_NI1778%3BAI660.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Feuille_d'%C3%A9tudes%2C_NI1778%3BAI660.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api243",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389570 (Studies of Figures and Decorations), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389570"
+        }
+      ]
+    },
+    {
+      "id": "api244",
+      "about": "inventory",
+      "value": {
+        "text": "NI1778; AI660"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number NI1778; AI660 in Musée Bonnat-Helleu, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389570 (Studies of Figures and Decorations), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389570"
+        }
+      ]
+    },
+    {
+      "id": "api245",
+      "about": "current_location",
+      "value": {
+        "text": "Musée Bonnat-Helleu"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Musée Bonnat-Helleu, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389570 (Studies of Figures and Decorations), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389570"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-musee-bonnat-bayonne"
+    }
+  ],
+  "current_location": "geo-musee-bonnat-bayonne"
+}

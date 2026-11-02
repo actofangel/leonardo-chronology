@@ -1,0 +1,82 @@
+{
+  "id": "w-profile-old-man",
+  "type": "work",
+  "label": "Profile Study of an Old Man with a Laurel Wreath",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136389632 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389632",
+    "inventory": "15575"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Masculine_Profile_Crowned_by_Bay_Leaves_(TORINO_BIBLIOTECA_REALE).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Masculine_Profile_Crowned_by_Bay_Leaves_(TORINO_BIBLIOTECA_REALE).jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api765",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389632 (Profile Study of an Old Man with a Laurel Wreath), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389632"
+        }
+      ]
+    },
+    {
+      "id": "api766",
+      "about": "inventory",
+      "value": {
+        "text": "15575"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 15575 in Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389632 (Profile Study of an Old Man with a Laurel Wreath), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389632"
+        }
+      ]
+    },
+    {
+      "id": "api767",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Library of Turin"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389632 (Profile Study of an Old Man with a Laurel Wreath), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389632"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-reale-turin"
+    }
+  ],
+  "current_location": "geo-biblioteca-reale-turin"
+}

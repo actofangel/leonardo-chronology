@@ -1,0 +1,103 @@
+{
+  "id": "w-drapery-kneeling-figure-3",
+  "type": "work",
+  "label": "Drapery Study for a Kneeling Figure Seen in Three-quarter Profile to the Left",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389610 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389610",
+    "inventory": "1895-9-15-489"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_1895%2C0915.489%2C_A_study_of_drapery_for_a_kneeling_woman.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_1895%2C0915.489%2C_A_study_of_drapery_for_a_kneeling_woman.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api705",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389610 (Drapery Study for a Kneeling Figure Seen in Three-quarter Profile to the Left), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389610"
+        }
+      ]
+    },
+    {
+      "id": "api706",
+      "about": "date",
+      "value": {
+        "text": "c.1475",
+        "start": 1475
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1475.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389610 (Drapery Study for a Kneeling Figure Seen in Three-quarter Profile to the Left), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389610"
+        }
+      ]
+    },
+    {
+      "id": "api707",
+      "about": "inventory",
+      "value": {
+        "text": "1895-9-15-489"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1895-9-15-489 in British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389610 (Drapery Study for a Kneeling Figure Seen in Three-quarter Profile to the Left), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389610"
+        }
+      ]
+    },
+    {
+      "id": "api708",
+      "about": "current_location",
+      "value": {
+        "text": "British Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389610 (Drapery Study for a Kneeling Figure Seen in Three-quarter Profile to the Left), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389610"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-british-museum"
+    }
+  ],
+  "current_location": "geo-british-museum"
+}

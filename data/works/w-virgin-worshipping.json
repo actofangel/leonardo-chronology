@@ -1,0 +1,86 @@
+{
+  "id": "w-virgin-worshipping",
+  "type": "work",
+  "label": "Study of the Virgin worshipping the Child and other Figures (Joseph (?), Shepherd and Angels)",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "religious",
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389473 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389473",
+    "inventory": "256"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Etude_pour_la_Nativit%C3%A9_de_J%C3%A9sus%2C_19-506105.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Etude_pour_la_Nativit%C3%A9_de_J%C3%A9sus%2C_19-506105.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api7",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389473 (Study of the Virgin worshipping the Child and other Figures (Joseph (?), Shepherd and Angels)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389473"
+        }
+      ]
+    },
+    {
+      "id": "api8",
+      "about": "inventory",
+      "value": {
+        "text": "256"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 256 in Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389473 (Study of the Virgin worshipping the Child and other Figures (Joseph (?), Shepherd and Angels)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389473"
+        }
+      ]
+    },
+    {
+      "id": "api9",
+      "about": "current_location",
+      "value": {
+        "text": "Gallerie dell'Accademia"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389473 (Study of the Virgin worshipping the Child and other Figures (Joseph (?), Shepherd and Angels)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389473"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-gallerie-accademia-venice"
+    }
+  ],
+  "current_location": "geo-gallerie-accademia-venice"
+}

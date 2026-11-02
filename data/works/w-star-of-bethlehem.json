@@ -143,6 +143,72 @@
       "check_in": [
         "Bambach 2019"
       ]
+    },
+    {
+      "id": "api1009",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390020 (Star-of-Bethlehem (Ornithogalum umbellatum) between creeping buttercup (Ranumclus repens) and wood anemone (Anemone nemorosa); below, two species of spruge (Euphorbia amygdaloides und E. helioscopia?)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390020"
+        }
+      ]
+    },
+    {
+      "id": "api1010",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912424 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912424 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390020 (Star-of-Bethlehem (Ornithogalum umbellatum) between creeping buttercup (Ranumclus repens) and wood anemone (Anemone nemorosa); below, two species of spruge (Euphorbia amygdaloides und E. helioscopia?)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390020"
+        }
+      ]
+    },
+    {
+      "id": "api1011",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390020 (Star-of-Bethlehem (Ornithogalum umbellatum) between creeping buttercup (Ranumclus repens) and wood anemone (Anemone nemorosa); below, two species of spruge (Euphorbia amygdaloides und E. helioscopia?)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390020"
+        }
+      ]
     }
+  ],
+  "identifiers": {
+    "wikidata": "Q136390020",
+    "rcin": "912424",
+    "inventory": "RCIN 912424 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_A_star-of-Bethlehem_and_other_plants%2C_c.1506-12.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_A_star-of-Bethlehem_and_other_plants%2C_c.1506-12.jpg"
+    }
+  ],
+  "variants": [
+    "Star-of-Bethlehem (Ornithogalum umbellatum) between creeping buttercup (Ranumclus repens) and wood anemone (Anemone nemorosa); below, two species of spruge (Euphorbia amygdaloides und E. helioscopia?)"
   ]
 }

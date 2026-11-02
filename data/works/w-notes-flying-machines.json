@@ -1,0 +1,86 @@
+{
+  "id": "w-notes-flying-machines",
+  "type": "work",
+  "label": "Sketches and Notes on Flying Machines and Parachutes",
+  "subtype": "sketch",
+  "classification": {
+    "form": "sketch",
+    "condition": "extant",
+    "subject": [
+      "mechanics",
+      "flight"
+    ],
+    "basis": "Derived automatically from Wikidata Q136390191 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390191",
+    "inventory": "1058v/381v-a"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/000V-1058.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:000V-1058.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1249",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390191 (Sketches and Notes on Flying Machines and Parachutes), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390191"
+        }
+      ]
+    },
+    {
+      "id": "api1250",
+      "about": "inventory",
+      "value": {
+        "text": "1058v/381v-a"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1058v/381v-a in Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390191 (Sketches and Notes on Flying Machines and Parachutes), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390191"
+        }
+      ]
+    },
+    {
+      "id": "api1251",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390191 (Sketches and Notes on Flying Machines and Parachutes), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390191"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "current_location": "geo-ambrosiana"
+}

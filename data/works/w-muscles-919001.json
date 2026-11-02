@@ -1,0 +1,148 @@
+{
+  "id": "w-muscles-919001",
+  "type": "work",
+  "label": "Studies of the Muscles of the Shoulder and of the Movement of the Foot and Shoulder Joints",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "anatomy"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389713 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389713",
+      "Q136389717"
+    ],
+    "rcin": "919001",
+    "inventory": [
+      "RCIN 919001 recto",
+      "RCIN 919001 verso"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919001%2C_Recto_The_bones_and_muscles_of_the_shoulder.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919001%2C_Recto_The_bones_and_muscles_of_the_shoulder.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919001%2C_Verso_The_superficial_anatomy_of_the_shoulder_and_neck_c.1510-11.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919001%2C_Verso_The_superficial_anatomy_of_the_shoulder_and_neck_c.1510-11.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api967",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389713 (Studies of the Muscles of the Shoulder and of the Movement of the Foot and Shoulder Joints), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389713"
+        }
+      ]
+    },
+    {
+      "id": "api968",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919001 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919001 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389713 (Studies of the Muscles of the Shoulder and of the Movement of the Foot and Shoulder Joints), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389713"
+        }
+      ]
+    },
+    {
+      "id": "api969",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389713 (Studies of the Muscles of the Shoulder and of the Movement of the Foot and Shoulder Joints), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389713"
+        }
+      ]
+    },
+    {
+      "id": "api976",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389717 (Anatomical Studies of the Muscles of the Shoulder, Neck and Chest), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389717"
+        }
+      ]
+    },
+    {
+      "id": "api977",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919001 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919001 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389717 (Anatomical Studies of the Muscles of the Shoulder, Neck and Chest), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389717"
+        }
+      ]
+    },
+    {
+      "id": "api978",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389717 (Anatomical Studies of the Muscles of the Shoulder, Neck and Chest), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389717"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

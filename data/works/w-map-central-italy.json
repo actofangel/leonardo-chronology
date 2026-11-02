@@ -87,10 +87,76 @@
       "check_in": [
         "Clark and Pedretti 1968"
       ]
+    },
+    {
+      "id": "api1129",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390064 (Map of Northern Italy, showing the West Coast from the Mouth of the Magra River to Toscanella and Corneto), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390064"
+        }
+      ]
+    },
+    {
+      "id": "api1130",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912277 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912277 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390064 (Map of Northern Italy, showing the West Coast from the Mouth of the Magra River to Toscanella and Corneto), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390064"
+        }
+      ]
+    },
+    {
+      "id": "api1131",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390064 (Map of Northern Italy, showing the West Coast from the Mouth of the Magra River to Toscanella and Corneto), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390064"
+        }
+      ]
     }
   ],
   "open_questions": [
     "Medium and dimensions to locate.",
     "Confirm the Museo Galileo label for RL 12277."
+  ],
+  "identifiers": {
+    "wikidata": "Q136390064",
+    "rcin": "912277",
+    "inventory": "RCIN 912277 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912277%2C_The_rivers_and_mountains_of_central_Italy_c.1502-4.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912277%2C_The_rivers_and_mountains_of_central_Italy_c.1502-4.jpg"
+    }
+  ],
+  "variants": [
+    "Map of Northern Italy, showing the West Coast from the Mouth of the Magra River to Toscanella and Corneto"
   ]
 }

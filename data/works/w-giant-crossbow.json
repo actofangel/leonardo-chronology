@@ -139,6 +139,61 @@
       "check_in": [
         "Pedretti 1978 Atlanticus catalogue"
       ]
+    },
+    {
+      "id": "api2583",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q871725 (Leonardo's crossbow), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q871725"
+        }
+      ]
     }
+  ],
+  "identifiers": {
+    "wikidata": "Q871725"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codice_Atlantico_-_053v_detail.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codice_Atlantico_-_053v_detail.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Leonardo's_crossbow",
+      "text": "Leonardo's crossbow designs are a series of shooting weapon schematics designed by Leonardo da Vinci that are in the Codex Atlanticus. One version, a self-spanning infantry weapon called the rapid-fire crossbow, is found on sheets 143r, 153r, and 155r. The other is the giant crossbow design intended to be a mounted siege weapon found on sheet 149a in the Codex.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Balestra_gigante",
+      "text": "La balestra di Leonardo o balestra gigante è un'arma da lancio progettata da Leonardo da Vinci, i cui disegni si trovano nel Codice Atlantico. Mai realizzata dal genio universale, ne sono stati costruiti in epoca contemporanea vari modelli di studio nei musei dedicati a Leonardo.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Arbal%C3%A8te_g%C3%A9ante",
+      "text": "L'Arbalète géante est une arme de trait imaginée par le peintre et inventeur florentin Léonard de Vinci (1452-1519) et dont les dessins (1488-1489) figurent dans le Codex Atlanticus. Ce projet ne fut jamais mis en œuvre mais diverses maquettes en ont été réalisées par la suite et se trouvent dans des musées consacrés à l'artiste.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Leonardo's crossbow",
+    "balestra gigante",
+    "arbalète géante"
   ]
 }

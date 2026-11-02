@@ -1,0 +1,88 @@
+{
+  "id": "w-saint-sebastian",
+  "type": "work",
+  "label": "Study for a Saint Sebastian",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389582 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389582",
+    "inventory": "21489"
+  },
+  "variants": [
+    "Study for a St Sebastian"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Hl._Sebastian%2C_1478_-_1483%2C_21489.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Hl._Sebastian%2C_1478_-_1483%2C_21489.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api288",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389582 (Study for a Saint Sebastian), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389582"
+        }
+      ]
+    },
+    {
+      "id": "api289",
+      "about": "inventory",
+      "value": {
+        "text": "21489"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 21489 in Hamburger Kunsthalle, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389582 (Study for a Saint Sebastian), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389582"
+        }
+      ]
+    },
+    {
+      "id": "api290",
+      "about": "current_location",
+      "value": {
+        "text": "Hamburger Kunsthalle"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Hamburger Kunsthalle, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389582 (Study for a Saint Sebastian), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389582"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-hamburger-kunsthalle"
+    }
+  ],
+  "current_location": "geo-hamburger-kunsthalle"
+}

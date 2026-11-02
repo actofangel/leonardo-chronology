@@ -1,0 +1,118 @@
+{
+  "id": "w-kneeling-leda-2",
+  "type": "work",
+  "label": "Study for a Kneeling Leda and the Swan",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "mythology"
+    ],
+    "basis": "Derived automatically from Wikidata Q77897951 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q77897951",
+    "inventory": "717"
+  },
+  "variants": [
+    "Leda col cigno",
+    "Léda et le cygne"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Study_for_the_Kneeling_Leda.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Study_for_the_Kneeling_Leda.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2870",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q77897951 (Study for a Kneeling Leda and the Swan), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q77897951"
+        }
+      ]
+    },
+    {
+      "id": "api2871",
+      "about": "date",
+      "value": {
+        "text": "1503 to 1507",
+        "start": 1503,
+        "end": 1507
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1503 to 1507.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q77897951 (Study for a Kneeling Leda and the Swan), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q77897951"
+        }
+      ]
+    },
+    {
+      "id": "api2872",
+      "about": "inventory",
+      "value": {
+        "text": "717"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 717 in Chatsworth House, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q77897951 (Study for a Kneeling Leda and the Swan), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q77897951"
+        }
+      ]
+    },
+    {
+      "id": "api2873",
+      "about": "current_location",
+      "value": {
+        "text": "Chatsworth House"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Chatsworth House, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q77897951 (Study for a Kneeling Leda and the Swan), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q77897951"
+        }
+      ]
+    },
+    {
+      "id": "api2874",
+      "about": "dimensions",
+      "value": {
+        "text": "160 mm x 139 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 160 mm, width 139 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q77897951 (Study for a Kneeling Leda and the Swan), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q77897951"
+        }
+      ]
+    }
+  ]
+}

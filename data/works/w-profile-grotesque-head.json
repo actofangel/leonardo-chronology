@@ -1,0 +1,85 @@
+{
+  "id": "w-profile-grotesque-head",
+  "type": "work",
+  "label": "Profile Study of a Grotesque Head",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389652 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389652",
+    "inventory": "21482"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Kopf_eines_alten_Mannes_oder_einer_alten_Frau_im_Profil%2C_um_1495_-_1505%2C_21482.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Kopf_eines_alten_Mannes_oder_einer_alten_Frau_im_Profil%2C_um_1495_-_1505%2C_21482.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api823",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389652 (Profile Study of a Grotesque Head), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389652"
+        }
+      ]
+    },
+    {
+      "id": "api824",
+      "about": "inventory",
+      "value": {
+        "text": "21482"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 21482 in Hamburger Kunsthalle, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389652 (Profile Study of a Grotesque Head), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389652"
+        }
+      ]
+    },
+    {
+      "id": "api825",
+      "about": "current_location",
+      "value": {
+        "text": "Hamburger Kunsthalle"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Hamburger Kunsthalle, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389652 (Profile Study of a Grotesque Head), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389652"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-hamburger-kunsthalle"
+    }
+  ],
+  "current_location": "geo-hamburger-kunsthalle"
+}

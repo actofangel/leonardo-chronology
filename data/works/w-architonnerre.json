@@ -1,0 +1,66 @@
+{
+  "id": "w-architonnerre",
+  "type": "work",
+  "label": "architonnerre",
+  "subtype": "work",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q4787225 (instance of: artillery model; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q4787225"
+  },
+  "variants": [
+    "Architronito"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Architonnerre.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Architonnerre.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2743",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q4787225 (architonnerre), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q4787225"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Architonnerre",
+      "text": "The Architonnerre (Architronito) was a steam-powered cannon, a description of which is found in the papers of Leonardo da Vinci dating to the late 15th century, although he attributes its invention to Archimedes in the 3rd century BC.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Architronito",
+      "text": "L'architronito era un cannone a vapore descritto da Leonardo da Vinci la cui invenzione fece risalire ad Archimede e che descrisse in questo modo: una macchina di fine rame, invenzione di Archimede, e gitta ballotte di ferro con grande strepito e furore. Anche il Petrarca nel De remediis utriusque fortunae attribuì ad Archimede l'invenzione delle armi da fuoco attorno al 200 a.C.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Architonnerre",
+      "text": "L'Architonnerre ou Architronito est un projet de canon à vapeur dessiné par le peintre et inventeur florentin Léonard de Vinci à la fin du XVe siècle. Le terme d'Architronito, mot-valise créé par l'artiste, se compose du préfixe Archi pour « Archimède » et de tronito (« tonnerre »).",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

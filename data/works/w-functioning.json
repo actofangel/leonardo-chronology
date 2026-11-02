@@ -1,0 +1,85 @@
+{
+  "id": "w-functioning",
+  "type": "work",
+  "label": "Studies of the Functioning of a Wing",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "flight"
+    ],
+    "basis": "Derived automatically from Wikidata Q136390225 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390225",
+    "inventory": "17r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codice_Volo_17R.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codice_Volo_17R.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1377",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390225 (Studies of the Functioning of a Wing), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390225"
+        }
+      ]
+    },
+    {
+      "id": "api1378",
+      "about": "inventory",
+      "value": {
+        "text": "17r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 17r in Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390225 (Studies of the Functioning of a Wing), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390225"
+        }
+      ]
+    },
+    {
+      "id": "api1379",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Library of Turin"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390225 (Studies of the Functioning of a Wing), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390225"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-reale-turin"
+    }
+  ],
+  "current_location": "geo-biblioteca-reale-turin"
+}

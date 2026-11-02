@@ -1,0 +1,40 @@
+{
+  "id": "w-vision-saint-bernard",
+  "type": "work",
+  "label": "The Vision of Saint Bernard",
+  "subtype": "work",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q9375996 (instance of: none; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q9375996"
+  },
+  "variants": [
+    "Vision of Saint Bernard",
+    "Apparition of the Virgin to St Bernard"
+  ],
+  "claims": [
+    {
+      "id": "api2750",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q9375996 (The Vision of Saint Bernard), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q9375996"
+        }
+      ]
+    }
+  ]
+}

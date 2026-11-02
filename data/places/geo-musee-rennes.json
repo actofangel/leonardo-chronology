@@ -1,0 +1,13 @@
+{
+  "id": "geo-musee-rennes",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Musée des Beaux-Arts de Rennes",
+  "identifiers": {
+    "wikidata": "Q3098373"
+  },
+  "claims": [],
+  "open_questions": [
+    "Stub created on 2026-11-02 for works imported from Wikidata held here. Needs coordinates and sources."
+  ]
+}

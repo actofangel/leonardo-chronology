@@ -1,0 +1,285 @@
+{
+  "id": "w-allegory-animal-fighting",
+  "type": "work",
+  "label": "Allegory with Animal Fighting and a Man with a Burning-glass",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "mythology"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389998 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389998",
+    "louvre_ark": "cl020003010",
+    "inventory": "INV 2247, Recto"
+  },
+  "variants": [
+    "Allégorie au miroir solaire"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_All%C3%A9gorie_au_miroir_solaire%2C_INV_2247%2C_Recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_All%C3%A9gorie_au_miroir_solaire%2C_INV_2247%2C_Recto.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/00/30/10/00/AGO003010-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020003010"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api573",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389998 (Allegory with Animal Fighting and a Man with a Burning-glass), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389998"
+        }
+      ]
+    },
+    {
+      "id": "api574",
+      "about": "date",
+      "value": {
+        "text": "1485 to 1490",
+        "start": 1485,
+        "end": 1490
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1485 to 1490.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389998 (Allegory with Animal Fighting and a Man with a Burning-glass), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389998"
+        }
+      ]
+    },
+    {
+      "id": "api575",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2247, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number INV 2247, Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389998 (Allegory with Animal Fighting and a Man with a Burning-glass), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389998"
+        }
+      ]
+    },
+    {
+      "id": "api576",
+      "about": "current_location",
+      "value": {
+        "text": "Cabinet des dessins"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389998 (Allegory with Animal Fighting and a Man with a Burning-glass), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389998"
+        }
+      ]
+    },
+    {
+      "id": "api577",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389998 (Allegory with Animal Fighting and a Man with a Burning-glass), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389998"
+        }
+      ]
+    },
+    {
+      "id": "api578",
+      "about": "dimensions",
+      "value": {
+        "text": "0.104 metre x 0.124 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.104 metre, width 0.124 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389998 (Allegory with Animal Fighting and a Man with a Burning-glass), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389998"
+        }
+      ]
+    },
+    {
+      "id": "api579",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2247, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number INV 2247, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003010 (Allégorie au miroir solaire), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003010"
+        }
+      ]
+    },
+    {
+      "id": "api580",
+      "about": "inventory_history",
+      "value": {
+        "text": "Anciens numéros d'inventaire: NIII 41; Référence de l'inventaire manuscrit: vol.1, p.384"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Anciens numéros d'inventaire: NIII 41; Référence de l'inventaire manuscrit: vol.1, p.384.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003010 (Allégorie au miroir solaire), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003010"
+        }
+      ]
+    },
+    {
+      "id": "api581",
+      "about": "date",
+      "value": {
+        "text": "Vers 1485/1490",
+        "start": 1485,
+        "end": 1490
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: Vers 1485/1490.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003010 (Allégorie au miroir solaire), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003010"
+        }
+      ]
+    },
+    {
+      "id": "api582",
+      "about": "medium",
+      "value": {
+        "text": "Plume et encre brune ; traits d'encadrement de la composition à la plume et à l'encre brune. Annoté, en bas au centre, à la plume et encre brune : 'Lionardo da Vinci'. Restauré en 2003"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Plume et encre brune ; traits d'encadrement de la composition à la plume et à l'encre brune. Annoté, en bas au centre, à la plume et encre brune : 'Lionardo da Vinci'. Restauré en 2003",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003010 (Allégorie au miroir solaire), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003010"
+        }
+      ]
+    },
+    {
+      "id": "api583",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.104 m (à la feuille); Largeur 0.124 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.104 m (à la feuille); Largeur 0.124 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003010 (Allégorie au miroir solaire), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003010"
+        }
+      ]
+    },
+    {
+      "id": "api584",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003010 (Allégorie au miroir solaire), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003010"
+        }
+      ]
+    },
+    {
+      "id": "api585",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003010 (Allégorie au miroir solaire), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003010"
+        }
+      ]
+    },
+    {
+      "id": "api586",
+      "about": "provenance",
+      "value": {
+        "text": "E. Jabach, Inv. ms., École de Florence, n° 12 (Leonardo davincij) ; acquis pour le Cabinet du roi en 1671 ; paraphe de J.-Ch. Garnier d'Isle (L.2961).Notice de l'inventaire Jabach :Dessin probablement issu de l'ensemble des dessins dits d'ordonnance collés et dorés de la collection d'Everhard Jabach acquis pour le roi en 1671 A. Critères de l'identification Le dessin ne présente aucun des signes attestant sa provenance et son acquisition en 1671 : - montage Jabach ivoire à large bande d'or fin ; - numéro d'inventaire Jabach à la sanguine, au verso du montage ; - paraphe Jabach à l'encre brune [L. 2959], au verso du montage ; - marques, au verso du montage, du récolement des dessins Jabach effectué en 1690 par Jean Prioult, commissaire-enquêteur au Châtelet de Paris, à la suite du décès de Charles Le Brun, premier peintre du roi, directeur et garde général du Cabinet des tableaux et dessins : - transcription en toutes lettres du numéro d'inventaire Jabach ; - paraphe Prioult [L. 2953]. Sa présence dans les collections royales à la date de 1752 est attestée par le paraphe de Jean-Charles Garnier d'Isle, contrôleur des Bâtiments du roi, apposé lors du récolement effectué en 1752 [L. 2961]. L'iconographie, la technique et les dimensions du montage telles qu'on peut les restituer sont en accord avec la description donnée par l'une des notices de l'inventaire établi par Jabach en 1671. B. Notice de l'Inventaire Jabach, février 1671. Minute. Paris, Archives nationales, O1 1967. Invantaire de 517 desseins d'ordonnances escole florentinne : 12 Une figure qui tient un miroir ardant ou il y a un combat de plusieurs animaux a la plume et lavé sur de papier gris de 7 pouce de long sur 6 1/2 d'haut de Leornardo da Vinci [Leonardo da Vinci]Inventaire du musée Napoléon :Inventaire du Musée Napoléon. Dessins. Vol.1, p.7, chap. : Ecole florentine, carton 1. (...) Numéro : 42. Nom du maître : Idem & Léonard de Vinci /&. Numéro d'ordre dans l'oeuvre du maître : 3. Désignation des sujets : Un homme assis, rassemblant les rayons du soleil dans un miroir ardent, dont il se sert pour faire périr un dragon qui se bat contre un lion, une lionne et plusieurs autres animaux. Ce dessin à la plume a été gravé par Caylus, et fut exposé en l'an douze sous le n° 166 et en 1811 sous le n° 196. à l'encre mention d'exposition barrée au crayon et en 1820 sous le n° 208 à l'encre mention d'exposition barrée au crayon#208 au crayon Dimensions : H. 10 x L. 13cm. Origine : Idem & Collection ancienne /&.Prix de l'estimation de l'objet : 100francs. Emplacement actuel : Idem & Galerie d'Apollon /&. Observations : Mariette a parlé de ce dessin dans sa lettre sur Léonard de Vinci, au comte de Caylus.. Signe de recollement : Vu au crayon#trait oblique / au crayon / sous le n° Morel d'Arleux. Cote : 1DD33"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: E. Jabach, Inv. ms., École de Florence, n° 12 (Leonardo davincij) ; acquis pour le Cabinet du roi en 1671 ; paraphe de J.-Ch. Garnier d'Isle (L.2961).Notice de l'inventaire Jabach :Dessin probablement issu de l'ensemble des dessins dits d'ordonnance collés et dorés de la collection d'Everhard Jabach acquis pour le roi en 1671 A. Critères de l'identification Le dessin ne présente aucun des signes attestant sa provenance et son acquisition en 1671 : - montage Jabach ivoire à large bande d'or fin ; - numéro d'inventaire Jabach à la sanguine, au verso du montage ; - paraphe Jabach à l'encre brune [L. 2959], au verso du montage ; - marques, au verso du montage, du récolement des dessins Jabach effectué en 1690 par Jean Prioult, commissaire-enquêteur au Châtelet de Paris, à la suite du décès de Charles Le Brun, premier peintre du roi, directeur et garde général du Cabinet des tableaux et dessins : - transcription en toutes lettres du numéro d'inventaire Jabach ; - paraphe Prioult [L. 2953]. Sa présence dans les collections royales à la date de 1752 est attestée par le paraphe de Jean-Charles Garnier d'Isle, contrôleur des Bâtiments du roi, apposé lors du récolement effectué en 1752 [L. 2961]. L'iconographie, la technique et les dimensions du montage telles qu'on peut les restituer sont en accord avec la description donnée par l'une des notices de l'inventaire établi par Jabach en 1671. B. Notice de l'Inventaire Jabach, février 1671. Minute. Paris, Archives nationales, O1 1967. Invantaire de 517 desseins d'ordonnances escole florentinne : 12 Une figure qui tient un miroir ardant ou il y a un combat de plusieurs animaux a la plume et lavé sur de papier gris de 7 pouce de long sur 6 1/2 d'haut de Leornardo da Vinci [Leonardo da Vinci]Inventaire du musée Napoléon :Inventaire du Musée Napoléon. Dessins. Vol.1, p.7, chap. : Ecole florentine, carton 1. (...) Numéro : 42. Nom du maître : Idem & Léonard de Vinci /&. Numéro d'ordre dans l'oeuvre du maître : 3. Désignation des sujets : Un homme assis, rassemblant les rayons du soleil dans un miroir ardent, dont il se sert pour faire périr un dragon qui se bat contre un lion, une lionne et plusieurs autres animaux. Ce dessin à la plume a été gravé par Caylus, et fut exposé en l'an douze sous le n° 166 et en 1811 sous le n° 196. à l'encre mention d'exposition barrée au crayon et en 1820 sous le n° 208 à l'encre mention d'exposition barrée au crayon#208 au crayon Dimensions : H. 10 x L. 13cm. Origine : Idem & Collection ancienne /&.Prix de l'estimation de l'objet : 100francs. Emplacement actuel : Idem & Galerie d'Apollon /&. Observations : Mariette a parlé de ce dessin dans sa lettre sur Léonard de Vinci, au comte de Caylus.. Signe de recollement : Vu au crayon#trait oblique / au crayon / sous le n° Morel d'Arleux. Cote : 1DD33",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003010 (Allégorie au miroir solaire), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003010"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

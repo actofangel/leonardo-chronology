@@ -1,0 +1,167 @@
+{
+  "id": "w-head-3",
+  "type": "work",
+  "label": "Study for the Head of a Girl",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "portrait",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q52707816 (instance of: drawing; material: paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q52707816",
+    "inventory": "15572r"
+  },
+  "variants": [
+    "Volto di fanciulla",
+    "Tête de jeune femme",
+    "Head of a Woman"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_study_Madonna_of_the_rocks.jpeg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_study_Madonna_of_the_rocks.jpeg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2819",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q52707816 (Study for the Head of a Girl), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q52707816"
+        }
+      ]
+    },
+    {
+      "id": "api2820",
+      "about": "date",
+      "value": {
+        "text": "c.1483",
+        "start": 1483
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1483.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q52707816 (Study for the Head of a Girl), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q52707816"
+        }
+      ]
+    },
+    {
+      "id": "api2821",
+      "about": "inventory",
+      "value": {
+        "text": "15572r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 15572r in Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q52707816 (Study for the Head of a Girl), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q52707816"
+        }
+      ]
+    },
+    {
+      "id": "api2822",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Library of Turin"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q52707816 (Study for the Head of a Girl), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q52707816"
+        }
+      ]
+    },
+    {
+      "id": "api2823",
+      "about": "medium",
+      "value": {
+        "text": "paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q52707816 (Study for the Head of a Girl), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q52707816"
+        }
+      ]
+    },
+    {
+      "id": "api2824",
+      "about": "dimensions",
+      "value": {
+        "text": "181 mm x 159 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 181 mm, width 159 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q52707816 (Study for the Head of a Girl), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q52707816"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Head_of_a_Woman_(Leonardo%2C_Turin)",
+      "text": "The Head of a Young Woman is a drawing in silverpoint on paper by the Florentine painter Leonardo da Vinci, housed in the Royal Library of Turin.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Volto_di_fanciulla",
+      "text": "Il Volto di fanciulla è un disegno realizzato da Leonardo da Vinci e custodito oggi nella Biblioteca Reale di Torino (Italia).",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/T%C3%AAte_de_jeune_femme_(L%C3%A9onard_de_Vinci%2C_Turin)",
+      "text": "La Tête de jeune femme est un dessin réalisé à la pointe d'argent sur papier par le peintre florentin Léonard de Vinci et conservé à la bibliothèque royale de Turin.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-reale-turin"
+    }
+  ],
+  "current_location": "geo-biblioteca-reale-turin"
+}

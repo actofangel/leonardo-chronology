@@ -1,0 +1,86 @@
+{
+  "id": "w-drawings-foetus-utero-919103",
+  "type": "work",
+  "label": "Drawings of the Foetus in utero and the three surronding Membranes, and of the Movements of the Elbow Joint",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "anatomy"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389971 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389971",
+    "rcin": "919103",
+    "inventory": "RCIN 919103 verso"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919103%2C_The_rotation_of_the_arm%2C_and_the_foetus_in_the_womb_c.1511.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919103%2C_The_rotation_of_the_arm%2C_and_the_foetus_in_the_womb_c.1511.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api510",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389971 (Drawings of the Foetus in utero and the three surronding Membranes, and of the Movements of the Elbow Joint), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389971"
+        }
+      ]
+    },
+    {
+      "id": "api511",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919103 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919103 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389971 (Drawings of the Foetus in utero and the three surronding Membranes, and of the Movements of the Elbow Joint), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389971"
+        }
+      ]
+    },
+    {
+      "id": "api512",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389971 (Drawings of the Foetus in utero and the three surronding Membranes, and of the Movements of the Elbow Joint), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389971"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

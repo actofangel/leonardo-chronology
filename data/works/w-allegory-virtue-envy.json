@@ -1,0 +1,36 @@
+{
+  "id": "w-allegory-virtue-envy",
+  "type": "work",
+  "label": "Allegory of Virtue and Envy",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "subject": [
+      "mythology"
+    ],
+    "basis": "Derived automatically from Wikidata Q9144770 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q9144770"
+  },
+  "claims": [
+    {
+      "id": "api1306",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q9144770 (Allegory of Virtue and Envy), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q9144770"
+        }
+      ]
+    }
+  ]
+}

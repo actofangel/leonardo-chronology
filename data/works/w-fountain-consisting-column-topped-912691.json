@@ -1,0 +1,87 @@
+{
+  "id": "w-fountain-consisting-column-topped-912691",
+  "type": "work",
+  "label": "Fountain, consisting of a Column topped with a Stone Vase crowned by a Naked Figure and Water Basin",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "water",
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q136390145 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390145",
+    "rcin": "912691",
+    "inventory": "RCIN 912691 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912691%2C_Designs_for_a_fountain_c.1513.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912691%2C_Designs_for_a_fountain_c.1513.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1204",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390145 (Fountain, consisting of a Column topped with a Stone Vase crowned by a Naked Figure and Water Basin), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390145"
+        }
+      ]
+    },
+    {
+      "id": "api1205",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912691 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912691 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390145 (Fountain, consisting of a Column topped with a Stone Vase crowned by a Naked Figure and Water Basin), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390145"
+        }
+      ]
+    },
+    {
+      "id": "api1206",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390145 (Fountain, consisting of a Column topped with a Stone Vase crowned by a Naked Figure and Water Basin), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390145"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

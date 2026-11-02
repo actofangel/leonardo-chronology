@@ -1,0 +1,160 @@
+{
+  "id": "w-rocky-landscape-912397",
+  "type": "work",
+  "label": "A Rocky Landscape",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "technique": [
+      "black_chalk"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "landscape"
+    ],
+    "basis": "Derived automatically from Wikidata Q134237058 (instance of: drawing; material: black chalk; paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q134237058",
+    "rcin": "912397",
+    "inventory": "RCIN 912397"
+  },
+  "variants": [],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912397%2C_A_rocky_landscape_c.1510-15.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912397%2C_A_rocky_landscape_c.1510-15.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2938",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q134237058 (A Rocky Landscape), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q134237058"
+        }
+      ]
+    },
+    {
+      "id": "api2939",
+      "about": "date",
+      "value": {
+        "text": "1510",
+        "start": 1510
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1510.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q134237058 (A Rocky Landscape), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q134237058"
+        }
+      ]
+    },
+    {
+      "id": "api2940",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912397"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912397 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q134237058 (A Rocky Landscape), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q134237058"
+        }
+      ]
+    },
+    {
+      "id": "api2941",
+      "about": "inventory",
+      "value": {
+        "text": "182"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 182, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q134237058 (A Rocky Landscape), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q134237058"
+        }
+      ]
+    },
+    {
+      "id": "api2942",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q134237058 (A Rocky Landscape), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q134237058"
+        }
+      ]
+    },
+    {
+      "id": "api2943",
+      "about": "medium",
+      "value": {
+        "text": "black chalk; paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: black chalk; paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q134237058 (A Rocky Landscape), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q134237058"
+        }
+      ]
+    },
+    {
+      "id": "api2944",
+      "about": "dimensions",
+      "value": {
+        "text": "16.4 cm x 20.1 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 16.4 cm, width 20.1 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q134237058 (A Rocky Landscape), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q134237058"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

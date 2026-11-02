@@ -1,0 +1,198 @@
+{
+  "id": "w-drapery-standing-figure-6",
+  "type": "work",
+  "label": "Drapery Study for a Standing Figure Stepping Forwards to the Right",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "technique": [
+      "pen_and_ink"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q123550607 (instance of: drawing; material: paper; ink; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q123550607",
+    "inventory": "794.1.2506"
+  },
+  "variants": [
+    "Draperie pour une figure debout, se dirigeant vers la droite"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Draperie_pour_une_figure_debout%2C_se_dirigeant_vers_la_droite%2C_INV794-1-2506.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Draperie_pour_une_figure_debout%2C_se_dirigeant_vers_la_droite%2C_INV794-1-2506.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2255",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123550607 (Drapery Study for a Standing Figure Stepping Forwards to the Right), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123550607"
+        }
+      ]
+    },
+    {
+      "id": "api2256",
+      "about": "date",
+      "value": {
+        "text": "c.1475 to 1480",
+        "start": 1475,
+        "end": 1480
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1475 to 1480.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123550607 (Drapery Study for a Standing Figure Stepping Forwards to the Right), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123550607"
+        }
+      ]
+    },
+    {
+      "id": "api2257",
+      "about": "date",
+      "value": {
+        "text": "1451 to 1500",
+        "start": 1451,
+        "end": 1500
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1451 to 1500.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123550607 (Drapery Study for a Standing Figure Stepping Forwards to the Right), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123550607"
+        }
+      ]
+    },
+    {
+      "id": "api2258",
+      "about": "inventory",
+      "value": {
+        "text": "794.1.2506"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 794.1.2506 in Musée des Beaux-Arts de Rennes, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123550607 (Drapery Study for a Standing Figure Stepping Forwards to the Right), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123550607"
+        }
+      ]
+    },
+    {
+      "id": "api2259",
+      "about": "inventory",
+      "value": {
+        "text": "794-1-2506"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 794-1-2506 in Musée des Beaux-Arts de Rennes, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123550607 (Drapery Study for a Standing Figure Stepping Forwards to the Right), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123550607"
+        }
+      ]
+    },
+    {
+      "id": "api2260",
+      "about": "current_location",
+      "value": {
+        "text": "Musée des Beaux-Arts de Rennes"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Musée des Beaux-Arts de Rennes, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123550607 (Drapery Study for a Standing Figure Stepping Forwards to the Right), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123550607"
+        }
+      ]
+    },
+    {
+      "id": "api2261",
+      "about": "medium",
+      "value": {
+        "text": "paper; ink"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: paper; ink.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123550607 (Drapery Study for a Standing Figure Stepping Forwards to the Right), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123550607"
+        }
+      ]
+    },
+    {
+      "id": "api2262",
+      "about": "dimensions",
+      "value": {
+        "text": "21 cm x 28.3 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 21 cm, width 28.3 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123550607 (Drapery Study for a Standing Figure Stepping Forwards to the Right), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123550607"
+        }
+      ]
+    },
+    {
+      "id": "api2263",
+      "about": "depicts",
+      "value": {
+        "text": "drapery; man"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: drapery; man. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123550607 (Drapery Study for a Standing Figure Stepping Forwards to the Right), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123550607"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-musee-rennes"
+    }
+  ],
+  "current_location": "geo-musee-rennes"
+}

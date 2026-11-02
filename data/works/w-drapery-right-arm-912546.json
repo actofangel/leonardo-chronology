@@ -1,0 +1,143 @@
+{
+  "id": "w-drapery-right-arm-912546",
+  "type": "work",
+  "label": "Drapery Study for the Right Arm of Saint Peter in the Last Supper",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "religious",
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q131613966 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q131613966",
+    "rcin": "912546",
+    "inventory": "RCIN 912546"
+  },
+  "variants": [
+    "Il braccio di San Pietro",
+    "Drapery Study for the Right Arm of St Peter in the Last Supper"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Braccio_di_san_Pietro_-_Leonardo.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Braccio_di_san_Pietro_-_Leonardo.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2438",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613966 (Drapery Study for the Right Arm of Saint Peter in the Last Supper), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613966"
+        }
+      ]
+    },
+    {
+      "id": "api2439",
+      "about": "date",
+      "value": {
+        "text": "c.1495",
+        "start": 1495
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1495.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613966 (Drapery Study for the Right Arm of Saint Peter in the Last Supper), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613966"
+        }
+      ]
+    },
+    {
+      "id": "api2440",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912546"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912546 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613966 (Drapery Study for the Right Arm of Saint Peter in the Last Supper), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613966"
+        }
+      ]
+    },
+    {
+      "id": "api2441",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912546 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912546 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613966 (Drapery Study for the Right Arm of Saint Peter in the Last Supper), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613966"
+        }
+      ]
+    },
+    {
+      "id": "api2442",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613966 (Drapery Study for the Right Arm of Saint Peter in the Last Supper), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613966"
+        }
+      ]
+    },
+    {
+      "id": "api2443",
+      "about": "depicts",
+      "value": {
+        "text": "Saint Peter"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Saint Peter. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613966 (Drapery Study for the Right Arm of Saint Peter in the Last Supper), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613966"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

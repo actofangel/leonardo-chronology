@@ -1,0 +1,82 @@
+{
+  "id": "w-designs-treadwheel-four",
+  "type": "work",
+  "label": "Designs for a Treadwheel with Four Crossbows (Revolving Crossbow)",
+  "subtype": "technical_drawing",
+  "classification": {
+    "form": "technical_drawing",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136390160 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390160",
+    "inventory": "fol. 1070r/387r-a-b"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/000R-1070.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:000R-1070.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1219",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390160 (Designs for a Treadwheel with Four Crossbows (Revolving Crossbow)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390160"
+        }
+      ]
+    },
+    {
+      "id": "api1220",
+      "about": "inventory",
+      "value": {
+        "text": "fol. 1070r/387r-a-b"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number fol. 1070r/387r-a-b in Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390160 (Designs for a Treadwheel with Four Crossbows (Revolving Crossbow)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390160"
+        }
+      ]
+    },
+    {
+      "id": "api1221",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390160 (Designs for a Treadwheel with Four Crossbows (Revolving Crossbow)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390160"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "current_location": "geo-ambrosiana"
+}

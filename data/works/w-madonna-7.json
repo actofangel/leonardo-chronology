@@ -1,0 +1,122 @@
+{
+  "id": "w-madonna-7",
+  "type": "work",
+  "label": "Studies for a Madonna with a Cat",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q131561180 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q131561180",
+    "inventory": "421 E"
+  },
+  "variants": [
+    "Disegno di Leonardo da Vinci (Uffizi, 421 E)"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci%2C_Madonna_col_Bambino_che_carezza_un_gattino_(Gallerie_degli_Uffizi)_(cropped).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci%2C_Madonna_col_Bambino_che_carezza_un_gattino_(Gallerie_degli_Uffizi)_(cropped).jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2362",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561180 (Studies for a Madonna with a Cat), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561180"
+        }
+      ]
+    },
+    {
+      "id": "api2363",
+      "about": "inventory",
+      "value": {
+        "text": "421 E"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 421 E in Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561180 (Studies for a Madonna with a Cat), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561180"
+        }
+      ]
+    },
+    {
+      "id": "api2364",
+      "about": "inventory",
+      "value": {
+        "text": "Inv. 421E recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Inv. 421E recto in Gabinetto dei disegni e delle stampe, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561180 (Studies for a Madonna with a Cat), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561180"
+        }
+      ]
+    },
+    {
+      "id": "api2365",
+      "about": "current_location",
+      "value": {
+        "text": "Uffizi Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561180 (Studies for a Madonna with a Cat), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561180"
+        }
+      ]
+    },
+    {
+      "id": "api2366",
+      "about": "current_location",
+      "value": {
+        "text": "Gabinetto dei disegni e delle stampe"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Gabinetto dei disegni e delle stampe, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561180 (Studies for a Madonna with a Cat), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561180"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-uffizi"
+    }
+  ],
+  "current_location": "geo-uffizi"
+}

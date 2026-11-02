@@ -1,0 +1,186 @@
+{
+  "id": "w-head-bearded-man-so",
+  "type": "work",
+  "label": "Head of a Bearded Man (so-called Self-portrait)",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "technique": [
+      "red_chalk"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "portrait",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q993743 (instance of: drawing; material: red chalk; paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q993743",
+    "inventory": "15571"
+  },
+  "variants": [
+    "Autoritratto",
+    "autoportrait"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2591",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q993743 (Head of a Bearded Man (so-called Self-portrait)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q993743"
+        }
+      ]
+    },
+    {
+      "id": "api2592",
+      "about": "date",
+      "value": {
+        "text": "c.1569",
+        "start": 1569
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1569.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q993743 (Head of a Bearded Man (so-called Self-portrait)), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q993743"
+        }
+      ]
+    },
+    {
+      "id": "api2593",
+      "about": "inventory",
+      "value": {
+        "text": "15571"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 15571 in Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q993743 (Head of a Bearded Man (so-called Self-portrait)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q993743"
+        }
+      ]
+    },
+    {
+      "id": "api2594",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Library of Turin"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q993743 (Head of a Bearded Man (so-called Self-portrait)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q993743"
+        }
+      ]
+    },
+    {
+      "id": "api2595",
+      "about": "medium",
+      "value": {
+        "text": "red chalk; paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: red chalk; paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q993743 (Head of a Bearded Man (so-called Self-portrait)), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q993743"
+        }
+      ]
+    },
+    {
+      "id": "api2596",
+      "about": "dimensions",
+      "value": {
+        "text": "333 mm x 213 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 333 mm, width 213 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q993743 (Head of a Bearded Man (so-called Self-portrait)), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q993743"
+        }
+      ]
+    },
+    {
+      "id": "api2597",
+      "about": "depicts",
+      "value": {
+        "text": "Leonardo da Vinci; man; elderly people; old age; Shenandoah; waist-length hair; aquiline nose; periorbital puffiness; eyebrow"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Leonardo da Vinci; man; elderly people; old age; Shenandoah; waist-length hair; aquiline nose; periorbital puffiness; eyebrow. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q993743 (Head of a Bearded Man (so-called Self-portrait)), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q993743"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Portrait_of_a_Man_in_Red_Chalk",
+      "text": "Portrait of a Man in Red Chalk is a drawing currently in the collection of the Royal Library of Turin. It is widely, though not universally, accepted as a self-portrait of the Renaissance artist Leonardo da Vinci. It is thought that Leonardo drew this self-portrait at about the age of 60. The portrait has been extensively reproduced and has become an iconic representation of him as a polymath or \"Renaissance man\". Despite this, some historians and scholars disagree as to the true identity of the sitter.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Autoritratto_(Leonardo)",
+      "text": "L'Autoritratto di Leonardo da Vinci è un disegno a sanguigna su carta (33,5×21,6 cm), databile al 1517 circa e conservato nella Biblioteca Reale di Torino, all'interno dei Musei Reali.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Autoportrait_(L%C3%A9onard_de_Vinci)",
+      "text": "L'Autoportrait de Léonard de Vinci est un dessin à la sanguine sur papier, daté entre 1512 et 1515. Ce petit dessin est généralement présenté comme l'autoportrait du peintre et inventeur florentin Léonard de Vinci. Depuis 1980 et une publication d'Hans Ost cette paternité est mise en doute, notamment à cause de son apparition tardive (1839) et sa forte ressemblance avec une gravure de 1810 de Giuseppe Bossi. Il est conservé à la bibliothèque royale de Turin.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-reale-turin"
+    }
+  ],
+  "current_location": "geo-biblioteca-reale-turin"
+}

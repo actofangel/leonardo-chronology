@@ -1,0 +1,122 @@
+{
+  "id": "w-seated-figures",
+  "type": "work",
+  "label": "Three Seated Figures and Studies of Machines",
+  "subtype": "technical_drawing",
+  "classification": {
+    "form": "technical_drawing",
+    "condition": "extant",
+    "subject": [
+      "mechanics",
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q110915968 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q110915968",
+    "inventory": "WA1855.82"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_WA1855.82_(cropped).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_WA1855.82_(cropped).jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2174",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q110915968 (Three Seated Figures and Studies of Machines), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q110915968"
+        }
+      ]
+    },
+    {
+      "id": "api2175",
+      "about": "date",
+      "value": {
+        "text": "1480 to 1482",
+        "start": 1480,
+        "end": 1482
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1480 to 1482.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q110915968 (Three Seated Figures and Studies of Machines), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q110915968"
+        }
+      ]
+    },
+    {
+      "id": "api2176",
+      "about": "inventory",
+      "value": {
+        "text": "WA1855.82"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number WA1855.82 in Ashmolean Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q110915968 (Three Seated Figures and Studies of Machines), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q110915968"
+        }
+      ]
+    },
+    {
+      "id": "api2177",
+      "about": "current_location",
+      "value": {
+        "text": "Ashmolean Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Ashmolean Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q110915968 (Three Seated Figures and Studies of Machines), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q110915968"
+        }
+      ]
+    },
+    {
+      "id": "api2178",
+      "about": "dimensions",
+      "value": {
+        "text": "206 mm x 181 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 206 mm, width 181 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q110915968 (Three Seated Figures and Studies of Machines), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q110915968"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ashmolean"
+    }
+  ],
+  "current_location": "geo-ashmolean"
+}

@@ -1,0 +1,126 @@
+{
+  "id": "w-head-2",
+  "type": "work",
+  "label": "Study of the Head of a Soldier",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389503 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389503",
+    "inventory": "1174r"
+  },
+  "variants": [
+    "Étude de la tête d'un soldat pour La Bataile d'Angiari",
+    "Study of a Warrior's Head for the Battle of Anghiari",
+    "Head of a Warrior"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Study_of_a_Warrior's_Head_for_the_Battle_of_Anghiari_-_Google_Art_Project.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Study_of_a_Warrior's_Head_for_the_Battle_of_Anghiari_-_Google_Art_Project.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api81",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389503 (Study of the Head of a Soldier), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389503"
+        }
+      ]
+    },
+    {
+      "id": "api82",
+      "about": "date",
+      "value": {
+        "text": "1504 to 1505",
+        "start": 1504,
+        "end": 1505
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1504 to 1505.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389503 (Study of the Head of a Soldier), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389503"
+        }
+      ]
+    },
+    {
+      "id": "api83",
+      "about": "inventory",
+      "value": {
+        "text": "1174r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1174r in Museum of Fine Arts, Budapest, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389503 (Study of the Head of a Soldier), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389503"
+        }
+      ]
+    },
+    {
+      "id": "api84",
+      "about": "current_location",
+      "value": {
+        "text": "Museum of Fine Arts, Budapest"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Museum of Fine Arts, Budapest, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389503 (Study of the Head of a Soldier), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389503"
+        }
+      ]
+    },
+    {
+      "id": "api85",
+      "about": "dimensions",
+      "value": {
+        "text": "22.7 cm x 18.6 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 22.7 cm, width 18.6 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389503 (Study of the Head of a Soldier), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389503"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-szepmuveszeti-budapest"
+    }
+  ],
+  "current_location": "geo-szepmuveszeti-budapest"
+}

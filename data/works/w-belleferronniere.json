@@ -22,20 +22,11 @@
   "dimensions": "63 x 45 cm",
   "variants": [
     "Portrait de femme, dit à tort La Belle Ferronnière",
-    "Portrait of a Woman"
+    "Portrait of a Woman",
+    "Belle Ferronnière",
+    "Portrait of a Lady from the Court of Milan"
   ],
   "summary": "Portrait of a woman in the Louvre (INV 778), first recorded at Fontainebleau in 1642; the title is a later misnomer.",
-  "timeline": {
-    "lane": "works",
-    "kind": "Painting",
-    "start": 1490,
-    "end": 1497,
-    "date": "c.1490 to 1497",
-    "tier": "S",
-    "place": "Milan, now Louvre",
-    "text": "Portrait of a woman of the Milanese court. The sitter's identity is unresolved and the date rests on style.",
-    "basis": "Museum dating; sitter identification interpretive."
-  },
   "relations": [
     {
       "rel": "held_by",
@@ -172,9 +163,359 @@
         "Marani 2000, catalogue entry",
         "Zöllner 2003, catalogue entry"
       ]
+    },
+    {
+      "id": "api2537",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q656434 (La Belle Ferronnière), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q656434"
+        }
+      ]
+    },
+    {
+      "id": "api2538",
+      "about": "date",
+      "value": {
+        "text": "c.1495",
+        "start": 1495
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1495.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q656434 (La Belle Ferronnière), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q656434"
+        }
+      ]
+    },
+    {
+      "id": "api2539",
+      "about": "inventory",
+      "value": {
+        "text": "INV 778"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number INV 778 in Department of Paintings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q656434 (La Belle Ferronnière), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q656434"
+        }
+      ]
+    },
+    {
+      "id": "api2540",
+      "about": "inventory",
+      "value": {
+        "text": "MR 317"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number MR 317 in Department of Paintings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q656434 (La Belle Ferronnière), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q656434"
+        }
+      ]
+    },
+    {
+      "id": "api2541",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Paintings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Paintings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q656434 (La Belle Ferronnière), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q656434"
+        }
+      ]
+    },
+    {
+      "id": "api2542",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q656434 (La Belle Ferronnière), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q656434"
+        }
+      ]
+    },
+    {
+      "id": "api2543",
+      "about": "dimensions",
+      "value": {
+        "text": "63 cm x 45 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 63 cm, width 45 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q656434 (La Belle Ferronnière), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q656434"
+        }
+      ]
+    },
+    {
+      "id": "api2544",
+      "about": "depicts",
+      "value": {
+        "text": "woman"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: woman. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q656434 (La Belle Ferronnière), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q656434"
+        }
+      ]
+    },
+    {
+      "id": "api2545",
+      "about": "inventory",
+      "value": {
+        "text": "INV 778"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number INV 778.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062372 (Portrait de femme, dit à tort La Belle Ferronnière), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062372"
+        }
+      ]
+    },
+    {
+      "id": "api2546",
+      "about": "inventory_history",
+      "value": {
+        "text": "Autre numéro d'inventaire: MR 317"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Autre numéro d'inventaire: MR 317.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062372 (Portrait de femme, dit à tort La Belle Ferronnière), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062372"
+        }
+      ]
+    },
+    {
+      "id": "api2547",
+      "about": "date",
+      "value": {
+        "text": "4e quart du XVe siècle (vers 1490 - 1497)",
+        "start": 1490,
+        "end": 1497
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: 4e quart du XVe siècle (vers 1490 - 1497).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062372 (Portrait de femme, dit à tort La Belle Ferronnière), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062372"
+        }
+      ],
+      "check_in": [
+        "Ravaud, Elisabeth ; Eveno, Myriam ; Delieuvin, Vincent, « Révéler les choix matériels et techniques de Léonard de Vinci par l’analyse chimique : le cas du pigment blanc de plomb », Technè, Hors-série, 2025, Disponible sur : &lt;https://doi.org/10.4000/11v4a&gt; , p. 162-171",
+        "Loire, Stéphane, Les Peintures italiennes du Musée Napoléon (1810-1815). Édition illustrée et commentée du volume I de l'Inventaire Napoléon, Paris, Mare & Martin / Louvre éditions, 2025, p. 534-535, n°902",
+        "Nieddu, Luisa, Jean Perréal, Roma, UniversItalia, 2024, p. 173, 249, 312, ill.coul., fig.64",
+        "Bruna, Denis (dir.), Des Cheveux et des poils, cat. exp. (Paris (Externe, France), Musée des Arts décoratifs-MAD, 5 avril - 17 septembre 2023), Paris, Musée des Arts Décoratifs, 2023, p. 53",
+        "Marani, Pietro C., L'ultimo Leonardo 1510-1519. Leonardo tra Milano, Roma e Amboise : committenze, progetti, studi fra arte, architettura e scienza, Varèse, Nomos, 2020, p. 181, fig.4",
+        "Scailliérez, Cécile, Léonard de Vinci. La Joconde, Paris, Louvre éditions / Editions El Viso, (Solo), 2019 (rééd. 2003 avec addendum), p. 4, 12, 18, 23-24",
+        "Delieuvin, Vincent ; Frank, Louis (dir.), Léonard de Vinci, cat. exp. (Paris, musée du Louvre, 24 octobre 2019 - 24 février 2020), Paris, Hazan / Louvre éditions, 2019, p. 140, 142, 154-160, 358-369, 410, 411, ill. coul. p. 159, fig. 66, 144, 152, 153, 157, cat. 64",
+        "Charnier, Jean-François ; Daucé, Noëmi ; Bourrat, Olivier, Louvre Abu Dhabi : le guide du musée, Paris, Skira, 2018, p. 218-219, ill. coul.",
+        "Leonardo da Vinci 1452-1519. Il disegno del mondo, cat. exp. (Milan, Palazzo Reale, 16 avril-19 juillet 2015), Milan, Skira, 2015, p. 122, 123, 528-529, ill. coul. p. 123, n°III.6",
+        "Bailey, Martin, « La difficoltà di esporre Leonardo », Il giornale dell'arte, n° 312, Septembre, Le mostre, 2011, p. 17, 26"
+      ]
+    },
+    {
+      "id": "api2548",
+      "about": "medium",
+      "value": {
+        "text": "huile sur bois (noyer)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: huile sur bois (noyer)",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062372 (Portrait de femme, dit à tort La Belle Ferronnière), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062372"
+        }
+      ]
+    },
+    {
+      "id": "api2549",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0,63 m; Hauteur avec accessoire 0,9 m; Largeur 0,45 m; Largeur avec accessoire 0,72 m; Epaisseur avec accessoire 7 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0,63 m; Hauteur avec accessoire 0,9 m; Largeur 0,45 m; Largeur avec accessoire 0,72 m; Epaisseur avec accessoire 7 cm.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062372 (Portrait de femme, dit à tort La Belle Ferronnière), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062372"
+        }
+      ]
+    },
+    {
+      "id": "api2550",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [Attribution actuelle]; Italie [Attribution actuelle]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [Attribution actuelle]; Italie [Attribution actuelle].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062372 (Portrait de femme, dit à tort La Belle Ferronnière), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062372"
+        }
+      ],
+      "check_in": [
+        "Ravaud, Elisabeth ; Eveno, Myriam ; Delieuvin, Vincent, « Révéler les choix matériels et techniques de Léonard de Vinci par l’analyse chimique : le cas du pigment blanc de plomb », Technè, Hors-série, 2025, Disponible sur : &lt;https://doi.org/10.4000/11v4a&gt; , p. 162-171",
+        "Loire, Stéphane, Les Peintures italiennes du Musée Napoléon (1810-1815). Édition illustrée et commentée du volume I de l'Inventaire Napoléon, Paris, Mare & Martin / Louvre éditions, 2025, p. 534-535, n°902",
+        "Nieddu, Luisa, Jean Perréal, Roma, UniversItalia, 2024, p. 173, 249, 312, ill.coul., fig.64",
+        "Bruna, Denis (dir.), Des Cheveux et des poils, cat. exp. (Paris (Externe, France), Musée des Arts décoratifs-MAD, 5 avril - 17 septembre 2023), Paris, Musée des Arts Décoratifs, 2023, p. 53",
+        "Marani, Pietro C., L'ultimo Leonardo 1510-1519. Leonardo tra Milano, Roma e Amboise : committenze, progetti, studi fra arte, architettura e scienza, Varèse, Nomos, 2020, p. 181, fig.4",
+        "Scailliérez, Cécile, Léonard de Vinci. La Joconde, Paris, Louvre éditions / Editions El Viso, (Solo), 2019 (rééd. 2003 avec addendum), p. 4, 12, 18, 23-24",
+        "Delieuvin, Vincent ; Frank, Louis (dir.), Léonard de Vinci, cat. exp. (Paris, musée du Louvre, 24 octobre 2019 - 24 février 2020), Paris, Hazan / Louvre éditions, 2019, p. 140, 142, 154-160, 358-369, 410, 411, ill. coul. p. 159, fig. 66, 144, 152, 153, 157, cat. 64",
+        "Charnier, Jean-François ; Daucé, Noëmi ; Bourrat, Olivier, Louvre Abu Dhabi : le guide du musée, Paris, Skira, 2018, p. 218-219, ill. coul.",
+        "Leonardo da Vinci 1452-1519. Il disegno del mondo, cat. exp. (Milan, Palazzo Reale, 16 avril-19 juillet 2015), Milan, Skira, 2015, p. 122, 123, 528-529, ill. coul. p. 123, n°III.6",
+        "Bailey, Martin, « La difficoltà di esporre Leonardo », Il giornale dell'arte, n° 312, Septembre, Le mostre, 2011, p. 17, 26"
+      ]
+    },
+    {
+      "id": "api2551",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Peintures"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Peintures.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062372 (Portrait de femme, dit à tort La Belle Ferronnière), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062372"
+        }
+      ]
+    },
+    {
+      "id": "api2552",
+      "about": "provenance",
+      "value": {
+        "text": "Provenance : Ce tableau est mentionné pour la première fois, de façon à peu près certaine, en 1642 au château de Fontainebleau. Il est vraisemblablement entré plus tôt dans les collections royales françaises, peut-être dès le règne de Louis XII ou celui de François Ier. Commentaire : Une provenance encore inconnue On ne connaît aucun document du XVIe siècle évoquant incontestablement ce tableau. En 1975, Jean Adhémar avait proposé de l’identifier au « tableau paint sur boys d’une femme de fasson ytalienne », sans nom d’auteur, figurant dans un inventaire de la reine Anne de Bretagne à Amboise, en émettant l’hypothèse qu’il ait pu être saisi par Louis XII à Milan en 1499. L’idée fut reprise par la suite mais, récemment, a été justement contestée par Caroline Vrand, qui a démontré que cet inventaire avait été fait avant la prise du duché de Lombardie par les Français. En 1990, Carlo Vecce a soumis l’hypothèse de la présence du portrait au château de Blois en 1517, en se servant du témoignage du journal de voyage du cardinal d’Aragon rédigé par son secrétaire Antonio de Beatis. En déplacement en France, le prélat rendit visite à Léonard de Vinci le 10 octobre 1517 et admira à cette occasion trois peintures du maître : la Sainte Anne, le Saint Jean Baptiste et le « portrait d’une certaine dame florentine » qui est très certainement la Joconde. Le lendemain, il remarqua à Blois « un portrait d’une certaine dame de Lombardie peinte au naturel assez belle, mais selon moi pas autant que la signora Gualanda ». Vecce a supposé qu’Antonio de Beatis comparait ici la beauté du portrait d’Isabella Gualanda, qui serait selon lui la Joconde vue la veille au Clos-Lucé, avec celui de la Belle Ferronnière, dont l’habit est en effet caractéristique de la cour milanaise. Mais il est en fait impossible d’interpréter ainsi le journal du cardinal d’Aragon, car l’auteur du portrait milanais n’est pas cité et aucune référence n’est faite à Léonard. En outre, l’évocation d’Isabella Gualanda, l’une des plus belles femmes de la cour de Naples, ne renvoie certainement pas au portrait de Florentine vu au Clos-Lucé. Cette comparaison supposée entre la Joconde et la Belle Ferronnière n’est donc absolument pas établie. Du reste, on pourrait s’étonner que le cardinal n’ait pas signalé que la Milanaise avait été peinte par Léonard. Bien sûr, il pouvait l’ignorer, et l’on ne peut donc pas non plus totalement écarter l’idée que le tableau vu à Blois soit bien le tableau parisien. Cela doit tout simplement demeurer une hypothèse, assez faible car privée d’indices significatifs. La Belle Ferronnière semble mentionnée pour la première fois, de façon à peu près certaine, par le Père Dan dans le Trésor des merveilles de la maison royale de Fontainebleau, publié en 1642. Il s’agit en effet très certainement de la quatrième œuvre de Léonard listée dans l’ouvrage, « un portrait d’une duchesse de Mantoue ». En 1651, Raphaël Trichet du Fresne reprend cette identification dans la courte biographie de l’artiste, insérée en préambule de sa publication du Traité de la peinture dans la version italienne : « est également beau un autre portrait du même Léonard qui est à Fontainebleau, et que l’on dit être d’une marquise de Mantoue ». Cette identité se perd cependant dans l’inventaire des tableaux du roi rédigé par le peintre Le Brun en 1683, où l’œuvre est décrite comme un simple « portrait de femme », tout comme dans l’Inventaire des tableaux du Roi rédigé en 1709-1710 par Nicolas Bailly, puis dans le Catalogue raisonné des tableaux du roy de François Bernard Lépicié en 1752. Fort curieusement, elle est reconnue comme l’effigie d’Anne Boleyn, par Durameau dans son inventaire des tableaux du roi conservés à la Surintendance des bâtiments à Versailles, rédigé en 1784. L’hypothèse du portrait de Lucrezia Crivelli C’est à Giovan Battista Venturi, physicien italien installé en 1796 à Paris, où il étudia les carnets de Léonard de Vinci confisqués par les troupes françaises à Milan, que l’on doit la première proposition d’identification vraisemblable. Sa familiarité avec les manuscrits du maître lui avait permis de repérer à l’intérieur du Codex Atlanticus (Milan, Bibliothèque ambrosienne) un poème en latin célébrant le portrait d’une certaine Lucrezia, peint par Léonard pour son amant Ludovic le More. Longtemps anonyme, le texte a pu être reconnu par Giovanni Agosti de la main d’Antonio Tebaldeo, poète né à Ferrare en 1463, qui vécut à Mantoue où il fut le précepteur d’Isabelle d’Este : Combien l’art savant répond bien à la nature Vinci aurait pu, comme si souvent, peindre l’âme Mais il ne le fit pas, afin que l’image soit plus ressemblante Car le More seul possède son âme par son amour Celle dont il est question s’appelle Lucrezia, et à elle les dieux donnèrent tout d’une main prodigue. Quel rare aspect ! Léonard la peignit, le More l’aima. L’un, premier parmi les peintres, l’autre, premier parmi les princes Le peintre offensa certainement la Nature et les grandes déesses avec cette peinture. D’abord du dépit de voir qu’une main humaine soit si capable, puisqu’une figure destinée à périr bientôt accède à l’immortalité. Il le fit pour l’amour du More, ce pour quoi le More le protège. Les dieux et les hommes craignent de contrarier le More (Traduction de Louis Frank) Le poème reprend un thème assez convenu, déjà présent dans les vers de Bellincioni dédié au portrait de Cecilia Gallerani par Léonard, de la beauté du modèle immortalisée par l’Art et jalousée par la Nature. Venturi reconnut ici Lucrezia Crivelli, dame d’honneur de Béatrice d’Este, l’épouse de Ludovic le More, qui devint sa maîtresse à partir de 1495 et le resta jusqu’à sa chute en 1499. Elle lui donna un fils en mars 1497, légitimé et connu sous le nom de Giovanni Paolo Sforza, et elle était enceinte d’un second enfant au moment où les Français envahirent le Milanais. La confusion avec le portrait de la Belle Ferronnière L’identification à Lucrezia Crivelli rencontra un grand succès, mais n’empêcha pas la grossière erreur du peintre Jean Auguste Dominique Ingres et de son graveur Le Fèvre, qui conçurent une estampe d’après le tableau du Louvre en lui donnant le titre erroné de « La Belle Ferronnière », une maîtresse du roi François Ier. Cette dénomination correspondait en fait jusqu’alors à un autre portrait de femme conservé au Louvre (INV. 786). Dans les collections royales françaises, les deux œuvres avaient été clairement différenciées tout au long des XVIIe et XVIIIe siècles : la vraie Belle Ferronnière, de dimension plus réduite, présentait une femme de profil habillée à la mode française, tandis que le portrait de Léonard était considéré comme celui d’une femme italienne, comme le justifiaient son vêtement et sa coiffure caractéristiques de la mode lombarde de la fin du XVe siècle. L’erreur de la gravure d’Ingres fut remarquée mais cela n’entrava pas le succès de cette fausse appellation, toujours d’usage aujourd’hui. Lucrezia Crivelli ou Béatrice d’Este ou Isabelle d’Aragon ? S’il s’agit bien de l’effigie de Lucrezia, on serait alors tenté d’interpréter la composition à la lecture du poème de Tebaldeo, dans lequel il est souligné que Léonard ne voulut pas représenter l’âme du modèle, qui n’appartient qu’au duc. Le regard de la jeune femme qui échappe au spectateur exprimerait alors cette inaccessibilité de l’âme. De même, le parapet, dont la présence a parfois étonné des critiques surpris de voir ce motif jugé trop convenu pour Léonard, aurait pu être demandé par le commanditaire afin de souligner une distance entre la jeune femme et le spectateur. Des identifications alternatives ont été proposées, souvent pour des raisons stylistiques, le tableau du Louvre étant jugé parfois antérieur à la période de liaison de Lucrezia avec Ludovic, c’est-à-dire entre 1495 et 1499. Les hypothèses se sont exclusivement concentrées sur des personnalités importantes de la cour du More, ce qui paraît justifié par l’habit de la jeune femme, caractéristique de la mode dite à l’espagnole, alors en faveur à Milan. Comme Cecilia Gallerani, elle porte une camora rouge assez dégagée sur la poitrine. Les manches amovibles sont attachées par de larges rubans verts, aujourd’hui altérés et jaunis, , formant des crevés d’où ressort la chemise blanche. Sa coiffure est propre également à la mode espagnole. Les cheveux sont appliqués sur la tête, avec une raie au centre, et retenus à l’arrière dans un petit bonnet, une cuffia en soie et fil d’or, maintenu par une lenza, un ruban de soie qui est orné d’un bijou de couleur rouge, peut-être un rubis. Les cheveux sont tressés et enserrés dans un trenzale. Dès 1907, Edith Hewett proposa de voir ici l’image de Béatrice d’Este, l’épouse de Ludovic, en raison d’affinités avec son buste sculpté en marbre par Gian Cristoforo Romano (Paris, musée du Louvre). Elle a été suivie par plusieurs historiens, dont Gigetta Dalli Regoli et plus récemment Luke Syson, qui ont également remarqué la ressemblance du tableau avec un dessin médiocre de la galerie des Offices portant une inscription qui l’identifie à Béatrice d’Este. De son côté, Alessandro Ballarin rejette cette idée, ne trouvant pas de ressemblance entre le tableau et les portraits connus de Béatrice. Il refuse tout autant l’idée de Lucrezia Crivelli, car, selon lui, le Portrait de jeune homme attribué à Marco d’Oggiono et daté 1494 (Londres, National Gallery) est inspiré de la dame du Louvre et constitue par conséquent un terminus ante quem. Il propose donc de l’identifier à Isabelle d’Aragon, la fille du roi de Naples Alphonse II, née en 1470, qui arriva à Milan en 1489 pour épouser le duc en titre, Gian Galeazzo Sforza. L’invention du portrait moderne Actif en Lombardie au service de Ludovic le More de 1483 à 1499, Léonard de Vinci y a peint au moins trois portraits, le Musicien (Milan, Pinacothèque ambrosienne), Cecilia Gallerani, dite La Dame à l’hermine (Cracovie, musée national) et la Belle Ferronnière. A Milan, l’artiste privilégie la présentation du modèle sur un fond sombre uniforme, en usage à la cour lombarde. Mais au lieu du profil qui est largement dominant dans les portraits milanais, Léonard choisi une disposition bien plus vivante de trois quarts, inspirée d’exemples flamands. La datation de ces trois portraits a été très discutée, mais un certain consensus privilégie aujourd’hui une exécution du Musicien puis de la Dame à l’hermine, au cours des années 1480 ou au début de la décennie suivante pour le second, en raison de fortes affinités avec la Vierge aux rochers parisienne. La Belle Ferronnière est quant à elle placée le plus souvent dans les années 1490. Cette succession dessine une évolution vers des portraits de plus en plus grands, chaque tableau mesurant près de dix centimètres de plus que le précédent. L’artiste peut ainsi représenter davantage le buste du modèle, et à une échelle s’approchant de plus en plus du naturel. Par rapport au Musicien, Léonard parvient à intensifier dans la Belle Ferronnière l’impression de vie physique et psychologique en donnant au corps une présence plus grande et surtout en le mettant en mouvement. La jeune femme, tout comme la Dame à l’hermine, ont leur buste disposé de trois quarts vers la gauche, mais leur tête se tourne de l’autre côté, comme si quelque chose avait soudainement retenu leur attention. La Belle Ferronnière a une expression plus fermée que Cecilia Gallerani, mais son regard joue avec celui du spectateur. Son visage est presque de face, elle semble nous fixer, mais ses yeux sont en fait à peine désaxés sur le côté droit et vers le haut. On a fort justement mis en regard de ces remarquables effigies certains écrits du maître, préparatoires à un traité de la peinture, tel ce conseil : « Ne fais jamais la tête tournée dans le sens du buste, ni le bras dans le sens de la jambe, et si la tête se tourne vers l’épaule droite fais ses parties plus basses du côté gauche que du droit » (Ms A, fol. 28v, Paris, Bibliothèque de l’Institut de France), ou ailleurs : « Que les attitudes des hommes aient un caractère propre à leur action de telle sorte que, en les voyant, tu comprennes ce qu’ils pensent ou disent ; ces attitudes seront bien apprises de celui qui imitera les muets, lesquels parlent avec les mouvements de leurs mains, de leurs yeux, de leurs sourcils et de toute leur personne pour exprimer leur état d’âme. » (Libro di Pittura, fol. 46r, Vatican, Bibliothèque vaticane) Les historiens de l’art ont depuis longtemps reconnu l’extraordinaire nouveauté de ces deux portraits de dame, préludes à la Joconde du Louvre, que l’on pourrait qualifier de pleinement « modernes », selon l’expression de Giorgio Vasari, c’est-à-dire restituant non plus seulement l’apparence de l’être mais aussi sa vie intérieure. Pour autant, il n’est pas forcément aisé de percer le secret de l’âme de la Belle Ferronnière dont l’identité demeure discutée. (Texte de Vincent Delieuvin, juillet 2021)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: Provenance : Ce tableau est mentionné pour la première fois, de façon à peu près certaine, en 1642 au château de Fontainebleau. Il est vraisemblablement entré plus tôt dans les collections royales françaises, peut-être dès le règne de Louis XII ou celui de François Ier. Commentaire : Une provenance encore inconnue On ne connaît aucun document du XVIe siècle évoquant incontestablement ce tableau. En 1975, Jean Adhémar avait proposé de l’identifier au « tableau paint sur boys d’une femme de fasson ytalienne », sans nom d’auteur, figurant dans un inventaire de la reine Anne de Bretagne à Amboise, en émettant l’hypothèse qu’il ait pu être saisi par Louis XII à Milan en 1499. L’idée fut reprise par la suite mais, récemment, a été justement contestée par Caroline Vrand, qui a démontré que cet inventaire avait été fait avant la prise du duché de Lombardie par les Français. En 1990, Carlo Vecce a soumis l’hypothèse de la présence du portrait au château de Blois en 1517, en se servant du témoignage du journal de voyage du cardinal d’Aragon rédigé par son secrétaire Antonio de Beatis. En déplacement en France, le prélat rendit visite à Léonard de Vinci le 10 octobre 1517 et admira à cette occasion trois peintures du maître : la Sainte Anne, le Saint Jean Baptiste et le « portrait d’une certaine dame florentine » qui est très certainement la Joconde. Le lendemain, il remarqua à Blois « un portrait d’une certaine dame de Lombardie peinte au naturel assez belle, mais selon moi pas autant que la signora Gualanda ». Vecce a supposé qu’Antonio de Beatis comparait ici la beauté du portrait d’Isabella Gualanda, qui serait selon lui la Joconde vue la veille au Clos-Lucé, avec celui de la Belle Ferronnière, dont l’habit est en effet caractéristique de la cour milanaise. Mais il est en fait impossible d’interpréter ainsi le journal du cardinal d’Aragon, car l’auteur du portrait milanais n’est pas cité et aucune référence n’est faite à Léonard. En outre, l’évocation d’Isabella Gualanda, l’une des plus belles femmes de la cour de Naples, ne renvoie certainement pas au portrait de Florentine vu au Clos-Lucé. Cette comparaison supposée entre la Joconde et la Belle Ferronnière n’est donc absolument pas établie. Du reste, on pourrait s’étonner que le cardinal n’ait pas signalé que la Milanaise avait été peinte par Léonard. Bien sûr, il pouvait l’ignorer, et l’on ne peut donc pas non plus totalement écarter l’idée que le tableau vu à Blois soit bien le tableau parisien. Cela doit tout simplement demeurer une hypothèse, assez faible car privée d’indices significatifs. La Belle Ferronnière semble mentionnée pour la première fois, de façon à peu près certaine, par le Père Dan dans le Trésor des merveilles de la maison royale de Fontainebleau, publié en 1642. Il s’agit en effet très certainement de la quatrième œuvre de Léonard listée dans l’ouvrage, « un portrait d’une duchesse de Mantoue ». En 1651, Raphaël Trichet du Fresne reprend cette identification dans la courte biographie de l’artiste, insérée en préambule de sa publication du Traité de la peinture dans la version italienne : « est également beau un autre portrait du même Léonard qui est à Fontainebleau, et que l’on dit être d’une marquise de Mantoue ». Cette identité se perd cependant dans l’inventaire des tableaux du roi rédigé par le peintre Le Brun en 1683, où l’œuvre est décrite comme un simple « portrait de femme », tout comme dans l’Inventaire des tableaux du Roi rédigé en 1709-1710 par Nicolas Bailly, puis dans le Catalogue raisonné des tableaux du roy de François Bernard Lépicié en 1752. Fort curieusement, elle est reconnue comme l’effigie d’Anne Boleyn, par Durameau dans son inventaire des tableaux du roi conservés à la Surintendance des bâtiments à Versailles, rédigé en 1784. L’hypothèse du portrait de Lucrezia Crivelli C’est à Giovan Battista Venturi, physicien italien installé en 1796 à Paris, où il étudia les carnets de Léonard de Vinci confisqués par les troupes françaises à Milan, que l’on doit la première proposition d’identification vraisemblable. Sa familiarité avec les manuscrits du maître lui avait permis de repérer à l’intérieur du Codex Atlanticus (Milan, Bibliothèque ambrosienne) un poème en latin célébrant le portrait d’une certaine Lucrezia, peint par Léonard pour son amant Ludovic le More. Longtemps anonyme, le texte a pu être reconnu par Giovanni Agosti de la main d’Antonio Tebaldeo, poète né à Ferrare en 1463, qui vécut à Mantoue où il fut le précepteur d’Isabelle d’Este : Combien l’art savant répond bien à la nature Vinci aurait pu, comme si souvent, peindre l’âme Mais il ne le fit pas, afin que l’image soit plus ressemblante Car le More seul possède son âme par son amour Celle dont il est question s’appelle Lucrezia, et à elle les dieux donnèrent tout d’une main prodigue. Quel rare aspect ! Léonard la peignit, le More l’aima. L’un, premier parmi les peintres, l’autre, premier parmi les princes Le peintre offensa certainement la Nature et les grandes déesses avec cette peinture. D’abord du dépit de voir qu’une main humaine soit si capable, puisqu’une figure destinée à périr bientôt accède à l’immortalité. Il le fit pour l’amour du More, ce pour quoi le More le protège. Les dieux et les hommes craignent de contrarier le More (Traduction de Louis Frank) Le poème reprend un thème assez convenu, déjà présent dans les vers de Bellincioni dédié au portrait de Cecilia Gallerani par Léonard, de la beauté du modèle immortalisée par l’Art et jalousée par la Nature. Venturi reconnut ici Lucrezia Crivelli, dame d’honneur de Béatrice d’Este, l’épouse de Ludovic le More, qui devint sa maîtresse à partir de 1495 et le resta jusqu’à sa chute en 1499. Elle lui donna un fils en mars 1497, légitimé et connu sous le nom de Giovanni Paolo Sforza, et elle était enceinte d’un second enfant au moment où les Français envahirent le Milanais. La confusion avec le portrait de la Belle Ferronnière L’identification à Lucrezia Crivelli rencontra un grand succès, mais n’empêcha pas la grossière erreur du peintre Jean Auguste Dominique Ingres et de son graveur Le Fèvre, qui conçurent une estampe d’après le tableau du Louvre en lui donnant le titre erroné de « La Belle Ferronnière », une maîtresse du roi François Ier. Cette dénomination correspondait en fait jusqu’alors à un autre portrait de femme conservé au Louvre (INV. 786). Dans les collections royales françaises, les deux œuvres avaient été clairement différenciées tout au long des XVIIe et XVIIIe siècles : la vraie Belle Ferronnière, de dimension plus réduite, présentait une femme de profil habillée à la mode française, tandis que le portrait de Léonard était considéré comme celui d’une femme italienne, comme le justifiaient son vêtement et sa coiffure caractéristiques de la mode lombarde de la fin du XVe siècle. L’erreur de la gravure d’Ingres fut remarquée mais cela n’entrava pas le succès de cette fausse appellation, toujours d’usage aujourd’hui. Lucrezia Crivelli ou Béatrice d’Este ou Isabelle d’Aragon ? S’il s’agit bien de l’effigie de Lucrezia, on serait alors tenté d’interpréter la composition à la lecture du poème de Tebaldeo, dans lequel il est souligné que Léonard ne voulut pas représenter l’âme du modèle, qui n’appartient qu’au duc. Le regard de la jeune femme qui échappe au spectateur exprimerait alors cette inaccessibilité de l’âme. De même, le parapet, dont la présence a parfois étonné des critiques surpris de voir ce motif jugé trop convenu pour Léonard, aurait pu être demandé par le commanditaire afin de souligner une distance entre la jeune femme et le spectateur. Des identifications alternatives ont été proposées, souvent pour des raisons stylistiques, le tableau du Louvre étant jugé parfois antérieur à la période de liaison de Lucrezia avec Ludovic, c’est-à-dire entre 1495 et 1499. Les hypothèses se sont exclusivement concentrées sur des personnalités importantes de la cour du More, ce qui paraît justifié par l’habit de la jeune femme, caractéristique de la mode dite à l’espagnole, alors en faveur à Milan. Comme Cecilia Gallerani, elle porte une camora rouge assez dégagée sur la poitrine. Les manches amovibles sont attachées par de larges rubans verts, aujourd’hui altérés et jaunis, , formant des crevés d’où ressort la chemise blanche. Sa coiffure est propre également à la mode espagnole. Les cheveux sont appliqués sur la tête, avec une raie au centre, et retenus à l’arrière dans un petit bonnet, une cuffia en soie et fil d’or, maintenu par une lenza, un ruban de soie qui est orné d’un bijou de couleur rouge, peut-être un rubis. Les cheveux sont tressés et enserrés dans un trenzale. Dès 1907, Edith Hewett proposa de voir ici l’image de Béatrice d’Este, l’épouse de Ludovic, en raison d’affinités avec son buste sculpté en marbre par Gian Cristoforo Romano (Paris, musée du Louvre). Elle a été suivie par plusieurs historiens, dont Gigetta Dalli Regoli et plus récemment Luke Syson, qui ont également remarqué la ressemblance du tableau avec un dessin médiocre de la galerie des Offices portant une inscription qui l’identifie à Béatrice d’Este. De son côté, Alessandro Ballarin rejette cette idée, ne trouvant pas de ressemblance entre le tableau et les portraits connus de Béatrice. Il refuse tout autant l’idée de Lucrezia Crivelli, car, selon lui, le Portrait de jeune homme attribué à Marco d’Oggiono et daté 1494 (Londres, National Gallery) est inspiré de la dame du Louvre et constitue par conséquent un terminus ante quem. Il propose donc de l’identifier à Isabelle d’Aragon, la fille du roi de Naples Alphonse II, née en 1470, qui arriva à Milan en 1489 pour épouser le duc en titre, Gian Galeazzo Sforza. L’invention du portrait moderne Actif en Lombardie au service de Ludovic le More de 1483 à 1499, Léonard de Vinci y a peint au moins trois portraits, le Musicien (Milan, Pinacothèque ambrosienne), Cecilia Gallerani, dite La Dame à l’hermine (Cracovie, musée national) et la Belle Ferronnière. A Milan, l’artiste privilégie la présentation du modèle sur un fond sombre uniforme, en usage à la cour lombarde. Mais au lieu du profil qui est largement dominant dans les portraits milanais, Léonard choisi une disposition bien plus vivante de trois quarts, inspirée d’exemples flamands. La datation de ces trois portraits a été très discutée, mais un certain consensus privilégie aujourd’hui une exécution du Musicien puis de la Dame à l’hermine, au cours des années 1480 ou au début de la décennie suivante pour le second, en raison de fortes affinités avec la Vierge aux rochers parisienne. La Belle Ferronnière est quant à elle placée le plus souvent dans les années 1490. Cette succession dessine une évolution vers des portraits de plus en plus grands, chaque tableau mesurant près de dix centimètres de plus que le précédent. L’artiste peut ainsi représenter davantage le buste du modèle, et à une échelle s’approchant de plus en plus du naturel. Par rapport au Musicien, Léonard parvient à intensifier dans la Belle Ferronnière l’impression de vie physique et psychologique en donnant au corps une présence plus grande et surtout en le mettant en mouvement. La jeune femme, tout comme la Dame à l’hermine, ont leur buste disposé de trois quarts vers la gauche, mais leur tête se tourne de l’autre côté, comme si quelque chose avait soudainement retenu leur attention. La Belle Ferronnière a une expression plus fermée que Cecilia Gallerani, mais son regard joue avec celui du spectateur. Son visage est presque de face, elle semble nous fixer, mais ses yeux sont en fait à peine désaxés sur le côté droit et vers le haut. On a fort justement mis en regard de ces remarquables effigies certains écrits du maître, préparatoires à un traité de la peinture, tel ce conseil : « Ne fais jamais la tête tournée dans le sens du buste, ni le bras dans le sens de la jambe, et si la tête se tourne vers l’épaule droite fais ses parties plus basses du côté gauche que du droit » (Ms A, fol. 28v, Paris, Bibliothèque de l’Institut de France), ou ailleurs : « Que les attitudes des hommes aient un caractère propre à leur action de telle sorte que, en les voyant, tu comprennes ce qu’ils pensent ou disent ; ces attitudes seront bien apprises de celui qui imitera les muets, lesquels parlent avec les mouvements de leurs mains, de leurs yeux, de leurs sourcils et de toute leur personne pour exprimer leur état d’âme. » (Libro di Pittura, fol. 46r, Vatican, Bibliothèque vaticane) Les historiens de l’art ont depuis longtemps reconnu l’extraordinaire nouveauté de ces deux portraits de dame, préludes à la Joconde du Louvre, que l’on pourrait qualifier de pleinement « modernes », selon l’expression de Giorgio Vasari, c’est-à-dire restituant non plus seulement l’apparence de l’être mais aussi sa vie intérieure. Pour autant, il n’est pas forcément aisé de percer le secret de l’âme de la Belle Ferronnière dont l’identité demeure discutée. (Texte de Vincent Delieuvin, juillet 2021)",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062372 (Portrait de femme, dit à tort La Belle Ferronnière), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062372"
+        }
+      ]
     }
   ],
   "open_questions": [
     "Who holds the Lucrezia Crivelli identification, and on what evidence (the Latin epigrams on a portrait of Lucrezia in Codex Atlanticus)?"
-  ]
+  ],
+  "identifiers": {
+    "wikidata": "Q656434",
+    "louvre_ark": "cl010062372",
+    "inventory": "INV 778"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Belle_Ferroni%C3%A8re_-_Google_Arts.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:La_Belle_Ferroni%C3%A8re_-_Google_Arts.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/0000000021/0000062372/0000401100_OG.JPG",
+      "credit": "© 2015 GrandPalaisRmn (musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl010062372"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/La_Belle_Ferronni%C3%A8re",
+      "text": "La Belle Ferronnière is a portrait painting of a lady, by Leonardo da Vinci, in the Louvre. It is also known as Portrait of an Unknown Woman. The painting's title, applied as early as the seventeenth century, identifying the sitter as the wife or daughter of an ironmonger, was said to be discreetly alluding to a reputed mistress of Francis I of France, married to a certain Le Ferron. Later she was tentatively identified as Lucretia Crivelli, a married lady-in-waiting to Duchess Beatrice of Milan, who became another of the Duke's mistresses.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Belle_Ferronni%C3%A8re",
+      "text": "Il ritratto di Dama è un dipinto a olio su tavola di noce di Leonardo da Vinci, databile al 1490-1497 circa ed è conservato nel Musée du Louvre di Parigi.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/La_Belle_Ferronni%C3%A8re",
+      "text": "La Belle Ferronnière est un tableau de 62 × 44 cm peint entre 1495 et 1497 sur un panneau en bois de noyer et exposé au musée du Louvre à Paris. Il est attribué à Léonard de Vinci et à son atelier.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1490,
+    "end": 1497,
+    "date": "c.1490 to 1497",
+    "tier": "S",
+    "place": "Milan, now Louvre",
+    "text": "Portrait of a woman of the Milanese court. The sitter's identity is unresolved and the date rests on style.",
+    "basis": "Museum dating; sitter identification interpretive."
+  }
 }

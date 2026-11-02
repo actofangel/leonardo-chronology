@@ -1,0 +1,48 @@
+{
+  "id": "w-mechanical-eagle",
+  "type": "work",
+  "label": "Mechanical eagle",
+  "subtype": "work",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "subject": [
+      "mechanics"
+    ],
+    "basis": "Derived automatically from Wikidata Q55832677 (instance of: prototype; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q55832677"
+  },
+  "variants": [
+    "Aquila meccanica"
+  ],
+  "claims": [
+    {
+      "id": "api2826",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q55832677 (Mechanical eagle), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q55832677"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Aquila_meccanica",
+      "text": "L'aquila meccanica è la più grande macchina volante di Leonardo da Vinci studiata e ricostruita da Mario Taddei nel 2015. Nella parte centrale del Manoscritto B, Leonardo studia la morfologia della regina dei volatili per realizzare il progetto di una macchina elegante e facile da pilotare: l'Aquila meccanica. Il progetto è sparso su più fogli e comprende studi sulla manovrabilità, con rimandi ai movimenti del pilota e una stima dell'energia necessaria al funzionamento della macchina. La peculiarità di questo progetto sono gli sportelletti presenti sulle ali, realizzati con tele di lino cerato, che fungono da piume artificiali. In questo periodo Leonardo compie delle ricerche sul volo battente e, osservando il volo dell'aquila, si accorge che in fase di battuta le piume spingono l'aria verso il basso, mentre in risalita - aprendosi - permettono all'aria di passare attraverso di esse, facilitando questa fase del volo. Gli sportelletti simulano al meglio queste condizioni. In fase di battuta si spostano verso l'alto, chiudendosi a contatto con la griglia di corde presente sulla parte superiore dell'ala. In risalita invece, non avendo vincoli nella parte inferiore, si aprono permettendo all'aria di passare attraverso di essi. Il battito delle ali viene gestito attraverso due pedali che il pilota calza dopo essersi posizionato supino nell'apposito alloggiamento in pelle che si osserva nella parte centrale della macchina. I pedali, oltre al battito, permettono il movimento della parte esterna dell'ala, grazie a un sistema di carrucole che ne gestisce la chiusura. L'asta al di sotto dell'alloggiamento, permette al pilota di coordinare la rotazione delle ali attraverso i movimenti delle braccia..",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

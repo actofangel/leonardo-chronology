@@ -1,0 +1,115 @@
+{
+  "id": "w-draperies-falling-over",
+  "type": "work",
+  "label": "Study of Draperies falling over the Left Leg of a Seated Figure",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "tempera"
+    ],
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q116469708 (instance of: drawing; material: tempera; linen; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q116469708",
+    "inventory": "6632"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Study_of_Drapery%2C_c1475-1482_-Fondation_Custodia_6632.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Study_of_Drapery%2C_c1475-1482_-Fondation_Custodia_6632.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2192",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116469708 (Study of Draperies falling over the Left Leg of a Seated Figure), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116469708"
+        }
+      ]
+    },
+    {
+      "id": "api2193",
+      "about": "inventory",
+      "value": {
+        "text": "6632"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 6632 in Fondation Custodia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116469708 (Study of Draperies falling over the Left Leg of a Seated Figure), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116469708"
+        }
+      ]
+    },
+    {
+      "id": "api2194",
+      "about": "current_location",
+      "value": {
+        "text": "Fondation Custodia"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Fondation Custodia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116469708 (Study of Draperies falling over the Left Leg of a Seated Figure), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116469708"
+        }
+      ]
+    },
+    {
+      "id": "api2195",
+      "about": "medium",
+      "value": {
+        "text": "tempera; linen"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: tempera; linen.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116469708 (Study of Draperies falling over the Left Leg of a Seated Figure), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116469708"
+        }
+      ]
+    },
+    {
+      "id": "api2196",
+      "about": "dimensions",
+      "value": {
+        "text": "240 mm x 193 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 240 mm, width 193 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116469708 (Study of Draperies falling over the Left Leg of a Seated Figure), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116469708"
+        }
+      ]
+    }
+  ]
+}

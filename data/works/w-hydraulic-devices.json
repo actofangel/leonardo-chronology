@@ -1,0 +1,82 @@
+{
+  "id": "w-hydraulic-devices",
+  "type": "work",
+  "label": "Studies of Hydraulic Devices",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136390100 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390100",
+    "inventory": "Codex Atlanticus fol. 1069v/386v-b"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/000V-1069.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:000V-1069.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1180",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390100 (Studies of Hydraulic Devices), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390100"
+        }
+      ]
+    },
+    {
+      "id": "api1181",
+      "about": "inventory",
+      "value": {
+        "text": "Codex Atlanticus fol. 1069v/386v-b"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Codex Atlanticus fol. 1069v/386v-b in Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390100 (Studies of Hydraulic Devices), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390100"
+        }
+      ]
+    },
+    {
+      "id": "api1182",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390100 (Studies of Hydraulic Devices), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390100"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "current_location": "geo-ambrosiana"
+}

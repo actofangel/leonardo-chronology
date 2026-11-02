@@ -1,0 +1,181 @@
+{
+  "id": "w-tavola-doria",
+  "type": "work",
+  "label": "Tavola Doria",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "panel_poplar",
+    "condition": "extant",
+    "subject": [
+      "battle"
+    ],
+    "basis": "Derived automatically from Wikidata Q2397593 (instance of: painting; artwork copy; material: poplar panel; oil paint; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q2397593",
+    "inventory": "10624 - 1890"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Battaglia_di_Anghiari_di_Leonardo.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:La_Battaglia_di_Anghiari_di_Leonardo.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2635",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2397593 (Tavola Doria), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2397593"
+        }
+      ]
+    },
+    {
+      "id": "api2636",
+      "about": "date",
+      "value": {
+        "text": "1503",
+        "start": 1503
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1503.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2397593 (Tavola Doria), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2397593"
+        }
+      ]
+    },
+    {
+      "id": "api2637",
+      "about": "inventory",
+      "value": {
+        "text": "10624 - 1890"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 10624 - 1890, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2397593 (Tavola Doria), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2397593"
+        }
+      ]
+    },
+    {
+      "id": "api2638",
+      "about": "current_location",
+      "value": {
+        "text": "Uffizi Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2397593 (Tavola Doria), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2397593"
+        }
+      ]
+    },
+    {
+      "id": "api2639",
+      "about": "medium",
+      "value": {
+        "text": "poplar panel; oil paint"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: poplar panel; oil paint.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2397593 (Tavola Doria), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2397593"
+        }
+      ]
+    },
+    {
+      "id": "api2640",
+      "about": "dimensions",
+      "value": {
+        "text": "86 cm x 115 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 86 cm, width 115 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2397593 (Tavola Doria), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2397593"
+        }
+      ]
+    },
+    {
+      "id": "api2641",
+      "about": "depicts",
+      "value": {
+        "text": "The Battle of Anghiari"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: The Battle of Anghiari. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2397593 (Tavola Doria), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2397593"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Tavola_Doria",
+      "text": "La Tavola Doria is a painting depicting the central part of the famous mural painting of the Battle of Anghiari by Leonardo Da Vinci, created between 1503 and 1505.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Tavola_Doria",
+      "text": "La Tavola Doria è un dipinto raffigurante la parte centrale della celebre opera pittorica murale della Battaglia di Anghiari di Leonardo Da Vinci, realizzato tra il 1503 ed il 1505.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Tavola_Doria",
+      "text": "La Tavola Doria est une peinture italienne de la Renaissance, copie de la partie centrale de la célèbre Bataille d'Anghiari de Léonard de Vinci. On ne sait pas si la copie est de Léonard ou d'un artiste florentin du XVIe siècle.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-uffizi"
+    }
+  ],
+  "current_location": "geo-uffizi"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "w-virgin-child-saint-anne",
+  "type": "work",
+  "label": "Virgin and Child with Saint Anne",
+  "subtype": "cartoon",
+  "classification": {
+    "form": "cartoon",
+    "condition": "lost",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q97170016 (instance of: cartoon; lost artwork; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q97170016"
+  },
+  "variants": [
+    "Sainte Anne, la Vierge et l'Enfant Jésus"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Brescianino%2C_d'apr%C3%A8s_un_projet_de_L%C3%A9onard_sainte_Anne%2C_1501%2C_Perdu%2C_Berlin%2C_Kaiser-Friedrich_Museum.png?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Brescianino%2C_d'apr%C3%A8s_un_projet_de_L%C3%A9onard_sainte_Anne%2C_1501%2C_Perdu%2C_Berlin%2C_Kaiser-Friedrich_Museum.png"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2880",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q97170016 (Virgin and Child with Saint Anne), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q97170016"
+        }
+      ]
+    },
+    {
+      "id": "api2881",
+      "about": "date",
+      "value": {
+        "text": "c.1500",
+        "start": 1500
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1500.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q97170016 (Virgin and Child with Saint Anne), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q97170016"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/The_Virgin_and_Child_with_Saint_Anne_(cartoon)",
+      "text": "The Virgin and Child with Saint Anne is a cartoon said to have been created by Leonardo da Vinci as part of his \"Virgin and Child with Saint Anne\" project, and now considered lost. It is known from a letter written on April 3, 1501, by Fra Pietro Novellara, Isabella d'Este's envoy to the painter. For this reason, it is sometimes referred to as \"Fra Pietro's cartoon\". Although still hypothetical, its existence seems to be confirmed by paintings by Raffaello and Andrea del Brescianino that are said to have been made from it, as well as by various pencil studies.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Sainte_Anne%2C_la_Vierge_et_l'Enfant_J%C3%A9sus_(carton)",
+      "text": "Sainte Anne, la Vierge et l'Enfant Jésus est un carton qui aurait été réalisé par Léonard de Vinci dans le cadre de la création d'une « Sainte Anne trinitaire » et qui est désormais considéré comme perdu. Il est connu à travers un courrier écrit le 3 avril 1501 par Fra Pietro Novellara, envoyé d'Isabelle d'Este auprès du peintre. Pour cette raison, il est parfois appelé « carton de Fra Pietro ». Bien qu'encore hypothétique, son existence semble confirmée par des tableaux de Raffaello et Andrea Piccinelli qui en seraient issus, ainsi que par diverses études crayonnées.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

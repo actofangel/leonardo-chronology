@@ -1,0 +1,127 @@
+{
+  "id": "w-madonna-yarnwinder",
+  "type": "work",
+  "label": "Madonna of the Yarnwinder",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "panel",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q118680368 (instance of: painting; material: oil paint; panel; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q118680368",
+    "inventory": "PEQPM:PD1989.20"
+  },
+  "claims": [
+    {
+      "id": "api2213",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q118680368 (Madonna of the Yarnwinder), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q118680368"
+        }
+      ]
+    },
+    {
+      "id": "api2214",
+      "about": "date",
+      "value": {
+        "text": "16th century",
+        "start": 1550
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 16th century.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q118680368 (Madonna of the Yarnwinder), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q118680368"
+        }
+      ]
+    },
+    {
+      "id": "api2215",
+      "about": "inventory",
+      "value": {
+        "text": "PEQPM:PD1989.20"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number PEQPM:PD1989.20 in Eden District Council, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q118680368 (Madonna of the Yarnwinder), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q118680368"
+        }
+      ]
+    },
+    {
+      "id": "api2216",
+      "about": "current_location",
+      "value": {
+        "text": "Eden District Council"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Eden District Council, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q118680368 (Madonna of the Yarnwinder), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q118680368"
+        }
+      ]
+    },
+    {
+      "id": "api2217",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q118680368 (Madonna of the Yarnwinder), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q118680368"
+        }
+      ]
+    },
+    {
+      "id": "api2218",
+      "about": "dimensions",
+      "value": {
+        "text": "43 cm x 37 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 43 cm, width 37 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q118680368 (Madonna of the Yarnwinder), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q118680368"
+        }
+      ]
+    }
+  ]
+}

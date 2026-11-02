@@ -1,0 +1,149 @@
+{
+  "id": "w-sheet-angel-912328",
+  "type": "work",
+  "label": "Sheet of Sketches of an Angel and Various Studies of Machines, Horses and Riders",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "horse",
+      "mechanics"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389549 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389549",
+      "Q139567051"
+    ],
+    "rcin": "912328",
+    "inventory": [
+      "RCIN 912328 recto",
+      "RCIN 912328 verso"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Recto_Horses_and_soldiers%2C_mechanics%2C_and_the_Angel_of_the_Annunciation._c.1503-4.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Recto_Horses_and_soldiers%2C_mechanics%2C_and_the_Angel_of_the_Annunciation._c.1503-4.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Verso_Prancing_horses%2C_and_the_head_of_Nero_c.1503-4.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Verso_Prancing_horses%2C_and_the_head_of_Nero_c.1503-4.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api198",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389549 (Sheet of Sketches of an Angel and Various Studies of Machines, Horses and Riders), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389549"
+        }
+      ]
+    },
+    {
+      "id": "api199",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912328 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912328 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389549 (Sheet of Sketches of an Angel and Various Studies of Machines, Horses and Riders), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389549"
+        }
+      ]
+    },
+    {
+      "id": "api200",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389549 (Sheet of Sketches of an Angel and Various Studies of Machines, Horses and Riders), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389549"
+        }
+      ]
+    },
+    {
+      "id": "api1535",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567051 (Horse Studies), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567051"
+        }
+      ]
+    },
+    {
+      "id": "api1536",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912328 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912328 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567051 (Horse Studies), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567051"
+        }
+      ]
+    },
+    {
+      "id": "api1537",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567051 (Horse Studies), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567051"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

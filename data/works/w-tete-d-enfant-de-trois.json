@@ -1,0 +1,300 @@
+{
+  "id": "w-tete-d-enfant-de-trois",
+  "type": "work",
+  "label": "Tête d'enfant de trois quarts à droite",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "technique": [
+      "pen_and_ink"
+    ],
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q60835898 (instance of: drawing; material: ink; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q60835898",
+    "louvre_ark": "cl020003134",
+    "inventory": "INV 2347 Recto"
+  },
+  "variants": [
+    "Cartoon for the head of the infant Saint John the Baptist"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89tude_pour_la_t%C3%AAte_de_l'enfant_Jean_Baptiste.png?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:%C3%89tude_pour_la_t%C3%AAte_de_l'enfant_Jean_Baptiste.png"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/00/31/34/00/AGO003134-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020003134"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2834",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q60835898 (Tête d'enfant de trois quarts à droite), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q60835898"
+        }
+      ]
+    },
+    {
+      "id": "api2835",
+      "about": "date",
+      "value": {
+        "text": "c.1483",
+        "start": 1483
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1483.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q60835898 (Tête d'enfant de trois quarts à droite), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q60835898"
+        }
+      ]
+    },
+    {
+      "id": "api2836",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2347 Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number INV 2347 Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q60835898 (Tête d'enfant de trois quarts à droite), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q60835898"
+        }
+      ]
+    },
+    {
+      "id": "api2837",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q60835898 (Tête d'enfant de trois quarts à droite), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q60835898"
+        }
+      ]
+    },
+    {
+      "id": "api2838",
+      "about": "medium",
+      "value": {
+        "text": "ink"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: ink.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q60835898 (Tête d'enfant de trois quarts à droite), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q60835898"
+        }
+      ]
+    },
+    {
+      "id": "api2839",
+      "about": "dimensions",
+      "value": {
+        "text": "0.169 metre x 0.14 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.169 metre, width 0.14 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q60835898 (Tête d'enfant de trois quarts à droite), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q60835898"
+        }
+      ]
+    },
+    {
+      "id": "api2840",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2347, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number INV 2347, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003134 (Tête d'enfant de trois quarts à droite), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003134"
+        }
+      ]
+    },
+    {
+      "id": "api2841",
+      "about": "inventory_history",
+      "value": {
+        "text": "Anciens numéros d'inventaire: MI 257; Référence de l'inventaire manuscrit: vol.1, p.396"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Anciens numéros d'inventaire: MI 257; Référence de l'inventaire manuscrit: vol.1, p.396.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003134 (Tête d'enfant de trois quarts à droite), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003134"
+        }
+      ]
+    },
+    {
+      "id": "api2842",
+      "about": "date",
+      "value": {
+        "text": "Vers 1485/1490",
+        "start": 1485,
+        "end": 1490
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: Vers 1485/1490.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003134 (Tête d'enfant de trois quarts à droite), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003134"
+        }
+      ]
+    },
+    {
+      "id": "api2843",
+      "about": "medium",
+      "value": {
+        "text": "Feuille d'œuvre : H. max. 0,134 m ; L. max. 0,119 m : pointe d'argent, pointe de métal, rehauts de blanc sur papier préparé gris-beige à base de blanc de plomb, de blanc d'os et de fer. Irrégulièrement découpée, collée en plein sur une feuille préparée en gris-brun. Dessin largement repris à la plume et à l'encre brune, au pinceau et au lavis brun ; traces d'incisions à la périphérie du visage et un piquage des contours pour plusieurs reports."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Feuille d'œuvre : H. max. 0,134 m ; L. max. 0,119 m : pointe d'argent, pointe de métal, rehauts de blanc sur papier préparé gris-beige à base de blanc de plomb, de blanc d'os et de fer. Irrégulièrement découpée, collée en plein sur une feuille préparée en gris-brun. Dessin largement repris à la plume et à l'encre brune, au pinceau et au lavis brun ; traces d'incisions à la périphérie du visage et un piquage des contours pour plusieurs reports.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003134 (Tête d'enfant de trois quarts à droite), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003134"
+        }
+      ]
+    },
+    {
+      "id": "api2844",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.169 m (à la feuille); Largeur 0.14 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.169 m (à la feuille); Largeur 0.14 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003134 (Tête d'enfant de trois quarts à droite), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003134"
+        }
+      ]
+    },
+    {
+      "id": "api2845",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; Predis, Ambrogio da [proposition d'attribution]; Boltraffio, Giovanni Antonio [proposition d'attribution]; Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [proposition d'attribution]; Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [proposition d'attribution]; Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [proposition d'attribution]; Boltraffio, Giovanni Antonio [proposition d'attribution]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; Predis, Ambrogio da [proposition d'attribution]; Boltraffio, Giovanni Antonio [proposition d'attribution]; Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [proposition d'attribution]; Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [proposition d'attribution]; Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [proposition d'attribution]; Boltraffio, Giovanni Antonio [proposition d'attribution].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003134 (Tête d'enfant de trois quarts à droite), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003134"
+        }
+      ]
+    },
+    {
+      "id": "api2846",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003134 (Tête d'enfant de trois quarts à droite), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003134"
+        }
+      ]
+    },
+    {
+      "id": "api2847",
+      "about": "provenance",
+      "value": {
+        "text": "P. Lely (L. 2092, marque grattée et recouverte) ; J. Richardson Senior (L. 2184, marque grattée et recouverte) ; G. Vallardi (L. 1223, en vert au verso); Vallardi, 1855, p. 28 f° 132 (Léonard de Vinci) ; acquis en 1856."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: P. Lely (L. 2092, marque grattée et recouverte) ; J. Richardson Senior (L. 2184, marque grattée et recouverte) ; G. Vallardi (L. 1223, en vert au verso); Vallardi, 1855, p. 28 f° 132 (Léonard de Vinci) ; acquis en 1856.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003134 (Tête d'enfant de trois quarts à droite), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003134"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/T%C3%AAte_d'enfant_de_trois_quarts_%C3%A0_droite",
+      "text": "The Tête d'enfant de trois quarts à droite is a silverpoint drawing on paper by the Florentine painter Leonardo da Vinci. It belongs to the Codex Vallardi and is preserved at the Department of Graphic Arts of the Louvre Museum in Paris.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/T%C3%AAte_d'enfant_de_trois_quarts_%C3%A0_droite",
+      "text": "La tête d'enfant de trois quarts à droite est un dessin réalisé à la pointe d'argent sur papier par le peintre florentin Léonard de Vinci, appartenant au Codex Vallardi et conservé au département des arts graphiques du musée du Louvre à Paris.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

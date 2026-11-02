@@ -1,0 +1,124 @@
+{
+  "id": "w-clasped-hands-hands-912543",
+  "type": "work",
+  "label": "Study of Clasped Hands (Hands of Saint John)",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q131613969 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q131613969",
+    "rcin": "912543",
+    "inventory": "RCIN 912543"
+  },
+  "variants": [
+    "Le mani di San Giovanni nell'Ultima Cena",
+    "Study of Clasped Hands (Hands of St John)"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Studio_per_le_mani_di_san_Giovanni_nell'Ultima_Cena.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Studio_per_le_mani_di_san_Giovanni_nell'Ultima_Cena.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2456",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613969 (Study of Clasped Hands (Hands of Saint John)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613969"
+        }
+      ]
+    },
+    {
+      "id": "api2457",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912543"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912543 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613969 (Study of Clasped Hands (Hands of Saint John)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613969"
+        }
+      ]
+    },
+    {
+      "id": "api2458",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912543 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912543 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613969 (Study of Clasped Hands (Hands of Saint John)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613969"
+        }
+      ]
+    },
+    {
+      "id": "api2459",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613969 (Study of Clasped Hands (Hands of Saint John)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613969"
+        }
+      ]
+    },
+    {
+      "id": "api2460",
+      "about": "depicts",
+      "value": {
+        "text": "John the Apostle"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: John the Apostle. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613969 (Study of Clasped Hands (Hands of Saint John)), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613969"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

@@ -1,0 +1,303 @@
+{
+  "id": "w-drapery-seated-figure-3",
+  "type": "work",
+  "label": "Drapery Study for a Seated Figure",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q131579611 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q131579611",
+    "louvre_ark": "cl020003018",
+    "inventory": "INV 2255, Recto"
+  },
+  "variants": [
+    "Studio del drappeggio per una figura seduta",
+    "Draperie pour une figure assise"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Draperie_pour_une_figure_assise%2C_INV_2255.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Draperie_pour_une_figure_assise%2C_INV_2255.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/00/30/18/00/AGO003018-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020003018"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2386",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131579611 (Drapery Study for a Seated Figure), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131579611"
+        }
+      ]
+    },
+    {
+      "id": "api2387",
+      "about": "date",
+      "value": {
+        "text": "1475 to 1482",
+        "start": 1475,
+        "end": 1482
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1475 to 1482.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131579611 (Drapery Study for a Seated Figure), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131579611"
+        }
+      ]
+    },
+    {
+      "id": "api2388",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2255, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number INV 2255, Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131579611 (Drapery Study for a Seated Figure), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131579611"
+        }
+      ]
+    },
+    {
+      "id": "api2389",
+      "about": "inventory",
+      "value": {
+        "text": "R. F. 2255"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number R. F. 2255 in Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131579611 (Drapery Study for a Seated Figure), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131579611"
+        }
+      ]
+    },
+    {
+      "id": "api2390",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131579611 (Drapery Study for a Seated Figure), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131579611"
+        }
+      ]
+    },
+    {
+      "id": "api2391",
+      "about": "current_location",
+      "value": {
+        "text": "Cabinet des dessins"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131579611 (Drapery Study for a Seated Figure), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131579611"
+        }
+      ]
+    },
+    {
+      "id": "api2392",
+      "about": "dimensions",
+      "value": {
+        "text": "0.196 metre x 0.153 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.196 metre, width 0.153 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131579611 (Drapery Study for a Seated Figure), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131579611"
+        }
+      ]
+    },
+    {
+      "id": "api2393",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2255, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number INV 2255, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003018 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003018"
+        }
+      ]
+    },
+    {
+      "id": "api2394",
+      "about": "inventory_history",
+      "value": {
+        "text": "Anciens numéros d'inventaire: NIII 8251; Référence de l'inventaire manuscrit: vol.1, p.385"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Anciens numéros d'inventaire: NIII 8251; Référence de l'inventaire manuscrit: vol.1, p.385.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003018 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003018"
+        }
+      ]
+    },
+    {
+      "id": "api2395",
+      "about": "date",
+      "value": {
+        "text": "Vers 1475/1482",
+        "start": 1475,
+        "end": 1482
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: Vers 1475/1482.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003018 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003018"
+        }
+      ]
+    },
+    {
+      "id": "api2396",
+      "about": "medium",
+      "value": {
+        "text": "Pinceau et tempera grise, rehauts de blanc, sur toile de lin préparée. Toile décatie puis couverte d'une fine couche de préparation à base de blanc de plomb mélangé à une petite quantité de terre d'ombre pour la préparation brun sombre. Le ton de fond a permis d'effectuer un travail en grisaille qui fait sortir la figure de l'ombre grâce au jeu des lumières, tout en conservant une petite marge de modulation des bruns, grâce notamment à des lavis gris modifiant le ton de fond par des effets d'opalescence. Réseau de hachures au pinceau de couleur brune et au blanc de plomb. Usures dans la préparation de la toile. Traces de montage à la plume et encre noire. Angle supérieur gauche reconstitué. Doublé."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Pinceau et tempera grise, rehauts de blanc, sur toile de lin préparée. Toile décatie puis couverte d'une fine couche de préparation à base de blanc de plomb mélangé à une petite quantité de terre d'ombre pour la préparation brun sombre. Le ton de fond a permis d'effectuer un travail en grisaille qui fait sortir la figure de l'ombre grâce au jeu des lumières, tout en conservant une petite marge de modulation des bruns, grâce notamment à des lavis gris modifiant le ton de fond par des effets d'opalescence. Réseau de hachures au pinceau de couleur brune et au blanc de plomb. Usures dans la préparation de la toile. Traces de montage à la plume et encre noire. Angle supérieur gauche reconstitué. Doublé.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003018 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003018"
+        }
+      ]
+    },
+    {
+      "id": "api2397",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.196 m (à la feuille); Largeur 0.153 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.196 m (à la feuille); Largeur 0.153 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003018 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003018"
+        }
+      ]
+    },
+    {
+      "id": "api2398",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; Dürer, Albrecht [ancienne attribution]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; Dürer, Albrecht [ancienne attribution].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003018 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003018"
+        }
+      ]
+    },
+    {
+      "id": "api2399",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003018 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003018"
+        }
+      ]
+    },
+    {
+      "id": "api2400",
+      "about": "provenance",
+      "value": {
+        "text": "E. Jabach ; Inventaire après décès 1695-1696, portefeuille E : '14. Estudes de draperie dalberdur sur toille collee sur papier et rehaussé de blanc en detrempe' ; P. Crozat, vente, Paris 1741, sous le n° 5 (Léonard de Vinci) ; J.-B. Nourri, vente, Paris 1785, n° 736 (Dürer) ; Ch.-P. J.-B. de Bourgevin Vialart de Saint-Morys ; saisie des bien des Emigrés en 1793, remise au Museum en 1796-1797 ; marque du Conservatoire (L. 2207).Inventaire du musée Napoléon :Inventaire du Musée Napoléon. Dessins. Vol.6, p.988, chap. : Ecole allemande, Carton 80. (...) Numéro : 7752. Nom du maître : Idem & Durer, Albert /&. Numéro d'ordre dans l'oeuvre du maître : 39. Désignation des sujets : Sur le même carton deux études de draperies, peintes en camayeu à gouache, sur toile. Dimensions : H. 27 x L. 23,5 cm ; H. 18,5 x L. 23,5 cm. Origine : Idem & Collection nouvelle /&. Emplacement actuel : Idem & Calcographie du Musée Napoléon /&. Observations : Idem & Remis au Musée le 16 juin 1830 à l'encre /&. Signe de recollement : Vu au crayon#Vu au crayon#trait oblique / au crayon / sur le n° d'ordre. Cote : 1DD38 Note relative à la saisie informatique : Observations : la mention de remise au musée, précisée dans la notice n ° 7700, concernerait les notices n° 7700 à 7999.."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: E. Jabach ; Inventaire après décès 1695-1696, portefeuille E : '14. Estudes de draperie dalberdur sur toille collee sur papier et rehaussé de blanc en detrempe' ; P. Crozat, vente, Paris 1741, sous le n° 5 (Léonard de Vinci) ; J.-B. Nourri, vente, Paris 1785, n° 736 (Dürer) ; Ch.-P. J.-B. de Bourgevin Vialart de Saint-Morys ; saisie des bien des Emigrés en 1793, remise au Museum en 1796-1797 ; marque du Conservatoire (L. 2207).Inventaire du musée Napoléon :Inventaire du Musée Napoléon. Dessins. Vol.6, p.988, chap. : Ecole allemande, Carton 80. (...) Numéro : 7752. Nom du maître : Idem & Durer, Albert /&. Numéro d'ordre dans l'oeuvre du maître : 39. Désignation des sujets : Sur le même carton deux études de draperies, peintes en camayeu à gouache, sur toile. Dimensions : H. 27 x L. 23,5 cm ; H. 18,5 x L. 23,5 cm. Origine : Idem & Collection nouvelle /&. Emplacement actuel : Idem & Calcographie du Musée Napoléon /&. Observations : Idem & Remis au Musée le 16 juin 1830 à l'encre /&. Signe de recollement : Vu au crayon#Vu au crayon#trait oblique / au crayon / sur le n° d'ordre. Cote : 1DD38 Note relative à la saisie informatique : Observations : la mention de remise au musée, précisée dans la notice n ° 7700, concernerait les notices n° 7700 à 7999..",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003018 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003018"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

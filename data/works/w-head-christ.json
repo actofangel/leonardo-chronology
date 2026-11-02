@@ -1,0 +1,159 @@
+{
+  "id": "w-head-christ",
+  "type": "work",
+  "label": "Head of Christ",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "red_chalk"
+    ],
+    "condition": "extant",
+    "subject": [
+      "religious",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q3985169 (instance of: painting; material: red chalk; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q3985169"
+  },
+  "variants": [
+    "Testa di Cristo"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo%2C_testa_di_cristo%2C_1494_circa%2C_pinacoteca_di_brera.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo%2C_testa_di_cristo%2C_1494_circa%2C_pinacoteca_di_brera.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2722",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3985169 (Head of Christ), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3985169"
+        }
+      ]
+    },
+    {
+      "id": "api2723",
+      "about": "date",
+      "value": {
+        "text": "1494",
+        "start": 1494
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1494.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3985169 (Head of Christ), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3985169"
+        }
+      ]
+    },
+    {
+      "id": "api2724",
+      "about": "current_location",
+      "value": {
+        "text": "Pinacoteca di Brera"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Pinacoteca di Brera, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3985169 (Head of Christ), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3985169"
+        }
+      ]
+    },
+    {
+      "id": "api2725",
+      "about": "medium",
+      "value": {
+        "text": "red chalk"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: red chalk.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3985169 (Head of Christ), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3985169"
+        }
+      ]
+    },
+    {
+      "id": "api2726",
+      "about": "dimensions",
+      "value": {
+        "text": "40 cm x 32 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 40 cm, width 32 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3985169 (Head of Christ), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3985169"
+        }
+      ]
+    },
+    {
+      "id": "api2727",
+      "about": "depicts",
+      "value": {
+        "text": "Jesus Christ; man"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Jesus Christ; man. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3985169 (Head of Christ), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3985169"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Head_of_Christ_(Leonardo)",
+      "text": "Head of Christ is a c.1494 chalk and pastel study by Leonardo da Vinci for his The Last Supper. It measures 40 by 32 cm and is now in the Pinacoteca di Brera.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Testa_di_Cristo",
+      "text": "La Testa di Cristo è un disegno a gessetto e pastello su carta di Leonardo da Vinci, databile al 1494 circa e conservato nella Pinacoteca di Brera. Si tratta di uno studio per la celebre Ultima Cena.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-brera"
+    }
+  ],
+  "current_location": "geo-brera"
+}

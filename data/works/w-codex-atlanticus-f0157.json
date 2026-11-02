@@ -1,0 +1,88 @@
+{
+  "id": "w-codex-atlanticus-f0157",
+  "type": "work",
+  "label": "Codex Atlanticus, f. 157",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q131604551 (instance of: folio; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "manuscript": "w-atlanticus",
+  "folio": "f. 157",
+  "relations": [
+    {
+      "rel": "drawn_on",
+      "target": "w-atlanticus"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "identifiers": {
+    "wikidata": "Q131604551",
+    "inventory": "F0157"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Atlanticus_-_000R-157.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codex_Atlanticus_-_000R-157.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2412",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604551 (Codex Atlanticus (F0157)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604551"
+        }
+      ]
+    },
+    {
+      "id": "api2413",
+      "about": "inventory",
+      "value": {
+        "text": "F0157"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number F0157 in Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604551 (Codex Atlanticus (F0157)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604551"
+        }
+      ]
+    },
+    {
+      "id": "api2414",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604551 (Codex Atlanticus (F0157)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604551"
+        }
+      ]
+    }
+  ],
+  "current_location": "geo-ambrosiana"
+}

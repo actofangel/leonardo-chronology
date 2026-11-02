@@ -120,6 +120,306 @@
           "url": "https://presse.louvre.fr/le-musee-du-louvre-prete-le-saint-jean-baptiste-de-leonard-de-vinci-2/?lang=en"
         }
       ]
+    },
+    {
+      "id": "api2560",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q783215 (Saint John the Baptist), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q783215"
+        }
+      ]
+    },
+    {
+      "id": "api2561",
+      "about": "date",
+      "value": {
+        "text": "c.1513 to 1514",
+        "start": 1513,
+        "end": 1514
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1513 to 1514.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q783215 (Saint John the Baptist), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q783215"
+        }
+      ]
+    },
+    {
+      "id": "api2562",
+      "about": "inventory",
+      "value": {
+        "text": "INV 775"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number INV 775 in Department of Paintings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q783215 (Saint John the Baptist), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q783215"
+        }
+      ]
+    },
+    {
+      "id": "api2563",
+      "about": "inventory",
+      "value": {
+        "text": "MR 318"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number MR 318 in Department of Paintings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q783215 (Saint John the Baptist), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q783215"
+        }
+      ]
+    },
+    {
+      "id": "api2564",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Paintings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Paintings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q783215 (Saint John the Baptist), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q783215"
+        }
+      ]
+    },
+    {
+      "id": "api2565",
+      "about": "medium",
+      "value": {
+        "text": "panel; oil paint"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: panel; oil paint.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q783215 (Saint John the Baptist), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q783215"
+        }
+      ]
+    },
+    {
+      "id": "api2566",
+      "about": "dimensions",
+      "value": {
+        "text": "69 cm x 57 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 69 cm, width 57 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q783215 (Saint John the Baptist), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q783215"
+        }
+      ]
+    },
+    {
+      "id": "api2567",
+      "about": "depicts",
+      "value": {
+        "text": "John the Baptist"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: John the Baptist. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q783215 (Saint John the Baptist), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q783215"
+        }
+      ]
+    },
+    {
+      "id": "api2568",
+      "about": "inventory",
+      "value": {
+        "text": "INV 775"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number INV 775.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062374 (Saint Jean Baptiste), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062374"
+        }
+      ]
+    },
+    {
+      "id": "api2569",
+      "about": "inventory_history",
+      "value": {
+        "text": "Autre numéro d'inventaire: MR 318"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Autre numéro d'inventaire: MR 318.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062374 (Saint Jean Baptiste), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062374"
+        }
+      ]
+    },
+    {
+      "id": "api2570",
+      "about": "date",
+      "value": {
+        "text": "1e quart du XVIe siècle (vers 1508 - 1519)",
+        "start": 1508,
+        "end": 1519
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: 1e quart du XVIe siècle (vers 1508 - 1519).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062374 (Saint Jean Baptiste), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062374"
+        }
+      ],
+      "check_in": [
+        "Loire, Stéphane, Les Peintures italiennes du Musée Napoléon (1810-1815). Édition illustrée et commentée du volume I de l'Inventaire Napoléon, Paris, Mare & Martin / Louvre éditions, 2025, p. 535-536, n°903",
+        "Delieuvin, Vincent ; Ravaud, Elisabeth ; Eveno, Myriam, « Le Saint Jean Baptiste de Léonard de Vinci. Entre ombre et lumière », Technè, Hors-série, 2024, p. 148-161",
+        "Samoyault, Jean-Pierre, Registre du dépôt de Nesle. Œuvres d'art saisies pendant la Révolution chez les émigrés et condamnés parisiens en vue de l'instruction publique (Archives de l'Art français. Nouvelle période, tome XLI), Paris, De Boccard, 2021, p. 382, n° 29, 937, n° 29",
+        "Leonardo y la copia de Mona Lisa del Museo del Prado : nuevos planteamientos sobre las practicas del taller vinciano, cat. exp. (Madrid, Museo Nacional del Prado, 28 septembre 2021-23 janvier 2022), Madrid, Museo Nacional del Prado, 2021, p. 27-29, n° 5",
+        "Marani, Pietro C., L'ultimo Leonardo 1510-1519. Leonardo tra Milano, Roma e Amboise : committenze, progetti, studi fra arte, architettura e scienza, Varèse, Nomos, 2020, p. 156,157,179, ill.coul., fig.1",
+        "Scailliérez, Cécile, Léonard de Vinci. La Joconde, Paris, Louvre éditions / Editions El Viso, (Solo), 2019 (rééd. 2003 avec addendum), p. 66-67",
+        "Delieuvin, Vincent ; Frank, Louis (dir.), Léonard de Vinci, cat. exp. (Paris, musée du Louvre, 24 octobre 2019 - 24 février 2020), Paris, Hazan / Louvre éditions, 2019, p. 154, 313-323, 330, 335, 336, 337, 344, 358-369, 405, 425, ill. coul. p. 315, cat. 159",
+        "Leonardo e la sua grande scuola, cat. exp. (Torino, Palazzo Cavour, 9 février - 12 mai 2019 / Venezia, Palazzo Giustinian Lolin, 31 mai-25 août 2019), Prato, Champfleury, 2019, p. 237-240",
+        "Charles I : King and Collector, cat. exp. (Londres, Royal Academy of Arts, 27 janvier - 15 avril 2018), Londres, Royal Academy of Arts, 2018, p. 20, 85, 102, 208-209, fig. 52 (coul.), p. 208",
+        "Leonardo da Vinci 1452-1519. Il disegno del mondo, cat. exp. (Milan, Palazzo Reale, 16 avril-19 juillet 2015), Milan, Skira, 2015, p. 28, 29, 393, 394, 571, ill. coul. p. 28, ill. coul. p. 393, n°IX.14"
+      ]
+    },
+    {
+      "id": "api2571",
+      "about": "medium",
+      "value": {
+        "text": "huile sur bois (noyer)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: huile sur bois (noyer)",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062374 (Saint Jean Baptiste), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062374"
+        }
+      ]
+    },
+    {
+      "id": "api2572",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0,729 m; Hauteur avec accessoire 0,945 m; Largeur 0,563 m; Largeur avec accessoire 0,8 m"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0,729 m; Hauteur avec accessoire 0,945 m; Largeur 0,563 m; Largeur avec accessoire 0,8 m.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062374 (Saint Jean Baptiste), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062374"
+        }
+      ]
+    },
+    {
+      "id": "api2573",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [Attribution actuelle]; Italie [Attribution actuelle]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [Attribution actuelle]; Italie [Attribution actuelle].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062374 (Saint Jean Baptiste), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062374"
+        }
+      ],
+      "check_in": [
+        "Loire, Stéphane, Les Peintures italiennes du Musée Napoléon (1810-1815). Édition illustrée et commentée du volume I de l'Inventaire Napoléon, Paris, Mare & Martin / Louvre éditions, 2025, p. 535-536, n°903",
+        "Delieuvin, Vincent ; Ravaud, Elisabeth ; Eveno, Myriam, « Le Saint Jean Baptiste de Léonard de Vinci. Entre ombre et lumière », Technè, Hors-série, 2024, p. 148-161",
+        "Samoyault, Jean-Pierre, Registre du dépôt de Nesle. Œuvres d'art saisies pendant la Révolution chez les émigrés et condamnés parisiens en vue de l'instruction publique (Archives de l'Art français. Nouvelle période, tome XLI), Paris, De Boccard, 2021, p. 382, n° 29, 937, n° 29",
+        "Leonardo y la copia de Mona Lisa del Museo del Prado : nuevos planteamientos sobre las practicas del taller vinciano, cat. exp. (Madrid, Museo Nacional del Prado, 28 septembre 2021-23 janvier 2022), Madrid, Museo Nacional del Prado, 2021, p. 27-29, n° 5",
+        "Marani, Pietro C., L'ultimo Leonardo 1510-1519. Leonardo tra Milano, Roma e Amboise : committenze, progetti, studi fra arte, architettura e scienza, Varèse, Nomos, 2020, p. 156,157,179, ill.coul., fig.1",
+        "Scailliérez, Cécile, Léonard de Vinci. La Joconde, Paris, Louvre éditions / Editions El Viso, (Solo), 2019 (rééd. 2003 avec addendum), p. 66-67",
+        "Delieuvin, Vincent ; Frank, Louis (dir.), Léonard de Vinci, cat. exp. (Paris, musée du Louvre, 24 octobre 2019 - 24 février 2020), Paris, Hazan / Louvre éditions, 2019, p. 154, 313-323, 330, 335, 336, 337, 344, 358-369, 405, 425, ill. coul. p. 315, cat. 159",
+        "Leonardo e la sua grande scuola, cat. exp. (Torino, Palazzo Cavour, 9 février - 12 mai 2019 / Venezia, Palazzo Giustinian Lolin, 31 mai-25 août 2019), Prato, Champfleury, 2019, p. 237-240",
+        "Charles I : King and Collector, cat. exp. (Londres, Royal Academy of Arts, 27 janvier - 15 avril 2018), Londres, Royal Academy of Arts, 2018, p. 20, 85, 102, 208-209, fig. 52 (coul.), p. 208",
+        "Leonardo da Vinci 1452-1519. Il disegno del mondo, cat. exp. (Milan, Palazzo Reale, 16 avril-19 juillet 2015), Milan, Skira, 2015, p. 28, 29, 393, 394, 571, ill. coul. p. 28, ill. coul. p. 393, n°IX.14"
+      ]
+    },
+    {
+      "id": "api2574",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Peintures"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Peintures.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062374 (Saint Jean Baptiste), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062374"
+        }
+      ]
+    },
+    {
+      "id": "api2575",
+      "about": "provenance",
+      "value": {
+        "text": "Provenance : Ce tableau fut conçu vraisemblablement vers 1508 et conservé par Léonard de Vinci jusqu'à sa mort, pour en poursuivre lentement l'exécution picturale, toujours inachevée en 1519 ; très probablement acquis par François Ier en 1518 puis sorti des collections royales dans des conditions inconnues ; appartient à Roger du Plessis, duc de Liancourt, dans les années 1620 ; donné par le duc de Liancourt au roi Charles Ier d’Angleterre, et conservé à Londres des années 1630 à 1649 ; après l'exécution de Charles Ier, vente du Commonwealth en 1651 ; acquis à cette vente par Cruso et Terence en 1651 ; vendu au banquier Everhard Jabach et conservé dans sa collection à Paris jusqu’en 1662 ; acquis par Louis XIV en 1662 et resté dans la collection royale française jusqu'en 1792 ; exposé au musée du Louvre en 1801. Commentaire : Une origine encore mal connue On ignore les circonstances de la création du Saint Jean Baptiste de Léonard de Vinci. L’artiste ne l’évoque guère dans ses écrits, et nous ne savons pas s’il l’a peint pour un commanditaire spécifique (aucune hypothèse de commande n’a pu être étayée par des documents, y compris celle d’Edoardo Villata en 1997 qui a proposé, sans argument décisif, le nom de Giovanni Benci) ou s’il s’agit d’un projet personnel, comme on le suppose pour la Sainte Anne. La première mention absolument certaine de l’œuvre est l’inventaire de la collection du roi Charles Ier d’Angleterre, achevé en 1639 par Abraham van der Doort. Ce dernier y rappelle les conditions d’entrée du tableau, offert par le duc de Liancourt en échange d’un Portrait d’Érasme par Holbein et d’une Vierge à l’Enfant de Titien. Ces présents furent vraisemblablement faits en 1630, lorsque Liancourt fut envoyé par Louis XIII pour féliciter le souverain anglais de la naissance du futur Charles II. Témoin de cette histoire, la marque au fer (CR couronné) du roi d’Angleterre apposée au revers du tableau du Louvre (Cette marque n’est visible qu’à la radiographie, car elle a été recouverte plus tard d’une couche d’enduit protecteur). À la mort de Charles Ier, l’œuvre fut acquise par Cruso et Terence, puis vendue au banquier Everhard Jabach, qui la céda en 1661-1662 à Louis XIV. Le tableau est resté dans la collection royale jusqu’à son entrée au Louvre à la Révolution. Roger du Plessis, duc de La Rocheguyon et de Liancourt, fut l’un des grands collectionneurs de la première moitié du XVIIe siècle. On ignore cependant comment il a acquis le tableau de Léonard. Pendant longtemps, les historiens ont pensé qu’il avait offert, au nom du roi Louis XIII, une œuvre de la collection royale. Mais cette idée a été abandonnée car les notes de Van Der Doort ne l’indiquent pas, et les tableaux donnés en échange par Charles Ier sont passés chez Liancourt et non pas chez Louis XIII. Pour autant, il est possible que le Saint Jean Baptiste ait bien fait partie antérieurement du patrimoine de la couronne de France. Nos connaissances sur les collections royales au XVIe siècle demeurent très lacunaires. Par ailleurs, les sources du XVIIe siècle mentionnent chez le roi, non pas ce petit tableau mais le grand Saint Jean Baptiste dans un paysage, transformé en Bacchus à la fin du XVIIe siècle et alors attribué au maître. La présence de cette œuvre au château de Fontainebleau dès 1625 au moins explique que les historiens ne s’accordent pas sur l’identification du « saint Jean Baptiste jeune » montré en octobre 1517 par Léonard au cardinal d’Aragon au château de Cloux. Il semble plus plausible qu’il s’agisse du petit Saint Jean, lequel est vraiment autographe. La grande version est très clairement une peinture d’atelier, attribuable à Francesco Melzi, et il est difficile d’imaginer le vieux maître s’appropriant devant son hôte illustre l’œuvre bien plus modeste de son élève. En outre, la présence en France du petit Saint Jean Baptiste est attestée par son influence indéniable sur le Portrait de François Ier en saint Jean Baptiste peint par Jean Clouet en 1518 (Paris, musée du Louvre, RF 2005.12) . Emporté par le maître en France en 1516, le chef-d’œuvre a pu être acquis par François Ier, avec la Joconde et la Sainte Anne, puis sortir des collections royales dans des circonstances inconnues, pour parvenir entre les mains du duc de Liancourt au début du XVIIe siècle. Une datation débattue Faute de documents, la datation du Saint Jean Baptiste a beaucoup varié dans l’historiographie, depuis la fin des années 1490 jusqu’à la période française de l’artiste. L’hypothèse selon laquelle le tableau aurait été conçu au cours de la seconde période florentine de Léonard a été proposée dès le milieu du XIXe siècle, pour des raisons stylistiques, en raison de ses liens étroits avec la Joconde et la Sainte Anne. Les sources florentines anciennes, le Libro di Antonio Billi et l’Anonimo Magliabechiano, ont d’ailleurs conservé la mémoire de l’œuvre. Cette datation florentine a été défendue ces dernières années par Edoardo Villata, qui a souligné l’affinité de la figure de Léonard avec le saint Jean du retable de l’Incarnation de Piero di Cosimo (Florence, Galleria degli Uffizi, inv. 1890 n. 506) , dont la datation l’incite à situer le Saint Jean Baptiste vers 1505-1506. Mais son argumentation demeure fragile car la figure de Piero di Cosimo a un geste différent de celui de Léonard et son type physique pourrait être tout autant inspiré par une autre invention du maître conçue dès 1503-1504, l’Ange de l’Annonciation dont nous parlerons plus loin. En 1939, Kenneth Clark a, quant à lui, proposé une exécution tardive de l’œuvre, au cours de la période romaine, vers 1513-1514. Dans son sillage, des spécialistes ont souligné la présence de la peau de bête tachetée évoquant le manteau du dieu Bacchus, un détail qui, selon eux, pourrait être lié au climat antiquisant de la Ville éternelle. Récemment, Frank Zöllner a appuyé cette idée en soutenant que l’iconographie du Baptiste était particulièrement en faveur dans la Rome du pape Médicis Léon X. L’hypothèse d’une commande pontificale a même été avancée, mais sans argument documentaire. La palette restreinte du tableau, l’accent qui y est mis sur l’ombre et la lumière ont également été interprétés comme une sorte de testament pictural que certains ont donc situé dans la période française, vers 1516-1518. Dans ce débat, nous ne disposons pas de dessin préparatoire autographe susceptible de livrer un indice. Toutefois, il existe dans le Codex Atlanticus, sur le folio 489 recto, sous des écrits de Léonard à la plume, le dessin à la pierre noire d’une main droite, dans la même position que celle du Baptiste. Les contours en sont appuyés, très scolaires, d’où son attribution justifiée à un élève. Par comparaison avec d’autres feuilles du maître, les dessins géométriques qui recouvrent la main ont été datés de 1509, année qui pourrait donc être un terminus ante quem pour la conception du Saint Jean Baptiste. Le support de noyer a parfois été utilisé pour soutenir la thèse d’une exécution à Milan, le plus souvent à partir de 1508, selon l’idée discutable selon laquelle Léonard utiliserait exclusivement du peuplier à Florence et du noyer à Milan. L’ancêtre Gabriel Selon plusieurs historiens, le Saint Jean Baptiste pourrait être le développement naturel d’une précédente composition du maître. Sur une feuille de Windsor (RCIN 12328) mêlant calculs mathématiques, dessins géométriques, machines à engrenage, hommes et chevaux, se distingue la figure d’un ange. Il tend son bras droit pour indiquer le ciel tandis que l’autre est replié sur son buste. En haut est déroulé un phylactère. La figure est tracée rapidement à la pierre noire, avec une hachure caractéristique d’un droitier. Cela explique que les spécialistes y reconnaissent le travail d’un élève, cependant corrigé par le maître à la plume pour les contours du buste et du bras droit afin d’améliorer l’effet du raccourci. Les cavaliers et les chevaux en furie dessinés avec la même encre sont clairement préparatoires à la Bataille d’Anghiari et permettent de situer l’ange vers 1503-1504. C’est très certainement Léonard lui-même qui a inventé cette composition, inspirée par l’un des figurants de l’Adoration des Mages conçue entre 1480 et 1482. Une étude autographe (Venise, Galleria dell’Accademia, inv. n. 138) pour le bras gauche de l’ange en apporte la confirmation. Dessinée à la sanguine avec des rehauts de blanc, elle présente un trait nerveux et des repentirs qui permettent de l’attribuer au maître, et ce en dépit des doutes émis par certains. Vasari cite un tableau sur ce thème dans la collection du grand-duc Cosme Ier, dans l’édition de 1568 de sa biographie de l’artiste : « un Ange qui lève en l’air un bras dont la partie de l’épaule au coude, venant vers l’avant, apparaît en raccourci, tandis que de l’autre il porte la main au cœur. Et c’est chose admirable que ce génie, ayant le désir de donner le plus grand relief à ses ouvrages, fût, avec l’ombre obscure, allé trouver des fonds parmi les plus obscurs, tellement qu’il recherchait des noirs qui ombrassent et fussent plus obscurs que les autres noirs, afin que par leur moyen le clair fût plus lucide, et que, pour finir, il en eût résulté cette manière si sombre que, n’y restant de clarté, ses œuvres avaient l’apparence de choses faites pour contrefaire la nuit plutôt que la finesse de la lumière du jour ; mais tout cela avait pour but de donner un plus grand relief, d’atteindre la fin et la perfection de l’art. » Ce tableau a disparu des collections médicéennes et l’on ne saura donc jamais s’il s’agissait d’un original ou d’une bonne copie d’atelier. Une seule version nous en est parvenue, celle du musée de l’Ermitage, malheureusement en mauvais état car transposée de bois sur toile. L’attitude de l’ange rappelle celle de Gabriel dans la scène de l’Annonciation. En revanche, les doigts de sa main droite ne sont pas dans la position de la bénédiction, ils sont en train d’indiquer le ciel ou, dans le dessin de Windsor, de montrer le phylactère sur lequel devaient sans doute être inscrits en latin les premiers mots que l’archange adresse à la Vierge : « je vous salue Marie pleine de grâce ». Comme dans le Salvator Mundi, la figure est placée sur un fond sombre, mais elle affiche une attitude beaucoup plus énergique, en direction du spectateur. Une telle interaction rappelle certains tableaux de dévotion privée d’Antonello de Messine, telle sa Vierge de l’Annonciation . L’œuvre invite à une méditation sur la réaction de la Vierge au moment de l’apparition angélique, ou plus largement sur les desseins de Dieu, prêt à intervenir dans le monde, par l’intermédiaire d’un ange. C’est aussi l’image rassurante d’un ange qui nous sourit délicatement, la main sur son cœur, symbole de foi, et qui indique le ciel, dernier refuge du salut de l’âme. La Prédication du Baptiste avec Rustici Cette figure angélique a inspiré le jeune Baccio Bandinelli pour l’un de ses premiers dessins (Vente Christie’s Londres, 1er juillet 1969, no 119) . Baccio était alors en formation dans l’atelier du sculpteur Giovanfrancesco Rustici, au moment même où Léonard aidait ce dernier dans la conception de la Prédication du Baptiste qui devait être placée au-dessus de l’une des portes du baptistère de Florence. La commande de ce monumental groupe en bronze avait été passée en décembre 1506 et l’ouvrage fut installé en juin ou juillet 1511. Vasari rappelle que Léonard assista Rustici, sans doute vers le début de la conception, lorsqu’il se trouvait à Florence, entre septembre 1507 et le printemps 1508. L’œuvre représente le passage de l’Évangile selon saint Jean où, après avoir été interrogé sur son identité, le Baptiste, entouré d’un pharisien et d’un lévite, déclare : « je suis la voix de celui qui crie dans le désert ». Il s’agit sans aucun doute du grand chef-d’œuvre de Rustici, dans lequel l’influence de Léonard est manifeste, notamment dans la puissance anatomique des personnages, leur vigoureuse expression, la virtuosité des drapés et le geste du saint qui rappelle celui de l’Ange de l’Annonciation. Pour autant, cette attitude n’est guère nouvelle s’agissant du Baptiste. Le dernier prophète, venu annoncer l’arrivée imminente du Christ, est traditionnellement représenté le bras levé, pour indiquer Jésus ou le ciel. Une première composition pour le Baptiste C’est peut-être à l’occasion de sa réflexion avec Rustici sur l’iconographie du Baptiste que Léonard a décidé de faire un tableau de dévotion consacré au saint patron de Florence. Il est possible qu’il ait envisagé, dans un premier temps, de reprendre la pose de l’Ange de l’Annonciation qui avait servi au groupe sculpté du baptistère. Cette première idée apparaît peut-être dans le dessin de Bandinelli, où la figure est privée d’ailes. Il existe aussi trois versions peintes avec un saint Jean Baptiste dans la pose de l’Ange, dont deux, conservées aux musées de Bâle et d’Oxford, pourraient être des copies d’atelier. Le saint revêt désormais une peau de bête tachetée, et tient une croix dans l’exemplaire de Bâle. L’analyse de fluorescence X du Saint Jean Baptiste du Louvre, un examen qui permet d’obtenir une cartographie des éléments chimiques, a révélé parmi les repentirs de l’exécution picturale que le buste était autrefois davantage de face, une position très proche de celle des copies du Baptiste dans la pose de l’Ange de l’Annonciation, ce qui appuierait l’idée que le tableau dérive bien de cette idée. Une seconde solution plus picturale La force plastique impressionnante que Léonard avait imaginée pour l’Ange annonçant glorieusement l’Incarnation, avec son bras se projetant vers le spectateur, s’accordait parfaitement à l’éloquence requise par le groupe sculpté de Rustici représentant la prédication du saint et destiné à marquer l’espace public. Mais sa traduction en une image de dévotion privée, réduite à la seule figure du Baptiste, devait lui sembler encore perfectible. Le maître décide de replier le bras droit sur le corps, ce qui donne au visage une place centrale, car la main droite est désormais placée à son niveau et non au-dessus. Le mouvement de la figure est moins vif mais plus complexe. Le buste et le bras se dirigent désormais clairement vers notre droite, tandis que la tête se retourne vers la gauche pour nous regarder, formant ainsi une gracieuse spirale. La soudaineté du surgissement de l’Ange de l’Annonciation laisse place à l’apparition douce et mystérieuse du Baptiste, manifestée avant tout par le subtil clair-obscur qui triomphe dans cette œuvre à l’extraordinaire économie de moyens. C’est peut-être la confrontation directe avec la sculpture, lors du travail avec Rustici, qui a incité Léonard à trouver dans son tableau une voie plus picturale, en confiant moins au geste qu’aux effets d’ombre et de lumière, magnifiés par ses effets si subtils de sfumato, le soin de révéler toute la force d’expression de la figure. La lumière fait surgir délicatement le corps du Baptiste comme d’une nuit profonde et donne à son mouvement l’allure d’une flamme sinueuse. Au cours de la récente restauration menée en 2015-2016, s’est posée la question de la véritable tonalité de la carnation et du type d’éclairage. L’œuvre était jusqu’alors recouverte par d’épaisses couches de vernis oxydés qui jaunissaient considérablement la figure du saint. Au cours de l’allègement de ces vernis, la teinte des chairs est restée très chaude. Le choix de laisser sur la matière originale une couche encore significative de vernis ancien explique que la lumière soit encore bien jaune. Le prélèvement effectué dans la carnation a tout de même révélé une tonalité nettement plus froide, et, du reste, les copies anciennes montrent également une chair claire. Le perfectionnement de la forme Comme à l’accoutumée, Léonard a dû peindre lentement son Saint Jean Baptiste. Les examens de laboratoire effectués ces dernières années, la réflectographie infrarouge et plus encore l’analyse de fluorescence X, ont mis en évidence les modifications apportées par l’artiste au cours de l’exécution picturale. Leonard a déplacé au moins trois fois les contours du corps du saint. La première position était plus frontale, très proche de celle des versions du Saint Jean Baptiste dans la pose de l’Ange de l’Annonciation. Léonard a ensuite dirigé le buste davantage vers la droite, puis a finalement trouvé une position médiane, légèrement moins tournée. Il a également décalé le bras droit, plus ou moins éloigné de la tête. Au niveau de la main droite, le pouce rejoignait le majeur, comme dans la copie dessinée du Codex Atlanticus, avant de s’en écarter. Le peintre a aussi hésité sur la visibilité à donner au bras gauche replié vers le buste. Enfin, il a modifié la coiffure, en ajoutant une mèche de cheveux sur le devant du visage. Ces idées abandonnées, visibles grâce à l’imagerie scientifique, se retrouvent dans des copies anciennes, dont plusieurs ont probablement été peintes dans l’atelier. On en recense aujourd’hui une vingtaine, qui peuvent être classées en trois grandes familles, chacune d’elles illustrant une étape de la réflexion du maître. La position plus frontale du buste se retrouve par exemple dans un groupe de copies auquel appartient un tableau du musée de Capodimonte à Naples (inv. Q1930,797). À l’époque où cette disposition était privilégiée, une mèche de cheveux était prévue sur l’épaule, comme dans l’Ange de l’Annonciation. La copie de l’Ambrosienne conserve l’idée de la mèche, mais le corps est désormais davantage de trois quarts. Son bras levé est plus bas, plus éloigné du visage. La main droite, avec le pouce rejoignant le majeur, est identique à celle du dessin du Codex Atlanticus. La position du bras, qui est presque la position finale, se retrouve dans la copie de l’ancienne collection Chéramy (vente Paris Drouot, étude Beaussant-Lefèvre, 5 avril 2013, no 29) dont l’auteur ne connaissait pas encore la disposition définitive des doigts de la main droite ni celle de la mèche supplémentaire de cheveux. Toutes ces copies nous aident ainsi à retracer la chronologie des légers changements apportés au cours de la lente exécution picturale. L’inachèvement On ne peut passer sous silence les doutes qui ont été exprimés dès le XIXe siècle sur l’autographie de l’œuvre. Certaines parties de la peinture, principalement la main et le bras droits, ont été sévèrement critiquées pour leur dessin maladroit. Ces faiblesses apparentes ont aussi été interprétées comme le résultat malheureux d’anciennes restaurations, et cela dès le XVIIe siècle. Abraham van der Doort remarquait ainsi que « le bras et la main ont été abîmés par quelque nettoyage effectué avant que le tableau ne parvienne à votre majesté ». Les historiens ont eu bien du mal à comprendre la réalité de ces zones, car le tableau est resté pendant très longtemps sous d’épaisses couches de vernis oxydés qui altéraient sa lecture. C’est seulement grâce à la récente restauration de 2015-2016 que l’on a pu mieux comprendre la matière picturale et son état de conservation. L’allègement des vernis anciens a révélé que les parties dont le dessin était plus schématique et les transitions lumineuses moins abouties étaient des zones inachevées. Ainsi du coude et de l’avant-bras droits mais aussi du bras gauche. D’autres zones ont pu en revanche souffrir de nettoyages anciens. Il est ainsi fort possible qu’il manque quelques glacis au niveau du haut du bras droit, dont la musculature est mieux marquée dans les copies anciennes faites d’après le tableau du Louvre (par exemple celle du musée du château de Blois, inv. 2002.1). Comme la Sainte Anne et la Joconde, le Saint Jean Baptiste était une œuvre en partie expérimentale. Léonard y recherchait la torsion idéale d’un corps, le rendu parfait des jeux d’ombre et de lumière pour magnifier le mouvement, construire le volume et animer le sourire, avec une extraordinaire économie de moyens, presque sans couleurs. Le témoin de la Lumière La perfection des effets de clair-obscur explique que certains historiens aient considéré l’œuvre comme une sorte de manifeste théorique. Carlo Pedretti, suivi par Daniel Arasse, a ainsi avancé qu’elle devait illustrer la pensée de Léonard sur la peinture, fondée sur l’ombre et la lumière, et démontrer la supériorité de cette discipline sur la sculpture, dans le cadre du paragone, le débat sur les mérites respectifs des différents arts. Pour autant, cette défense illustrée de la peinture devait surtout revêtir une dimension spirituelle qui a été très débattue par les historiens. On a souligné, à juste titre, que le type physique choisi par Léonard, l’adolescent à la beauté idéale, pouvait être inspiré de précédents florentins du Quattrocento, telles les sculptures de Desiderio da Settignano ou de Benedetto da Maiano. Ce choix pourrait s’expliquer par l’ambition de l’œuvre, méditative et non pas narrative. Nous n’avons affaire là ni à l’ascète émacié vivant dans le désert ni au prédicateur enflammé. Sur un fond sombre abstrait, le prophète apparaît dans sa beauté idéale, tel un messager qui annonce l’arrivée du Messie et nous confirme le Salut par son sourire radieux. Cette image a parfois été reliée au courant néoplatonicien, l’éphèbe étant interprété comme une forme supérieure de la beauté. On a commenté aussi, de façon tout autant contestable, le caractère androgyne du saint, avec une signification potentiellement hermétique et alchimique. Cet aspect androgyne, remarqué dès la fin du XIXe siècle, s’inscrit en fait dans les recherches personnelles de l’artiste sur la beauté, et on le retrouve d’ailleurs dans d’autres personnages, tel l’Ange de l’Annonciation. Un autre élément singulier de l’image est la peau de bête portée par le saint, non pas celle d’un chameau, comme rapporté dans les Écritures, mais une fourrure tachetée, appartenant à des animaux sauvages tels que panthère, léopard ou lynx. Ce détail semble tout à fait unique au moment où Léonard le dépeint. Il a été assimilé à la fourrure portée par Bacchus, divinité païenne parfois considérée comme une préfiguration du Christ, en raison notamment de ses attributs de la vigne et du vin. Le caractère féminin du Baptiste de Léonard a été anciennement interprété comme un signe de volupté. Fascinée ou choquée, cette vision du tableau a pris corps au cours du XIXe siècle. Théophile Gautier devinait sur le visage une expression sardonique, une malice inquiétante, une impénétrabilité de sphinx, et soupçonnait son orthodoxie , en raison de son sourire qu’il qualifiait de diabolique. Cette révélation, soutenue un peu plus tard par le Sar Péladan, a été adoptée par plusieurs historiens, notamment Pietro Marani, qui définit le Baptiste de Léonard comme un ange du mal qui chercherait à éveiller chez le spectateur des pensées obscène. Cette position explique en partie la tentation, privée bien sûr de tout fondement, de voir dans l’œuvre un portrait caché, généralement celui d’un proche du maître. Ce serait pour certains Salaì, en raison des longs cheveux bouclés décrits par Vasari, mais, plus récemment, Edoardo Villata lui a préféré le mystérieux Lorenzo, qui accompagna Léonard à Rome en 1513. L’œuvre a suscité aussi des lectures diamétralement opposées, dans lesquelles les auteurs admirent au contraire l’intensité spirituelle du tableau, et c’est de ce côté que nous nous rangeons. L’analyse menée jusqu’à présent sur les peintures religieuses de Léonard démontre une grande profondeur dans la réflexion et une volonté d’illustrer au mieux le mystère sacré. Paul Barolsky a fort justement relié le tableau du Louvre aux premiers versets de l’Évangile selon saint Jean : « La lumière brille dans les ténèbres, et les ténèbres ne l’ont pas arrêtée. Il y eut un homme envoyé par Dieu ; son nom était Jean. Il est venu comme témoin, pour rendre témoignage à la Lumière, afin que tous croient par lui. Cet homme n’était pas la Lumière, mais il était là pour rendre témoignage à la Lumière. » Le Saint Jean Baptiste de Léonard est sans aucun doute l’illustration la plus accomplie de ce texte où le dernier prophète est défini comme le témoin de la lumière. L’artiste dépeint une mystérieuse et éphémère épiphanie, la douce apparition d’un scintillement voué à la disparition devant la vraie lumière du Christ. En se tournant, saint Jean semble vouloir nous emmener avec lui dans cette nuit, et son sourire nous promet l’aube prochaine, le salut éternel. (Texte de Vincent Delieuvin, juillet 2021)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: Provenance : Ce tableau fut conçu vraisemblablement vers 1508 et conservé par Léonard de Vinci jusqu'à sa mort, pour en poursuivre lentement l'exécution picturale, toujours inachevée en 1519 ; très probablement acquis par François Ier en 1518 puis sorti des collections royales dans des conditions inconnues ; appartient à Roger du Plessis, duc de Liancourt, dans les années 1620 ; donné par le duc de Liancourt au roi Charles Ier d’Angleterre, et conservé à Londres des années 1630 à 1649 ; après l'exécution de Charles Ier, vente du Commonwealth en 1651 ; acquis à cette vente par Cruso et Terence en 1651 ; vendu au banquier Everhard Jabach et conservé dans sa collection à Paris jusqu’en 1662 ; acquis par Louis XIV en 1662 et resté dans la collection royale française jusqu'en 1792 ; exposé au musée du Louvre en 1801. Commentaire : Une origine encore mal connue On ignore les circonstances de la création du Saint Jean Baptiste de Léonard de Vinci. L’artiste ne l’évoque guère dans ses écrits, et nous ne savons pas s’il l’a peint pour un commanditaire spécifique (aucune hypothèse de commande n’a pu être étayée par des documents, y compris celle d’Edoardo Villata en 1997 qui a proposé, sans argument décisif, le nom de Giovanni Benci) ou s’il s’agit d’un projet personnel, comme on le suppose pour la Sainte Anne. La première mention absolument certaine de l’œuvre est l’inventaire de la collection du roi Charles Ier d’Angleterre, achevé en 1639 par Abraham van der Doort. Ce dernier y rappelle les conditions d’entrée du tableau, offert par le duc de Liancourt en échange d’un Portrait d’Érasme par Holbein et d’une Vierge à l’Enfant de Titien. Ces présents furent vraisemblablement faits en 1630, lorsque Liancourt fut envoyé par Louis XIII pour féliciter le souverain anglais de la naissance du futur Charles II. Témoin de cette histoire, la marque au fer (CR couronné) du roi d’Angleterre apposée au revers du tableau du Louvre (Cette marque n’est visible qu’à la radiographie, car elle a été recouverte plus tard d’une couche d’enduit protecteur). À la mort de Charles Ier, l’œuvre fut acquise par Cruso et Terence, puis vendue au banquier Everhard Jabach, qui la céda en 1661-1662 à Louis XIV. Le tableau est resté dans la collection royale jusqu’à son entrée au Louvre à la Révolution. Roger du Plessis, duc de La Rocheguyon et de Liancourt, fut l’un des grands collectionneurs de la première moitié du XVIIe siècle. On ignore cependant comment il a acquis le tableau de Léonard. Pendant longtemps, les historiens ont pensé qu’il avait offert, au nom du roi Louis XIII, une œuvre de la collection royale. Mais cette idée a été abandonnée car les notes de Van Der Doort ne l’indiquent pas, et les tableaux donnés en échange par Charles Ier sont passés chez Liancourt et non pas chez Louis XIII. Pour autant, il est possible que le Saint Jean Baptiste ait bien fait partie antérieurement du patrimoine de la couronne de France. Nos connaissances sur les collections royales au XVIe siècle demeurent très lacunaires. Par ailleurs, les sources du XVIIe siècle mentionnent chez le roi, non pas ce petit tableau mais le grand Saint Jean Baptiste dans un paysage, transformé en Bacchus à la fin du XVIIe siècle et alors attribué au maître. La présence de cette œuvre au château de Fontainebleau dès 1625 au moins explique que les historiens ne s’accordent pas sur l’identification du « saint Jean Baptiste jeune » montré en octobre 1517 par Léonard au cardinal d’Aragon au château de Cloux. Il semble plus plausible qu’il s’agisse du petit Saint Jean, lequel est vraiment autographe. La grande version est très clairement une peinture d’atelier, attribuable à Francesco Melzi, et il est difficile d’imaginer le vieux maître s’appropriant devant son hôte illustre l’œuvre bien plus modeste de son élève. En outre, la présence en France du petit Saint Jean Baptiste est attestée par son influence indéniable sur le Portrait de François Ier en saint Jean Baptiste peint par Jean Clouet en 1518 (Paris, musée du Louvre, RF 2005.12) . Emporté par le maître en France en 1516, le chef-d’œuvre a pu être acquis par François Ier, avec la Joconde et la Sainte Anne, puis sortir des collections royales dans des circonstances inconnues, pour parvenir entre les mains du duc de Liancourt au début du XVIIe siècle. Une datation débattue Faute de documents, la datation du Saint Jean Baptiste a beaucoup varié dans l’historiographie, depuis la fin des années 1490 jusqu’à la période française de l’artiste. L’hypothèse selon laquelle le tableau aurait été conçu au cours de la seconde période florentine de Léonard a été proposée dès le milieu du XIXe siècle, pour des raisons stylistiques, en raison de ses liens étroits avec la Joconde et la Sainte Anne. Les sources florentines anciennes, le Libro di Antonio Billi et l’Anonimo Magliabechiano, ont d’ailleurs conservé la mémoire de l’œuvre. Cette datation florentine a été défendue ces dernières années par Edoardo Villata, qui a souligné l’affinité de la figure de Léonard avec le saint Jean du retable de l’Incarnation de Piero di Cosimo (Florence, Galleria degli Uffizi, inv. 1890 n. 506) , dont la datation l’incite à situer le Saint Jean Baptiste vers 1505-1506. Mais son argumentation demeure fragile car la figure de Piero di Cosimo a un geste différent de celui de Léonard et son type physique pourrait être tout autant inspiré par une autre invention du maître conçue dès 1503-1504, l’Ange de l’Annonciation dont nous parlerons plus loin. En 1939, Kenneth Clark a, quant à lui, proposé une exécution tardive de l’œuvre, au cours de la période romaine, vers 1513-1514. Dans son sillage, des spécialistes ont souligné la présence de la peau de bête tachetée évoquant le manteau du dieu Bacchus, un détail qui, selon eux, pourrait être lié au climat antiquisant de la Ville éternelle. Récemment, Frank Zöllner a appuyé cette idée en soutenant que l’iconographie du Baptiste était particulièrement en faveur dans la Rome du pape Médicis Léon X. L’hypothèse d’une commande pontificale a même été avancée, mais sans argument documentaire. La palette restreinte du tableau, l’accent qui y est mis sur l’ombre et la lumière ont également été interprétés comme une sorte de testament pictural que certains ont donc situé dans la période française, vers 1516-1518. Dans ce débat, nous ne disposons pas de dessin préparatoire autographe susceptible de livrer un indice. Toutefois, il existe dans le Codex Atlanticus, sur le folio 489 recto, sous des écrits de Léonard à la plume, le dessin à la pierre noire d’une main droite, dans la même position que celle du Baptiste. Les contours en sont appuyés, très scolaires, d’où son attribution justifiée à un élève. Par comparaison avec d’autres feuilles du maître, les dessins géométriques qui recouvrent la main ont été datés de 1509, année qui pourrait donc être un terminus ante quem pour la conception du Saint Jean Baptiste. Le support de noyer a parfois été utilisé pour soutenir la thèse d’une exécution à Milan, le plus souvent à partir de 1508, selon l’idée discutable selon laquelle Léonard utiliserait exclusivement du peuplier à Florence et du noyer à Milan. L’ancêtre Gabriel Selon plusieurs historiens, le Saint Jean Baptiste pourrait être le développement naturel d’une précédente composition du maître. Sur une feuille de Windsor (RCIN 12328) mêlant calculs mathématiques, dessins géométriques, machines à engrenage, hommes et chevaux, se distingue la figure d’un ange. Il tend son bras droit pour indiquer le ciel tandis que l’autre est replié sur son buste. En haut est déroulé un phylactère. La figure est tracée rapidement à la pierre noire, avec une hachure caractéristique d’un droitier. Cela explique que les spécialistes y reconnaissent le travail d’un élève, cependant corrigé par le maître à la plume pour les contours du buste et du bras droit afin d’améliorer l’effet du raccourci. Les cavaliers et les chevaux en furie dessinés avec la même encre sont clairement préparatoires à la Bataille d’Anghiari et permettent de situer l’ange vers 1503-1504. C’est très certainement Léonard lui-même qui a inventé cette composition, inspirée par l’un des figurants de l’Adoration des Mages conçue entre 1480 et 1482. Une étude autographe (Venise, Galleria dell’Accademia, inv. n. 138) pour le bras gauche de l’ange en apporte la confirmation. Dessinée à la sanguine avec des rehauts de blanc, elle présente un trait nerveux et des repentirs qui permettent de l’attribuer au maître, et ce en dépit des doutes émis par certains. Vasari cite un tableau sur ce thème dans la collection du grand-duc Cosme Ier, dans l’édition de 1568 de sa biographie de l’artiste : « un Ange qui lève en l’air un bras dont la partie de l’épaule au coude, venant vers l’avant, apparaît en raccourci, tandis que de l’autre il porte la main au cœur. Et c’est chose admirable que ce génie, ayant le désir de donner le plus grand relief à ses ouvrages, fût, avec l’ombre obscure, allé trouver des fonds parmi les plus obscurs, tellement qu’il recherchait des noirs qui ombrassent et fussent plus obscurs que les autres noirs, afin que par leur moyen le clair fût plus lucide, et que, pour finir, il en eût résulté cette manière si sombre que, n’y restant de clarté, ses œuvres avaient l’apparence de choses faites pour contrefaire la nuit plutôt que la finesse de la lumière du jour ; mais tout cela avait pour but de donner un plus grand relief, d’atteindre la fin et la perfection de l’art. » Ce tableau a disparu des collections médicéennes et l’on ne saura donc jamais s’il s’agissait d’un original ou d’une bonne copie d’atelier. Une seule version nous en est parvenue, celle du musée de l’Ermitage, malheureusement en mauvais état car transposée de bois sur toile. L’attitude de l’ange rappelle celle de Gabriel dans la scène de l’Annonciation. En revanche, les doigts de sa main droite ne sont pas dans la position de la bénédiction, ils sont en train d’indiquer le ciel ou, dans le dessin de Windsor, de montrer le phylactère sur lequel devaient sans doute être inscrits en latin les premiers mots que l’archange adresse à la Vierge : « je vous salue Marie pleine de grâce ». Comme dans le Salvator Mundi, la figure est placée sur un fond sombre, mais elle affiche une attitude beaucoup plus énergique, en direction du spectateur. Une telle interaction rappelle certains tableaux de dévotion privée d’Antonello de Messine, telle sa Vierge de l’Annonciation . L’œuvre invite à une méditation sur la réaction de la Vierge au moment de l’apparition angélique, ou plus largement sur les desseins de Dieu, prêt à intervenir dans le monde, par l’intermédiaire d’un ange. C’est aussi l’image rassurante d’un ange qui nous sourit délicatement, la main sur son cœur, symbole de foi, et qui indique le ciel, dernier refuge du salut de l’âme. La Prédication du Baptiste avec Rustici Cette figure angélique a inspiré le jeune Baccio Bandinelli pour l’un de ses premiers dessins (Vente Christie’s Londres, 1er juillet 1969, no 119) . Baccio était alors en formation dans l’atelier du sculpteur Giovanfrancesco Rustici, au moment même où Léonard aidait ce dernier dans la conception de la Prédication du Baptiste qui devait être placée au-dessus de l’une des portes du baptistère de Florence. La commande de ce monumental groupe en bronze avait été passée en décembre 1506 et l’ouvrage fut installé en juin ou juillet 1511. Vasari rappelle que Léonard assista Rustici, sans doute vers le début de la conception, lorsqu’il se trouvait à Florence, entre septembre 1507 et le printemps 1508. L’œuvre représente le passage de l’Évangile selon saint Jean où, après avoir été interrogé sur son identité, le Baptiste, entouré d’un pharisien et d’un lévite, déclare : « je suis la voix de celui qui crie dans le désert ». Il s’agit sans aucun doute du grand chef-d’œuvre de Rustici, dans lequel l’influence de Léonard est manifeste, notamment dans la puissance anatomique des personnages, leur vigoureuse expression, la virtuosité des drapés et le geste du saint qui rappelle celui de l’Ange de l’Annonciation. Pour autant, cette attitude n’est guère nouvelle s’agissant du Baptiste. Le dernier prophète, venu annoncer l’arrivée imminente du Christ, est traditionnellement représenté le bras levé, pour indiquer Jésus ou le ciel. Une première composition pour le Baptiste C’est peut-être à l’occasion de sa réflexion avec Rustici sur l’iconographie du Baptiste que Léonard a décidé de faire un tableau de dévotion consacré au saint patron de Florence. Il est possible qu’il ait envisagé, dans un premier temps, de reprendre la pose de l’Ange de l’Annonciation qui avait servi au groupe sculpté du baptistère. Cette première idée apparaît peut-être dans le dessin de Bandinelli, où la figure est privée d’ailes. Il existe aussi trois versions peintes avec un saint Jean Baptiste dans la pose de l’Ange, dont deux, conservées aux musées de Bâle et d’Oxford, pourraient être des copies d’atelier. Le saint revêt désormais une peau de bête tachetée, et tient une croix dans l’exemplaire de Bâle. L’analyse de fluorescence X du Saint Jean Baptiste du Louvre, un examen qui permet d’obtenir une cartographie des éléments chimiques, a révélé parmi les repentirs de l’exécution picturale que le buste était autrefois davantage de face, une position très proche de celle des copies du Baptiste dans la pose de l’Ange de l’Annonciation, ce qui appuierait l’idée que le tableau dérive bien de cette idée. Une seconde solution plus picturale La force plastique impressionnante que Léonard avait imaginée pour l’Ange annonçant glorieusement l’Incarnation, avec son bras se projetant vers le spectateur, s’accordait parfaitement à l’éloquence requise par le groupe sculpté de Rustici représentant la prédication du saint et destiné à marquer l’espace public. Mais sa traduction en une image de dévotion privée, réduite à la seule figure du Baptiste, devait lui sembler encore perfectible. Le maître décide de replier le bras droit sur le corps, ce qui donne au visage une place centrale, car la main droite est désormais placée à son niveau et non au-dessus. Le mouvement de la figure est moins vif mais plus complexe. Le buste et le bras se dirigent désormais clairement vers notre droite, tandis que la tête se retourne vers la gauche pour nous regarder, formant ainsi une gracieuse spirale. La soudaineté du surgissement de l’Ange de l’Annonciation laisse place à l’apparition douce et mystérieuse du Baptiste, manifestée avant tout par le subtil clair-obscur qui triomphe dans cette œuvre à l’extraordinaire économie de moyens. C’est peut-être la confrontation directe avec la sculpture, lors du travail avec Rustici, qui a incité Léonard à trouver dans son tableau une voie plus picturale, en confiant moins au geste qu’aux effets d’ombre et de lumière, magnifiés par ses effets si subtils de sfumato, le soin de révéler toute la force d’expression de la figure. La lumière fait surgir délicatement le corps du Baptiste comme d’une nuit profonde et donne à son mouvement l’allure d’une flamme sinueuse. Au cours de la récente restauration menée en 2015-2016, s’est posée la question de la véritable tonalité de la carnation et du type d’éclairage. L’œuvre était jusqu’alors recouverte par d’épaisses couches de vernis oxydés qui jaunissaient considérablement la figure du saint. Au cours de l’allègement de ces vernis, la teinte des chairs est restée très chaude. Le choix de laisser sur la matière originale une couche encore significative de vernis ancien explique que la lumière soit encore bien jaune. Le prélèvement effectué dans la carnation a tout de même révélé une tonalité nettement plus froide, et, du reste, les copies anciennes montrent également une chair claire. Le perfectionnement de la forme Comme à l’accoutumée, Léonard a dû peindre lentement son Saint Jean Baptiste. Les examens de laboratoire effectués ces dernières années, la réflectographie infrarouge et plus encore l’analyse de fluorescence X, ont mis en évidence les modifications apportées par l’artiste au cours de l’exécution picturale. Leonard a déplacé au moins trois fois les contours du corps du saint. La première position était plus frontale, très proche de celle des versions du Saint Jean Baptiste dans la pose de l’Ange de l’Annonciation. Léonard a ensuite dirigé le buste davantage vers la droite, puis a finalement trouvé une position médiane, légèrement moins tournée. Il a également décalé le bras droit, plus ou moins éloigné de la tête. Au niveau de la main droite, le pouce rejoignait le majeur, comme dans la copie dessinée du Codex Atlanticus, avant de s’en écarter. Le peintre a aussi hésité sur la visibilité à donner au bras gauche replié vers le buste. Enfin, il a modifié la coiffure, en ajoutant une mèche de cheveux sur le devant du visage. Ces idées abandonnées, visibles grâce à l’imagerie scientifique, se retrouvent dans des copies anciennes, dont plusieurs ont probablement été peintes dans l’atelier. On en recense aujourd’hui une vingtaine, qui peuvent être classées en trois grandes familles, chacune d’elles illustrant une étape de la réflexion du maître. La position plus frontale du buste se retrouve par exemple dans un groupe de copies auquel appartient un tableau du musée de Capodimonte à Naples (inv. Q1930,797). À l’époque où cette disposition était privilégiée, une mèche de cheveux était prévue sur l’épaule, comme dans l’Ange de l’Annonciation. La copie de l’Ambrosienne conserve l’idée de la mèche, mais le corps est désormais davantage de trois quarts. Son bras levé est plus bas, plus éloigné du visage. La main droite, avec le pouce rejoignant le majeur, est identique à celle du dessin du Codex Atlanticus. La position du bras, qui est presque la position finale, se retrouve dans la copie de l’ancienne collection Chéramy (vente Paris Drouot, étude Beaussant-Lefèvre, 5 avril 2013, no 29) dont l’auteur ne connaissait pas encore la disposition définitive des doigts de la main droite ni celle de la mèche supplémentaire de cheveux. Toutes ces copies nous aident ainsi à retracer la chronologie des légers changements apportés au cours de la lente exécution picturale. L’inachèvement On ne peut passer sous silence les doutes qui ont été exprimés dès le XIXe siècle sur l’autographie de l’œuvre. Certaines parties de la peinture, principalement la main et le bras droits, ont été sévèrement critiquées pour leur dessin maladroit. Ces faiblesses apparentes ont aussi été interprétées comme le résultat malheureux d’anciennes restaurations, et cela dès le XVIIe siècle. Abraham van der Doort remarquait ainsi que « le bras et la main ont été abîmés par quelque nettoyage effectué avant que le tableau ne parvienne à votre majesté ». Les historiens ont eu bien du mal à comprendre la réalité de ces zones, car le tableau est resté pendant très longtemps sous d’épaisses couches de vernis oxydés qui altéraient sa lecture. C’est seulement grâce à la récente restauration de 2015-2016 que l’on a pu mieux comprendre la matière picturale et son état de conservation. L’allègement des vernis anciens a révélé que les parties dont le dessin était plus schématique et les transitions lumineuses moins abouties étaient des zones inachevées. Ainsi du coude et de l’avant-bras droits mais aussi du bras gauche. D’autres zones ont pu en revanche souffrir de nettoyages anciens. Il est ainsi fort possible qu’il manque quelques glacis au niveau du haut du bras droit, dont la musculature est mieux marquée dans les copies anciennes faites d’après le tableau du Louvre (par exemple celle du musée du château de Blois, inv. 2002.1). Comme la Sainte Anne et la Joconde, le Saint Jean Baptiste était une œuvre en partie expérimentale. Léonard y recherchait la torsion idéale d’un corps, le rendu parfait des jeux d’ombre et de lumière pour magnifier le mouvement, construire le volume et animer le sourire, avec une extraordinaire économie de moyens, presque sans couleurs. Le témoin de la Lumière La perfection des effets de clair-obscur explique que certains historiens aient considéré l’œuvre comme une sorte de manifeste théorique. Carlo Pedretti, suivi par Daniel Arasse, a ainsi avancé qu’elle devait illustrer la pensée de Léonard sur la peinture, fondée sur l’ombre et la lumière, et démontrer la supériorité de cette discipline sur la sculpture, dans le cadre du paragone, le débat sur les mérites respectifs des différents arts. Pour autant, cette défense illustrée de la peinture devait surtout revêtir une dimension spirituelle qui a été très débattue par les historiens. On a souligné, à juste titre, que le type physique choisi par Léonard, l’adolescent à la beauté idéale, pouvait être inspiré de précédents florentins du Quattrocento, telles les sculptures de Desiderio da Settignano ou de Benedetto da Maiano. Ce choix pourrait s’expliquer par l’ambition de l’œuvre, méditative et non pas narrative. Nous n’avons affaire là ni à l’ascète émacié vivant dans le désert ni au prédicateur enflammé. Sur un fond sombre abstrait, le prophète apparaît dans sa beauté idéale, tel un messager qui annonce l’arrivée du Messie et nous confirme le Salut par son sourire radieux. Cette image a parfois été reliée au courant néoplatonicien, l’éphèbe étant interprété comme une forme supérieure de la beauté. On a commenté aussi, de façon tout autant contestable, le caractère androgyne du saint, avec une signification potentiellement hermétique et alchimique. Cet aspect androgyne, remarqué dès la fin du XIXe siècle, s’inscrit en fait dans les recherches personnelles de l’artiste sur la beauté, et on le retrouve d’ailleurs dans d’autres personnages, tel l’Ange de l’Annonciation. Un autre élément singulier de l’image est la peau de bête portée par le saint, non pas celle d’un chameau, comme rapporté dans les Écritures, mais une fourrure tachetée, appartenant à des animaux sauvages tels que panthère, léopard ou lynx. Ce détail semble tout à fait unique au moment où Léonard le dépeint. Il a été assimilé à la fourrure portée par Bacchus, divinité païenne parfois considérée comme une préfiguration du Christ, en raison notamment de ses attributs de la vigne et du vin. Le caractère féminin du Baptiste de Léonard a été anciennement interprété comme un signe de volupté. Fascinée ou choquée, cette vision du tableau a pris corps au cours du XIXe siècle. Théophile Gautier devinait sur le visage une expression sardonique, une malice inquiétante, une impénétrabilité de sphinx, et soupçonnait son orthodoxie , en raison de son sourire qu’il qualifiait de diabolique. Cette révélation, soutenue un peu plus tard par le Sar Péladan, a été adoptée par plusieurs historiens, notamment Pietro Marani, qui définit le Baptiste de Léonard comme un ange du mal qui chercherait à éveiller chez le spectateur des pensées obscène. Cette position explique en partie la tentation, privée bien sûr de tout fondement, de voir dans l’œuvre un portrait caché, généralement celui d’un proche du maître. Ce serait pour certains Salaì, en raison des longs cheveux bouclés décrits par Vasari, mais, plus récemment, Edoardo Villata lui a préféré le mystérieux Lorenzo, qui accompagna Léonard à Rome en 1513. L’œuvre a suscité aussi des lectures diamétralement opposées, dans lesquelles les auteurs admirent au contraire l’intensité spirituelle du tableau, et c’est de ce côté que nous nous rangeons. L’analyse menée jusqu’à présent sur les peintures religieuses de Léonard démontre une grande profondeur dans la réflexion et une volonté d’illustrer au mieux le mystère sacré. Paul Barolsky a fort justement relié le tableau du Louvre aux premiers versets de l’Évangile selon saint Jean : « La lumière brille dans les ténèbres, et les ténèbres ne l’ont pas arrêtée. Il y eut un homme envoyé par Dieu ; son nom était Jean. Il est venu comme témoin, pour rendre témoignage à la Lumière, afin que tous croient par lui. Cet homme n’était pas la Lumière, mais il était là pour rendre témoignage à la Lumière. » Le Saint Jean Baptiste de Léonard est sans aucun doute l’illustration la plus accomplie de ce texte où le dernier prophète est défini comme le témoin de la lumière. L’artiste dépeint une mystérieuse et éphémère épiphanie, la douce apparition d’un scintillement voué à la disparition devant la vraie lumière du Christ. En se tournant, saint Jean semble vouloir nous emmener avec lui dans cette nuit, et son sourire nous promet l’aube prochaine, le salut éternel. (Texte de Vincent Delieuvin, juillet 2021)",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062374 (Saint Jean Baptiste), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062374"
+        }
+      ]
     }
   ],
   "current_location": "geo-louvre",
@@ -141,6 +441,55 @@
   ],
   "open_questions": [
     "Is the Baptist one of the three paintings seen by de Beatis in 1517?"
+  ],
+  "identifiers": {
+    "wikidata": "Q783215",
+    "louvre_ark": "cl010062374",
+    "inventory": "INV 775"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Saint_John_the_Baptist_C2RMF_retouched.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Saint_John_the_Baptist_C2RMF_retouched.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/0000000021/0000062374/0000609071_OG.JPG",
+      "credit": "© 2016 GrandPalaisRmn (musée du Louvre) / Tony Querrec",
+      "page": "https://collections.louvre.fr/ark:/53355/cl010062374"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Saint_John_the_Baptist_(Leonardo)",
+      "text": "Saint John the Baptist is a High Renaissance oil painting on walnut wood by Leonardo da Vinci. Likely to have been completed between 1513 and 1516, it is believed to be his final painting. Its original size was 69 by 57 centimetres.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/San_Giovanni_Battista_(Leonardo)",
+      "text": "San Giovanni Battista è un dipinto a olio su tavola di noce di Leonardo da Vinci, databile al 1508-1513 è stato prestato nel 2018 al Louvre Abu Dhabi. Attualmente è al Museo del Louvre",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Saint_Jean-Baptiste_(L%C3%A9onard_de_Vinci)",
+      "text": "Saint Jean-Baptiste est un tableau de Léonard de Vinci conservé au musée du Louvre en France. Il est peint sur une planche de noyer et mesure 69 × 57 cm et représente Jean le Baptiste. On le date en général de sa période romaine entre 1513 et 1516. Carlo Pedretti suppose même qu'il pourrait s‘agir d'une commande de Léon X, pape florentin. Le tableau serait donc un hommage au saint protecteur de Florence.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Saint John the Baptist",
+    "San Giovanni Battista",
+    "Saint Jean-Baptiste",
+    "St. John the Baptist",
+    "John the Baptist",
+    "Saint John the Baptist (Leonardo)",
+    "Saint Jean Baptiste"
   ],
   "timeline": {
     "lane": "works",

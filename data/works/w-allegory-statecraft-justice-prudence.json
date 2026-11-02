@@ -1,0 +1,85 @@
+{
+  "id": "w-allegory-statecraft-justice-prudence",
+  "type": "work",
+  "label": "Allegory of Statecraft (Justice and Prudence)",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "mythology"
+    ],
+    "basis": "Derived automatically from Wikidata Q139567087 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567087",
+    "inventory": "JBS 18r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Witch_using_a_Magic_Mirror.webp?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Witch_using_a_Magic_Mirror.webp"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1650",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567087 (Allegory of Statecraft (Justice and Prudence)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567087"
+        }
+      ]
+    },
+    {
+      "id": "api1651",
+      "about": "inventory",
+      "value": {
+        "text": "JBS 18r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number JBS 18r in Christ Church, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567087 (Allegory of Statecraft (Justice and Prudence)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567087"
+        }
+      ]
+    },
+    {
+      "id": "api1652",
+      "about": "current_location",
+      "value": {
+        "text": "Christ Church"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Christ Church, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567087 (Allegory of Statecraft (Justice and Prudence)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567087"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-christ-church-oxford"
+    }
+  ],
+  "current_location": "geo-christ-church-oxford"
+}

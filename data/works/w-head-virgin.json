@@ -1,0 +1,269 @@
+{
+  "id": "w-head-virgin",
+  "type": "work",
+  "label": "The Head of the Virgin in Three-Quarter View Facing Right",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "religious",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q29384852 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q29384852",
+    "met": "337496",
+    "inventory": "51.90"
+  },
+  "variants": [
+    "Testa della Vergine",
+    "Tête de la Vierge de trois quarts à droite"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Head_of_the_Virgin_in_Three-Quarter_View_Facing_Right_MET_DP102382.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Head_of_the_Virgin_in_Three-Quarter_View_Facing_Right_MET_DP102382.jpg"
+    },
+    {
+      "src": "https://images.metmuseum.org/CRDImages/dp/web-large/DP102382.jpg",
+      "credit": "The Metropolitan Museum of Art",
+      "page": "https://www.metmuseum.org/art/collection/search/337496"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2805",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29384852 (The Head of the Virgin in Three-Quarter View Facing Right), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29384852"
+        }
+      ]
+    },
+    {
+      "id": "api2806",
+      "about": "date",
+      "value": {
+        "text": "1510 to 1513",
+        "start": 1510,
+        "end": 1513
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1510 to 1513.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29384852 (The Head of the Virgin in Three-Quarter View Facing Right), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29384852"
+        }
+      ]
+    },
+    {
+      "id": "api2807",
+      "about": "inventory",
+      "value": {
+        "text": "51.90"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 51.90 in Metropolitan Museum of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29384852 (The Head of the Virgin in Three-Quarter View Facing Right), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29384852"
+        }
+      ]
+    },
+    {
+      "id": "api2808",
+      "about": "current_location",
+      "value": {
+        "text": "Metropolitan Museum of Art"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Metropolitan Museum of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29384852 (The Head of the Virgin in Three-Quarter View Facing Right), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29384852"
+        }
+      ]
+    },
+    {
+      "id": "api2809",
+      "about": "dimensions",
+      "value": {
+        "text": "20.3 cm x 15.6 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 20.3 cm, width 15.6 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29384852 (The Head of the Virgin in Three-Quarter View Facing Right), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29384852"
+        }
+      ]
+    },
+    {
+      "id": "api2810",
+      "about": "depicts",
+      "value": {
+        "text": "Mary; woman; human head"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Mary; woman; human head. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29384852 (The Head of the Virgin in Three-Quarter View Facing Right), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29384852"
+        }
+      ]
+    },
+    {
+      "id": "api3050",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Met's record gives the artist as: Leonardo da Vinci.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 337496 (The Head of the Virgin in Three-Quarter View Facing Right), accession 51.90, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/337496"
+        }
+      ]
+    },
+    {
+      "id": "api3051",
+      "about": "date",
+      "value": {
+        "text": "1510, 13",
+        "start": 1510,
+        "end": 1513
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Met dates the work 1510, 13.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 337496 (The Head of the Virgin in Three-Quarter View Facing Right), accession 51.90, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/337496"
+        }
+      ]
+    },
+    {
+      "id": "api3052",
+      "about": "medium",
+      "value": {
+        "text": "Black chalk, charcoal, and red chalk, with some traces of white chalk (?); some remains of framing lines in pen and brown ink at upper right (not by Leonardo)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Medium in the Met's record: Black chalk, charcoal, and red chalk, with some traces of white chalk (?); some remains of framing lines in pen and brown ink at upper right (not by Leonardo).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 337496 (The Head of the Virgin in Three-Quarter View Facing Right), accession 51.90, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/337496"
+        }
+      ]
+    },
+    {
+      "id": "api3053",
+      "about": "dimensions",
+      "value": {
+        "text": "Sheet: 8 x 6 1/8 in. (20.3 x 15.6 cm)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Met's record: Sheet: 8 x 6 1/8 in. (20.3 x 15.6 cm).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 337496 (The Head of the Virgin in Three-Quarter View Facing Right), accession 51.90, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/337496"
+        }
+      ]
+    },
+    {
+      "id": "api3054",
+      "about": "inventory",
+      "value": {
+        "text": "51.90"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Accession number 51.90, The Metropolitan Museum of Art; Harris Brisbane Dick Fund, 1951.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 337496 (The Head of the Virgin in Three-Quarter View Facing Right), accession 51.90, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/337496"
+        }
+      ]
+    },
+    {
+      "id": "api3055",
+      "about": "current_location",
+      "value": {
+        "text": "The Metropolitan Museum of Art, New York"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by The Metropolitan Museum of Art (Drawings and Prints).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 337496 (The Head of the Virgin in Three-Quarter View Facing Right), accession 51.90, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/337496"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/The_Head_of_the_Virgin_in_Three-Quarter_View_Facing_Right",
+      "text": "The Head of the Virgin in Three-Quarter View Facing Right is a drawing on paper in Pierre noir pencil and red chalk, attributed to the Florentine painter Leonardo da Vinci and kept at the Metropolitan Museum of Art in New York.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/T%C3%AAte_de_la_Vierge_de_trois_quarts_%C3%A0_droite",
+      "text": "Tête de la Vierge de trois quarts à droite est un dessin sur papier réalisé à la pierre noire et à la craie rouge, attribué au peintre florentin Léonard de Vinci et conservé au Metropolitan Museum of Art à New York.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-met"
+    }
+  ],
+  "current_location": "geo-met"
+}

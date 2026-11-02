@@ -1,0 +1,148 @@
+{
+  "id": "w-anatomical-muscles-919008",
+  "type": "work",
+  "label": "Anatomical Studies of the Muscles of the Neck, Shoulder, Chest and Arm",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "anatomy"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389726 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389726",
+      "Q136389725"
+    ],
+    "rcin": "919008",
+    "inventory": [
+      "RCIN 919008 verso",
+      "RCIN 919008 recto"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919008%2C_Verso_The_muscles_of_the_shoulder%2C_arm_and_neck_c.1510-11.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919008%2C_Verso_The_muscles_of_the_shoulder%2C_arm_and_neck_c.1510-11.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919008%2C_Recto_The_bones_and_muscles_of_the_leg.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919008%2C_Recto_The_bones_and_muscles_of_the_leg.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api991",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389726 (Anatomical Studies of the Muscles of the Neck, Shoulder, Chest and Arm), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389726"
+        }
+      ]
+    },
+    {
+      "id": "api992",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919008 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919008 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389726 (Anatomical Studies of the Muscles of the Neck, Shoulder, Chest and Arm), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389726"
+        }
+      ]
+    },
+    {
+      "id": "api993",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389726 (Anatomical Studies of the Muscles of the Neck, Shoulder, Chest and Arm), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389726"
+        }
+      ]
+    },
+    {
+      "id": "api1000",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389725 (The Skeletal Structure of the Lower Limbs and the Movement of the Foot and Knee Joints), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389725"
+        }
+      ]
+    },
+    {
+      "id": "api1001",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919008 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919008 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389725 (The Skeletal Structure of the Lower Limbs and the Movement of the Foot and Knee Joints), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389725"
+        }
+      ]
+    },
+    {
+      "id": "api1002",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389725 (The Skeletal Structure of the Lower Limbs and the Movement of the Foot and Knee Joints), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389725"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

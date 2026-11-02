@@ -125,6 +125,92 @@
         "Marani 2000, catalogue entry",
         "Zöllner 2003, catalogue entry"
       ]
+    },
+    {
+      "id": "api2623",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2308934 (Leda and the Swan), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2308934"
+        }
+      ]
+    },
+    {
+      "id": "api2624",
+      "about": "date",
+      "value": {
+        "text": "1510",
+        "start": 1510
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1510.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2308934 (Leda and the Swan), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2308934"
+        }
+      ]
+    },
+    {
+      "id": "api2625",
+      "about": "current_location",
+      "value": {
+        "text": "Palace of Fontainebleau"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Palace of Fontainebleau, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2308934 (Leda and the Swan), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2308934"
+        }
+      ]
+    },
+    {
+      "id": "api2626",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; wood"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; wood.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2308934 (Leda and the Swan), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2308934"
+        }
+      ]
+    },
+    {
+      "id": "api2627",
+      "about": "depicts",
+      "value": {
+        "text": "hipshot; nudity; woman; Leda; swan; Zeus; Jupiter"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: hipshot; nudity; woman; Leda; swan; Zeus; Jupiter. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2308934 (Leda and the Swan), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2308934"
+        }
+      ]
     }
   ],
   "current_location": "lost",
@@ -137,6 +223,48 @@
   ],
   "open_questions": [
     "Original dating c.1504 to 1510 rests on drawings (kneeling Leda studies at Chatsworth, Rotterdam; Windsor studies). Locators to be supplied by the drawings agent."
+  ],
+  "identifiers": {
+    "wikidata": "Q2308934"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Study_for_the_Kneeling_Leda.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Study_for_the_Kneeling_Leda.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Leda_and_the_Swan_(Leonardo)",
+      "text": "The story of Leda and the Swan was the subject of two compositions by Leonardo da Vinci from perhaps 1503, 1510. Neither survive as paintings by Leonardo, but there are a number of drawings for both by him, and copies in oils, especially of the second composition, where Leda stands.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Leda_col_cigno",
+      "text": "Leda col cigno è un dipinto perduto su tavola di Leonardo da Vinci, databile al 1505-1510 circa. Del dipinto sopravvivono a tutt'oggi solo un certo numero di studi di Leonardo stesso, nonché una serie di copie e varianti di allievi/seguaci o imitatori : le migliori si trovano attualmente alla Wilton House di Salisbury, alla Galleria Borghese di Roma e agli Uffizi di Firenze.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/L%C3%A9da_et_le_Cygne_(L%C3%A9onard_de_Vinci)",
+      "text": "Léda et le Cygne est un tableau de Léonard de Vinci perdu depuis 1692 mais connu par des études préparatoires de sa main et par plusieurs copies.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Leda and the Swan",
+    "Leda col cigno",
+    "Léda et le Cygne",
+    "Leda and the Swan (Leonardo)",
+    "Leda and the Swan Leonardo",
+    "Leda and the Swan (Leonardo da Vinci)",
+    "Leda and the Swan Leonardo da Vinci"
   ],
   "timeline": {
     "lane": "works",

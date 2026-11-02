@@ -1,0 +1,80 @@
+{
+  "id": "w-map-lecco",
+  "type": "work",
+  "label": "Map of Lecco",
+  "subtype": "map",
+  "classification": {
+    "form": "map",
+    "condition": "extant",
+    "subject": [
+      "cartography"
+    ],
+    "basis": "Derived automatically from Wikidata Q115518442 (instance of: drawing; map; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q115518442"
+  },
+  "variants": [
+    "mappa di Lecco"
+  ],
+  "claims": [
+    {
+      "id": "api2185",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q115518442 (Map of Lecco), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q115518442"
+        }
+      ]
+    },
+    {
+      "id": "api2186",
+      "about": "current_location",
+      "value": {
+        "text": "Institut de France"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q115518442 (Map of Lecco), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q115518442"
+        }
+      ]
+    },
+    {
+      "id": "api2187",
+      "about": "depicts",
+      "value": {
+        "text": "Lake Como; Lecco"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Lake Como; Lecco. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q115518442 (Map of Lecco), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q115518442"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-institut-de-france"
+    }
+  ],
+  "current_location": "geo-institut-de-france"
+}

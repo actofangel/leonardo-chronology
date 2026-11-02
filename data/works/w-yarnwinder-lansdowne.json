@@ -18,6 +18,10 @@
       "rel": "version_of",
       "target": "w-yarnwinder",
       "claim": "c4"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-met"
     }
   ],
   "claims": [
@@ -112,6 +116,144 @@
         "Zöllner 2003, catalogue entry",
         "Kemp 2006"
       ]
+    },
+    {
+      "id": "api2827",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q56280397 (Madonna of the Yarnwinder), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q56280397"
+        }
+      ]
+    },
+    {
+      "id": "api2828",
+      "about": "date",
+      "value": {
+        "text": "16th century",
+        "start": 1510
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 16th century.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q56280397 (Madonna of the Yarnwinder), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q56280397"
+        }
+      ]
+    },
+    {
+      "id": "api2829",
+      "about": "inventory",
+      "value": {
+        "text": "L.2026.5"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number L.2026.5 in Metropolitan Museum of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q56280397 (Madonna of the Yarnwinder), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q56280397"
+        }
+      ]
+    },
+    {
+      "id": "api2830",
+      "about": "current_location",
+      "value": {
+        "text": "Metropolitan Museum of Art"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Metropolitan Museum of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q56280397 (Madonna of the Yarnwinder), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q56280397"
+        }
+      ]
+    },
+    {
+      "id": "api2831",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q56280397 (Madonna of the Yarnwinder), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q56280397"
+        }
+      ]
+    },
+    {
+      "id": "api2832",
+      "about": "dimensions",
+      "value": {
+        "text": "50.2 cm x 36.4 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 50.2 cm, width 36.4 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q56280397 (Madonna of the Yarnwinder), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q56280397"
+        }
+      ]
+    },
+    {
+      "id": "api2833",
+      "about": "depicts",
+      "value": {
+        "text": "Mary; Christ Child"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Mary; Christ Child. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q56280397 (Madonna of the Yarnwinder), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q56280397"
+        }
+      ]
     }
+  ],
+  "identifiers": {
+    "wikidata": "Q56280397",
+    "met": "941909",
+    "inventory": "L.2026.5"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Madonna_of_the_Yarnwinder.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Madonna_of_the_Yarnwinder.jpg"
+    }
+  ],
+  "variants": [
+    "Madonna of the Yarnwinder",
+    "La Madone aux fuseaux",
+    "Lansdowne Madonna",
+    "Madonna of the Yarnwinder (The Lansdowne Madonna)"
   ]
 }

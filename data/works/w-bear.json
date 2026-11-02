@@ -1,0 +1,269 @@
+{
+  "id": "w-bear",
+  "type": "work",
+  "label": "Study of a Bear",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "metalpoint"
+    ],
+    "support": "prepared_paper",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q29385294 (instance of: drawing; material: silverpoint; prepared paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q29385294",
+    "met": "459184",
+    "inventory": "1975.1.369"
+  },
+  "variants": [
+    "Orso che cammina"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Bear_Walking_MET_DT727.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:A_Bear_Walking_MET_DT727.jpg"
+    },
+    {
+      "src": "https://images.metmuseum.org/CRDImages/rl/web-large/DP324213.jpg",
+      "credit": "The Metropolitan Museum of Art",
+      "page": "https://www.metmuseum.org/art/collection/search/459184"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2811",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29385294 (Study of a Bear), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29385294"
+        }
+      ]
+    },
+    {
+      "id": "api2812",
+      "about": "date",
+      "value": {
+        "text": "1477 to 1487",
+        "start": 1477,
+        "end": 1487
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1477 to 1487.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29385294 (Study of a Bear), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29385294"
+        }
+      ]
+    },
+    {
+      "id": "api2813",
+      "about": "inventory",
+      "value": {
+        "text": "1975.1.369"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1975.1.369 in Metropolitan Museum of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29385294 (Study of a Bear), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29385294"
+        }
+      ]
+    },
+    {
+      "id": "api2814",
+      "about": "current_location",
+      "value": {
+        "text": "Metropolitan Museum of Art"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Metropolitan Museum of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29385294 (Study of a Bear), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29385294"
+        }
+      ]
+    },
+    {
+      "id": "api2815",
+      "about": "medium",
+      "value": {
+        "text": "silverpoint; prepared paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: silverpoint; prepared paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29385294 (Study of a Bear), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29385294"
+        }
+      ]
+    },
+    {
+      "id": "api2816",
+      "about": "dimensions",
+      "value": {
+        "text": "10.3 cm x 13.3 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 10.3 cm, width 13.3 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29385294 (Study of a Bear), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29385294"
+        }
+      ]
+    },
+    {
+      "id": "api2817",
+      "about": "depicts",
+      "value": {
+        "text": "bear"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: bear. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29385294 (Study of a Bear), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29385294"
+        }
+      ]
+    },
+    {
+      "id": "api3056",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Met's record gives the artist as: Leonardo da Vinci.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 459184 (A Bear Walking), accession 1975.1.369, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/459184"
+        }
+      ]
+    },
+    {
+      "id": "api3057",
+      "about": "date",
+      "value": {
+        "text": "ca. 1482, 85",
+        "start": 1477,
+        "end": 1487
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Met dates the work ca. 1482, 85.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 459184 (A Bear Walking), accession 1975.1.369, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/459184"
+        }
+      ]
+    },
+    {
+      "id": "api3058",
+      "about": "medium",
+      "value": {
+        "text": "silverpoint on light buff prepared paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Medium in the Met's record: silverpoint on light buff prepared paper.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 459184 (A Bear Walking), accession 1975.1.369, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/459184"
+        }
+      ]
+    },
+    {
+      "id": "api3059",
+      "about": "dimensions",
+      "value": {
+        "text": "4 1/16 x 5 1/4 in. (10.3 x 13.3 cm)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Met's record: 4 1/16 x 5 1/4 in. (10.3 x 13.3 cm).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 459184 (A Bear Walking), accession 1975.1.369, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/459184"
+        }
+      ]
+    },
+    {
+      "id": "api3060",
+      "about": "inventory",
+      "value": {
+        "text": "1975.1.369"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Accession number 1975.1.369, The Metropolitan Museum of Art; Robert Lehman Collection, 1975.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 459184 (A Bear Walking), accession 1975.1.369, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/459184"
+        }
+      ]
+    },
+    {
+      "id": "api3061",
+      "about": "current_location",
+      "value": {
+        "text": "The Metropolitan Museum of Art, New York"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by The Metropolitan Museum of Art (Robert Lehman Collection).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 459184 (A Bear Walking), accession 1975.1.369, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/459184"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-met"
+    }
+  ],
+  "current_location": "geo-met"
+}

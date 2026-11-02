@@ -1,0 +1,136 @@
+{
+  "id": "w-horsemen-combat-912339",
+  "type": "work",
+  "label": "Study of Horsemen in Combat",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q114476870 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q114476870",
+    "rcin": "912339",
+    "inventory": "RCIN 912339"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_vinci%2C_Group_of_riders_in_the_Battle_of_Anghiari.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci%2C_Group_of_riders_in_the_Battle_of_Anghiari.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2179",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q114476870 (Study of Horsemen in Combat), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q114476870"
+        }
+      ]
+    },
+    {
+      "id": "api2180",
+      "about": "date",
+      "value": {
+        "text": "1503 to 1504",
+        "start": 1503,
+        "end": 1504
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1503 to 1504.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q114476870 (Study of Horsemen in Combat), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q114476870"
+        }
+      ]
+    },
+    {
+      "id": "api2181",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912339"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912339 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q114476870 (Study of Horsemen in Combat), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q114476870"
+        }
+      ]
+    },
+    {
+      "id": "api2182",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912339 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912339 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q114476870 (Study of Horsemen in Combat), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q114476870"
+        }
+      ]
+    },
+    {
+      "id": "api2183",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q114476870 (Study of Horsemen in Combat), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q114476870"
+        }
+      ]
+    },
+    {
+      "id": "api2184",
+      "about": "dimensions",
+      "value": {
+        "text": "160 mm x 197 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 160 mm, width 197 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q114476870 (Study of Horsemen in Combat), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q114476870"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

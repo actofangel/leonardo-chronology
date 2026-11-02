@@ -1,0 +1,116 @@
+{
+  "id": "w-last-supper",
+  "type": "work",
+  "label": "The Last Supper",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "canvas",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q119891464 (instance of: painting; material: oil paint; canvas; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q119891464",
+    "inventory": "PCF31"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_(1452-1519)_(copy_after)_-_The_Last_Supper_-_PCF31_-_Harris_Manchester_College.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_(1452-1519)_(copy_after)_-_The_Last_Supper_-_PCF31_-_Harris_Manchester_College.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2236",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119891464 (The Last Supper), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119891464"
+        }
+      ]
+    },
+    {
+      "id": "api2237",
+      "about": "inventory",
+      "value": {
+        "text": "PCF31"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number PCF31 in Harris Manchester College, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119891464 (The Last Supper), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119891464"
+        }
+      ]
+    },
+    {
+      "id": "api2238",
+      "about": "current_location",
+      "value": {
+        "text": "Harris Manchester College"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Harris Manchester College, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119891464 (The Last Supper), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119891464"
+        }
+      ]
+    },
+    {
+      "id": "api2239",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; canvas"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; canvas.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119891464 (The Last Supper), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119891464"
+        }
+      ]
+    },
+    {
+      "id": "api2240",
+      "about": "dimensions",
+      "value": {
+        "text": "61 cm x 138.5 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 61 cm, width 138.5 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119891464 (The Last Supper), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119891464"
+        }
+      ]
+    }
+  ]
+}

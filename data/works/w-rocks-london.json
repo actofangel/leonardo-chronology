@@ -21,17 +21,6 @@
   "support": "poplar panel, thinned and cradled",
   "dimensions": "189.5 x 120 cm",
   "summary": "Second version of the Virgin of the Rocks, in the National Gallery, London (NG1093), bought in 1880.",
-  "timeline": {
-    "lane": "works",
-    "kind": "Painting",
-    "start": 1491.5,
-    "end": 1508.6,
-    "date": "c.1491 to 1508",
-    "tier": "S",
-    "place": "Milan, now London",
-    "text": "Second version of the altarpiece for the Confraternity of the Immaculate Conception. The 1483 contract and the dispute of 1506 to 1508 are documented, the painting phases are a reconstruction.",
-    "basis": "National Gallery dating; documents of 1483 and 1506 to 1508."
-  },
   "relations": [
     {
       "rel": "version_of",
@@ -209,9 +198,189 @@
       "check_in": [
         "National Gallery catalogue entry, provenance"
       ]
+    },
+    {
+      "id": "api2735",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q4009972 (Virgin of the Rocks), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q4009972"
+        }
+      ]
+    },
+    {
+      "id": "api2736",
+      "about": "date",
+      "value": {
+        "text": "1491 to 1499",
+        "start": 1491,
+        "end": 1499
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1491 to 1499.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q4009972 (Virgin of the Rocks), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q4009972"
+        }
+      ]
+    },
+    {
+      "id": "api2737",
+      "about": "date",
+      "value": {
+        "text": "1506 to 1508",
+        "start": 1506,
+        "end": 1508
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1506 to 1508.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q4009972 (Virgin of the Rocks), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q4009972"
+        }
+      ]
+    },
+    {
+      "id": "api2738",
+      "about": "inventory",
+      "value": {
+        "text": "NG1093asfñl"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number NG1093asfñl in National Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q4009972 (Virgin of the Rocks), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q4009972"
+        }
+      ]
+    },
+    {
+      "id": "api2739",
+      "about": "current_location",
+      "value": {
+        "text": "National Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by National Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q4009972 (Virgin of the Rocks), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q4009972"
+        }
+      ]
+    },
+    {
+      "id": "api2740",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; poplar panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; poplar panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q4009972 (Virgin of the Rocks), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q4009972"
+        }
+      ]
+    },
+    {
+      "id": "api2741",
+      "about": "dimensions",
+      "value": {
+        "text": "189.5 cm x 120 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 189.5 cm, width 120 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q4009972 (Virgin of the Rocks), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q4009972"
+        }
+      ]
+    },
+    {
+      "id": "api2742",
+      "about": "depicts",
+      "value": {
+        "text": "Christ Child; angel; Mary; Child Saint John; Immaculate Conception of Mary; Nativity of Jesus"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Christ Child; angel; Mary; Child Saint John; Immaculate Conception of Mary; Nativity of Jesus. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q4009972 (Virgin of the Rocks), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q4009972"
+        }
+      ]
     }
   ],
   "open_questions": [
     "List the 1506 and 1508 documents with Villata numbers."
-  ]
+  ],
+  "identifiers": {
+    "wikidata": "Q4009972",
+    "inventory": "NG1093asfñl"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_Virgin_of_the_Rocks_(National_Gallery_London).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_Virgin_of_the_Rocks_(National_Gallery_London).jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Vergine_delle_Rocce_(Londra)",
+      "text": "La seconda versione della Vergine delle Rocce è un dipinto a olio su tavola di Leonardo da Vinci, databile al 1494-1508 e conservato nella National Gallery di Londra. La prima versione del dipinto, databile al 1483-1486 circa, è invece al Museo del Louvre.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Virgin of the Rocks",
+    "Vergine delle Rocce",
+    "La Vierge aux rochers",
+    "The Virgin of the Rocks",
+    "Madonna of the Rocks",
+    "The Madonna of the Rocks",
+    "The Virgin with the Infant Saint John the Baptist adoring the Christ Child accompanied by an Angel ('The Virgin of the Rocks')"
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1491.5,
+    "end": 1508.6,
+    "date": "c.1491 to 1508",
+    "tier": "S",
+    "place": "Milan, now London",
+    "text": "Second version of the altarpiece for the Confraternity of the Immaculate Conception. The 1483 contract and the dispute of 1506 to 1508 are documented, the painting phases are a reconstruction.",
+    "basis": "National Gallery dating; documents of 1483 and 1506 to 1508."
+  }
 }

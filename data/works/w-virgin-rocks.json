@@ -1,0 +1,39 @@
+{
+  "id": "w-virgin-rocks",
+  "type": "work",
+  "label": "Virgin of the Rocks",
+  "subtype": "work",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q125392232 (instance of: statue; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q125392232"
+  },
+  "variants": [
+    "Vergine delle rocce"
+  ],
+  "claims": [
+    {
+      "id": "api2466",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci (conjecture)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator with the qualification: conjecture. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q125392232 (Virgin of the Rocks), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q125392232"
+        }
+      ]
+    }
+  ]
+}

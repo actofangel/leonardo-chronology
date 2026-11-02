@@ -1,0 +1,135 @@
+{
+  "id": "w-madonna-laroque",
+  "type": "work",
+  "label": "Madonna of Laroque",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "panel",
+    "condition": "lost",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q3210263 (instance of: painting; material: oil paint; panel; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q3210263"
+  },
+  "variants": [
+    "La Madone de Laroque"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Madone_de_Laroque.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Madone_de_Laroque.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2649",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3210263 (Madonna of Laroque), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3210263"
+        }
+      ]
+    },
+    {
+      "id": "api2650",
+      "about": "date",
+      "value": {
+        "text": "1480",
+        "start": 1480
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1480.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3210263 (Madonna of Laroque), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3210263"
+        }
+      ]
+    },
+    {
+      "id": "api2651",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3210263 (Madonna of Laroque), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3210263"
+        }
+      ]
+    },
+    {
+      "id": "api2652",
+      "about": "dimensions",
+      "value": {
+        "text": "59 cm x 48 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 59 cm, width 48 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3210263 (Madonna of Laroque), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3210263"
+        }
+      ]
+    },
+    {
+      "id": "api2653",
+      "about": "depicts",
+      "value": {
+        "text": "woman; Christ Child; mother; Nursing Madonna; Child Saint John"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: woman; Christ Child; mother; Nursing Madonna; Child Saint John. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3210263 (Madonna of Laroque), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3210263"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Madonna_of_Laroque",
+      "text": "The Madonna of Laroque is an oil painting on a poplar board, executed between 1502 and 1503. It depicts the Virgin nursing the Christ Child with the infant John the Baptist. There has been speculation that the painting may be by Leonardo da Vinci.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/La_Madone_de_Laroque",
+      "text": "La Madone de Laroque est un tableau attribué à l'atelier milanais de Léonard de Vinci, découvert en 1998 à Laroque (France). Ayant été l'objet de nombreuses analyses, la question de savoir s'il est ou non de la main même du maître est sujette à débat.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

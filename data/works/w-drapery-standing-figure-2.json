@@ -1,0 +1,285 @@
+{
+  "id": "w-drapery-standing-figure-2",
+  "type": "work",
+  "label": "Drapery Study for a Standing Figure in Profile to the Right",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389608 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389608",
+    "louvre_ark": "cl020112691",
+    "inventory": "RF 1081, Recto"
+  },
+  "variants": [
+    "Figure debout, de profil, drapée"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Figure_debout%2C_drap%C3%A9e%2C_RF_1081%2C_Recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Figure_debout%2C_drap%C3%A9e%2C_RF_1081%2C_Recto.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/11/26/91/00/AGO112691-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020112691"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api712",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389608 (Drapery Study for a Standing Figure in Profile to the Right), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389608"
+        }
+      ]
+    },
+    {
+      "id": "api713",
+      "about": "date",
+      "value": {
+        "text": "1470 to 1479",
+        "start": 1470,
+        "end": 1479
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1470 to 1479.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389608 (Drapery Study for a Standing Figure in Profile to the Right), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389608"
+        }
+      ]
+    },
+    {
+      "id": "api714",
+      "about": "inventory",
+      "value": {
+        "text": "RF 1081, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RF 1081, Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389608 (Drapery Study for a Standing Figure in Profile to the Right), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389608"
+        }
+      ]
+    },
+    {
+      "id": "api715",
+      "about": "current_location",
+      "value": {
+        "text": "Cabinet des dessins"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389608 (Drapery Study for a Standing Figure in Profile to the Right), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389608"
+        }
+      ]
+    },
+    {
+      "id": "api716",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389608 (Drapery Study for a Standing Figure in Profile to the Right), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389608"
+        }
+      ]
+    },
+    {
+      "id": "api717",
+      "about": "dimensions",
+      "value": {
+        "text": "0.315 metre x 0.168 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.315 metre, width 0.168 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389608 (Drapery Study for a Standing Figure in Profile to the Right), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389608"
+        }
+      ]
+    },
+    {
+      "id": "api718",
+      "about": "inventory",
+      "value": {
+        "text": "RF 1081, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number RF 1081, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112691 (Figure debout, de profil, drapée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112691"
+        }
+      ]
+    },
+    {
+      "id": "api719",
+      "about": "inventory_history",
+      "value": {
+        "text": "Référence de l'inventaire manuscrit: vol.19, p.91"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Référence de l'inventaire manuscrit: vol.19, p.91.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112691 (Figure debout, de profil, drapée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112691"
+        }
+      ]
+    },
+    {
+      "id": "api720",
+      "about": "date",
+      "value": {
+        "text": "Vers 1473/1477",
+        "start": 1470,
+        "end": 1479
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: Vers 1473/1477.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112691 (Figure debout, de profil, drapée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112691"
+        }
+      ]
+    },
+    {
+      "id": "api721",
+      "about": "medium",
+      "value": {
+        "text": "Pinceau et tempera grise, rehauts de blanc, sur toile de lin préparée grise. Toile décatie puis couverte d'une fine couche de préparation à base de blanc de plomb mélangé à des terres pour une préparation de couleur brune. Le ton beige a offert une large gamme chromatique allant du brun sombre au blanc pur. Tracé du buste et de la tête à la pointe du pinceau. Dans l'angle supérieur gauche, à l'encre brune, l'observation sous ultraviolets révèle le chiffre : 'VIII' et non le numéro 'III' qui demeure seul visible à l'œil nu. Doublé."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Pinceau et tempera grise, rehauts de blanc, sur toile de lin préparée grise. Toile décatie puis couverte d'une fine couche de préparation à base de blanc de plomb mélangé à des terres pour une préparation de couleur brune. Le ton beige a offert une large gamme chromatique allant du brun sombre au blanc pur. Tracé du buste et de la tête à la pointe du pinceau. Dans l'angle supérieur gauche, à l'encre brune, l'observation sous ultraviolets révèle le chiffre : 'VIII' et non le numéro 'III' qui demeure seul visible à l'œil nu. Doublé.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112691 (Figure debout, de profil, drapée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112691"
+        }
+      ]
+    },
+    {
+      "id": "api722",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.315 m (à la feuille); Largeur 0.168 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.315 m (à la feuille); Largeur 0.168 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112691 (Figure debout, de profil, drapée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112691"
+        }
+      ]
+    },
+    {
+      "id": "api723",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; Dürer, Albrecht [ancienne attribution]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; Dürer, Albrecht [ancienne attribution].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112691 (Figure debout, de profil, drapée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112691"
+        }
+      ]
+    },
+    {
+      "id": "api724",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112691 (Figure debout, de profil, drapée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112691"
+        }
+      ]
+    },
+    {
+      "id": "api725",
+      "about": "provenance",
+      "value": {
+        "text": "E. Jabach ; Inventaire après décès 1695-1696, portefeuille E : '14. Estudes de draperie dalberdur sur toille collee sur papier et rehaussé de blanc en detrempe' - P. Crozat, vente, Paris 1741, sous le n° 5 (Léonard de Vinci) - Nourri, vente, Paris, 1785, n° 736 (Dürer) - J.- E. Gatteaux (L. 852) ; legs au Louvre en 1881, marque du Louvre (L. 1886a)."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: E. Jabach ; Inventaire après décès 1695-1696, portefeuille E : '14. Estudes de draperie dalberdur sur toille collee sur papier et rehaussé de blanc en detrempe' - P. Crozat, vente, Paris 1741, sous le n° 5 (Léonard de Vinci) - Nourri, vente, Paris, 1785, n° 736 (Dürer) - J.- E. Gatteaux (L. 852) ; legs au Louvre en 1881, marque du Louvre (L. 1886a).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020112691 (Figure debout, de profil, drapée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020112691"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

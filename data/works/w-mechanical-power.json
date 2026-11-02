@@ -1,0 +1,85 @@
+{
+  "id": "w-mechanical-power",
+  "type": "work",
+  "label": "Study of the Mechanical Power of a Spring",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "mechanics"
+    ],
+    "basis": "Derived automatically from Wikidata Q139567119 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567119",
+    "inventory": "Codex Madrid I, MS 8937, fol. 4r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Madrid_I%2C_folio_004_recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codex_Madrid_I%2C_folio_004_recto.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1817",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567119 (Study of the Mechanical Power of a Spring), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567119"
+        }
+      ]
+    },
+    {
+      "id": "api1818",
+      "about": "inventory",
+      "value": {
+        "text": "Codex Madrid I, MS 8937, fol. 4r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Codex Madrid I, MS 8937, fol. 4r in Biblioteca Nacional de España, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567119 (Study of the Mechanical Power of a Spring), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567119"
+        }
+      ]
+    },
+    {
+      "id": "api1819",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Nacional de España"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Nacional de España, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567119 (Study of the Mechanical Power of a Spring), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567119"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-nacional-madrid"
+    }
+  ],
+  "current_location": "geo-biblioteca-nacional-madrid"
+}

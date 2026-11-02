@@ -1,0 +1,160 @@
+{
+  "id": "w-lucan-portrait-leonardo-da-vinci",
+  "type": "work",
+  "label": "Lucan portrait of Leonardo da Vinci",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "tempera"
+    ],
+    "support": "panel",
+    "condition": "extant",
+    "subject": [
+      "portrait"
+    ],
+    "basis": "Derived automatically from Wikidata Q6696013 (instance of: painting; material: tempera; wood; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q6696013"
+  },
+  "variants": [
+    "Ritratto lucano",
+    "Portrait de Lucanie"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%81%94%E6%96%87%E8%A5%BF%E8%87%AA%E7%95%AB%E5%83%8F.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:%E9%81%94%E6%96%87%E8%A5%BF%E8%87%AA%E7%95%AB%E5%83%8F.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api3018",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci (attribution)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator with the qualification: attribution. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q6696013 (Lucan portrait of Leonardo da Vinci), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q6696013"
+        }
+      ]
+    },
+    {
+      "id": "api3019",
+      "about": "date",
+      "value": {
+        "text": "1505",
+        "start": 1505
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1505.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q6696013 (Lucan portrait of Leonardo da Vinci), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q6696013"
+        }
+      ]
+    },
+    {
+      "id": "api3020",
+      "about": "current_location",
+      "value": {
+        "text": "Museum of the Ancient People of Lucania"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Museum of the Ancient People of Lucania, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q6696013 (Lucan portrait of Leonardo da Vinci), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q6696013"
+        }
+      ]
+    },
+    {
+      "id": "api3021",
+      "about": "medium",
+      "value": {
+        "text": "tempera; wood"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: tempera; wood.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q6696013 (Lucan portrait of Leonardo da Vinci), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q6696013"
+        }
+      ]
+    },
+    {
+      "id": "api3022",
+      "about": "dimensions",
+      "value": {
+        "text": "44 cm x 60 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 44 cm, width 60 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q6696013 (Lucan portrait of Leonardo da Vinci), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q6696013"
+        }
+      ]
+    },
+    {
+      "id": "api3023",
+      "about": "depicts",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Leonardo da Vinci. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q6696013 (Lucan portrait of Leonardo da Vinci), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q6696013"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Lucan_portrait_of_Leonardo_da_Vinci",
+      "text": "The Lucan portrait of Leonardo da Vinci is a late 15th- or early 16th-century portrait of a man. The picture was discovered in 2008 in a cupboard of a private house in Italy.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Ritratto_lucano",
+      "text": "Il Ritratto lucano, conosciuto anche come Ritratto di Acerenza, è un dipinto a tempera grassa su pannello, di datazione incerta e di altrettanto incerta attribuzione a Leonardo da Vinci.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Portrait_de_Lucanie",
+      "text": "Le Portrait de Lucanie est un tableau découvert en 2008 en Basilicate (Italie) et représentant un homme âgé et barbu. L'origine et l'identité de cette œuvre sont actuellement débattues. Quelques spécialistes estiment qu'il pourrait s'agir d'un autoportrait de Léonard de Vinci, mais aucun expert de renom ne l'a reconnu comme tel.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

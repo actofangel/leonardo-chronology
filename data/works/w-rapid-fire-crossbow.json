@@ -1,0 +1,53 @@
+{
+  "id": "w-rapid-fire-crossbow",
+  "type": "work",
+  "label": "rapid-fire crossbow",
+  "subtype": "engineering_project",
+  "classification": {
+    "form": "engineering_project",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q55648564 (instance of: invention; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q55648564"
+  },
+  "variants": [
+    "Balestra veloce",
+    "rapid fire crossbow"
+  ],
+  "claims": [
+    {
+      "id": "api2825",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q55648564 (rapid-fire crossbow), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q55648564"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Leonardo's_crossbow",
+      "text": "Leonardo's crossbow designs are a series of shooting weapon schematics designed by Leonardo da Vinci that are in the Codex Atlanticus. One version, a self-spanning infantry weapon called the rapid-fire crossbow, is found on sheets 143r, 153r, and 155r. The other is the giant crossbow design intended to be a mounted siege weapon found on sheet 149a in the Codex.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Balestra_veloce",
+      "text": "La balestra veloce è un progetto di balestra con ricarica rapida ideata da Leonardo da Vinci e disegnata sui fogli 143r, 153r e 155r del Codice Atlantico. Dopo un prototipo realizzato nel 2013, il primo modello funzionante ha visto la luce il 24 giugno 2015 nel corso di una dimostrazione al Castello Sforzesco di Milano. Lo strumento, frutto di uno studio condotto da Edoardo Zanon del centro studi Leonardo3, è stato realizzato dal maestro balestriere Danilo Giovannini nel rispetto delle tecniche di lavorazione e assemblaggio disponibili all'epoca di Leonardo. Il modello consente precisione nel tiro ed è dotato di un meccanismo di carica rapida, inesistente anche nelle moderne balestre tradizionali. Leonardo da Vinci non si è limitato allo studio e al miglioramento di quanto disponibile al suo tempo, ma ha prodotto una vera e propria invenzione che, se concretamente realizzata, avrebbe potuto cambiare le strategie sul campo di battaglia e, conseguentemente, il corso della storia.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

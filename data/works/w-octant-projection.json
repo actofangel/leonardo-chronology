@@ -1,0 +1,61 @@
+{
+  "id": "w-octant-projection",
+  "type": "work",
+  "label": "octant projection",
+  "subtype": "map",
+  "classification": {
+    "form": "map",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q20962748 (instance of: map projection; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q20962748"
+  },
+  "variants": [
+    "Proiezione ottante di Leonardo",
+    "Projection en octant",
+    "octants projection"
+  ],
+  "claims": [
+    {
+      "id": "api2765",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q20962748 (octant projection), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q20962748"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Octant_projection",
+      "text": "The octant projection or octants projection, is a type of map projection proposed the first time, in 1508, by Leonardo da Vinci in his Codex Atlanticus. Leonardo's authorship would be demonstrated by Christopher Tyler, who stated \"For those projections dated later than 1508, his drawings should be effectively considered the original precursors.\"",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Proiezione_ottante_di_Leonardo",
+      "text": "La proiezione ottante di Leonardo o Proiezioni a ottanti, è un tipo di proiezione proposta per la prima volta nel 1508 da Leonardo da Vinci nel Codice Atlantico. La paternità di Leonardo è stata dimostrata da Christoher Tyler in un suo articolo, Leonardo da Vinci's World Map, in quanto uno schizzo della proiezione è presente su una pagina dei manoscritti del Codice Atlantico, della mano di Leonardo, e questo schizzo di Leonardo è la prima descrizione conosciuta della proiezione ottante.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Projection_en_octant",
+      "text": "La projection en octant ou projection octant, est un type de projection proposé la première fois, en 1508, par Léonard de Vinci dans son Codex Atlanticus. La paternité de Vinci a été démontrée par le travail de Christoher Tyler : il en existe un croquis sur une page du Codex, dessiné de sa propre main.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

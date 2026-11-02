@@ -1,0 +1,147 @@
+{
+  "id": "w-head-leda",
+  "type": "work",
+  "label": "Head of Leda",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "red_chalk"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "mythology",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q3985177 (instance of: drawing; material: red chalk; paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q3985177"
+  },
+  "variants": [
+    "Testa di Leda",
+    "tête de Léda"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo%2C_testa_di_leda%2C_castello_sforzesco.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo%2C_testa_di_leda%2C_castello_sforzesco.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2728",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3985177 (Head of Leda), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3985177"
+        }
+      ]
+    },
+    {
+      "id": "api2729",
+      "about": "date",
+      "value": {
+        "text": "1505",
+        "start": 1505
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1505.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3985177 (Head of Leda), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3985177"
+        }
+      ]
+    },
+    {
+      "id": "api2730",
+      "about": "current_location",
+      "value": {
+        "text": "Sforza Castle"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Sforza Castle, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3985177 (Head of Leda), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3985177"
+        }
+      ]
+    },
+    {
+      "id": "api2731",
+      "about": "medium",
+      "value": {
+        "text": "red chalk; paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: red chalk; paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3985177 (Head of Leda), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3985177"
+        }
+      ]
+    },
+    {
+      "id": "api2732",
+      "about": "dimensions",
+      "value": {
+        "text": "20 cm x 15.7 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 20 cm, width 15.7 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3985177 (Head of Leda), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3985177"
+        }
+      ]
+    },
+    {
+      "id": "api2733",
+      "about": "depicts",
+      "value": {
+        "text": "woman; Leda"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: woman; Leda. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3985177 (Head of Leda), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3985177"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Testa_di_Leda",
+      "text": "La Testa di Leda è un disegno a gessetto rosso su carta preparata rossa attribuito a Leonardo da Vinci, databile al 1505 circa e conservato nel Castello Sforzesco di Milano.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

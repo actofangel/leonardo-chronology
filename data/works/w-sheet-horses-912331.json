@@ -1,0 +1,86 @@
+{
+  "id": "w-sheet-horses-912331",
+  "type": "work",
+  "label": "Sheet of Studies of Horses, a Cat and Fight with a Dragon",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "horse"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389553 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389553",
+    "rcin": "912331",
+    "inventory": "RCIN 912331 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912331%2C_Horses%2C_St_George_fighting_the_Dragon%2C_and_a_lion_c.1517-18.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912331%2C_Horses%2C_St_George_fighting_the_Dragon%2C_and_a_lion_c.1517-18.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api210",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389553 (Sheet of Studies of Horses, a Cat and Fight with a Dragon), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389553"
+        }
+      ]
+    },
+    {
+      "id": "api211",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912331 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912331 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389553 (Sheet of Studies of Horses, a Cat and Fight with a Dragon), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389553"
+        }
+      ]
+    },
+    {
+      "id": "api212",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389553 (Sheet of Studies of Horses, a Cat and Fight with a Dragon), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389553"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

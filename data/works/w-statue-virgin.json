@@ -1,0 +1,105 @@
+{
+  "id": "w-statue-virgin",
+  "type": "work",
+  "label": "Statue of the Virgin of the Rocks",
+  "subtype": "work",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q125405264 (instance of: statue; material: stone; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q125405264"
+  },
+  "claims": [
+    {
+      "id": "api2292",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q125405264 (Statue of the Virgin of the Rocks), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q125405264"
+        }
+      ]
+    },
+    {
+      "id": "api2293",
+      "about": "date",
+      "value": {
+        "text": "1483",
+        "start": 1483
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1483.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q125405264 (Statue of the Virgin of the Rocks), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q125405264"
+        }
+      ]
+    },
+    {
+      "id": "api2294",
+      "about": "medium",
+      "value": {
+        "text": "stone"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: stone.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q125405264 (Statue of the Virgin of the Rocks), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q125405264"
+        }
+      ]
+    },
+    {
+      "id": "api2295",
+      "about": "dimensions",
+      "value": {
+        "text": "1.4 cm x 2 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 1.4 cm, width 2 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q125405264 (Statue of the Virgin of the Rocks), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q125405264"
+        }
+      ]
+    },
+    {
+      "id": "api2296",
+      "about": "depicts",
+      "value": {
+        "text": "Virgin; child"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Virgin; child. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q125405264 (Statue of the Virgin of the Rocks), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q125405264"
+        }
+      ]
+    }
+  ]
+}

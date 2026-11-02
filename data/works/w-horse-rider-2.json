@@ -1,0 +1,116 @@
+{
+  "id": "w-horse-rider-2",
+  "type": "work",
+  "label": "Horse and Rider",
+  "subtype": "sculpture_project",
+  "classification": {
+    "form": "sculpture_project",
+    "condition": "lost",
+    "subject": [
+      "horse"
+    ],
+    "basis": "Derived automatically from Wikidata Q20382123 (instance of: sculpture; model; material: wax; beeswax; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q20382123"
+  },
+  "variants": [
+    "Cavallo e cavaliere",
+    "Cheval et Cavalier"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_Da_Vinci_Horse_and_Rider.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_Da_Vinci_Horse_and_Rider.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api3024",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci (disputed)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator with the qualification: disputed. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q20382123 (Horse and Rider), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q20382123"
+        }
+      ]
+    },
+    {
+      "id": "api3025",
+      "about": "date",
+      "value": {
+        "text": "1508 to 1511",
+        "start": 1508,
+        "end": 1511
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1508 to 1511.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q20382123 (Horse and Rider), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q20382123"
+        }
+      ]
+    },
+    {
+      "id": "api3026",
+      "about": "medium",
+      "value": {
+        "text": "wax; beeswax"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: wax; beeswax.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q20382123 (Horse and Rider), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q20382123"
+        }
+      ]
+    },
+    {
+      "id": "api3027",
+      "about": "dimensions",
+      "value": {
+        "text": "25 cm x ?"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 25 cm, width not given.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q20382123 (Horse and Rider), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q20382123"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Horse_and_Rider_(wax_sculpture)",
+      "text": "Horse and Rider is a beeswax sculpture created 1508, 1511 depicting a rider on a horse. The history of the sculpture is unknown before the 20th century. The work has been attributed to Leonardo da Vinci by the Italian art historian Carlo Pedretti, though most other art historians disagree with the attribution.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Cheval_et_Cavalier_(L%C3%A9onard_de_Vinci)",
+      "text": "Cheval et Cavalier est une sculpture en cire attribuée à Léonard de Vinci vers 1508-1511.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

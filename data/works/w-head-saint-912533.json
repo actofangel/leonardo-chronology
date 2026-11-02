@@ -1,0 +1,126 @@
+{
+  "id": "w-head-saint-912533",
+  "type": "work",
+  "label": "Study for the Head of Saint Anne",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "religious",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q101445580 (instance of: drawing; sketch; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q101445580",
+    "rcin": "912533",
+    "inventory": "RCIN 912533"
+  },
+  "variants": [
+    "Studio per la testa di sant'Anna",
+    "Étude pour la tête de sainte Anne",
+    "The head of St Anne",
+    "Study of the Head of St Anne"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912533%2C_The_head_of_St_Anne_c.1510-15.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912533%2C_The_head_of_St_Anne_c.1510-15.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2132",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q101445580 (Study for the Head of Saint Anne), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q101445580"
+        }
+      ]
+    },
+    {
+      "id": "api2133",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912533"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912533 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q101445580 (Study for the Head of Saint Anne), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q101445580"
+        }
+      ]
+    },
+    {
+      "id": "api2134",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912533 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912533 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q101445580 (Study for the Head of Saint Anne), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q101445580"
+        }
+      ]
+    },
+    {
+      "id": "api2135",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q101445580 (Study for the Head of Saint Anne), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q101445580"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Study_for_the_Head_of_Saint_Anne",
+      "text": "The Study for the Head of Saint Anne is a drawing on paper executed in black stone by Leonardo da Vinci and preserved at Windsor Castle. It is a portrait of a woman, and is considered to be the preparatory study for the head of Saint Anne in the painting Sainte Anne, la Vierge et l'Enfant Jésus jouant avec un agneau in the Louvre Museum.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89tude_pour_la_t%C3%AAte_de_sainte_Anne",
+      "text": "L’Étude pour la tête de sainte Anne est un dessin sur papier réalisé à la pierre noire par Léonard de Vinci et conservé au château de Windsor. Il s'agit du portrait d'une femme et le dessin est considéré comme l'étude préparatoire de la tête de la sainte Anne présente dans le tableau Sainte Anne, la Vierge et l'Enfant Jésus jouant avec un agneau conservé au musée du Louvre.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

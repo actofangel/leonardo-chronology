@@ -1,0 +1,145 @@
+{
+  "id": "w-various-scientific-wave-motion-919106",
+  "type": "work",
+  "label": "Various Scientific Studies on Wave Motion and on the Male and Female Genitalia",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136389965 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389965",
+      "Q136389638"
+    ],
+    "rcin": "919106",
+    "inventory": [
+      "RCIN 919106 verso",
+      "RCIN 919106 recto"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919106%2C_Verso_Studies_of_coition%2C_wave_propagation%2C_architecture%2C_engineering%2C_etc._c._1510.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919106%2C_Verso_Studies_of_coition%2C_wave_propagation%2C_architecture%2C_engineering%2C_etc._c._1510.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919106%2C_Recto_The_bust_of_a_man_in_profile%2C_studies_of_intertwined_oak%2C_and_other_studies.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919106%2C_Recto_The_bust_of_a_man_in_profile%2C_studies_of_intertwined_oak%2C_and_other_studies.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api504",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389965 (Various Scientific Studies on Wave Motion and on the Male and Female Genitalia), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389965"
+        }
+      ]
+    },
+    {
+      "id": "api505",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919106 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919106 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389965 (Various Scientific Studies on Wave Motion and on the Male and Female Genitalia), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389965"
+        }
+      ]
+    },
+    {
+      "id": "api506",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389965 (Various Scientific Studies on Wave Motion and on the Male and Female Genitalia), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389965"
+        }
+      ]
+    },
+    {
+      "id": "api768",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389638 (Head and Shoulders of a Bearded Man in a Turban), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389638"
+        }
+      ]
+    },
+    {
+      "id": "api769",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919106 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919106 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389638 (Head and Shoulders of a Bearded Man in a Turban), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389638"
+        }
+      ]
+    },
+    {
+      "id": "api770",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389638 (Head and Shoulders of a Bearded Man in a Turban), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389638"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

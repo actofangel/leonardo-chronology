@@ -1,0 +1,241 @@
+{
+  "id": "w-virgin-child-912276",
+  "type": "work",
+  "label": "Study of a Virgin and Child with the Infant Saint John, and of Heads in Profile and other Figures",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "religious",
+      "head",
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389564 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389564",
+      "Q136389619",
+      "Q133762634"
+    ],
+    "rcin": "912276",
+    "inventory": [
+      "RCIN 912276 recto",
+      "RCIN 912276 verso",
+      "RCIN 912276"
+    ]
+  },
+  "variants": [
+    "Study of a Virgin and Child with the Infant St John, and of Heads in Profile and other Figures"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_The_Madonna_and_Child_with_the_infant_Baptist%2C_and_heads_in_profile%2C_c.1478-80%2C_1.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_The_Madonna_and_Child_with_the_infant_Baptist%2C_and_heads_in_profile%2C_c.1478-80%2C_1.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_The_Madonna_and_Child_with_the_infant_Baptist%2C_and_heads_in_profile%2C_c.1478-80%2C_2.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_The_Madonna_and_Child_with_the_infant_Baptist%2C_and_heads_in_profile%2C_c.1478-80%2C_2.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api237",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389564 (Study of a Virgin and Child with the Infant Saint John, and of Heads in Profile and other Figures), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389564"
+        }
+      ]
+    },
+    {
+      "id": "api238",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912276 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912276 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389564 (Study of a Virgin and Child with the Infant Saint John, and of Heads in Profile and other Figures), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389564"
+        }
+      ]
+    },
+    {
+      "id": "api239",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389564 (Study of a Virgin and Child with the Infant Saint John, and of Heads in Profile and other Figures), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389564"
+        }
+      ]
+    },
+    {
+      "id": "api735",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389619 (Studies of Heads in Profile), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389619"
+        }
+      ]
+    },
+    {
+      "id": "api736",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912276 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912276 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389619 (Studies of Heads in Profile), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389619"
+        }
+      ]
+    },
+    {
+      "id": "api737",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389619 (Studies of Heads in Profile), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389619"
+        }
+      ]
+    },
+    {
+      "id": "api2933",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q133762634 (Study of nursing Madonna and profile heads), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q133762634"
+        }
+      ]
+    },
+    {
+      "id": "api2934",
+      "about": "date",
+      "value": {
+        "text": "c.1480",
+        "start": 1480
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1480.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q133762634 (Study of nursing Madonna and profile heads), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q133762634"
+        }
+      ]
+    },
+    {
+      "id": "api2935",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912276"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912276 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q133762634 (Study of nursing Madonna and profile heads), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q133762634"
+        }
+      ]
+    },
+    {
+      "id": "api2936",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q133762634 (Study of nursing Madonna and profile heads), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q133762634"
+        }
+      ]
+    },
+    {
+      "id": "api2937",
+      "about": "dimensions",
+      "value": {
+        "text": "405 mm x 290 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 405 mm, width 290 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q133762634 (Study of nursing Madonna and profile heads), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q133762634"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

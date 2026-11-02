@@ -123,6 +123,126 @@
         "Marani 2000, catalogue entry",
         "Zöllner 2003, catalogue entry"
       ]
+    },
+    {
+      "id": "api2070",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1217213 (Annunciation), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1217213"
+        }
+      ]
+    },
+    {
+      "id": "api2071",
+      "about": "date",
+      "value": {
+        "text": "c.1472",
+        "start": 1472
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1472.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1217213 (Annunciation), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1217213"
+        }
+      ]
+    },
+    {
+      "id": "api2072",
+      "about": "inventory",
+      "value": {
+        "text": "00285888"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 00285888 in Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1217213 (Annunciation), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1217213"
+        }
+      ]
+    },
+    {
+      "id": "api2073",
+      "about": "current_location",
+      "value": {
+        "text": "Uffizi Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1217213 (Annunciation), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1217213"
+        }
+      ]
+    },
+    {
+      "id": "api2074",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1217213 (Annunciation), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1217213"
+        }
+      ]
+    },
+    {
+      "id": "api2075",
+      "about": "dimensions",
+      "value": {
+        "text": "90 cm x 222 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 90 cm, width 222 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1217213 (Annunciation), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1217213"
+        }
+      ]
+    },
+    {
+      "id": "api2076",
+      "about": "depicts",
+      "value": {
+        "text": "Mary; Annunciation; Gabriel"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Mary; Annunciation; Gabriel. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1217213 (Annunciation), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1217213"
+        }
+      ]
     }
   ],
   "current_location": "geo-uffizi",
@@ -144,6 +264,46 @@
   ],
   "open_questions": [
     "Commissioner and original destination are unknown per the Uffizi; does any catalogue propose one with documents?"
+  ],
+  "identifiers": {
+    "wikidata": "Q1217213",
+    "inventory": "00285888"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Annunciation_(Leonardo)_(cropped).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Annunciation_(Leonardo)_(cropped).jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Annunciation_(Leonardo)",
+      "text": "The Annunciation is a painting by the Italian Renaissance artist Leonardo da Vinci, dated to c. 1472, 1476. Leonardo's earliest extant major work, it was completed in Florence while he was an apprentice in the studio of Andrea del Verrocchio. The painting was made using oil and tempera on a large poplar panel and depicts the Annunciation, a popular biblical subject in 15th-century Florence. Since 1867 it has been housed in the Uffizi in Florence, the city where it was created. Though the work has been criticized for inaccuracies in its composition, it is among the best-known portrayals of the Annunciation in Christian art.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Annunciazione_(Leonardo)",
+      "text": "L'Annunciazione è un dipinto a olio e tempera su tavola, attribuito a Leonardo da Vinci, databile tra il 1472 e il 1475 circa e conservato nella Galleria degli Uffizi di Firenze.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/L'Annonciation_(L%C3%A9onard_de_Vinci)",
+      "text": "L'Annonciation est un tableau de l'atelier de Verrocchio, attribué à Léonard de Vinci et exposé à la galerie des Offices de Florence. Il représente l’ange Gabriel saluant la Vierge Marie et l'interrompant dans sa lecture de la Bible pour lui annoncer qu’elle est destinée à donner naissance au fils de Dieu. C'est une œuvre de jeunesse de Léonard de Vinci que l'on date des années 1472-1475.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Annunciazione",
+    "L'Annonciation de San Martino",
+    "The Annunciation",
+    "Annunciation of San Martino"
   ],
   "timeline": {
     "lane": "works",

@@ -1,0 +1,86 @@
+{
+  "id": "w-grotesque-portrait-man",
+  "type": "work",
+  "label": "Grotesque Portrait Study of a Man",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "portrait",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q11702547 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q11702547",
+    "inventory": "JBS 19"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_vinci%2C_Grotesque_head.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci%2C_Grotesque_head.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1321",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11702547 (Grotesque Portrait Study of a Man), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11702547"
+        }
+      ]
+    },
+    {
+      "id": "api1322",
+      "about": "inventory",
+      "value": {
+        "text": "JBS 19"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number JBS 19 in Christ Church, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11702547 (Grotesque Portrait Study of a Man), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11702547"
+        }
+      ]
+    },
+    {
+      "id": "api1323",
+      "about": "current_location",
+      "value": {
+        "text": "Christ Church"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Christ Church, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11702547 (Grotesque Portrait Study of a Man), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11702547"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-christ-church-oxford"
+    }
+  ],
+  "current_location": "geo-christ-church-oxford"
+}

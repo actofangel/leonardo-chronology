@@ -1,0 +1,85 @@
+{
+  "id": "w-madonna-3",
+  "type": "work",
+  "label": "Studies for a Madonna with a Cat",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389556 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389556",
+    "inventory": "NI1772; AI152"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A9onard_de_Vinci%2C_%C3%89tude_pour_une_Vierge_%C3%A0_l'Enfant_jouant_avec_un_chat_(mus%C3%A9e_Bonnat-Helleu).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:L%C3%A9onard_de_Vinci%2C_%C3%89tude_pour_une_Vierge_%C3%A0_l'Enfant_jouant_avec_un_chat_(mus%C3%A9e_Bonnat-Helleu).jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api219",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389556 (Studies for a Madonna with a Cat), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389556"
+        }
+      ]
+    },
+    {
+      "id": "api220",
+      "about": "inventory",
+      "value": {
+        "text": "NI1772; AI152"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number NI1772; AI152 in Musée Bonnat-Helleu, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389556 (Studies for a Madonna with a Cat), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389556"
+        }
+      ]
+    },
+    {
+      "id": "api221",
+      "about": "current_location",
+      "value": {
+        "text": "Musée Bonnat-Helleu"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Musée Bonnat-Helleu, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389556 (Studies for a Madonna with a Cat), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389556"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-musee-bonnat-bayonne"
+    }
+  ],
+  "current_location": "geo-musee-bonnat-bayonne"
+}

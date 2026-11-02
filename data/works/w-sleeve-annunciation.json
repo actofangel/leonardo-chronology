@@ -1,0 +1,180 @@
+{
+  "id": "w-sleeve-annunciation",
+  "type": "work",
+  "label": "Sleeve study for the Annunciation",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "pen_and_ink"
+    ],
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389468 (instance of: drawing; study; material: pen; ink; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389468",
+    "inventory": "JBS 16"
+  },
+  "variants": [
+    "Drapery Study for the Arm of an Annunciation Angel"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_vinci%2C_Sleeve_study_for_the_Annunciation.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci%2C_Sleeve_study_for_the_Annunciation.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2986",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389468 (Sleeve study for the Annunciation), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389468"
+        }
+      ]
+    },
+    {
+      "id": "api2987",
+      "about": "date",
+      "value": {
+        "text": "c.1472 to 1475",
+        "start": 1472,
+        "end": 1475
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1472 to 1475.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389468 (Sleeve study for the Annunciation), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389468"
+        }
+      ]
+    },
+    {
+      "id": "api2988",
+      "about": "date",
+      "value": {
+        "text": "1470 to 1473",
+        "start": 1470,
+        "end": 1473
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1470 to 1473.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389468 (Sleeve study for the Annunciation), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389468"
+        }
+      ]
+    },
+    {
+      "id": "api2989",
+      "about": "inventory",
+      "value": {
+        "text": "JBS 16"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number JBS 16 in Christ Church Picture Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389468 (Sleeve study for the Annunciation), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389468"
+        }
+      ]
+    },
+    {
+      "id": "api2990",
+      "about": "current_location",
+      "value": {
+        "text": "Christ Church Picture Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Christ Church Picture Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389468 (Sleeve study for the Annunciation), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389468"
+        }
+      ]
+    },
+    {
+      "id": "api2991",
+      "about": "current_location",
+      "value": {
+        "text": "Christ Church"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Christ Church, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389468 (Sleeve study for the Annunciation), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389468"
+        }
+      ]
+    },
+    {
+      "id": "api2992",
+      "about": "medium",
+      "value": {
+        "text": "pen; ink"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: pen; ink.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389468 (Sleeve study for the Annunciation), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389468"
+        }
+      ]
+    },
+    {
+      "id": "api2993",
+      "about": "dimensions",
+      "value": {
+        "text": "85 mm x 95 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 85 mm, width 95 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389468 (Sleeve study for the Annunciation), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389468"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-christ-church-oxford"
+    }
+  ],
+  "current_location": "geo-christ-church-oxford"
+}

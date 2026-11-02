@@ -96,6 +96,125 @@
       "check_in": [
         "Clark and Pedretti 1968"
       ]
+    },
+    {
+      "id": "api109",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389511 (Head of Leda), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389511"
+        }
+      ]
+    },
+    {
+      "id": "api110",
+      "about": "date",
+      "value": {
+        "text": "c.1504 to 1506",
+        "start": 1504,
+        "end": 1506
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1504 to 1506.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389511 (Head of Leda), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389511"
+        }
+      ]
+    },
+    {
+      "id": "api111",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912518 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912518 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389511 (Head of Leda), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389511"
+        }
+      ]
+    },
+    {
+      "id": "api112",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912518"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912518 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389511 (Head of Leda), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389511"
+        }
+      ]
+    },
+    {
+      "id": "api113",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389511 (Head of Leda), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389511"
+        }
+      ]
+    },
+    {
+      "id": "api114",
+      "about": "dimensions",
+      "value": {
+        "text": "177 mm x 147 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 177 mm, width 147 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389511 (Head of Leda), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389511"
+        }
+      ]
     }
+  ],
+  "identifiers": {
+    "wikidata": "Q136389511",
+    "rcin": "912518",
+    "inventory": "RCIN 912518 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Head_of_Leda_-_Google_Art_Project.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Head_of_Leda_-_Google_Art_Project.jpg"
+    }
+  ],
+  "variants": [
+    "Head of Leda"
   ]
 }

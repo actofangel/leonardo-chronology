@@ -1,0 +1,87 @@
+{
+  "id": "w-virgin-child-2",
+  "type": "work",
+  "label": "Studies for a Virgin and Child and of Heads in Profile and of Machines",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "religious",
+      "mechanics",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389563 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389563",
+    "inventory": "Inv. 1860-6-16-100v"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/British_Museum_Leonardo_study_for_Virgin_and_Child.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:British_Museum_Leonardo_study_for_Virgin_and_Child.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api228",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389563 (Studies for a Virgin and Child and of Heads in Profile and of Machines), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389563"
+        }
+      ]
+    },
+    {
+      "id": "api229",
+      "about": "inventory",
+      "value": {
+        "text": "Inv. 1860-6-16-100v"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Inv. 1860-6-16-100v in British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389563 (Studies for a Virgin and Child and of Heads in Profile and of Machines), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389563"
+        }
+      ]
+    },
+    {
+      "id": "api230",
+      "about": "current_location",
+      "value": {
+        "text": "British Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389563 (Studies for a Virgin and Child and of Heads in Profile and of Machines), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389563"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-british-museum"
+    }
+  ],
+  "current_location": "geo-british-museum"
+}

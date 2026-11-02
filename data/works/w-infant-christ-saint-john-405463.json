@@ -1,0 +1,159 @@
+{
+  "id": "w-infant-christ-saint-john-405463",
+  "type": "work",
+  "label": "The Infant Christ and Saint John Embracing",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "panel",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q28030984 (instance of: painting; material: oil paint; panel; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q28030984",
+    "rcin": "405463",
+    "inventory": "RCIN 405463"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Marco_d'Oggiono_-_The_Infant_Christ_and_Saint_John_Kissing.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Marco_d'Oggiono_-_The_Infant_Christ_and_Saint_John_Kissing.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2784",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q28030984 (The Infant Christ and Saint John Embracing), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q28030984"
+        }
+      ]
+    },
+    {
+      "id": "api2785",
+      "about": "date",
+      "value": {
+        "text": "1500s",
+        "start": 1500
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1500s.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q28030984 (The Infant Christ and Saint John Embracing), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q28030984"
+        }
+      ]
+    },
+    {
+      "id": "api2786",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 405463"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 405463 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q28030984 (The Infant Christ and Saint John Embracing), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q28030984"
+        }
+      ]
+    },
+    {
+      "id": "api2787",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q28030984 (The Infant Christ and Saint John Embracing), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q28030984"
+        }
+      ]
+    },
+    {
+      "id": "api2788",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q28030984 (The Infant Christ and Saint John Embracing), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q28030984"
+        }
+      ]
+    },
+    {
+      "id": "api2789",
+      "about": "dimensions",
+      "value": {
+        "text": "64.3 cm x 48.1 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 64.3 cm, width 48.1 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q28030984 (The Infant Christ and Saint John Embracing), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q28030984"
+        }
+      ]
+    },
+    {
+      "id": "api2790",
+      "about": "depicts",
+      "value": {
+        "text": "John the Baptist; Christ Child"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: John the Baptist; Christ Child. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q28030984 (The Infant Christ and Saint John Embracing), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q28030984"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

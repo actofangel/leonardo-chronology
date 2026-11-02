@@ -287,12 +287,121 @@
       "alternative_to": [
         "c10"
       ]
+    },
+    {
+      "id": "api2038",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q128910 (The Last Supper), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q128910"
+        }
+      ]
+    },
+    {
+      "id": "api2039",
+      "about": "date",
+      "value": {
+        "text": "1494 to 1498",
+        "start": 1494,
+        "end": 1498
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1494 to 1498.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q128910 (The Last Supper), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q128910"
+        }
+      ]
+    },
+    {
+      "id": "api2040",
+      "about": "current_location",
+      "value": {
+        "text": "Santa Maria delle Grazie"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Santa Maria delle Grazie, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q128910 (The Last Supper), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q128910"
+        }
+      ]
+    },
+    {
+      "id": "api2041",
+      "about": "medium",
+      "value": {
+        "text": "tempera; gesso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: tempera; gesso.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q128910 (The Last Supper), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q128910"
+        }
+      ]
+    },
+    {
+      "id": "api2042",
+      "about": "dimensions",
+      "value": {
+        "text": "700 cm x 880 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 700 cm, width 880 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q128910 (The Last Supper), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q128910"
+        }
+      ]
+    },
+    {
+      "id": "api2043",
+      "about": "depicts",
+      "value": {
+        "text": "Jesus Christ; Last Supper; Bartholomew the Apostle; James, son of Alphaeus; Andrew the Apostle; Judas Iscariot; Saint Peter; John the Apostle; Thomas the Apostle; Saint James the Elder; Philip the Apostle; Matthew the Apostle"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Jesus Christ; Last Supper; Bartholomew the Apostle; James, son of Alphaeus; Andrew the Apostle; Judas Iscariot; Saint Peter; John the Apostle; Thomas the Apostle; Saint James the Elder; Philip the Apostle; Matthew the Apostle. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q128910 (The Last Supper), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q128910"
+        }
+      ]
     }
   ],
   "current_location": "geo-santa-maria-delle-grazie",
   "variants": [
     "Cenacolo",
-    "Ultima Cena"
+    "Ultima Cena",
+    "The Last Supper",
+    "La Cène",
+    "Il Cenacolo",
+    "L'Ultima Cena",
+    "Cenacolo vinciano"
   ],
   "relations": [
     {
@@ -326,6 +435,39 @@
     "Date of Pacioli's dedicatory letter: 9 February 1498 (often cited) or the 14 December 1497 conclusion date? Which codex carries which date?",
     "Is there any document for the start of work or for a formal commission? Other 1496 to 1498 documents (Leonardo's own letter of complaint to Ludovico; payment notes) should be listed from Villata.",
     "When did Bandello write the I.58 dedicatory letter, and was he at the Grazie in the 1490s?"
+  ],
+  "identifiers": {
+    "wikidata": "Q128910"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)",
+      "text": "The Last Supper is a mural painting by the Italian High Renaissance artist Leonardo da Vinci, dated to c. 1495, 1498, housed in the refectory of the Convent of Santa Maria delle Grazie in Milan, Italy. The painting represents the scene of the Last Supper of Jesus with the Twelve Apostles, as it is told in the Gospel of John, specifically the moment after Jesus announces that one of his apostles will betray him. Its handling of space, mastery of perspective, treatment of motion and complex display of human emotion has made it one of the Western world's most recognizable paintings and among Leonardo's most celebrated works. Some commentators consider it pivotal in inaugurating the transition into what is now termed the High Renaissance.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Ultima_Cena_(Leonardo)",
+      "text": "Il Cenacolo, noto anche come l'Ultima Cena, è un dipinto parietale, definito spesso impropriamente come un affresco, ottenuto con una tecnica mista \"a secco\" su intonaco (460×880 cm) di Leonardo da Vinci, databile al 1494-1498 e realizzato su commissione di Ludovico il Moro nel refettorio del convento adiacente al santuario di Santa Maria delle Grazie a Milano.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/La_C%C3%A8ne_(L%C3%A9onard_de_Vinci)",
+      "text": "La Cène de Léonard de Vinci est une peinture murale à la détrempe de 460 × 880 cm, réalisée de 1495 à 1498 pour le réfectoire du couvent dominicain de Santa Maria delle Grazie à Milan.",
+      "retrieved": "2026-11-02"
+    }
   ],
   "timeline": {
     "lane": "works",

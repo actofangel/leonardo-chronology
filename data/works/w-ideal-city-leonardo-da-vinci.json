@@ -1,0 +1,45 @@
+{
+  "id": "w-ideal-city-leonardo-da-vinci",
+  "type": "work",
+  "label": "Ideal city by Leonardo da Vinci",
+  "subtype": "work",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q67373289 (instance of: ideal city; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q67373289"
+  },
+  "variants": [
+    "Città ideale di Leonardo"
+  ],
+  "claims": [
+    {
+      "id": "api2862",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q67373289 (Ideal city by Leonardo da Vinci), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q67373289"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Citt%C3%A0_ideale_di_Leonardo",
+      "text": "L'espressione Città ideale di Leonardo si riferisce ai progetti e alle riflessioni urbanistiche di Leonardo da Vinci, contenuti nel cosiddetto Manoscritto B, conservato presso l'Institut de France di Parigi. Questi scritti, datati tra il 1487 e il 1490, furono elaborati durante il periodo in cui Leonardo era alla corte di Ludovico il Moro a Milano. Le proposte di Leonardo miravano a razionalizzare la struttura urbana e a migliorare l'efficienza della città, specialmente dopo l'epidemia di peste che colpì Milano tra il 1484 e il 1485, riducendo la popolazione da 125.000 abitanti a meno della metà.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

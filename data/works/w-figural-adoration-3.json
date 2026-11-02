@@ -1,0 +1,512 @@
+{
+  "id": "w-figural-adoration-3",
+  "type": "work",
+  "label": "Figural Studies for the Adoration of the Magi",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389476 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389476",
+      "Q136389571"
+    ],
+    "louvre_ark": [
+      "cl020003022",
+      "cl020003021"
+    ],
+    "inventory": [
+      "INV 2258, Verso",
+      "INV 2258, Recto"
+    ]
+  },
+  "variants": [
+    "Six études d'hommes nus ou drapés",
+    "Six studies of nude or clothed men",
+    "Studi di figure maschili nude e di un igrometro",
+    "Etudes de figures masculines nues et étude d'hygromètre",
+    "Studies of nude male figures and of a hygrometer"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Six_%C3%A9tudes_d'hommes_nus_ou_drap%C3%A9s%2C_INV_2258%2C_Verso.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Six_%C3%A9tudes_d'hommes_nus_ou_drap%C3%A9s%2C_INV_2258%2C_Verso.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/00/30/22/00/AGO003022-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020003022"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_-_studi_di_figure_maschili_nude.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_-_studi_di_figure_maschili_nude.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/00/30/21/00/AGO003021-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020003021"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api13",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389476 (Figural Studies for the Adoration of the Magi), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389476"
+        }
+      ]
+    },
+    {
+      "id": "api14",
+      "about": "date",
+      "value": {
+        "text": "1480 to 1481",
+        "start": 1480,
+        "end": 1481
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1480 to 1481.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389476 (Figural Studies for the Adoration of the Magi), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389476"
+        }
+      ]
+    },
+    {
+      "id": "api15",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2258, Verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number INV 2258, Verso in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389476 (Figural Studies for the Adoration of the Magi), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389476"
+        }
+      ]
+    },
+    {
+      "id": "api16",
+      "about": "current_location",
+      "value": {
+        "text": "Cabinet des dessins"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389476 (Figural Studies for the Adoration of the Magi), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389476"
+        }
+      ]
+    },
+    {
+      "id": "api17",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389476 (Figural Studies for the Adoration of the Magi), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389476"
+        }
+      ]
+    },
+    {
+      "id": "api18",
+      "about": "dimensions",
+      "value": {
+        "text": "0.277 metre x 0.209 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.277 metre, width 0.209 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389476 (Figural Studies for the Adoration of the Magi), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389476"
+        }
+      ]
+    },
+    {
+      "id": "api19",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2258, Verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number INV 2258, Verso.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003022 (Six études d'hommes nus ou drapés), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003022"
+        }
+      ]
+    },
+    {
+      "id": "api20",
+      "about": "inventory_history",
+      "value": {
+        "text": "Anciens numéros d'inventaire: NIII 35317; Référence de l'inventaire manuscrit: vol.1, p.385"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Anciens numéros d'inventaire: NIII 35317; Référence de l'inventaire manuscrit: vol.1, p.385.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003022 (Six études d'hommes nus ou drapés), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003022"
+        }
+      ]
+    },
+    {
+      "id": "api21",
+      "about": "date",
+      "value": {
+        "text": "1480/1481",
+        "start": 1480,
+        "end": 1481
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: 1480/1481.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003022 (Six études d'hommes nus ou drapés), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003022"
+        }
+      ]
+    },
+    {
+      "id": "api22",
+      "about": "medium",
+      "value": {
+        "text": "Sur un premier tracé à la pointe de plomb, reprise à la plume et encre brune ; pointe de plomb seule pour un croquis en bas à gauche. Annotation à la pierre noire en haut au centre : \" Dessin double \"."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Sur un premier tracé à la pointe de plomb, reprise à la plume et encre brune ; pointe de plomb seule pour un croquis en bas à gauche. Annotation à la pierre noire en haut au centre : \" Dessin double \".",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003022 (Six études d'hommes nus ou drapés), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003022"
+        }
+      ]
+    },
+    {
+      "id": "api23",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.277 m (à la feuille); Largeur 0.209 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.277 m (à la feuille); Largeur 0.209 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003022 (Six études d'hommes nus ou drapés), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003022"
+        }
+      ]
+    },
+    {
+      "id": "api24",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003022 (Six études d'hommes nus ou drapés), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003022"
+        }
+      ]
+    },
+    {
+      "id": "api25",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003022 (Six études d'hommes nus ou drapés), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003022"
+        }
+      ]
+    },
+    {
+      "id": "api26",
+      "about": "provenance",
+      "value": {
+        "text": "Bristol et Londres, Sir Th. Lawrence - Guillaume II des Pays Bas ; vente, La Haye, 1850, n° 232 (et non 233) ; acquis à cette vente par le Louvre."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: Bristol et Londres, Sir Th. Lawrence - Guillaume II des Pays Bas ; vente, La Haye, 1850, n° 232 (et non 233) ; acquis à cette vente par le Louvre.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003022 (Six études d'hommes nus ou drapés), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003022"
+        }
+      ]
+    },
+    {
+      "id": "api246",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389571 (Sketches and Figures for a Last Supper), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389571"
+        }
+      ]
+    },
+    {
+      "id": "api247",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2258, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number INV 2258, Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389571 (Sketches and Figures for a Last Supper), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389571"
+        }
+      ]
+    },
+    {
+      "id": "api248",
+      "about": "current_location",
+      "value": {
+        "text": "Cabinet des dessins"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389571 (Sketches and Figures for a Last Supper), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389571"
+        }
+      ]
+    },
+    {
+      "id": "api249",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389571 (Sketches and Figures for a Last Supper), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389571"
+        }
+      ]
+    },
+    {
+      "id": "api250",
+      "about": "dimensions",
+      "value": {
+        "text": "0.277 metre x 0.209 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.277 metre, width 0.209 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389571 (Sketches and Figures for a Last Supper), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389571"
+        }
+      ]
+    },
+    {
+      "id": "api251",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2258, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number INV 2258, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003021 (Etudes de figures masculines nues et étude d'hygromètre), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003021"
+        }
+      ]
+    },
+    {
+      "id": "api252",
+      "about": "inventory_history",
+      "value": {
+        "text": "Anciens numéros d'inventaire: NIII 35317; Référence de l'inventaire manuscrit: vol.1, p.385"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Anciens numéros d'inventaire: NIII 35317; Référence de l'inventaire manuscrit: vol.1, p.385.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003021 (Etudes de figures masculines nues et étude d'hygromètre), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003021"
+        }
+      ]
+    },
+    {
+      "id": "api253",
+      "about": "medium",
+      "value": {
+        "text": "Reprise à la plume et encre brune, sur un premier tracé à la pointe de plomb; pointe de plomb seule pour la Vierge à l'Enfant. Restauré en 2003"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Reprise à la plume et encre brune, sur un premier tracé à la pointe de plomb; pointe de plomb seule pour la Vierge à l'Enfant. Restauré en 2003",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003021 (Etudes de figures masculines nues et étude d'hygromètre), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003021"
+        }
+      ]
+    },
+    {
+      "id": "api254",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.277 m (à la feuille); Largeur 0.209 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.277 m (à la feuille); Largeur 0.209 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003021 (Etudes de figures masculines nues et étude d'hygromètre), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003021"
+        }
+      ]
+    },
+    {
+      "id": "api255",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003021 (Etudes de figures masculines nues et étude d'hygromètre), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003021"
+        }
+      ]
+    },
+    {
+      "id": "api256",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003021 (Etudes de figures masculines nues et étude d'hygromètre), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003021"
+        }
+      ]
+    },
+    {
+      "id": "api257",
+      "about": "provenance",
+      "value": {
+        "text": "Bristol et Londres, Sir Th. Lawrence - Guillaume II des Pays Bas ; vente, La Haye, 1850, n° 232 (et non 233) ; acquis à cette vente par le Louvre."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: Bristol et Londres, Sir Th. Lawrence - Guillaume II des Pays Bas ; vente, La Haye, 1850, n° 232 (et non 233) ; acquis à cette vente par le Louvre.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003021 (Etudes de figures masculines nues et étude d'hygromètre), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003021"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

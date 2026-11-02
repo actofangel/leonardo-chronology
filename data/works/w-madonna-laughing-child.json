@@ -1,0 +1,168 @@
+{
+  "id": "w-madonna-laughing-child",
+  "type": "work",
+  "label": "Madonna with the Laughing Child",
+  "subtype": "sculpture_project",
+  "classification": {
+    "form": "sculpture_project",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q123980757 (instance of: sculpture; statue; material: terracotta; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q123980757",
+    "inventory": "4495-1858"
+  },
+  "variants": [
+    "Madonna col Bambino",
+    "The Virgin with the laughing Child",
+    "Madonna and Child"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_vinci_(attr.)%2C_madonna_col_bambino_sorridente%2C_1472_ca._(v%26a)_02.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci_(attr.)%2C_madonna_col_bambino_sorridente%2C_1472_ca._(v%26a)_02.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2285",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123980757 (Madonna with the Laughing Child), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123980757"
+        }
+      ]
+    },
+    {
+      "id": "api2286",
+      "about": "date",
+      "value": {
+        "text": "1460",
+        "start": 1460
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1460.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123980757 (Madonna with the Laughing Child), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123980757"
+        }
+      ]
+    },
+    {
+      "id": "api2287",
+      "about": "inventory",
+      "value": {
+        "text": "4495-1858"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 4495-1858 in Victoria and Albert Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123980757 (Madonna with the Laughing Child), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123980757"
+        }
+      ]
+    },
+    {
+      "id": "api2288",
+      "about": "current_location",
+      "value": {
+        "text": "Victoria and Albert Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Victoria and Albert Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123980757 (Madonna with the Laughing Child), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123980757"
+        }
+      ]
+    },
+    {
+      "id": "api2289",
+      "about": "medium",
+      "value": {
+        "text": "terracotta"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: terracotta.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123980757 (Madonna with the Laughing Child), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123980757"
+        }
+      ]
+    },
+    {
+      "id": "api2290",
+      "about": "dimensions",
+      "value": {
+        "text": "49 cm x ?"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 49 cm, width not given.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123980757 (Madonna with the Laughing Child), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123980757"
+        }
+      ]
+    },
+    {
+      "id": "api2291",
+      "about": "depicts",
+      "value": {
+        "text": "Madonna and Child"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Madonna and Child. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123980757 (Madonna with the Laughing Child), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123980757"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/The_Virgin_with_the_laughing_Child",
+      "text": "The Virgin and Laughing Child, also called The Virgin with the laughing Child, or generally abbreviated as another of many depictions of the Virgin and Child, is a statuette originating in Florence and was made circa 1460. It is a terracotta figure of the Virgin Mary carrying the laughing child Jesus Christ. It has been attributed to Leonardo da Vinci as \"the artist's only surviving sculpture\". It was credited to the Renaissance artist and inventor by curators at a Florence exhibit in 2019, claiming that this was a student artwork submitted under da Vinci's master and teacher, Andrea del Verrocchio at age 19 or 20. It is currently on display at the Victoria and Albert Museum in London, where it has been since 1858.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-v-and-a"
+    }
+  ],
+  "current_location": "geo-v-and-a"
+}

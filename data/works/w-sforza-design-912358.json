@@ -137,6 +137,107 @@
       "check_in": [
         "RCT record"
       ]
+    },
+    {
+      "id": "api118",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389514 (Study for the Sforza Monument), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389514"
+        }
+      ]
+    },
+    {
+      "id": "api119",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912358 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912358 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389514 (Study for the Sforza Monument), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389514"
+        }
+      ]
+    },
+    {
+      "id": "api120",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912358"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912358 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389514 (Study for the Sforza Monument), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389514"
+        }
+      ]
+    },
+    {
+      "id": "api121",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389514 (Study for the Sforza Monument), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389514"
+        }
+      ]
+    },
+    {
+      "id": "api122",
+      "about": "dimensions",
+      "value": {
+        "text": "152 mm x 188 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 152 mm, width 188 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389514 (Study for the Sforza Monument), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389514"
+        }
+      ]
     }
+  ],
+  "identifiers": {
+    "wikidata": "Q136389514",
+    "rcin": "912358",
+    "inventory": "RCIN 912358 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Study_for_an_equestrian_monument_(recto)_-_Google_Art_Project.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Study_for_an_equestrian_monument_(recto)_-_Google_Art_Project.jpg"
+    }
+  ],
+  "variants": [
+    "Study for the Sforza Monument",
+    "Study for an equestrian monument (recto)"
   ]
 }

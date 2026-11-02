@@ -1,0 +1,86 @@
+{
+  "id": "w-proportions-4",
+  "type": "work",
+  "label": "Studies of the Proportions of a Horse's Head",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "horse",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389684 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389684",
+    "inventory": "MS A (2172) fol. 62v"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_19-547393.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_19-547393.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api898",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389684 (Studies of the Proportions of a Horse's Head), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389684"
+        }
+      ]
+    },
+    {
+      "id": "api899",
+      "about": "inventory",
+      "value": {
+        "text": "MS A (2172) fol. 62v"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number MS A (2172) fol. 62v in Bibliothèque de l'Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389684 (Studies of the Proportions of a Horse's Head), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389684"
+        }
+      ]
+    },
+    {
+      "id": "api900",
+      "about": "current_location",
+      "value": {
+        "text": "Bibliothèque de l'Institut de France"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Bibliothèque de l'Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389684 (Studies of the Proportions of a Horse's Head), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389684"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-institut-de-france"
+    }
+  ],
+  "current_location": "geo-institut-de-france"
+}

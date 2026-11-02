@@ -1,0 +1,125 @@
+{
+  "id": "w-infant-christ",
+  "type": "work",
+  "label": "Studies for the Infant Christ",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q102329170 (instance of: drawing; study; drawing series; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q102329170",
+    "inventory": "257"
+  },
+  "variants": [
+    "Studi di un bambino",
+    "Études pour l'Enfant Jésus",
+    "Study for the Saint-Anne"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Study_for_the_Saint-Anne_-_The_Child.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Study_for_the_Saint-Anne_-_The_Child.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2136",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q102329170 (Studies for the Infant Christ), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q102329170"
+        }
+      ]
+    },
+    {
+      "id": "api2137",
+      "about": "date",
+      "value": {
+        "text": "1502 to 1503",
+        "start": 1502,
+        "end": 1503
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1502 to 1503.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q102329170 (Studies for the Infant Christ), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q102329170"
+        }
+      ]
+    },
+    {
+      "id": "api2138",
+      "about": "inventory",
+      "value": {
+        "text": "257"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 257 in Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q102329170 (Studies for the Infant Christ), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q102329170"
+        }
+      ]
+    },
+    {
+      "id": "api2139",
+      "about": "current_location",
+      "value": {
+        "text": "Gallerie dell'Accademia"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q102329170 (Studies for the Infant Christ), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q102329170"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Studies_of_an_Infant",
+      "text": "Studies of an Infant is a set of eight red chalk drawings on red ochre-prepared paper by Leonardo da Vinci, housed in the Gallerie dell'Accademia in Venice. These are representations of all or part of the body of a very young child, considered to be preparatory studies for the Infant Jesus in the oil painting The Virgin and Child with Saint Anne in the Louvre.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89tudes_pour_l'Enfant_J%C3%A9sus",
+      "text": "Études pour l'Enfant Jésus est un ensemble de huit dessins réalisés à la craie rouge sur papier préparé d'ocre rouge par Léonard de Vinci et conservé aux galeries de l'Académie de Venise. Il s'agit de représentations de tout ou partie du corps d'un très jeune enfant, considérées comme autant d'études préparatoires à l'Enfant Jésus présent sur le tableau Sainte Anne, la Vierge et l'Enfant Jésus jouant avec un agneau conservé au musée du Louvre.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-gallerie-accademia-venice"
+    }
+  ],
+  "current_location": "geo-gallerie-accademia-venice"
+}

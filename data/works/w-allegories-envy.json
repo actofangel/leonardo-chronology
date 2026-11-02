@@ -1,0 +1,85 @@
+{
+  "id": "w-allegories-envy",
+  "type": "work",
+  "label": "Two Allegories of Envy",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "mythology"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389995 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389995",
+    "inventory": "JBS 17r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Master_Draftsman%2C_Cat._54r.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Master_Draftsman%2C_Cat._54r.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api567",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389995 (Two Allegories of Envy), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389995"
+        }
+      ]
+    },
+    {
+      "id": "api568",
+      "about": "inventory",
+      "value": {
+        "text": "JBS 17r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number JBS 17r in Christ Church, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389995 (Two Allegories of Envy), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389995"
+        }
+      ]
+    },
+    {
+      "id": "api569",
+      "about": "current_location",
+      "value": {
+        "text": "Christ Church"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Christ Church, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389995 (Two Allegories of Envy), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389995"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-christ-church-oxford"
+    }
+  ],
+  "current_location": "geo-christ-church-oxford"
+}

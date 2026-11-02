@@ -1,0 +1,82 @@
+{
+  "id": "w-shields-foot-soldiers",
+  "type": "work",
+  "label": "Study with Shields for Foot Soldiers and an Exploding Bomb",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136390164 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390164",
+    "inventory": "EBA423"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Etudes_de_balistique%2C_EBA423.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Etudes_de_balistique%2C_EBA423.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1225",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390164 (Study with Shields for Foot Soldiers and an Exploding Bomb), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390164"
+        }
+      ]
+    },
+    {
+      "id": "api1226",
+      "about": "inventory",
+      "value": {
+        "text": "EBA423"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number EBA423 in Beaux-Arts de Paris, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390164 (Study with Shields for Foot Soldiers and an Exploding Bomb), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390164"
+        }
+      ]
+    },
+    {
+      "id": "api1227",
+      "about": "current_location",
+      "value": {
+        "text": "Beaux-Arts de Paris"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Beaux-Arts de Paris, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390164 (Study with Shields for Foot Soldiers and an Exploding Bomb), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390164"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-beaux-arts-paris"
+    }
+  ],
+  "current_location": "geo-beaux-arts-paris"
+}

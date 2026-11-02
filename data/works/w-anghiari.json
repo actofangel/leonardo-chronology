@@ -190,6 +190,109 @@
         "Anonimo Gaddiano, passage on the Sala del Consiglio",
         "Vasari 1568, Life of Leonardo"
       ]
+    },
+    {
+      "id": "api2614",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2045726 (The Battle of Anghiari), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2045726"
+        }
+      ]
+    },
+    {
+      "id": "api2615",
+      "about": "date",
+      "value": {
+        "text": "1503",
+        "start": 1503
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1503.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2045726 (The Battle of Anghiari), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2045726"
+        }
+      ]
+    },
+    {
+      "id": "api2616",
+      "about": "current_location",
+      "value": {
+        "text": "Palazzo Vecchio"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Palazzo Vecchio, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2045726 (The Battle of Anghiari), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2045726"
+        }
+      ]
+    },
+    {
+      "id": "api2617",
+      "about": "medium",
+      "value": {
+        "text": "fresco"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: fresco.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2045726 (The Battle of Anghiari), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2045726"
+        }
+      ]
+    },
+    {
+      "id": "api2618",
+      "about": "dimensions",
+      "value": {
+        "text": "42.8 cm x ?"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 42.8 cm, width not given.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2045726 (The Battle of Anghiari), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2045726"
+        }
+      ]
+    },
+    {
+      "id": "api2619",
+      "about": "depicts",
+      "value": {
+        "text": "Battle of Anghiari"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Battle of Anghiari. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2045726 (The Battle of Anghiari), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2045726"
+        }
+      ]
     }
   ],
   "current_location": "lost (Palazzo Vecchio, Sala del Gran Consiglio)",
@@ -213,11 +316,59 @@
       "rel": "mentioned_by",
       "target": "pe-agostino-vespucci",
       "claim": "c5"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-palazzo-vecchio"
     }
   ],
   "open_questions": [
     "Location of the mural in the hall: a recent study reported by Finestre sull'Arte argues the mural was not in the Salone dei Cinquecento as it now stands; check the literature.",
     "Exact codex and folio of the 6 June 1505 note."
+  ],
+  "identifiers": {
+    "wikidata": "Q2045726"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter_Paul_Ruben's_copy_of_the_lost_Battle_of_Anghiari.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Ruben's_copy_of_the_lost_Battle_of_Anghiari.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/The_Battle_of_Anghiari_(Leonardo)",
+      "text": "The Battle of Anghiari is a lost fresco painting by Leonardo da Vinci in the Salone dei Cinquecento in the Palazzo Vecchio, Florence. Its central scene would have depicted four men riding raging war horses engaged in a struggle for possession of a standard at the Battle of Anghiari in 1440.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Battaglia_di_Anghiari_(Leonardo)",
+      "text": "La Battaglia di Anghiari era una pittura murale di Leonardo da Vinci, databile al 1503-1504 e già commissionata per il Salone dei Cinquecento di Palazzo Vecchio a Firenze.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/La_Bataille_d'Anghiari",
+      "text": "La Bataille d'Anghiari est une peinture murale réalisée par Léonard de Vinci de 1504 à 1506 sur le mur Est de la salle du Grand Conseil du Palazzo Vecchio de Florence. Léonard de Vinci quitta Florence en 1506, laissant l'œuvre inachevée.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "The Battle of Anghiari",
+    "Battaglia di Anghiari",
+    "La Bataille d'Anghiari",
+    "The Battle of Anghiari (Leonardo)",
+    "The Battle of Anghiari Leonardo",
+    "The Battle of Anghiari Leonardo da Vinci",
+    "The Battle of Anghiari (Leonardo da Vinci)",
+    "The Battle of Anghiari (1505)",
+    "The Battle of Anghiari 1505"
   ],
   "timeline": {
     "lane": "works",

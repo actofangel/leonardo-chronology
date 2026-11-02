@@ -1,0 +1,67 @@
+{
+  "id": "w-leonardo-s-self-propelled-cart",
+  "type": "work",
+  "label": "Leonardo's self-propelled cart",
+  "subtype": "engineering_project",
+  "classification": {
+    "form": "engineering_project",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q3660752 (instance of: invention; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q3660752"
+  },
+  "variants": [
+    "carro semovente di Leonardo",
+    "projet Automobile"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Museo_leonardiano_di_vinci%2C_modello_di_carrello_automotore%2C_da_codice_atlantico.JPG?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Museo_leonardiano_di_vinci%2C_modello_di_carrello_automotore%2C_da_codice_atlantico.JPG"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2682",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3660752 (Leonardo's self-propelled cart), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3660752"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Leonardo's_self-propelled_cart",
+      "text": "Leonardo's self-propelled cart is an invention designed by Leonardo da Vinci, considered the ancestor of the modern automobile.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Carro_semovente_di_Leonardo",
+      "text": "Il Carro semovente è un progetto di un complesso automa meccanico ideato da Leonardo da Vinci, databile intorno al 1478. Viene considerata l'antenata dell'automobile moderna.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Automobile_(L%C3%A9onard_de_Vinci)",
+      "text": "L'Automobile est un prototype d'automobile tricycle à moteur à ressort, inventé vers 1478 par le peintre et inventeur florentin Léonard de Vinci (1452-1519). Uniquement connue par un croquis de son Codex Atlanticus, cette invention, dont il existe une maquette fonctionnelle depuis 2004, et des copies dans divers musées techniques, est considérée comme une des plus anciennes automobiles de l'histoire, probablement associée à ses travaux d'études de machines à mouvement perpétuel.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

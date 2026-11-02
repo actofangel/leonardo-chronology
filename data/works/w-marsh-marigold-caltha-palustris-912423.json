@@ -1,0 +1,83 @@
+{
+  "id": "w-marsh-marigold-caltha-palustris-912423",
+  "type": "work",
+  "label": "Study of marsh marigold (Caltha palustris) and wood anemone (Anemone nemorosa)",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136390019 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390019",
+    "rcin": "912423",
+    "inventory": "RCIN 912423 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912423%2C_Marsh_marigold_(Caltha_palustris)_and_wood_anemone_(Anemone_nemorosa)_c.1505-10.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912423%2C_Marsh_marigold_(Caltha_palustris)_and_wood_anemone_(Anemone_nemorosa)_c.1505-10.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api635",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390019 (Study of marsh marigold (Caltha palustris) and wood anemone (Anemone nemorosa)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390019"
+        }
+      ]
+    },
+    {
+      "id": "api636",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912423 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912423 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390019 (Study of marsh marigold (Caltha palustris) and wood anemone (Anemone nemorosa)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390019"
+        }
+      ]
+    },
+    {
+      "id": "api637",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390019 (Study of marsh marigold (Caltha palustris) and wood anemone (Anemone nemorosa)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390019"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

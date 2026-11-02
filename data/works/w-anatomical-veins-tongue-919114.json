@@ -1,0 +1,148 @@
+{
+  "id": "w-anatomical-veins-tongue-919114",
+  "type": "work",
+  "label": "Anatomical Studies of the Veins, Tongue and Throat",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "anatomy"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389938 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389938",
+      "Q136389958"
+    ],
+    "rcin": "919114",
+    "inventory": [
+      "RCIN 919114 verso",
+      "RCIN 919114 recto"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919114%2C_Verso_The_main_blood_vessels_of_the_thorax_and_superficial_veins_of_arm%2C_etc._c._1508-10.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919114%2C_Verso_The_main_blood_vessels_of_the_thorax_and_superficial_veins_of_arm%2C_etc._c._1508-10.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919114%2C_Recto_Diagram_of_the_spine%2C_nerves%2C_vessels%2C_etc.%2C_and_notes_on_the_intercostal_muscles.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919114%2C_Recto_Diagram_of_the_spine%2C_nerves%2C_vessels%2C_etc.%2C_and_notes_on_the_intercostal_muscles.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api432",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389938 (Anatomical Studies of the Veins, Tongue and Throat), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389938"
+        }
+      ]
+    },
+    {
+      "id": "api433",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919114 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919114 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389938 (Anatomical Studies of the Veins, Tongue and Throat), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389938"
+        }
+      ]
+    },
+    {
+      "id": "api434",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389938 (Anatomical Studies of the Veins, Tongue and Throat), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389938"
+        }
+      ]
+    },
+    {
+      "id": "api483",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389958 (Anatomical Study of the Curvature of the Spine, the Spinal Cord and the Intercostal Muscles), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389958"
+        }
+      ]
+    },
+    {
+      "id": "api484",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919114 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919114 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389958 (Anatomical Study of the Curvature of the Spine, the Spinal Cord and the Intercostal Muscles), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389958"
+        }
+      ]
+    },
+    {
+      "id": "api485",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389958 (Anatomical Study of the Curvature of the Spine, the Spinal Cord and the Intercostal Muscles), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389958"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

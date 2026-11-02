@@ -1,0 +1,149 @@
+{
+  "id": "w-anatomical-heart-liver-919097",
+  "type": "work",
+  "label": "Anatomical Study of the Heart, Liver and Blood Vessels of the Abdomen and Testicles of an Animal, probably a Horse",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "anatomy",
+      "horse"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389928 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389928",
+      "Q139567084"
+    ],
+    "rcin": "919097",
+    "inventory": [
+      "RCIN 919097 recto",
+      "RCIN 919097 verso"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919097%2C_Verso_The_hemisection_of_a_man_and_woman_in_the_act_of_coition_c.1490-92.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919097%2C_Verso_The_hemisection_of_a_man_and_woman_in_the_act_of_coition_c.1490-92.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919097%2C_Recto_The_viscera_of_a_horse.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919097%2C_Recto_The_viscera_of_a_horse.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api414",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389928 (Anatomical Study of the Heart, Liver and Blood Vessels of the Abdomen and Testicles of an Animal, probably a Horse), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389928"
+        }
+      ]
+    },
+    {
+      "id": "api415",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919097 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919097 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389928 (Anatomical Study of the Heart, Liver and Blood Vessels of the Abdomen and Testicles of an Animal, probably a Horse), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389928"
+        }
+      ]
+    },
+    {
+      "id": "api416",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389928 (Anatomical Study of the Heart, Liver and Blood Vessels of the Abdomen and Testicles of an Animal, probably a Horse), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389928"
+        }
+      ]
+    },
+    {
+      "id": "api1653",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567084 (The Sexual Act in Vertical Section), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567084"
+        }
+      ]
+    },
+    {
+      "id": "api1654",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919097 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919097 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567084 (The Sexual Act in Vertical Section), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567084"
+        }
+      ]
+    },
+    {
+      "id": "api1655",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567084 (The Sexual Act in Vertical Section), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567084"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

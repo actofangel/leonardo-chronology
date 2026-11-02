@@ -147,6 +147,127 @@
           "url": "https://m.museivaticani.va/content/dam/museivaticani/pdf/eventi_novita/iniziative/eventi/2022/129_comunicato_stampa_en.pdf"
         }
       ]
+    },
+    {
+      "id": "api2584",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q972196 (Saint Jerome in the Wilderness), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q972196"
+        }
+      ]
+    },
+    {
+      "id": "api2585",
+      "about": "date",
+      "value": {
+        "text": "1480 to 1482",
+        "start": 1480,
+        "end": 1482
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1480 to 1482.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q972196 (Saint Jerome in the Wilderness), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q972196"
+        }
+      ]
+    },
+    {
+      "id": "api2586",
+      "about": "inventory",
+      "value": {
+        "text": "MV.40337"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number MV.40337 in Pinacoteca Vaticana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q972196 (Saint Jerome in the Wilderness), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q972196"
+        }
+      ]
+    },
+    {
+      "id": "api2587",
+      "about": "current_location",
+      "value": {
+        "text": "Pinacoteca Vaticana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Pinacoteca Vaticana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q972196 (Saint Jerome in the Wilderness), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q972196"
+        }
+      ]
+    },
+    {
+      "id": "api2588",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q972196 (Saint Jerome in the Wilderness), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q972196"
+        }
+      ]
+    },
+    {
+      "id": "api2589",
+      "about": "dimensions",
+      "value": {
+        "text": "103 cm x 75 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 103 cm, width 75 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q972196 (Saint Jerome in the Wilderness), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q972196"
+        }
+      ]
+    },
+    {
+      "id": "api2590",
+      "about": "depicts",
+      "value": {
+        "text": "Jerome; Jerome in the wilderness"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Jerome; Jerome in the wilderness. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q972196 (Saint Jerome in the Wilderness), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q972196"
+        }
+      ]
     }
   ],
   "current_location": "geo-vatican-pinacoteca",
@@ -173,6 +294,49 @@
   ],
   "open_questions": [
     "Who holds the Milanese dating, and on what evidence (comparison with Milanese drawings, the architecture sketch)?"
+  ],
+  "identifiers": {
+    "wikidata": "Q972196",
+    "inventory": "MV.40337"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_%E2%80%94_Jerome.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_%E2%80%94_Jerome.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Saint_Jerome_in_the_Wilderness_(Leonardo)",
+      "text": "Saint Jerome in the Wilderness is an unfinished painting by the Italian Renaissance artist Leonardo da Vinci, dated c. 1480, 1490. A recent study linked to the Lady with an Ermine carried out by Leonardo da Vinci at the same time supports this hypothesis. The composition of the painting has been drafted in monochrome onto the primed wooden panel. At an unknown date after Leonardo's death, the panel was cut into five pieces before eventually being restored into its original form.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/San_Girolamo_(Leonardo)",
+      "text": "Il San Girolamo penitente è un dipinto a olio su tavola (103×75 cm) di Leonardo da Vinci, databile al 1480 circa e conservato nella Pinacoteca Vaticana. Si tratta di un dipinto non portato a termine.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Saint_J%C3%A9r%C3%B4me_(L%C3%A9onard_de_Vinci)",
+      "text": "Saint Jérôme est un tableau de Léonard de Vinci. Ce tableau ne fut jamais achevé, mais est daté approximativement de 1482.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Saint Jerome in the Wilderness",
+    "San Girolamo",
+    "Saint Jérôme",
+    "St. Jerome in the Wilderness",
+    "St Jerome in the Wilderness",
+    "Saint Jerome in the Wilderness (Leonardo)",
+    "Saint Jerome in the Wilderness Leonardo"
   ],
   "timeline": {
     "lane": "works",

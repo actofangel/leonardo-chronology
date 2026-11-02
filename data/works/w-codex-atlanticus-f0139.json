@@ -1,0 +1,88 @@
+{
+  "id": "w-codex-atlanticus-f0139",
+  "type": "work",
+  "label": "Codex Atlanticus, f. 139",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q131604549 (instance of: folio; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "manuscript": "w-atlanticus",
+  "folio": "f. 139",
+  "relations": [
+    {
+      "rel": "drawn_on",
+      "target": "w-atlanticus"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "identifiers": {
+    "wikidata": "Q131604549",
+    "inventory": "F0139"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Ambrosiana-Codice-Atlantico-Codex-Atlanticus-f-139-recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Ambrosiana-Codice-Atlantico-Codex-Atlanticus-f-139-recto.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2418",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604549 (Codex Atlanticus (F0139)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604549"
+        }
+      ]
+    },
+    {
+      "id": "api2419",
+      "about": "inventory",
+      "value": {
+        "text": "F0139"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number F0139 in Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604549 (Codex Atlanticus (F0139)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604549"
+        }
+      ]
+    },
+    {
+      "id": "api2420",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604549 (Codex Atlanticus (F0139)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604549"
+        }
+      ]
+    }
+  ],
+  "current_location": "geo-ambrosiana"
+}

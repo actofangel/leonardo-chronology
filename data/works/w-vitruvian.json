@@ -157,6 +157,126 @@
         "Pedretti 1977",
         "Accademia catalogue"
       ]
+    },
+    {
+      "id": "api2489",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q215486 (Vitruvian Man), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q215486"
+        }
+      ]
+    },
+    {
+      "id": "api2490",
+      "about": "date",
+      "value": {
+        "text": "c.1493",
+        "start": 1493
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1493.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q215486 (Vitruvian Man), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q215486"
+        }
+      ]
+    },
+    {
+      "id": "api2491",
+      "about": "inventory",
+      "value": {
+        "text": "69"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 69 in Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q215486 (Vitruvian Man), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q215486"
+        }
+      ]
+    },
+    {
+      "id": "api2492",
+      "about": "inventory",
+      "value": {
+        "text": "228"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 228 in Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q215486 (Vitruvian Man), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q215486"
+        }
+      ]
+    },
+    {
+      "id": "api2493",
+      "about": "current_location",
+      "value": {
+        "text": "Gallerie dell'Accademia"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q215486 (Vitruvian Man), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q215486"
+        }
+      ]
+    },
+    {
+      "id": "api2494",
+      "about": "dimensions",
+      "value": {
+        "text": "34.6 cm x 25.5 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 34.6 cm, width 25.5 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q215486 (Vitruvian Man), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q215486"
+        }
+      ]
+    },
+    {
+      "id": "api2495",
+      "about": "depicts",
+      "value": {
+        "text": "human; squaring the circle; circle; square"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: human; squaring the circle; circle; square. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q215486 (Vitruvian Man), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q215486"
+        }
+      ]
     }
   ],
   "current_location": "geo-gallerie-accademia-venice",
@@ -171,6 +291,48 @@
   ],
   "open_questions": [
     "Which dimensions are on the Accademia's own record?"
+  ],
+  "identifiers": {
+    "wikidata": "Q215486",
+    "inventory": "69"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Da_Vinci_Vitruve_Luc_Viatour.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Da_Vinci_Vitruve_Luc_Viatour.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Vitruvian_Man",
+      "text": "Vitruvian Man is a drawing by the Italian Renaissance artist and scientist Leonardo da Vinci, dated to c. 1490. Inspired by the Roman architect Vitruvius, it depicts a nude man in two overlapping standing positions, inscribed within a circle and a square. Art historian Carmen C. Bambach described it as \"justly ranked among the all-time iconic images of Western civilization\". While not the only drawing inspired by Vitruvius, Leonardo's work uniquely combines artistic vision with scientific inquiry and is often considered an archetypal representation of the High Renaissance.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Uomo_vitruviano",
+      "text": "L'Uomo vitruviano è un disegno a penna e inchiostro su carta di Leonardo da Vinci, conservato, ma generalmente non esposto, nel Gabinetto dei Disegni e delle Stampe delle Gallerie dell'Accademia di Venezia.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Homme_de_Vitruve",
+      "text": "L’Homme de Vitruve est un célèbre dessin annoté, réalisé vers 1490 à la plume, encre et lavis sur papier, par le peintre florentin Léonard de Vinci (1452-1519), d'après une étude de l’important traité d'architecture antique De architectura rédigé vers -25 par l'architecte ingénieur romain Vitruve (v-90-v-15), et dédié à l’empereur romain Auguste.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Uomo vitruviano",
+    "Homme de Vitruve",
+    "Canon of proportions",
+    "Man proportions",
+    "Human proportions",
+    "The Proportions of the Human Figure (after Vitruvius)"
   ],
   "timeline": {
     "lane": "works",

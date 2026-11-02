@@ -1,0 +1,158 @@
+{
+  "id": "w-hanged-bernardo-di",
+  "type": "work",
+  "label": "Study of the Hanged Bernardo di Bandino Baroncelli",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "pen_and_ink"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q11825876 (instance of: drawing; material: ink; paper; quill; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q11825876",
+    "inventory": "Inv. 659"
+  },
+  "variants": [
+    "Bernardo Bandini Baroncelli pendu par le cou"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Hanging_of_Bernardo_Baroncelli_1479.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Hanging_of_Bernardo_Baroncelli_1479.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2091",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11825876 (Study of the Hanged Bernardo di Bandino Baroncelli), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11825876"
+        }
+      ]
+    },
+    {
+      "id": "api2092",
+      "about": "date",
+      "value": {
+        "text": "1479-12-29",
+        "start": 1479
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1479-12-29.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11825876 (Study of the Hanged Bernardo di Bandino Baroncelli), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11825876"
+        }
+      ]
+    },
+    {
+      "id": "api2093",
+      "about": "inventory",
+      "value": {
+        "text": "Inv. 659"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Inv. 659 in Musée Bonnat-Helleu, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11825876 (Study of the Hanged Bernardo di Bandino Baroncelli), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11825876"
+        }
+      ]
+    },
+    {
+      "id": "api2094",
+      "about": "current_location",
+      "value": {
+        "text": "Musée Bonnat-Helleu"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Musée Bonnat-Helleu, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11825876 (Study of the Hanged Bernardo di Bandino Baroncelli), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11825876"
+        }
+      ]
+    },
+    {
+      "id": "api2095",
+      "about": "medium",
+      "value": {
+        "text": "ink; paper; quill"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: ink; paper; quill.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11825876 (Study of the Hanged Bernardo di Bandino Baroncelli), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11825876"
+        }
+      ]
+    },
+    {
+      "id": "api2096",
+      "about": "dimensions",
+      "value": {
+        "text": "19.2 cm x 7.3 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 19.2 cm, width 7.3 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11825876 (Study of the Hanged Bernardo di Bandino Baroncelli), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11825876"
+        }
+      ]
+    },
+    {
+      "id": "api2097",
+      "about": "depicts",
+      "value": {
+        "text": "Bernardo Bandini; hanging to death"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Bernardo Bandini; hanging to death. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11825876 (Study of the Hanged Bernardo di Bandino Baroncelli), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11825876"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-musee-bonnat-bayonne"
+    }
+  ],
+  "current_location": "geo-musee-bonnat-bayonne"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "ms-de-ludo-scachorum",
+  "type": "manuscript",
+  "label": "De ludo scachorum",
+  "subtype": "manuscript",
+  "classification": {
+    "ms_form": "notebook",
+    "basis": "Derived automatically from Wikidata Q3704129 on 2026-11-02; check."
+  },
+  "identifiers": {
+    "wikidata": "Q3704129"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Scacchi_pacioli.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Scacchi_pacioli.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2683",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3704129 (De ludo scachorum), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3704129"
+        }
+      ]
+    },
+    {
+      "id": "api2684",
+      "about": "date",
+      "value": {
+        "text": "c.1500",
+        "start": 1500
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1500.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3704129 (De ludo scachorum), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3704129"
+        }
+      ]
+    },
+    {
+      "id": "api2685",
+      "about": "current_location",
+      "value": {
+        "text": "State Archives of Gorizia"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by State Archives of Gorizia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3704129 (De ludo scachorum), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3704129"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/De_ludo_scachorum",
+      "text": "De ludo scachorum, also known as Schifanoia, is a Latin-language manuscript on the game of chess written around 1500 by Luca Pacioli, a leading mathematician of the Renaissance. Created in the times when rules of the game were evolving to the ones known today, the manuscript contains over a hundred chess problems, to be solved, depending on the problem, using either the old or the modern rules.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/De_ludo_scachorum",
+      "text": "De ludo scachorum è un manoscritto redatto in volgare attorno al 1500 dal matematico del Rinascimento Luca Pacioli. Il manoscritto, dedicato alla marchese di Mantova Isabella d'Este, riporta più di cento problemi di scacchi.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/De_ludo_scachorum",
+      "text": "De ludo scachorum est un traité en latin du religieux franciscain et mathématicien italien, Luca Pacioli (1447-1517), originaire de Sansepolcro. Ce traité, rédigé vers 1500, est également connu sous le nom de Chasser l'ennui.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

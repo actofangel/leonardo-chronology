@@ -1,0 +1,78 @@
+{
+  "id": "w-drapery-standing-figure",
+  "type": "work",
+  "label": "Drapery Study for a Standing Figure in Profile to the Right",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389611 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389611",
+    "inventory": "2020.255"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Verrocchio_-_Drapery_Study_of_a_Standing_Figure_Facing_Right%2C_in_Profile%2C_2020.255.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Verrocchio_-_Drapery_Study_of_a_Standing_Figure_Facing_Right%2C_in_Profile%2C_2020.255.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api709",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389611 (Drapery Study for a Standing Figure in Profile to the Right), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389611"
+        }
+      ]
+    },
+    {
+      "id": "api710",
+      "about": "inventory",
+      "value": {
+        "text": "2020.255"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 2020.255 in Art Institute of Chicago, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389611 (Drapery Study for a Standing Figure in Profile to the Right), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389611"
+        }
+      ]
+    },
+    {
+      "id": "api711",
+      "about": "current_location",
+      "value": {
+        "text": "Art Institute of Chicago"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Art Institute of Chicago, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389611 (Drapery Study for a Standing Figure in Profile to the Right), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389611"
+        }
+      ]
+    }
+  ]
+}

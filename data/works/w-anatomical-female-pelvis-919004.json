@@ -1,0 +1,148 @@
+{
+  "id": "w-anatomical-female-pelvis-919004",
+  "type": "work",
+  "label": "Anatomical Studies of the Female Pelvis, the Coccyx and the Lower Limbs and of the Rotation of the Arm (Pronation and Supination)",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "anatomy"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389723 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389723",
+      "Q136389721"
+    ],
+    "rcin": "919004",
+    "inventory": [
+      "RCIN 919004 recto",
+      "RCIN 919004 verso"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919004%2C_Recto_The_bones_of_the_arm_and_leg.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919004%2C_Recto_The_bones_of_the_arm_and_leg.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919004%2C_Verso_The_surface_anatomy_of_the_shoulder_c.1510-11.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919004%2C_Verso_The_surface_anatomy_of_the_shoulder_c.1510-11.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api982",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389723 (Anatomical Studies of the Female Pelvis, the Coccyx and the Lower Limbs and of the Rotation of the Arm (Pronation and Supination)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389723"
+        }
+      ]
+    },
+    {
+      "id": "api983",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919004 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919004 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389723 (Anatomical Studies of the Female Pelvis, the Coccyx and the Lower Limbs and of the Rotation of the Arm (Pronation and Supination)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389723"
+        }
+      ]
+    },
+    {
+      "id": "api984",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389723 (Anatomical Studies of the Female Pelvis, the Coccyx and the Lower Limbs and of the Rotation of the Arm (Pronation and Supination)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389723"
+        }
+      ]
+    },
+    {
+      "id": "api988",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389721 (Studies of the Superficial Anatomy of the Neck, Shoulders and Upper Arm), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389721"
+        }
+      ]
+    },
+    {
+      "id": "api989",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919004 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919004 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389721 (Studies of the Superficial Anatomy of the Neck, Shoulders and Upper Arm), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389721"
+        }
+      ]
+    },
+    {
+      "id": "api990",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389721 (Studies of the Superficial Anatomy of the Neck, Shoulders and Upper Arm), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389721"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

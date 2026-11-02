@@ -1,0 +1,85 @@
+{
+  "id": "w-figural-adoration",
+  "type": "work",
+  "label": "Figural Studies for the Adoration of the Magi",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389474 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389474",
+    "inventory": "423"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Etude_pour_une_Adoration_des_bergers%2C_EBA424recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Etude_pour_une_Adoration_des_bergers%2C_EBA424recto.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389474 (Figural Studies for the Adoration of the Magi), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389474"
+        }
+      ]
+    },
+    {
+      "id": "api2",
+      "about": "inventory",
+      "value": {
+        "text": "423"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 423 in Beaux-Arts de Paris, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389474 (Figural Studies for the Adoration of the Magi), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389474"
+        }
+      ]
+    },
+    {
+      "id": "api3",
+      "about": "current_location",
+      "value": {
+        "text": "Beaux-Arts de Paris"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Beaux-Arts de Paris, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389474 (Figural Studies for the Adoration of the Magi), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389474"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-beaux-arts-paris"
+    }
+  ],
+  "current_location": "geo-beaux-arts-paris"
+}

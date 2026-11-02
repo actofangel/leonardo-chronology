@@ -1,0 +1,85 @@
+{
+  "id": "w-mechanisms-back-forth-motion",
+  "type": "work",
+  "label": "Mechanisms for Back-and-Forth Motion",
+  "subtype": "technical_drawing",
+  "classification": {
+    "form": "technical_drawing",
+    "condition": "extant",
+    "subject": [
+      "mechanics"
+    ],
+    "basis": "Derived automatically from Wikidata Q139567140 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567140",
+    "inventory": "Codex Madrid I, MS 8937, fol. 29v"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Madrid_I%2C_folio_029_verso.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codex_Madrid_I%2C_folio_029_verso.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1874",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567140 (Mechanisms for Back-and-Forth Motion), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567140"
+        }
+      ]
+    },
+    {
+      "id": "api1875",
+      "about": "inventory",
+      "value": {
+        "text": "Codex Madrid I, MS 8937, fol. 29v"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Codex Madrid I, MS 8937, fol. 29v in Biblioteca Nacional de España, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567140 (Mechanisms for Back-and-Forth Motion), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567140"
+        }
+      ]
+    },
+    {
+      "id": "api1876",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Nacional de España"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Nacional de España, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567140 (Mechanisms for Back-and-Forth Motion), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567140"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-nacional-madrid"
+    }
+  ],
+  "current_location": "geo-biblioteca-nacional-madrid"
+}

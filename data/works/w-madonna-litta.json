@@ -1,0 +1,40 @@
+{
+  "id": "w-madonna-litta",
+  "type": "work",
+  "label": "studies for the Madonna Litta",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "lost",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q131588058 (instance of: drawing series; drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q131588058"
+  },
+  "variants": [
+    "Studi per la Madonna Litta",
+    "Studies for Madonna Litta"
+  ],
+  "claims": [
+    {
+      "id": "api2401",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131588058 (studies for the Madonna Litta), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131588058"
+        }
+      ]
+    }
+  ]
+}

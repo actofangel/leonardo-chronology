@@ -1,0 +1,86 @@
+{
+  "id": "w-military-architectural-2",
+  "type": "work",
+  "label": "Military and Architectural Studies and Sketch of a Church (Florence Cathedral?)",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "military",
+      "architecture"
+    ],
+    "basis": "Derived automatically from Wikidata Q139566951 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139566951",
+    "inventory": "Codex Atlanticus, fol. 69a-r/22r-a"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Atlanticus_-_000R-69a.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codex_Atlanticus_-_000R-69a.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1500",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139566951 (Military and Architectural Studies and Sketch of a Church (Florence Cathedral?)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139566951"
+        }
+      ]
+    },
+    {
+      "id": "api1501",
+      "about": "inventory",
+      "value": {
+        "text": "Codex Atlanticus, fol. 69a-r/22r-a"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Codex Atlanticus, fol. 69a-r/22r-a in Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139566951 (Military and Architectural Studies and Sketch of a Church (Florence Cathedral?)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139566951"
+        }
+      ]
+    },
+    {
+      "id": "api1502",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139566951 (Military and Architectural Studies and Sketch of a Church (Florence Cathedral?)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139566951"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "current_location": "geo-ambrosiana"
+}

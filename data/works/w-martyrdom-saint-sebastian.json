@@ -1,0 +1,128 @@
+{
+  "id": "w-martyrdom-saint-sebastian",
+  "type": "work",
+  "label": "The Martyrdom of Saint Sebastian",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q28497182 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q28497182"
+  },
+  "variants": [
+    "Martirio di san Sebastiano",
+    "Martyre de saint Sébastien",
+    "The Martyrdom of St. Sebastian",
+    "The Martyrdom of St Sebastian",
+    "Martyrdom of Saint Sebastian",
+    "Martyrdom of St. Sebastian",
+    "Martyrdom of St Sebastian"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Sebastian_-_Leonardo_da_Vinci.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Saint_Sebastian_-_Leonardo_da_Vinci.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2791",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q28497182 (The Martyrdom of Saint Sebastian), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q28497182"
+        }
+      ]
+    },
+    {
+      "id": "api2792",
+      "about": "date",
+      "value": {
+        "text": "1482 to 1485",
+        "start": 1482,
+        "end": 1485
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1482 to 1485.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q28497182 (The Martyrdom of Saint Sebastian), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q28497182"
+        }
+      ]
+    },
+    {
+      "id": "api2793",
+      "about": "dimensions",
+      "value": {
+        "text": "19.3 cm x 13 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 19.3 cm, width 13 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q28497182 (The Martyrdom of Saint Sebastian), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q28497182"
+        }
+      ]
+    },
+    {
+      "id": "api2794",
+      "about": "depicts",
+      "value": {
+        "text": "Saint Sebastian"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Saint Sebastian. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q28497182 (The Martyrdom of Saint Sebastian), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q28497182"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/The_Martyrdom_of_Saint_Sebastian_(Leonardo)",
+      "text": "The Martyrdom of Saint Sebastian is a drawing by Leonardo da Vinci showing the martyrdom of Saint Sebastian. It was rediscovered in Paris in March 2016, classed as a \"trésor national\" and presented to the press on 10 January 2017. Its auction estimate was 15,000,000 Euros, and it was placed under an export ban in June 2017, giving French museums 30 months to raise sufficient funds to buy it.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Martirio_di_san_Sebastiano_(Leonardo)",
+      "text": "Il Martirio di san Sebastiano è un disegno a penna e inchiostro su carta realizzato da Leonardo da Vinci presumibilmente tra il 1478 e il 1483.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Martyre_de_saint_S%C3%A9bastien_(L%C3%A9onard_de_Vinci)",
+      "text": "Le Martyre de saint Sébastien est un dessin du peintre florentin Léonard de Vinci découvert à Paris en mars 2016, classé « trésor national » et présenté à la presse le 10 janvier 2017.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

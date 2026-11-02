@@ -1,0 +1,86 @@
+{
+  "id": "w-cartographic-fortress-912686",
+  "type": "work",
+  "label": "Cartographic Studies of the Fortress and Fortifications of the Town of Imola",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "military"
+    ],
+    "basis": "Derived automatically from Wikidata Q139567092 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567092",
+    "rcin": "912686",
+    "inventory": "RCIN 912686 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912686%2C_Recto_Sketches_of_the_street_plan_of_Imola.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912686%2C_Recto_Sketches_of_the_street_plan_of_Imola.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1748",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567092 (Cartographic Studies of the Fortress and Fortifications of the Town of Imola), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567092"
+        }
+      ]
+    },
+    {
+      "id": "api1749",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912686 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912686 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567092 (Cartographic Studies of the Fortress and Fortifications of the Town of Imola), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567092"
+        }
+      ]
+    },
+    {
+      "id": "api1750",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567092 (Cartographic Studies of the Fortress and Fortifications of the Town of Imola), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567092"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

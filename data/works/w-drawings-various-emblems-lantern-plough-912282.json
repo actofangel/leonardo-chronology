@@ -1,0 +1,83 @@
+{
+  "id": "w-drawings-various-emblems-lantern-plough-912282",
+  "type": "work",
+  "label": "Drawings of Various Emblems (Lantern, Plough and Compass) and Profile Study of a Young Man",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136390008 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390008",
+    "rcin": "912282",
+    "inventory": "RCIN 912282 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912282%2C_Recto_Studies_of_emblems%2C_decorative_dress%2C_architecture%2C_and_a_profile.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912282%2C_Recto_Studies_of_emblems%2C_decorative_dress%2C_architecture%2C_and_a_profile.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api620",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390008 (Drawings of Various Emblems (Lantern, Plough and Compass) and Profile Study of a Young Man), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390008"
+        }
+      ]
+    },
+    {
+      "id": "api621",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912282 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912282 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390008 (Drawings of Various Emblems (Lantern, Plough and Compass) and Profile Study of a Young Man), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390008"
+        }
+      ]
+    },
+    {
+      "id": "api622",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390008 (Drawings of Various Emblems (Lantern, Plough and Compass) and Profile Study of a Young Man), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390008"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

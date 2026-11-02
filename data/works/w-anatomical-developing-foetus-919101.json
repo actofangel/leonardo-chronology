@@ -1,0 +1,183 @@
+{
+  "id": "w-anatomical-developing-foetus-919101",
+  "type": "work",
+  "label": "Anatomical Studies of the Developing Foetus",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "anatomy"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389972 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389972",
+      "Q105407701"
+    ],
+    "rcin": "919101",
+    "inventory": [
+      "RCIN 919101 verso",
+      "RCIN 919101"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919101%2C_Verso_Studies_of_the_fetus%2C_related_internal_organs%2C_and_the_arm_c.1511.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919101%2C_Verso_Studies_of_the_fetus%2C_related_internal_organs%2C_and_the_arm_c.1511.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919101%2C_Recto_The_fetus%2C_and_the_muscles_attached_to_the_pelvis.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919101%2C_Recto_The_fetus%2C_and_the_muscles_attached_to_the_pelvis.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api525",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389972 (Anatomical Studies of the Developing Foetus), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389972"
+        }
+      ]
+    },
+    {
+      "id": "api526",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919101 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919101 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389972 (Anatomical Studies of the Developing Foetus), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389972"
+        }
+      ]
+    },
+    {
+      "id": "api527",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389972 (Anatomical Studies of the Developing Foetus), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389972"
+        }
+      ]
+    },
+    {
+      "id": "api2149",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q105407701 (Studies of the Foetus in the Womb and of the Structure and Size of the Female Genitalia), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q105407701"
+        }
+      ]
+    },
+    {
+      "id": "api2150",
+      "about": "date",
+      "value": {
+        "text": "c.1511",
+        "start": 1511
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1511.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q105407701 (Studies of the Foetus in the Womb and of the Structure and Size of the Female Genitalia), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q105407701"
+        }
+      ]
+    },
+    {
+      "id": "api2151",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919101"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919101 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q105407701 (Studies of the Foetus in the Womb and of the Structure and Size of the Female Genitalia), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q105407701"
+        }
+      ]
+    },
+    {
+      "id": "api2152",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919101 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919101 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q105407701 (Studies of the Foetus in the Womb and of the Structure and Size of the Female Genitalia), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q105407701"
+        }
+      ]
+    },
+    {
+      "id": "api2153",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q105407701 (Studies of the Foetus in the Womb and of the Structure and Size of the Female Genitalia), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q105407701"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

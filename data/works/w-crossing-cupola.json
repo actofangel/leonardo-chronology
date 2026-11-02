@@ -1,0 +1,82 @@
+{
+  "id": "w-crossing-cupola",
+  "type": "work",
+  "label": "Studies for the Crossing Cupola of Milan Cathedral and for Scaffolding for the Vault",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q139567098 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567098",
+    "inventory": "Codex Atlanticus, fol. 719r/266r-a-b"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Atlanticus_-_000R-719.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codex_Atlanticus_-_000R-719.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1754",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567098 (Studies for the Crossing Cupola of Milan Cathedral and for Scaffolding for the Vault), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567098"
+        }
+      ]
+    },
+    {
+      "id": "api1755",
+      "about": "inventory",
+      "value": {
+        "text": "Codex Atlanticus, fol. 719r/266r-a-b"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Codex Atlanticus, fol. 719r/266r-a-b in Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567098 (Studies for the Crossing Cupola of Milan Cathedral and for Scaffolding for the Vault), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567098"
+        }
+      ]
+    },
+    {
+      "id": "api1756",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567098 (Studies for the Crossing Cupola of Milan Cathedral and for Scaffolding for the Vault), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567098"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "current_location": "geo-ambrosiana"
+}

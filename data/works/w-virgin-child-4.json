@@ -1,0 +1,124 @@
+{
+  "id": "w-virgin-child-4",
+  "type": "work",
+  "label": "The Virgin with the Child, with Cherries and a Cherry Tree in the Background",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "panel",
+    "condition": "extant",
+    "subject": [
+      "religious",
+      "botany"
+    ],
+    "basis": "Derived automatically from Wikidata Q119840740 (instance of: painting; material: oil paint; panel; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q119840740",
+    "inventory": "JBS 54"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_(1452-1519)_(school_of)_-_The_Virgin_with_the_Child%2C_with_Cherries_and_a_Cherry_Tree_in_the_Background_-_JBS_54_-_Christ_Church.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_(1452-1519)_(school_of)_-_The_Virgin_with_the_Child%2C_with_Cherries_and_a_Cherry_Tree_in_the_Background_-_JBS_54_-_Christ_Church.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2231",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119840740 (The Virgin with the Child, with Cherries and a Cherry Tree in the Background), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119840740"
+        }
+      ]
+    },
+    {
+      "id": "api2232",
+      "about": "inventory",
+      "value": {
+        "text": "JBS 54"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number JBS 54 in Christ Church, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119840740 (The Virgin with the Child, with Cherries and a Cherry Tree in the Background), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119840740"
+        }
+      ]
+    },
+    {
+      "id": "api2233",
+      "about": "current_location",
+      "value": {
+        "text": "Christ Church"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Christ Church, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119840740 (The Virgin with the Child, with Cherries and a Cherry Tree in the Background), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119840740"
+        }
+      ]
+    },
+    {
+      "id": "api2234",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119840740 (The Virgin with the Child, with Cherries and a Cherry Tree in the Background), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119840740"
+        }
+      ]
+    },
+    {
+      "id": "api2235",
+      "about": "dimensions",
+      "value": {
+        "text": "86 cm x 65.9 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 86 cm, width 65.9 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119840740 (The Virgin with the Child, with Cherries and a Cherry Tree in the Background), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119840740"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-christ-church-oxford"
+    }
+  ],
+  "current_location": "geo-christ-church-oxford"
+}

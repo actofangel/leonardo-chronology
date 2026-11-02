@@ -1,0 +1,105 @@
+{
+  "id": "w-codex-atlanticus-f0149",
+  "type": "work",
+  "label": "Codex Atlanticus, f. 149",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q131604550 (instance of: folio; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "manuscript": "w-atlanticus",
+  "folio": "f. 149",
+  "relations": [
+    {
+      "rel": "drawn_on",
+      "target": "w-atlanticus"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "identifiers": {
+    "wikidata": "Q131604550",
+    "inventory": "F0149"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Ambrosiana-Codice-Atlantico-Codex-Atlanticus-f-149-recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Ambrosiana-Codice-Atlantico-Codex-Atlanticus-f-149-recto.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2408",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604550 (Codex Atlanticus (F0149)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604550"
+        }
+      ]
+    },
+    {
+      "id": "api2409",
+      "about": "inventory",
+      "value": {
+        "text": "F0149"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number F0149 in Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604550 (Codex Atlanticus (F0149)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604550"
+        }
+      ]
+    },
+    {
+      "id": "api2410",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604550 (Codex Atlanticus (F0149)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604550"
+        }
+      ]
+    },
+    {
+      "id": "api2411",
+      "about": "depicts",
+      "value": {
+        "text": "Leonardo's crossbow"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Leonardo's crossbow. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604550 (Codex Atlanticus (F0149)), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604550"
+        }
+      ]
+    }
+  ],
+  "current_location": "geo-ambrosiana"
+}

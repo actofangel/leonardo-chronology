@@ -1,0 +1,175 @@
+{
+  "id": "w-saint-john-baptist",
+  "type": "work",
+  "label": "Saint John the Baptist",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "canvas",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q27697259 (instance of: painting; material: oil paint; canvas; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q27697259",
+    "inventory": "P000520"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/San_Juan_Bautista._Obra_an%C3%B3nima_del_siglo_XVI_(Museo_del_Prado).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:San_Juan_Bautista._Obra_an%C3%B3nima_del_siglo_XVI_(Museo_del_Prado).jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1659",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci (former attribution)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator with the qualification: former attribution. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27697259 (Saint John the Baptist), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27697259"
+        }
+      ]
+    },
+    {
+      "id": "api1660",
+      "about": "date",
+      "value": {
+        "text": "16th century",
+        "start": 1501
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 16th century.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27697259 (Saint John the Baptist), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27697259"
+        }
+      ]
+    },
+    {
+      "id": "api1661",
+      "about": "inventory",
+      "value": {
+        "text": "P000520"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number P000520 in Museo del Prado, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27697259 (Saint John the Baptist), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27697259"
+        }
+      ]
+    },
+    {
+      "id": "api1662",
+      "about": "current_location",
+      "value": {
+        "text": "Museo del Prado"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Museo del Prado, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27697259 (Saint John the Baptist), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27697259"
+        }
+      ]
+    },
+    {
+      "id": "api1663",
+      "about": "current_location",
+      "value": {
+        "text": "Museo Provincial de Lugo"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Museo Provincial de Lugo, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27697259 (Saint John the Baptist), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27697259"
+        }
+      ]
+    },
+    {
+      "id": "api1664",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; canvas"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; canvas.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27697259 (Saint John the Baptist), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27697259"
+        }
+      ]
+    },
+    {
+      "id": "api1665",
+      "about": "dimensions",
+      "value": {
+        "text": "50 cm x 36 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 50 cm, width 36 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27697259 (Saint John the Baptist), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27697259"
+        }
+      ]
+    },
+    {
+      "id": "api1666",
+      "about": "depicts",
+      "value": {
+        "text": "John the Baptist"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: John the Baptist. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27697259 (Saint John the Baptist), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27697259"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-prado"
+    }
+  ],
+  "current_location": "geo-prado"
+}

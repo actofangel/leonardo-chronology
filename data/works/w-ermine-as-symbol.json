@@ -1,0 +1,122 @@
+{
+  "id": "w-ermine-as-symbol",
+  "type": "work",
+  "label": "The Ermine as a Symbol of Purity",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "technique": [
+      "black_chalk",
+      "pen_and_ink"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q116763463 (instance of: drawing; material: ink; paper; black chalk; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q116763463",
+    "inventory": "PD.120-1961"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Ermine_Hunt.png?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Ermine_Hunt.png"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2197",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763463 (The Ermine as a Symbol of Purity), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763463"
+        }
+      ]
+    },
+    {
+      "id": "api2198",
+      "about": "date",
+      "value": {
+        "text": "c.1494",
+        "start": 1494
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1494.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763463 (The Ermine as a Symbol of Purity), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763463"
+        }
+      ]
+    },
+    {
+      "id": "api2199",
+      "about": "inventory",
+      "value": {
+        "text": "PD.120-1961"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number PD.120-1961 in Fitzwilliam Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763463 (The Ermine as a Symbol of Purity), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763463"
+        }
+      ]
+    },
+    {
+      "id": "api2200",
+      "about": "current_location",
+      "value": {
+        "text": "Fitzwilliam Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Fitzwilliam Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763463 (The Ermine as a Symbol of Purity), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763463"
+        }
+      ]
+    },
+    {
+      "id": "api2201",
+      "about": "medium",
+      "value": {
+        "text": "ink; paper; black chalk"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: ink; paper; black chalk.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763463 (The Ermine as a Symbol of Purity), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763463"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-fitzwilliam"
+    }
+  ],
+  "current_location": "geo-fitzwilliam"
+}

@@ -1,0 +1,286 @@
+{
+  "id": "w-drapery-seated-figure",
+  "type": "work",
+  "label": "Drapery Study for a Seated Figure Seen in Three-quarter Profile to the Left",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389604 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389604",
+    "louvre_ark": "cl020231762",
+    "inventory": "RF 41905, Recto"
+  },
+  "variants": [
+    "studio di pannegio",
+    "Draperie pour une figure assise"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Draperie_pour_une_figure_assise%2C_RF_41905%2C_Recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Draperie_pour_une_figure_assise%2C_RF_41905%2C_Recto.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/23/17/62/00/AGO231762-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020231762"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api677",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389604 (Drapery Study for a Seated Figure Seen in Three-quarter Profile to the Left), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389604"
+        }
+      ]
+    },
+    {
+      "id": "api678",
+      "about": "date",
+      "value": {
+        "text": "1475 to 1482",
+        "start": 1475,
+        "end": 1482
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1475 to 1482.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389604 (Drapery Study for a Seated Figure Seen in Three-quarter Profile to the Left), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389604"
+        }
+      ]
+    },
+    {
+      "id": "api679",
+      "about": "inventory",
+      "value": {
+        "text": "RF 41905, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RF 41905, Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389604 (Drapery Study for a Seated Figure Seen in Three-quarter Profile to the Left), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389604"
+        }
+      ]
+    },
+    {
+      "id": "api680",
+      "about": "current_location",
+      "value": {
+        "text": "Cabinet des dessins"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389604 (Drapery Study for a Seated Figure Seen in Three-quarter Profile to the Left), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389604"
+        }
+      ]
+    },
+    {
+      "id": "api681",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389604 (Drapery Study for a Seated Figure Seen in Three-quarter Profile to the Left), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389604"
+        }
+      ]
+    },
+    {
+      "id": "api682",
+      "about": "dimensions",
+      "value": {
+        "text": "0.319 metre x 0.218 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.319 metre, width 0.218 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389604 (Drapery Study for a Seated Figure Seen in Three-quarter Profile to the Left), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389604"
+        }
+      ]
+    },
+    {
+      "id": "api683",
+      "about": "inventory",
+      "value": {
+        "text": "RF 41905, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number RF 41905, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231762 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231762"
+        }
+      ]
+    },
+    {
+      "id": "api684",
+      "about": "inventory_history",
+      "value": {
+        "text": "Référence de l'inventaire manuscrit: vol.31, p.134"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Référence de l'inventaire manuscrit: vol.31, p.134.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231762 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231762"
+        }
+      ]
+    },
+    {
+      "id": "api685",
+      "about": "date",
+      "value": {
+        "text": "Vers 1475/1482",
+        "start": 1475,
+        "end": 1482
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: Vers 1475/1482.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231762 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231762"
+        }
+      ]
+    },
+    {
+      "id": "api686",
+      "about": "medium",
+      "value": {
+        "text": "Pinceau et tempera gris-brun, rehauts de tempera blanche, sur toile de lin préparée grise. Toile décatie puis couverte d'une fine couche de préparation à base de blanc de plomb mélangé à une petite quantité de pigments bruns et noirs pour une préparation grise. Ce ton gris clair a légèrement ouvert les possibilités de gradation des blancs et des gris. La draperie est esquissée à la brosse plate chargée de deux bruns différents. Perforation dans l'angle supérieur droit. Usures de la préparation sur l'ensemble de la surface. Une mauvaise mise en tension a provoqué une déformation du support en losange ce qui a incité un de ses possesseurs à le découper pour le remettre au rectangle, en supprimant une petite partie de la composition. Manques sur les bords latéral gauche et supérieur droit. Dans l'angle supérieur droit, à l'encre brune, le chiffre : 'XIII'. Feuille non doublée."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Pinceau et tempera gris-brun, rehauts de tempera blanche, sur toile de lin préparée grise. Toile décatie puis couverte d'une fine couche de préparation à base de blanc de plomb mélangé à une petite quantité de pigments bruns et noirs pour une préparation grise. Ce ton gris clair a légèrement ouvert les possibilités de gradation des blancs et des gris. La draperie est esquissée à la brosse plate chargée de deux bruns différents. Perforation dans l'angle supérieur droit. Usures de la préparation sur l'ensemble de la surface. Une mauvaise mise en tension a provoqué une déformation du support en losange ce qui a incité un de ses possesseurs à le découper pour le remettre au rectangle, en supprimant une petite partie de la composition. Manques sur les bords latéral gauche et supérieur droit. Dans l'angle supérieur droit, à l'encre brune, le chiffre : 'XIII'. Feuille non doublée.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231762 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231762"
+        }
+      ]
+    },
+    {
+      "id": "api687",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.319 m (à la feuille); Largeur 0.218 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.319 m (à la feuille); Largeur 0.218 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231762 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231762"
+        }
+      ]
+    },
+    {
+      "id": "api688",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; Dürer, Albrecht [ancienne attribution]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; Dürer, Albrecht [ancienne attribution].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231762 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231762"
+        }
+      ]
+    },
+    {
+      "id": "api689",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231762 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231762"
+        }
+      ]
+    },
+    {
+      "id": "api690",
+      "about": "provenance",
+      "value": {
+        "text": "E. Jabach ; Inventaire après décès 1695-1696, portefeuille E : '14. Estudes de draperie dalberdur sur toille collee sur papier et rehaussé de blanc en detrempe' - P. Crozat, vente, Paris 1741, sous le n° 5 (Léonard de Vinci) - Nourri, vente, Paris, 1785, n° 736 (Dürer) - P. Defer - H. Dumesnil (L. 739) ; vente, Paris 1900, n° 252 - Comtesse M. M.-P. de Béhague - Marquis H. de Ganay ; don au Louvre en 1989 par le Marquis J.-L. de Ganay et ses frères ; marque du Louvre (L. 1886a)."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: E. Jabach ; Inventaire après décès 1695-1696, portefeuille E : '14. Estudes de draperie dalberdur sur toille collee sur papier et rehaussé de blanc en detrempe' - P. Crozat, vente, Paris 1741, sous le n° 5 (Léonard de Vinci) - Nourri, vente, Paris, 1785, n° 736 (Dürer) - P. Defer - H. Dumesnil (L. 739) ; vente, Paris 1900, n° 252 - Comtesse M. M.-P. de Béhague - Marquis H. de Ganay ; don au Louvre en 1989 par le Marquis J.-L. de Ganay et ses frères ; marque du Louvre (L. 1886a).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020231762 (Draperie pour une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020231762"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

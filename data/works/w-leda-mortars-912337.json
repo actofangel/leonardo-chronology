@@ -48,9 +48,75 @@
       "check_in": [
         "Clark and Pedretti 1968"
       ]
+    },
+    {
+      "id": "api95",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389507 (Sketch for a Leda and the Swan and Study of a Horse), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389507"
+        }
+      ]
+    },
+    {
+      "id": "api96",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912337 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912337 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389507 (Sketch for a Leda and the Swan and Study of a Horse), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389507"
+        }
+      ]
+    },
+    {
+      "id": "api97",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389507 (Sketch for a Leda and the Swan and Study of a Horse), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389507"
+        }
+      ]
     }
   ],
   "open_questions": [
     "Date, medium and size to locate; only the RCT title was seen."
+  ],
+  "identifiers": {
+    "wikidata": "Q136389507",
+    "rcin": "912337",
+    "inventory": "RCIN 912337 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912337%2C_Recto_A_horse_and_rider%2C_and_studies_for_Leda.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912337%2C_Recto_A_horse_and_rider%2C_and_studies_for_Leda.jpg"
+    }
+  ],
+  "variants": [
+    "Sketch for a Leda and the Swan and Study of a Horse"
   ]
 }

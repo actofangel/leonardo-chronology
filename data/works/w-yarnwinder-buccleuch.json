@@ -18,6 +18,10 @@
       "rel": "version_of",
       "target": "w-yarnwinder",
       "claim": "c2"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-national-gallery-london"
     }
   ],
   "claims": [
@@ -92,9 +96,164 @@
       "check_in": [
         "press archive 2003 and 2007"
       ]
+    },
+    {
+      "id": "api2776",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27970282 (Madonna of the Yarnwinder), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27970282"
+        }
+      ]
+    },
+    {
+      "id": "api2777",
+      "about": "date",
+      "value": {
+        "text": "c.1501",
+        "start": 1501
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1501.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27970282 (Madonna of the Yarnwinder), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27970282"
+        }
+      ]
+    },
+    {
+      "id": "api2778",
+      "about": "inventory",
+      "value": {
+        "text": "NGL 002.08"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number NGL 002.08 in National Galleries Scotland, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27970282 (Madonna of the Yarnwinder), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27970282"
+        }
+      ]
+    },
+    {
+      "id": "api2779",
+      "about": "current_location",
+      "value": {
+        "text": "National Galleries Scotland"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by National Galleries Scotland, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27970282 (Madonna of the Yarnwinder), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27970282"
+        }
+      ]
+    },
+    {
+      "id": "api2780",
+      "about": "current_location",
+      "value": {
+        "text": "Duke of Buccleuch collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Duke of Buccleuch collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27970282 (Madonna of the Yarnwinder), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27970282"
+        }
+      ]
+    },
+    {
+      "id": "api2781",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27970282 (Madonna of the Yarnwinder), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27970282"
+        }
+      ]
+    },
+    {
+      "id": "api2782",
+      "about": "dimensions",
+      "value": {
+        "text": "48.3 cm x 36.9 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 48.3 cm, width 36.9 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27970282 (Madonna of the Yarnwinder), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27970282"
+        }
+      ]
+    },
+    {
+      "id": "api2783",
+      "about": "depicts",
+      "value": {
+        "text": "Mary; Christ Child"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Mary; Christ Child. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27970282 (Madonna of the Yarnwinder), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27970282"
+        }
+      ]
     }
   ],
   "open_questions": [
     "Date of the Buccleuch version (c.1501 to 1507 in the literature): who holds which range?"
+  ],
+  "identifiers": {
+    "wikidata": "Q27970282",
+    "inventory": "NGL 002.08"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci%2C_Madonna_of_the_Yarnwinder%2C_Buccleuch_version.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci%2C_Madonna_of_the_Yarnwinder%2C_Buccleuch_version.jpg"
+    }
+  ],
+  "variants": [
+    "Madonna of the Yarnwinder",
+    "Madonna dei Fusi",
+    "The Madonna of the Yarnwinder",
+    "Buccleuch Madonna",
+    "Madonna with the Yarnwinder"
   ]
 }

@@ -1,0 +1,63 @@
+{
+  "id": "w-viola-organista",
+  "type": "work",
+  "label": "viola organista",
+  "subtype": "work",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q2195783 (instance of: type of musical instrument; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q2195783"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Ms._H_45v_-_Viola_organista.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Ms._H_45v_-_Viola_organista.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2620",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2195783 (viola organista), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2195783"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Viola_organista",
+      "text": "The viola organista is a musical instrument designed by Leonardo da Vinci. It uses a friction belt to vibrate individual strings, with the strings selected by pressing keys on a keyboard. Leonardo's design has intrigued instrument makers for more than 400 years, but though similar instruments have been built, no extant instrument constructed directly from Leonardo's incomplete designs is known. Sometimes it is mistakenly referred to as the harpsichord viola, which is a different instrument.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Viola_organista",
+      "text": "La viola organista è uno strumento musicale inventato da Leonardo da Vinci, precursore dello strumento tardo-rinascimentale detto Geigenwerk e di vari strumenti dei secoli successivi, detti Bogenklavier, Gambenklavier o più genericamente Streichklavier.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Viola_organista",
+      "text": "La viola organista est un instrument de musique expérimental inventé par Léonard de Vinci. C'est le premier instrument à cordes frottées et à clavier ; le seul exemplaire restant est celui du religieux espagnol Fray Raymundo Truchado (1625), conservé au Musée des Instruments de musique de Bruxelles.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

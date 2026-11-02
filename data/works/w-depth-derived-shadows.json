@@ -1,0 +1,82 @@
+{
+  "id": "w-depth-derived-shadows",
+  "type": "work",
+  "label": "On the Depth of Derived Shadows (above) and the Darkened Rays Issued by Primitive Shadow",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136390241 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136390241",
+    "inventory": "MS C, fol. 21r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_19-547131.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_19-547131.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1422",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390241 (On the Depth of Derived Shadows (above) and the Darkened Rays Issued by Primitive Shadow), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390241"
+        }
+      ]
+    },
+    {
+      "id": "api1423",
+      "about": "inventory",
+      "value": {
+        "text": "MS C, fol. 21r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number MS C, fol. 21r in Bibliothèque de l'Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390241 (On the Depth of Derived Shadows (above) and the Darkened Rays Issued by Primitive Shadow), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390241"
+        }
+      ]
+    },
+    {
+      "id": "api1424",
+      "about": "current_location",
+      "value": {
+        "text": "Bibliothèque de l'Institut de France"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Bibliothèque de l'Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390241 (On the Depth of Derived Shadows (above) and the Darkened Rays Issued by Primitive Shadow), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390241"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-institut-de-france"
+    }
+  ],
+  "current_location": "geo-institut-de-france"
+}

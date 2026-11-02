@@ -1,0 +1,88 @@
+{
+  "id": "w-virgin-child",
+  "type": "work",
+  "label": "Study for the Virgin and Child with Saint Anne",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389486 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389486",
+    "inventory": "230"
+  },
+  "variants": [
+    "Study for the Virgin and Child with St Anne"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_vinci%2C_Study_of_St_Anne%2C_Mary%2C_the_Christ_Child_and_the_lamb.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci%2C_Study_of_St_Anne%2C_Mary%2C_the_Christ_Child_and_the_lamb.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api36",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389486 (Study for the Virgin and Child with Saint Anne), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389486"
+        }
+      ]
+    },
+    {
+      "id": "api37",
+      "about": "inventory",
+      "value": {
+        "text": "230"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 230 in Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389486 (Study for the Virgin and Child with Saint Anne), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389486"
+        }
+      ]
+    },
+    {
+      "id": "api38",
+      "about": "current_location",
+      "value": {
+        "text": "Gallerie dell'Accademia"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389486 (Study for the Virgin and Child with Saint Anne), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389486"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-gallerie-accademia-venice"
+    }
+  ],
+  "current_location": "geo-gallerie-accademia-venice"
+}

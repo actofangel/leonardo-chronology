@@ -1,0 +1,122 @@
+{
+  "id": "w-isleworth-mona-lisa",
+  "type": "work",
+  "label": "Isleworth Mona Lisa",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "condition": "lost",
+    "subject": [
+      "portrait"
+    ],
+    "basis": "Derived automatically from Wikidata Q4390923 (instance of: painting; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q4390923"
+  },
+  "variants": [
+    "Monna Lisa di Isleworth",
+    "Mona Lisa d'Isleworth"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Isleworth_Mona_Lisa.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Isleworth_Mona_Lisa.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api3014",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci (attribution)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator with the qualification: attribution. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q4390923 (Isleworth Mona Lisa), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q4390923"
+        }
+      ]
+    },
+    {
+      "id": "api3015",
+      "about": "date",
+      "value": {
+        "text": "1500s",
+        "start": 1502
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1500s.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q4390923 (Isleworth Mona Lisa), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q4390923"
+        }
+      ]
+    },
+    {
+      "id": "api3016",
+      "about": "dimensions",
+      "value": {
+        "text": "86 cm x ?"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 86 cm, width not given.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q4390923 (Isleworth Mona Lisa), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q4390923"
+        }
+      ]
+    },
+    {
+      "id": "api3017",
+      "about": "depicts",
+      "value": {
+        "text": "woman; sky; mountain"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: woman; sky; mountain. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q4390923 (Isleworth Mona Lisa), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q4390923"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Isleworth_Mona_Lisa",
+      "text": "The Isleworth Mona Lisa is an early 16th-century oil on canvas painting depicting the same subject as Leonardo da Vinci's Mona Lisa, though with the subject depicted as being a younger age. The painting is thought to have been brought from Italy to England in the 1780s, and came into public view in 1913 when the English connoisseur Hugh Blaker acquired it shortly after it had been sold from Montacute House, where it was thought to have been hanging for over a century. The painting would eventually adopt its unofficial name of Isleworth Mona Lisa from Blaker's studio being in Isleworth, West London. Since the 1910s, experts in various fields, as well as the collectors who have acquired ownership of the painting, have asserted that the major elements of the painting are the work of Leonardo himself, as an earlier version of the Mona Lisa.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Monna_Lisa_di_Isleworth",
+      "text": "La Monna Lisa di Isleworth, o come è chiamata nei paesi anglofoni Earlier Mona Lisa, è un dipinto attribuito a Leonardo da Vinci, che rappresenta una variante della più nota Gioconda del Louvre. Di dimensioni leggermente superiori e dipinta su tela anziché su tavola, è stata oggetto di un vivace dibattito sull'attribuzione al maestro e si trova in una collezione privata svizzera. Secondo alcuni studi accademici, questo dipinto potrebbe essere un’opera realizzata da Leonardo una decina di anni prima del dipinto del Louvre.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Mona_Lisa_d'Isleworth",
+      "text": "La Mona Lisa d’Isleworth est un tableau réalisé au XVIe siècle, dont le motif et le sujet sont similaires à La Joconde exposée au musée du Louvre à Paris. Ce tableau est revendiqué par les propriétaires successifs de la toile et quelques critiques d'art et journalistes, comme ayant été peint par Léonard de Vinci à une date antérieure au tableau du Louvre, tandis que des historiens d'art spécialistes du maitre florentin contestent cette attribution, notamment à cause de la toile utilisée comme support, alors que Vinci peignait sur bois, et l'absence de sfumato caractéristique de sa technique et observable dans l'original du Louvre. Ils considèrent la toile d’Isleworth comme une copie contemporaine de l'œuvre originale se trouvant au Louvre. Depuis 2008, le tableau appartient à un consortium basé en Suisse, dont les membres sont anonymes, qui met en place une fondation Mona Lisa chargée de défendre l'authenticité du portrait.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

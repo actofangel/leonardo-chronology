@@ -1,0 +1,13 @@
+{
+  "id": "geo-ashmolean",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Ashmolean Museum, Oxford",
+  "identifiers": {
+    "wikidata": "Q636400"
+  },
+  "claims": [],
+  "open_questions": [
+    "Stub created on 2026-11-02 for works imported from Wikidata held here. Needs coordinates and sources."
+  ]
+}

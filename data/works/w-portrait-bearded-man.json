@@ -1,0 +1,85 @@
+{
+  "id": "w-portrait-bearded-man",
+  "type": "work",
+  "label": "Portrait Drawing of a Bearded Man (Cesare Borgia)",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "portrait"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389642 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389642",
+    "inventory": "15573"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Cesare-Borgia-sketches-by-Leonardo-da-Vinci.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Cesare-Borgia-sketches-by-Leonardo-da-Vinci.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api780",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389642 (Portrait Drawing of a Bearded Man (Cesare Borgia)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389642"
+        }
+      ]
+    },
+    {
+      "id": "api781",
+      "about": "inventory",
+      "value": {
+        "text": "15573"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 15573 in Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389642 (Portrait Drawing of a Bearded Man (Cesare Borgia)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389642"
+        }
+      ]
+    },
+    {
+      "id": "api782",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Library of Turin"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Library of Turin, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389642 (Portrait Drawing of a Bearded Man (Cesare Borgia)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389642"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-reale-turin"
+    }
+  ],
+  "current_location": "geo-biblioteca-reale-turin"
+}

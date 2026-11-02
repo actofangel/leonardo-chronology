@@ -1,0 +1,75 @@
+{
+  "id": "w-illumination",
+  "type": "work",
+  "label": "Studies of the Illumination of the Moon",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q139567197 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567197",
+    "inventory": "fol. 1A (1r)"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_de_leicester.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codex_de_leicester.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2035",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567197 (Studies of the Illumination of the Moon), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567197"
+        }
+      ]
+    },
+    {
+      "id": "api2036",
+      "about": "inventory",
+      "value": {
+        "text": "fol. 1A (1r)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number fol. 1A (1r) in Collection of Melinda and William H. Gates, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567197 (Studies of the Illumination of the Moon), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567197"
+        }
+      ]
+    },
+    {
+      "id": "api2037",
+      "about": "current_location",
+      "value": {
+        "text": "Collection of Melinda and William H. Gates"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Collection of Melinda and William H. Gates, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567197 (Studies of the Illumination of the Moon), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567197"
+        }
+      ]
+    }
+  ]
+}

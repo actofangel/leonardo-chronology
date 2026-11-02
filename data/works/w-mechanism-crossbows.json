@@ -1,0 +1,203 @@
+{
+  "id": "w-mechanism-crossbows",
+  "type": "work",
+  "label": "Mechanism for Drawing Crossbows",
+  "subtype": "technical_drawing",
+  "classification": {
+    "form": "technical_drawing",
+    "condition": "extant",
+    "subject": [
+      "mechanics"
+    ],
+    "basis": "Derived automatically from Wikidata Q136390147 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136390147",
+      "Q131561186"
+    ],
+    "inventory": [
+      "Inv. 446 Ev",
+      "446 E"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_inv_446_E_v.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_inv_446_E_v.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Profili_affrontati_di_un_giovane_e_di_un_vecchio_e_scritte%2C_in_alto_ed_in_basso%2C_di_mano_di_Leonardo.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Profili_affrontati_di_un_giovane_e_di_un_vecchio_e_scritte%2C_in_alto_ed_in_basso%2C_di_mano_di_Leonardo.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1201",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390147 (Mechanism for Drawing Crossbows), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390147"
+        }
+      ]
+    },
+    {
+      "id": "api1202",
+      "about": "inventory",
+      "value": {
+        "text": "Inv. 446 Ev"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Inv. 446 Ev in Gabinetto dei disegni e delle stampe, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390147 (Mechanism for Drawing Crossbows), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390147"
+        }
+      ]
+    },
+    {
+      "id": "api1203",
+      "about": "current_location",
+      "value": {
+        "text": "Gabinetto dei disegni e delle stampe"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Gabinetto dei disegni e delle stampe, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390147 (Mechanism for Drawing Crossbows), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390147"
+        }
+      ]
+    },
+    {
+      "id": "api2371",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561186 (Drawing of Two Heads in Profile and Studies of Machines), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561186"
+        }
+      ]
+    },
+    {
+      "id": "api2372",
+      "about": "date",
+      "value": {
+        "text": "1478-12",
+        "start": 1478
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1478-12.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561186 (Drawing of Two Heads in Profile and Studies of Machines), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561186"
+        }
+      ]
+    },
+    {
+      "id": "api2373",
+      "about": "inventory",
+      "value": {
+        "text": "446 E"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 446 E in Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561186 (Drawing of Two Heads in Profile and Studies of Machines), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561186"
+        }
+      ]
+    },
+    {
+      "id": "api2374",
+      "about": "inventory",
+      "value": {
+        "text": "446 Ev"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 446 Ev in Gabinetto dei disegni e delle stampe, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561186 (Drawing of Two Heads in Profile and Studies of Machines), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561186"
+        }
+      ]
+    },
+    {
+      "id": "api2375",
+      "about": "current_location",
+      "value": {
+        "text": "Uffizi Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561186 (Drawing of Two Heads in Profile and Studies of Machines), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561186"
+        }
+      ]
+    },
+    {
+      "id": "api2376",
+      "about": "current_location",
+      "value": {
+        "text": "Gabinetto dei disegni e delle stampe"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Gabinetto dei disegni e delle stampe, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561186 (Drawing of Two Heads in Profile and Studies of Machines), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561186"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    "Disegno di Leonardo da Vinci (Uffizi, 446 E)",
+    "Drawing by Leonardo da Vinci (Uffizi, 446 E)"
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-uffizi"
+    }
+  ],
+  "current_location": "geo-uffizi"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "w-porto-di-lecco",
+  "type": "work",
+  "label": "Porto di Lecco",
+  "subtype": "work",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "subject": [
+      "military"
+    ],
+    "basis": "Derived automatically from Wikidata Q134721423 (instance of: harbor; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q134721423"
+  },
+  "claims": [
+    {
+      "id": "api2959",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q134721423 (Porto di Lecco), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q134721423"
+        }
+      ]
+    },
+    {
+      "id": "api2960",
+      "about": "date",
+      "value": {
+        "text": "1466",
+        "start": 1466
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1466.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q134721423 (Porto di Lecco), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q134721423"
+        }
+      ]
+    },
+    {
+      "id": "api2961",
+      "about": "date",
+      "value": {
+        "text": "1336",
+        "start": 1336
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1336.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q134721423 (Porto di Lecco), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q134721423"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "w-mary-magdalene",
+  "type": "work",
+  "label": "Study of a Mary Magdalene",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136389568 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389568",
+    "inventory": "D.1978.PG.80"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Studies_for_Saint_Mary_Magdalene%2C_Circa_1480-82%2C_D.1978.PG.80.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Studies_for_Saint_Mary_Magdalene%2C_Circa_1480-82%2C_D.1978.PG.80.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api258",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389568 (Study of a Mary Magdalene), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389568"
+        }
+      ]
+    },
+    {
+      "id": "api259",
+      "about": "inventory",
+      "value": {
+        "text": "D.1978.PG.80"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number D.1978.PG.80 in Courtauld Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389568 (Study of a Mary Magdalene), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389568"
+        }
+      ]
+    },
+    {
+      "id": "api260",
+      "about": "current_location",
+      "value": {
+        "text": "Courtauld Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Courtauld Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389568 (Study of a Mary Magdalene), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389568"
+        }
+      ]
+    }
+  ]
+}

@@ -123,6 +123,127 @@
         "Zöllner 2003, catalogue entry",
         "Uffizi, Gabinetto Disegni e Stampe, the 1478 inscription, number to locate"
       ]
+    },
+    {
+      "id": "api2063",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1142058 (Benois Madonna), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1142058"
+        }
+      ]
+    },
+    {
+      "id": "api2064",
+      "about": "date",
+      "value": {
+        "text": "1478 to 1482",
+        "start": 1478,
+        "end": 1482
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1478 to 1482.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1142058 (Benois Madonna), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1142058"
+        }
+      ]
+    },
+    {
+      "id": "api2065",
+      "about": "inventory",
+      "value": {
+        "text": "ГЭ-2773"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number ГЭ-2773 in Hermitage Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1142058 (Benois Madonna), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1142058"
+        }
+      ]
+    },
+    {
+      "id": "api2066",
+      "about": "current_location",
+      "value": {
+        "text": "Hermitage Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Hermitage Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1142058 (Benois Madonna), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1142058"
+        }
+      ]
+    },
+    {
+      "id": "api2067",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel; transferred on canvas"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel; transferred on canvas.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1142058 (Benois Madonna), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1142058"
+        }
+      ]
+    },
+    {
+      "id": "api2068",
+      "about": "dimensions",
+      "value": {
+        "text": "49.5 cm x 33 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 49.5 cm, width 33 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1142058 (Benois Madonna), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1142058"
+        }
+      ]
+    },
+    {
+      "id": "api2069",
+      "about": "depicts",
+      "value": {
+        "text": "woman; Christ Child; boy; Mary; dress; nudity; sitting; aureola; navel; window; mother"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: woman; Christ Child; boy; Mary; dress; nudity; sitting; aureola; navel; window; mother. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1142058 (Benois Madonna), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1142058"
+        }
+      ]
     }
   ],
   "current_location": "geo-hermitage",
@@ -139,6 +260,44 @@
   ],
   "open_questions": [
     "When and by whom was the panel transferred to canvas?"
+  ],
+  "identifiers": {
+    "wikidata": "Q1142058",
+    "inventory": "ГЭ-2773"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo%2C_Madonna_Benois.JPG?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo%2C_Madonna_Benois.JPG"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Benois_Madonna",
+      "text": "The Benois Madonna, otherwise known as the Madonna and Child with Flowers, is a painting by the Italian Renaissance master Leonardo da Vinci in the Hermitage Museum, Saint Petersburg. One of two Madonnas begun by Leonardo in October 1478, it was completed c. 1478, 1480; the other was the Madonna of the Carnation, now in the Alte Pinakothek, Munich.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Madonna_Benois",
+      "text": "La Madonna Benois è un dipinto a olio su tavola trasportato su tela di Leonardo da Vinci, databile al 1478-1482 circa e conservato nel Museo dell'Ermitage di San Pietroburgo.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Madonna_Benois",
+      "text": "La Madonna Benois pourrait être l’une des deux Madones commencées par Léonard de Vinci, comme il le dit lui-même, en octobre 1478. L’autre pourrait être La Madone à l'œillet, conservée à l’Alte Pinakothek de Munich. De 1507 à 1513 se déroule ce qu’il convient de nommer la « période milanaise « , deuxième séjour de Léonard de Vinci dans la cité italienne. Il est alors au service des Français, notamment de Charles II d'Amboise, nommé gouverneur de Milan par Louis XII. C’est lui qui a fait revenir Léonard de Vinci à Milan en 1507, car il l’a en grande estime. Le premier tableau exécuté par Léonard de Vinci, La Madone Benois,, a appartenu à Charles II d’Amboise. Ce tableau découvert récemment porte encore, de nos jours, les armoiries de Charles d’Amboise sur son cadre d’origine.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Madonna Benois",
+    "Madonna and Child with Flowers"
   ],
   "timeline": {
     "lane": "works",

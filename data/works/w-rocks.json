@@ -219,6 +219,324 @@
         "Marani 2000, catalogue entry",
         "Zöllner 2003, catalogue entry"
       ]
+    },
+    {
+      "id": "api2098",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11935346 (Virgin of the Rocks), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11935346"
+        }
+      ]
+    },
+    {
+      "id": "api2099",
+      "about": "date",
+      "value": {
+        "text": "1483 to 1486",
+        "start": 1483,
+        "end": 1486
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1483 to 1486.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11935346 (Virgin of the Rocks), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11935346"
+        }
+      ]
+    },
+    {
+      "id": "api2100",
+      "about": "date",
+      "value": {
+        "text": "c.1482",
+        "start": 1482
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1482.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11935346 (Virgin of the Rocks), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11935346"
+        }
+      ]
+    },
+    {
+      "id": "api2101",
+      "about": "inventory",
+      "value": {
+        "text": "INV 777"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number INV 777 in Department of Paintings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11935346 (Virgin of the Rocks), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11935346"
+        }
+      ]
+    },
+    {
+      "id": "api2102",
+      "about": "inventory",
+      "value": {
+        "text": "MR 320"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number MR 320 in Department of Paintings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11935346 (Virgin of the Rocks), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11935346"
+        }
+      ]
+    },
+    {
+      "id": "api2103",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Paintings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Paintings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11935346 (Virgin of the Rocks), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11935346"
+        }
+      ]
+    },
+    {
+      "id": "api2104",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel; transferred on canvas"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel; transferred on canvas.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11935346 (Virgin of the Rocks), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11935346"
+        }
+      ]
+    },
+    {
+      "id": "api2105",
+      "about": "dimensions",
+      "value": {
+        "text": "199 cm x 122 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 199 cm, width 122 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11935346 (Virgin of the Rocks), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11935346"
+        }
+      ]
+    },
+    {
+      "id": "api2106",
+      "about": "depicts",
+      "value": {
+        "text": "Mary; Child Saint John; Christ Child; nudity; Uriel; landscape; rock; Madonna and Child; waist-length hair; kneeling; blond hair; prayer"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Mary; Child Saint John; Christ Child; nudity; Uriel; landscape; rock; Madonna and Child; waist-length hair; kneeling; blond hair; prayer. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11935346 (Virgin of the Rocks), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11935346"
+        }
+      ]
+    },
+    {
+      "id": "api2107",
+      "about": "inventory",
+      "value": {
+        "text": "INV 777"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number INV 777.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062373 (La Vierge, l'Enfant Jésus, saint Jean Baptiste et un ange, dit La Vierge aux rochers), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062373"
+        }
+      ]
+    },
+    {
+      "id": "api2108",
+      "about": "inventory_history",
+      "value": {
+        "text": "Autre numéro d'inventaire: MR 320"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Autre numéro d'inventaire: MR 320.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062373 (La Vierge, l'Enfant Jésus, saint Jean Baptiste et un ange, dit La Vierge aux rochers), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062373"
+        }
+      ]
+    },
+    {
+      "id": "api2109",
+      "about": "date",
+      "value": {
+        "text": "4e quart du XVe siècle (vers 1483 - 1494)",
+        "start": 1483,
+        "end": 1494
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: 4e quart du XVe siècle (vers 1483 - 1494).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062373 (La Vierge, l'Enfant Jésus, saint Jean Baptiste et un ange, dit La Vierge aux rochers), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062373"
+        }
+      ],
+      "check_in": [
+        "Loire, Stéphane, Les Peintures italiennes du Musée Napoléon (1810-1815). Édition illustrée et commentée du volume I de l'Inventaire Napoléon, Paris, Mare & Martin / Louvre éditions, 2025, p. 537-539, n°905",
+        "Loire, Stéphane, « Aux origines d'un titre : \"La Vierge aux rochers\" par Léonard de Vinci », dans Di Loreto, Pietro (dir.), Scritti in onore di Alessandro Zuccari. Contributi inediti, Rome, Ethgraphiae, 2024, pp. 315-330, p. 315-330, fig. 1, pl. XXIII couleurs",
+        "Zuccari, Alessandro, Cantiere Caravaggio. Questioni aperte. Indagini. Interpretazione, Rome, 2022, p. 135, 288, 141-142, note 74",
+        "Leonardo y la copia de Mona Lisa del Museo del Prado : nuevos planteamientos sobre las practicas del taller vinciano, cat. exp. (Madrid, Museo Nacional del Prado, 28 septembre 2021-23 janvier 2022), Madrid, Museo Nacional del Prado, 2021, p. 82-83",
+        "Marani, Pietro C., L'ultimo Leonardo 1510-1519. Leonardo tra Milano, Roma e Amboise : committenze, progetti, studi fra arte, architettura e scienza, Varèse, Nomos, 2020, p. 156, fig.1",
+        "Delieuvin, Vincent ; Frank, Louis (dir.), Léonard de Vinci, cat. exp. (Paris, musée du Louvre, 24 octobre 2019 - 24 février 2020), Paris, Hazan / Louvre éditions, 2019, p. 26, 57, 123, 126-139, 142, 148, 170, 280, 300, 324, 344, 359, 360, 362, 363, 364, 365, 367, 369, 403, 406, ill. coul. p. 129, détail fig. 13 p. 55, détail fig. 58 p. 136, détail p. 385, n° 53",
+        "Leonardo e la sua grande scuola, cat. exp. (Torino, Palazzo Cavour, 9 février - 12 mai 2019 / Venezia, Palazzo Giustinian Lolin, 31 mai-25 août 2019), Prato, Champfleury, 2019, p. 36-37, 171, 173, 179-180, ill.coul.",
+        "Fagnart, Laure, « Léonard de Vinci et d'autres. Artistes italiens au service de François d'Angoulême (et Louise de Savoie) », dans Lastraioli, Chiara ; Le Gall, Jean-Marie (dir.), François Ier et l'Italie, Turnhout, Brepols, 2018, p. 235-246, p. 245",
+        "Calame-Levert, Florence ; Hermant, Maxence ; Toscano, Gennaro (dir.), Une Renaissance en Normandie, le cardinal Georges d'Amboise, bibliophile et mécène, cat. exp. (Evreux, musée d'Art, Histoire et Archéologie, 8 juillet - 22 octobre 2017), Montreuil, éditions Gourcuff Gradenigo, 2017, p. 96-97, 105, fig. 2",
+        "Shone, Richard, « Editorial: \"Leonardo\" », The Burlington Magazine, 154, 1306, 2012, p. 3, Disponible sur : &lt;https://www.jstor.org/stable/41418895&gt; , p. 3"
+      ]
+    },
+    {
+      "id": "api2110",
+      "about": "medium",
+      "value": {
+        "text": "huile sur toile (transposition (de bois sur toile))"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: huile sur toile (transposition (de bois sur toile))",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062373 (La Vierge, l'Enfant Jésus, saint Jean Baptiste et un ange, dit La Vierge aux rochers), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062373"
+        }
+      ]
+    },
+    {
+      "id": "api2111",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 1,995 m; Hauteur avec accessoire 2,365 m; Largeur 1,22 m; Largeur avec accessoire 1,975 m; Epaisseur 23 cm; Epaisseur avec accessoire 4,5 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 1,995 m; Hauteur avec accessoire 2,365 m; Largeur 1,22 m; Largeur avec accessoire 1,975 m; Epaisseur 23 cm; Epaisseur avec accessoire 4,5 cm.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062373 (La Vierge, l'Enfant Jésus, saint Jean Baptiste et un ange, dit La Vierge aux rochers), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062373"
+        }
+      ]
+    },
+    {
+      "id": "api2112",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [Attribution actuelle]; Italie [Attribution actuelle]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [Attribution actuelle]; Italie [Attribution actuelle].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062373 (La Vierge, l'Enfant Jésus, saint Jean Baptiste et un ange, dit La Vierge aux rochers), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062373"
+        }
+      ],
+      "check_in": [
+        "Loire, Stéphane, Les Peintures italiennes du Musée Napoléon (1810-1815). Édition illustrée et commentée du volume I de l'Inventaire Napoléon, Paris, Mare & Martin / Louvre éditions, 2025, p. 537-539, n°905",
+        "Loire, Stéphane, « Aux origines d'un titre : \"La Vierge aux rochers\" par Léonard de Vinci », dans Di Loreto, Pietro (dir.), Scritti in onore di Alessandro Zuccari. Contributi inediti, Rome, Ethgraphiae, 2024, pp. 315-330, p. 315-330, fig. 1, pl. XXIII couleurs",
+        "Zuccari, Alessandro, Cantiere Caravaggio. Questioni aperte. Indagini. Interpretazione, Rome, 2022, p. 135, 288, 141-142, note 74",
+        "Leonardo y la copia de Mona Lisa del Museo del Prado : nuevos planteamientos sobre las practicas del taller vinciano, cat. exp. (Madrid, Museo Nacional del Prado, 28 septembre 2021-23 janvier 2022), Madrid, Museo Nacional del Prado, 2021, p. 82-83",
+        "Marani, Pietro C., L'ultimo Leonardo 1510-1519. Leonardo tra Milano, Roma e Amboise : committenze, progetti, studi fra arte, architettura e scienza, Varèse, Nomos, 2020, p. 156, fig.1",
+        "Delieuvin, Vincent ; Frank, Louis (dir.), Léonard de Vinci, cat. exp. (Paris, musée du Louvre, 24 octobre 2019 - 24 février 2020), Paris, Hazan / Louvre éditions, 2019, p. 26, 57, 123, 126-139, 142, 148, 170, 280, 300, 324, 344, 359, 360, 362, 363, 364, 365, 367, 369, 403, 406, ill. coul. p. 129, détail fig. 13 p. 55, détail fig. 58 p. 136, détail p. 385, n° 53",
+        "Leonardo e la sua grande scuola, cat. exp. (Torino, Palazzo Cavour, 9 février - 12 mai 2019 / Venezia, Palazzo Giustinian Lolin, 31 mai-25 août 2019), Prato, Champfleury, 2019, p. 36-37, 171, 173, 179-180, ill.coul.",
+        "Fagnart, Laure, « Léonard de Vinci et d'autres. Artistes italiens au service de François d'Angoulême (et Louise de Savoie) », dans Lastraioli, Chiara ; Le Gall, Jean-Marie (dir.), François Ier et l'Italie, Turnhout, Brepols, 2018, p. 235-246, p. 245",
+        "Calame-Levert, Florence ; Hermant, Maxence ; Toscano, Gennaro (dir.), Une Renaissance en Normandie, le cardinal Georges d'Amboise, bibliophile et mécène, cat. exp. (Evreux, musée d'Art, Histoire et Archéologie, 8 juillet - 22 octobre 2017), Montreuil, éditions Gourcuff Gradenigo, 2017, p. 96-97, 105, fig. 2",
+        "Shone, Richard, « Editorial: \"Leonardo\" », The Burlington Magazine, 154, 1306, 2012, p. 3, Disponible sur : &lt;https://www.jstor.org/stable/41418895&gt; , p. 3"
+      ]
+    },
+    {
+      "id": "api2113",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Peintures"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Peintures.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062373 (La Vierge, l'Enfant Jésus, saint Jean Baptiste et un ange, dit La Vierge aux rochers), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062373"
+        }
+      ]
+    },
+    {
+      "id": "api2114",
+      "about": "provenance",
+      "value": {
+        "text": "Provenance : Ce tableau est mentionné pour la première fois en 1625 au château de Fontainebleau. Il fut probablement acquis plus anciennement, peut-être sous Louis XII, entre 1499 et 1512, ou plus tard sous François Ier. Actuellement, il existe deux hypothèses principales sur l’arrivée du tableau en France, mais aucune n’est démontrable. On a d’abord proposé d’identifier la Vierge aux rochers du Louvre avec la Nativité que Ludovic le More, duc de Milan, envoya à l’empereur Maximilien, selon le témoignage de Vasari. Le tableau serait parvenu ensuite en France, à l’occasion d’un mariage entre les Valois et les Habsbourg, soit en 1530 lors de l’union de François Ier avec Éléonore d’Autriche, soit en 1570 à l’occasion de celle de Charles IX avec Élisabeth d’Autriche. Aucun document ne permet de le démontrer. La seconde hypothèse propose l’entrée de l’œuvre dans la collection de Louis XII, pendant la période d’occupation du Milanais par les troupes françaises, entre 1499 et 1512, soit par une saisie dans les collections du duc Ludovic, qui l’aurait possédée, soit par simple acquisition. Commentaire : Une commande pour une chapelle à Milan Le 25 avril 1483, Léonard de Vinci signe avec les frères Ambrogio et Evangelista de Predis le contrat pour la dorure et la peinture du retable de la chapelle de la Confrérie de l’Immaculée-Conception à San Francesco Grande. Cette église du couvent des Franciscains s’élevait à Milan, derrière la basilique Saint-Ambroise. L’ensemble conventuel fut supprimé en 1798, et le sanctuaire fut démoli entre 1806 et 1813. À la fondation de cette chapelle, en 1478, de vifs débats divisent l’Église catholique sur la question de l’Immaculée Conception, doctrine selon laquelle la Vierge Marie aurait été préservée du péché originel, au premier instant de sa conception, par la grâce de Dieu. Les Franciscains défendent la thèse immaculiste, et la nouvelle chapelle de leur église entendait révéler sa vérité. Plusieurs documents d’archives, retrouvés peu à peu depuis la fin du xixe siècle, nous permettent d’imaginer le décor de cette chapelle de l’Immaculée-Conception. Elle avait été édifiée sur la contre-façade, en entrant dans l’église à gauche. En mai 1479, les peintres Francesco Zavattari et Giorgio Della Chiesa étaient chargés d’en décorer la voûte, et en avril 1480, la construction du retable fut commandée au sculpteur Giacomo del Maino, selon un dessin fourni par le prieur et des membres de la confrérie. Maino acheva son travail en août 1482, et en avril de l’année suivante, la confrérie en confia la dorure et la peinture aux trois artistes. À leur contrat est jointe une liste plus précise des travaux à accomplir qui permet de comprendre la structure et l’iconographie du retable construit par Maino. Sur la voûte apparaissait le Père éternel, entouré de séraphins et des quatre Évangélistes, indiquant ainsi que le mystère de l’Immaculée Conception avait été planifié par Dieu. Les Évangélistes évoquaient le nouveau testament scellé entre Dieu et les hommes, par le sacrifice de son Fils incarné dans le ventre de Marie. Sous cette voûte, le retable de Maino devait être divisé en deux registres superposés, avec une représentation de la Vierge à chaque niveau. Au centre de la partie supérieure se dressait une sculpture de Marie, entourée de séraphins et surmontée par Dieu le Père et des anges, dans un décor de rochers et de montagnes. Cette image devait illustrer le concept d’Immaculée Conception : Dieu préservant du péché originel la Vierge protégée symboliquement du Mal par les rochers. Le registre inférieur devait être orné d’un grand tableau central avec, selon le contrat d’avril 1483, la Vierge, l’Enfant Jésus, des anges et deux prophètes, et sur chaque côté un tableau avec des anges musiciens et chanteurs. Ces trois peintures sont les seuls éléments conservés de ce retable détruit et se trouvent aujourd’hui à la National Gallery à Londres. L’Adoration de l’Enfant Jésus, le thème de l’Incarnation Par rapport au contrat initial, les artistes fournirent des compositions légèrement différentes. Le panneau central représente finalement la Vierge agenouillée et recueillie devant Jésus. Sa main gauche avancée vers son Fils semble vouloir le protéger tandis qu’elle invite avec son autre bras le petit saint Jean Baptiste à l’adorer. L’Enfant est soutenu par un ange et bénit son cousin. Les protagonistes sont installés dans une sorte de grotte ouverte sur un paysage de montagnes bordées par un vaste cours d’eau. Ce fascinant décor, symbole de l’Immaculée Conception, est à l’origine de l’appellation de « Vierge aux rochers » qui s’est imposée à partir du début du xixe siècle. De chaque côté fut placé un tableau avec un unique ange musicien. Nous conservons deux dessins préparatoires à la composition centrale (Windsor, RCIN 912560 ; New York, Metropolitan Museum, inv. 1917.17.142.1) dans lesquels Léonard imagine plusieurs dispositions de la Vierge adorant l’Enfant, avec parfois le petit Baptiste. Si le texte du contrat demeure très descriptif, sans donner le sujet de la scène, on comprend grâce à ces croquis et en analysant le tableau, que Léonard a conçu une Adoration de l’Enfant Jésus, une iconographie tout à fait traditionnelle, très proche de l’Adoration des bergers à laquelle il avait déjà travaillé quelque temps auparavant mais dans un format rectangulaire (dessin du musée de Bayonne). Du reste, la Vierge aux rochers est inspirée de toute une tradition florentine de représentation de l’Adoration de l’Enfant Jésus, telle celle de Filippo Lippi peinte en 1459 pour la chapelle du palais Médicis (Berlin, Gemäldegalerie), où l’on voyait déjà la Vierge agenouillée devant son Fils, avec le petit saint Jean dans une sombre forêt remplie de rochers. Ces images révèlent le mystère de l’Incarnation, Dieu fait homme. En priant dans la chapelle de San Francesco Grande, le fidèle pouvait donc comprendre le plan divin en regardant de haut en bas : sur la voûte, Dieu décide de préserver Marie du péché originel figurée dans la sculpture juste en dessous, et cette Immaculée Conception se justifie par l’Incarnation que l’on admirait dans la Vierge aux rochers. Notons que le contrat de 1483 envisageait la présence d’anges et de prophètes, finalement réduite à un seul ange et à saint Jean, le dernier prophète annonçant la venue du Messie et son sacrifice pour le salut de l’humanité. Autant la sculpture du registre supérieur apparaissait comme une image conceptuelle illustrant l’Immaculée Conception, autant la scène de la Vierge aux rochers, avec ses personnages interagissant dans un paysage réaliste, pouvait revêtir une dimension narrative, évoquant l’enfance du Christ. Les historiens ont d’ailleurs souvent proposé d’y voir l’épisode de la première rencontre des deux enfants, au retour d’Égypte de la Sainte Famille qui avait fui les massacres d’Hérode, tel qu’il est rapporté dans des textes comme les Méditations sur la vie du Christ du Pseudo-Bonaventure ou la Vie de Saint Jean Baptiste de Domenico Cavalca. La grotte a parfois été interprétée comme une allusion au refuge miraculeux trouvé dans une montagne par sainte Élisabeth et son fils, eux aussi poursuivis par les sbires du roi Hérode. Un texte apocryphe rapporte que l’archange Uriel prit soin d’eux. Mais l’identité de l’ange de la Vierge aux rochers demeure incertaine, car si l’on veut interpréter la scène de façon historique, ce pourrait être aussi Gabriel, qui veilla sur la Sainte Famille. Deux tableaux pour un retable L’historiographie s’est principalement concentrée sur le grand mystère de cette commande : l’existence de deux versions de la Vierge aux rochers, celle de Londres provenant de San Francesco Grande et celle du Louvre, conservée en France depuis au moins 1625, mais dont on ignore l’histoire plus ancienne. Il est impossible de rappeler ici les différentes hypothèses émises à ce sujet, liées à une interprétation contradictoire des documents d’archives de cette commande qui aboutit à un différend opposant les artistes à la Confrérie de l’Immaculée-Conception pendant plus de vingt ans. Le travail des peintres devait être achevé le 8 décembre 1483 pour la fête de l’Immaculée-Conception, contre un paiement de 800 lires impériales perçues par une avance et des versements mensuels, avec possibilité d’un supplément. Les artistes reçurent la somme initialement prévue, mais entre 1490 et 1494, Léonard et Ambrogio de Predis, Evangelista n’étant plus de ce monde, adressèrent une supplique au duc Ludovic le More. Ils estimaient que les 800 lires avaient été largement dépensées dans les travaux de dorure et de peinture des éléments sculptés, et ils souhaitaient donc obtenir au moins 100 ducats complémentaires pour le grand tableau défini comme une « Notre Dame » peinte à l’huile par Léonard. La confrérie ne leur proposait que 25 ducats supplémentaires, alors que les peintres affirmaient que des acheteurs se déclaraient prêts à l’acquérir pour 100 ducats. Ils sollicitèrent donc l’intervention du duc, en proposant deux solutions : soit la confrérie acceptait l’arbitrage de personnes compétentes pour une réévaluation objective du travail, soit la « Notre Dame » devait leur être laissée. À cette date, les travaux de peinture et de dorure ainsi que le grand tableau d’autel et les peintures latérales des anges semblent très avancés, voire complètement achevés. On ignore cependant la suite des événements jusqu’en mars 1503, lorsque Ambrogio de Predis, désormais seul, Léonard étant alors à Florence, adresse une nouvelle supplique au duc de Milan, alors le roi de France Louis XII, qui reprend les termes de la précédente requête. Cette fois, la confrérie s’oppose à tout règlement en arguant de l’absence de Léonard. C’est seulement en 1506, au moment où le maître revient à Milan, qu’un accord est trouvé entre les deux parties. La confrérie accepte désormais de verser un complément de 200 lires impériales si les peintres terminent le travail dans les deux ans, la « Notre Dame » étant déclarée inachevée. Finalement, en 1508, de nouveaux documents attestent que l’ouvrage est fini. Malgré le nombre important de documents d’archives trouvés, il est impossible de reconstruire l’histoire précise des événements et d’expliquer définitivement la raison de l’existence des deux tableaux. On peut cependant remarquer que le différend est de nature strictement économique. On constate aussi une certaine contradiction entre la supplique de 1490-1494, dans laquelle le travail semble être achevé, et l’accord de 1506, qui indique le contraire. Ne serait-ce pas un indice pour penser que ces documents concernent deux tableaux différents ? L’hypothèse de deux commandes distinctes Les historiens ont proposé de cette affaire des explications contradictoires et ne s’accordent que sur la datation de la version du Louvre, antérieure à celle de Londres pour des raisons stylistiques. Le tableau parisien offre en effet de fortes affinités avec l’Adoration des Mages, de la Galerie des Offices, la Madone Benois de l’Ermitage ou le Saint Jérôme du Vatican. L’anatomie des personnages présente une gracilité caractéristique de la période florentine de Léonard, les visages sont minces et allongés, les doigts longs et fins, les drapés traités en plis plus abondants et cassés. Dans le tableau de Londres, les formes, tout en ayant les mêmes proportions, paraissent plus rondes. Les contrastes d’ombre et de lumière sont davantage marqués et la couleur a une tonalité métallique. Ce style s’accorde mieux avec les œuvres des années 1490, telle la Cène, et s’apparente également à plusieurs peintures du cercle de Léonard à Milan, principalement celles de Giovanni Antonio Boltraffio. L’attribution de ce tableau est d’ailleurs souvent discutée, entre le maître et son atelier. Pour résoudre l’énigme des deux versions, certains historiens ont imaginé qu’elles n’étaient tout simplement pas destinées au même retable. Le panneau de la National Gallery provenant assurément de l’église San Francesco Grande aurait été le seul panneau commandé par la confrérie, tandis que la peinture de Paris aurait eu une autre destination. Récemment, Alessandro Ballarin a soutenu avec force l’hypothèse d’une provenance de la chapelle de San Gottardo, l’église du palais ducal appelé la Corte Vecchia, à côté du Dôme, sur le site de l’actuel palais royal. L’église gothique construite dans les années 1330 par Azzone Visconti existe toujours, mais son intérieur a été largement repris en style néoclassique. Selon Ballarin, la Vierge aux rochers du Louvre en aurait orné le maître-autel. À l’appui de cette hypothèse, on ne dispose d’aucun document mais du témoignage de Carlo Torre dans Il ritratto di Milano, publié en 1674, selon lequel le tableau du retable de l’Immaculée Conception à San Francesco Grande proviendrait de la chapelle San Gottardo. Bien sûr, si cela est vrai, ce serait donc le tableau de Londres qui aurait d’abord été accroché dans l’église du palais ducal. Mais Ballarin présume une confusion entre les deux versions, révélatrice du fait qu’à l’origine il y avait bien à San Gottardo un autre retable comparable à celui de San Francesco, à savoir le tableau du Louvre. En outre, cette destination distincte expliquerait la principale différence iconographique entre les deux versions, la désignation du Baptiste par l’ange, qui illustrerait la dévotion envers le saint, fort naturelle à San Gottardo, lequel a été construit sur un ancien baptistère. Plusieurs arguments vont cependant à l’encontre de cette hypothèse, et tout d’abord les sources qui sont tardives et ne concernent, à une stricte lecture, que le tableau de Londres. En outre, on pourrait s’étonner qu’une destination aussi prestigieuse que San Gottardo pour la Vierge aux rochers du Louvre n’ait pas laissé de témoignage datant de son époque L’hypothèse probable de la substitution entre les deux versions La majorité des spécialistes a privilégié une autre explication à l’existence des deux versions, celle d’une substitution du tableau du Louvre par celui de Londres. Cette idée est étayée par la très forte ressemblance des deux œuvres, plus forte d’ailleurs que ne le laisse penser leur apparence actuelle. Le panneau du Louvre est aujourd’hui plus haut d’environ 10 centimètres, mais il a été transposé de bois sur toile en 1806. L’analyse précise des bords et des mesures données au tableau dans les inventaires anciens, avant la transposition, permet d’établir que l’œuvre a été légèrement agrandie. Les dimensions originales devaient être plutôt d’environ 195 centimètres de haut et 119 centimètres de large. Quant au panneau de Londres, l’examen de son assemblage de planches de bois incite à penser qu’il a été légèrement coupé en bas. La hauteur actuelle de 189,5 centimètres pourrait à l’origine plutôt avoisiner celle de Paris, soit autour de 193 centimètres de haut. Ces dimensions quasiment identiques sont importantes, dans la mesure où les proportions du tableau d’autel devaient s’adapter à l’architecture du retable déjà construit par Giacomo del Maino. Si ces deux panneaux ont bien été peints pour le même autel, il reste à savoir pour quelle raison la version du Louvre, que tous reconnaissent comme la première, n’y fut jamais installée. Certains historiens ont imaginé que ce devait être pour des raisons iconographiques. On a parfois souligné que dans le panneau de Londres, les protagonistes sont dotés d’une auréole et que saint Jean Baptiste tient entre ses bras un bâton en forme de croix et un petit phylactère sur lequel on parvient à lire « Ecce agnus », en référence à sa mission d’annonce de la venue du Christ. Selon certains, ces éléments auraient été ajoutés afin de clarifier l’image du Louvre trop ambiguë, Jésus et Jean n’étant pas assez différenciés. Cependant, leur absence ne pouvait pas justifier l’exécution d’une nouvelle version car ces attributs pouvaient être aisément ajoutés sur le panneau du Louvre. Du reste, ce sont davantage le regard et le geste de désignation de l’ange du Louvre qui ont pu être considérés comme inappropriés à l’iconographie souhaitée et qui auraient incité les commanditaires à refuser l’œuvre et à exiger une seconde version amendée. Mais là encore, il aurait été aisé pour Léonard de modifier ces deux détails. Les découvertes des examens scientifiques Les nouvelles réflectographies infrarouges effectuées sur les deux œuvres, celle de la National Gallery en 2005 puis celle du Louvre en 2009, ont permis de définitivement rejeter cette idée d’une substitution pour cause d’hétérodoxie de la version du Louvre. Sous la Vierge londonienne a été découverte une partie d’une première composition d’une Vierge en adoration, dans une attitude assez différente de celle finalement peinte, avec son corps tourné vers la droite, son visage presque de profil, son bras droit écarté et l’autre replié sur le cœur. Une fois tracée, cette composition fut finalement recouverte d’une nouvelle couche d’impression afin d’y reporter un second dessin préparatoire correspondant à l’actuelle composition visible. Dans le tableau du Louvre, la réflectographie n’a pas révélé de composition différente sous la peinture, mais des modifications très significatives. Hormis les légers repentirs destinés à améliorer l’agencement des personnages, on a découvert que l’ange avait d’abord été peint tel qu’on le voit dans le tableau de Londres, le regard tourné vers Jean et sans la main droite levée. Ce n’est que vers la fin de l’exécution picturale que le maître a modifié son attitude. L’idée d’une correction de l’image du Louvre dans la version de Londres doit donc être désormais tout à fait abandonnée, et celle de l’hétérodoxie du tableau du Louvre oubliée. Dans l’état actuel de nos connaissances, on pourrait proposer la reconstitution suivante. Léonard a conçu d’abord, sur le panneau du Louvre, la composition de la Vierge aux rochers telle qu’on la voit aujourd’hui dans le tableau de la National Gallery. À la suite d’un différend financier avec la confrérie, il a peut-être décidé avec Ambrogio de Predis de céder cette première version après y avoir modifié l’attitude de l’ange, pour attirer davantage l’attention sur le petit saint Jean, sans doute à la demande du nouveau destinataire, et pour une raison inconnue. En effet, dans la mesure où ce changement apporté à l’ange ne sera pas repris dans la seconde version accrochée dans l’église, il est fort vraisemblable que cette variante a été souhaitée par le premier propriétaire de l’œuvre et non pas par la confrérie, satisfaite de la composition initiale. C’est à l’occasion de cette transformation de l’ange que Léonard a tracé l’un de ses plus beaux dessins, la Tête de femme du musée de Turin, afin d’étudier le pivotement naturel de la figure et le surgissement du sourire. Par la suite, entre les années 1490 et 1508, Léonard a exécuté un second panneau, en cherchant d’abord à changer la composition de l’Adoration de l’Enfant, puis il a finalement repris le carton initial utilisé pour le panneau du Louvre. On peut légitimement s’étonner de constater que le tableau de Londres reproduit assez fidèlement le carton utilisé pour la version du Louvre, sans prendre en compte les nombreux repentirs que le maître avait apportés à la disposition des figures au cours de l’exécution. On remarque toutefois des variantes au niveau de l’arrangement des plis du manteau de la Vierge et de l’habit de l’ange. On considère souvent un beau dessin de draperie conservé à Windsor (RCIN 912521) comme une nouvelle réflexion de Léonard pour cette partie. Il y a aussi certaines simplifications dans la version de Londres, par exemple la tête de Jésus qui se présente en un profil bien plus statique. Plusieurs détails, comme les rochers de la grotte ou la flore, sont peints de façon plus schématique. La morphologie de plusieurs personnages ressemble davantage à la manière de certains élèves qu’à celle du maître, notamment le Baptiste, si proche de l’art de Giovanni Antonio Boltraffio, documenté dans l’atelier de Léonard en 1491. Tout cela justifie les interrogations d’une bonne partie de la critique sur l’autographie de cette seconde version à laquelle l’atelier milanais de Léonard semble avoir participé. Du reste, il faut rappeler que les tableaux latéraux représentant chacun un ange musicien ont été peints par deux autres artistes, identifiés le plus souvent à son collègue Ambrogio de Predis et à son probable collaborateur Francesco Napoletano. Certains détails, tel le visage de l’ange, présentent des transitions d’ombre et de lumière et un travail de la chevelure plus raffinés que ceux de l’Enfant Jésus, ce qui pourrait s’expliquer par une intervention du maître. Par ailleurs, quelques parties sont à peine ébauchées, presque inachevées, le pied droit du Baptiste, le dos de Jésus, la main de l’ange et peut-être aussi le sol au premier plan, selon une pratique davantage caractéristique du maître que de ses élèves. Cette hétérogénéité incite à y voir une œuvre largement exécutée par l’atelier, sous le contrôle et avec l’intervention de Léonard. Le thème de l’Adoration de l’Enfant Jésus permet à Léonard de se libérer de toute architecture et de la construction d’une perspective géométrique, comme on la trouvait encore dans l’Adoration des Mages. L’ordonnance demeure cependant savamment élaborée, avec les figures disposées en une pyramide harmonieuse. Les formes de la grotte, soutenue par un grand pic rocheux central, font écho à cet agencement. Avec cette composition centrée sur la Vierge, Léonard invite le regard du fidèle à une lecture verticale du retable, depuis l’Enfant Jésus assis sur la roche jusqu’au Père éternel sur la voûte, c’est-à-dire de l’Incarnation à l’Immaculée Conception. La disposition en pyramide engage en revanche une lecture horizontale, de l’ange vers le Baptiste, à travers laquelle se développe une narration animée par les gestes et les expressions. L’ange et la Vierge soutiennent chacun un enfant qu’ils invitent à la rencontre, avec une douce bienveillance. Chaque personnage exprime avec sérieux et profondeur les sentiments nés de cet événement : la mélancolie méditative de la Vierge qui observe le Baptiste et pressent l’annonce de la mort de son Fils, la digne résolution de Jean qui s’engage à annoncer la venue du Messie, la grave bénédiction de Jésus conscient de son futur, le sourire naissant de l’ange qui révèle la promesse du salut de l’humanité par le sacrifice du Christ. La subtilité de ces émotions et le naturel des attitudes doivent beaucoup à l’atmosphère de clair-obscur de la grotte, dont Léonard décrit avec précision la stratification et la flore. (Texte de Vincent Delieuvin, juillet 2021)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: Provenance : Ce tableau est mentionné pour la première fois en 1625 au château de Fontainebleau. Il fut probablement acquis plus anciennement, peut-être sous Louis XII, entre 1499 et 1512, ou plus tard sous François Ier. Actuellement, il existe deux hypothèses principales sur l’arrivée du tableau en France, mais aucune n’est démontrable. On a d’abord proposé d’identifier la Vierge aux rochers du Louvre avec la Nativité que Ludovic le More, duc de Milan, envoya à l’empereur Maximilien, selon le témoignage de Vasari. Le tableau serait parvenu ensuite en France, à l’occasion d’un mariage entre les Valois et les Habsbourg, soit en 1530 lors de l’union de François Ier avec Éléonore d’Autriche, soit en 1570 à l’occasion de celle de Charles IX avec Élisabeth d’Autriche. Aucun document ne permet de le démontrer. La seconde hypothèse propose l’entrée de l’œuvre dans la collection de Louis XII, pendant la période d’occupation du Milanais par les troupes françaises, entre 1499 et 1512, soit par une saisie dans les collections du duc Ludovic, qui l’aurait possédée, soit par simple acquisition. Commentaire : Une commande pour une chapelle à Milan Le 25 avril 1483, Léonard de Vinci signe avec les frères Ambrogio et Evangelista de Predis le contrat pour la dorure et la peinture du retable de la chapelle de la Confrérie de l’Immaculée-Conception à San Francesco Grande. Cette église du couvent des Franciscains s’élevait à Milan, derrière la basilique Saint-Ambroise. L’ensemble conventuel fut supprimé en 1798, et le sanctuaire fut démoli entre 1806 et 1813. À la fondation de cette chapelle, en 1478, de vifs débats divisent l’Église catholique sur la question de l’Immaculée Conception, doctrine selon laquelle la Vierge Marie aurait été préservée du péché originel, au premier instant de sa conception, par la grâce de Dieu. Les Franciscains défendent la thèse immaculiste, et la nouvelle chapelle de leur église entendait révéler sa vérité. Plusieurs documents d’archives, retrouvés peu à peu depuis la fin du xixe siècle, nous permettent d’imaginer le décor de cette chapelle de l’Immaculée-Conception. Elle avait été édifiée sur la contre-façade, en entrant dans l’église à gauche. En mai 1479, les peintres Francesco Zavattari et Giorgio Della Chiesa étaient chargés d’en décorer la voûte, et en avril 1480, la construction du retable fut commandée au sculpteur Giacomo del Maino, selon un dessin fourni par le prieur et des membres de la confrérie. Maino acheva son travail en août 1482, et en avril de l’année suivante, la confrérie en confia la dorure et la peinture aux trois artistes. À leur contrat est jointe une liste plus précise des travaux à accomplir qui permet de comprendre la structure et l’iconographie du retable construit par Maino. Sur la voûte apparaissait le Père éternel, entouré de séraphins et des quatre Évangélistes, indiquant ainsi que le mystère de l’Immaculée Conception avait été planifié par Dieu. Les Évangélistes évoquaient le nouveau testament scellé entre Dieu et les hommes, par le sacrifice de son Fils incarné dans le ventre de Marie. Sous cette voûte, le retable de Maino devait être divisé en deux registres superposés, avec une représentation de la Vierge à chaque niveau. Au centre de la partie supérieure se dressait une sculpture de Marie, entourée de séraphins et surmontée par Dieu le Père et des anges, dans un décor de rochers et de montagnes. Cette image devait illustrer le concept d’Immaculée Conception : Dieu préservant du péché originel la Vierge protégée symboliquement du Mal par les rochers. Le registre inférieur devait être orné d’un grand tableau central avec, selon le contrat d’avril 1483, la Vierge, l’Enfant Jésus, des anges et deux prophètes, et sur chaque côté un tableau avec des anges musiciens et chanteurs. Ces trois peintures sont les seuls éléments conservés de ce retable détruit et se trouvent aujourd’hui à la National Gallery à Londres. L’Adoration de l’Enfant Jésus, le thème de l’Incarnation Par rapport au contrat initial, les artistes fournirent des compositions légèrement différentes. Le panneau central représente finalement la Vierge agenouillée et recueillie devant Jésus. Sa main gauche avancée vers son Fils semble vouloir le protéger tandis qu’elle invite avec son autre bras le petit saint Jean Baptiste à l’adorer. L’Enfant est soutenu par un ange et bénit son cousin. Les protagonistes sont installés dans une sorte de grotte ouverte sur un paysage de montagnes bordées par un vaste cours d’eau. Ce fascinant décor, symbole de l’Immaculée Conception, est à l’origine de l’appellation de « Vierge aux rochers » qui s’est imposée à partir du début du xixe siècle. De chaque côté fut placé un tableau avec un unique ange musicien. Nous conservons deux dessins préparatoires à la composition centrale (Windsor, RCIN 912560 ; New York, Metropolitan Museum, inv. 1917.17.142.1) dans lesquels Léonard imagine plusieurs dispositions de la Vierge adorant l’Enfant, avec parfois le petit Baptiste. Si le texte du contrat demeure très descriptif, sans donner le sujet de la scène, on comprend grâce à ces croquis et en analysant le tableau, que Léonard a conçu une Adoration de l’Enfant Jésus, une iconographie tout à fait traditionnelle, très proche de l’Adoration des bergers à laquelle il avait déjà travaillé quelque temps auparavant mais dans un format rectangulaire (dessin du musée de Bayonne). Du reste, la Vierge aux rochers est inspirée de toute une tradition florentine de représentation de l’Adoration de l’Enfant Jésus, telle celle de Filippo Lippi peinte en 1459 pour la chapelle du palais Médicis (Berlin, Gemäldegalerie), où l’on voyait déjà la Vierge agenouillée devant son Fils, avec le petit saint Jean dans une sombre forêt remplie de rochers. Ces images révèlent le mystère de l’Incarnation, Dieu fait homme. En priant dans la chapelle de San Francesco Grande, le fidèle pouvait donc comprendre le plan divin en regardant de haut en bas : sur la voûte, Dieu décide de préserver Marie du péché originel figurée dans la sculpture juste en dessous, et cette Immaculée Conception se justifie par l’Incarnation que l’on admirait dans la Vierge aux rochers. Notons que le contrat de 1483 envisageait la présence d’anges et de prophètes, finalement réduite à un seul ange et à saint Jean, le dernier prophète annonçant la venue du Messie et son sacrifice pour le salut de l’humanité. Autant la sculpture du registre supérieur apparaissait comme une image conceptuelle illustrant l’Immaculée Conception, autant la scène de la Vierge aux rochers, avec ses personnages interagissant dans un paysage réaliste, pouvait revêtir une dimension narrative, évoquant l’enfance du Christ. Les historiens ont d’ailleurs souvent proposé d’y voir l’épisode de la première rencontre des deux enfants, au retour d’Égypte de la Sainte Famille qui avait fui les massacres d’Hérode, tel qu’il est rapporté dans des textes comme les Méditations sur la vie du Christ du Pseudo-Bonaventure ou la Vie de Saint Jean Baptiste de Domenico Cavalca. La grotte a parfois été interprétée comme une allusion au refuge miraculeux trouvé dans une montagne par sainte Élisabeth et son fils, eux aussi poursuivis par les sbires du roi Hérode. Un texte apocryphe rapporte que l’archange Uriel prit soin d’eux. Mais l’identité de l’ange de la Vierge aux rochers demeure incertaine, car si l’on veut interpréter la scène de façon historique, ce pourrait être aussi Gabriel, qui veilla sur la Sainte Famille. Deux tableaux pour un retable L’historiographie s’est principalement concentrée sur le grand mystère de cette commande : l’existence de deux versions de la Vierge aux rochers, celle de Londres provenant de San Francesco Grande et celle du Louvre, conservée en France depuis au moins 1625, mais dont on ignore l’histoire plus ancienne. Il est impossible de rappeler ici les différentes hypothèses émises à ce sujet, liées à une interprétation contradictoire des documents d’archives de cette commande qui aboutit à un différend opposant les artistes à la Confrérie de l’Immaculée-Conception pendant plus de vingt ans. Le travail des peintres devait être achevé le 8 décembre 1483 pour la fête de l’Immaculée-Conception, contre un paiement de 800 lires impériales perçues par une avance et des versements mensuels, avec possibilité d’un supplément. Les artistes reçurent la somme initialement prévue, mais entre 1490 et 1494, Léonard et Ambrogio de Predis, Evangelista n’étant plus de ce monde, adressèrent une supplique au duc Ludovic le More. Ils estimaient que les 800 lires avaient été largement dépensées dans les travaux de dorure et de peinture des éléments sculptés, et ils souhaitaient donc obtenir au moins 100 ducats complémentaires pour le grand tableau défini comme une « Notre Dame » peinte à l’huile par Léonard. La confrérie ne leur proposait que 25 ducats supplémentaires, alors que les peintres affirmaient que des acheteurs se déclaraient prêts à l’acquérir pour 100 ducats. Ils sollicitèrent donc l’intervention du duc, en proposant deux solutions : soit la confrérie acceptait l’arbitrage de personnes compétentes pour une réévaluation objective du travail, soit la « Notre Dame » devait leur être laissée. À cette date, les travaux de peinture et de dorure ainsi que le grand tableau d’autel et les peintures latérales des anges semblent très avancés, voire complètement achevés. On ignore cependant la suite des événements jusqu’en mars 1503, lorsque Ambrogio de Predis, désormais seul, Léonard étant alors à Florence, adresse une nouvelle supplique au duc de Milan, alors le roi de France Louis XII, qui reprend les termes de la précédente requête. Cette fois, la confrérie s’oppose à tout règlement en arguant de l’absence de Léonard. C’est seulement en 1506, au moment où le maître revient à Milan, qu’un accord est trouvé entre les deux parties. La confrérie accepte désormais de verser un complément de 200 lires impériales si les peintres terminent le travail dans les deux ans, la « Notre Dame » étant déclarée inachevée. Finalement, en 1508, de nouveaux documents attestent que l’ouvrage est fini. Malgré le nombre important de documents d’archives trouvés, il est impossible de reconstruire l’histoire précise des événements et d’expliquer définitivement la raison de l’existence des deux tableaux. On peut cependant remarquer que le différend est de nature strictement économique. On constate aussi une certaine contradiction entre la supplique de 1490-1494, dans laquelle le travail semble être achevé, et l’accord de 1506, qui indique le contraire. Ne serait-ce pas un indice pour penser que ces documents concernent deux tableaux différents ? L’hypothèse de deux commandes distinctes Les historiens ont proposé de cette affaire des explications contradictoires et ne s’accordent que sur la datation de la version du Louvre, antérieure à celle de Londres pour des raisons stylistiques. Le tableau parisien offre en effet de fortes affinités avec l’Adoration des Mages, de la Galerie des Offices, la Madone Benois de l’Ermitage ou le Saint Jérôme du Vatican. L’anatomie des personnages présente une gracilité caractéristique de la période florentine de Léonard, les visages sont minces et allongés, les doigts longs et fins, les drapés traités en plis plus abondants et cassés. Dans le tableau de Londres, les formes, tout en ayant les mêmes proportions, paraissent plus rondes. Les contrastes d’ombre et de lumière sont davantage marqués et la couleur a une tonalité métallique. Ce style s’accorde mieux avec les œuvres des années 1490, telle la Cène, et s’apparente également à plusieurs peintures du cercle de Léonard à Milan, principalement celles de Giovanni Antonio Boltraffio. L’attribution de ce tableau est d’ailleurs souvent discutée, entre le maître et son atelier. Pour résoudre l’énigme des deux versions, certains historiens ont imaginé qu’elles n’étaient tout simplement pas destinées au même retable. Le panneau de la National Gallery provenant assurément de l’église San Francesco Grande aurait été le seul panneau commandé par la confrérie, tandis que la peinture de Paris aurait eu une autre destination. Récemment, Alessandro Ballarin a soutenu avec force l’hypothèse d’une provenance de la chapelle de San Gottardo, l’église du palais ducal appelé la Corte Vecchia, à côté du Dôme, sur le site de l’actuel palais royal. L’église gothique construite dans les années 1330 par Azzone Visconti existe toujours, mais son intérieur a été largement repris en style néoclassique. Selon Ballarin, la Vierge aux rochers du Louvre en aurait orné le maître-autel. À l’appui de cette hypothèse, on ne dispose d’aucun document mais du témoignage de Carlo Torre dans Il ritratto di Milano, publié en 1674, selon lequel le tableau du retable de l’Immaculée Conception à San Francesco Grande proviendrait de la chapelle San Gottardo. Bien sûr, si cela est vrai, ce serait donc le tableau de Londres qui aurait d’abord été accroché dans l’église du palais ducal. Mais Ballarin présume une confusion entre les deux versions, révélatrice du fait qu’à l’origine il y avait bien à San Gottardo un autre retable comparable à celui de San Francesco, à savoir le tableau du Louvre. En outre, cette destination distincte expliquerait la principale différence iconographique entre les deux versions, la désignation du Baptiste par l’ange, qui illustrerait la dévotion envers le saint, fort naturelle à San Gottardo, lequel a été construit sur un ancien baptistère. Plusieurs arguments vont cependant à l’encontre de cette hypothèse, et tout d’abord les sources qui sont tardives et ne concernent, à une stricte lecture, que le tableau de Londres. En outre, on pourrait s’étonner qu’une destination aussi prestigieuse que San Gottardo pour la Vierge aux rochers du Louvre n’ait pas laissé de témoignage datant de son époque L’hypothèse probable de la substitution entre les deux versions La majorité des spécialistes a privilégié une autre explication à l’existence des deux versions, celle d’une substitution du tableau du Louvre par celui de Londres. Cette idée est étayée par la très forte ressemblance des deux œuvres, plus forte d’ailleurs que ne le laisse penser leur apparence actuelle. Le panneau du Louvre est aujourd’hui plus haut d’environ 10 centimètres, mais il a été transposé de bois sur toile en 1806. L’analyse précise des bords et des mesures données au tableau dans les inventaires anciens, avant la transposition, permet d’établir que l’œuvre a été légèrement agrandie. Les dimensions originales devaient être plutôt d’environ 195 centimètres de haut et 119 centimètres de large. Quant au panneau de Londres, l’examen de son assemblage de planches de bois incite à penser qu’il a été légèrement coupé en bas. La hauteur actuelle de 189,5 centimètres pourrait à l’origine plutôt avoisiner celle de Paris, soit autour de 193 centimètres de haut. Ces dimensions quasiment identiques sont importantes, dans la mesure où les proportions du tableau d’autel devaient s’adapter à l’architecture du retable déjà construit par Giacomo del Maino. Si ces deux panneaux ont bien été peints pour le même autel, il reste à savoir pour quelle raison la version du Louvre, que tous reconnaissent comme la première, n’y fut jamais installée. Certains historiens ont imaginé que ce devait être pour des raisons iconographiques. On a parfois souligné que dans le panneau de Londres, les protagonistes sont dotés d’une auréole et que saint Jean Baptiste tient entre ses bras un bâton en forme de croix et un petit phylactère sur lequel on parvient à lire « Ecce agnus », en référence à sa mission d’annonce de la venue du Christ. Selon certains, ces éléments auraient été ajoutés afin de clarifier l’image du Louvre trop ambiguë, Jésus et Jean n’étant pas assez différenciés. Cependant, leur absence ne pouvait pas justifier l’exécution d’une nouvelle version car ces attributs pouvaient être aisément ajoutés sur le panneau du Louvre. Du reste, ce sont davantage le regard et le geste de désignation de l’ange du Louvre qui ont pu être considérés comme inappropriés à l’iconographie souhaitée et qui auraient incité les commanditaires à refuser l’œuvre et à exiger une seconde version amendée. Mais là encore, il aurait été aisé pour Léonard de modifier ces deux détails. Les découvertes des examens scientifiques Les nouvelles réflectographies infrarouges effectuées sur les deux œuvres, celle de la National Gallery en 2005 puis celle du Louvre en 2009, ont permis de définitivement rejeter cette idée d’une substitution pour cause d’hétérodoxie de la version du Louvre. Sous la Vierge londonienne a été découverte une partie d’une première composition d’une Vierge en adoration, dans une attitude assez différente de celle finalement peinte, avec son corps tourné vers la droite, son visage presque de profil, son bras droit écarté et l’autre replié sur le cœur. Une fois tracée, cette composition fut finalement recouverte d’une nouvelle couche d’impression afin d’y reporter un second dessin préparatoire correspondant à l’actuelle composition visible. Dans le tableau du Louvre, la réflectographie n’a pas révélé de composition différente sous la peinture, mais des modifications très significatives. Hormis les légers repentirs destinés à améliorer l’agencement des personnages, on a découvert que l’ange avait d’abord été peint tel qu’on le voit dans le tableau de Londres, le regard tourné vers Jean et sans la main droite levée. Ce n’est que vers la fin de l’exécution picturale que le maître a modifié son attitude. L’idée d’une correction de l’image du Louvre dans la version de Londres doit donc être désormais tout à fait abandonnée, et celle de l’hétérodoxie du tableau du Louvre oubliée. Dans l’état actuel de nos connaissances, on pourrait proposer la reconstitution suivante. Léonard a conçu d’abord, sur le panneau du Louvre, la composition de la Vierge aux rochers telle qu’on la voit aujourd’hui dans le tableau de la National Gallery. À la suite d’un différend financier avec la confrérie, il a peut-être décidé avec Ambrogio de Predis de céder cette première version après y avoir modifié l’attitude de l’ange, pour attirer davantage l’attention sur le petit saint Jean, sans doute à la demande du nouveau destinataire, et pour une raison inconnue. En effet, dans la mesure où ce changement apporté à l’ange ne sera pas repris dans la seconde version accrochée dans l’église, il est fort vraisemblable que cette variante a été souhaitée par le premier propriétaire de l’œuvre et non pas par la confrérie, satisfaite de la composition initiale. C’est à l’occasion de cette transformation de l’ange que Léonard a tracé l’un de ses plus beaux dessins, la Tête de femme du musée de Turin, afin d’étudier le pivotement naturel de la figure et le surgissement du sourire. Par la suite, entre les années 1490 et 1508, Léonard a exécuté un second panneau, en cherchant d’abord à changer la composition de l’Adoration de l’Enfant, puis il a finalement repris le carton initial utilisé pour le panneau du Louvre. On peut légitimement s’étonner de constater que le tableau de Londres reproduit assez fidèlement le carton utilisé pour la version du Louvre, sans prendre en compte les nombreux repentirs que le maître avait apportés à la disposition des figures au cours de l’exécution. On remarque toutefois des variantes au niveau de l’arrangement des plis du manteau de la Vierge et de l’habit de l’ange. On considère souvent un beau dessin de draperie conservé à Windsor (RCIN 912521) comme une nouvelle réflexion de Léonard pour cette partie. Il y a aussi certaines simplifications dans la version de Londres, par exemple la tête de Jésus qui se présente en un profil bien plus statique. Plusieurs détails, comme les rochers de la grotte ou la flore, sont peints de façon plus schématique. La morphologie de plusieurs personnages ressemble davantage à la manière de certains élèves qu’à celle du maître, notamment le Baptiste, si proche de l’art de Giovanni Antonio Boltraffio, documenté dans l’atelier de Léonard en 1491. Tout cela justifie les interrogations d’une bonne partie de la critique sur l’autographie de cette seconde version à laquelle l’atelier milanais de Léonard semble avoir participé. Du reste, il faut rappeler que les tableaux latéraux représentant chacun un ange musicien ont été peints par deux autres artistes, identifiés le plus souvent à son collègue Ambrogio de Predis et à son probable collaborateur Francesco Napoletano. Certains détails, tel le visage de l’ange, présentent des transitions d’ombre et de lumière et un travail de la chevelure plus raffinés que ceux de l’Enfant Jésus, ce qui pourrait s’expliquer par une intervention du maître. Par ailleurs, quelques parties sont à peine ébauchées, presque inachevées, le pied droit du Baptiste, le dos de Jésus, la main de l’ange et peut-être aussi le sol au premier plan, selon une pratique davantage caractéristique du maître que de ses élèves. Cette hétérogénéité incite à y voir une œuvre largement exécutée par l’atelier, sous le contrôle et avec l’intervention de Léonard. Le thème de l’Adoration de l’Enfant Jésus permet à Léonard de se libérer de toute architecture et de la construction d’une perspective géométrique, comme on la trouvait encore dans l’Adoration des Mages. L’ordonnance demeure cependant savamment élaborée, avec les figures disposées en une pyramide harmonieuse. Les formes de la grotte, soutenue par un grand pic rocheux central, font écho à cet agencement. Avec cette composition centrée sur la Vierge, Léonard invite le regard du fidèle à une lecture verticale du retable, depuis l’Enfant Jésus assis sur la roche jusqu’au Père éternel sur la voûte, c’est-à-dire de l’Incarnation à l’Immaculée Conception. La disposition en pyramide engage en revanche une lecture horizontale, de l’ange vers le Baptiste, à travers laquelle se développe une narration animée par les gestes et les expressions. L’ange et la Vierge soutiennent chacun un enfant qu’ils invitent à la rencontre, avec une douce bienveillance. Chaque personnage exprime avec sérieux et profondeur les sentiments nés de cet événement : la mélancolie méditative de la Vierge qui observe le Baptiste et pressent l’annonce de la mort de son Fils, la digne résolution de Jean qui s’engage à annoncer la venue du Messie, la grave bénédiction de Jésus conscient de son futur, le sourire naissant de l’ange qui révèle la promesse du salut de l’humanité par le sacrifice du Christ. La subtilité de ces émotions et le naturel des attitudes doivent beaucoup à l’atmosphère de clair-obscur de la grotte, dont Léonard décrit avec précision la stratification et la flore. (Texte de Vincent Delieuvin, juillet 2021)",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl010062373 (La Vierge, l'Enfant Jésus, saint Jean Baptiste et un ange, dit La Vierge aux rochers), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010062373"
+        }
+      ]
     }
   ],
   "current_location": "geo-louvre",
@@ -256,6 +574,41 @@
   "open_questions": [
     "Delivery deadline in the 1483 contract: 8 December 1483 or 1484? Read the contract text in Villata.",
     "How and when did the first version leave the confraternity (sale to Ludovico, to the French, or other)? Which documents support each version?"
+  ],
+  "identifiers": {
+    "wikidata": "Q11935346",
+    "louvre_ark": "cl010062373",
+    "inventory": "INV 777"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_Da_Vinci_-_Vergine_delle_Rocce_(Louvre).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_Da_Vinci_-_Vergine_delle_Rocce_(Louvre).jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/0000000021/0000062373/0000855957_OG.JPG",
+      "credit": "© 2018 GrandPalaisRmn (musée du Louvre) / Urtado/Rabeau",
+      "page": "https://collections.louvre.fr/ark:/53355/cl010062373"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Vergine_delle_Rocce_(Parigi)",
+      "text": "La prima versione della Vergine delle Rocce è un dipinto a olio su tavola trasportato su tela di Leonardo da Vinci, databile al 1483-1486 e conservato nel Musée du Louvre di Parigi, mentre la seconda versione è conservata alla National Gallery di Londra.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Virgin of the Rocks",
+    "Vergine delle Rocce",
+    "La Vierge aux rochers",
+    "The Virgin of the Rocks",
+    "Madonna of the Rocks",
+    "The Madonna of the Rocks",
+    "La Vierge, l'Enfant Jésus, saint Jean Baptiste et un ange, dit La Vierge aux rochers"
   ],
   "timeline": {
     "lane": "works",

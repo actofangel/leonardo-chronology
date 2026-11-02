@@ -1,0 +1,127 @@
+{
+  "id": "w-five-grotesque-heads-124951",
+  "type": "work",
+  "label": "Five Grotesque Heads",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "portrait",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q8254439 (instance of: drawing; study; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q8254439",
+    "rcin": "124951",
+    "inventory": "RL 124951"
+  },
+  "variants": [
+    "Studio di cinque teste grottesche",
+    "Têtes grotesques",
+    "A man tricked by gypsies"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912495%2C_Recto_A_man_tricked_by_Gypsies.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912495%2C_Recto_A_man_tricked_by_Gypsies.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2744",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q8254439 (Five Grotesque Heads), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q8254439"
+        }
+      ]
+    },
+    {
+      "id": "api2745",
+      "about": "date",
+      "value": {
+        "text": "1490",
+        "start": 1490
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1490.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q8254439 (Five Grotesque Heads), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q8254439"
+        }
+      ]
+    },
+    {
+      "id": "api2746",
+      "about": "inventory",
+      "value": {
+        "text": "RL 124951"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RL 124951 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q8254439 (Five Grotesque Heads), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q8254439"
+        }
+      ]
+    },
+    {
+      "id": "api2747",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912495 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912495 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q8254439 (Five Grotesque Heads), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q8254439"
+        }
+      ]
+    },
+    {
+      "id": "api2748",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q8254439 (Five Grotesque Heads), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q8254439"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

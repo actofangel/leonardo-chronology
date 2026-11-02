@@ -282,10 +282,129 @@
       "check_in": [
         "British Library Digitised Manuscripts viewer, URL to record after direct check"
       ]
+    },
+    {
+      "id": "api2057",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1105846 (Codex Arundel), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1105846"
+        }
+      ]
+    },
+    {
+      "id": "api2058",
+      "about": "date",
+      "value": {
+        "text": "15th century",
+        "start": 1450
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 15th century.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1105846 (Codex Arundel), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1105846"
+        }
+      ]
+    },
+    {
+      "id": "api2059",
+      "about": "current_location",
+      "value": {
+        "text": "British Library"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by British Library, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1105846 (Codex Arundel), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1105846"
+        }
+      ]
+    },
+    {
+      "id": "api2060",
+      "about": "medium",
+      "value": {
+        "text": "paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1105846 (Codex Arundel), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1105846"
+        }
+      ]
+    },
+    {
+      "id": "api2061",
+      "about": "dimensions",
+      "value": {
+        "text": "28 cm x 18 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 28 cm, width 18 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1105846 (Codex Arundel), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1105846"
+        }
+      ]
     }
   ],
   "open_questions": [
     "Folio and Italian text of the 1508 note; Arundel 263 f. 1r is commonly cited but not confirmed here.",
     "When and where the Earl of Arundel obtained the volume (c.1630 or c.1636, Spain or elsewhere) and its link with Pompeo Leoni's heirs."
+  ],
+  "identifiers": {
+    "wikidata": "Q1105846"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_arundel.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codex_arundel.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Codex_Arundel",
+      "text": "Codex Arundel is a bound collection of pages of notes written by Leonardo da Vinci and dating mostly from between 1480 and 1518. The codex contains a number of treatises on a variety of subjects, including mechanics and geometry. The name of the codex came from the Earl of Arundel, who acquired it in Spain in the 1630s. It forms part of the British Library Arundel Manuscripts.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Codice_Arundel_263",
+      "text": "Il Codice Arundel è una raccolta di disegni e scritti di Leonardo da Vinci, comprendente 283 fogli databili tra il 1478 e il 1518, attualmente conservato alla British Library di Londra. Il nome del codice deriva dal conte di Arundel, che lo acquistò in Spagna negli anni Trenta del XVI secolo. Fa parte dei Manoscritti di Arundel della British Library.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Codex_Arundel",
+      "text": "Le Codex Arundel est un recueil de pages de notes écrites par Léonard de Vinci datant principalement de 1480 à 1518. Le codex contient un certain nombre de traités sur différents sujets, dont la mécanique et la géométrie.",
+      "retrieved": "2026-11-02"
+    }
   ]
 }

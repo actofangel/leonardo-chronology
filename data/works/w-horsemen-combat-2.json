@@ -1,0 +1,82 @@
+{
+  "id": "w-horsemen-combat-2",
+  "type": "work",
+  "label": "Study of Horsemen in Combat and Foot Soldiers",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136389495 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389495",
+    "inventory": "215A recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_vinci%2C_Study_of_battles_on_horseback_and_on_foot_02.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci%2C_Study_of_battles_on_horseback_and_on_foot_02.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api60",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389495 (Study of Horsemen in Combat and Foot Soldiers), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389495"
+        }
+      ]
+    },
+    {
+      "id": "api61",
+      "about": "inventory",
+      "value": {
+        "text": "215A recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 215A recto in Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389495 (Study of Horsemen in Combat and Foot Soldiers), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389495"
+        }
+      ]
+    },
+    {
+      "id": "api62",
+      "about": "current_location",
+      "value": {
+        "text": "Gallerie dell'Accademia"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389495 (Study of Horsemen in Combat and Foot Soldiers), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389495"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-gallerie-accademia-venice"
+    }
+  ],
+  "current_location": "geo-gallerie-accademia-venice"
+}

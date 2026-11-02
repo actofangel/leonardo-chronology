@@ -1,0 +1,53 @@
+{
+  "id": "w-salvator-mundi-lecco",
+  "type": "work",
+  "label": "Salvator Mundi of Lecco",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q108527853 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q108527853"
+  },
+  "variants": [
+    "Il Cristo di Lecco",
+    "Cristo di Lecco"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Head_of_Christ_attributed_to_Leonardo_da_Vinci.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Head_of_Christ_attributed_to_Leonardo_da_Vinci.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2485",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci (hypothesis)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator with the qualification: hypothesis. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q108527853 (Salvator Mundi of Lecco), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q108527853"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Ritratto_di_Lecco",
+      "text": "Il Ritratto di Lecco è un disegno a sanguigna su carta preparata rossa/rosata di anonimo del XVI sec attribuito alla mano di Leonardo da Vinci, databile tra la fine del XV e l'inizio del XVI secolo, conservato in una collezione privata in Lombardia.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

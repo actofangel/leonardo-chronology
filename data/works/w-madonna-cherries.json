@@ -1,0 +1,120 @@
+{
+  "id": "w-madonna-cherries",
+  "type": "work",
+  "label": "Madonna of the Cherries",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "panel",
+    "condition": "lost",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q110159129 (instance of: painting; material: oil paint; panel; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q110159129"
+  },
+  "variants": [
+    "Madonna delle ciliegie"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Giampietrino_-_Madonna_of_the_Cherries.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Giampietrino_-_Madonna_of_the_Cherries.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2169",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q110159129 (Madonna of the Cherries), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q110159129"
+        }
+      ]
+    },
+    {
+      "id": "api2170",
+      "about": "date",
+      "value": {
+        "text": "1508 to 1510",
+        "start": 1508,
+        "end": 1510
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1508 to 1510.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q110159129 (Madonna of the Cherries), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q110159129"
+        }
+      ]
+    },
+    {
+      "id": "api2171",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q110159129 (Madonna of the Cherries), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q110159129"
+        }
+      ]
+    },
+    {
+      "id": "api2172",
+      "about": "dimensions",
+      "value": {
+        "text": "64.8 cm x 49 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 64.8 cm, width 49 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q110159129 (Madonna of the Cherries), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q110159129"
+        }
+      ]
+    },
+    {
+      "id": "api2173",
+      "about": "depicts",
+      "value": {
+        "text": "Madonna and Child; cherry; Mary; Christ Child"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Madonna and Child; cherry; Mary; Christ Child. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q110159129 (Madonna of the Cherries), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q110159129"
+        }
+      ]
+    }
+  ]
+}

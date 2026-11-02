@@ -124,6 +124,109 @@
         "Clark and Pedretti 1968",
         "Kemp 2006"
       ]
+    },
+    {
+      "id": "api1335",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131841258 (Map of Imola), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131841258"
+        }
+      ]
+    },
+    {
+      "id": "api1336",
+      "about": "date",
+      "value": {
+        "text": "1502",
+        "start": 1502
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1502.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131841258 (Map of Imola), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131841258"
+        }
+      ]
+    },
+    {
+      "id": "api1337",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912284"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912284 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131841258 (Map of Imola), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131841258"
+        }
+      ]
+    },
+    {
+      "id": "api1338",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912284 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912284 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131841258 (Map of Imola), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131841258"
+        }
+      ]
+    },
+    {
+      "id": "api1339",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131841258 (Map of Imola), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131841258"
+        }
+      ]
+    },
+    {
+      "id": "api1340",
+      "about": "dimensions",
+      "value": {
+        "text": "440 mm x 602 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 440 mm, width 602 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131841258 (Map of Imola), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131841258"
+        }
+      ]
     }
   ],
   "current_location": "geo-royal-collection-windsor",
@@ -143,6 +246,32 @@
   ],
   "open_questions": [
     "Is there any document showing that Borgia commissioned the map, or is the link inferred from date and place?"
+  ],
+  "identifiers": {
+    "wikidata": "Q131841258",
+    "rcin": "912284",
+    "inventory": "RCIN 912284"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Plan_of_Imola_-_Google_Art_Project.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Plan_of_Imola_-_Google_Art_Project.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Pianta_di_Imola",
+      "text": "La pianta di Imola è una mappa storica pittorica della città di Imola, disegnata nel 1473 da un ingegnere lombardo, Danese Maineri e riveduta da Leonardo da Vinci nel 1502, durante il periodo in cui il genio toscano fu al servizio di Cesare Borgia come ingegnere militare. L'originale è custodito a Londra nelle Royal Collection, nella residenza del Castello di Windsor.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Pianta di Imola",
+    "Plan of Imola",
+    "A Map of Imola"
   ],
   "timeline": {
     "lane": "works",

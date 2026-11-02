@@ -69,9 +69,75 @@
       "check_in": [
         "Clark and Pedretti 1968"
       ]
+    },
+    {
+      "id": "api126",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389513 (Study for the Sforza Monument), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389513"
+        }
+      ]
+    },
+    {
+      "id": "api127",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912357 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912357 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389513 (Study for the Sforza Monument), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389513"
+        }
+      ]
+    },
+    {
+      "id": "api128",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389513 (Study for the Sforza Monument), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389513"
+        }
+      ]
     }
   ],
   "open_questions": [
     "Medium, size and whether the rider is a likeness of Francesco Sforza, to locate."
+  ],
+  "identifiers": {
+    "wikidata": "Q136389513",
+    "rcin": "912357",
+    "inventory": "RCIN 912357 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912357%2C_A_design_for_an_equestrian_monument_c.1485-8.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912357%2C_A_design_for_an_equestrian_monument_c.1485-8.jpg"
+    }
+  ],
+  "variants": [
+    "Study for the Sforza Monument"
   ]
 }

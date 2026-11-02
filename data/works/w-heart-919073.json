@@ -90,6 +90,72 @@
       "check_in": [
         "Clayton and Philo 2012"
       ]
+    },
+    {
+      "id": "api426",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389932 (Anatomical Drawings of the Heart and its Blood Vessels), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389932"
+        }
+      ]
+    },
+    {
+      "id": "api427",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919073 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919073 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389932 (Anatomical Drawings of the Heart and its Blood Vessels), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389932"
+        }
+      ]
+    },
+    {
+      "id": "api428",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389932 (Anatomical Drawings of the Heart and its Blood Vessels), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389932"
+        }
+      ]
     }
+  ],
+  "identifiers": {
+    "wikidata": "Q136389932",
+    "rcin": "919073",
+    "inventory": "RCIN 919073 verso"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919073%2C_Verso_The_heart_and_coronary_vessels_c.1511-13.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919073%2C_Verso_The_heart_and_coronary_vessels_c.1511-13.jpg"
+    }
+  ],
+  "variants": [
+    "Anatomical Drawings of the Heart and its Blood Vessels"
   ]
 }

@@ -170,9 +170,75 @@
       "check_in": [
         "Clark and Pedretti 1968"
       ]
+    },
+    {
+      "id": "api1126",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390066 (Bird's-eye View of the Landscape showing the Tuscan Cities of Arezzo, Perugia, Chiusi and Siena), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390066"
+        }
+      ]
+    },
+    {
+      "id": "api1127",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912278 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912278 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390066 (Bird's-eye View of the Landscape showing the Tuscan Cities of Arezzo, Perugia, Chiusi and Siena), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390066"
+        }
+      ]
+    },
+    {
+      "id": "api1128",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390066 (Bird's-eye View of the Landscape showing the Tuscan Cities of Arezzo, Perugia, Chiusi and Siena), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390066"
+        }
+      ]
     }
   ],
   "open_questions": [
     "Which purpose, Florentine drainage or Borgia service, does the documentary record support?"
+  ],
+  "identifiers": {
+    "wikidata": "Q136390066",
+    "rcin": "912278",
+    "inventory": "RCIN 912278 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912278%2C_A_map_of_the_Valdichiana_c.1503-6.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912278%2C_A_map_of_the_Valdichiana_c.1503-6.jpg"
+    }
+  ],
+  "variants": [
+    "Bird's-eye View of the Landscape showing the Tuscan Cities of Arezzo, Perugia, Chiusi and Siena"
   ]
 }

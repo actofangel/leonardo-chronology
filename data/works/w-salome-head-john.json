@@ -1,0 +1,161 @@
+{
+  "id": "w-salome-head-john",
+  "type": "work",
+  "label": "Salome with the Head of John the Baptist",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "condition": "extant",
+    "subject": [
+      "religious",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q27955518 (instance of: painting; material: oil paint; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q27955518",
+    "inventory": "GG_190"
+  },
+  "variants": [
+    "Salomè con la testa del Battista"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bernardino_Luini%2C_Kunsthistorisches_Museum_Wien%2C_Gem%C3%A4ldegalerie_-_Salome_mit_dem_Haupt_Johannes_d._T%C3%A4ufers_-_GG_190_-_Kunsthistorisches_Museum.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Bernardino_Luini%2C_Kunsthistorisches_Museum_Wien%2C_Gem%C3%A4ldegalerie_-_Salome_mit_dem_Haupt_Johannes_d._T%C3%A4ufers_-_GG_190_-_Kunsthistorisches_Museum.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2769",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27955518 (Salome with the Head of John the Baptist), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27955518"
+        }
+      ]
+    },
+    {
+      "id": "api2770",
+      "about": "date",
+      "value": {
+        "text": "1525",
+        "start": 1525
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1525.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27955518 (Salome with the Head of John the Baptist), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27955518"
+        }
+      ]
+    },
+    {
+      "id": "api2771",
+      "about": "inventory",
+      "value": {
+        "text": "GG_190"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number GG_190 in Kunsthistorisches Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27955518 (Salome with the Head of John the Baptist), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27955518"
+        }
+      ]
+    },
+    {
+      "id": "api2772",
+      "about": "current_location",
+      "value": {
+        "text": "Kunsthistorisches Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Kunsthistorisches Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27955518 (Salome with the Head of John the Baptist), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27955518"
+        }
+      ]
+    },
+    {
+      "id": "api2773",
+      "about": "medium",
+      "value": {
+        "text": "oil paint"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27955518 (Salome with the Head of John the Baptist), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27955518"
+        }
+      ]
+    },
+    {
+      "id": "api2774",
+      "about": "dimensions",
+      "value": {
+        "text": "56 cm x 43 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 56 cm, width 43 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27955518 (Salome with the Head of John the Baptist), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27955518"
+        }
+      ]
+    },
+    {
+      "id": "api2775",
+      "about": "depicts",
+      "value": {
+        "text": "man; woman; head; platter; Salome; beheaded head; Salome with the head of John the Baptist"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: man; woman; head; platter; Salome; beheaded head; Salome with the head of John the Baptist. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q27955518 (Salome with the Head of John the Baptist), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q27955518"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-khm-vienna"
+    }
+  ],
+  "current_location": "geo-khm-vienna"
+}

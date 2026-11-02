@@ -83,10 +83,93 @@
       "check_in": [
         "Popham and Pouncey 1950"
       ]
+    },
+    {
+      "id": "api2352",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131557873 (Design for a Scythed Chariot and Armoured Car (?)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131557873"
+        }
+      ]
+    },
+    {
+      "id": "api2353",
+      "about": "inventory",
+      "value": {
+        "text": "1860,0616.99"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1860,0616.99 in British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131557873 (Design for a Scythed Chariot and Armoured Car (?)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131557873"
+        }
+      ]
+    },
+    {
+      "id": "api2354",
+      "about": "current_location",
+      "value": {
+        "text": "British Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131557873 (Design for a Scythed Chariot and Armoured Car (?)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131557873"
+        }
+      ]
+    },
+    {
+      "id": "api2355",
+      "about": "depicts",
+      "value": {
+        "text": "Leonardo's fighting vehicle; tank"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Leonardo's fighting vehicle; tank. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131557873 (Design for a Scythed Chariot and Armoured Car (?)), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131557873"
+        }
+      ]
     }
   ],
   "open_questions": [
     "Date to locate; not given in the excerpt of the British Museum record."
   ],
-  "inventory": "1860,0616.99"
+  "inventory": "1860,0616.99",
+  "identifiers": {
+    "wikidata": "Q131557873",
+    "inventory": "1860,0616.99"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_1860%2C0616.99%2C_Studies_of_military_tank-like_machines_(cropped).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_1860%2C0616.99%2C_Studies_of_military_tank-like_machines_(cropped).jpg"
+    }
+  ],
+  "variants": [
+    "Design for a Scythed Chariot and Armoured Car (?)",
+    "Studi di macchine militari simili a carri armati"
+  ]
 }

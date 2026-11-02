@@ -1,0 +1,285 @@
+{
+  "id": "w-drapery-kneeling-figure",
+  "type": "work",
+  "label": "Drapery Study for a Kneeling Figure in Profil Perdu to the Right",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389602 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389602",
+    "louvre_ark": "cl020003019",
+    "inventory": "INV 2256, Recto"
+  },
+  "variants": [
+    "Draperie pour une figure agenouillée"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Draperie_pour_une_figure_agenouill%C3%A9e%2C_INV_2256%2C_Recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Draperie_pour_une_figure_agenouill%C3%A9e%2C_INV_2256%2C_Recto.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/00/30/19/00/AGO003019-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020003019"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api657",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389602 (Drapery Study for a Kneeling Figure in Profil Perdu to the Right), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389602"
+        }
+      ]
+    },
+    {
+      "id": "api658",
+      "about": "date",
+      "value": {
+        "text": "1473 to 1477",
+        "start": 1473,
+        "end": 1477
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1473 to 1477.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389602 (Drapery Study for a Kneeling Figure in Profil Perdu to the Right), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389602"
+        }
+      ]
+    },
+    {
+      "id": "api659",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2256, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number INV 2256, Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389602 (Drapery Study for a Kneeling Figure in Profil Perdu to the Right), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389602"
+        }
+      ]
+    },
+    {
+      "id": "api660",
+      "about": "current_location",
+      "value": {
+        "text": "Cabinet des dessins"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389602 (Drapery Study for a Kneeling Figure in Profil Perdu to the Right), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389602"
+        }
+      ]
+    },
+    {
+      "id": "api661",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389602 (Drapery Study for a Kneeling Figure in Profil Perdu to the Right), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389602"
+        }
+      ]
+    },
+    {
+      "id": "api662",
+      "about": "dimensions",
+      "value": {
+        "text": "0.181 metre x 0.234 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.181 metre, width 0.234 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389602 (Drapery Study for a Kneeling Figure in Profil Perdu to the Right), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389602"
+        }
+      ]
+    },
+    {
+      "id": "api663",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2256, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number INV 2256, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003019 (Draperie pour une figure agenouillée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003019"
+        }
+      ]
+    },
+    {
+      "id": "api664",
+      "about": "inventory_history",
+      "value": {
+        "text": "Anciens numéros d'inventaire: NIII 7936; Référence de l'inventaire manuscrit: vol.1, p.385"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Anciens numéros d'inventaire: NIII 7936; Référence de l'inventaire manuscrit: vol.1, p.385.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003019 (Draperie pour une figure agenouillée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003019"
+        }
+      ]
+    },
+    {
+      "id": "api665",
+      "about": "date",
+      "value": {
+        "text": "Vers 1473/1477",
+        "start": 1473,
+        "end": 1477
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: Vers 1473/1477.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003019 (Draperie pour une figure agenouillée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003019"
+        }
+      ]
+    },
+    {
+      "id": "api666",
+      "about": "medium",
+      "value": {
+        "text": "Pinceau et tempera grise, rehauts de blanc, sur toile de lin préparée grise. Indication du buste et du bras droit à la pointe du pinceau. Dans l'angle supérieur gauche, à l'encre brune métallo-gallique, le chiffre : 'I'. Toile décatie puis couverte d'une fine couche de préparation à base de blanc de plomb mélangé à une petite quantité de pigments bruns et noirs pour une préparation grise. Ce ton gris clair a légèrement ouvert les possibilités de gradation des blancs et des gris. L'artiste a commencé par esquisser les contours à la pointe d'un pinceau à peine chargé de pigments bruns. Le tracé préliminaire reste visible à l'intérieur de certains plis ou lorsque la composition a été modifiée, par exemple au-dessus du pied. puis, il a posé les premières ombres avec un brun plus sombre, en appliquant de fines hachures qui se rejoignent progressivement. Ces hachures suivent le sens de la forme. Les clairs sont posés ensuite, en recouvrement partiel des bruns, d'abord avec de minces applications de blanc ou de gris laissant transparaître les dessous, puis avec un blanc opaque, posé en fines hachures, pour donner vie aux crêtes du tissu, faire luire les creux où se concentre la lumière, et créer quelques effets de texture sur les surfaces planes au moyen de lignes parallèles ou croisées. Quelques reprises de contours en brun sombre, le long des hautes lumières ou dans les plis les plus profonds, parachèvent le travail. Une mauvaise mise en tension a provoqué une déformation du support en losange ce qui a incité un de ses possesseurs à le découper pour le remettre au rectangle, en supprimant une petite partie de la composition. Trace de montage à la plume et encre brune. Doublé."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Pinceau et tempera grise, rehauts de blanc, sur toile de lin préparée grise. Indication du buste et du bras droit à la pointe du pinceau. Dans l'angle supérieur gauche, à l'encre brune métallo-gallique, le chiffre : 'I'. Toile décatie puis couverte d'une fine couche de préparation à base de blanc de plomb mélangé à une petite quantité de pigments bruns et noirs pour une préparation grise. Ce ton gris clair a légèrement ouvert les possibilités de gradation des blancs et des gris. L'artiste a commencé par esquisser les contours à la pointe d'un pinceau à peine chargé de pigments bruns. Le tracé préliminaire reste visible à l'intérieur de certains plis ou lorsque la composition a été modifiée, par exemple au-dessus du pied. puis, il a posé les premières ombres avec un brun plus sombre, en appliquant de fines hachures qui se rejoignent progressivement. Ces hachures suivent le sens de la forme. Les clairs sont posés ensuite, en recouvrement partiel des bruns, d'abord avec de minces applications de blanc ou de gris laissant transparaître les dessous, puis avec un blanc opaque, posé en fines hachures, pour donner vie aux crêtes du tissu, faire luire les creux où se concentre la lumière, et créer quelques effets de texture sur les surfaces planes au moyen de lignes parallèles ou croisées. Quelques reprises de contours en brun sombre, le long des hautes lumières ou dans les plis les plus profonds, parachèvent le travail. Une mauvaise mise en tension a provoqué une déformation du support en losange ce qui a incité un de ses possesseurs à le découper pour le remettre au rectangle, en supprimant une petite partie de la composition. Trace de montage à la plume et encre brune. Doublé.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003019 (Draperie pour une figure agenouillée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003019"
+        }
+      ]
+    },
+    {
+      "id": "api667",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.181 m (à la feuille); Largeur 0.234 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.181 m (à la feuille); Largeur 0.234 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003019 (Draperie pour une figure agenouillée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003019"
+        }
+      ]
+    },
+    {
+      "id": "api668",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; Dürer, Albrecht [ancienne attribution]; Fra Bartolomeo (Baccio della Porta, dit) [proposition d'attribution]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]; Dürer, Albrecht [ancienne attribution]; Fra Bartolomeo (Baccio della Porta, dit) [proposition d'attribution].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003019 (Draperie pour une figure agenouillée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003019"
+        }
+      ]
+    },
+    {
+      "id": "api669",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003019 (Draperie pour une figure agenouillée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003019"
+        }
+      ]
+    },
+    {
+      "id": "api670",
+      "about": "provenance",
+      "value": {
+        "text": "E. Jabach ; Inventaire après décès 1695-1696, portefeuille E : '14. Estudes de draperie dalberdur sur toille collee sur papier et rehaussé de blanc en detrempe' ; P. Crozat, vente Paris, 1741, sous le n° 5 (Léonard de Vinci) ; Nourri, vente, Paris 1785, n° 736 (Dürer) ; Ch.-P. J.-B. de Bourgevin Vialart de Saint-Morys; saisie des Emigrés en 1793, remise au Museum en 1796-1797; marque du Conservatoire (L. 2207).Inventaire du musée Napoléon :Inventaire du Musée Napoléon. Dessins. Vol.6, p.988, chap. : Ecole allemande, Carton 80. (...) Numéro : 7752. Nom du maître : Idem & Durer, Albert /&. Numéro d'ordre dans l'oeuvre du maître : 39. Désignation des sujets : Sur le même carton deux études de draperies, peintes en camayeu à gouache, sur toile. Dimensions : H. 27 x L. 23,5 cm ; H. 18,5 x L. 23,5 cm. Origine : Idem & Collection nouvelle /&. Emplacement actuel : Idem & Calcographie du Musée Napoléon /&. Observations : Idem & Remis au Musée le 16 juin 1830 à l'encre /&. Signe de recollement : Vu au crayon#Vu au crayon#trait oblique / au crayon / sur le n° d'ordre. Cote : 1DD38 Note relative à la saisie informatique : Observations : la mention de remise au musée, précisée dans la notice n ° 7700, concernerait les notices n° 7700 à 7999.."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: E. Jabach ; Inventaire après décès 1695-1696, portefeuille E : '14. Estudes de draperie dalberdur sur toille collee sur papier et rehaussé de blanc en detrempe' ; P. Crozat, vente Paris, 1741, sous le n° 5 (Léonard de Vinci) ; Nourri, vente, Paris 1785, n° 736 (Dürer) ; Ch.-P. J.-B. de Bourgevin Vialart de Saint-Morys; saisie des Emigrés en 1793, remise au Museum en 1796-1797; marque du Conservatoire (L. 2207).Inventaire du musée Napoléon :Inventaire du Musée Napoléon. Dessins. Vol.6, p.988, chap. : Ecole allemande, Carton 80. (...) Numéro : 7752. Nom du maître : Idem & Durer, Albert /&. Numéro d'ordre dans l'oeuvre du maître : 39. Désignation des sujets : Sur le même carton deux études de draperies, peintes en camayeu à gouache, sur toile. Dimensions : H. 27 x L. 23,5 cm ; H. 18,5 x L. 23,5 cm. Origine : Idem & Collection nouvelle /&. Emplacement actuel : Idem & Calcographie du Musée Napoléon /&. Observations : Idem & Remis au Musée le 16 juin 1830 à l'encre /&. Signe de recollement : Vu au crayon#Vu au crayon#trait oblique / au crayon / sur le n° d'ordre. Cote : 1DD38 Note relative à la saisie informatique : Observations : la mention de remise au musée, précisée dans la notice n ° 7700, concernerait les notices n° 7700 à 7999..",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003019 (Draperie pour une figure agenouillée), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003019"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

@@ -118,6 +118,127 @@
       "check_in": [
         "Clark and Pedretti 1968"
       ]
+    },
+    {
+      "id": "api1081",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390051 (Explosion of Rock caused by the Bursting of a Water Vein and Creation of Waves in a Lake by Falling Boulders), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390051"
+        }
+      ]
+    },
+    {
+      "id": "api1082",
+      "about": "date",
+      "value": {
+        "text": "c.1517 to 1518",
+        "start": 1517,
+        "end": 1518
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1517 to 1518.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390051 (Explosion of Rock caused by the Bursting of a Water Vein and Creation of Waves in a Lake by Falling Boulders), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390051"
+        }
+      ]
+    },
+    {
+      "id": "api1083",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912380 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912380 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390051 (Explosion of Rock caused by the Bursting of a Water Vein and Creation of Waves in a Lake by Falling Boulders), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390051"
+        }
+      ]
+    },
+    {
+      "id": "api1084",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912380"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912380 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390051 (Explosion of Rock caused by the Bursting of a Water Vein and Creation of Waves in a Lake by Falling Boulders), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390051"
+        }
+      ]
+    },
+    {
+      "id": "api1085",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390051 (Explosion of Rock caused by the Bursting of a Water Vein and Creation of Waves in a Lake by Falling Boulders), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390051"
+        }
+      ]
+    },
+    {
+      "id": "api1086",
+      "about": "dimensions",
+      "value": {
+        "text": "162 mm x 203 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 162 mm, width 203 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390051 (Explosion of Rock caused by the Bursting of a Water Vein and Creation of Waves in a Lake by Falling Boulders), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390051"
+        }
+      ]
     }
+  ],
+  "identifiers": {
+    "wikidata": "Q136390051",
+    "rcin": "912380",
+    "inventory": "RCIN 912380 recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_A_deluge_-_Google_Art_Project.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_A_deluge_-_Google_Art_Project.jpg"
+    }
+  ],
+  "variants": [
+    "Explosion of Rock caused by the Bursting of a Water Vein and Creation of Waves in a Lake by Falling Boulders",
+    "Un déluge",
+    "A deluge"
   ]
 }

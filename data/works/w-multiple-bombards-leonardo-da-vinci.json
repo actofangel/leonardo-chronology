@@ -1,0 +1,52 @@
+{
+  "id": "w-multiple-bombards-leonardo-da-vinci",
+  "type": "work",
+  "label": "multiple bombards by Leonardo da Vinci",
+  "subtype": "engineering_project",
+  "classification": {
+    "form": "engineering_project",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q85859932 (instance of: invention; cannon; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q85859932"
+  },
+  "variants": [
+    "Bombarda multipla di Leonardo da Vinci"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Cannone_multiplo_-_Museo_scienza_tecnologia_Milano_09095_01.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Cannone_multiplo_-_Museo_scienza_tecnologia_Milano_09095_01.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2879",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q85859932 (multiple bombards by Leonardo da Vinci), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q85859932"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Bombarda_multipla",
+      "text": "La bombarda multipla, anche conosciuta come circumtronito o circumfolgore, è un'arma da fuoco inventata da Leonardo da Vinci e composta da una piattaforma circolare sulla quale sono posti una serie di cannoni. Il primo progetto dell'arma risale agli anni ottanta del Quattrocento.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

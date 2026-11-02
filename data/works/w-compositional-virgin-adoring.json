@@ -1,0 +1,261 @@
+{
+  "id": "w-compositional-virgin-adoring",
+  "type": "work",
+  "label": "Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q29384842 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q29384842",
+    "met": "337494",
+    "inventory": "17.142.1"
+  },
+  "variants": [
+    "Quattro studi per una Natività",
+    "Studies of a Virgin worshipping the Christ Child"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Compositional_Sketches_for_the_Virgin_Adoring_the_Christ_Child%2C_with_and_without_the_Infant_St._John_the_Baptist%3B_Diagram_of_a_Perspectival_Projection_(recto)%3B_Slight_Doodles_(verso)_MET_DP136369.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Compositional_Sketches_for_the_Virgin_Adoring_the_Christ_Child%2C_with_and_without_the_Infant_St._John_the_Baptist%3B_Diagram_of_a_Perspectival_Projection_(recto)%3B_Slight_Doodles_(verso)_MET_DP136369.jpg"
+    },
+    {
+      "src": "https://images.metmuseum.org/CRDImages/dp/web-large/DP832657.jpg",
+      "credit": "The Metropolitan Museum of Art",
+      "page": "https://www.metmuseum.org/art/collection/search/337494"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2799",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29384842 (Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29384842"
+        }
+      ]
+    },
+    {
+      "id": "api2800",
+      "about": "date",
+      "value": {
+        "text": "1480 to 1485",
+        "start": 1480,
+        "end": 1485
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1480 to 1485.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29384842 (Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29384842"
+        }
+      ]
+    },
+    {
+      "id": "api2801",
+      "about": "inventory",
+      "value": {
+        "text": "17.142.1"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 17.142.1 in Metropolitan Museum of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29384842 (Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29384842"
+        }
+      ]
+    },
+    {
+      "id": "api2802",
+      "about": "current_location",
+      "value": {
+        "text": "Metropolitan Museum of Art"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Metropolitan Museum of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29384842 (Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29384842"
+        }
+      ]
+    },
+    {
+      "id": "api2803",
+      "about": "dimensions",
+      "value": {
+        "text": "19.3 cm x 16.2 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 19.3 cm, width 16.2 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29384842 (Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29384842"
+        }
+      ]
+    },
+    {
+      "id": "api2804",
+      "about": "depicts",
+      "value": {
+        "text": "woman; infant; drawing; Jesus Christ; Mary; perspective; John the Baptist; Christ"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: woman; infant; drawing; Jesus Christ; Mary; perspective; John the Baptist; Christ. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q29384842 (Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q29384842"
+        }
+      ]
+    },
+    {
+      "id": "api3044",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Met's record gives the artist as: Leonardo da Vinci.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 337494 (Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist; Diagram of a Perspectival Projection (recto); Slight Doodles (verso)), accession 17.142.1, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/337494"
+        }
+      ]
+    },
+    {
+      "id": "api3045",
+      "about": "date",
+      "value": {
+        "text": "1480, 85",
+        "start": 1480,
+        "end": 1485
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Met dates the work 1480, 85.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 337494 (Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist; Diagram of a Perspectival Projection (recto); Slight Doodles (verso)), accession 17.142.1, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/337494"
+        }
+      ]
+    },
+    {
+      "id": "api3046",
+      "about": "medium",
+      "value": {
+        "text": "Silverpoint, partly reworked by the artist with pen and dark brown ink on pink prepared paper; lines ruled with metalpoint (recto); pen and brown ink (verso)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Medium in the Met's record: Silverpoint, partly reworked by the artist with pen and dark brown ink on pink prepared paper; lines ruled with metalpoint (recto); pen and brown ink (verso).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 337494 (Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist; Diagram of a Perspectival Projection (recto); Slight Doodles (verso)), accession 17.142.1, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/337494"
+        }
+      ]
+    },
+    {
+      "id": "api3047",
+      "about": "dimensions",
+      "value": {
+        "text": "7 5/8 x 6 3/8 in. (19.3 x 16.2 cm)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Met's record: 7 5/8 x 6 3/8 in. (19.3 x 16.2 cm).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 337494 (Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist; Diagram of a Perspectival Projection (recto); Slight Doodles (verso)), accession 17.142.1, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/337494"
+        }
+      ]
+    },
+    {
+      "id": "api3048",
+      "about": "inventory",
+      "value": {
+        "text": "17.142.1"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Accession number 17.142.1, The Metropolitan Museum of Art; Rogers Fund, 1917.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 337494 (Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist; Diagram of a Perspectival Projection (recto); Slight Doodles (verso)), accession 17.142.1, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/337494"
+        }
+      ]
+    },
+    {
+      "id": "api3049",
+      "about": "current_location",
+      "value": {
+        "text": "The Metropolitan Museum of Art, New York"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by The Metropolitan Museum of Art (Drawings and Prints).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 337494 (Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist; Diagram of a Perspectival Projection (recto); Slight Doodles (verso)), accession 17.142.1, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/337494"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Compositional_Sketches_for_the_Virgin_Adoring_the_Christ_Child%2C_with_and_without_the_Infant_St._John_the_Baptist",
+      "text": "Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist; Diagram of a Perspectival Projection (recto); Slight Doodles (verso) is a 1480s drawing by Leonardo da Vinci. It is in the collection of the Metropolitan Museum of Art.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-met"
+    }
+  ],
+  "current_location": "geo-met"
+}

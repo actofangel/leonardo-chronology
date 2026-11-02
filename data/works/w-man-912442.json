@@ -1,0 +1,180 @@
+{
+  "id": "w-man-912442",
+  "type": "work",
+  "label": "Study of a Man with a Headpiece Seen in Profile",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "pen_and_ink"
+    ],
+    "condition": "extant",
+    "subject": [
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q131785044 (instance of: drawing; material: ink; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q131785044",
+    "rcin": "912442",
+    "inventory": "RCIN 912442"
+  },
+  "variants": [
+    "Lorenzo de' Medici",
+    "The head and shoulders of a young man wearing a cap in profile"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912442%2C_Recto_The_head_and_shoulders_of_a_young_man_wearing_a_cap_in_profile.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912442%2C_Recto_The_head_and_shoulders_of_a_young_man_wearing_a_cap_in_profile.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2919",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131785044 (Study of a Man with a Headpiece Seen in Profile), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131785044"
+        }
+      ]
+    },
+    {
+      "id": "api2920",
+      "about": "date",
+      "value": {
+        "text": "1483 to 1485",
+        "start": 1483,
+        "end": 1485
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1483 to 1485.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131785044 (Study of a Man with a Headpiece Seen in Profile), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131785044"
+        }
+      ]
+    },
+    {
+      "id": "api2921",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912442"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912442 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131785044 (Study of a Man with a Headpiece Seen in Profile), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131785044"
+        }
+      ]
+    },
+    {
+      "id": "api2922",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912442 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912442 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131785044 (Study of a Man with a Headpiece Seen in Profile), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131785044"
+        }
+      ]
+    },
+    {
+      "id": "api2923",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131785044 (Study of a Man with a Headpiece Seen in Profile), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131785044"
+        }
+      ]
+    },
+    {
+      "id": "api2924",
+      "about": "medium",
+      "value": {
+        "text": "ink"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: ink.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131785044 (Study of a Man with a Headpiece Seen in Profile), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131785044"
+        }
+      ]
+    },
+    {
+      "id": "api2925",
+      "about": "dimensions",
+      "value": {
+        "text": "7.3 cm x ?"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 7.3 cm, width not given.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131785044 (Study of a Man with a Headpiece Seen in Profile), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131785044"
+        }
+      ]
+    },
+    {
+      "id": "api2926",
+      "about": "depicts",
+      "value": {
+        "text": "Lorenzo de' Medici"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Lorenzo de' Medici. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131785044 (Study of a Man with a Headpiece Seen in Profile), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131785044"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

@@ -195,6 +195,126 @@
         "Zöllner 2003, catalogue entry",
         "Ambrosiana inventories (1618 donation; 1672 inventory)"
       ]
+    },
+    {
+      "id": "api2628",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2338404 (Portrait of a Musician), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2338404"
+        }
+      ]
+    },
+    {
+      "id": "api2629",
+      "about": "date",
+      "value": {
+        "text": "c.1485",
+        "start": 1485
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1485.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2338404 (Portrait of a Musician), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2338404"
+        }
+      ]
+    },
+    {
+      "id": "api2630",
+      "about": "inventory",
+      "value": {
+        "text": "99"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 99 in Pinacoteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2338404 (Portrait of a Musician), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2338404"
+        }
+      ]
+    },
+    {
+      "id": "api2631",
+      "about": "current_location",
+      "value": {
+        "text": "Pinacoteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Pinacoteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2338404 (Portrait of a Musician), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2338404"
+        }
+      ]
+    },
+    {
+      "id": "api2632",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2338404 (Portrait of a Musician), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2338404"
+        }
+      ]
+    },
+    {
+      "id": "api2633",
+      "about": "dimensions",
+      "value": {
+        "text": "43 cm x 31 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 43 cm, width 31 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2338404 (Portrait of a Musician), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2338404"
+        }
+      ]
+    },
+    {
+      "id": "api2634",
+      "about": "depicts",
+      "value": {
+        "text": "unidentified man; musician"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: unidentified man; musician. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2338404 (Portrait of a Musician), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2338404"
+        }
+      ]
     }
   ],
   "current_location": "geo-ambrosiana",
@@ -210,6 +330,46 @@
   "open_questions": [
     "Dimensions 44.7 x 32 cm or 40 x 30 cm; medium oil, or tempera and oil?",
     "Provenance: Borromeo 1618 foundation gift or Arconati 1637? Which inventory first records it, and under what attribution?"
+  ],
+  "identifiers": {
+    "wikidata": "Q2338404",
+    "inventory": "99"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Portrait_of_a_Musician_-_Pinacoteca_Ambrosiana.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Portrait_of_a_Musician_-_Pinacoteca_Ambrosiana.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Portrait_of_a_Musician",
+      "text": "The Portrait of a Musician is an unfinished painting by the Italian Renaissance artist Leonardo da Vinci, dated to c. 1483, 1487. Produced while Leonardo was in Milan, the work is painted in oils, and perhaps tempera, on a small panel of walnut wood. It is his only known male portrait painting, and the identity of its sitter has been closely debated among scholars.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Ritratto_di_musico",
+      "text": "Il Ritratto di musico è un dipinto a olio su tavola di Leonardo da Vinci, databile al 1485 circa e conservato nella Pinacoteca Ambrosiana di Milano.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Portrait_de_musicien",
+      "text": "Le Portrait de musicien, généralement considéré comme le « portrait d'Atalante Migliorotti levant la tête » décrit par Léonard dans son inventaire, est un tableau de Léonard de Vinci peint vers l'an 1485 à l’huile sur du bois. Il est exposé à la Pinacothèque Ambrosienne de Milan.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Ritratto di musico",
+    "Portrait de musicien",
+    "Portrait of a Musician Leonardo da Vinci",
+    "Portrait of a Musician (Leonardo da Vinci)"
   ],
   "timeline": {
     "lane": "works",

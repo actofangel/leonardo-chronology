@@ -1,0 +1,187 @@
+{
+  "id": "w-madonna-6",
+  "type": "work",
+  "label": "Study for the Madonna of the Cat",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "pen_and_ink"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q11765908 (instance of: drawing; drawing series; material: ink; bister; paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q11765908",
+    "inventory": "1856,0621.1"
+  },
+  "variants": [
+    "Madonna con Bambino e gatto",
+    "Étude pour la Madone au chat",
+    "Madonna with child and cat"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_1856%2C0621.1%2C_The_Virgin_and_Christ_Child_with_a_cat_(cropped).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_1856%2C0621.1%2C_The_Virgin_and_Christ_Child_with_a_cat_(cropped).jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2084",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11765908 (Study for the Madonna of the Cat), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11765908"
+        }
+      ]
+    },
+    {
+      "id": "api2085",
+      "about": "date",
+      "value": {
+        "text": "1478 to 1481",
+        "start": 1478,
+        "end": 1481
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1478 to 1481.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11765908 (Study for the Madonna of the Cat), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11765908"
+        }
+      ]
+    },
+    {
+      "id": "api2086",
+      "about": "inventory",
+      "value": {
+        "text": "1856,0621.1"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1856,0621.1 in British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11765908 (Study for the Madonna of the Cat), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11765908"
+        }
+      ]
+    },
+    {
+      "id": "api2087",
+      "about": "current_location",
+      "value": {
+        "text": "British Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11765908 (Study for the Madonna of the Cat), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11765908"
+        }
+      ]
+    },
+    {
+      "id": "api2088",
+      "about": "medium",
+      "value": {
+        "text": "ink; bister; paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: ink; bister; paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11765908 (Study for the Madonna of the Cat), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11765908"
+        }
+      ]
+    },
+    {
+      "id": "api2089",
+      "about": "dimensions",
+      "value": {
+        "text": "130 mm x 94 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 130 mm, width 94 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11765908 (Study for the Madonna of the Cat), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11765908"
+        }
+      ]
+    },
+    {
+      "id": "api2090",
+      "about": "depicts",
+      "value": {
+        "text": "Mary; Christ Child; cat"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Mary; Christ Child; cat. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q11765908 (Study for the Madonna of the Cat), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q11765908"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Study_for_the_Madonna_of_the_Cat",
+      "text": "Study for the Madonna of the Cat is a set of two drawings by Leonardo da Vinci on both sides of a sheet of paper 13 centimeters high and 9.4 centimeters wide. The two drawings were made in pen and brown ink, on a preparatory drawing in stylus, with a brown wash on the back. This is one of the six works of Leonardo da Vinci showing the Virgin and Child playing with a cat or carrying it. A mirror symmetry between the drawings of the two faces is visible by transparency. The Study for the Madonna of the Cat is currently held at the British Museum in London under inventory number 1856,0621.1. The creative and scientific processes underlying the drawing Madonna of the Cat have been discussed by many art historians, including Kenneth Clark, Martin Kemp, Carmen Bambach and Larry Feinberg.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Madonna_del_gatto_(Leonardo)",
+      "text": "La Madonna del gatto è un disegno giovanile di Leonardo da Vinci; ha stimolato la curiosità della critica, poiché non c'è certezza che Leonardo abbia poi realizzato questa stessa immagine su tavola o su tela.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89tude_pour_la_Madone_au_chat",
+      "text": "L'Étude pour la Madone au chat est un ensemble de deux dessins du peintre florentin Léonard de Vinci, réalisés vers 1480, figurant au recto et au verso d’une feuille de papier actuellement conservée au British Museum de Londres après avoir fait partie de la collection du prince Nicolas Esterházy.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-british-museum"
+    }
+  ],
+  "current_location": "geo-british-museum"
+}

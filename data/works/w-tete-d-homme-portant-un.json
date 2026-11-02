@@ -1,0 +1,148 @@
+{
+  "id": "w-tete-d-homme-portant-un",
+  "type": "work",
+  "label": "Tête d'homme portant un chapeau",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "portrait"
+    ],
+    "basis": "Derived automatically from Wikidata Q123529022 (instance of: drawing; material: paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q123529022",
+    "inventory": "794.1.3048"
+  },
+  "claims": [
+    {
+      "id": "api2241",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123529022 (Tête d'homme portant un chapeau), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123529022"
+        }
+      ]
+    },
+    {
+      "id": "api2242",
+      "about": "date",
+      "value": {
+        "text": "15th century",
+        "start": 1401
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 15th century.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123529022 (Tête d'homme portant un chapeau), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123529022"
+        }
+      ]
+    },
+    {
+      "id": "api2243",
+      "about": "inventory",
+      "value": {
+        "text": "794.1.3048"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 794.1.3048 in Musée des Beaux-Arts de Rennes, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123529022 (Tête d'homme portant un chapeau), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123529022"
+        }
+      ]
+    },
+    {
+      "id": "api2244",
+      "about": "current_location",
+      "value": {
+        "text": "Musée des Beaux-Arts de Rennes"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Musée des Beaux-Arts de Rennes, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123529022 (Tête d'homme portant un chapeau), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123529022"
+        }
+      ]
+    },
+    {
+      "id": "api2245",
+      "about": "medium",
+      "value": {
+        "text": "paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123529022 (Tête d'homme portant un chapeau), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123529022"
+        }
+      ]
+    },
+    {
+      "id": "api2246",
+      "about": "dimensions",
+      "value": {
+        "text": "7.4 cm x 7.9 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 7.4 cm, width 7.9 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123529022 (Tête d'homme portant un chapeau), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123529022"
+        }
+      ]
+    },
+    {
+      "id": "api2247",
+      "about": "depicts",
+      "value": {
+        "text": "man; hat"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: man; hat. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123529022 (Tête d'homme portant un chapeau), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123529022"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-musee-rennes"
+    }
+  ],
+  "current_location": "geo-musee-rennes"
+}

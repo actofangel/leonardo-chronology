@@ -1,0 +1,124 @@
+{
+  "id": "w-horses-riders",
+  "type": "work",
+  "label": "Study of Horses and Riders",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "metalpoint"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "horse"
+    ],
+    "basis": "Derived automatically from Wikidata Q116763673 (instance of: drawing; material: metalpoint; paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q116763673",
+    "inventory": "PD.121-1961"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Two_horsemen%2C_PD.121-1961.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Two_horsemen%2C_PD.121-1961.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2208",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763673 (Study of Horses and Riders), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763673"
+        }
+      ]
+    },
+    {
+      "id": "api2209",
+      "about": "date",
+      "value": {
+        "text": "c.1481",
+        "start": 1481
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1481.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763673 (Study of Horses and Riders), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763673"
+        }
+      ]
+    },
+    {
+      "id": "api2210",
+      "about": "inventory",
+      "value": {
+        "text": "PD.121-1961"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number PD.121-1961 in Fitzwilliam Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763673 (Study of Horses and Riders), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763673"
+        }
+      ]
+    },
+    {
+      "id": "api2211",
+      "about": "current_location",
+      "value": {
+        "text": "Fitzwilliam Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Fitzwilliam Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763673 (Study of Horses and Riders), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763673"
+        }
+      ]
+    },
+    {
+      "id": "api2212",
+      "about": "medium",
+      "value": {
+        "text": "metalpoint; paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: metalpoint; paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763673 (Study of Horses and Riders), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763673"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-fitzwilliam"
+    }
+  ],
+  "current_location": "geo-fitzwilliam"
+}

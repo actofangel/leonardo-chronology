@@ -1,0 +1,146 @@
+{
+  "id": "w-madonna-child-saint-anne",
+  "type": "work",
+  "label": "Madonna and Child with Saint Anne in a Landscape",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "panel",
+    "condition": "extant",
+    "subject": [
+      "religious",
+      "landscape"
+    ],
+    "basis": "Derived automatically from Wikidata Q123838188 (instance of: painting; material: oil paint; panel; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q123838188",
+    "inventory": "39.40.16546.12/49"
+  },
+  "variants": [
+    "Madonna and Child with Saint Anne in a Landscape, Worshop of Leonardo da Vinci, Possibly by Gian Giacomo Caprotti"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Atelier_de_L%C3%A9onard_de_Vinci%2C_sainte_Anne%2C_Hammer_Museum.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Atelier_de_L%C3%A9onard_de_Vinci%2C_sainte_Anne%2C_Hammer_Museum.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1329",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123838188 (Madonna and Child with Saint Anne in a Landscape), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123838188"
+        }
+      ]
+    },
+    {
+      "id": "api1330",
+      "about": "date",
+      "value": {
+        "text": "c.1508 to 1513",
+        "start": 1508,
+        "end": 1513
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1508 to 1513.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123838188 (Madonna and Child with Saint Anne in a Landscape), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123838188"
+        }
+      ]
+    },
+    {
+      "id": "api1331",
+      "about": "inventory",
+      "value": {
+        "text": "39.40.16546.12/49"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 39.40.16546.12/49 in Hammer Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123838188 (Madonna and Child with Saint Anne in a Landscape), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123838188"
+        }
+      ]
+    },
+    {
+      "id": "api1332",
+      "about": "current_location",
+      "value": {
+        "text": "Hammer Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Hammer Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123838188 (Madonna and Child with Saint Anne in a Landscape), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123838188"
+        }
+      ]
+    },
+    {
+      "id": "api1333",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123838188 (Madonna and Child with Saint Anne in a Landscape), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123838188"
+        }
+      ]
+    },
+    {
+      "id": "api1334",
+      "about": "depicts",
+      "value": {
+        "text": "Saint Anne; Mary; Christ Child; lamb"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Saint Anne; Mary; Christ Child; lamb. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q123838188 (Madonna and Child with Saint Anne in a Landscape), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q123838188"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-hammer-museum"
+    }
+  ],
+  "current_location": "geo-hammer-museum"
+}

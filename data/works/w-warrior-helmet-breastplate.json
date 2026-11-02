@@ -1,0 +1,215 @@
+{
+  "id": "w-warrior-helmet-breastplate",
+  "type": "work",
+  "label": "Warrior with Helmet and Breastplate in Profile",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "technique": [
+      "metalpoint"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "portrait"
+    ],
+    "basis": "Derived automatically from Wikidata Q3922633 (instance of: drawing; material: paper; silverpoint; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q3922633",
+    "inventory": "1895,0915.474"
+  },
+  "variants": [
+    "Profilo di capitano antico",
+    "Le Condottiere",
+    "Bust of a Warrior",
+    "Head of a Warrior"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Head_of_a_Warrior_-_Da_Vinci_1_(cropped).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Head_of_a_Warrior_-_Da_Vinci_1_(cropped).jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2701",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3922633 (Warrior with Helmet and Breastplate in Profile), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3922633"
+        }
+      ]
+    },
+    {
+      "id": "api2702",
+      "about": "date",
+      "value": {
+        "text": "1475 to 1480",
+        "start": 1475,
+        "end": 1480
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1475 to 1480.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3922633 (Warrior with Helmet and Breastplate in Profile), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3922633"
+        }
+      ]
+    },
+    {
+      "id": "api2703",
+      "about": "inventory",
+      "value": {
+        "text": "1895,0915.474"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1895,0915.474 in British Museum Department of Prints and Drawings, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3922633 (Warrior with Helmet and Breastplate in Profile), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3922633"
+        }
+      ]
+    },
+    {
+      "id": "api2704",
+      "about": "inventory",
+      "value": {
+        "text": "1895.9.15.474"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1895.9.15.474 in British Museum Department of Prints and Drawings, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3922633 (Warrior with Helmet and Breastplate in Profile), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3922633"
+        }
+      ]
+    },
+    {
+      "id": "api2705",
+      "about": "inventory",
+      "value": {
+        "text": "1895-9-15-474"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1895-9-15-474 in British Museum Department of Prints and Drawings, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3922633 (Warrior with Helmet and Breastplate in Profile), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3922633"
+        }
+      ]
+    },
+    {
+      "id": "api2706",
+      "about": "current_location",
+      "value": {
+        "text": "British Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3922633 (Warrior with Helmet and Breastplate in Profile), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3922633"
+        }
+      ]
+    },
+    {
+      "id": "api2707",
+      "about": "medium",
+      "value": {
+        "text": "paper; silverpoint"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: paper; silverpoint.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3922633 (Warrior with Helmet and Breastplate in Profile), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3922633"
+        }
+      ]
+    },
+    {
+      "id": "api2708",
+      "about": "dimensions",
+      "value": {
+        "text": "28.5 cm x 20.7 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 28.5 cm, width 20.7 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3922633 (Warrior with Helmet and Breastplate in Profile), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3922633"
+        }
+      ]
+    },
+    {
+      "id": "api2709",
+      "about": "depicts",
+      "value": {
+        "text": "man; condottiero; body armor; helmet"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: man; condottiero; body armor; helmet. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3922633 (Warrior with Helmet and Breastplate in Profile), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3922633"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Profilo_di_capitano_antico",
+      "text": "Il Profilo di capitano antico, detto anche il Condottiero, è un disegno a punta d'argento su carta preparata di Leonardo da Vinci, databile al 1475-1480 e conservato nel British Museum di Londra.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Le_Condottiere_(L%C3%A9onard_de_Vinci)",
+      "text": "Le Condottiere, parfois nommé Profil d'un capitaine antique, est un dessin à la pointe d'argent réalisé par le peintre florentin Léonard de Vinci vers 1475 et conservé au British Museum, à Londres.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-british-museum"
+    }
+  ],
+  "current_location": "geo-british-museum"
+}

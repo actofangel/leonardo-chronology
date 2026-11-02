@@ -1,0 +1,141 @@
+{
+  "id": "w-rider-rearing-horse",
+  "type": "work",
+  "label": "Rider on a Rearing Horse",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "technique": [
+      "metalpoint"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "horse"
+    ],
+    "basis": "Derived automatically from Wikidata Q116763545 (instance of: drawing; material: metalpoint; paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q116763545",
+    "inventory": "PD.44-1999"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Study_for_the_Adoration_of_Magi_2.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Study_for_the_Adoration_of_Magi_2.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2202",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763545 (Rider on a Rearing Horse), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763545"
+        }
+      ]
+    },
+    {
+      "id": "api2203",
+      "about": "date",
+      "value": {
+        "text": "c.1481",
+        "start": 1481
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1481.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763545 (Rider on a Rearing Horse), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763545"
+        }
+      ]
+    },
+    {
+      "id": "api2204",
+      "about": "inventory",
+      "value": {
+        "text": "PD.44-1999"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number PD.44-1999 in Fitzwilliam Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763545 (Rider on a Rearing Horse), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763545"
+        }
+      ]
+    },
+    {
+      "id": "api2205",
+      "about": "current_location",
+      "value": {
+        "text": "Fitzwilliam Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Fitzwilliam Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763545 (Rider on a Rearing Horse), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763545"
+        }
+      ]
+    },
+    {
+      "id": "api2206",
+      "about": "medium",
+      "value": {
+        "text": "metalpoint; paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: metalpoint; paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763545 (Rider on a Rearing Horse), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763545"
+        }
+      ]
+    },
+    {
+      "id": "api2207",
+      "about": "dimensions",
+      "value": {
+        "text": "141 mm x 119 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 141 mm, width 119 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q116763545 (Rider on a Rearing Horse), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q116763545"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-fitzwilliam"
+    }
+  ],
+  "current_location": "geo-fitzwilliam"
+}

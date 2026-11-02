@@ -1,0 +1,183 @@
+{
+  "id": "w-preliminary-last-supper-912542",
+  "type": "work",
+  "label": "Preliminary Sketch for the Last Supper",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389481 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389481",
+      "Q131613919"
+    ],
+    "rcin": "912542",
+    "inventory": [
+      "RCIN 912542 recto",
+      "RCIN 912542"
+    ]
+  },
+  "variants": [
+    "Sketches for the Last Supper, and other studies",
+    "Schizzi per l'Ultima Cena e altri studi"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Sketches_for_the_Last_Supper%2C_and_other_studies%2C_c.1492-4.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Sketches_for_the_Last_Supper%2C_and_other_studies%2C_c.1492-4.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api33",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389481 (Preliminary Sketch for the Last Supper), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389481"
+        }
+      ]
+    },
+    {
+      "id": "api34",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912542 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912542 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389481 (Preliminary Sketch for the Last Supper), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389481"
+        }
+      ]
+    },
+    {
+      "id": "api35",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389481 (Preliminary Sketch for the Last Supper), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389481"
+        }
+      ]
+    },
+    {
+      "id": "api2433",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613919 (Recto: Sketches for the Last Supper, and other studies. Verso: Calculations with architectural, engineering, and geometric sketches), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613919"
+        }
+      ]
+    },
+    {
+      "id": "api2434",
+      "about": "date",
+      "value": {
+        "text": "1492 to 1494",
+        "start": 1492,
+        "end": 1494
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1492 to 1494.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613919 (Recto: Sketches for the Last Supper, and other studies. Verso: Calculations with architectural, engineering, and geometric sketches), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613919"
+        }
+      ]
+    },
+    {
+      "id": "api2435",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912542"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912542 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613919 (Recto: Sketches for the Last Supper, and other studies. Verso: Calculations with architectural, engineering, and geometric sketches), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613919"
+        }
+      ]
+    },
+    {
+      "id": "api2436",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613919 (Recto: Sketches for the Last Supper, and other studies. Verso: Calculations with architectural, engineering, and geometric sketches), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613919"
+        }
+      ]
+    },
+    {
+      "id": "api2437",
+      "about": "depicts",
+      "value": {
+        "text": "Last Supper"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Last Supper. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131613919 (Recto: Sketches for the Last Supper, and other studies. Verso: Calculations with architectural, engineering, and geometric sketches), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131613919"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

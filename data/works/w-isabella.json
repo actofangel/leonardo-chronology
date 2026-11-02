@@ -216,6 +216,265 @@
         "Louvre collections database",
         "Villata 1999 for the letters of 1500 to 1506"
       ]
+    },
+    {
+      "id": "api2522",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q591128 (Portrait of Isabella d'Este), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q591128"
+        }
+      ]
+    },
+    {
+      "id": "api2523",
+      "about": "date",
+      "value": {
+        "text": "1499 to 1500",
+        "start": 1499,
+        "end": 1500
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1499 to 1500.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q591128 (Portrait of Isabella d'Este), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q591128"
+        }
+      ]
+    },
+    {
+      "id": "api2524",
+      "about": "inventory",
+      "value": {
+        "text": "MI 753, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number MI 753, Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q591128 (Portrait of Isabella d'Este), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q591128"
+        }
+      ]
+    },
+    {
+      "id": "api2525",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q591128 (Portrait of Isabella d'Este), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q591128"
+        }
+      ]
+    },
+    {
+      "id": "api2526",
+      "about": "medium",
+      "value": {
+        "text": "paper; red chalk; charcoal; pastel; metalpoint"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: paper; red chalk; charcoal; pastel; metalpoint.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q591128 (Portrait of Isabella d'Este), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q591128"
+        }
+      ]
+    },
+    {
+      "id": "api2527",
+      "about": "dimensions",
+      "value": {
+        "text": "61 cm x 46.5 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 61 cm, width 46.5 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q591128 (Portrait of Isabella d'Este), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q591128"
+        }
+      ]
+    },
+    {
+      "id": "api2528",
+      "about": "depicts",
+      "value": {
+        "text": "Isabella d'Este; woman; dress; waist-length hair; décolletage"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Isabella d'Este; woman; dress; waist-length hair; décolletage. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q591128 (Portrait of Isabella d'Este), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q591128"
+        }
+      ]
+    },
+    {
+      "id": "api2529",
+      "about": "inventory",
+      "value": {
+        "text": "MI 753, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number MI 753, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020111146 (Portrait d'Isabelle d'Este), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020111146"
+        }
+      ]
+    },
+    {
+      "id": "api2530",
+      "about": "inventory_history",
+      "value": {
+        "text": "Référence de l'inventaire manuscrit: vol.18, p.67"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Référence de l'inventaire manuscrit: vol.18, p.67.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020111146 (Portrait d'Isabelle d'Este), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020111146"
+        }
+      ]
+    },
+    {
+      "id": "api2531",
+      "about": "date",
+      "value": {
+        "text": "vers 1499/1500",
+        "start": 1499,
+        "end": 1500
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: vers 1499/1500.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020111146 (Portrait d'Isabelle d'Este), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020111146"
+        }
+      ]
+    },
+    {
+      "id": "api2532",
+      "about": "medium",
+      "value": {
+        "text": "Pointe métallique, charbon de bois, sanguine et estompe, craie ocre jaune, rehauts de blanc sur le visage, la gorge et la main, sur papier préparé. Un premier tracé à la pierre noire est visible dans plusieurs parties : visage, chevelure, voile sur le front, cou, vêtement qui recouvre la gorge, épaule gauche. Légère préparation blanche du papier sur les parties supérieures droite et gauche. Feuille de fort grammage. Couche de préparation blanche, à base de blanc de plomb, qui reste visible sous loupe binoculaire et dont les composants sont identifiables par fluorescence X. Esquisse des contours du modèle à la pointe métallique (probablement d'argent), ce tracé est visible le long du nez et du menton, par endroits le long du crâne et dans des lignes parallèles tracées à la manière d'un gaucher dans le bas de la chevelure. Aucun tracé préparatoire de ce type n'est visible le long du buste ou de la robe. Le tracé à la pointe de métal est repris avec un autre matériau sec. La poudre noire a presque disparu de la surface mais s'est nichée dans les anfractuosités de la fibre. L'aspect est caractéristique du charbon de bois (ou 'carboncino'), matériau que l'on nommera plus tard \"fusain\", et qui diffère de la pierre noire, plus grasse et qui reste davantage en surface. Le modelé du visage est traité avec une délicate association de 'carboncino', pour ombrer ou modeler au moyen de fines hachures parallèles tracées selon l'orientation typique d'un gaucher, et de sanguine, pour les carnations et la chevelure, travaillée à l'estompe avec quelques accents autour de l'œil et dans l'ombre de la joue. Le ton jaune du ruban de la robe est constitué d'un pigment à base de fer, donc une ocre, l'observation sous loupe binoculaire laisse penser que ce pigment a été appliqué sous une forme liquide. L'œuvre est piquée à l'aiguille. Les points de piquage ont un diamètre d'environ 0,25 millimètre, mais leur espacement varie.Le piquage est si serré le long du profil et autour des mains qu'il a provoqué des déchirures de la feuille. La partie basse du dessin a été coupée sur quelques centimètres. Feuille conservée avec peu de soin : pliée, roulée et entreposée dans un lieu humide où ses bords ont été rongés (perte des bords latéraux et inférieurs) et où des coulures d'eau se sont répandues de part et d'autre d'un pli. (B. Mottin, 2019)."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Pointe métallique, charbon de bois, sanguine et estompe, craie ocre jaune, rehauts de blanc sur le visage, la gorge et la main, sur papier préparé. Un premier tracé à la pierre noire est visible dans plusieurs parties : visage, chevelure, voile sur le front, cou, vêtement qui recouvre la gorge, épaule gauche. Légère préparation blanche du papier sur les parties supérieures droite et gauche. Feuille de fort grammage. Couche de préparation blanche, à base de blanc de plomb, qui reste visible sous loupe binoculaire et dont les composants sont identifiables par fluorescence X. Esquisse des contours du modèle à la pointe métallique (probablement d'argent), ce tracé est visible le long du nez et du menton, par endroits le long du crâne et dans des lignes parallèles tracées à la manière d'un gaucher dans le bas de la chevelure. Aucun tracé préparatoire de ce type n'est visible le long du buste ou de la robe. Le tracé à la pointe de métal est repris avec un autre matériau sec. La poudre noire a presque disparu de la surface mais s'est nichée dans les anfractuosités de la fibre. L'aspect est caractéristique du charbon de bois (ou 'carboncino'), matériau que l'on nommera plus tard \"fusain\", et qui diffère de la pierre noire, plus grasse et qui reste davantage en surface. Le modelé du visage est traité avec une délicate association de 'carboncino', pour ombrer ou modeler au moyen de fines hachures parallèles tracées selon l'orientation typique d'un gaucher, et de sanguine, pour les carnations et la chevelure, travaillée à l'estompe avec quelques accents autour de l'œil et dans l'ombre de la joue. Le ton jaune du ruban de la robe est constitué d'un pigment à base de fer, donc une ocre, l'observation sous loupe binoculaire laisse penser que ce pigment a été appliqué sous une forme liquide. L'œuvre est piquée à l'aiguille. Les points de piquage ont un diamètre d'environ 0,25 millimètre, mais leur espacement varie.Le piquage est si serré le long du profil et autour des mains qu'il a provoqué des déchirures de la feuille. La partie basse du dessin a été coupée sur quelques centimètres. Feuille conservée avec peu de soin : pliée, roulée et entreposée dans un lieu humide où ses bords ont été rongés (perte des bords latéraux et inférieurs) et où des coulures d'eau se sont répandues de part et d'autre d'un pli. (B. Mottin, 2019).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020111146 (Portrait d'Isabelle d'Este), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020111146"
+        }
+      ]
+    },
+    {
+      "id": "api2533",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.61 m (à la feuille); Largeur 0.465 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.61 m (à la feuille); Largeur 0.465 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020111146 (Portrait d'Isabelle d'Este), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020111146"
+        }
+      ]
+    },
+    {
+      "id": "api2534",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020111146 (Portrait d'Isabelle d'Este), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020111146"
+        }
+      ]
+    },
+    {
+      "id": "api2535",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020111146 (Portrait d'Isabelle d'Este), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020111146"
+        }
+      ]
+    },
+    {
+      "id": "api2536",
+      "about": "provenance",
+      "value": {
+        "text": "Bartolommeo Calderara (né en 1747) ; Vittoria Pelulso, veuve Calderara ; Domenico Pino (v. 1760-1828) ; acquis en 1829 par Giuseppe Vallardi, catalogue 1855, p. 66 n° 2, parmi les pièces encadrées ; Chevalier A. D. de Turin, vente Paris, 10 décembre 1860, n° 72 : 'Léonard de Vinci. Une jeune dame de profil. Superbe dessin au crayon noir' ; acquis par le Musée Impérial. Non vu au récolement le 09/11/2018 en Réserve des pièces encadrées, absence justifiée « ATELIER DE RESTAURATION LE 21/01/2018 » (C35 Réserve des pièces encadrées, G. Masson et Ch. Winling)."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: Bartolommeo Calderara (né en 1747) ; Vittoria Pelulso, veuve Calderara ; Domenico Pino (v. 1760-1828) ; acquis en 1829 par Giuseppe Vallardi, catalogue 1855, p. 66 n° 2, parmi les pièces encadrées ; Chevalier A. D. de Turin, vente Paris, 10 décembre 1860, n° 72 : 'Léonard de Vinci. Une jeune dame de profil. Superbe dessin au crayon noir' ; acquis par le Musée Impérial. Non vu au récolement le 09/11/2018 en Réserve des pièces encadrées, absence justifiée « ATELIER DE RESTAURATION LE 21/01/2018 » (C35 Réserve des pièces encadrées, G. Masson et Ch. Winling).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020111146 (Portrait d'Isabelle d'Este), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020111146"
+        }
+      ]
     }
   ],
   "current_location": "geo-louvre",
@@ -230,6 +489,51 @@
       "rel": "depicts",
       "target": "pe-isabella"
     }
+  ],
+  "identifiers": {
+    "wikidata": "Q591128",
+    "louvre_ark": "cl020111146",
+    "inventory": "MI 753, Recto"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci%2C_Portrait_of_Isabella_d'Este.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci%2C_Portrait_of_Isabella_d'Este.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/11/11/46/00/AGO111146-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020111146"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Portrait_of_Isabella_d'Este_(Leonardo)",
+      "text": "The Portrait of Isabella d'Este is a drawing by Leonardo da Vinci which was executed between 1499 and 1500. It depicts Isabella d'Este, Marchioness of Mantua. During the Italian Wars of 1499, 1504, the French invaded Italy which caused Leonardo to flee from Milan to Mantua. There he had met Isabella, where she commissioned her portrait from him. Whether Leonardo completed the portrait is unknown. There is evidence through letters of the time that he held a fully completed painting of her, but they are vague in describing it. It was thought that the painting was lost to time or, perhaps, never completed at all.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Ritratto_di_Isabella_d'Este_(Leonardo)",
+      "text": "Il Ritratto di Isabella d'Este è un disegno preparatorio eseguito a carboncino, sanguigna e pastello giallo su carta di Leonardo da Vinci, databile al 1500 circa e conservato nel Louvre a Parigi.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Portrait_d'Isabelle_d'Este_(L%C3%A9onard_de_Vinci)",
+      "text": "Le Portrait d'Isabelle d'Este est un carton réalisé entre décembre 1499 et début mars 1500 par le peintre florentin Léonard de Vinci, pour un tableau qui n'a très probablement jamais été réalisé.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Ritratto di Isabella d'Este",
+    "Isabelle d'Este",
+    "Portrait d'Isabelle d'Este"
   ],
   "timeline": {
     "lane": "works",

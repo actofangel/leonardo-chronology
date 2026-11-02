@@ -1,0 +1,145 @@
+{
+  "id": "w-instruments-breathtaking-swallowing-919002",
+  "type": "work",
+  "label": "The 'Instruments' of Breathtaking, Swallowing and Speaking (Uvula, Pharynx, Tongue with Trachea, Larynx and Oesophagus)",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136389714 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389714",
+      "Q139567076"
+    ],
+    "rcin": "919002",
+    "inventory": [
+      "RCIN 919002 recto",
+      "RCIN 919002 verso"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919002%2C_Recto_The_throat%2C_and_the_muscles_of_the_leg.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919002%2C_Recto_The_throat%2C_and_the_muscles_of_the_leg.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_919002%2C_Verso_The_bones_of_the_foot%2C_and_the_muscles_of_the_neck_c.1510-11.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_919002%2C_Verso_The_bones_of_the_foot%2C_and_the_muscles_of_the_neck_c.1510-11.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api964",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389714 (The 'Instruments' of Breathtaking, Swallowing and Speaking (Uvula, Pharynx, Tongue with Trachea, Larynx and Oesophagus)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389714"
+        }
+      ]
+    },
+    {
+      "id": "api965",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919002 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919002 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389714 (The 'Instruments' of Breathtaking, Swallowing and Speaking (Uvula, Pharynx, Tongue with Trachea, Larynx and Oesophagus)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389714"
+        }
+      ]
+    },
+    {
+      "id": "api966",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389714 (The 'Instruments' of Breathtaking, Swallowing and Speaking (Uvula, Pharynx, Tongue with Trachea, Larynx and Oesophagus)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389714"
+        }
+      ]
+    },
+    {
+      "id": "api1629",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567076 (Anatomical Studies of the Muscles of the Shoulder and Neck and of the Skeletal Structure of the Foot), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567076"
+        }
+      ]
+    },
+    {
+      "id": "api1630",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919002 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919002 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567076 (Anatomical Studies of the Muscles of the Shoulder and Neck and of the Skeletal Structure of the Foot), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567076"
+        }
+      ]
+    },
+    {
+      "id": "api1631",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567076 (Anatomical Studies of the Muscles of the Shoulder and Neck and of the Skeletal Structure of the Foot), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567076"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "ms-codex-resta",
+  "type": "manuscript",
+  "label": "Codex Resta",
+  "subtype": "manuscript",
+  "classification": {
+    "ms_form": "notebook",
+    "basis": "Derived automatically from Wikidata Q131910556 on 2026-11-02; check."
+  },
+  "identifiers": {
+    "wikidata": "Q131910556"
+  },
+  "variants": [
+    "Codice Resta"
+  ],
+  "claims": [
+    {
+      "id": "api2929",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131910556 (Codex Resta), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131910556"
+        }
+      ]
+    },
+    {
+      "id": "api2930",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Ambrosiana"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Ambrosiana, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131910556 (Codex Resta), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131910556"
+        }
+      ]
+    },
+    {
+      "id": "api2931",
+      "about": "medium",
+      "value": {
+        "text": "paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131910556 (Codex Resta), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131910556"
+        }
+      ]
+    },
+    {
+      "id": "api2932",
+      "about": "dimensions",
+      "value": {
+        "text": "54 cm x 12 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 54 cm, width 12 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131910556 (Codex Resta), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131910556"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ]
+}

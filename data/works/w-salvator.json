@@ -143,11 +143,188 @@
         "Syson 2011, provenance",
         "Royal inventories of Charles I"
       ]
+    },
+    {
+      "id": "api3001",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci (attribution)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator with the qualification: attribution. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1892745 (Salvator Mundi), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1892745"
+        }
+      ]
+    },
+    {
+      "id": "api3002",
+      "about": "date",
+      "value": {
+        "text": "1490",
+        "start": 1490
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1490.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1892745 (Salvator Mundi), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1892745"
+        }
+      ]
+    },
+    {
+      "id": "api3003",
+      "about": "date",
+      "value": {
+        "text": "c.1500",
+        "start": 1500
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1500.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1892745 (Salvator Mundi), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1892745"
+        }
+      ]
+    },
+    {
+      "id": "api3004",
+      "about": "current_location",
+      "value": {
+        "text": "Louvre Abu Dhabi"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Louvre Abu Dhabi, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1892745 (Salvator Mundi), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1892745"
+        }
+      ]
+    },
+    {
+      "id": "api3005",
+      "about": "current_location",
+      "value": {
+        "text": "Cook collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cook collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1892745 (Salvator Mundi), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1892745"
+        }
+      ]
+    },
+    {
+      "id": "api3006",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; walnut panel; noyer"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; walnut panel; noyer.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1892745 (Salvator Mundi), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1892745"
+        }
+      ]
+    },
+    {
+      "id": "api3007",
+      "about": "dimensions",
+      "value": {
+        "text": "65.7 cm x 45.4 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 65.7 cm, width 45.4 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1892745 (Salvator Mundi), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1892745"
+        }
+      ]
+    },
+    {
+      "id": "api3008",
+      "about": "depicts",
+      "value": {
+        "text": "Jesus Christ; man; Salvator Mundi; orb"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Jesus Christ; man; Salvator Mundi; orb. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1892745 (Salvator Mundi), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1892745"
+        }
+      ]
     }
   ],
   "open_questions": [
     "Every claim here rests on non admitted sources. Read Syson 2011 and the critical literature before any status change.",
     "The draft gives c.1499 to 1510 without a holder. Who dates it so?"
+  ],
+  "identifiers": {
+    "wikidata": "Q1892745"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci%2C_Salvator_Mundi%2C_c.1500%2C_oil_on_walnut%2C_45.4_%C3%97_65.6_cm.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci%2C_Salvator_Mundi%2C_c.1500%2C_oil_on_walnut%2C_45.4_%C3%97_65.6_cm.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Salvator_Mundi_(painting)",
+      "text": "Salvator Mundi is a painting attributed in whole or part to the Italian High Renaissance artist Leonardo da Vinci, dated c. 1499, 1510. Long thought to be a copy of a lost original veiled with overpainting, it was rediscovered, restored, and included in an exhibition of Leonardo's work at the National Gallery, London, in 2011, 2012. Christie's, which sold the work in 2017, stated that most leading scholars consider it an original work by Leonardo, but this attribution has been disputed by some leading specialists who propose that he only contributed certain elements; others believe that the extensive restoration prevents a definitive attribution.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Salvator_mundi_(Leonardo)",
+      "text": "Il Salvator Mundi è un dipinto a olio su tavola di noce (65,6×45,4 cm) attribuito a Leonardo da Vinci e/o atelier, databile tra il 1505 e il 1515 circa. Viene identificato anche come \"versione Cook\" per distinguerlo dalle numerose versioni conosciute dello stesso soggetto.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Salvator_Mundi_(version_Cook)",
+      "text": "Le Salvator Mundi est une peinture à l'huile sur bois de noyer, sur le thème du Christ rédempteur, attribuée par plusieurs experts à Léonard de Vinci en totalité ou en partie, ou à l'un de ses élèves, Bernardino Luini ou Giovanni Antonio Boltraffio. Afin de le distinguer parmi les vingt-deux copies identifiées de l'atelier de Vinci, le tableau, dont la restauration a été très critiquée, est aussi appelé Salvator Mundi, version dite « Cook », du nom d'un de ses anciens propriétaires, Francis Cook (en). Longtemps ignoré, réapparu en 2005, restauré, et rendu public en 2011 lors d'une exposition à la National Gallery de Londres, le tableau devient la peinture la plus chère du monde. En 2017, lors d'une vente d'art, son précédent propriétaire Dmitri Rybolovlev la vend aux enchères de Christie's à New York pour la somme de 400 millions de dollars, à laquelle s'ajoutent 50 millions de dollars de commission de vente. L'identité de l'acquéreur, d'abord tenue secrète, est révélée quelques mois plus tard : il s'agit du prince héritier d'Arabie saoudite, Mohammed ben Salmane.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Salvator Mundi Leonardo da Vinci",
+    "Salvator Mundi (Leonardo da Vinci)",
+    "Salvator Mundi (Leonardo)",
+    "Salvator Mundi Leonardo"
   ],
   "timeline": {
     "lane": "works",
@@ -171,5 +348,12 @@
       }
     ],
     "sources": []
-  }
+  },
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
 }

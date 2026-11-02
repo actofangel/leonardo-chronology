@@ -175,6 +175,177 @@
         "Marani 2000, catalogue entry",
         "Zöllner 2003, catalogue entry"
       ]
+    },
+    {
+      "id": "api2496",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q474338 (Lady with an Ermine), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q474338"
+        }
+      ]
+    },
+    {
+      "id": "api2497",
+      "about": "date",
+      "value": {
+        "text": "c.1490",
+        "start": 1490
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1490.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q474338 (Lady with an Ermine), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q474338"
+        }
+      ]
+    },
+    {
+      "id": "api2498",
+      "about": "inventory",
+      "value": {
+        "text": "MNK XII-209"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number MNK XII-209 in National Museum in Kraków, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q474338 (Lady with an Ermine), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q474338"
+        }
+      ]
+    },
+    {
+      "id": "api2499",
+      "about": "inventory",
+      "value": {
+        "text": "146/9"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 146/9 in Munich Central Collecting Point, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q474338 (Lady with an Ermine), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q474338"
+        }
+      ]
+    },
+    {
+      "id": "api2500",
+      "about": "current_location",
+      "value": {
+        "text": "Munich Central Collecting Point"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Munich Central Collecting Point, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q474338 (Lady with an Ermine), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q474338"
+        }
+      ]
+    },
+    {
+      "id": "api2501",
+      "about": "current_location",
+      "value": {
+        "text": "Czartoryski Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Czartoryski Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q474338 (Lady with an Ermine), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q474338"
+        }
+      ]
+    },
+    {
+      "id": "api2502",
+      "about": "current_location",
+      "value": {
+        "text": "National Museum in Kraków"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by National Museum in Kraków, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q474338 (Lady with an Ermine), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q474338"
+        }
+      ]
+    },
+    {
+      "id": "api2503",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; walnut panel; tempera; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; walnut panel; tempera; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q474338 (Lady with an Ermine), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q474338"
+        }
+      ]
+    },
+    {
+      "id": "api2504",
+      "about": "dimensions",
+      "value": {
+        "text": "54 cm x 40.3 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 54 cm, width 40.3 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q474338 (Lady with an Ermine), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q474338"
+        }
+      ]
+    },
+    {
+      "id": "api2505",
+      "about": "depicts",
+      "value": {
+        "text": "Cecilia Gallerani; woman; Mustela erminea; Mustela putorius furo"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Cecilia Gallerani; woman; Mustela erminea; Mustela putorius furo. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q474338 (Lady with an Ermine), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q474338"
+        }
+      ]
     }
   ],
   "current_location": "geo-czartoryski-krakow",
@@ -201,6 +372,50 @@
   "open_questions": [
     "Read the 1498 Gallerani letter and the Bellincioni sonnet in an edition and record their exact wording and locators.",
     "Panel species and dimensions: not found on the museum page in this session."
+  ],
+  "identifiers": {
+    "wikidata": "Q474338",
+    "inventory": "MNK XII-209"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Lady_with_an_Ermine",
+      "text": "The Lady with an Ermine is a portrait painting by the Italian Renaissance artist Leonardo da Vinci. Dated to c. 1489, 1491, the work is painted in oils on a panel of walnut wood. Its subject is Cecilia Gallerani, a mistress of Ludovico Sforza, Duke of Milan; Leonardo was painter to the Sforza court in Milan at the time of its execution. It is the second of only four surviving portraits of women painted by Leonardo, the others being Ginevra de' Benci, La Belle Ferronnière and the Mona Lisa.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Dama_con_l'ermellino",
+      "text": "La Dama con l'ermellino è un dipinto a olio su tavola di Leonardo da Vinci, databile al 1489-1490. La donna ritratta va quasi sicuramente identificata con Cecilia Gallerani.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/La_Dame_%C3%A0_l'hermine",
+      "text": "La Dame à l’hermine est une peinture à l'huile sur panneau de bois de 54 × 39 cm réalisée par Léonard de Vinci à Milan, en 1488. Longtemps propriété de la famille Czartoryski, il appartient depuis fin 2016 à l'État polonais.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Dama con l'ermellino",
+    "La Dame à l'hermine",
+    "Portrait of Cecilia Gallerani",
+    "Lady with an Ermine, Portrait of Cecilia Gallerani (ca. 1473, 1536)",
+    "The Lady with an Ermine",
+    "Lady with an Ermine by Leonardo da Vinci",
+    "Lady with an Ermine Leonardo da Vinci",
+    "Lady with an Ermine (Leonardo da Vinci)"
   ],
   "timeline": {
     "lane": "works",

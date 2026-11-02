@@ -1,0 +1,252 @@
+{
+  "id": "w-leda-swan",
+  "type": "work",
+  "label": "Leda and the Swan",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "condition": "extant",
+    "subject": [
+      "mythology"
+    ],
+    "basis": "Derived automatically from Wikidata Q3829345 (instance of: painting; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q3829345",
+    "inventory": "1747"
+  },
+  "variants": [
+    "Leda col cigno",
+    "Léda et le Cygne",
+    "Spiridon Leda",
+    "Leda Spiridon (Leda mit d. ... und ... Kindern)"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leda_Melzi_Uffizi.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leda_Melzi_Uffizi.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2690",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3829345 (Leda and the Swan), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3829345"
+        }
+      ]
+    },
+    {
+      "id": "api2691",
+      "about": "date",
+      "value": {
+        "text": "1505",
+        "start": 1505
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1505.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3829345 (Leda and the Swan), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3829345"
+        }
+      ]
+    },
+    {
+      "id": "api2692",
+      "about": "date",
+      "value": {
+        "text": "c.1477",
+        "start": 1477
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1477.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3829345 (Leda and the Swan), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3829345"
+        }
+      ]
+    },
+    {
+      "id": "api2693",
+      "about": "inventory",
+      "value": {
+        "text": "1747"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1747 in Führermuseum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3829345 (Leda and the Swan), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3829345"
+        }
+      ]
+    },
+    {
+      "id": "api2694",
+      "about": "inventory",
+      "value": {
+        "text": "1738"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1738 in Munich Central Collecting Point, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3829345 (Leda and the Swan), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3829345"
+        }
+      ]
+    },
+    {
+      "id": "api2695",
+      "about": "inventory",
+      "value": {
+        "text": "00292960"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 00292960 in Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3829345 (Leda and the Swan), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3829345"
+        }
+      ]
+    },
+    {
+      "id": "api2696",
+      "about": "current_location",
+      "value": {
+        "text": "Führermuseum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Führermuseum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3829345 (Leda and the Swan), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3829345"
+        }
+      ]
+    },
+    {
+      "id": "api2697",
+      "about": "current_location",
+      "value": {
+        "text": "Munich Central Collecting Point"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Munich Central Collecting Point, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3829345 (Leda and the Swan), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3829345"
+        }
+      ]
+    },
+    {
+      "id": "api2698",
+      "about": "current_location",
+      "value": {
+        "text": "Uffizi Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3829345 (Leda and the Swan), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3829345"
+        }
+      ]
+    },
+    {
+      "id": "api2699",
+      "about": "dimensions",
+      "value": {
+        "text": "130 cm x 77.5 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 130 cm, width 77.5 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3829345 (Leda and the Swan), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3829345"
+        }
+      ]
+    },
+    {
+      "id": "api2700",
+      "about": "depicts",
+      "value": {
+        "text": "hipshot; nudity; woman; Leda; swan; Zeus; Jupiter; pubic hair removal"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: hipshot; nudity; woman; Leda; swan; Zeus; Jupiter; pubic hair removal. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3829345 (Leda and the Swan), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3829345"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Leda_and_the_Swan_(Uffizi)",
+      "text": "Leda and the Swan is a c.1505-1507 oil and resin on panel painting by a painter in the circle of Leonardo da Vinci. It may have originated in the Gualtieri Collection in L'Aquila and passed through various others before being acquired from the Spiridon Collection in 1989 by its present owner, the Uffizi.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Leda_col_cigno_(Uffizi)",
+      "text": "Leda col cigno è un dipinto a olio e resine su tavola (130×77,5 cm) di un pittore leonardesco, forse Francesco Melzi, databile al 1505-1507 circa e conservato nella Galleria degli Uffizi a Firenze. Si tratta di una delle migliori copie della perduta Leda di Leonardo da Vinci.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/L%C3%A9da_et_le_Cygne_(Offices)",
+      "text": "Léda et le Cygne est une peinture à l'huile et résine sur panneau d’un peintre léonardesque, peut-être Francesco Melzi, datable de 1505 à 1507 environ et conservé à la Galerie des Offices de Florence. C'est l'une des meilleures copies de la Léda perdue de Léonard de Vinci.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-uffizi"
+    }
+  ],
+  "current_location": "geo-uffizi"
+}

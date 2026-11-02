@@ -1,0 +1,48 @@
+{
+  "id": "w-33-barrel-machine-gun",
+  "type": "work",
+  "label": "33 barrel machine gun",
+  "subtype": "engineering_project",
+  "classification": {
+    "form": "engineering_project",
+    "condition": "lost",
+    "subject": [
+      "mechanics"
+    ],
+    "basis": "Derived automatically from Wikidata Q24941172 (instance of: invention; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q24941172"
+  },
+  "variants": [
+    "cannone con 33 canne di Leonardo"
+  ],
+  "claims": [
+    {
+      "id": "api2768",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q24941172 (33 barrel machine gun), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q24941172"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Cannone_con_33_canne_di_Leonardo",
+      "text": "Il cannone con trentatré canne di Leonardo, detto anche organo a trentatré canne, è un progetto di Leonardo da Vinci per un cannone a trentatré piccole bocche da fuoco ad avancarica, presente in un foglio del Codice Atlantico assieme ad altri due cannoni.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

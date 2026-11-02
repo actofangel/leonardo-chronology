@@ -1,0 +1,104 @@
+{
+  "id": "w-drapery-standing-figure-5",
+  "type": "work",
+  "label": "Drapery Study for a Standing Figure Seen from the Front",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q139567060 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567060",
+    "inventory": "794-1-2507"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Figure_drap%C3%A9e_debout_de_face%2C_INV794-1-2507.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Figure_drap%C3%A9e_debout_de_face%2C_INV794-1-2507.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1580",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567060 (Drapery Study for a Standing Figure Seen from the Front), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567060"
+        }
+      ]
+    },
+    {
+      "id": "api1581",
+      "about": "date",
+      "value": {
+        "text": "1478 to 1480",
+        "start": 1478,
+        "end": 1480
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1478 to 1480.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567060 (Drapery Study for a Standing Figure Seen from the Front), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567060"
+        }
+      ]
+    },
+    {
+      "id": "api1582",
+      "about": "inventory",
+      "value": {
+        "text": "794-1-2507"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 794-1-2507 in Musée des Beaux-Arts de Rennes, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567060 (Drapery Study for a Standing Figure Seen from the Front), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567060"
+        }
+      ]
+    },
+    {
+      "id": "api1583",
+      "about": "current_location",
+      "value": {
+        "text": "Musée des Beaux-Arts de Rennes"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Musée des Beaux-Arts de Rennes, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567060 (Drapery Study for a Standing Figure Seen from the Front), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567060"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-musee-rennes"
+    }
+  ],
+  "current_location": "geo-musee-rennes"
+}

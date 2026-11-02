@@ -1,0 +1,145 @@
+{
+  "id": "w-view-organs-912281",
+  "type": "work",
+  "label": "View of the Organs of the Chest and Abdomen and of the Vascular System of a Woman",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136389750 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136389750",
+      "Q139567081"
+    ],
+    "rcin": "912281",
+    "inventory": [
+      "RCIN 912281 recto",
+      "RCIN 912281 verso"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912281%2C_The_cardiovascular_system_and_principal_organs_of_a_woman_c.1509-10.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912281%2C_The_cardiovascular_system_and_principal_organs_of_a_woman_c.1509-10.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912281%2C_v%2C_The_cardiovascular_system_and_principal_organs_of_a_woman_c.1509-10.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912281%2C_v%2C_The_cardiovascular_system_and_principal_organs_of_a_woman_c.1509-10.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api375",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389750 (View of the Organs of the Chest and Abdomen and of the Vascular System of a Woman), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389750"
+        }
+      ]
+    },
+    {
+      "id": "api376",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912281 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912281 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389750 (View of the Organs of the Chest and Abdomen and of the Vascular System of a Woman), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389750"
+        }
+      ]
+    },
+    {
+      "id": "api377",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389750 (View of the Organs of the Chest and Abdomen and of the Vascular System of a Woman), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389750"
+        }
+      ]
+    },
+    {
+      "id": "api1644",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567081 (View of the Organs of the Chest and Abdomen and of the Vascular System of a Woman), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567081"
+        }
+      ]
+    },
+    {
+      "id": "api1645",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912281 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912281 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567081 (View of the Organs of the Chest and Abdomen and of the Vascular System of a Woman), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567081"
+        }
+      ]
+    },
+    {
+      "id": "api1646",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567081 (View of the Organs of the Chest and Abdomen and of the Vascular System of a Woman), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567081"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

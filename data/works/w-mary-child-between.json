@@ -1,0 +1,126 @@
+{
+  "id": "w-mary-child-between",
+  "type": "work",
+  "label": "Mary with the child between two angels",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q141189597 (instance of: painting; material: oil paint; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q141189597",
+    "inventory": "Gal.-Nr. 66"
+  },
+  "claims": [
+    {
+      "id": "api1730",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q141189597 (Mary with the child between two angels), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q141189597"
+        }
+      ]
+    },
+    {
+      "id": "api1731",
+      "about": "date",
+      "value": {
+        "text": "c.1545",
+        "start": 1545
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1545.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q141189597 (Mary with the child between two angels), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q141189597"
+        }
+      ]
+    },
+    {
+      "id": "api1732",
+      "about": "inventory",
+      "value": {
+        "text": "Gal.-Nr. 66"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Gal.-Nr. 66 in Staatliche Kunstsammlungen Dresden, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q141189597 (Mary with the child between two angels), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q141189597"
+        }
+      ]
+    },
+    {
+      "id": "api1733",
+      "about": "current_location",
+      "value": {
+        "text": "Staatliche Kunstsammlungen Dresden"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Staatliche Kunstsammlungen Dresden, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q141189597 (Mary with the child between two angels), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q141189597"
+        }
+      ]
+    },
+    {
+      "id": "api1734",
+      "about": "medium",
+      "value": {
+        "text": "oil paint"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q141189597 (Mary with the child between two angels), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q141189597"
+        }
+      ]
+    },
+    {
+      "id": "api1735",
+      "about": "depicts",
+      "value": {
+        "text": "woman; Madonna and Child; angel"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: woman; Madonna and Child; angel. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q141189597 (Mary with the child between two angels), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q141189597"
+        }
+      ]
+    }
+  ]
+}

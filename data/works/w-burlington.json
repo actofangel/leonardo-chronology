@@ -177,6 +177,127 @@
       "alternative_to": [
         "c6"
       ]
+    },
+    {
+      "id": "api2642",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2471531 (The Virgin and Child with Saint Anne and Saint John the Baptist), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2471531"
+        }
+      ]
+    },
+    {
+      "id": "api2643",
+      "about": "date",
+      "value": {
+        "text": "c.1506 to 1508",
+        "start": 1506,
+        "end": 1508
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1506 to 1508.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2471531 (The Virgin and Child with Saint Anne and Saint John the Baptist), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2471531"
+        }
+      ]
+    },
+    {
+      "id": "api2644",
+      "about": "inventory",
+      "value": {
+        "text": "NG6337"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number NG6337 in National Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2471531 (The Virgin and Child with Saint Anne and Saint John the Baptist), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2471531"
+        }
+      ]
+    },
+    {
+      "id": "api2645",
+      "about": "current_location",
+      "value": {
+        "text": "National Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by National Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2471531 (The Virgin and Child with Saint Anne and Saint John the Baptist), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2471531"
+        }
+      ]
+    },
+    {
+      "id": "api2646",
+      "about": "medium",
+      "value": {
+        "text": "charcoal; chalk; paper; canvas"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: charcoal; chalk; paper; canvas.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2471531 (The Virgin and Child with Saint Anne and Saint John the Baptist), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2471531"
+        }
+      ]
+    },
+    {
+      "id": "api2647",
+      "about": "dimensions",
+      "value": {
+        "text": "141.5 cm x 104.6 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 141.5 cm, width 104.6 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2471531 (The Virgin and Child with Saint Anne and Saint John the Baptist), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2471531"
+        }
+      ]
+    },
+    {
+      "id": "api2648",
+      "about": "depicts",
+      "value": {
+        "text": "Saint Anne; Christ Child; blessing; Mary; drapery; Child Saint John; Virgin and Child with Saint Anne"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Saint Anne; Christ Child; blessing; Mary; drapery; Child Saint John; Virgin and Child with Saint Anne. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2471531 (The Virgin and Child with Saint Anne and Saint John the Baptist), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2471531"
+        }
+      ]
     }
   ],
   "current_location": "geo-national-gallery-london",
@@ -185,7 +306,13 @@
   "support": "Paper mounted on canvas",
   "dimensions": "141.5 x 104.6 cm",
   "variants": [
-    "The Virgin and Child with Saint Anne and Saint John the Baptist"
+    "The Virgin and Child with Saint Anne and Saint John the Baptist",
+    "Cartone di sant'Anna",
+    "La Vierge, l'Enfant Jésus avec sainte Anne et saint Jean-Baptiste",
+    "The Virgin and Child with St. Anne and St. John the Baptist",
+    "The Virgin and Child with St Anne and St John the Baptist",
+    "The Burlington House Cartoon",
+    "The Virgin and Child with Saint Anne and the Infant Saint John the Baptist ('The Burlington House Cartoon')"
   ],
   "relations": [
     {
@@ -200,6 +327,40 @@
   ],
   "open_questions": [
     "Is the 1501 cartoon described by Vasari and in the Novellara letter this sheet, the lost Servite cartoon, or another one? See w-servite."
+  ],
+  "identifiers": {
+    "wikidata": "Q2471531",
+    "inventory": "NG6337"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Virgin_and_Child_with_Ss_Anne_and_John_the_Baptist.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Virgin_and_Child_with_Ss_Anne_and_John_the_Baptist.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/The_Virgin_and_Child_with_Saint_Anne_and_Saint_John_the_Baptist",
+      "text": "The Virgin and Child with Saint Anne and Saint John the Baptist, sometimes called the Burlington House Cartoon, is a drawing by Leonardo da Vinci. The drawing is in charcoal and black and white chalk, on eight sheets of paper that are glued together. Because of its large size and format the drawing is presumed to be a cartoon for a painting. No painting by Leonardo exists that is based directly on this cartoon, although the drawing may have been in preparation for a now lost or unexecuted painting commissioned by Louis XII. The drawing is the only extant larger-scale drawing by the artist.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Cartone_di_sant'Anna",
+      "text": "Il Cartone di sant'Anna è un disegno a gessetto nero, biacca e sfumino su carta (141,5x104,6 cm) di Leonardo da Vinci, databile al 1501-1505 circa e conservato nella National Gallery di Londra.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Sainte_Anne%2C_la_Vierge%2C_l'Enfant_J%C3%A9sus_et_saint_Jean-Baptiste_enfant",
+      "text": "Sainte Anne, la Vierge, l’Enfant Jésus et saint Jean-Baptiste enfant ou le Carton de Burlington House est un carton du peintre Léonard de Vinci, qui s'inscrit dans ses études autour du thème de la « Sainte Anne trinitaire ». Cette composition ne semble avoir été ensuite reprise à l'identique par l'artiste florentin dans aucun tableau connu. Elle constitue néanmoins une étape de recherche pour la création de son tableau Sainte Anne, la Vierge et l'Enfant Jésus jouant avec un agneau qui en reprend un certain nombre d'éléments.",
+      "retrieved": "2026-11-02"
+    }
   ],
   "timeline": {
     "lane": "works",

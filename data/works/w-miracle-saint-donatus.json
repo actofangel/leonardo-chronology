@@ -1,0 +1,97 @@
+{
+  "id": "w-miracle-saint-donatus",
+  "type": "work",
+  "label": "A Miracle of Saint Donatus of Arezzo",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q79052262 (instance of: painting; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q79052262",
+    "inventory": "1940.29"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Attributed_to_Leonardo_da_Vinci_and_Lorenzo_di_Credi_A_Miracle_of_Saint_Donatus_of_Arezzo_1475-1479.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Attributed_to_Leonardo_da_Vinci_and_Lorenzo_di_Credi_A_Miracle_of_Saint_Donatus_of_Arezzo_1475-1479.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2875",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q79052262 (A Miracle of Saint Donatus of Arezzo), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q79052262"
+        }
+      ]
+    },
+    {
+      "id": "api2876",
+      "about": "date",
+      "value": {
+        "text": "1475 to 1479",
+        "start": 1475,
+        "end": 1479
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1475 to 1479.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q79052262 (A Miracle of Saint Donatus of Arezzo), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q79052262"
+        }
+      ]
+    },
+    {
+      "id": "api2877",
+      "about": "inventory",
+      "value": {
+        "text": "1940.29"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1940.29 in Worcester Art Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q79052262 (A Miracle of Saint Donatus of Arezzo), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q79052262"
+        }
+      ]
+    },
+    {
+      "id": "api2878",
+      "about": "current_location",
+      "value": {
+        "text": "Worcester Art Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Worcester Art Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q79052262 (A Miracle of Saint Donatus of Arezzo), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q79052262"
+        }
+      ]
+    }
+  ]
+}

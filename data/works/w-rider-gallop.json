@@ -1,0 +1,568 @@
+{
+  "id": "w-rider-gallop",
+  "type": "work",
+  "label": "A Rider at a Gallop, a Horse's Head in Profile and a Horse Viewed from Behind",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "technique": [
+      "pen_and_ink"
+    ],
+    "condition": "extant",
+    "subject": [
+      "horse",
+      "head"
+    ],
+    "basis": "Derived automatically from Wikidata Q139393707 (instance of: drawing; material: ink; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q139393707",
+      "Q139567050"
+    ],
+    "louvre_ark": [
+      "cl020549724",
+      "cl020537466"
+    ],
+    "inventory": [
+      "781 DR/ Verso",
+      "781 DR/ Recto"
+    ]
+  },
+  "variants": [
+    "Cavalier allant au galop, tête de cheval de profil, cheval vu par la croupe",
+    "Deux cavaliers combattant un dragon, deux chevaux, un cavalier, un chien et un cheval"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Cavalier_allant_au_galop%2C_t%C3%AAte_de_cheval_de_profil%2C_cheval_vu_par_la_croupe%2C_781_DR_Verso.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Cavalier_allant_au_galop%2C_t%C3%AAte_de_cheval_de_profil%2C_cheval_vu_par_la_croupe%2C_781_DR_Verso.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/54/97/24/00/AGO549724-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020549724"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Deux_cavaliers_combattant_un_dragon%2C_deux_chevaux%2C_un_cavalier%2C_un_chien_et_un_cheval%2C_781_DR_Recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Deux_cavaliers_combattant_un_dragon%2C_deux_chevaux%2C_un_cavalier%2C_un_chien_et_un_cheval%2C_781_DR_Recto.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/53/74/66/00/AGO537466-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020537466"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1428",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139393707 (A Rider at a Gallop, a Horse's Head in Profile and a Horse Viewed from Behind), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139393707"
+        }
+      ]
+    },
+    {
+      "id": "api1429",
+      "about": "date",
+      "value": {
+        "text": "1481 to 1493",
+        "start": 1481,
+        "end": 1493
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1481 to 1493.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139393707 (A Rider at a Gallop, a Horse's Head in Profile and a Horse Viewed from Behind), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139393707"
+        }
+      ]
+    },
+    {
+      "id": "api1430",
+      "about": "inventory",
+      "value": {
+        "text": "781 DR/ Verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 781 DR/ Verso in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139393707 (A Rider at a Gallop, a Horse's Head in Profile and a Horse Viewed from Behind), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139393707"
+        }
+      ]
+    },
+    {
+      "id": "api1431",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139393707 (A Rider at a Gallop, a Horse's Head in Profile and a Horse Viewed from Behind), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139393707"
+        }
+      ]
+    },
+    {
+      "id": "api1432",
+      "about": "medium",
+      "value": {
+        "text": "ink"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: ink.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139393707 (A Rider at a Gallop, a Horse's Head in Profile and a Horse Viewed from Behind), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139393707"
+        }
+      ]
+    },
+    {
+      "id": "api1433",
+      "about": "dimensions",
+      "value": {
+        "text": "0.194 metre x 0.123 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.194 metre, width 0.123 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139393707 (A Rider at a Gallop, a Horse's Head in Profile and a Horse Viewed from Behind), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139393707"
+        }
+      ]
+    },
+    {
+      "id": "api1434",
+      "about": "inventory",
+      "value": {
+        "text": "781 DR/ Verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number 781 DR/ Verso.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020549724 (Cavalier allant au galop, tête de cheval de profil, cheval vu par la croupe), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020549724"
+        }
+      ]
+    },
+    {
+      "id": "api1435",
+      "about": "inventory_history",
+      "value": {
+        "text": "Anciens numéros d'inventaire: 10651; Référence de l'inventaire manuscrit: vol.1, p.11"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Anciens numéros d'inventaire: 10651; Référence de l'inventaire manuscrit: vol.1, p.11.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020549724 (Cavalier allant au galop, tête de cheval de profil, cheval vu par la croupe), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020549724"
+        }
+      ]
+    },
+    {
+      "id": "api1436",
+      "about": "date",
+      "value": {
+        "text": "Vers 1481/1493",
+        "start": 1481,
+        "end": 1493
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: Vers 1481/1493.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020549724 (Cavalier allant au galop, tête de cheval de profil, cheval vu par la croupe), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020549724"
+        }
+      ]
+    },
+    {
+      "id": "api1437",
+      "about": "medium",
+      "value": {
+        "text": "Plume, encre brune, lavis brun, traces de sanguine."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Plume, encre brune, lavis brun, traces de sanguine.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020549724 (Cavalier allant au galop, tête de cheval de profil, cheval vu par la croupe), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020549724"
+        }
+      ]
+    },
+    {
+      "id": "api1438",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.194 m (à la feuille); Largeur 0.123 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.194 m (à la feuille); Largeur 0.123 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020549724 (Cavalier allant au galop, tête de cheval de profil, cheval vu par la croupe), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020549724"
+        }
+      ]
+    },
+    {
+      "id": "api1439",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020549724 (Cavalier allant au galop, tête de cheval de profil, cheval vu par la croupe), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020549724"
+        }
+      ]
+    },
+    {
+      "id": "api1440",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020549724 (Cavalier allant au galop, tête de cheval de profil, cheval vu par la croupe), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020549724"
+        }
+      ]
+    },
+    {
+      "id": "api1441",
+      "about": "provenance",
+      "value": {
+        "text": "Provenance : Sir Peter Lely, Lugt 2092 ; Jonathan Richardson senior, Lugt 2183 ; Thomas Hudson (catalogue de vente Galichon, Paris, mai 1875) ; Earl Spencer, Lugt 1531 ; Johan Gijsbert Verstolk van Soelen ; Ignatius Franciscus Ellinckhuysen ; Alphonse Wyatt Thibaudeau, Lugt 2473 ; Emile Galichon, Lugt 856, vente Paris, mai 1875, n° 166 ; acheté par le baron E. de Rothschild à une date inconnue. Œuvre auparavant conservée dans le portefeuille XXI du baron Edmond de Rothschild."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: Provenance : Sir Peter Lely, Lugt 2092 ; Jonathan Richardson senior, Lugt 2183 ; Thomas Hudson (catalogue de vente Galichon, Paris, mai 1875) ; Earl Spencer, Lugt 1531 ; Johan Gijsbert Verstolk van Soelen ; Ignatius Franciscus Ellinckhuysen ; Alphonse Wyatt Thibaudeau, Lugt 2473 ; Emile Galichon, Lugt 856, vente Paris, mai 1875, n° 166 ; acheté par le baron E. de Rothschild à une date inconnue. Œuvre auparavant conservée dans le portefeuille XXI du baron Edmond de Rothschild.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020549724 (Cavalier allant au galop, tête de cheval de profil, cheval vu par la croupe), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020549724"
+        }
+      ]
+    },
+    {
+      "id": "api1520",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567050 (Two Horsemen fighting a Dragon and Horse Studies), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567050"
+        }
+      ]
+    },
+    {
+      "id": "api1521",
+      "about": "date",
+      "value": {
+        "text": "1481 to 1483",
+        "start": 1481,
+        "end": 1483
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1481 to 1483.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567050 (Two Horsemen fighting a Dragon and Horse Studies), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567050"
+        }
+      ]
+    },
+    {
+      "id": "api1522",
+      "about": "inventory",
+      "value": {
+        "text": "781 DR/ Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 781 DR/ Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567050 (Two Horsemen fighting a Dragon and Horse Studies), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567050"
+        }
+      ]
+    },
+    {
+      "id": "api1523",
+      "about": "current_location",
+      "value": {
+        "text": "Cabinet des dessins"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567050 (Two Horsemen fighting a Dragon and Horse Studies), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567050"
+        }
+      ]
+    },
+    {
+      "id": "api1524",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567050 (Two Horsemen fighting a Dragon and Horse Studies), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567050"
+        }
+      ]
+    },
+    {
+      "id": "api1525",
+      "about": "dimensions",
+      "value": {
+        "text": "0.194 metre x 0.123 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.194 metre, width 0.123 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567050 (Two Horsemen fighting a Dragon and Horse Studies), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567050"
+        }
+      ]
+    },
+    {
+      "id": "api1526",
+      "about": "depicts",
+      "value": {
+        "text": "horse; jinete"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: horse; jinete. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567050 (Two Horsemen fighting a Dragon and Horse Studies), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567050"
+        }
+      ]
+    },
+    {
+      "id": "api1527",
+      "about": "inventory",
+      "value": {
+        "text": "781 DR/ Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number 781 DR/ Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020537466 (Deux cavaliers combattant un dragon, deux chevaux, un cavalier, un chien et un cheval), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020537466"
+        }
+      ]
+    },
+    {
+      "id": "api1528",
+      "about": "inventory_history",
+      "value": {
+        "text": "Anciens numéros d'inventaire: 10651; Référence de l'inventaire manuscrit: vol.1, p.11"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Anciens numéros d'inventaire: 10651; Référence de l'inventaire manuscrit: vol.1, p.11.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020537466 (Deux cavaliers combattant un dragon, deux chevaux, un cavalier, un chien et un cheval), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020537466"
+        }
+      ]
+    },
+    {
+      "id": "api1529",
+      "about": "date",
+      "value": {
+        "text": "Vers 1481/1483",
+        "start": 1481,
+        "end": 1483
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: Vers 1481/1483.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020537466 (Deux cavaliers combattant un dragon, deux chevaux, un cavalier, un chien et un cheval), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020537466"
+        }
+      ]
+    },
+    {
+      "id": "api1530",
+      "about": "medium",
+      "value": {
+        "text": "Plume et encre brune, lavis brun"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Plume et encre brune, lavis brun",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020537466 (Deux cavaliers combattant un dragon, deux chevaux, un cavalier, un chien et un cheval), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020537466"
+        }
+      ]
+    },
+    {
+      "id": "api1531",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.194 m (à la feuille); Largeur 0.123 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.194 m (à la feuille); Largeur 0.123 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020537466 (Deux cavaliers combattant un dragon, deux chevaux, un cavalier, un chien et un cheval), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020537466"
+        }
+      ]
+    },
+    {
+      "id": "api1532",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020537466 (Deux cavaliers combattant un dragon, deux chevaux, un cavalier, un chien et un cheval), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020537466"
+        }
+      ]
+    },
+    {
+      "id": "api1533",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020537466 (Deux cavaliers combattant un dragon, deux chevaux, un cavalier, un chien et un cheval), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020537466"
+        }
+      ]
+    },
+    {
+      "id": "api1534",
+      "about": "provenance",
+      "value": {
+        "text": "Provenance : Sir Peter Lely, Lugt 2092 ; Jonathan Richardson senior, Lugt 2183 ; Thomas Hudson (catalogue de vente Galichon, Paris, mai 1875) ; Earl Spencer, Lugt 1531 ; Johan Gijsbert Verstolk van Soelen ; Ignatius Franciscus Ellinckhuysen ; Alphonse Wyatt Thibaudeau, Lugt 2473 ; Emile Galichon, Lugt 856, vente Paris, mai 1875, n° 166 ; acheté par le baron E. de Rothschild à une date inconnue. Œuvre auparavant conservée dans le portefeuille XXI du baron Edmond de Rothschild."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: Provenance : Sir Peter Lely, Lugt 2092 ; Jonathan Richardson senior, Lugt 2183 ; Thomas Hudson (catalogue de vente Galichon, Paris, mai 1875) ; Earl Spencer, Lugt 1531 ; Johan Gijsbert Verstolk van Soelen ; Ignatius Franciscus Ellinckhuysen ; Alphonse Wyatt Thibaudeau, Lugt 2473 ; Emile Galichon, Lugt 856, vente Paris, mai 1875, n° 166 ; acheté par le baron E. de Rothschild à une date inconnue. Œuvre auparavant conservée dans le portefeuille XXI du baron Edmond de Rothschild.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020537466 (Deux cavaliers combattant un dragon, deux chevaux, un cavalier, un chien et un cheval), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020537466"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

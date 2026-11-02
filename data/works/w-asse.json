@@ -152,6 +152,75 @@
           "url": "https://artsandculture.google.com/asset/sala-delle-asse-after-the-intervention-of-the-restorer-ernesto-rusca-1893-1902-leonardo-da-vinci/NgGq1u3tpiTyyQ"
         }
       ]
+    },
+    {
+      "id": "api2686",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3800774 (Sala delle Asse), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3800774"
+        }
+      ]
+    },
+    {
+      "id": "api2687",
+      "about": "date",
+      "value": {
+        "text": "1498",
+        "start": 1498
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1498.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3800774 (Sala delle Asse), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3800774"
+        }
+      ]
+    },
+    {
+      "id": "api2688",
+      "about": "current_location",
+      "value": {
+        "text": "Pinacoteca del Castello Sforzesco"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Pinacoteca del Castello Sforzesco, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3800774 (Sala delle Asse), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3800774"
+        }
+      ]
+    },
+    {
+      "id": "api2689",
+      "about": "depicts",
+      "value": {
+        "text": "Chiesa di Santa Maria sopra Olcio"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Chiesa di Santa Maria sopra Olcio. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3800774 (Sala delle Asse), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3800774"
+        }
+      ]
     }
   ],
   "current_location": "geo-castello-sforzesco",
@@ -174,6 +243,43 @@
   ],
   "open_questions": [
     "Day of the first Bascapè letter: 20 or 21 April 1498? Read Villata."
+  ],
+  "identifiers": {
+    "wikidata": "Q3800774"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/6.2_1980-1990_Saporetti_angolo_sud.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:6.2_1980-1990_Saporetti_angolo_sud.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Sala_delle_Asse",
+      "text": "The Sala delle Asse, is a large room in the Castello Sforzesco in Milan, the location of a painting in tempera on plaster by Leonardo da Vinci, dating from about 1498. Its walls and vaulted ceiling are decorated with \"intertwining plants with fruits and monochromes of roots and rocks\" and a canopy created by sixteen trees.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Sala_delle_Asse",
+      "text": "La Sala delle Asse è una sala che si trova al piano terra del torrione nord-orientale, detto anche del Falconiere, del Castello Sforzesco di Milano. Prende il nome dalle assi di legno che si ritiene un tempo rivestissero le pareti.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Sala_delle_Asse",
+      "text": "La Sala delle Asse, la salle de l'axe en italien, également appelée Pièce de la tour ou Pièce des lambris est une salle du château des Sforza dont le plafond a très probablement été décoré par Léonard de Vinci selon une commande de Ludovic le More.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Sala delle Asse Leonardo da Vinci",
+    "Sala delle Asse (Leonardo da Vinci)"
   ],
   "timeline": {
     "lane": "works",

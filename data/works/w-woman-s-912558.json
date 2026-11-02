@@ -1,0 +1,205 @@
+{
+  "id": "w-woman-s-912558",
+  "type": "work",
+  "label": "A study of a woman's hands",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "charcoal",
+      "metalpoint"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q3976305 (instance of: drawing; study; material: silverpoint; paper; charcoal; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q3976305",
+    "rcin": "912558",
+    "inventory": "RL 12558"
+  },
+  "variants": [
+    "Studio di mani",
+    "étude de mains de femme",
+    "Sheet of Studies of Hands and Arms"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_RCIN_912558%2C_A_study_of_a_woman's_hands_c.1490.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912558%2C_A_study_of_a_woman's_hands_c.1490.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2713",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3976305 (A study of a woman's hands), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3976305"
+        }
+      ]
+    },
+    {
+      "id": "api2714",
+      "about": "date",
+      "value": {
+        "text": "c.1490",
+        "start": 1490
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1490.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3976305 (A study of a woman's hands), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3976305"
+        }
+      ]
+    },
+    {
+      "id": "api2715",
+      "about": "inventory",
+      "value": {
+        "text": "RL 12558"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RL 12558 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3976305 (A study of a woman's hands), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3976305"
+        }
+      ]
+    },
+    {
+      "id": "api2716",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912558"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912558 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3976305 (A study of a woman's hands), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3976305"
+        }
+      ]
+    },
+    {
+      "id": "api2717",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 912558 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 912558 recto in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3976305 (A study of a woman's hands), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3976305"
+        }
+      ]
+    },
+    {
+      "id": "api2718",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3976305 (A study of a woman's hands), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3976305"
+        }
+      ]
+    },
+    {
+      "id": "api2719",
+      "about": "medium",
+      "value": {
+        "text": "silverpoint; paper; charcoal"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: silverpoint; paper; charcoal.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3976305 (A study of a woman's hands), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3976305"
+        }
+      ]
+    },
+    {
+      "id": "api2720",
+      "about": "dimensions",
+      "value": {
+        "text": "21.4 cm x 15 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 21.4 cm, width 15 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3976305 (A study of a woman's hands), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3976305"
+        }
+      ]
+    },
+    {
+      "id": "api2721",
+      "about": "depicts",
+      "value": {
+        "text": "hand"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: hand. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3976305 (A study of a woman's hands), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3976305"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Studio_di_mani",
+      "text": "Lo Studio di mani è un disegno a punta d'argento e lumeggiature di biacca su carta preparata in tinta rosa di Leonardo da Vinci, databile al 1474 circa e conservato nella Royal Library del Castello di Windsor.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor"
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor"
+}

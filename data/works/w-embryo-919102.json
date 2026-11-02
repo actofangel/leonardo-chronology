@@ -139,6 +139,205 @@
       "check_in": [
         "Clayton and Philo 2012"
       ]
+    },
+    {
+      "id": "api2142",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q105407611 (Foetus in the Womb), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q105407611"
+        }
+      ]
+    },
+    {
+      "id": "api2143",
+      "about": "date",
+      "value": {
+        "text": "c.1511",
+        "start": 1511
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1511.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q105407611 (Foetus in the Womb), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q105407611"
+        }
+      ]
+    },
+    {
+      "id": "api2144",
+      "about": "date",
+      "value": {
+        "text": "1510 to 1513",
+        "start": 1510,
+        "end": 1513
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1510 to 1513.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q105407611 (Foetus in the Womb), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q105407611"
+        }
+      ]
+    },
+    {
+      "id": "api2145",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919102"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919102 in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q105407611 (Foetus in the Womb), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q105407611"
+        }
+      ]
+    },
+    {
+      "id": "api2146",
+      "about": "inventory",
+      "value": {
+        "text": "RCIN 919102 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number RCIN 919102 verso in Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q105407611 (Foetus in the Womb), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q105407611"
+        }
+      ]
+    },
+    {
+      "id": "api2147",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q105407611 (Foetus in the Womb), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q105407611"
+        }
+      ]
+    },
+    {
+      "id": "api2148",
+      "about": "depicts",
+      "value": {
+        "text": "human fetus; uterus"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: human fetus; uterus. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q105407611 (Foetus in the Womb), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q105407611"
+        }
+      ]
+    },
+    {
+      "id": "api2766",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q21055389 (Studies of the Fetus in the Womb), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q21055389"
+        }
+      ]
+    },
+    {
+      "id": "api2767",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Royal Collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q21055389 (Studies of the Fetus in the Womb), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q21055389"
+        }
+      ]
     }
+  ],
+  "identifiers": {
+    "wikidata": [
+      "Q105407611",
+      "Q21055389"
+    ],
+    "rcin": "919102",
+    "inventory": "RCIN 919102"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Studies_of_the_foetus_in_the_womb.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Studies_of_the_foetus_in_the_womb.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Studies_of_the_Fetus_in_the_Womb",
+      "text": "Studies of the Fetus in the Womb are two coloured annotated sketches by Leonardo da Vinci made in around 1511. The studies correctly depict the human fetus in its proper position inside a dissected uterus. Leonardo depicted the uterus with one chamber, in contrast to theories that the uterus had multiple chambers which many believed divided fetuses into separate compartments in the case of twins. Leonardo also correctly drew the uterine artery and the vascular system of the cervix and vagina.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Studi_anatomici_di_feto_nell'utero",
+      "text": "Gli Studi anatomici di feto nell'utero sono due schizzi a colori realizzati da Leonardo da Vinci intorno al 1511 e attualmente parte della Royal Collection.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89tudes_du_f%C5%93tus_dans_l'ut%C3%A9rus",
+      "text": "Les études du fœtus dans l'utérus sont deux esquisses annotées et colorées du peintre florentin Léonard de Vinci, réalisées vers 1511. Ces études représentent correctement le fœtus humain dans sa position appropriée, dans un utérus disséqué.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Foetus in the Womb",
+    "Studi anatomici di feto nell'utero",
+    "Études du fœtus dans l'utérus"
   ]
 }

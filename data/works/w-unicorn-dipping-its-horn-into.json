@@ -1,0 +1,85 @@
+{
+  "id": "w-unicorn-dipping-its-horn-into",
+  "type": "work",
+  "label": "A Unicorn Dipping its Horn into a Pool of Water",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "water"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389989 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389989",
+    "inventory": "WA1855.83.2"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_WA1855.83.2.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_WA1855.83.2.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api564",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389989 (A Unicorn Dipping its Horn into a Pool of Water), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389989"
+        }
+      ]
+    },
+    {
+      "id": "api565",
+      "about": "inventory",
+      "value": {
+        "text": "WA1855.83.2"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number WA1855.83.2 in Ashmolean Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389989 (A Unicorn Dipping its Horn into a Pool of Water), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389989"
+        }
+      ]
+    },
+    {
+      "id": "api566",
+      "about": "current_location",
+      "value": {
+        "text": "Ashmolean Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Ashmolean Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389989 (A Unicorn Dipping its Horn into a Pool of Water), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389989"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ashmolean"
+    }
+  ],
+  "current_location": "geo-ashmolean"
+}

@@ -1,0 +1,145 @@
+{
+  "id": "w-portrait-young-fiancee",
+  "type": "work",
+  "label": "Portrait of a Young Fiancée",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "pen_and_ink"
+    ],
+    "support": "parchment",
+    "condition": "lost",
+    "subject": [
+      "portrait"
+    ],
+    "basis": "Derived automatically from Wikidata Q2072801 (instance of: painting; drawing; material: vellum; oak panel; ink; gouache paint; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q2072801"
+  },
+  "variants": [
+    "Ritratto di una Sforza",
+    "La Belle Princesse",
+    "La Bella Principessa",
+    "Portrait of a Young Fiancee"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Profile_of_a_Young_Fiancee_-_da_Vinci.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Profile_of_a_Young_Fiancee_-_da_Vinci.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api3009",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci (attribution)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator with the qualification: attribution. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2072801 (Portrait of a Young Fiancée), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2072801"
+        }
+      ]
+    },
+    {
+      "id": "api3010",
+      "about": "date",
+      "value": {
+        "text": "1495",
+        "start": 1495
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1495.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2072801 (Portrait of a Young Fiancée), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2072801"
+        }
+      ]
+    },
+    {
+      "id": "api3011",
+      "about": "medium",
+      "value": {
+        "text": "vellum; oak panel; ink; gouache paint"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: vellum; oak panel; ink; gouache paint.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2072801 (Portrait of a Young Fiancée), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2072801"
+        }
+      ]
+    },
+    {
+      "id": "api3012",
+      "about": "dimensions",
+      "value": {
+        "text": "33 cm x 24 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 33 cm, width 24 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2072801 (Portrait of a Young Fiancée), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2072801"
+        }
+      ]
+    },
+    {
+      "id": "api3013",
+      "about": "depicts",
+      "value": {
+        "text": "waist-length hair; coif; dress; girl; dress; formal wear; caul; interlace; Bianca Maria Sforza"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: waist-length hair; coif; dress; girl; dress; formal wear; caul; interlace; Bianca Maria Sforza. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q2072801 (Portrait of a Young Fiancée), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q2072801"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/La_Bella_Principessa",
+      "text": "La Bella Principessa, also known as Portrait of Bianca Sforza, Young Girl in Profile in Renaissance Dress and Portrait of a Young Fiancée, is a portrait in coloured chalks and ink, on vellum, of a young lady in fashionable costume and hairstyle of a Milanese of the 1490s. Some scholars have attributed it to Leonardo da Vinci but the attribution and the work's authenticity have been disputed. Supporters of the theory that it was by Leonardo have proposed that Bianca Giovanna Sforza, illegitimate daughter of Ludovico Sforza is the woman depicted in the drawing.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Ritratto_di_una_Sforza",
+      "text": "Il Ritratto di una Sforza è un disegno molto finito a gesso e inchiostro, matita nera, matita rossa e biacca su pergamena (33x23,9 cm) attribuito a Leonardo da Vinci, databile al 1495 circa e conservato in una collezione privata, forse in Canada. Si tratta di una delle più recenti attribuzioni che riguarda Leonardo, scaturita in seguito a una serie di indagini scientifiche del 2009 che avrebbero ritrovato un'impronta digitale sull'opera altamente compatibile con altre conosciute dell'artista, in particolare sul San Girolamo della Pinacoteca Vaticana.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/La_Belle_Princesse",
+      "text": "La Belle Princesse est un portrait dessiné attribué par plusieurs experts reconnus au peintre florentin Léonard de Vinci, mais cette attribution demeure contestée.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

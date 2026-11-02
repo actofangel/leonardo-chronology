@@ -1,0 +1,88 @@
+{
+  "id": "w-codex-atlanticus-f1069",
+  "type": "work",
+  "label": "Codex Atlanticus, f. 1069",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q131604555 (instance of: folio; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "manuscript": "w-atlanticus",
+  "folio": "f. 1069",
+  "relations": [
+    {
+      "rel": "drawn_on",
+      "target": "w-atlanticus"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-gallerie-accademia-venice"
+    }
+  ],
+  "identifiers": {
+    "wikidata": "Q131604555",
+    "inventory": "F1069"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Atlanticus_f1069_recto.png?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codex_Atlanticus_f1069_recto.png"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2424",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604555 (Codex Atlanticus (F1069)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604555"
+        }
+      ]
+    },
+    {
+      "id": "api2425",
+      "about": "inventory",
+      "value": {
+        "text": "F1069"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number F1069 in Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604555 (Codex Atlanticus (F1069)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604555"
+        }
+      ]
+    },
+    {
+      "id": "api2426",
+      "about": "current_location",
+      "value": {
+        "text": "Gallerie dell'Accademia"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131604555 (Codex Atlanticus (F1069)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131604555"
+        }
+      ]
+    }
+  ],
+  "current_location": "geo-gallerie-accademia-venice"
+}

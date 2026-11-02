@@ -1,5 +1,413 @@
 {
  "search": "artistOrCulture=true&q=Leonardo da Vinci",
- "hits": 0,
- "objects": []
+ "hits": 6,
+ "objects": [
+  {
+   "objectID": 339130,
+   "isHighlight": false,
+   "accessionNumber": "17.142.2",
+   "accessionYear": "1917",
+   "isPublicDomain": true,
+   "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DT232678.jpg",
+   "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DT232678.jpg",
+   "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/dp/original/DT339729.jpg",
+    "https://images.metmuseum.org/CRDImages/dp/original/DT339730.jpg"
+   ],
+   "constituents": [
+    {
+     "constituentID": 162059,
+     "role": "Artist",
+     "name": "Leonardo da Vinci",
+     "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500010879",
+     "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q762",
+     "gender": ""
+    }
+   ],
+   "department": "Drawings and Prints",
+   "objectName": "Drawing",
+   "title": "Allegory on the Fidelity of the Lizard (recto); Design for a Stage Setting (verso)",
+   "culture": "",
+   "period": "",
+   "dynasty": "",
+   "reign": "",
+   "portfolio": "",
+   "artistRole": "Artist",
+   "artistPrefix": "",
+   "artistDisplayName": "Leonardo da Vinci",
+   "artistDisplayBio": "Italian, Vinci 1452–1519 Amboise",
+   "artistSuffix": "",
+   "artistAlphaSort": "Vinci, Leonardo da",
+   "artistNationality": "Italian",
+   "artistBeginDate": "1452",
+   "artistEndDate": "1519",
+   "artistGender": "",
+   "artistWikidata_URL": "https://www.wikidata.org/wiki/Q762",
+   "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500010879",
+   "objectDate": "1496",
+   "objectBeginDate": 1496,
+   "objectEndDate": 1496,
+   "medium": "Pen and brown ink (recto and verso)",
+   "dimensions": "7 15/16 x 5 1/4in. (20.2 x 13.3cm)",
+   "measurements": [
+    {
+     "elementName": "Overall",
+     "elementDescription": null,
+     "elementMeasurements": {
+      "Height": 20.2,
+      "Width": 13.3
+     }
+    }
+   ],
+   "creditLine": "Rogers Fund, 1917",
+   "geographyType": "",
+   "city": "",
+   "state": "",
+   "county": "",
+   "country": "",
+   "region": "",
+   "subregion": "",
+   "locale": "",
+   "locus": "",
+   "excavation": "",
+   "river": "",
+   "classification": "Drawings",
+   "rightsAndReproduction": "",
+   "linkResource": "",
+   "metadataDate": "2025-10-07T04:53:32.167Z",
+   "repository": "Metropolitan Museum of Art, New York, NY",
+   "objectURL": "https://www.metmuseum.org/art/collection/search/339130",
+   "tags": [
+    {
+     "term": "Men",
+     "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+     "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+     "term": "Lizards",
+     "AAT_URL": "http://vocab.getty.edu/page/aat/300250295",
+     "Wikidata_URL": "https://www.wikidata.org/wiki/Q15629245"
+    },
+    {
+     "term": "Stage Design",
+     "AAT_URL": "http://vocab.getty.edu/page/aat/300435128",
+     "Wikidata_URL": "https://www.wikidata.org/wiki/Q55619117"
+    }
+   ],
+   "objectWikidata_URL": "",
+   "isTimelineWork": true,
+   "GalleryNumber": ""
+  },
+  {
+   "objectID": 337494,
+   "isHighlight": true,
+   "accessionNumber": "17.142.1",
+   "accessionYear": "1917",
+   "isPublicDomain": true,
+   "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP832657.jpg",
+   "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP832657.jpg",
+   "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/dp/original/269496.jpg",
+    "https://images.metmuseum.org/CRDImages/dp/original/dp17.142.1v.R.jpg",
+    "https://images.metmuseum.org/CRDImages/dp/original/dp17.142.1r.R.jpg",
+    "https://images.metmuseum.org/CRDImages/dp/original/DP136369.jpg",
+    "https://images.metmuseum.org/CRDImages/dp/original/DT606.jpg",
+    "https://images.metmuseum.org/CRDImages/dp/original/dp17.142.1.R.jpg",
+    "https://images.metmuseum.org/CRDImages/dp/original/Leonardo Documentary 1.jpg",
+    "https://images.metmuseum.org/CRDImages/dp/original/75I_40r1.jpg"
+   ],
+   "constituents": [
+    {
+     "constituentID": 162059,
+     "role": "Artist",
+     "name": "Leonardo da Vinci",
+     "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500010879",
+     "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q762",
+     "gender": ""
+    }
+   ],
+   "department": "Drawings and Prints",
+   "objectName": "Drawing",
+   "title": "Compositional Sketches for the Virgin Adoring the Christ Child, with and without the Infant St. John the Baptist; Diagram of a Perspectival Projection (recto); Slight Doodles (verso)",
+   "culture": "",
+   "period": "",
+   "dynasty": "",
+   "reign": "",
+   "portfolio": "",
+   "artistRole": "Artist",
+   "artistPrefix": "",
+   "artistDisplayName": "Leonardo da Vinci",
+   "artistDisplayBio": "Italian, Vinci 1452–1519 Amboise",
+   "artistSuffix": "",
+   "artistAlphaSort": "Vinci, Leonardo da",
+   "artistNationality": "Italian",
+   "artistBeginDate": "1452",
+   "artistEndDate": "1519",
+   "artistGender": "",
+   "artistWikidata_URL": "https://www.wikidata.org/wiki/Q762",
+   "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500010879",
+   "objectDate": "1480–85",
+   "objectBeginDate": 1480,
+   "objectEndDate": 1485,
+   "medium": "Silverpoint, partly reworked by the artist with pen and dark brown ink on pink prepared paper; lines ruled with metalpoint (recto); pen and brown ink (verso)",
+   "dimensions": "7 5/8 x 6 3/8 in. (19.3 x 16.2 cm)",
+   "measurements": [
+    {
+     "elementName": "Overall",
+     "elementDescription": null,
+     "elementMeasurements": {
+      "Height": 19.3,
+      "Width": 16.2
+     }
+    },
+    {
+     "elementName": "Framed",
+     "elementDescription": null,
+     "elementMeasurements": {
+      "Height": 53.340107,
+      "Width": 40.64008
+     }
+    },
+    {
+     "elementName": "Mat",
+     "elementDescription": null,
+     "elementMeasurements": {
+      "Height": 48.8951,
+      "Width": 36.195072
+     }
+    }
+   ],
+   "creditLine": "Rogers Fund, 1917",
+   "geographyType": "",
+   "city": "",
+   "state": "",
+   "county": "",
+   "country": "",
+   "region": "",
+   "subregion": "",
+   "locale": "",
+   "locus": "",
+   "excavation": "",
+   "river": "",
+   "classification": "Drawings",
+   "rightsAndReproduction": "",
+   "linkResource": "",
+   "metadataDate": "2026-08-07T14:36:51.09Z",
+   "repository": "Metropolitan Museum of Art, New York, NY",
+   "objectURL": "https://www.metmuseum.org/art/collection/search/337494",
+   "tags": [
+    {
+     "term": "Christ",
+     "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+     "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+     "term": "Saint John the Baptist",
+     "AAT_URL": "http://vocab.getty.edu/page/ia/901001056",
+     "Wikidata_URL": "https://www.wikidata.org/wiki/Q40662"
+    },
+    {
+     "term": "Virgin Mary",
+     "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+     "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    }
+   ],
+   "objectWikidata_URL": "https://www.wikidata.org/wiki/Q29384842",
+   "isTimelineWork": true,
+   "GalleryNumber": ""
+  },
+  {
+   "objectID": 337496,
+   "isHighlight": true,
+   "accessionNumber": "51.90",
+   "accessionYear": "1951",
+   "isPublicDomain": true,
+   "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP102382.jpg",
+   "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP102382.jpg",
+   "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/dp/original/DP102383.jpg",
+    "https://images.metmuseum.org/CRDImages/dp/original/DP102384.jpg",
+    "https://images.metmuseum.org/CRDImages/dp/original/DP102385.jpg"
+   ],
+   "constituents": [
+    {
+     "constituentID": 162059,
+     "role": "Artist",
+     "name": "Leonardo da Vinci",
+     "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500010879",
+     "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q762",
+     "gender": ""
+    }
+   ],
+   "department": "Drawings and Prints",
+   "objectName": "Drawing",
+   "title": "The Head of the Virgin in Three-Quarter View Facing Right",
+   "culture": "",
+   "period": "",
+   "dynasty": "",
+   "reign": "",
+   "portfolio": "",
+   "artistRole": "Artist",
+   "artistPrefix": "",
+   "artistDisplayName": "Leonardo da Vinci",
+   "artistDisplayBio": "Italian, Vinci 1452–1519 Amboise",
+   "artistSuffix": "",
+   "artistAlphaSort": "Vinci, Leonardo da",
+   "artistNationality": "Italian",
+   "artistBeginDate": "1452",
+   "artistEndDate": "1519",
+   "artistGender": "",
+   "artistWikidata_URL": "https://www.wikidata.org/wiki/Q762",
+   "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500010879",
+   "objectDate": "1510–13",
+   "objectBeginDate": 1510,
+   "objectEndDate": 1513,
+   "medium": "Black chalk, charcoal, and red chalk, with some traces of white chalk (?); some remains of framing lines in pen and brown ink at upper right (not by Leonardo)",
+   "dimensions": "Sheet: 8 x 6 1/8 in. (20.3 x 15.6 cm)",
+   "measurements": [
+    {
+     "elementName": "Sheet",
+     "elementDescription": null,
+     "elementMeasurements": {
+      "Height": 20.3,
+      "Width": 15.6
+     }
+    }
+   ],
+   "creditLine": "Harris Brisbane Dick Fund, 1951",
+   "geographyType": "",
+   "city": "",
+   "state": "",
+   "county": "",
+   "country": "",
+   "region": "",
+   "subregion": "",
+   "locale": "",
+   "locus": "",
+   "excavation": "",
+   "river": "",
+   "classification": "Drawings",
+   "rightsAndReproduction": "",
+   "linkResource": "",
+   "metadataDate": "2025-10-07T04:53:32.167Z",
+   "repository": "Metropolitan Museum of Art, New York, NY",
+   "objectURL": "https://www.metmuseum.org/art/collection/search/337496",
+   "tags": [
+    {
+     "term": "Heads",
+     "AAT_URL": "http://vocab.getty.edu/page/aat/300375054",
+     "Wikidata_URL": "https://www.wikidata.org/wiki/Q3409626"
+    },
+    {
+     "term": "Profiles",
+     "AAT_URL": "http://vocab.getty.edu/page/aat/300123319",
+     "Wikidata_URL": "https://www.wikidata.org/wiki/Q4382010"
+    },
+    {
+     "term": "Women",
+     "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+     "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+     "term": "Virgin Mary",
+     "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+     "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    }
+   ],
+   "objectWikidata_URL": "https://www.wikidata.org/wiki/Q29384852",
+   "isTimelineWork": true,
+   "GalleryNumber": ""
+  },
+  {
+   "objectID": 459184,
+   "isHighlight": true,
+   "accessionNumber": "1975.1.369",
+   "accessionYear": "1975",
+   "isPublicDomain": true,
+   "primaryImage": "https://images.metmuseum.org/CRDImages/rl/original/DP324213.jpg",
+   "primaryImageSmall": "https://images.metmuseum.org/CRDImages/rl/web-large/DP324213.jpg",
+   "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/rl/original/rl1975.1.369.R.jpg",
+    "https://images.metmuseum.org/CRDImages/rl/original/DP102431.jpg",
+    "https://images.metmuseum.org/CRDImages/rl/original/DR477.jpg",
+    "https://images.metmuseum.org/CRDImages/rl/original/DT3181.jpg",
+    "https://images.metmuseum.org/CRDImages/rl/original/DT727.jpg",
+    "https://images.metmuseum.org/CRDImages/rl/original/46H_094R3.jpg",
+    "https://images.metmuseum.org/CRDImages/rl/original/269494.jpg"
+   ],
+   "constituents": [
+    {
+     "constituentID": 162059,
+     "role": "Artist",
+     "name": "Leonardo da Vinci",
+     "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500010879",
+     "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q762",
+     "gender": ""
+    }
+   ],
+   "department": "Robert Lehman Collection",
+   "objectName": "Drawing",
+   "title": "A Bear Walking",
+   "culture": "",
+   "period": "",
+   "dynasty": "",
+   "reign": "",
+   "portfolio": "",
+   "artistRole": "Artist",
+   "artistPrefix": "",
+   "artistDisplayName": "Leonardo da Vinci",
+   "artistDisplayBio": "Italian, Vinci 1452–1519 Amboise",
+   "artistSuffix": "",
+   "artistAlphaSort": "Vinci, Leonardo da",
+   "artistNationality": "Italian",
+   "artistBeginDate": "1452",
+   "artistEndDate": "1519",
+   "artistGender": "",
+   "artistWikidata_URL": "https://www.wikidata.org/wiki/Q762",
+   "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500010879",
+   "objectDate": "ca. 1482–85",
+   "objectBeginDate": 1477,
+   "objectEndDate": 1487,
+   "medium": "silverpoint on light buff prepared paper",
+   "dimensions": "4 1/16 x 5 1/4 in.  (10.3 x 13.3 cm)",
+   "measurements": [
+    {
+     "elementName": "Overall",
+     "elementDescription": null,
+     "elementMeasurements": {
+      "Height": 10.3,
+      "Width": 13.3
+     }
+    }
+   ],
+   "creditLine": "Robert Lehman Collection, 1975",
+   "geographyType": "",
+   "city": "",
+   "state": "",
+   "county": "",
+   "country": "",
+   "region": "",
+   "subregion": "",
+   "locale": "",
+   "locus": "",
+   "excavation": "",
+   "river": "",
+   "classification": "Drawings",
+   "rightsAndReproduction": "",
+   "linkResource": "",
+   "metadataDate": "2026-10-09T04:58:20.95Z",
+   "repository": "Metropolitan Museum of Art, New York, NY",
+   "objectURL": "https://www.metmuseum.org/art/collection/search/459184",
+   "tags": [
+    {
+     "term": "Bears",
+     "AAT_URL": "http://vocab.getty.edu/page/aat/300266516",
+     "Wikidata_URL": "https://www.wikidata.org/wiki/Q30090244"
+    }
+   ],
+   "objectWikidata_URL": "https://www.wikidata.org/wiki/Q29385294",
+   "isTimelineWork": true,
+   "GalleryNumber": ""
+  }
+ ]
 }

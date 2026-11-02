@@ -1,0 +1,85 @@
+{
+  "id": "w-wind-instruments-fantastical-weapons",
+  "type": "work",
+  "label": "Two Wind Instruments and Fantastical Weapons",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "military"
+    ],
+    "basis": "Derived automatically from Wikidata Q139567086 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567086",
+    "inventory": "Codex Ashburnham 1875/1 (MS 2184), fol. D"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_19-544982.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_19-544982.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1647",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567086 (Two Wind Instruments and Fantastical Weapons), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567086"
+        }
+      ]
+    },
+    {
+      "id": "api1648",
+      "about": "inventory",
+      "value": {
+        "text": "Codex Ashburnham 1875/1 (MS 2184), fol. D"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Codex Ashburnham 1875/1 (MS 2184), fol. D in Bibliothèque de l'Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567086 (Two Wind Instruments and Fantastical Weapons), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567086"
+        }
+      ]
+    },
+    {
+      "id": "api1649",
+      "about": "current_location",
+      "value": {
+        "text": "Bibliothèque de l'Institut de France"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Bibliothèque de l'Institut de France, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567086 (Two Wind Instruments and Fantastical Weapons), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567086"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-institut-de-france"
+    }
+  ],
+  "current_location": "geo-institut-de-france"
+}

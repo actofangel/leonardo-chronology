@@ -1,0 +1,86 @@
+{
+  "id": "w-figural-adoration-7",
+  "type": "work",
+  "label": "Figural Studies for the Adoration of the Magi (Sketches for a Christ Child and Studies of a Kneeling and Flying Angel)",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "subject": [
+      "religious",
+      "flight"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389472 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389472",
+    "inventory": "259"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Etude_pour_la_Nativit%C3%A9_de_J%C3%A9sus%2C_19-506106.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Etude_pour_la_Nativit%C3%A9_de_J%C3%A9sus%2C_19-506106.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2998",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389472 (Figural Studies for the Adoration of the Magi (Sketches for a Christ Child and Studies of a Kneeling and Flying Angel)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389472"
+        }
+      ]
+    },
+    {
+      "id": "api2999",
+      "about": "inventory",
+      "value": {
+        "text": "259"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 259 in Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389472 (Figural Studies for the Adoration of the Magi (Sketches for a Christ Child and Studies of a Kneeling and Flying Angel)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389472"
+        }
+      ]
+    },
+    {
+      "id": "api3000",
+      "about": "current_location",
+      "value": {
+        "text": "Gallerie dell'Accademia"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Gallerie dell'Accademia, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389472 (Figural Studies for the Adoration of the Magi (Sketches for a Christ Child and Studies of a Kneeling and Flying Angel)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389472"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-gallerie-accademia-venice"
+    }
+  ],
+  "current_location": "geo-gallerie-accademia-venice"
+}

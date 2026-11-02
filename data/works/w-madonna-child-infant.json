@@ -1,0 +1,204 @@
+{
+  "id": "w-madonna-child-infant",
+  "type": "work",
+  "label": "Madonna and Child with the Infant Saint John",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "panel",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q50881860 (instance of: painting; material: oil paint; panel; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q50881860",
+    "inventory": "4238"
+  },
+  "variants": [
+    "Mary with her child and little ...John, the \"Baptist\"?"
+  ],
+  "claims": [
+    {
+      "id": "api3028",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci (former attribution)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator with the qualification: former attribution. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q50881860 (Madonna and Child with the Infant Saint John), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q50881860"
+        }
+      ]
+    },
+    {
+      "id": "api3029",
+      "about": "inventory",
+      "value": {
+        "text": "4238"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 4238 in Museum of Fine Arts, Budapest, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q50881860 (Madonna and Child with the Infant Saint John), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q50881860"
+        }
+      ]
+    },
+    {
+      "id": "api3030",
+      "about": "inventory",
+      "value": {
+        "text": "906/4"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 906/4 in Munich Central Collecting Point, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q50881860 (Madonna and Child with the Infant Saint John), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q50881860"
+        }
+      ]
+    },
+    {
+      "id": "api3031",
+      "about": "inventory",
+      "value": {
+        "text": "4238"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 4238 in Führermuseum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q50881860 (Madonna and Child with the Infant Saint John), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q50881860"
+        }
+      ]
+    },
+    {
+      "id": "api3032",
+      "about": "current_location",
+      "value": {
+        "text": "Museum of Fine Arts, Budapest"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Museum of Fine Arts, Budapest, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q50881860 (Madonna and Child with the Infant Saint John), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q50881860"
+        }
+      ]
+    },
+    {
+      "id": "api3033",
+      "about": "current_location",
+      "value": {
+        "text": "Munich Central Collecting Point"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Munich Central Collecting Point, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q50881860 (Madonna and Child with the Infant Saint John), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q50881860"
+        }
+      ]
+    },
+    {
+      "id": "api3034",
+      "about": "current_location",
+      "value": {
+        "text": "Führermuseum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Führermuseum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q50881860 (Madonna and Child with the Infant Saint John), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q50881860"
+        }
+      ]
+    },
+    {
+      "id": "api3035",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q50881860 (Madonna and Child with the Infant Saint John), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q50881860"
+        }
+      ]
+    },
+    {
+      "id": "api3036",
+      "about": "dimensions",
+      "value": {
+        "text": "113.3 cm x 76.5 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 113.3 cm, width 76.5 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q50881860 (Madonna and Child with the Infant Saint John), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q50881860"
+        }
+      ]
+    },
+    {
+      "id": "api3037",
+      "about": "depicts",
+      "value": {
+        "text": "Mary; Christ Child"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Mary; Christ Child. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q50881860 (Madonna and Child with the Infant Saint John), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q50881860"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-szepmuveszeti-budapest"
+    }
+  ],
+  "current_location": "geo-szepmuveszeti-budapest"
+}

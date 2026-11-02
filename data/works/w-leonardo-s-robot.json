@@ -1,0 +1,67 @@
+{
+  "id": "w-leonardo-s-robot",
+  "type": "work",
+  "label": "Leonardo's robot",
+  "subtype": "engineering_project",
+  "classification": {
+    "form": "engineering_project",
+    "condition": "lost",
+    "basis": "Derived automatically from Wikidata Q148270 (instance of: invention; humanoid robot; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q148270"
+  },
+  "variants": [
+    "Automa cavaliere",
+    "robot de Léonard"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo-Robot3.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo-Robot3.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2486",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q148270 (Leonardo's robot), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q148270"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Leonardo's_robot",
+      "text": "Leonardo's robot, or Leonardo's mechanical knight, is a humanoid automaton designed and possibly constructed by Leonardo da Vinci in the late 15th century.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Automa_cavaliere",
+      "text": "L'automa cavaliere è un automa meccanico umanoide progettato da Leonardo da Vinci intorno al 1495; era stato probabilmente previsto per animare una delle feste alla corte sforzesca di Milano, tuttavia non è dato sapere se fu mai realizzato.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/Robot_(L%C3%A9onard_de_Vinci)",
+      "text": "Le Robot est un automate humanoïde imaginé par Léonard de Vinci (1452-1519) et peut-être construit par lui. Ce robot aurait été conçu à l'occasion de festivités organisées en 1495 à la cour ducale de Milan par Ludovic Sforza, le commanditaire de La Cène.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "w-sheet",
+  "type": "work",
+  "label": "Sheet of Studies [recto]",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "technique": [
+      "black_chalk",
+      "pen_and_ink"
+    ],
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q64592974 (instance of: drawing; material: pen; brown ink; black chalk; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q64592974",
+    "inventory": "1991.217.2.a"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci%2C_Sheet_of_Studies_(recto)%2C_probably_1470-1480%2C_NGA_74163.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci%2C_Sheet_of_Studies_(recto)%2C_probably_1470-1480%2C_NGA_74163.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2848",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q64592974 (Sheet of Studies [recto]), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q64592974"
+        }
+      ]
+    },
+    {
+      "id": "api2849",
+      "about": "date",
+      "value": {
+        "text": "1470 to 1480",
+        "start": 1470,
+        "end": 1480
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1470 to 1480.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q64592974 (Sheet of Studies [recto]), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q64592974"
+        }
+      ]
+    },
+    {
+      "id": "api2850",
+      "about": "inventory",
+      "value": {
+        "text": "1991.217.2.a"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1991.217.2.a in National Gallery of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q64592974 (Sheet of Studies [recto]), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q64592974"
+        }
+      ]
+    },
+    {
+      "id": "api2851",
+      "about": "current_location",
+      "value": {
+        "text": "National Gallery of Art"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by National Gallery of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q64592974 (Sheet of Studies [recto]), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q64592974"
+        }
+      ]
+    },
+    {
+      "id": "api2852",
+      "about": "current_location",
+      "value": {
+        "text": "drawings in the National Gallery of Art"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by drawings in the National Gallery of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q64592974 (Sheet of Studies [recto]), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q64592974"
+        }
+      ]
+    },
+    {
+      "id": "api2853",
+      "about": "medium",
+      "value": {
+        "text": "pen; brown ink; black chalk"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: pen; brown ink; black chalk.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q64592974 (Sheet of Studies [recto]), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q64592974"
+        }
+      ]
+    },
+    {
+      "id": "api2854",
+      "about": "dimensions",
+      "value": {
+        "text": "16.4 cm x 13.9 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 16.4 cm, width 13.9 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q64592974 (Sheet of Studies [recto]), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q64592974"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-national-gallery-washington"
+    }
+  ],
+  "current_location": "geo-national-gallery-washington"
+}

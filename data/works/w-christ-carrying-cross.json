@@ -1,0 +1,60 @@
+{
+  "id": "w-christ-carrying-cross",
+  "type": "work",
+  "label": "Christ Carrying the Cross",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "condition": "lost",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q12730109 (instance of: painting; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q12730109"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_(attrib)_-_Christ_carrying_the_Cross.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_(attrib)_-_Christ_carrying_the_Cross.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2483",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci (attribution)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator with the qualification: attribution. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q12730109 (Christ Carrying the Cross), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q12730109"
+        }
+      ]
+    },
+    {
+      "id": "api2484",
+      "about": "depicts",
+      "value": {
+        "text": "Jesus Christ"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Jesus Christ. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q12730109 (Christ Carrying the Cross), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q12730109"
+        }
+      ]
+    }
+  ]
+}

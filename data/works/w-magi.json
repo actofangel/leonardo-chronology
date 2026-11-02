@@ -133,6 +133,126 @@
           "url": "https://www.uffizi.it/news/il-restauro-dell-adorazione-dei-magi-di-leonardo-da-vinci-capire-il-non-finito"
         }
       ]
+    },
+    {
+      "id": "api2607",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1638622 (Adoration of the Magi), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1638622"
+        }
+      ]
+    },
+    {
+      "id": "api2608",
+      "about": "date",
+      "value": {
+        "text": "c.1482",
+        "start": 1482
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1482.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1638622 (Adoration of the Magi), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1638622"
+        }
+      ]
+    },
+    {
+      "id": "api2609",
+      "about": "inventory",
+      "value": {
+        "text": "N. Inv. 1594"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number N. Inv. 1594 in Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1638622 (Adoration of the Magi), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1638622"
+        }
+      ]
+    },
+    {
+      "id": "api2610",
+      "about": "current_location",
+      "value": {
+        "text": "Uffizi Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1638622 (Adoration of the Magi), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1638622"
+        }
+      ]
+    },
+    {
+      "id": "api2611",
+      "about": "medium",
+      "value": {
+        "text": "drawing; charcoal; watercolor paint; ink; oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: drawing; charcoal; watercolor paint; ink; oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1638622 (Adoration of the Magi), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1638622"
+        }
+      ]
+    },
+    {
+      "id": "api2612",
+      "about": "dimensions",
+      "value": {
+        "text": "243 cm x 246 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 243 cm, width 246 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1638622 (Adoration of the Magi), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1638622"
+        }
+      ]
+    },
+    {
+      "id": "api2613",
+      "about": "depicts",
+      "value": {
+        "text": "Christ Child; Mary; woman; adoration of the Magi"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Christ Child; Mary; woman; adoration of the Magi. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q1638622 (Adoration of the Magi), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q1638622"
+        }
+      ]
     }
   ],
   "current_location": "geo-uffizi",
@@ -152,6 +272,44 @@
   "open_questions": [
     "Exact date and wording of the 1481 commission (the draft says March 1481): read Villata.",
     "Patrons: monks or canons regular of San Donato a Scopeto? Correct the draft wording if Villata confirms canons regular."
+  ],
+  "identifiers": {
+    "wikidata": "Q1638622",
+    "inventory": "N. Inv. 1594"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci%2C_Adoration%2C_c1481%2C_Uffizi.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci%2C_Adoration%2C_c1481%2C_Uffizi.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Adoration_of_the_Magi_(Leonardo)",
+      "text": "The Adoration of the Magi is an unfinished early painting by the Italian Renaissance artist Leonardo da Vinci. Leonardo was given the commission by the Augustinian monks of San Donato in Scopeto in Florence in 1481, but he departed for Milan the following year, leaving merely more than the preparatory underdrawing in charcoal, ink and watercolor. It has been in the Uffizi Gallery in Florence since 1670.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Adorazione_dei_Magi_(Leonardo)",
+      "text": "L'Adorazione dei Magi è un dipinto a olio su tavola e tempera grassa di Leonardo da Vinci, realizzato tra il 1481 e il 1482. È conservato nella Galleria degli Uffizi a Firenze.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/L'Adoration_des_mages_(L%C3%A9onard_de_Vinci)",
+      "text": "L’Adoration des mages est un tableau inachevé de Léonard de Vinci. Il est exposé à la galerie des Offices de Florence. Il mesure 243 × 246 cm et il est constitué de dix planches encollées à la verticale, renforcées par deux traverses de bois.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Adorazione dei Magi",
+    "L'Adoration des mages"
   ],
   "timeline": {
     "lane": "works",

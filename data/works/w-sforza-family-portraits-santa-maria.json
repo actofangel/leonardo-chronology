@@ -1,0 +1,97 @@
+{
+  "id": "w-sforza-family-portraits-santa-maria",
+  "type": "work",
+  "label": "Sforza Family portraits in Santa Maria delle Grazie by Leonardo da Vinci",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "condition": "extant",
+    "subject": [
+      "portrait"
+    ],
+    "basis": "Derived automatically from Wikidata Q3937378 (instance of: painting; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q3937378"
+  },
+  "variants": [
+    "Ritratti dei duchi di Milano con i figli"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_vinci%2C_Ritratti_dei_duchi_di_Milano_con_i_figli.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci%2C_Ritratti_dei_duchi_di_Milano_con_i_figli.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2710",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3937378 (Sforza Family portraits in Santa Maria delle Grazie by Leonardo da Vinci), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3937378"
+        }
+      ]
+    },
+    {
+      "id": "api2711",
+      "about": "date",
+      "value": {
+        "text": "1497",
+        "start": 1497
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1497.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3937378 (Sforza Family portraits in Santa Maria delle Grazie by Leonardo da Vinci), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3937378"
+        }
+      ]
+    },
+    {
+      "id": "api2712",
+      "about": "current_location",
+      "value": {
+        "text": "Santa Maria delle Grazie"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Santa Maria delle Grazie, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q3937378 (Sforza Family portraits in Santa Maria delle Grazie by Leonardo da Vinci), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q3937378"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Ritratti_dei_duchi_di_Milano_con_i_figli",
+      "text": "I Ritratti dei duchi di Milano con i figli sono una serie di dipinti a olio e tempera su intonaco di Leonardo da Vinci, databili al 1497 e conservati ai lati della Crocifissione di Donato Montorfano nell'ex-refettorio del convento di Santa Maria delle Grazie. Le opere, confermate dalle fonti antiche, sono oggi scarsamente leggibili.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-santa-maria-delle-grazie"
+    }
+  ],
+  "current_location": "geo-santa-maria-delle-grazie"
+}

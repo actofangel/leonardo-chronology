@@ -1,0 +1,60 @@
+{
+  "id": "w-horse-rider",
+  "type": "work",
+  "label": "Study of a Horse and Rider",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "condition": "extant",
+    "subject": [
+      "horse"
+    ],
+    "basis": "Derived automatically from Wikidata Q139567044 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567044"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Horse_and_Rider_by_Leonardo_(Christie's).jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Horse_and_Rider_by_Leonardo_(Christie's).jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1515",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567044 (Study of a Horse and Rider), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567044"
+        }
+      ]
+    },
+    {
+      "id": "api1516",
+      "about": "current_location",
+      "value": {
+        "text": "private collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by private collection, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567044 (Study of a Horse and Rider), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567044"
+        }
+      ]
+    }
+  ]
+}

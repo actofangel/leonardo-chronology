@@ -1,0 +1,78 @@
+{
+  "id": "w-drapery-kneeling-figure-4",
+  "type": "work",
+  "label": "Drapery Study for a Kneeling Figure turned to the Left",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q136389615 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389615",
+    "inventory": "F. C. 125770"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo%2C_Studio_di_panneggio_%E2%80%93_FC_125770.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo%2C_Studio_di_panneggio_%E2%80%93_FC_125770.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api726",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389615 (Drapery Study for a Kneeling Figure turned to the Left), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389615"
+        }
+      ]
+    },
+    {
+      "id": "api727",
+      "about": "inventory",
+      "value": {
+        "text": "F. C. 125770"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number F. C. 125770 in Istituto nazionale per la grafica, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389615 (Drapery Study for a Kneeling Figure turned to the Left), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389615"
+        }
+      ]
+    },
+    {
+      "id": "api728",
+      "about": "current_location",
+      "value": {
+        "text": "Istituto nazionale per la grafica"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Istituto nazionale per la grafica, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389615 (Drapery Study for a Kneeling Figure turned to the Left), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389615"
+        }
+      ]
+    }
+  ]
+}

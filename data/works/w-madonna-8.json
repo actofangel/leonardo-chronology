@@ -1,0 +1,156 @@
+{
+  "id": "w-madonna-8",
+  "type": "work",
+  "label": "Study of a Madonna [verso]",
+  "subtype": "study",
+  "classification": {
+    "form": "study",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q64592975 (instance of: drawing; material: laid paper; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q64592975",
+    "inventory": "1991.217.2.b"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci%2C_Study_of_a_Madonna_(verso)%2C_probably_1470-1480%2C_NGA_74164.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci%2C_Study_of_a_Madonna_(verso)%2C_probably_1470-1480%2C_NGA_74164.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2855",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q64592975 (Study of a Madonna [verso]), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q64592975"
+        }
+      ]
+    },
+    {
+      "id": "api2856",
+      "about": "date",
+      "value": {
+        "text": "1470 to 1480",
+        "start": 1470,
+        "end": 1480
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1470 to 1480.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q64592975 (Study of a Madonna [verso]), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q64592975"
+        }
+      ]
+    },
+    {
+      "id": "api2857",
+      "about": "inventory",
+      "value": {
+        "text": "1991.217.2.b"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1991.217.2.b in National Gallery of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q64592975 (Study of a Madonna [verso]), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q64592975"
+        }
+      ]
+    },
+    {
+      "id": "api2858",
+      "about": "current_location",
+      "value": {
+        "text": "National Gallery of Art"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by National Gallery of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q64592975 (Study of a Madonna [verso]), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q64592975"
+        }
+      ]
+    },
+    {
+      "id": "api2859",
+      "about": "current_location",
+      "value": {
+        "text": "drawings in the National Gallery of Art"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by drawings in the National Gallery of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q64592975 (Study of a Madonna [verso]), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q64592975"
+        }
+      ]
+    },
+    {
+      "id": "api2860",
+      "about": "medium",
+      "value": {
+        "text": "laid paper"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: laid paper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q64592975 (Study of a Madonna [verso]), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q64592975"
+        }
+      ]
+    },
+    {
+      "id": "api2861",
+      "about": "dimensions",
+      "value": {
+        "text": "16 cm x 13.5 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 16 cm, width 13.5 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q64592975 (Study of a Madonna [verso]), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q64592975"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-national-gallery-washington"
+    }
+  ],
+  "current_location": "geo-national-gallery-washington"
+}

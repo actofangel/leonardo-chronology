@@ -1,0 +1,120 @@
+{
+  "id": "w-cartographic-canal-network",
+  "type": "work",
+  "label": "Cartographic Study of the Canal Network branching off from the Arno River, around Pisa",
+  "subtype": "map",
+  "classification": {
+    "form": "map",
+    "condition": "extant",
+    "subject": [
+      "water"
+    ],
+    "basis": "Derived automatically from Wikidata Q139565710 (instance of: map; drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139565710",
+    "inventory": "Codex Madrid II (MS 8936), fol. 53r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Madrid_II%2C_folio_053_recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Codex_Madrid_II%2C_folio_053_recto.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1469",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139565710 (Cartographic Study of the Canal Network branching off from the Arno River, around Pisa), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139565710"
+        }
+      ]
+    },
+    {
+      "id": "api1470",
+      "about": "date",
+      "value": {
+        "text": "c.1503",
+        "start": 1503
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1503.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139565710 (Cartographic Study of the Canal Network branching off from the Arno River, around Pisa), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139565710"
+        }
+      ]
+    },
+    {
+      "id": "api1471",
+      "about": "inventory",
+      "value": {
+        "text": "Codex Madrid II (MS 8936), fol. 53r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Codex Madrid II (MS 8936), fol. 53r in Biblioteca Nacional de España, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139565710 (Cartographic Study of the Canal Network branching off from the Arno River, around Pisa), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139565710"
+        }
+      ]
+    },
+    {
+      "id": "api1472",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Nacional de España"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Biblioteca Nacional de España, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139565710 (Cartographic Study of the Canal Network branching off from the Arno River, around Pisa), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139565710"
+        }
+      ]
+    },
+    {
+      "id": "api1473",
+      "about": "dimensions",
+      "value": {
+        "text": "210 mm x 150 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 210 mm, width 150 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139565710 (Cartographic Study of the Canal Network branching off from the Arno River, around Pisa), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139565710"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-nacional-madrid"
+    }
+  ],
+  "current_location": "geo-biblioteca-nacional-madrid"
+}

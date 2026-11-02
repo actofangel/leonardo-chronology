@@ -1,0 +1,325 @@
+{
+  "id": "w-drapery-virgin",
+  "type": "work",
+  "label": "Drapery Study for the Virgin",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "technique": [
+      "black_chalk"
+    ],
+    "condition": "extant",
+    "subject": [
+      "religious",
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q100998017 (instance of: drawing; material: black chalk; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q100998017",
+    "louvre_ark": "cl020003020",
+    "inventory": "INV 2257, Recto"
+  },
+  "variants": [
+    "Studio di panneggio per la Vergine",
+    "Étude pour le drapé de la Vierge",
+    "Study for Saint Anne: Drapery of the Virgin",
+    "Draperie enveloppant les jambes d'une figure assise"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Draperie_enveloppant_les_jambes_d'une_figure_assise%2C_INV_2257%2C_Recto.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Draperie_enveloppant_les_jambes_d'une_figure_assise%2C_INV_2257%2C_Recto.jpg"
+    },
+    {
+      "src": "https://collections.louvre.fr/media/cache/small/00/30/20/00/AGO003020-000_PE.jpg",
+      "credit": "GrandPalaisRmn (Musée du Louvre) / Michel Urtado",
+      "page": "https://collections.louvre.fr/ark:/53355/cl020003020"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2117",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q100998017 (Drapery Study for the Virgin), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q100998017"
+        }
+      ]
+    },
+    {
+      "id": "api2118",
+      "about": "date",
+      "value": {
+        "text": "1507 to 1510",
+        "start": 1507,
+        "end": 1510
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1507 to 1510.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q100998017 (Drapery Study for the Virgin), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q100998017"
+        }
+      ]
+    },
+    {
+      "id": "api2119",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2257, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number INV 2257, Recto in Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q100998017 (Drapery Study for the Virgin), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q100998017"
+        }
+      ]
+    },
+    {
+      "id": "api2120",
+      "about": "current_location",
+      "value": {
+        "text": "Department of Prints and Drawings of the Louvre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Department of Prints and Drawings of the Louvre, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q100998017 (Drapery Study for the Virgin), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q100998017"
+        }
+      ]
+    },
+    {
+      "id": "api2121",
+      "about": "current_location",
+      "value": {
+        "text": "Cabinet des dessins"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Cabinet des dessins, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q100998017 (Drapery Study for the Virgin), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q100998017"
+        }
+      ]
+    },
+    {
+      "id": "api2122",
+      "about": "medium",
+      "value": {
+        "text": "black chalk"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: black chalk.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q100998017 (Drapery Study for the Virgin), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q100998017"
+        }
+      ]
+    },
+    {
+      "id": "api2123",
+      "about": "dimensions",
+      "value": {
+        "text": "0.23 metre x 0.245 metre"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 0.23 metre, width 0.245 metre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q100998017 (Drapery Study for the Virgin), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q100998017"
+        }
+      ]
+    },
+    {
+      "id": "api2124",
+      "about": "inventory",
+      "value": {
+        "text": "INV 2257, Recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Louvre inventory number INV 2257, Recto.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003020 (Draperie enveloppant les jambes d'une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003020"
+        }
+      ]
+    },
+    {
+      "id": "api2125",
+      "about": "inventory_history",
+      "value": {
+        "text": "Anciens numéros d'inventaire: NIII 35367; Référence de l'inventaire manuscrit: vol.1, p.385"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Other numbers in the Louvre's record: Anciens numéros d'inventaire: NIII 35367; Référence de l'inventaire manuscrit: vol.1, p.385.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003020 (Draperie enveloppant les jambes d'une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003020"
+        }
+      ]
+    },
+    {
+      "id": "api2126",
+      "about": "date",
+      "value": {
+        "text": "Vers 1507/1510",
+        "start": 1507,
+        "end": 1510
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record dates the work: Vers 1507/1510.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003020 (Draperie enveloppant les jambes d'une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003020"
+        }
+      ]
+    },
+    {
+      "id": "api2127",
+      "about": "medium",
+      "value": {
+        "text": "Premier tracé à la pierre noire, travaillé à l'estompe en partie haute, puis reprise au pinceau, lavis de pierre noire, pigments bruns, gris et blancs appliqués à la détrempe. Un filigrane en forme de fleur à huit pétales peut être rapproché de nombreux dessins exécutés à Milan par Léonard et son atelier."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Materials and technique in the Louvre's record: Premier tracé à la pierre noire, travaillé à l'estompe en partie haute, puis reprise au pinceau, lavis de pierre noire, pigments bruns, gris et blancs appliqués à la détrempe. Un filigrane en forme de fleur à huit pétales peut être rapproché de nombreux dessins exécutés à Milan par Léonard et son atelier.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003020 (Draperie enveloppant les jambes d'une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003020"
+        }
+      ]
+    },
+    {
+      "id": "api2128",
+      "about": "dimensions",
+      "value": {
+        "text": "Hauteur 0.23 m (à la feuille); Largeur 0.245 m (à la feuille)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Louvre's record: Hauteur 0.23 m (à la feuille); Largeur 0.245 m (à la feuille).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003020 (Draperie enveloppant les jambes d'une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003020"
+        }
+      ]
+    },
+    {
+      "id": "api2129",
+      "about": "attribution",
+      "value": {
+        "text": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle]"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Louvre's record gives the author as: Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) [attribution actuelle].",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003020 (Draperie enveloppant les jambes d'une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003020"
+        }
+      ]
+    },
+    {
+      "id": "api2130",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by the Musée du Louvre, Département des Arts graphiques.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003020 (Draperie enveloppant les jambes d'une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003020"
+        }
+      ]
+    },
+    {
+      "id": "api2131",
+      "about": "provenance",
+      "value": {
+        "text": "J. B. J. Wicar ('Chevalier Vicar' selon le catalogue de la 'Lawrence Gallery', Londres, 1836) ; Woodburn, 1823 ; Sir Th. Lawrence, (L. 2445), n° 54 ; Guillaume II des Pays-Bas, vente La Haye, 12 août 1850, n° 182 ; S. Woodburn ; acquis de ce dernier en octobre 1851."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "History of the object as given in the Louvre's record: J. B. J. Wicar ('Chevalier Vicar' selon le catalogue de la 'Lawrence Gallery', Londres, 1836) ; Woodburn, 1823 ; Sir Th. Lawrence, (L. 2445), n° 54 ; Guillaume II des Pays-Bas, vente La Haye, 12 août 1850, n° 182 ; S. Woodburn ; acquis de ce dernier en octobre 1851.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, collections database record cl020003020 (Draperie enveloppant les jambes d'une figure assise), retrieved 2026-11-02 through its JSON export.",
+          "url": "https://collections.louvre.fr/ark:/53355/cl020003020"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Drapery_Study_for_the_Virgin",
+      "text": "The Drapery Study for the Virgin is a drawing by Leonardo da Vinci in the Louvre. Executed in charcoal, Indian ink, and gray wash, with highlights of ceruse white on yellowed, black-tinted paper, it is a preparatory study for the drapery of the Virgin Mary's cloak in Leonardo's painting The Virgin and Child with Saint Anne, also in the Louvre.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89tude_pour_le_drap%C3%A9_de_la_Vierge",
+      "text": "Étude pour le drapé de la Vierge est un dessin réalisé par le peintre florentin Léonard de Vinci et conservé au département des arts graphiques du musée du Louvre. Il est exécuté au fusain, à l'encre de Chine et au lavis de gris, avec des rehauts de blanc de céruse sur papier jauni teinté de noir.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre"
+    }
+  ],
+  "current_location": "geo-louvre"
+}

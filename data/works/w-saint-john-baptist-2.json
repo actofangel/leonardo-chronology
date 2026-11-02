@@ -1,0 +1,143 @@
+{
+  "id": "w-saint-john-baptist-2",
+  "type": "work",
+  "label": "Saint John the Baptist",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "panel",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Derived automatically from Wikidata Q119499276 (instance of: painting; material: oil paint; panel; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q119499276",
+    "inventory": "WA1937.102"
+  },
+  "variants": [
+    "St John the Baptist"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_(1452-1519)_(studio_of)_-_St_John_the_Baptist_-_WA1937.102_-_Ashmolean_Museum.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_(1452-1519)_(studio_of)_-_St_John_the_Baptist_-_WA1937.102_-_Ashmolean_Museum.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2225",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119499276 (Saint John the Baptist), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119499276"
+        }
+      ]
+    },
+    {
+      "id": "api2226",
+      "about": "inventory",
+      "value": {
+        "text": "WA1937.102"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number WA1937.102 in Ashmolean Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119499276 (Saint John the Baptist), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119499276"
+        }
+      ]
+    },
+    {
+      "id": "api2227",
+      "about": "current_location",
+      "value": {
+        "text": "Ashmolean Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Ashmolean Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119499276 (Saint John the Baptist), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119499276"
+        }
+      ]
+    },
+    {
+      "id": "api2228",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119499276 (Saint John the Baptist), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119499276"
+        }
+      ]
+    },
+    {
+      "id": "api2229",
+      "about": "dimensions",
+      "value": {
+        "text": "75 cm x 53.4 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 75 cm, width 53.4 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119499276 (Saint John the Baptist), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119499276"
+        }
+      ]
+    },
+    {
+      "id": "api2230",
+      "about": "depicts",
+      "value": {
+        "text": "John the Baptist"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: John the Baptist. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q119499276 (Saint John the Baptist), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q119499276"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ashmolean"
+    }
+  ],
+  "current_location": "geo-ashmolean"
+}

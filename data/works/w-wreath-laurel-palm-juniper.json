@@ -1,0 +1,159 @@
+{
+  "id": "w-wreath-laurel-palm-juniper",
+  "type": "work",
+  "label": "Wreath of Laurel, Palm, and Juniper with a Scroll inscribed Virtutem Forma Decorat [reverse]",
+  "subtype": "painting",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "panel",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q20174114 (instance of: painting; material: oil paint; panel; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q20174114",
+    "inventory": "1967.6.1.b"
+  },
+  "variants": [
+    "Virtutem forma decorat"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_Wreath_of_Laurel%2C_Palm%2C_and_Juniper_with_a_Scroll_inscribed_Virtutem_Forum_Decorat_(reverse)_-_Google_Art_Project.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Wreath_of_Laurel%2C_Palm%2C_and_Juniper_with_a_Scroll_inscribed_Virtutem_Forum_Decorat_(reverse)_-_Google_Art_Project.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2758",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q20174114 (Wreath of Laurel, Palm, and Juniper with a Scroll inscribed Virtutem Forma Decorat [reverse]), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q20174114"
+        }
+      ]
+    },
+    {
+      "id": "api2759",
+      "about": "date",
+      "value": {
+        "text": "1474 to 1478",
+        "start": 1474,
+        "end": 1478
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1474 to 1478.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q20174114 (Wreath of Laurel, Palm, and Juniper with a Scroll inscribed Virtutem Forma Decorat [reverse]), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q20174114"
+        }
+      ]
+    },
+    {
+      "id": "api2760",
+      "about": "inventory",
+      "value": {
+        "text": "1967.6.1.b"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 1967.6.1.b in National Gallery of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q20174114 (Wreath of Laurel, Palm, and Juniper with a Scroll inscribed Virtutem Forma Decorat [reverse]), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q20174114"
+        }
+      ]
+    },
+    {
+      "id": "api2761",
+      "about": "current_location",
+      "value": {
+        "text": "National Gallery of Art"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by National Gallery of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q20174114 (Wreath of Laurel, Palm, and Juniper with a Scroll inscribed Virtutem Forma Decorat [reverse]), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q20174114"
+        }
+      ]
+    },
+    {
+      "id": "api2762",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q20174114 (Wreath of Laurel, Palm, and Juniper with a Scroll inscribed Virtutem Forma Decorat [reverse]), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q20174114"
+        }
+      ]
+    },
+    {
+      "id": "api2763",
+      "about": "dimensions",
+      "value": {
+        "text": "42.7 mm x 37 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 42.7 mm, width 37 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q20174114 (Wreath of Laurel, Palm, and Juniper with a Scroll inscribed Virtutem Forma Decorat [reverse]), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q20174114"
+        }
+      ]
+    },
+    {
+      "id": "api2764",
+      "about": "depicts",
+      "value": {
+        "text": "Ginevra de' Benci; motto"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Ginevra de' Benci; motto. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q20174114 (Wreath of Laurel, Palm, and Juniper with a Scroll inscribed Virtutem Forma Decorat [reverse]), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q20174114"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-national-gallery-washington"
+    }
+  ],
+  "current_location": "geo-national-gallery-washington"
+}

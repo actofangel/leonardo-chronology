@@ -1,0 +1,85 @@
+{
+  "id": "w-drapery-seated-figure-2",
+  "type": "work",
+  "label": "Drapery Study for a Seated Figure Seen in Three-quarter Profile to the Left",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "figure"
+    ],
+    "basis": "Derived automatically from Wikidata Q139567056 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q139567056",
+    "inventory": "437E"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_inv_437_E.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_inv_437_E.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api1569",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567056 (Drapery Study for a Seated Figure Seen in Three-quarter Profile to the Left), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567056"
+        }
+      ]
+    },
+    {
+      "id": "api1570",
+      "about": "inventory",
+      "value": {
+        "text": "437E"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 437E in Gabinetto dei disegni e delle stampe, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567056 (Drapery Study for a Seated Figure Seen in Three-quarter Profile to the Left), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567056"
+        }
+      ]
+    },
+    {
+      "id": "api1571",
+      "about": "current_location",
+      "value": {
+        "text": "Gabinetto dei disegni e delle stampe"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Gabinetto dei disegni e delle stampe, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q139567056 (Drapery Study for a Seated Figure Seen in Three-quarter Profile to the Left), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q139567056"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-uffizi"
+    }
+  ],
+  "current_location": "geo-uffizi"
+}

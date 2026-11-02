@@ -145,6 +145,126 @@
         "Marani 2000, catalogue entry",
         "Zöllner 2003, catalogue entry"
       ]
+    },
+    {
+      "id": "api2553",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q698015 (Madonna of the Carnation), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q698015"
+        }
+      ]
+    },
+    {
+      "id": "api2554",
+      "about": "date",
+      "value": {
+        "text": "c.1475",
+        "start": 1475
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as c.1475.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q698015 (Madonna of the Carnation), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q698015"
+        }
+      ]
+    },
+    {
+      "id": "api2555",
+      "about": "inventory",
+      "value": {
+        "text": "7779"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 7779 in Bavarian State Painting Collections, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q698015 (Madonna of the Carnation), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q698015"
+        }
+      ]
+    },
+    {
+      "id": "api2556",
+      "about": "current_location",
+      "value": {
+        "text": "Bavarian State Painting Collections"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Bavarian State Painting Collections, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q698015 (Madonna of the Carnation), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q698015"
+        }
+      ]
+    },
+    {
+      "id": "api2557",
+      "about": "medium",
+      "value": {
+        "text": "oil paint; panel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Material recorded in Wikidata: oil paint; panel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q698015 (Madonna of the Carnation), P186 made from material, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q698015"
+        }
+      ]
+    },
+    {
+      "id": "api2558",
+      "about": "dimensions",
+      "value": {
+        "text": "62 cm x 47.5 cm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions recorded in Wikidata: height 62 cm, width 47.5 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q698015 (Madonna of the Carnation), P2048 height, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q698015"
+        }
+      ]
+    },
+    {
+      "id": "api2559",
+      "about": "depicts",
+      "value": {
+        "text": "Christ Child; Mary"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: Christ Child; Mary. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q698015 (Madonna of the Carnation), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q698015"
+        }
+      ]
     }
   ],
   "current_location": "geo-alte-pinakothek",
@@ -165,6 +285,50 @@
   ],
   "open_questions": [
     "Museum dating c.1475 versus draft c.1478 to 1480: which do Marani and Zöllner give?"
+  ],
+  "identifiers": {
+    "wikidata": "Q698015",
+    "inventory": "7779"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/LEONARDO-DA-VINCI_-_MADONNA-MIT-DER-NELKE-7779_917154_BSTGS.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:LEONARDO-DA-VINCI_-_MADONNA-MIT-DER-NELKE-7779_917154_BSTGS.jpg"
+    }
+  ],
+  "background": [
+    {
+      "source": "wikipedia",
+      "lang": "en",
+      "url": "https://en.wikipedia.org/wiki/Madonna_of_the_Carnation",
+      "text": "The Madonna of the Carnation, also known as the Madonna with Vase, Madonna with Child or Virgin with Flower, is a Renaissance oil painting by Leonardo da Vinci created around 1478, 1480. It is permanently displayed at the Alte Pinakothek gallery in Munich, Germany.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "it",
+      "url": "https://it.wikipedia.org/wiki/Madonna_del_Garofano",
+      "text": "La Madonna del Garofano è un dipinto a olio su tavola di Leonardo da Vinci, databile al 1473 circa e conservato nell'Alte Pinakothek di Monaco di Baviera.",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "wikipedia",
+      "lang": "fr",
+      "url": "https://fr.wikipedia.org/wiki/La_Madone_%C3%A0_l'%C5%93illet_(L%C3%A9onard_de_Vinci)",
+      "text": "La Madone à l'œillet est une peinture à l'huile de Léonard de Vinci peinte en 1473 environ. Elle est exposée à l'Alte Pinakothek de Munich, Allemagne.",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "variants": [
+    "Madonna del Garofano",
+    "La Madone à l'œillet",
+    "Madonna with Vase",
+    "Madonna with Child",
+    "Virgin with Flower",
+    "The Madonna of the Carnation",
+    "Madonna of the Carnation Leonardo da Vinci",
+    "Madonna of the Carnation (Leonardo da Vinci)"
   ],
   "timeline": {
     "lane": "works",

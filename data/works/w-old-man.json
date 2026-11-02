@@ -1,0 +1,103 @@
+{
+  "id": "w-old-man",
+  "type": "work",
+  "label": "Studies of an Old Man and a Youth (Salai?) in Profile, Facing each Other",
+  "subtype": "sheet_of_studies",
+  "classification": {
+    "form": "sheet_of_studies",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q131561181 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q131561181",
+    "inventory": "423 E"
+  },
+  "variants": [
+    "Disegno di Leonardo da Vinci (Uffizi, 423 E)",
+    "Drawing by Leonardo da Vinci (Uffizi, 423 E)"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_vinci%2C_Heads_of_an_old_man_and_a_youth.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci%2C_Heads_of_an_old_man_and_a_youth.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api2367",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561181 (Studies of an Old Man and a Youth (Salai?) in Profile, Facing each Other), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561181"
+        }
+      ]
+    },
+    {
+      "id": "api2368",
+      "about": "inventory",
+      "value": {
+        "text": "423 E"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 423 E in Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561181 (Studies of an Old Man and a Youth (Salai?) in Profile, Facing each Other), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561181"
+        }
+      ]
+    },
+    {
+      "id": "api2369",
+      "about": "current_location",
+      "value": {
+        "text": "Uffizi Gallery"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Uffizi Gallery, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561181 (Studies of an Old Man and a Youth (Salai?) in Profile, Facing each Other), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561181"
+        }
+      ]
+    },
+    {
+      "id": "api2370",
+      "about": "current_location",
+      "value": {
+        "text": "Gabinetto dei disegni e delle stampe"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Gabinetto dei disegni e delle stampe, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131561181 (Studies of an Old Man and a Youth (Salai?) in Profile, Facing each Other), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131561181"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-uffizi"
+    }
+  ],
+  "current_location": "geo-uffizi"
+}

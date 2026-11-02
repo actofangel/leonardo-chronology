@@ -1,0 +1,82 @@
+{
+  "id": "w-child-2",
+  "type": "work",
+  "label": "Sketches of a Child with a Cat",
+  "subtype": "sketch",
+  "classification": {
+    "form": "sketch",
+    "condition": "extant",
+    "basis": "Derived automatically from Wikidata Q136389557 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": "Q136389557",
+    "inventory": "Inv. 1857-1-10-1r"
+  },
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_1857%2C0110.1%2C_Three_studies_of_the_Christ_Child_with_a_cat%2C_and_one_study_of_a_cat.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_1857%2C0110.1%2C_Three_studies_of_the_Christ_Child_with_a_cat%2C_and_one_study_of_a_cat.jpg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api222",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389557 (Sketches of a Child with a Cat), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389557"
+        }
+      ]
+    },
+    {
+      "id": "api223",
+      "about": "inventory",
+      "value": {
+        "text": "Inv. 1857-1-10-1r"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number Inv. 1857-1-10-1r in British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389557 (Sketches of a Child with a Cat), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389557"
+        }
+      ]
+    },
+    {
+      "id": "api224",
+      "about": "current_location",
+      "value": {
+        "text": "British Museum"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by British Museum, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136389557 (Sketches of a Child with a Cat), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136389557"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-british-museum"
+    }
+  ],
+  "current_location": "geo-british-museum"
+}

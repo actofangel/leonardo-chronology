@@ -1,0 +1,350 @@
+{
+  "id": "w-allegory-fidelity",
+  "type": "work",
+  "label": "Allegory on the Fidelity of the Lizard",
+  "subtype": "drawing",
+  "classification": {
+    "form": "drawing",
+    "condition": "extant",
+    "subject": [
+      "mythology"
+    ],
+    "basis": "Derived automatically from Wikidata Q136390001 (instance of: drawing; material: none; form refined from the title where the item is a generic drawing) on 2026-11-02; check against the holding's record."
+  },
+  "identifiers": {
+    "wikidata": [
+      "Q136390001",
+      "Q136390086",
+      "Q131449682"
+    ],
+    "inventory": [
+      "17.142.2 verso",
+      "17.142.2 recto",
+      "17.142.2"
+    ],
+    "met": "339130"
+  },
+  "variants": [
+    "Allegory with a Lizard as a Symbol of Truth",
+    "Studies for the Stage-Set of Danaë by Baldassare Taccone",
+    "Design for a Stage Setting",
+    "Allegoria sulla fedeltà della lucertola"
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Allegory_on_the_Fidelity_of_the_Lizard_(recto)%3B_Design_for_a_Stage_Setting_(verso)_MET_DT232678.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Allegory_on_the_Fidelity_of_the_Lizard_(recto)%3B_Design_for_a_Stage_Setting_(verso)_MET_DT232678.jpg"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Allegory_on_the_Fidelity_of_the_Lizard_(recto)%3B_Design_for_a_Stage_Setting_(verso)_MET_DT339729.jpg?width=640",
+      "credit": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Allegory_on_the_Fidelity_of_the_Lizard_(recto)%3B_Design_for_a_Stage_Setting_(verso)_MET_DT339729.jpg"
+    },
+    {
+      "src": "https://images.metmuseum.org/CRDImages/dp/web-large/DT232678.jpg",
+      "credit": "The Metropolitan Museum of Art",
+      "page": "https://www.metmuseum.org/art/collection/search/339130"
+    }
+  ],
+  "claims": [
+    {
+      "id": "api599",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390001 (Allegory on the Fidelity of the Lizard), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390001"
+        }
+      ]
+    },
+    {
+      "id": "api600",
+      "about": "inventory",
+      "value": {
+        "text": "17.142.2 verso"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 17.142.2 verso in Metropolitan Museum of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390001 (Allegory on the Fidelity of the Lizard), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390001"
+        }
+      ]
+    },
+    {
+      "id": "api601",
+      "about": "current_location",
+      "value": {
+        "text": "Metropolitan Museum of Art"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Metropolitan Museum of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390001 (Allegory on the Fidelity of the Lizard), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390001"
+        }
+      ]
+    },
+    {
+      "id": "api602",
+      "about": "depicts",
+      "value": {
+        "text": "lizard"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata lists as depicted: lizard. Identifications of what is depicted are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390001 (Allegory on the Fidelity of the Lizard), P180 depicts, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390001"
+        }
+      ]
+    },
+    {
+      "id": "api1156",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390086 (Studies for a Stage Setting), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390086"
+        }
+      ]
+    },
+    {
+      "id": "api1157",
+      "about": "inventory",
+      "value": {
+        "text": "17.142.2 recto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 17.142.2 recto in Metropolitan Museum of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390086 (Studies for a Stage Setting), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390086"
+        }
+      ]
+    },
+    {
+      "id": "api1158",
+      "about": "current_location",
+      "value": {
+        "text": "Metropolitan Museum of Art"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Metropolitan Museum of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q136390086 (Studies for a Stage Setting), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q136390086"
+        }
+      ]
+    },
+    {
+      "id": "api2322",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata records Leonardo da Vinci as creator. This reflects whichever opinion the Wikidata editors followed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131449682 (Allegory on the Fidelity of the Lizard (recto); Design for a Stage Setting (verso)), P170 creator, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131449682"
+        }
+      ]
+    },
+    {
+      "id": "api2323",
+      "about": "date",
+      "value": {
+        "text": "1496",
+        "start": 1496
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wikidata gives the date of creation as 1496.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131449682 (Allegory on the Fidelity of the Lizard (recto); Design for a Stage Setting (verso)), P571 inception, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131449682"
+        }
+      ]
+    },
+    {
+      "id": "api2324",
+      "about": "inventory",
+      "value": {
+        "text": "17.142.2"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Inventory number 17.142.2 in Metropolitan Museum of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131449682 (Allegory on the Fidelity of the Lizard (recto); Design for a Stage Setting (verso)), P217 inventory number, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131449682"
+        }
+      ]
+    },
+    {
+      "id": "api2325",
+      "about": "current_location",
+      "value": {
+        "text": "Metropolitan Museum of Art"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by Metropolitan Museum of Art, as recorded in Wikidata.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikidata, Q131449682 (Allegory on the Fidelity of the Lizard (recto); Design for a Stage Setting (verso)), P195 collection, retrieved 2026-11-02. Wikidata is not a ground; check the holding's record.",
+          "url": "https://www.wikidata.org/wiki/Q131449682"
+        }
+      ]
+    },
+    {
+      "id": "api3038",
+      "about": "attribution",
+      "value": {
+        "text": "Leonardo da Vinci"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Met's record gives the artist as: Leonardo da Vinci.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 339130 (Allegory on the Fidelity of the Lizard (recto); Design for a Stage Setting (verso)), accession 17.142.2, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/339130"
+        }
+      ]
+    },
+    {
+      "id": "api3039",
+      "about": "date",
+      "value": {
+        "text": "1496",
+        "start": 1496
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Met dates the work 1496.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 339130 (Allegory on the Fidelity of the Lizard (recto); Design for a Stage Setting (verso)), accession 17.142.2, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/339130"
+        }
+      ]
+    },
+    {
+      "id": "api3040",
+      "about": "medium",
+      "value": {
+        "text": "Pen and brown ink (recto and verso)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Medium in the Met's record: Pen and brown ink (recto and verso).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 339130 (Allegory on the Fidelity of the Lizard (recto); Design for a Stage Setting (verso)), accession 17.142.2, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/339130"
+        }
+      ]
+    },
+    {
+      "id": "api3041",
+      "about": "dimensions",
+      "value": {
+        "text": "7 15/16 x 5 1/4in. (20.2 x 13.3cm)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Dimensions in the Met's record: 7 15/16 x 5 1/4in. (20.2 x 13.3cm).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 339130 (Allegory on the Fidelity of the Lizard (recto); Design for a Stage Setting (verso)), accession 17.142.2, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/339130"
+        }
+      ]
+    },
+    {
+      "id": "api3042",
+      "about": "inventory",
+      "value": {
+        "text": "17.142.2"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Accession number 17.142.2, The Metropolitan Museum of Art; Rogers Fund, 1917.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 339130 (Allegory on the Fidelity of the Lizard (recto); Design for a Stage Setting (verso)), accession 17.142.2, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/339130"
+        }
+      ]
+    },
+    {
+      "id": "api3043",
+      "about": "current_location",
+      "value": {
+        "text": "The Metropolitan Museum of Art, New York"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Held by The Metropolitan Museum of Art (Drawings and Prints).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "The Metropolitan Museum of Art, Collection API, object 339130 (Allegory on the Fidelity of the Lizard (recto); Design for a Stage Setting (verso)), accession 17.142.2, retrieved 2026-11-02.",
+          "url": "https://www.metmuseum.org/art/collection/search/339130"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-met"
+    }
+  ],
+  "current_location": "geo-met"
+}
