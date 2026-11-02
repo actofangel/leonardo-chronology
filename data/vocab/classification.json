@@ -1,0 +1,362 @@
+{
+  "schema": "ldv-vocab-classification/1",
+  "note": "Controlled vocabularies for the `classification` block of works and manuscripts. Form, technique, support and condition describe the object and belong to the factual layer when observed or documented. Subjects are an editorial index for finding things, not a claim about meaning. Anything contested (attribution, function as preparatory for a given work, identification of a sitter) is a claim, never a classification value.",
+  "axes": {
+    "form": {
+      "label": "Form",
+      "applies_to": [
+        "work"
+      ],
+      "values": {
+        "painting": {
+          "label": "Painting",
+          "group": "Paintings",
+          "def": "Autonomous painted work on a movable support (panel, canvas)."
+        },
+        "mural": {
+          "label": "Mural painting",
+          "group": "Paintings",
+          "def": "Painting on a wall or ceiling, whatever the technique."
+        },
+        "cartoon": {
+          "label": "Cartoon",
+          "group": "Drawings",
+          "def": "Full scale drawing made for transfer to a painting."
+        },
+        "drawing": {
+          "label": "Drawing",
+          "group": "Drawings",
+          "def": "Drawing made for its own sake, neither a study for something else nor a presentation piece."
+        },
+        "finished_drawing": {
+          "label": "Finished drawing",
+          "group": "Drawings",
+          "def": "Drawing carried to a high degree of finish, as a presentation or autonomous work."
+        },
+        "study": {
+          "label": "Study",
+          "group": "Drawings",
+          "def": "Drawing that works out a figure, motif or detail, usually on a single subject."
+        },
+        "sheet_of_studies": {
+          "label": "Sheet of studies",
+          "group": "Drawings",
+          "def": "Sheet carrying several studies, often of different subjects or dates, with or without notes."
+        },
+        "sketch": {
+          "label": "Sketch",
+          "group": "Sketches",
+          "def": "Rapid exploratory drawing, compositional or of an idea in progress."
+        },
+        "technical_drawing": {
+          "label": "Technical drawing",
+          "group": "Designs",
+          "def": "Drawing of a machine, device, mechanism or engineering scheme, with or without notes."
+        },
+        "architectural_drawing": {
+          "label": "Architectural drawing",
+          "group": "Designs",
+          "def": "Plan, elevation, section or view of a building or urban scheme."
+        },
+        "map": {
+          "label": "Map",
+          "group": "Designs",
+          "def": "Cartographic drawing: town plan, regional or hydrographic map."
+        },
+        "diagram": {
+          "label": "Diagram",
+          "group": "Designs",
+          "def": "Geometric, optical or scientific figure accompanying text."
+        },
+        "illustration": {
+          "label": "Illustration",
+          "group": "Designs",
+          "def": "Drawing made to illustrate a text by another author, or printed after Leonardo's design."
+        },
+        "sculpture_project": {
+          "label": "Sculpture project",
+          "group": "Projects",
+          "def": "Sculptural commission known through documents, drawings or models."
+        },
+        "architectural_project": {
+          "label": "Architectural project",
+          "group": "Projects",
+          "def": "Building or urban commission or proposal, as a project rather than one drawing."
+        },
+        "engineering_project": {
+          "label": "Engineering project",
+          "group": "Projects",
+          "def": "Hydraulic, military or civil engineering undertaking, as a project rather than one drawing."
+        },
+        "decoration_project": {
+          "label": "Decoration or festival project",
+          "group": "Projects",
+          "def": "Stage machinery, festival design, costume, ephemeral decoration."
+        }
+      }
+    },
+    "technique": {
+      "label": "Technique",
+      "applies_to": [
+        "work"
+      ],
+      "multiple": true,
+      "values": {
+        "oil": {
+          "label": "Oil"
+        },
+        "tempera": {
+          "label": "Tempera"
+        },
+        "oil_and_tempera": {
+          "label": "Oil and tempera"
+        },
+        "secco_mural": {
+          "label": "Mural technique on dry plaster (secco, tempera and oil)"
+        },
+        "fresco": {
+          "label": "Fresco"
+        },
+        "underpainting": {
+          "label": "Underpainting or underdrawing only (unfinished)"
+        },
+        "pen_and_ink": {
+          "label": "Pen and ink"
+        },
+        "wash": {
+          "label": "Wash"
+        },
+        "metalpoint": {
+          "label": "Metalpoint (silverpoint or other)"
+        },
+        "red_chalk": {
+          "label": "Red chalk"
+        },
+        "black_chalk": {
+          "label": "Black chalk"
+        },
+        "charcoal": {
+          "label": "Charcoal"
+        },
+        "white_heightening": {
+          "label": "White heightening"
+        },
+        "stylus": {
+          "label": "Stylus, incised or blind lines"
+        },
+        "pricking": {
+          "label": "Pricked for transfer"
+        },
+        "woodcut": {
+          "label": "Woodcut (printed)"
+        },
+        "bronze_casting": {
+          "label": "Bronze casting (projected or executed)"
+        },
+        "clay_model": {
+          "label": "Clay or plaster model"
+        }
+      }
+    },
+    "support": {
+      "label": "Support",
+      "applies_to": [
+        "work",
+        "manuscript"
+      ],
+      "values": {
+        "panel": {
+          "label": "Wood panel"
+        },
+        "panel_poplar": {
+          "label": "Poplar panel"
+        },
+        "panel_walnut": {
+          "label": "Walnut panel"
+        },
+        "canvas": {
+          "label": "Canvas"
+        },
+        "transferred_to_canvas": {
+          "label": "Panel painting transferred to canvas"
+        },
+        "wall": {
+          "label": "Wall (plaster)"
+        },
+        "paper": {
+          "label": "Paper"
+        },
+        "prepared_paper": {
+          "label": "Paper with a coloured preparation"
+        },
+        "blue_paper": {
+          "label": "Blue paper"
+        },
+        "parchment": {
+          "label": "Parchment"
+        },
+        "mixed": {
+          "label": "Mixed or varying supports"
+        }
+      }
+    },
+    "condition": {
+      "label": "Survival",
+      "applies_to": [
+        "work",
+        "manuscript"
+      ],
+      "values": {
+        "extant": {
+          "label": "Extant"
+        },
+        "unfinished": {
+          "label": "Extant, unfinished"
+        },
+        "damaged": {
+          "label": "Extant, heavily damaged or fragmentary"
+        },
+        "lost_known_from_copies": {
+          "label": "Lost, known from copies or descriptions"
+        },
+        "lost": {
+          "label": "Lost"
+        },
+        "never_executed": {
+          "label": "Never executed (project only)"
+        },
+        "dispersed": {
+          "label": "Dispersed (sheets now in several holdings)"
+        }
+      }
+    },
+    "ms_form": {
+      "label": "Manuscript form",
+      "applies_to": [
+        "manuscript"
+      ],
+      "values": {
+        "notebook": {
+          "label": "Notebook",
+          "def": "A notebook used as such by Leonardo, surviving with its original gathering structure, whether or not rebound."
+        },
+        "pocket_notebook": {
+          "label": "Pocket notebook",
+          "def": "A small format notebook carried for notes in the field."
+        },
+        "compiled_codex": {
+          "label": "Compiled codex",
+          "def": "A volume assembled after Leonardo's death from separate sheets or notebooks (e.g. by Pompeo Leoni)."
+        },
+        "sheet_collection": {
+          "label": "Collection of sheets",
+          "def": "Loose or remounted sheets kept as a collection, not as one volume."
+        },
+        "treatise_compilation": {
+          "label": "Compilation by another hand",
+          "def": "A text compiled or copied from Leonardo's notes by someone else (e.g. Melzi's Libro di pittura)."
+        }
+      }
+    },
+    "subject": {
+      "label": "Subject",
+      "applies_to": [
+        "work",
+        "manuscript"
+      ],
+      "multiple": true,
+      "values": {
+        "religious": {
+          "label": "Religious subject"
+        },
+        "portrait": {
+          "label": "Portrait"
+        },
+        "mythology": {
+          "label": "Mythology and allegory"
+        },
+        "figure": {
+          "label": "Figure and drapery"
+        },
+        "head": {
+          "label": "Heads, physiognomy, caricature"
+        },
+        "horse": {
+          "label": "Horses and equestrian"
+        },
+        "animal": {
+          "label": "Animals"
+        },
+        "battle": {
+          "label": "Battle and military scenes"
+        },
+        "landscape": {
+          "label": "Landscape"
+        },
+        "botany": {
+          "label": "Botany"
+        },
+        "anatomy": {
+          "label": "Human anatomy"
+        },
+        "proportion": {
+          "label": "Proportion"
+        },
+        "geology": {
+          "label": "Geology, earth and fossils"
+        },
+        "water": {
+          "label": "Water and hydraulics"
+        },
+        "deluge": {
+          "label": "Deluge and weather"
+        },
+        "optics": {
+          "label": "Optics, light and shadow, perspective"
+        },
+        "geometry": {
+          "label": "Geometry and mathematics"
+        },
+        "mechanics": {
+          "label": "Mechanics and machines"
+        },
+        "flight": {
+          "label": "Flight"
+        },
+        "military": {
+          "label": "Military engineering and weapons"
+        },
+        "architecture": {
+          "label": "Architecture"
+        },
+        "urbanism": {
+          "label": "Town planning"
+        },
+        "cartography": {
+          "label": "Cartography"
+        },
+        "astronomy": {
+          "label": "Astronomy"
+        },
+        "painting_theory": {
+          "label": "Theory of painting"
+        },
+        "literature": {
+          "label": "Literature, fables, prophecies, words"
+        },
+        "music": {
+          "label": "Music and instruments"
+        },
+        "festival": {
+          "label": "Festivals and stage"
+        },
+        "accounts": {
+          "label": "Accounts, memoranda and lists"
+        },
+        "letters": {
+          "label": "Letters and drafts"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "geo-venice",
+  "type": "place",
+  "subtype": "city",
+  "label": "Venice",
+  "variants": [
+    "Venezia",
+    "Venetiae (Latin)"
+  ],
+  "modern_name": "Venezia",
+  "region": "Veneto",
+  "country": "Italy",
+  "coords": {
+    "lat": 45.4398,
+    "lon": 12.3319
+  },
+  "summary": "Capital of the Venetian republic; Leonardo was there by March 1500.",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 45.4398,
+        "lon": 12.3319
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Venice, historical places database found by search (background only).",
+          "url": "https://time-ok.com/coordinates/italy"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "leonardo_connection",
+      "value": {
+        "text": "by 13 March 1500",
+        "date": 1500.2
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Lorenzo Gusnasco's letter to Isabella d'Este of 13 March 1500 reports Leonardo in Venice (as stated in the first draft, pl-mantua).",
+      "sources": [
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, document of 13 March 1500"
+      ]
+    }
+  ]
+}

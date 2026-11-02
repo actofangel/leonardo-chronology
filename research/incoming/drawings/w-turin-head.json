@@ -1,0 +1,164 @@
+{
+  "id": "w-turin-head",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Turin red chalk head (so called self portrait)",
+  "current_location": "geo-biblioteca-reale-turin",
+  "inventory": "Dis. It. 1/30, inv. 15571 D.C.",
+  "medium": "Red chalk with traces of black chalk on paper",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-reale-turin",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Reale, Turin, inv. 15571 D.C."
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Biblioteca Reale, Turin, Dis. It. 1/30, inventory 15571 D.C.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musei Reali Torino, list of works, Leonardo exhibition 2024 (PDF). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://museireali.beniculturali.it/wp-content/uploads/2024/03/05_ElencoOpere_Leonardo.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, All the drawings of Leonardo at the Royal Library of Turin. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.finestresullarte.info/en/works-and-artists/all-the-drawings-of-leonardo-da-vinci-at-the-royal-library-of-turin"
+        }
+      ],
+      "check_in": [
+        "Biblioteca Reale catalogue"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "dimensions",
+      "value": {
+        "text": "333 x 213 mm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "Finestre sull'Arte gives 333 x 213 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, All the drawings of Leonardo at the Royal Library of Turin. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.finestresullarte.info/en/works-and-artists/all-the-drawings-of-leonardo-da-vinci-at-the-royal-library-of-turin"
+        }
+      ],
+      "check_in": [
+        "Biblioteca Reale catalogue"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "dimensions",
+      "value": {
+        "text": "33.5 x 21.6 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "Other outlets give 33.5 x 21.6 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "arte.it, Leonardo e i tesori del re. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.arte.it/notizie/torino/l-autoritratto-di-leonardo-nuovo-simbolo-di-torino-9852"
+        }
+      ],
+      "check_in": [
+        "Biblioteca Reale catalogue"
+      ],
+      "alternative_to": [
+        "c2"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "c.1517 to 1518",
+        "start": 1517,
+        "end": 1518
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "Dated c.1517 to 1518 in the Finestre catalogue listing.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, All the drawings of Leonardo at the Royal Library of Turin. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.finestresullarte.info/en/works-and-artists/all-the-drawings-of-leonardo-da-vinci-at-the-royal-library-of-turin"
+        }
+      ],
+      "check_in": [
+        "Zöllner 2003",
+        "Bambach 2019"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "date",
+      "value": {
+        "text": "c.1515",
+        "start": 1512,
+        "end": 1515
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "Other outlets date it about 1515; one guide about 1512.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "arte.it. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.arte.it/notizie/torino/l-autoritratto-di-leonardo-nuovo-simbolo-di-torino-9852"
+        }
+      ],
+      "check_in": [
+        "Zöllner 2003"
+      ],
+      "alternative_to": [
+        "c4"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "identity",
+      "value": {
+        "text": "Self portrait of Leonardo"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "The identification of the sitter as Leonardo (a self portrait) is not unanimously accepted.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, All the drawings of Leonardo at the Royal Library of Turin. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.finestresullarte.info/en/works-and-artists/all-the-drawings-of-leonardo-da-vinci-at-the-royal-library-of-turin"
+        }
+      ],
+      "check_in": [
+        "Zöllner 2003",
+        "Bambach 2019"
+      ]
+    }
+  ],
+  "open_questions": [
+    "On what evidence does the self portrait identification rest, and who rejects it?"
+  ]
+}

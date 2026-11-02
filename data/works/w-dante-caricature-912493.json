@@ -1,0 +1,50 @@
+{
+  "id": "w-dante-caricature-912493",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Four grotesque heads including a caricature of Dante",
+  "classification": {
+    "form": "sheet_of_studies",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "head"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912493",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912493"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912493 (Windsor RL 12493 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912493, Four grotesque heads including a caricature of Dante. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912493"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Date, medium, size and attribution to locate. The Dante identification is an interpretation."
+  ]
+}

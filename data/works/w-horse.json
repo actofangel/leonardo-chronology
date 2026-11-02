@@ -3,6 +3,18 @@
   "type": "work",
   "subtype": "engineering",
   "label": "Sforza horse",
+  "classification": {
+    "form": "sculpture_project",
+    "technique": [
+      "clay_model",
+      "bronze_casting"
+    ],
+    "condition": "lost",
+    "subject": [
+      "horse"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check form, technique, support and condition against the holding institution's record or a catalogue raisonné (Marani 2000, Zöllner 2003; for manuscripts, the Edizione Nazionale or Pedretti)."
+  },
   "claims": [
     {
       "id": "c1",
@@ -23,6 +35,90 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "content",
+      "value": {
+        "text": "Windsor design sheets RCIN 912357, 912358; casting studies RCIN 912351"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Windsor holds designs for the monument including RCIN 912358 (recto rearing horse with rider over a fallen soldier; metalpoint on blue prepared paper; c.1485 to 1488) and 912357, and casting studies including RCIN 912351.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912358, Recto: A design for an equestrian monument. Verso: Studies of flowing water, a cross bow, geometry, c.1485 to 1488. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912358"
+        },
+        {
+          "type": "other",
+          "cite": "Finestre sull'Arte, Horses and condottieri. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://finestresullarte.info/en/works-and-artists/horses-and-condottieri-leonardo-da-vinci-and-the-story-of-the-equestrian-monument-to-francesco-sforza"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "note",
+      "value": {
+        "text": "Note on the bronze horse, 17 May 1491"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "A Leonardo note reported as dated 17 May 1491 introduces a record of everything concerning the bronze horse; it is shown next to Madrid II f. 157r in an online gallery, but its folio is not confirmed.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Google Arts and Culture, story on the Madrid codices (Acción Cultural Española). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://artsandculture.google.com/story/0AXhq8B37bafVg"
+        }
+      ],
+      "check_in": [
+        "Madrid II facsimile and Reti edition",
+        "Richter 1883"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "status",
+      "value": {
+        "text": "Never cast"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The bronze was not cast; the clay model shown in 1493 does not survive.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, Horses and condottieri. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://finestresullarte.info/en/works-and-artists/horses-and-condottieri-leonardo-da-vinci-and-the-story-of-the-equestrian-monument-to-francesco-sforza"
+        }
+      ],
+      "check_in": [
+        "Villata 1999 for the documents of 1493 and 1499"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "rel": "parent_of",
+      "target": "w-sforza-design-912358",
+      "claim": "c2"
+    },
+    {
+      "rel": "parent_of",
+      "target": "w-sforza-casting-madrid"
+    },
+    {
+      "rel": "commissioned_by",
+      "target": "pe-ludovico"
     }
   ],
   "timeline": {

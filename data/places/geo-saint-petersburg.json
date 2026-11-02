@@ -1,0 +1,16 @@
+{
+  "id": "geo-saint-petersburg",
+  "type": "place",
+  "subtype": "city",
+  "label": "Saint Petersburg",
+  "variants": [
+    "Sankt Peterburg",
+    "Leningrad (1924 to 1991)"
+  ],
+  "modern_name": "Saint Petersburg",
+  "country": "Russia",
+  "summary": "City in Russia; seat of the State Hermitage Museum.",
+  "open_questions": [
+    "City coordinates not yet sourced; see geo-hermitage."
+  ]
+}

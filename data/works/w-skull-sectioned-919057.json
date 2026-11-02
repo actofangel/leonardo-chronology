@@ -1,0 +1,126 @@
+{
+  "id": "w-skull-sectioned-919057",
+  "type": "work",
+  "subtype": "anatomy",
+  "label": "The skull sectioned",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "black_chalk",
+      "pen_and_ink"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "anatomy"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 919057",
+  "medium": "Traces of black chalk, pen and ink",
+  "dimensions": "18.8 x 13.4 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    },
+    {
+      "rel": "drawn_on",
+      "target": "ms-windsor"
+    },
+    {
+      "rel": "part_of",
+      "target": "w-skull"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 919057"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 919057 (Windsor RL 19057 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919057, Recto: The skull sectioned. Verso: The cranium, 1489. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919057"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "medium",
+      "value": {
+        "text": "Traces of black chalk, pen and ink; 18.8 x 13.4 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Medium and sheet size as on the RCT record.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919057, Recto: The skull sectioned. Verso: The cranium, 1489. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919057"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "1489",
+        "start": 1489,
+        "end": 1489
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the sheet 1489, by association with the dated sheet RCIN 919059.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919057, Recto: The skull sectioned. Verso: The cranium, 1489. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919057"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "content",
+      "value": {
+        "text": "Section placed halfway from top to bottom and a third from front to back"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "RCT: the skull is drawn from the left, one view squared for proportion, and the section is placed exactly halfway from top to bottom and a third of the way from front to back.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919057, Recto: The skull sectioned. Verso: The cranium, 1489. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919057"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    }
+  ]
+}

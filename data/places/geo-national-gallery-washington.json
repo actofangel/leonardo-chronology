@@ -1,0 +1,65 @@
+{
+  "id": "geo-national-gallery-washington",
+  "type": "place",
+  "subtype": "institution",
+  "label": "National Gallery of Art, Washington",
+  "variants": [
+    "NGA"
+  ],
+  "modern_name": "National Gallery of Art",
+  "region": "District of Columbia",
+  "country": "United States",
+  "coords": {
+    "lat": 38.8914,
+    "lon": -77.02
+  },
+  "within": "geo-washington",
+  "summary": "National art museum on the National Mall, Washington.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-washington"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 38.8914,
+        "lon": -77.02
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "National Gallery of Art, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/National_Gallery_of_Art"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "Ginevra de' Benci (w-ginevra)",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ]
+}

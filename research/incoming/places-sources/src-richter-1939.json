@@ -1,0 +1,56 @@
+{
+  "id": "src-richter-1939",
+  "type": "source",
+  "label": "Richter 1939, The Literary Works of Leonardo da Vinci, 2nd ed.",
+  "source_type": "edition",
+  "citation": "Richter, Jean Paul, and Irma A. Richter (eds.). The Literary Works of Leonardo da Vinci. 2nd ed., enlarged and revised. 2 vols. London and New York: Oxford University Press, 1939.",
+  "short": "Richter 1939",
+  "language": "en",
+  "url": "https://www.cca.qc.ca/en/search/details/library/publication/03753180",
+  "relations": [
+    {
+      "rel": "edition_of",
+      "target": "src-richter-1883"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Richter, Jean Paul, and Irma A. Richter (eds.). The Literary Works of Leonardo da Vinci. 2nd ed., enlarged and revised. 2 vols. London and New York: Oxford University Press, 1939.",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. Reprinted by Phaidon, 1970.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Canadian Centre for Architecture catalogue record (seen as search result): London, New York, Oxford University Press, 1939, 2 vols.",
+          "url": "https://www.cca.qc.ca/en/search/details/library/publication/03753180"
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "edition"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted with care, as Richter 1883; the 1939 edition is the base text for Pedretti's 1977 Commentary.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ]
+}

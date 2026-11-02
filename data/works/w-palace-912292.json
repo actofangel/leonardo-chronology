@@ -1,0 +1,105 @@
+{
+  "id": "w-palace-912292",
+  "type": "work",
+  "subtype": "architecture",
+  "label": "Horse's fore leg; design for a palace",
+  "classification": {
+    "form": "sheet_of_studies",
+    "technique": [
+      "black_chalk",
+      "pen_and_ink"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "architecture",
+      "horse"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912292",
+  "medium": "Black chalk, pen and ink",
+  "dimensions": "18 x 24.5 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    },
+    {
+      "rel": "part_of",
+      "target": "w-romorantin"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912292"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912292 (Windsor RL 12292 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912292, Recto: A horse's fore leg and chest. Verso: A design for a palace, c.1517 to 1518. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912292"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "medium",
+      "value": {
+        "text": "Black chalk, pen and ink; 18 x 24.5 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Medium and sheet size as on the RCT record.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912292, Recto: A horse's fore leg and chest. Verso: A design for a palace, c.1517 to 1518. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912292"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1517 to 1518",
+        "start": 1517,
+        "end": 1518
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the sheet c.1517 to 1518. Dating by style and context unless stated otherwise.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912292, Recto: A horse's fore leg and chest. Verso: A design for a palace, c.1517 to 1518. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912292"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Romorantin or Amboise? See w-romorantin."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "w-birdseye-western-tuscany",
+  "type": "work",
+  "subtype": "map",
+  "label": "Bird's eye view of western Tuscany",
+  "classification": {
+    "form": "map",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "cartography",
+      "landscape"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912683",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912683"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912683 (Windsor RL 12683 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912683, A bird's eye view of western Tuscany, c.1503 to 1504. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912683"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "c.1503 to 1504",
+        "start": 1503,
+        "end": 1504
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the sheet c.1503 to 1504. Dating by style and context unless stated otherwise.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912683, A bird's eye view of western Tuscany, c.1503 to 1504. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912683"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "content",
+      "value": {
+        "text": "Arno diversion not shown"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "A Google Arts and Culture entry notes that the proposed Arno diversion is not shown on this sheet.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Google Arts and Culture entry for the sheet. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://artsandculture.google.com/asset/_wHDV--FvathtA"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    }
+  ]
+}

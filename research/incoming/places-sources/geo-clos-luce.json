@@ -1,0 +1,74 @@
+{
+  "id": "geo-clos-luce",
+  "type": "place",
+  "subtype": "building",
+  "label": "Clos Lucé",
+  "variants": [
+    "Cloux",
+    "Le Cloux",
+    "Manoir du Cloux",
+    "Château du Clos Lucé"
+  ],
+  "modern_name": "Château du Clos Lucé",
+  "region": "Centre Val de Loire (Indre et Loire)",
+  "country": "France",
+  "coords": {
+    "lat": 47.4102299,
+    "lon": 0.9915248
+  },
+  "within": "geo-amboise",
+  "summary": "Manor house at Amboise, called Cloux in the sixteenth century, where Leonardo lived from about 1516 or 1517 and died on 2 May 1519.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-amboise"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 47.4102299,
+        "lon": 0.9915248
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Clos Lucé, Wikipedia derived listing as reported in search results (background only); museum digital gives 47.41024, 0.99204.",
+          "url": "https://term.museum-digital.de/md-de/place/73389"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "residence",
+      "value": {
+        "text": "c.1516 to 1519"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Antonio de Beatis records a visit to Leonardo at Amboise in October 1517 (e-beatis), and Leonardo's will of 23 April 1519 is dated at Cloux (e-will). The 'Cloux' designation in the will is from the draft and is not checked here.",
+      "sources": [
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-beltrami-1919",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, will of 23 April 1519",
+        "de Beatis, travel diary, edition to locate"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "w-trivulzio",
+  "type": "work",
+  "subtype": "sculpture_project",
+  "label": "Trivulzio monument",
+  "relations": [
+    {
+      "rel": "parent_of",
+      "target": "w-trivulzio-912356",
+      "claim": "c1"
+    },
+    {
+      "rel": "commissioned_by",
+      "target": "pe-trivulzio"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "content",
+      "value": {
+        "text": "RCIN 912356 and related Windsor sheets"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Windsor sheets for the project include RCIN 912356 (recto: base and sarcophagus vaguely indicated, horse and rider lower right; red chalk, pen and ink, 21.7 x 16.9 cm), and RCIN 912353, 912355, 912359, 912360 (titles only seen).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912356, Recto: A study for the Trivulzio monument. Verso: A study for an equestrian monument. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912356"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "status",
+      "value": {
+        "text": "No evidence of physical work"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT states there is no evidence that Leonardo began any physical work on the monument.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912356, Recto: A study for the Trivulzio monument. Verso: A study for an equestrian monument. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912356"
+        }
+      ],
+      "check_in": [
+        "Kemp 2006",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "content",
+      "value": {
+        "text": "Bronze horse and rider on marble architecture with sarcophagus and captives"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The design as described by RCT: a bronze horse and rider on a marble architectural framework housing Trivulzio's sarcophagus, flanked by tethered captives.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912356, Recto: A study for the Trivulzio monument. Verso: A study for an equestrian monument. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912356"
+        }
+      ],
+      "check_in": [
+        "Richter 1883 for the costing note in the Codex Atlanticus"
+      ]
+    }
+  ],
+  "open_questions": [
+    "The costing note for the monument (Codex Atlanticus) was not located in this session: folio to locate."
+  ]
+}

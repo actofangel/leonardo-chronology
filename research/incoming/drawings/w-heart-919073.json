@@ -1,0 +1,86 @@
+{
+  "id": "w-heart-919073",
+  "type": "work",
+  "subtype": "anatomy",
+  "label": "Ventricles and tricuspid valve; heart and coronary vessels",
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 919073",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    },
+    {
+      "rel": "part_of",
+      "target": "w-anatomy2"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 919073"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 919073 (Windsor RL 19073 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919073, The ventricles, papillary muscles and tricuspid valve (recto); the heart and coronary vessels (verso). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919073"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "c.1511 to 1513",
+        "start": 1511,
+        "end": 1513
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the sheet c.1511 to 1513. Dating by style and context unless stated otherwise.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919073, The ventricles, papillary muscles and tricuspid valve (recto); the heart and coronary vessels (verso). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919073"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "content",
+      "value": {
+        "text": "Ox heart"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT describes the sheet as part of Leonardo's last campaign of dissection, on the heart of the ox.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919073, The ventricles, papillary muscles and tricuspid valve (recto); the heart and coronary vessels (verso). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919073"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "geo-bologna",
+  "type": "place",
+  "subtype": "city",
+  "label": "Bologna",
+  "variants": [
+    "Bononia (Latin)"
+  ],
+  "modern_name": "Bologna",
+  "region": "Emilia Romagna",
+  "country": "Italy",
+  "coords": {
+    "lat": 44.49649,
+    "lon": 11.34346
+  },
+  "summary": "Papal city where Leo X and Francis I met in December 1515.",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 44.49649,
+        "lon": 11.34346
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Bologna, Seven Sages of Rome place database found by search (background only).",
+          "url": "https://db.seven-sages-of-rome.org/Bologna,_Italy"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "leonardo_connection",
+      "value": {
+        "text": "December 1515",
+        "date": 1515.95
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Leonardo's presence at the Bologna meeting of Leo X and Francis I in December 1515 is inferred by many biographers from a drawing and notes; no document naming him at the meeting was seen.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Commonly stated in biographies; not checked."
+        }
+      ],
+      "check_in": [
+        "Villata 1999, documents for late 1515",
+        "Vecce 1998 (src-vecce-1998)"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Is Leonardo's presence at Bologna in December 1515 documented or inferred?"
+  ]
+}

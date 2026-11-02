@@ -1,0 +1,48 @@
+{
+  "id": "geo-imola",
+  "type": "place",
+  "subtype": "town",
+  "label": "Imola",
+  "variants": [
+    "Imola",
+    "Forum Cornelii (Latin)"
+  ],
+  "modern_name": "Imola",
+  "region": "Emilia Romagna",
+  "country": "Italy",
+  "coords": {
+    "lat": 44.3592,
+    "lon": 11.7132
+  },
+  "within": "geo-romagna",
+  "summary": "Town in the Romagna held by Cesare Borgia; subject of Leonardo's town plan (w-imola).",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-romagna"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 44.3592,
+        "lon": 11.7132
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Imola, coordinate site found by search (background only).",
+          "url": "https://time-ok.com/coordinates/imola"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

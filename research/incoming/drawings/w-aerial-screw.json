@@ -1,0 +1,132 @@
+{
+  "id": "w-aerial-screw",
+  "type": "work",
+  "subtype": "machine",
+  "label": "Aerial screw",
+  "manuscript": "ms-paris-b",
+  "folio": "f. 83 verso",
+  "current_location": "geo-institut-de-france",
+  "relations": [
+    {
+      "rel": "drawn_on",
+      "target": "ms-paris-b",
+      "claim": "c1"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-institut-de-france"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "location",
+      "value": {
+        "text": "f. 83 verso"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The design is on f. 83 verso of Paris Manuscript B (Institut de France).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Leonardo's aerial screw (background only). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://en.wikipedia.org/wiki/Leonardo%27s_aerial_screw"
+        },
+        {
+          "type": "web",
+          "cite": "Meisterdrucke print listing, Paris Manuscript B, fol. 83v. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.meisterdrucke.us/fine-art-prints/Leonardo-da-Vinci/310958/Paris-Manuscript-B%2C-fol.-83v%3A-Page-of-text-and-sketches-for-a-flying-machine%2C-1488-90.html"
+        }
+      ],
+      "check_in": [
+        "Institut de France, Ms B digitised",
+        "Ravaisson Mollien edition"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "content",
+      "value": {
+        "text": "a helical screw intended to rise in the air, with text"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The sheet shows: a helical screw intended to rise in the air, with text. This is a fact about the drawing on paper only.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Leonardo's aerial screw (background only). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://en.wikipedia.org/wiki/Leonardo%27s_aerial_screw"
+        },
+        {
+          "type": "web",
+          "cite": "Meisterdrucke print listing, Paris Manuscript B, fol. 83v. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.meisterdrucke.us/fine-art-prints/Leonardo-da-Vinci/310958/Paris-Manuscript-B%2C-fol.-83v%3A-Page-of-text-and-sketches-for-a-flying-machine%2C-1488-90.html"
+        }
+      ],
+      "check_in": [
+        "Institut de France, Ms B digitised",
+        "Ravaisson Mollien edition"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1488 to 1490",
+        "start": 1488,
+        "end": 1490
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Dated c.1488 to 1490 by the holding institution or source cited; sheet datings in Leonardo's codices are palaeographic and stylistic estimates.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Leonardo's aerial screw (background only). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://en.wikipedia.org/wiki/Leonardo%27s_aerial_screw"
+        },
+        {
+          "type": "web",
+          "cite": "Meisterdrucke print listing, Paris Manuscript B, fol. 83v. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.meisterdrucke.us/fine-art-prints/Leonardo-da-Vinci/310958/Paris-Manuscript-B%2C-fol.-83v%3A-Page-of-text-and-sketches-for-a-flying-machine%2C-1488-90.html"
+        }
+      ],
+      "check_in": [
+        "Institut de France, Ms B digitised",
+        "Ravaisson Mollien edition"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "built",
+      "value": {
+        "text": "No evidence of construction"
+      },
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "Nothing found in this session shows that the device was built or tested by Leonardo; any such claim needs separate evidence.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Leonardo's aerial screw (background only). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://en.wikipedia.org/wiki/Leonardo%27s_aerial_screw"
+        },
+        {
+          "type": "web",
+          "cite": "Meisterdrucke print listing, Paris Manuscript B, fol. 83v. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.meisterdrucke.us/fine-art-prints/Leonardo-da-Vinci/310958/Paris-Manuscript-B%2C-fol.-83v%3A-Page-of-text-and-sketches-for-a-flying-machine%2C-1488-90.html"
+        }
+      ],
+      "check_in": [
+        "Institut de France, Ms B digitised",
+        "Ravaisson Mollien edition"
+      ]
+    }
+  ]
+}

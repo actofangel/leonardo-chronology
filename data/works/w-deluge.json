@@ -3,6 +3,18 @@
   "type": "work",
   "subtype": "drawing",
   "label": "Deluge drawings",
+  "classification": {
+    "form": "finished_drawing",
+    "technique": [
+      "black_chalk"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "deluge"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check form, technique, support and condition against the holding institution's record or a catalogue raisonné (Marani 2000, Zöllner 2003; for manuscripts, the Edizione Nazionale or Pedretti)."
+  },
   "claims": [
     {
       "id": "c1",
@@ -23,6 +35,59 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "content",
+      "value": {
+        "text": "Series of eleven sheets, RCIN 912376 to 912386"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "RCT: a series of eleven drawings of a deluge, RCIN 912376 to 912386; most in black chalk only, RCIN 912380 finished with pen and wash.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912380, A deluge, c.1517 to 1518. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912380"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1517 to 1518, France",
+        "start": 1517,
+        "end": 1518
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the series c.1517 to 1518 and thinks it most probable that they were made in France at the court of Francis I. Stylistic dating.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912380, A deluge, c.1517 to 1518. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912380"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968",
+        "Bambach 2019"
+      ]
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor",
+  "relations": [
+    {
+      "rel": "parent_of",
+      "target": "w-deluge-912380",
+      "claim": "c2"
     }
   ],
   "timeline": {

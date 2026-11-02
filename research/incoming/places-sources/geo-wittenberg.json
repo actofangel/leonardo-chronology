@@ -1,0 +1,14 @@
+{
+  "id": "geo-wittenberg",
+  "type": "place",
+  "subtype": "town",
+  "label": "Wittenberg",
+  "variants": [
+    "Lutherstadt Wittenberg"
+  ],
+  "country": "Germany",
+  "summary": "Context place named in the inventory history lane (h-luther); no Leonardo connection is claimed.",
+  "open_questions": [
+    "Coordinates not sourced; low priority context place."
+  ]
+}

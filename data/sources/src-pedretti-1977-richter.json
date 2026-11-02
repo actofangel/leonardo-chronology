@@ -1,0 +1,61 @@
+{
+  "id": "src-pedretti-1977-richter",
+  "type": "source",
+  "label": "Pedretti 1977, Commentary on Richter",
+  "source_type": "ms_study",
+  "citation": "Pedretti, Carlo. The Literary Works of Leonardo da Vinci, Compiled and Edited from the Original Manuscripts by Jean Paul Richter: Commentary. 2 vols. Berkeley and Los Angeles: University of California Press, 1977 (National Gallery of Art Kress Foundation Studies in the History of European Art, 5). ISBN 0520033299. Also issued Oxford: Phaidon, 1977 (ISBN 071481489X).",
+  "short": "Pedretti 1977",
+  "language": "en",
+  "url": "https://librarycatalog.ecu.edu/catalog/121662",
+  "relations": [
+    {
+      "rel": "commentary_on",
+      "target": "src-richter-1939"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Pedretti, Carlo. The Literary Works of Leonardo da Vinci, Compiled and Edited from the Original Manuscripts by Jean Paul Richter: Commentary. 2 vols. Berkeley and Los Angeles: University of California Press, 1977 (National Gallery of Art Kress Foundation Studies in the History of European Art, 5). ISBN 0520033299. Also issued Oxford: Phaidon, 1977 (ISBN 071481489X).",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "East Carolina University library record (seen as search result): University of California Press, 1977, 2 vols, ISBN 0520033299.",
+          "url": "https://librarycatalog.ecu.edu/catalog/121662"
+        },
+        {
+          "type": "other",
+          "cite": "Renaissance Quarterly review listing (seen as search result).",
+          "url": "https://www.cambridge.org/core/journals/renaissance-quarterly/article/carlo-pedretti-the-literary-works-of-leonardo-da-vinci-a-commentary-to-jean-paul-richters-edition-berkeley-university-of-california-press-1977-2-vols-48-pls350-figs871-pp-60/B124D19AEBA7FEB9F14E48631933D520"
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "ms_study"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted: scholarly commentary keyed to Richter's numbering, revising readings and datings of manuscript passages; classed as codicological study.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ]
+}

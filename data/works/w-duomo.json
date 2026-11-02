@@ -3,6 +3,14 @@
   "type": "work",
   "subtype": "engineering",
   "label": "Milan Cathedral crossing model",
+  "classification": {
+    "form": "architectural_project",
+    "condition": "lost",
+    "subject": [
+      "architecture"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check form, technique, support and condition against the holding institution's record or a catalogue raisonné (Marani 2000, Zöllner 2003; for manuscripts, the Edizione Nazionale or Pedretti)."
+  },
   "claims": [
     {
       "id": "c1",
@@ -23,7 +31,33 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "content",
+      "value": {
+        "text": "Tiburio sketches on a Codex Atlanticus sheet"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "An Ambrosiana caption retrieved with f. 812 recto mentions 'architectural sketches for the tiburio of the Duomo' with centerings, compound beams and grotesque profiles; the caption may belong to a neighbouring sheet.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana, catalogue page, Codex Atlanticus f. 812 recto, automated cart. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://ambrosiana.it/en/opere/atlantic-codex-codex-atlanticus-f-812-recto/"
+        }
+      ],
+      "check_in": [
+        "Pedretti 1978 Atlanticus catalogue",
+        "Annali della Fabbrica del Duomo"
+      ]
     }
+  ],
+  "open_questions": [
+    "The payments for the model (1487 to 1490) need their archival reference: Annali della Fabbrica del Duomo, volume and page to locate (Villata 1999 or Beltrami 1919).",
+    "Which Codex Atlanticus and Ms B folios carry tiburio designs? Not located in this session."
   ],
   "timeline": {
     "lane": "works",

@@ -1,0 +1,40 @@
+{
+  "id": "geo-pesaro",
+  "type": "place",
+  "subtype": "town",
+  "label": "Pesaro",
+  "variants": [
+    "Pisaurum (Latin)"
+  ],
+  "modern_name": "Pesaro",
+  "region": "Marche",
+  "country": "Italy",
+  "coords": {
+    "lat": 43.9092,
+    "lon": 12.9164
+  },
+  "summary": "Adriatic town named in the inventory (pl-romagna) on Leonardo's 1502 route.",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 43.9092,
+        "lon": 12.9164
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Pesaro, coordinate site found by search (background only).",
+          "url": "https://time-ok.com/coordinates/pesaro"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

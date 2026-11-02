@@ -1,0 +1,144 @@
+{
+  "id": "w-jerome",
+  "type": "work",
+  "subtype": "painting",
+  "label": "St Jerome",
+  "current_location": "geo-vatican-pinacoteca",
+  "inventory": "MV.40337.0.0",
+  "medium": "oil and tempera",
+  "support": "walnut panel",
+  "dimensions": "102.8 x 73.5 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-vatican-pinacoteca",
+      "claim": "c1"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-angelica-kauffmann",
+      "claim": "c4"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-joseph-fesch",
+      "claim": "c4"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": "Vatican City, Musei Vaticani, Pinacoteca, MV.40337.0.0",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Vatican Museums online catalogue lists Leonardo da Vinci, S. Girolamo, inventory MV.40337.0.0, oil and tempera on walnut, 102.8 x 73.5 cm.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musei Vaticani, Catalogo online, MV.40337.0.0. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://catalogo.museivaticani.va/index.php/Detail/objects/MV.40337.0.0"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "1480 to 1482",
+        "start": 1480,
+        "end": 1482
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Vatican catalogue dates the panel 1480 to 1482 (late Florentine; stylistic).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musei Vaticani, Catalogo online, MV.40337.0.0. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://catalogo.museivaticani.va/index.php/Detail/objects/MV.40337.0.0"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1488 to 1490 (Milanese dating)",
+        "start": 1488,
+        "end": 1490
+      },
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "A Milanese dating of the panel exists in the literature (the draft records the dispute between late Florentine and early Milanese years). Holders and exact range not checked in this session.",
+      "sources": [
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        },
+        {
+          "type": "model_recall",
+          "cite": "Existence of a Milanese dating recalled; holders not verified."
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ],
+      "alternative_to": [
+        "c2"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": "Angelica Kauffmann (1802); Cardinal Fesch; 1845 auction; Aducci; Vatican 1856",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Vatican catalogue records the panel in the collection of Angelica Kauffmann in 1802 (the earliest attribution to Leonardo is in her will, per the Vatican press release), its reassembly by Cardinal Joseph Fesch after it had been sawn into pieces, its sale after Fesch's death at auction at Palazzo Ricci, Rome, in 1845 to the lawyer Alessandro Aducci, and its purchase for the Vatican on 5 September 1856 at the Monte di Pietà.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musei Vaticani, Catalogo online, MV.40337.0.0. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://catalogo.museivaticani.va/index.php/Detail/objects/MV.40337.0.0"
+        },
+        {
+          "type": "other",
+          "cite": "Musei Vaticani, press release 2022 on Saint Jerome. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://m.museivaticani.va/content/dam/museivaticani/pdf/eventi_novita/iniziative/eventi/2022/129_comunicato_stampa_en.pdf"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": "Story of two halves found in an antique shop and a cobbler's workshop",
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "The Vatican press release repeats the story that the two parts were found separately, one in a Roman antique shop and one used by a cobbler. This is a provenance anecdote, not a documented fact.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musei Vaticani, press release 2022. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://m.museivaticani.va/content/dam/museivaticani/pdf/eventi_novita/iniziative/eventi/2022/129_comunicato_stampa_en.pdf"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Who holds the Milanese dating, and on what evidence (comparison with Milanese drawings, the architecture sketch)?"
+  ]
+}

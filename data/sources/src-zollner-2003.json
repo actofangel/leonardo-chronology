@@ -1,0 +1,53 @@
+{
+  "id": "src-zollner-2003",
+  "type": "source",
+  "label": "Zöllner 2003, Leonardo da Vinci: The Complete Paintings and Drawings",
+  "source_type": "catalogue",
+  "citation": "Zöllner, Frank, with Johannes Nathan. Leonardo da Vinci, 1452 to 1519: The Complete Paintings and Drawings. Köln and London: Taschen, 2003. 695 p. ISBN 3822817341 (978 3822817346).",
+  "short": "Zöllner 2003",
+  "language": "en",
+  "url": "https://library.britishmuseum.org/bib/150533",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Zöllner, Frank, with Johannes Nathan. Leonardo da Vinci, 1452 to 1519: The Complete Paintings and Drawings. Köln and London: Taschen, 2003. 695 p. ISBN 3822817341 (978 3822817346).",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. The printed title uses a numeric year range for 1452 to 1519. Later editions: 2007 (ISBN 3822838276) and 2019 (ISBN 9783836576253); numbering may differ.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "British Museum library catalogue (seen as search result): Köln, London, Taschen, c2003, 695 p., 45 cm, ISBN 3822817341.",
+          "url": "https://library.britishmuseum.org/bib/150533"
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "catalogue"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted: catalogue raisonné of paintings and drawings, named in the project rules.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Is Johannes Nathan credited on the 2003 title page or only from 2007? Check the title page."
+  ]
+}

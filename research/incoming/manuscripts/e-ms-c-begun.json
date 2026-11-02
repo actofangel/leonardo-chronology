@@ -1,0 +1,49 @@
+{
+  "id": "e-ms-c-begun",
+  "type": "event",
+  "subtype": "manuscript",
+  "label": "Manuscript C begun",
+  "summary": "A dated note in Paris Manuscript C records that Leonardo began the book and resumed work on the horse on this day.",
+  "relations": [
+    {
+      "rel": "recorded_in",
+      "target": "ms-paris-c",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "date",
+      "value": {
+        "text": "23 April 1490",
+        "start": 1490.31,
+        "end": 1490.31
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Paris Manuscript C carries a note dated 23 April 1490 recording the start of the book and the resumption of the horse.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Unveiling Leonardo: the secrets within the 12 notebooks at the Institut de France.",
+          "url": "https://www.facsimilefinder.com/articles/unveiling-leonardo-the-secrets-within-the-12-notebooks-at-the-institut-de-france/"
+        }
+      ],
+      "check_in": [
+        "Marinoni edition of the Institut de France manuscripts (Giunti, 1986 to 1990), introduction to the volume",
+        "Richter 1883 and Pedretti 1977 Commentary"
+      ]
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Manuscript",
+    "start": 1490.31,
+    "date": "23 April 1490",
+    "tier": "D",
+    "place": "Milan",
+    "text": "A dated note in Paris Manuscript C records that Leonardo began the book and resumed work on the horse on this day.",
+    "basis": "Autograph dated note, Paris Manuscript C (folio to locate)."
+  }
+}

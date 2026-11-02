@@ -1,0 +1,49 @@
+{
+  "id": "geo-amboise",
+  "type": "place",
+  "subtype": "town",
+  "label": "Amboise",
+  "variants": [
+    "Amboise",
+    "Ambasia (Latin)",
+    "Amboys"
+  ],
+  "modern_name": "Amboise",
+  "region": "Centre Val de Loire (Indre et Loire)",
+  "country": "France",
+  "coords": {
+    "lat": 47.4042,
+    "lon": 0.98
+  },
+  "within": "geo-loire-valley",
+  "summary": "Royal town on the Loire; Leonardo lived at the manor of Cloux there from about 1516 or 1517 until his death on 2 May 1519.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-loire-valley"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 47.4042,
+        "lon": 0.98
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Amboise, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Amboise"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

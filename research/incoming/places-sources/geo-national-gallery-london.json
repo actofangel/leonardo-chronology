@@ -1,0 +1,64 @@
+{
+  "id": "geo-national-gallery-london",
+  "type": "place",
+  "subtype": "institution",
+  "label": "National Gallery, London",
+  "variants": [
+    "National Gallery"
+  ],
+  "modern_name": "The National Gallery",
+  "country": "United Kingdom",
+  "coords": {
+    "lat": 51.5089063,
+    "lon": -0.128406
+  },
+  "within": "geo-london",
+  "summary": "National art museum on Trafalgar Square, London.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-london"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 51.5089063,
+        "lon": -0.128406
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "National Gallery, GoHistoric listing found by search (background only).",
+          "url": "https://gohistoric.com/places/387277"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "Virgin of the Rocks (London version), Burlington House Cartoon (w-burlington)",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ]
+}

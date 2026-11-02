@@ -1,0 +1,239 @@
+{
+  "id": "ms-codex-urbinas",
+  "type": "manuscript",
+  "subtype": "compilation",
+  "label": "Codex Urbinas Latinus 1270",
+  "variants": [
+    "Libro di pittura",
+    "Trattato della pittura",
+    "Urb. lat. 1270"
+  ],
+  "summary": "Compilation of Leonardo's notes on painting made by Francesco Melzi after Leonardo's death, Biblioteca Apostolica Vaticana, Urb. lat. 1270.",
+  "holding": "geo-biblioteca-apostolica-vaticana",
+  "shelfmark": "Urb. lat. 1270",
+  "folios": "to locate",
+  "date_range": {
+    "start": 1540,
+    "end": 1550
+  },
+  "contents": [
+    "painting",
+    "light and shade",
+    "perspective",
+    "proportion",
+    "landscape and botany for painters"
+  ],
+  "history": [
+    "compiled by Francesco Melzi",
+    "Urbino ducal library",
+    "Biblioteca Apostolica Vaticana 1657",
+    "abridged copies behind the 1651 Paris edition",
+    "full text first published by Guglielmo Manzi, Rome 1817"
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-apostolica-vaticana",
+      "claim": "c1"
+    },
+    {
+      "rel": "located_in",
+      "target": "geo-rome"
+    },
+    {
+      "rel": "compiled_by",
+      "target": "pe-melzi",
+      "claim": "c2"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "shelfmark",
+      "value": {
+        "text": "Urb. lat. 1270"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Biblioteca Apostolica Vaticana, Urb. lat. 1270.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Encyclopaedia Britannica, Codex Urbinas Latinus 1270.",
+          "url": "https://britannica.com/topic/Codex-Urbinas-Latinus-1270"
+        },
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Vatican City, Biblioteca Apostolica Vaticana, MS Urb. lat. 1270.",
+          "url": "https://facsimilefinder.com/facsimiles/treatise-on-painting-facsimile"
+        }
+      ],
+      "check_in": [
+        "Pedretti and Vecce (eds.), Libro di pittura, Codice Urbinate lat. 1270, Florence, Giunti, 1995, introduction"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "attribution",
+      "value": {
+        "text": "Compiled by Francesco Melzi"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The compilation is attributed to Francesco Melzi, working from Leonardo's notebooks, eighteen of them by one count, several now lost.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Encyclopaedia Britannica, Codex Urbinas Latinus 1270.",
+          "url": "https://britannica.com/topic/Codex-Urbinas-Latinus-1270"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Treatise on Painting (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/treatise-on-painting/"
+        },
+        {
+          "type": "other",
+          "cite": "Medieval Art Research, Murray seminar: Leonardo and Melzi, the role of illustrations in the Libro di pittura, with Juliana Barone, 12 February 2025.",
+          "url": "https://medievalartresearch.com/2025/02/05/murray-seminar-leonardo-and-melzi-the-role-of-illustrations-in-the-composition-and-creation-of-meaning-in-the-libro-di-pittura-with-juliana-barone-12-february-2025/"
+        }
+      ],
+      "check_in": [
+        "Pedretti and Vecce (eds.), Libro di pittura, Codice Urbinate lat. 1270, Florence, Giunti, 1995, introduction",
+        "Richter 1883, introduction"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1540",
+        "start": 1540,
+        "end": 1540
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Dated c.1540.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Leonardo da Vinci and his Treatise on Painting (treatiseonpainting.org, scholarly digital project), Libro di Pittura pages.",
+          "url": "https://www.treatiseonpainting.org/cocoon/leonardo/ill_one/vu/"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Treatise on Painting (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/treatise-on-painting/"
+        }
+      ],
+      "check_in": [
+        "Pedretti and Vecce (eds.), Libro di pittura, Codice Urbinate lat. 1270, Florence, Giunti, 1995, introduction"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "c.1540 to 1550",
+        "start": 1540,
+        "end": 1550
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Dated c.1540 to 1550.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Vatican City, Biblioteca Apostolica Vaticana, MS Urb. lat. 1270.",
+          "url": "https://facsimilefinder.com/facsimiles/treatise-on-painting-facsimile"
+        }
+      ],
+      "check_in": [
+        "Pedretti and Vecce (eds.), Libro di pittura, Codice Urbinate lat. 1270, Florence, Giunti, 1995, introduction"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "content",
+      "value": {
+        "text": "944 chapters, 221 illustrations"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Reported as 944 unnumbered chapters with headings and 221 illustrations.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Leonardo da Vinci and his Treatise on Painting (treatiseonpainting.org, scholarly digital project), Libro di Pittura pages.",
+          "url": "https://www.treatiseonpainting.org/cocoon/leonardo/ill_one/vu/"
+        },
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Vatican City, Biblioteca Apostolica Vaticana, MS Urb. lat. 1270.",
+          "url": "https://facsimilefinder.com/facsimiles/treatise-on-painting-facsimile"
+        }
+      ],
+      "check_in": [
+        "Pedretti and Vecce (eds.), Libro di pittura, Codice Urbinate lat. 1270, Florence, Giunti, 1995, introduction"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "provenance",
+      "value": {
+        "text": "Vatican Library from 1657",
+        "start": 1657,
+        "end": 1657
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The manuscript reached the Vatican Library in 1657 with the library of the dukes of Urbino.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Universitat Tubingen, University Library page on Leonardo's Libro di pittura (Codex Urbinas reached the Vatican Library in 1657).",
+          "url": "https://uni-tuebingen.de/en/153993"
+        }
+      ],
+      "check_in": [
+        "Pedretti and Vecce (eds.), Libro di pittura, Codice Urbinate lat. 1270, Florence, Giunti, 1995, introduction"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "provenance",
+      "value": {
+        "text": "First full edition, Manzi, Rome 1817",
+        "start": 1817,
+        "end": 1817
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Guglielmo Manzi's Rome edition of 1817 was the first to give the full text; the 1651 Paris edition was based on an abridged copy owned by Cassiano dal Pozzo.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Treatise on Painting (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/treatise-on-painting/"
+        },
+        {
+          "type": "other",
+          "cite": "Encyclopaedia Britannica, Codex Urbinas Latinus 1270.",
+          "url": "https://britannica.com/topic/Codex-Urbinas-Latinus-1270"
+        }
+      ],
+      "check_in": [
+        "Pedretti and Vecce (eds.), Libro di pittura, Codice Urbinate lat. 1270, Florence, Giunti, 1995, introduction"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Folio count and dimensions; digital facsimile on the Vatican Library's DigiVatLib (not located in this session).",
+    "Melzi's list of source notebooks at the end of the codex and which survive (Pedretti and Vecce 1995)."
+  ]
+}

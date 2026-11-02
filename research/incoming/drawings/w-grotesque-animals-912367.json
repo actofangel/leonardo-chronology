@@ -1,0 +1,61 @@
+{
+  "id": "w-grotesque-animals-912367",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Two heads of grotesque animals",
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912367",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912367"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912367 (Windsor RL 12367 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912367, Two heads of grotesque animals, c.1490 to 1495. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912367"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "c.1490 to 1495",
+        "start": 1490,
+        "end": 1495
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the sheet c.1490 to 1495. Dating by style and context unless stated otherwise.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912367, Two heads of grotesque animals, c.1490 to 1495. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912367"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    }
+  ]
+}

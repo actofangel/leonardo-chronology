@@ -1,0 +1,66 @@
+{
+  "id": "geo-biblioteca-nacional-madrid",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Biblioteca Nacional de España",
+  "variants": [
+    "BNE",
+    "Biblioteca Nacional, Madrid"
+  ],
+  "modern_name": "Biblioteca Nacional de España",
+  "region": "Community of Madrid",
+  "country": "Spain",
+  "coords": {
+    "lat": 40.423504,
+    "lon": -3.689432
+  },
+  "within": "geo-madrid",
+  "summary": "National library of Spain, Paseo de Recoletos 20 to 22, Madrid.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-madrid"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 40.423504,
+        "lon": -3.689432
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Biblioteca Nacional de España, LatLong.net (background only).",
+          "url": "https://www.latlong.net/place/biblioteca-nacional-de-espa-a-madrid-spain-21858.html"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "Madrid Codices I and II (w-madrid1), rediscovered in 1966 (date from recall)",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ]
+}

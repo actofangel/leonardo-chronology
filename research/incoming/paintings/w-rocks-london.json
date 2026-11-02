@@ -1,0 +1,205 @@
+{
+  "id": "w-rocks-london",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Virgin of the Rocks (London)",
+  "current_location": "geo-national-gallery-london",
+  "inventory": "NG1093",
+  "medium": "oil",
+  "support": "poplar panel, thinned and cradled",
+  "dimensions": "189.5 x 120 cm",
+  "summary": "Second version of the Virgin of the Rocks, in the National Gallery, London (NG1093), bought in 1880.",
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1491.5,
+    "end": 1508.6,
+    "date": "c.1491 to 1508",
+    "tier": "S",
+    "place": "Milan, now London",
+    "text": "Second version of the altarpiece for the Confraternity of the Immaculate Conception. The 1483 contract and the dispute of 1506 to 1508 are documented, the painting phases are a reconstruction.",
+    "basis": "National Gallery dating; documents of 1483 and 1506 to 1508."
+  },
+  "relations": [
+    {
+      "rel": "version_of",
+      "target": "w-rocks",
+      "claim": "c3"
+    },
+    {
+      "rel": "made_for",
+      "target": "geo-san-francesco-grande-milan",
+      "claim": "c3"
+    },
+    {
+      "rel": "collaborator",
+      "target": "pe-predis",
+      "claim": "c5"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-national-gallery-london",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": "London, National Gallery, NG1093",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The National Gallery lists The Virgin of the Rocks, Leonardo da Vinci, NG1093, oil on poplar (thinned and cradled), 189.5 x 120 cm, bought 1880.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, painting page NG1093. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-virgin-of-the-rocks"
+        },
+        {
+          "type": "other",
+          "cite": "National Gallery Technical Bulletin 32 (2011), caption. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nationalgallery.org.uk/upload/pdf/keith_roy_morrison_schade2011.pdf"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "about 1491/2 to 1499 and 1506 to 1508",
+        "start": 1491,
+        "end": 1508
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The National Gallery dates the painting about 1491/2 to 9 and 1506 to 8, implying two campaigns separated by Leonardo's absence; the phases are a technical and documentary reconstruction.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, painting page NG1093. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-virgin-of-the-rocks"
+        },
+        {
+          "ref": "src-syson-2011",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Syson 2011",
+        "National Gallery Technical Bulletin 32"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "identity",
+      "value": "Painted for the confraternity as a replacement for the Louvre version",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The National Gallery describes the London panel as painted for the confraternity to replace the first version, which had probably been sold during the earlier dispute.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, The lost altarpiece. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nationalgallery.org.uk/exhibitions/past/leonardo-experience-a-masterpiece/the-lost-altarpiece"
+        },
+        {
+          "type": "other",
+          "cite": "National Gallery, painting page NG1093. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-virgin-of-the-rocks"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry",
+        "Syson 2011"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "relation",
+      "value": "Dispute with the confraternity; settlement around 1506 to 1508",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Documents of 1506 to 1508 record a dispute over payment and completion between the painters and the confraternity, and the completion of the picture to the confraternity's satisfaction in 1508. Document by document details (arbitration of 1506, payments of 1508) were not read in this session.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery Technical Bulletin 32, Billinge, Syson and Spring 2011. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nationalgallery.org.uk/upload/pdf/billinge_syson_spring2011.pdf"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "doc. nos. to locate"
+        },
+        {
+          "ref": "src-beltrami-1919",
+          "loc": "doc. nos. to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, documents 1506 to 1508",
+        "Shell and Sironi, archival publications on the Virgin of the Rocks"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "attribution",
+      "value": "Leonardo with workshop participation",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The National Gallery presents the picture as by Leonardo; the extent of workshop (de Predis) participation has long been discussed (the Louvre notes the authorship of the London version is still questioned).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, painting page NG1093. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-virgin-of-the-rocks"
+        },
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 777. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062373"
+        },
+        {
+          "ref": "src-syson-2011",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "provenance",
+      "value": "San Francesco Grande, Milan; Gavin Hamilton 1785; National Gallery 1880",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Bought by the National Gallery in 1880. The earlier route (removed from San Francesco Grande and brought to England by Gavin Hamilton in 1785) was not checked in this session.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, painting page NG1093. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-virgin-of-the-rocks"
+        },
+        {
+          "type": "model_recall",
+          "cite": "Hamilton 1785 recalled; not checked."
+        }
+      ],
+      "check_in": [
+        "National Gallery catalogue entry, provenance"
+      ]
+    }
+  ],
+  "open_questions": [
+    "List the 1506 and 1508 documents with Villata numbers."
+  ]
+}

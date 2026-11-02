@@ -1,0 +1,181 @@
+{
+  "id": "w-musician",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Portrait of a Musician",
+  "current_location": "geo-ambrosiana",
+  "medium": "oil (Ambrosiana page; another Ambrosiana page says tempera and oil)",
+  "support": "panel",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": "Milan, Pinacoteca Ambrosiana",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Held by the Pinacoteca Ambrosiana, Milan. The museum's masterpiece page gives oil on panel, 44.7 x 32 cm.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana, masterpieces: Portrait of a musician. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.ambrosiana.it/en/discover/masterpieces/portrait-of-a-musician/"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "dimensions",
+      "value": "40 x 30 cm, tempera and oil on panel",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "Another Ambrosiana page returned in search gives tempera e olio su tavola, 40 x 30 cm. Conflicts with 44.7 x 32 cm.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana, other page (visitor material). Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://ambrosiana.it/organizza-la-tua-visita/famiglie/"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "1485 to 1490",
+        "start": 1485,
+        "end": 1490
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Ambrosiana material dates the panel 1485 to 1490 (stylistic).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana, page on the portrait. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.ambrosiana.it/en/discover/masterpieces/portrait-of-a-musician/"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "identity",
+      "value": "Sitter: Ludovico Sforza (traditional)",
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "The sitter was traditionally taken to be Ludovico il Moro, per the Ambrosiana.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana, page on the portrait. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.ambrosiana.it/en/discover/masterpieces/portrait-of-a-musician/"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "identity",
+      "value": "Sitter: a musician (Franchino Gaffurio, Josquin des Prez, Atalante Migliorotti proposed)",
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "The sitter is now usually seen as a musician because of the sheet of music; names proposed include Franchino Gaffurio, Josquin des Prez, and more recently Atalante Migliorotti (per the Ambrosiana page). Each is an identification by individual scholars, to be traced.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana, page on the portrait. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.ambrosiana.it/en/discover/masterpieces/portrait-of-a-musician/"
+        },
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ],
+      "alternative_to": [
+        "c4"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "attribution",
+      "value": "Face by Leonardo; extent of his participation debated (Boltraffio and others proposed for parts)",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The draft states the face is generally accepted as Leonardo's and the rest debated; holders of each position (including proposals of workshop hands) not checked in this session.",
+      "sources": [
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-syson-2011",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "provenance",
+      "value": "Probably entered the Ambrosiana with the Galeazzo Arconati donation of 1637",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "A search summary of Ambrosiana material says the panel probably came with Count Galeazzo Arconati's 1637 donation (with the Codex Atlanticus), and links it to Federico Borromeo's description of a 'portrait of a Duchess of Milan' by Leonardo. Both are reconstructions and conflict with other accounts that place it in Borromeo's 1618 foundation gift.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana, page on the portrait. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.ambrosiana.it/en/discover/masterpieces/portrait-of-a-musician/"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry",
+        "Ambrosiana inventories (1618 donation; 1672 inventory)"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Dimensions 44.7 x 32 cm or 40 x 30 cm; medium oil, or tempera and oil?",
+    "Provenance: Borromeo 1618 foundation gift or Arconati 1637? Which inventory first records it, and under what attribution?"
+  ]
+}

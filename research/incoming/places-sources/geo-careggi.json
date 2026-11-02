@@ -1,0 +1,22 @@
+{
+  "id": "geo-careggi",
+  "type": "place",
+  "subtype": "villa",
+  "label": "Careggi",
+  "variants": [
+    "Villa medicea di Careggi"
+  ],
+  "region": "Tuscany",
+  "country": "Italy",
+  "within": "geo-florence",
+  "summary": "Medici villa outside Florence, named in the inventory as the place of death of Lorenzo de' Medici (h-lorenzo-death).",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-florence"
+    }
+  ],
+  "open_questions": [
+    "Coordinates not yet sourced."
+  ]
+}

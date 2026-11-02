@@ -1,0 +1,66 @@
+{
+  "id": "geo-louvre",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Musée du Louvre",
+  "variants": [
+    "Louvre",
+    "Palais du Louvre"
+  ],
+  "modern_name": "Musée du Louvre",
+  "region": "Île de France",
+  "country": "France",
+  "coords": {
+    "lat": 48.8611,
+    "lon": 2.3358
+  },
+  "within": "geo-paris",
+  "summary": "Art museum in the former royal palace of the Louvre, Paris.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-paris"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 48.8611,
+        "lon": 2.3358
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Musée du Louvre, Wikimedia Commons page linked to Wikidata, converted to decimal (background only).",
+          "url": "https://commons.wikimedia.org/wiki/Louvre"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "Mona Lisa (w-monalisa), Virgin of the Rocks (w-rocks), Virgin and Child with St Anne (w-annelouvre), St John the Baptist (w-baptist), Isabella d'Este cartoon (w-isabella), La Belle Ferronnière, Annunciation predella; drawings in the Département des Arts graphiques",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ]
+}

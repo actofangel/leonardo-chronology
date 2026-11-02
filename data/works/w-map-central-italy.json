@@ -1,0 +1,96 @@
+{
+  "id": "w-map-central-italy",
+  "type": "work",
+  "subtype": "map",
+  "label": "Map of the rivers and mountains of central Italy",
+  "classification": {
+    "form": "map",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "cartography",
+      "water"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912277",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912277"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912277 (Windsor RL 12277 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912277, A map of the rivers and mountains of central Italy, c.1502 to 1504. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912277"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "c.1502 to 1504",
+        "start": 1502,
+        "end": 1504
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the sheet c.1502 to 1504. Dating by style and context unless stated otherwise.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912277, A map of the rivers and mountains of central Italy, c.1502 to 1504. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912277"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "identity",
+      "value": {
+        "text": "Map of the environs of Pisa for the Arno diversion, c.1503"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "A Museo Galileo story on Google Arts and Culture labels Windsor RL 12277 as a map connected with diverting the Arno, c.1503. RCT titles it a map of the rivers and mountains of central Italy, c.1502 to 1504. The two descriptions may refer to different readings of the same sheet.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Museo Galileo, story 'Windsor, RL 12277 (1502/1504)' on Google Arts and Culture. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://artsandculture.google.com/story/xAXRtWKVrHUmJg"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Medium and dimensions to locate.",
+    "Confirm the Museo Galileo label for RL 12277."
+  ]
+}

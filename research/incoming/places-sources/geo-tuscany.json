@@ -1,0 +1,11 @@
+{
+  "id": "geo-tuscany",
+  "type": "place",
+  "subtype": "region",
+  "label": "Tuscany",
+  "variants": [
+    "Toscana"
+  ],
+  "country": "Italy",
+  "summary": "Region of central Italy containing Vinci, Florence and Pisa."
+}

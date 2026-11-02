@@ -1,0 +1,48 @@
+{
+  "id": "src-pedretti-1957-studi",
+  "type": "source",
+  "label": "Pedretti 1957, Studi vinciani",
+  "source_type": "ms_study",
+  "citation": "Pedretti, Carlo. Studi vinciani: documenti, analisi e inediti leonardeschi. Genève: Droz, 1957.",
+  "short": "Pedretti 1957",
+  "language": "it",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Pedretti, Carlo. Studi vinciani: documenti, analisi e inediti leonardeschi. Genève: Droz, 1957.",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. Search budget for this session ran out before this record could be checked against a catalogue; every element of the citation is from model recall.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Pedretti, Studi vinciani, Droz, 1957 (not checked)."
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "ms_study"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted: early codicological and documentary studies by Pedretti, including chronological questions.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ]
+}

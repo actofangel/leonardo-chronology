@@ -1,0 +1,114 @@
+{
+  "id": "w-cranium-919059",
+  "type": "work",
+  "subtype": "anatomy",
+  "label": "The cranium; notes on topics to be investigated",
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 919059",
+  "medium": "Pen and ink",
+  "dimensions": "18.8 x 13.9 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    },
+    {
+      "rel": "drawn_on",
+      "target": "ms-anatomical-b"
+    },
+    {
+      "rel": "part_of",
+      "target": "w-skull"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 919059"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 919059 (Windsor RL 19059 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919059, Recto: The cranium. Verso: Notes on topics to be investigated, 1489. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919059"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "medium",
+      "value": {
+        "text": "Pen and ink; 18.8 x 13.9 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Medium and sheet size as on the RCT record.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919059, Recto: The cranium. Verso: Notes on topics to be investigated, 1489. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919059"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "2 April 1489",
+        "start": 1489.25,
+        "end": 1489.25
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The date 2 April 1489 is written at the top of the sheet (RCT translation 'On the 2nd day of April 1489').",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919059, Recto: The cranium. Verso: Notes on topics to be investigated, 1489. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919059"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "inscription",
+      "value": {
+        "text": "'On the 2nd day of April 1489' / 'Book entitled On the Human Figure'"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "RCT translation of the heading; the second phrase was added later. Italian text to locate.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919059, Recto: The cranium. Verso: Notes on topics to be investigated, 1489. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919059"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012",
+        "Richter 1883"
+      ]
+    }
+  ]
+}

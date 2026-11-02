@@ -1,0 +1,89 @@
+{
+  "id": "w-anghiari-budapest-1774",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Head of a soldier, Budapest",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "red_chalk"
+    ],
+    "support": "prepared_paper",
+    "condition": "extant",
+    "subject": [
+      "head",
+      "battle"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-szepmuveszeti-budapest",
+  "inventory": "1774",
+  "medium": "Red chalk on pale pink prepared paper",
+  "dimensions": "226 x 186 mm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-szepmuveszeti-budapest",
+      "claim": "c1"
+    },
+    {
+      "rel": "preparatory_for",
+      "target": "w-anghiari"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Szépművészeti Múzeum, Budapest, inv. 1774"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Museum of Fine Arts, Budapest, inv. 1774: red chalk on very pale pink prepared paper, 226 x 186 mm, c.1504 to 1505.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Museum of Fine Arts Budapest, collection online, artwork 11069. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://mfab.hu/artworks/11069"
+        },
+        {
+          "type": "other",
+          "cite": "Louvre 2019 catalogue, page 95. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://mini-site.louvre.fr/trimestriel/2019/l%C3%A9onard_de_vinciGB/95/"
+        }
+      ],
+      "check_in": [
+        "Museum catalogue",
+        "Zöllner 2003"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "c.1504 to 1505",
+        "start": 1504,
+        "end": 1505
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Dated about 1504 to 1505 by the museum.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Museum of Fine Arts Budapest, collection online, artwork 11069. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://mfab.hu/artworks/11069"
+        }
+      ],
+      "check_in": [
+        "Zöllner 2003"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Budapest inv. 1775: the two heads sheet (black and red chalk, 191 x 188 mm) is cited with 1775, but a museum page with that number is labelled 'Landscape'. Confirm number."
+  ]
+}

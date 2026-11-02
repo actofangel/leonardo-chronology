@@ -1,0 +1,48 @@
+{
+  "id": "geo-mantua",
+  "type": "place",
+  "subtype": "city",
+  "label": "Mantua",
+  "variants": [
+    "Mantova",
+    "Mantua (Latin)"
+  ],
+  "modern_name": "Mantova",
+  "region": "Lombardy",
+  "country": "Italy",
+  "coords": {
+    "lat": 45.15639,
+    "lon": 10.79167
+  },
+  "within": "geo-lombardy",
+  "summary": "Seat of the Gonzaga court of Isabella d'Este (pe-isabella), where Leonardo stopped after leaving Milan in December 1499.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-lombardy"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 45.15639,
+        "lon": 10.79167
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Mantua, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Mantua"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

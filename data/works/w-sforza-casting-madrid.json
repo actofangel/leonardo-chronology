@@ -1,0 +1,157 @@
+{
+  "id": "w-sforza-casting-madrid",
+  "type": "work",
+  "subtype": "sculpture_project",
+  "label": "Casting mould for the head of the Sforza horse",
+  "classification": {
+    "form": "technical_drawing",
+    "technique": [
+      "red_chalk"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "horse",
+      "mechanics"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "manuscript": "ms-madrid-2",
+  "current_location": "geo-biblioteca-nacional-madrid",
+  "medium": "Red chalk on paper",
+  "dimensions": "210 x 300 mm",
+  "relations": [
+    {
+      "rel": "drawn_on",
+      "target": "ms-madrid-2",
+      "claim": "c1"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-nacional-madrid"
+    },
+    {
+      "rel": "preparatory_for",
+      "target": "w-horse"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "location",
+      "value": {
+        "text": "Madrid Codex II (BNE Ms. 8936), f. 157 verso"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "Finestre sull'Arte places the casting form of the horse's head on f. 157v of Madrid Ms. 8936.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, Horses and condottieri: caption 'Casting Form of Horse's Head (c.1493; red chalk on paper, 210 x 300 mm; Madrid, Biblioteca Nacional, Madrid Codex 8936, f. 157v)'. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://finestresullarte.info/en/works-and-artists/horses-and-condottieri-leonardo-da-vinci-and-the-story-of-the-equestrian-monument-to-francesco-sforza"
+        }
+      ],
+      "check_in": [
+        "Biblioteca Nacional de España, Ms. 8936 digitised",
+        "Reti edition of the Madrid codices"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "location",
+      "value": {
+        "text": "Madrid Codex II, f. 157 recto"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "A Google Arts and Culture gallery lists Codex Madrid II f. 157r with the horse material.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Google Arts and Culture, story on the Madrid codices. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://artsandculture.google.com/story/0AXhq8B37bafVg"
+        }
+      ],
+      "check_in": [
+        "Biblioteca Nacional de España, Ms. 8936 digitised"
+      ],
+      "alternative_to": [
+        "c1"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "context",
+      "value": {
+        "text": "Folios 141 to 157 on the casting armature"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "A museum text says folios 141 to 157 show the iron armature to hold the moulds of the head and neck.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Pera Museum blog, Il Cavallo di Leonardo. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.peramuseum.org/blog/il-cavallo-di-leonardo/1457"
+        }
+      ],
+      "check_in": [
+        "Reti edition"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "c.1491 to 1493",
+        "start": 1491,
+        "end": 1493
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Dated c.1491 to 1493 (GWU image record) or c.1493 (Finestre).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, Horses and condottieri: caption 'Casting Form of Horse's Head (c.1493; red chalk on paper, 210 x 300 mm; Madrid, Biblioteca Nacional, Madrid Codex 8936, f. 157v)'. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://finestresullarte.info/en/works-and-artists/horses-and-condottieri-leonardo-da-vinci-and-the-story-of-the-equestrian-monument-to-francesco-sforza"
+        },
+        {
+          "type": "other",
+          "cite": "George Washington University image record 'Casting Mould for the Head of the Sforza Horse'. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://mdid3.gwu.edu/data/record/1899/r-5154519"
+        }
+      ],
+      "check_in": [
+        "Reti edition",
+        "Kemp 2006"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "built",
+      "value": {
+        "text": "Not cast"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The bronze horse was never cast; the drawing is a design for the mould, not evidence of a casting.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, Horses and condottieri: caption 'Casting Form of Horse's Head (c.1493; red chalk on paper, 210 x 300 mm; Madrid, Biblioteca Nacional, Madrid Codex 8936, f. 157v)'. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://finestresullarte.info/en/works-and-artists/horses-and-condottieri-leonardo-da-vinci-and-the-story-of-the-equestrian-monument-to-francesco-sforza"
+        }
+      ],
+      "check_in": [
+        "Villata 1999"
+      ]
+    }
+  ]
+}

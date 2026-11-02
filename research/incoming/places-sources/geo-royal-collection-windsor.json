@@ -1,0 +1,70 @@
+{
+  "id": "geo-royal-collection-windsor",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Royal Library, Windsor Castle",
+  "variants": [
+    "Royal Collection",
+    "Royal Library",
+    "Windsor Castle"
+  ],
+  "modern_name": "Royal Library, Windsor Castle (Royal Collection Trust)",
+  "region": "Berkshire",
+  "country": "United Kingdom",
+  "coords": {
+    "lat": 51.483333,
+    "lon": -0.604167
+  },
+  "within": "geo-windsor",
+  "summary": "Royal Library in Windsor Castle, part of the Royal Collection, holding the largest group of Leonardo drawings, catalogued with RL numbers.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-windsor"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 51.483333,
+        "lon": -0.604167
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Windsor Castle, Lucerna place record linked to Wikipedia, as reported in search results (background only).",
+          "url": "https://lucerna.exeter.ac.uk/location/index.php?id=1509899"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "About 550 to 600 drawings including the anatomical manuscripts, the Imola map (w-imola), the Deluge drawings (w-deluge), skull studies (w-skull); count not checked",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact count of Leonardo sheets at Windsor; check the Royal Collection online catalogue."
+  ]
+}

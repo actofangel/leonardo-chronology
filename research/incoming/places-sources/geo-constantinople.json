@@ -1,0 +1,15 @@
+{
+  "id": "geo-constantinople",
+  "type": "place",
+  "subtype": "town",
+  "label": "Constantinople",
+  "variants": [
+    "Istanbul",
+    "Costantinopoli"
+  ],
+  "country": "Turkey",
+  "summary": "Context place named in the inventory history lane (h-constantinople); no Leonardo connection is claimed.",
+  "open_questions": [
+    "Coordinates not sourced; low priority context place."
+  ]
+}

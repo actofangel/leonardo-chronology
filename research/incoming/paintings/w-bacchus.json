@@ -1,0 +1,132 @@
+{
+  "id": "w-bacchus",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Bacchus (St John in the wilderness)",
+  "current_location": "geo-louvre",
+  "inventory": "INV 780; MR 325",
+  "medium": "oil",
+  "support": "canvas, transferred from wood",
+  "dimensions": "177 x 115 cm",
+  "variants": [
+    "Saint Jean Baptiste (transformé en Bacchus)"
+  ],
+  "summary": "Saint John the Baptist in a landscape, transformed into Bacchus in the seventeenth century, in the Louvre (INV 780), catalogued as Leonardo's workshop.",
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1517,
+    "end": 1520,
+    "date": "c.1517 to 1520",
+    "tier": "S",
+    "place": "France, now Louvre",
+    "text": "Workshop painting of Saint John in a landscape, later made into a Bacchus. Leonardo's share in the design is assumed, the execution is given to the workshop.",
+    "basis": "Museum dating; workshop attribution."
+  },
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre",
+      "claim": "c1"
+    },
+    {
+      "rel": "attributed_to",
+      "target": "pe-melzi",
+      "claim": "c3"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": "Paris, Musée du Louvre, INV 780 (MR 325)",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre lists Saint Jean Baptiste (transformed into Bacchus in the seventeenth century), INV 780 (MR 325), oil on canvas transferred from wood, H. 1.77 m, W. 1.15 m.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 780. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062371"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "c.1517 to 1520",
+        "start": 1517,
+        "end": 1520
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Louvre dates the painting about 1517 to 1520.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 780. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062371"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "attribution",
+      "value": "Workshop of Leonardo; Francesco Melzi (attributed)",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Louvre catalogues it as workshop of Leonardo, with an attribution to Francesco Melzi; a Leonardo design is commonly assumed.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 780. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062371"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": "Seen by Cassiano dal Pozzo at Fontainebleau in 1625 as Leonardo",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre records that Cassiano dal Pozzo mentioned it at Fontainebleau in 1625 as a work by Leonardo.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 780. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062371"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "content",
+      "value": "Transformed into Bacchus in the seventeenth century",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The saint was turned into a Bacchus by later additions in the seventeenth century.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 780. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062371"
+        }
+      ]
+    }
+  ]
+}

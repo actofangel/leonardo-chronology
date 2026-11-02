@@ -1,0 +1,101 @@
+{
+  "id": "w-st-anne-study-bm",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Studies for the Virgin and Child with St Anne and the infant Baptist",
+  "classification": {
+    "form": "sketch",
+    "technique": [
+      "pen_and_ink",
+      "wash",
+      "white_heightening"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-british-museum",
+  "inventory": "1875,0612.17",
+  "medium": "Pen and brown ink, grey wash, white heightening over black chalk; indented for transfer",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-british-museum",
+      "claim": "c1"
+    },
+    {
+      "rel": "preparatory_for",
+      "target": "w-burlington",
+      "claim": "c3"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "British Museum, 1875,0612.17"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "British Museum, museum number 1875,0612.17 (Popham and Pouncey 1950 cited on the record).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "British Museum, collection online, 1875,0612.17. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.britishmuseum.org/collection/object/P_1875-0612-17"
+        }
+      ],
+      "check_in": [
+        "Popham and Pouncey 1950"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "content",
+      "value": {
+        "text": "Virgin on St Anne's lap with Child reaching to St John; machinery; inscription"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Recto: the main framed study shows the Virgin seated on St Anne's lap and the Child reaching towards St John, with other sketches and studies of machinery (bridge, weir or dam) and an inscription read as beginning 'fa coche dove lacq...'. Verso: variant of the group and a man's head in profile.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "British Museum, collection online, 1875,0612.17. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.britishmuseum.org/collection/object/P_1875-0612-17"
+        }
+      ],
+      "check_in": [
+        "Popham and Pouncey 1950"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "relation",
+      "value": {
+        "text": "Study for the Burlington House Cartoon"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The link to w-burlington is an interpretation; the British Museum record as excerpted does not name the cartoon.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "British Museum, collection online, 1875,0612.17. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.britishmuseum.org/collection/object/P_1875-0612-17"
+        }
+      ],
+      "check_in": [
+        "Syson 2011",
+        "Popham and Pouncey 1950"
+      ]
+    }
+  ]
+}

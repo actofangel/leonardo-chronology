@@ -1,0 +1,237 @@
+{
+  "id": "w-trivulz",
+  "type": "manuscript",
+  "subtype": "notebook",
+  "label": "Codex Trivulzianus",
+  "variants": [
+    "Codice Trivulziano",
+    "Cod. Triv. 2162"
+  ],
+  "summary": "Small paper notebook of 55 surviving sheets with word lists and architectural sketches, Archivio Storico Civico e Biblioteca Trivulziana, Castello Sforzesco, Milan.",
+  "holding": "geo-castello-sforzesco",
+  "shelfmark": "Cod. Triv. 2162",
+  "folios": "55 sheets (originally 62)",
+  "dimensions": "200 x 140 mm (Biblioteca Trivulziana page record)",
+  "date_range": {
+    "start": 1487,
+    "end": 1490
+  },
+  "contents": [
+    "word lists (over 8000 terms)",
+    "architecture and military architecture",
+    "caricature heads"
+  ],
+  "history": [
+    "Melzi",
+    "Pompeo Leoni",
+    "Galeazzo Arconati, acquired 1632",
+    "Ambrosiana 1637, then withdrawn by Arconati in exchange",
+    "Don Carlo Trivulzio, c.1750",
+    "Biblioteca Trivulziana, Milan city collections 1935"
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-castello-sforzesco",
+      "claim": "c1"
+    },
+    {
+      "rel": "located_in",
+      "target": "geo-milan"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-galeazzo-arconati",
+      "claim": "c5"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-carlo-trivulzio",
+      "claim": "c6"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "shelfmark",
+      "value": {
+        "text": "Cod. Triv. 2162"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The manuscript is catalogued as Cod. Triv. 2162.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Codex Trivulzianus facsimile (Cod. Triv. 2162).",
+          "url": "https://facsimilefinder.com/facsimiles/codex-trivulzianus-facsimile"
+        },
+        {
+          "type": "other",
+          "cite": "Archivio Storico Civico e Biblioteca Trivulziana on Google Arts and Culture, Codex Trivulzianus 2162, p. 15 (physical dimensions 200 x 140 mm).",
+          "url": "https://artsandculture.google.com/asset/codex-trivulzianus-2162-p-15-leonardo-da-vinci/XgEaRgLq91Dt3g?hl=en"
+        }
+      ],
+      "check_in": [
+        "Biblioteca Trivulziana catalogue"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "folios",
+      "value": {
+        "text": "55 of an original 62 sheets"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "55 sheets survive of an original 62.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Trivulzianus (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Trivulzianus"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Codex Trivulzianus (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/codex-trivulzianus/"
+        }
+      ],
+      "check_in": [
+        "Trivulziana description; Marinoni edition (1980)"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "dimensions",
+      "value": {
+        "text": "200 x 140 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A Trivulziana page record gives 200 x 140 mm.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Archivio Storico Civico e Biblioteca Trivulziana on Google Arts and Culture, Codex Trivulzianus 2162, p. 15 (physical dimensions 200 x 140 mm).",
+          "url": "https://artsandculture.google.com/asset/codex-trivulzianus-2162-p-15-leonardo-da-vinci/XgEaRgLq91Dt3g?hl=en"
+        }
+      ],
+      "check_in": [
+        "Trivulziana catalogue description"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "c.1487 to 1490",
+        "start": 1487,
+        "end": 1490
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Dated c.1487 to 1490.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Codex Trivulzianus (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/codex-trivulzianus/"
+        },
+        {
+          "type": "other",
+          "cite": "Archivio Storico Civico e Biblioteca Trivulziana on Google Arts and Culture, The notebook of Leonardo da Vinci.",
+          "url": "https://artsandculture.google.com/story/the-notebook-of-leonardo-da-vinci-archivio-storico-civico-e-biblioteca-trivulziana/WAWBnxbz1aB7Lg?hl=en"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Trivulzianus (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Trivulzianus"
+        }
+      ],
+      "check_in": [
+        "Marinoni edition (1980), introduction",
+        "Pedretti 1977 Commentary"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": {
+        "text": "Arconati: acquired 1632, given 1637, withdrawn in exchange"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Galeazzo Arconati acquired the codex in 1632, included it in the 1637 donation to the Ambrosiana, and took it back in exchange for another Leonardo manuscript.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Trivulzianus (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Trivulzianus"
+        },
+        {
+          "type": "other",
+          "cite": "Archivio Storico Civico e Biblioteca Trivulziana on Google Arts and Culture, The notebook of Leonardo da Vinci.",
+          "url": "https://artsandculture.google.com/story/the-notebook-of-leonardo-da-vinci-archivio-storico-civico-e-biblioteca-trivulziana/WAWBnxbz1aB7Lg?hl=en"
+        }
+      ],
+      "check_in": [
+        "Marcuccio 2022, Achademia Leonardi Vinci, text of the 1637 deed"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "provenance",
+      "value": {
+        "text": "Bought by Don Carlo Trivulzio around 1750"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Don Carlo Trivulzio (1715 to 1789) bought the manuscript around 1750; the Trivulzio collection entered the Milan civic collections in 1935.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Archivio Storico Civico e Biblioteca Trivulziana on Google Arts and Culture, The notebook of Leonardo da Vinci.",
+          "url": "https://artsandculture.google.com/story/the-notebook-of-leonardo-da-vinci-archivio-storico-civico-e-biblioteca-trivulziana/WAWBnxbz1aB7Lg?hl=en"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Trivulzianus (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Trivulzianus"
+        }
+      ],
+      "check_in": [
+        "Trivulziana archive"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "digital_facsimile",
+      "value": {
+        "text": "Trivulziana on Google Arts and Culture"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Pages of the codex are published by the Archivio Storico Civico e Biblioteca Trivulziana on Google Arts and Culture.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Archivio Storico Civico e Biblioteca Trivulziana on Google Arts and Culture, Codex Trivulzianus 2162, p. 15 (physical dimensions 200 x 140 mm).",
+          "url": "https://artsandculture.google.com/asset/codex-trivulzianus-2162-p-15-leonardo-da-vinci/XgEaRgLq91Dt3g?hl=en"
+        },
+        {
+          "type": "other",
+          "cite": "Archivio Storico Civico e Biblioteca Trivulziana on Google Arts and Culture, The notebook of Leonardo da Vinci.",
+          "url": "https://artsandculture.google.com/story/the-notebook-of-leonardo-da-vinci-archivio-storico-civico-e-biblioteca-trivulziana/WAWBnxbz1aB7Lg?hl=en"
+        }
+      ],
+      "check_in": [
+        "Completeness of the online set"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Which manuscript Arconati gave the Ambrosiana in exchange for the Trivulzianus."
+  ]
+}

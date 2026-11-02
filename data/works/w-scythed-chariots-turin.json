@@ -1,0 +1,116 @@
+{
+  "id": "w-scythed-chariots-turin",
+  "type": "work",
+  "subtype": "military",
+  "label": "Studies of scythed chariots",
+  "classification": {
+    "form": "sheet_of_studies",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "military",
+      "horse"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-biblioteca-reale-turin",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-reale-turin"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Biblioteca Reale, D.C. 15583"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The sheet is Biblioteca Reale, D.C. 15583.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musei Reali Torino, list of works, exhibition 'Leonardo da Vinci. Disegnare il futuro' (PDF). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://museireali.beniculturali.it/wp-content/uploads/2022/09/4_Elenco-opere-per-sezioni_Leonardo-da-Vinci.-Disegnare-il-futuro.pdf"
+        }
+      ],
+      "check_in": [
+        "Biblioteca Reale catalogue",
+        "Zöllner 2003"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "content",
+      "value": {
+        "text": "assault chariots fitted with scythes (Studi di carri d'assalto muniti di falci); pen and ink, 210 x 292 mm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The sheet shows: assault chariots fitted with scythes (Studi di carri d'assalto muniti di falci); pen and ink, 210 x 292 mm. This is a fact about the drawing on paper only.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musei Reali Torino, list of works, exhibition 'Leonardo da Vinci. Disegnare il futuro' (PDF). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://museireali.beniculturali.it/wp-content/uploads/2022/09/4_Elenco-opere-per-sezioni_Leonardo-da-Vinci.-Disegnare-il-futuro.pdf"
+        }
+      ],
+      "check_in": [
+        "Biblioteca Reale catalogue",
+        "Zöllner 2003"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1485",
+        "start": 1484,
+        "end": 1486
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Dated c.1485 by the holding institution or source cited; sheet datings in Leonardo's codices are palaeographic and stylistic estimates.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musei Reali Torino, list of works, exhibition 'Leonardo da Vinci. Disegnare il futuro' (PDF). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://museireali.beniculturali.it/wp-content/uploads/2022/09/4_Elenco-opere-per-sezioni_Leonardo-da-Vinci.-Disegnare-il-futuro.pdf"
+        }
+      ],
+      "check_in": [
+        "Biblioteca Reale catalogue",
+        "Zöllner 2003"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "built",
+      "value": {
+        "text": "No evidence of construction"
+      },
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "Nothing found in this session shows that the device was built or tested by Leonardo; any such claim needs separate evidence.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musei Reali Torino, list of works, exhibition 'Leonardo da Vinci. Disegnare il futuro' (PDF). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://museireali.beniculturali.it/wp-content/uploads/2022/09/4_Elenco-opere-per-sezioni_Leonardo-da-Vinci.-Disegnare-il-futuro.pdf"
+        }
+      ],
+      "check_in": [
+        "Biblioteca Reale catalogue",
+        "Zöllner 2003"
+      ]
+    }
+  ],
+  "inventory": "D.C. 15583"
+}

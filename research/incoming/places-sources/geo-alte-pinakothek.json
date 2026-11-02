@@ -1,0 +1,65 @@
+{
+  "id": "geo-alte-pinakothek",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Alte Pinakothek",
+  "variants": [
+    "Bayerische Staatsgemäldesammlungen, Alte Pinakothek"
+  ],
+  "modern_name": "Alte Pinakothek",
+  "region": "Bavaria",
+  "country": "Germany",
+  "coords": {
+    "lat": 48.14833,
+    "lon": 11.57
+  },
+  "within": "geo-munich",
+  "summary": "Picture gallery of the Bavarian State Painting Collections, Munich.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-munich"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 48.14833,
+        "lon": 11.57
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Alte Pinakothek, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Alte_Pinakothek"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "Madonna of the Carnation (w-carnation)",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ]
+}

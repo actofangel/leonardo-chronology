@@ -1,0 +1,14 @@
+{
+  "id": "geo-granada",
+  "type": "place",
+  "subtype": "town",
+  "label": "Granada",
+  "variants": [
+    "Granata"
+  ],
+  "country": "Spain",
+  "summary": "Context place named in the inventory history lane (h-granada); no Leonardo connection is claimed.",
+  "open_questions": [
+    "Coordinates not sourced; low priority context place."
+  ]
+}

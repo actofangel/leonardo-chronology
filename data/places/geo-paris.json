@@ -1,0 +1,41 @@
+{
+  "id": "geo-paris",
+  "type": "place",
+  "subtype": "city",
+  "label": "Paris",
+  "variants": [
+    "Parigi",
+    "Lutetia (Latin)"
+  ],
+  "modern_name": "Paris",
+  "region": "Île de France",
+  "country": "France",
+  "coords": {
+    "lat": 48.8566,
+    "lon": 2.3522
+  },
+  "summary": "Capital of France; seat of the Louvre and the Institut de France, present holders of Leonardo paintings and manuscripts.",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 48.8566,
+        "lon": 2.3522
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Paris, coordinate guide found by search (background only).",
+          "url": "https://www.brainbound.blog/paris-coordinates-guide"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

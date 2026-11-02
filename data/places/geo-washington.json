@@ -1,0 +1,36 @@
+{
+  "id": "geo-washington",
+  "type": "place",
+  "subtype": "city",
+  "label": "Washington, D.C.",
+  "modern_name": "Washington",
+  "country": "United States",
+  "coords": {
+    "lat": 38.89511,
+    "lon": -77.03637
+  },
+  "summary": "Capital of the United States; seat of the National Gallery of Art.",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 38.89511,
+        "lon": -77.03637
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Washington, GeoNames entry found by search (background only).",
+          "url": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/3449471/htmlPopup?f=html"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

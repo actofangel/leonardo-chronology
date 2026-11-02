@@ -3,6 +3,14 @@
   "type": "work",
   "subtype": "drawing",
   "label": "Polyhedra for Pacioli",
+  "classification": {
+    "form": "illustration",
+    "condition": "extant",
+    "subject": [
+      "geometry"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check form, technique, support and condition against the holding institution's record or a catalogue raisonné (Marani 2000, Zöllner 2003; for manuscripts, the Edizione Nazionale or Pedretti)."
+  },
   "claims": [
     {
       "id": "c1",
@@ -24,6 +32,10 @@
       ],
       "check_in": []
     }
+  ],
+  "open_questions": [
+    "No page read in this session gave holdings or shelfmarks of the 1498 manuscript copies (Geneva, Biblioteca di Ginevra; Milan, Ambrosiana): to locate.",
+    "Is Leonardo's authorship of the polyhedra stated by Pacioli in the 1509 print? Quote and locate the passage."
   ],
   "timeline": {
     "lane": "works",

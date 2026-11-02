@@ -1,0 +1,140 @@
+{
+  "id": "w-dreyfus",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Madonna of the Pomegranate (Dreyfus Madonna)",
+  "current_location": "geo-national-gallery-washington",
+  "inventory": "1952.5.65",
+  "support": "panel",
+  "dimensions": "16.5 x 13.4 cm",
+  "variants": [
+    "Madonna and Child with a Pomegranate",
+    "Dreyfus Madonna"
+  ],
+  "summary": "Small Madonna and Child with a Pomegranate in the National Gallery of Art, Washington (1952.5.65), catalogued there as Lorenzo di Credi.",
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1475,
+    "end": 1480,
+    "date": "c.1475 to 1480",
+    "tier": "S",
+    "place": "Florence, now Washington",
+    "text": "Small Madonna catalogued by its museum as Lorenzo di Credi. An attribution to the young Leonardo has been proposed.",
+    "basis": "Museum dating; attribution disputed."
+  },
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-national-gallery-washington",
+      "claim": "c1"
+    },
+    {
+      "rel": "attributed_to",
+      "target": "pe-lorenzo-di-credi",
+      "claim": "c3"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": "Washington, National Gallery of Art, 1952.5.65",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The National Gallery of Art lists Madonna and Child with a Pomegranate, Lorenzo di Credi, 1475/1480, 16.5 x 13.4 cm, accession 1952.5.65, Samuel H. Kress Collection.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery of Art, object page 41680. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nga.gov/artworks/41680-madonna-and-child-pomegranate"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "1475/1480",
+        "start": 1475,
+        "end": 1480
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Dated 1475/1480 by the NGA (stylistic).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery of Art, object page 41680. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nga.gov/artworks/41680-madonna-and-child-pomegranate"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "attribution",
+      "value": "Lorenzo di Credi",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The NGA attributes the panel to Lorenzo di Credi.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery of Art, object page 41680. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nga.gov/artworks/41680-madonna-and-child-pomegranate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "attribution",
+      "value": "Leonardo (early)",
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "Some literature attributes the panel to the young Leonardo (an Italian site calls it his first surviving panel). Holders not identified in this session.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "arte.it, Madonna Dreyfus.",
+          "url": "https://www.arte.it/leonardo/loc/madonna-dreyfus-2571"
+        },
+        {
+          "type": "web",
+          "cite": "LOTERRE thesaurus, Madonna Dreyfus (notes attribution disputed).",
+          "url": "https://loterre.istex.fr/HTR/en/page/-T4PDT6D4-1"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": "Gustave Dreyfus, Paris; Duveen 1930; Kress; NGA 1952",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The NGA provenance: purchased in England by Gustave Dreyfus (1837 to 1914), Paris; his heirs; bought 1930 with the Dreyfus collection by Duveen Brothers; Samuel H. Kress Foundation; gift to the NGA 1952.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery of Art, object page 41680. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nga.gov/artworks/41680-madonna-and-child-pomegranate"
+        }
+      ]
+    }
+  ]
+}

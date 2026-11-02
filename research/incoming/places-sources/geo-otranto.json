@@ -1,0 +1,21 @@
+{
+  "id": "geo-otranto",
+  "type": "place",
+  "subtype": "town",
+  "label": "Otranto",
+  "variants": [
+    "Hydruntum (Latin)"
+  ],
+  "country": "Italy",
+  "within": "geo-apulia",
+  "summary": "Context place named in the inventory history lane (h-otranto); no Leonardo connection is claimed.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-apulia"
+    }
+  ],
+  "open_questions": [
+    "Coordinates not sourced; low priority context place."
+  ]
+}

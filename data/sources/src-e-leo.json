@@ -1,0 +1,51 @@
+{
+  "id": "src-e-leo",
+  "type": "source",
+  "label": "e Leo, Archivio digitale di storia della tecnica e della scienza (Biblioteca Leonardiana, Vinci)",
+  "source_type": "other",
+  "citation": "Biblioteca Leonardiana, Vinci. e Leo: Archivio digitale di storia della tecnica e della scienza (name written with a hyphen after the initial e). Digital archive of facsimiles and transcriptions of Leonardo's manuscripts. Accessed 2026.",
+  "short": "e Leo",
+  "language": "it",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Biblioteca Leonardiana, Vinci. e Leo: Archivio digitale di storia della tecnica e della scienza (name written with a hyphen after the initial e). Digital archive of facsimiles and transcriptions of Leonardo's manuscripts. Accessed 2026.",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. Search budget for this session ran out before this record could be checked against a catalogue; every element of the citation is from model recall.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "e Leo digital archive of the Biblioteca Leonardiana (not checked; url not verified)."
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": false,
+        "source_type": "other"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Not admitted as ground in itself (digital resource, type 'other'), but it gives access to images of the primary manuscripts; a folio viewed there may be cited as 'primary' with manuscript, folio and url.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Record the current url of e Leo (formerly at leonardodigitale.com, to verify)."
+  ]
+}

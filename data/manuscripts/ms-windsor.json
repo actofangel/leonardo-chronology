@@ -1,0 +1,346 @@
+{
+  "id": "ms-windsor",
+  "type": "manuscript",
+  "subtype": "collection",
+  "label": "Windsor Leonardo collection",
+  "classification": {
+    "ms_form": "sheet_collection",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "anatomy",
+      "horse",
+      "cartography",
+      "botany",
+      "deluge",
+      "head",
+      "figure"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check against the holding's record or the Edizione Nazionale."
+  },
+  "variants": [
+    "Codex Windsor",
+    "Windsor drawings",
+    "Royal Collection Leonardo drawings"
+  ],
+  "summary": "Collection of some 550 to 600 Leonardo drawings and anatomical sheets in the Royal Library, Windsor Castle, once mounted in an album by Pompeo Leoni.",
+  "holding": "geo-royal-collection-windsor",
+  "shelfmark": "RCIN 9 series, to locate",
+  "folios": "about 550 to 600 sheets",
+  "date_range": {
+    "start": 1478,
+    "end": 1518
+  },
+  "contents": [
+    "anatomy (Anatomical Manuscripts A, B, C)",
+    "studies for paintings",
+    "horses",
+    "maps",
+    "botany",
+    "deluge drawings"
+  ],
+  "history": [
+    "Francesco Melzi",
+    "Pompeo Leoni, album (binding survives)",
+    "inventory after Leoni's death, Madrid 1608",
+    "Thomas Howard, Earl of Arundel, England by 1630",
+    "Royal Collection by 1680 (Charles II; Charles I also claimed)",
+    "sheets removed from the album during the last two centuries"
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    },
+    {
+      "rel": "located_in",
+      "target": "geo-windsor"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-pompeo-leoni",
+      "claim": "c3"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-thomas-howard-arundel",
+      "claim": "c5"
+    },
+    {
+      "rel": "related_to",
+      "target": "w-atlanticus",
+      "claim": "c10"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "folios",
+      "value": {
+        "text": "about 550 drawings"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The Royal Collection holds around 550 drawings by Leonardo.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, Leonardo in the Royal Collection (collection story).",
+          "url": "https://www.rct.uk/collection/stories/leonardo-in-the-royal-collection"
+        },
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, Leonardo da Vinci: A Life in Drawing (exhibition, 2019).",
+          "url": "https://www.rct.uk/collection/exhibitions/leonardo-da-vinci-a-life-in-drawing"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968, introduction (history of the Windsor collection)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "folios",
+      "value": {
+        "text": "nearly 600 drawings"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Other accounts count nearly 600 drawings.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Windsor (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Windsor"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968, introduction (history of the Windsor collection)"
+      ],
+      "alternative_to": [
+        "c1"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "provenance",
+      "value": {
+        "text": "Pompeo Leoni's album"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Pompeo Leoni pasted the drawings, loosely by subject, into at least two large albums; the binding of the Windsor album survives, the sheets having been removed.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, Leonardo in the Royal Collection (collection story).",
+          "url": "https://www.rct.uk/collection/stories/leonardo-in-the-royal-collection"
+        },
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, The Leoni binding (collection record).",
+          "url": "https://col.rct.uk/collection/933320/the-leoni-binding"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968, introduction (history of the Windsor collection)",
+        "Clayton and Philo 2012, introduction"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": {
+        "text": "Inventory of Leoni's estate, Madrid, 1608"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The album was listed in an inventory of Leoni's residence after his death in Madrid in 1608.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, Leonardo in the Royal Collection (collection story).",
+          "url": "https://www.rct.uk/collection/stories/leonardo-in-the-royal-collection"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968, introduction (history of the Windsor collection)"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": {
+        "text": "Earl of Arundel, England by 1630"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "By 1630 the album was in England in the collection of Thomas Howard, 14th Earl of Arundel.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, Leonardo in the Royal Collection (collection story).",
+          "url": "https://www.rct.uk/collection/stories/leonardo-in-the-royal-collection"
+        },
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, Leonardo da Vinci: A Life in Drawing (exhibition, 2019).",
+          "url": "https://www.rct.uk/collection/exhibitions/leonardo-da-vinci-a-life-in-drawing"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968, introduction (history of the Windsor collection)"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "provenance",
+      "value": {
+        "text": "Royal Collection by 1680"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "The album is recorded in the Royal Collection by 1680, perhaps given to Charles II by Arundel's grandson; some accounts also connect it with Charles I.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, Leonardo in the Royal Collection (collection story).",
+          "url": "https://www.rct.uk/collection/stories/leonardo-in-the-royal-collection"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Windsor (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Windsor"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968, introduction (history of the Windsor collection)"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "content",
+      "value": {
+        "text": "Anatomical Manuscripts A, B, C"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Scholars group the anatomical sheets as Anatomical Manuscripts A, B and C; C is further divided into Quaderni di anatomia I to VI. The Keele and Pedretti Corpus volume covering these is catalogued as Drawings 19000 to 19152.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Heidelberg University Library record, Drawings 19000 to 19152 (Anatomical Manuscripts A, B, C), volume of the Keele and Pedretti Corpus.",
+          "url": "https://biblio.ub.uni-heidelberg.de/rubens/Record/KXP-PPN227918460?lng=en"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Windsor (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Windsor"
+        }
+      ],
+      "check_in": [
+        "Keele and Pedretti, Corpus of the Anatomical Studies in the Collection of Her Majesty the Queen at Windsor Castle, 1978 to 1980",
+        "Clayton and Philo 2012, introduction"
+      ]
+    },
+    {
+      "id": "c8",
+      "about": "content",
+      "value": {
+        "text": "Note dated 2 April 1489 on the book of the human figure",
+        "start": 1489.25,
+        "end": 1489.25
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "An anatomical sheet carries a note dated 2 April 1489 about a book on the human figure. Folio, RCIN and Italian text to be taken from the Corpus.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Anatomical Manuscripts (popular site; gives c.1489 to 1513 and about 228 sheets).",
+          "url": "https://discoveringdavinci.com/notebooks/anatomy-manuscripts/"
+        }
+      ],
+      "check_in": [
+        "Keele and Pedretti, Corpus of the Anatomical Studies in the Collection of Her Majesty the Queen at Windsor Castle, 1978 to 1980",
+        "Clayton and Philo 2012, introduction",
+        "RCIN of the sheet: to locate"
+      ]
+    },
+    {
+      "id": "c9",
+      "about": "date",
+      "value": {
+        "text": "Anatomical studies c.1489 to 1513",
+        "start": 1489,
+        "end": 1513
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The anatomical sheets range from c.1489 to c.1513.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Anatomical Manuscripts (popular site; gives c.1489 to 1513 and about 228 sheets).",
+          "url": "https://discoveringdavinci.com/notebooks/anatomy-manuscripts/"
+        }
+      ],
+      "check_in": [
+        "Keele and Pedretti, Corpus of the Anatomical Studies in the Collection of Her Majesty the Queen at Windsor Castle, 1978 to 1980",
+        "Clayton and Philo 2012, introduction"
+      ]
+    },
+    {
+      "id": "c10",
+      "about": "content",
+      "value": {
+        "text": "Sheets cut from the Codex Atlanticus"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "About 550 Windsor sheets come from the same Leoni dismemberment as the Codex Atlanticus and are digitally reunited with it in Leonardo//thek@ 2.0 (2026).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Artribune, Per la prima volta in 400 anni il Codice Atlantico di Leonardo da Vinci e completo, June 2026.",
+          "url": "https://www.artribune.com/editoria/2026/06/codice-atlantico-leonardo-riunito/"
+        },
+        {
+          "type": "web",
+          "cite": "ANSA, Leonardo's manuscripts reunited after four centuries, online platform presented in London, 8 June 2026.",
+          "url": "https://www.ansa.it/amp/english/news/news_from_embassies/2026/06/08/leonardos-manuscripts-reunited-after-four-centuries-online-platform-presented-in-london_18a55502-4c4b-45e8-a1b3-3aabe0eac757.html"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968, introduction (history of the Windsor collection)",
+        "Pedretti 1978 to 1979, The Codex Atlanticus: A Catalogue of Its Newly Restored Sheets"
+      ]
+    },
+    {
+      "id": "c11",
+      "about": "digital_facsimile",
+      "value": {
+        "text": "Royal Collection Trust online collection"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The drawings are published by Royal Collection Trust on rct.uk with individual RCIN records.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, Leonardo in the Royal Collection (collection story).",
+          "url": "https://www.rct.uk/collection/stories/leonardo-in-the-royal-collection"
+        }
+      ],
+      "check_in": [
+        "RCT collection search"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact number of Leonardo sheets at Windsor (550 or 600) and the RCIN range of Anatomical Manuscripts A, B, C.",
+    "Whether Anatomical Manuscripts A, B, C should be separate ms- records; dating of MS A (c.1510 to 1511 is often cited) not confirmed in this session."
+  ]
+}

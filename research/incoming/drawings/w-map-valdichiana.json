@@ -1,0 +1,163 @@
+{
+  "id": "w-map-valdichiana",
+  "type": "work",
+  "subtype": "map",
+  "label": "Map of the Valdichiana",
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912278",
+  "medium": "Black chalk, pen and ink, wash and blue bodycolour",
+  "dimensions": "33.8 x 48.8 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    },
+    {
+      "rel": "related_to",
+      "target": "w-arno-canal-map"
+    },
+    {
+      "rel": "related_to",
+      "target": "e-arno"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912278"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912278 (Windsor RL 12278 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912278, A map of the Valdichiana, c.1503 to 1506. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912278"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "medium",
+      "value": {
+        "text": "Black chalk, pen and ink, wash and blue bodycolour; 33.8 x 48.8 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Medium and sheet size as on the RCT record.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912278, A map of the Valdichiana, c.1503 to 1506. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912278"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1503 to 1506",
+        "start": 1503,
+        "end": 1506
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The RCT collection record dates the sheet c.1503 to 1506; some RCT exhibition pages give c.1503 to 1504.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912278, A map of the Valdichiana, c.1503 to 1506. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912278"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "purpose",
+      "value": {
+        "text": "Florentine scheme to drain the marsh / canalise the Arno"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "RCT thinks the map was probably connected with a Florentine plan concerning the marshy lake of the Valdichiana, part of the scheme to canalise the Arno.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912278, A map of the Valdichiana, c.1503 to 1506. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912278"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968",
+        "Kemp 2006"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "purpose",
+      "value": {
+        "text": "Service of Cesare Borgia, after the Arezzo revolt of June 1502"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "Solmi (1912), as reported by RCT, linked the map to Borgia's service and the revolt of Arezzo in June 1502.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912278, A map of the Valdichiana, c.1503 to 1506. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912278"
+        }
+      ],
+      "check_in": [
+        "Solmi 1912",
+        "Clark and Pedretti 1968"
+      ],
+      "alternative_to": [
+        "c4"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "inscription",
+      "value": {
+        "text": "Place names written left to right"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "RCT notes that all towns and rivers are labelled in the conventional direction, not in mirror script.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912278, A map of the Valdichiana, c.1503 to 1506. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912278"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Which purpose, Florentine drainage or Borgia service, does the documentary record support?"
+  ]
+}

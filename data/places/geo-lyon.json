@@ -1,0 +1,42 @@
+{
+  "id": "geo-lyon",
+  "type": "place",
+  "subtype": "city",
+  "label": "Lyon",
+  "variants": [
+    "Lione",
+    "Lugdunum (Latin)",
+    "Lyons"
+  ],
+  "modern_name": "Lyon",
+  "region": "Auvergne Rhône Alpes",
+  "country": "France",
+  "coords": {
+    "lat": 45.7675,
+    "lon": 4.835
+  },
+  "summary": "French city named in the inventory as the site of the 1515 mechanical lion festivity (e-lion).",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 45.7675,
+        "lon": 4.835
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Lyon, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Lyon"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

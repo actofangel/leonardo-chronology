@@ -1,0 +1,21 @@
+{
+  "id": "geo-marignano",
+  "type": "place",
+  "subtype": "town",
+  "label": "Marignano",
+  "variants": [
+    "Melegnano"
+  ],
+  "country": "Italy",
+  "within": "geo-lombardy",
+  "summary": "Context place named in the inventory history lane (h-marignano); no Leonardo connection is claimed.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-lombardy"
+    }
+  ],
+  "open_questions": [
+    "Coordinates not sourced; low priority context place."
+  ]
+}

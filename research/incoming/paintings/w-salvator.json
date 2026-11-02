@@ -1,0 +1,120 @@
+{
+  "id": "w-salvator",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Salvator Mundi",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "provenance",
+      "value": "Sold at Christie's New York, 15 November 2017, for USD 450.3 million",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The painting was sold at Christie's New York on 15 November 2017 for 450.3 million dollars, the highest auction price recorded for a work of art.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "CNBC, 15 November 2017.",
+          "url": "https://www.cnbc.com/2017/11/15/leonardo-da-vinci-painting-salvator-mundi-auctioned-off-at-christies.html"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Salvator Mundi (Leonardo), background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Salvator_Mundi_(Leonardo)"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "current_location",
+      "value": "Whereabouts not publicly confirmed (reported in Saudi Arabia)",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "Its current location has not been publicly confirmed; press reports place it in Saudi Arabia. Only press reports are available.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Salvator Mundi (Leonardo), background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Salvator_Mundi_(Leonardo)"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "attribution",
+      "value": "Autograph Leonardo",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Presented as Leonardo in the National Gallery, London exhibition of 2011 to 2012 and by the 2017 sale; supported by a number of specialists.",
+      "sources": [
+        {
+          "ref": "src-syson-2011",
+          "loc": "cat. no. to locate"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Salvator Mundi (Leonardo), background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Salvator_Mundi_(Leonardo)"
+        }
+      ],
+      "check_in": [
+        "Syson 2011, catalogue entry",
+        "Zöllner 2003, catalogue entry (later editions discuss it)"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "attribution",
+      "value": "Workshop or largely workshop; attribution disputed",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "Disputed by some leading specialists; others hold that the extent of restoration prevents a firm attribution. Named holders were not verified in this session.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Salvator Mundi (Leonardo), background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Salvator_Mundi_(Leonardo)"
+        },
+        {
+          "type": "web",
+          "cite": "Encyclopaedia Britannica, Salvator Mundi.",
+          "url": "https://www.britannica.com/print/article/2172782"
+        }
+      ],
+      "check_in": [
+        "Zöllner 2003, catalogue entry, later editions"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": "Gap in the record",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Reference works report a gap in the provenance record (Britannica: 1763 to 1900); the identification with a Salvator Mundi in the collection of Charles I is a reconstruction, not checked here.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Encyclopaedia Britannica, Salvator Mundi.",
+          "url": "https://www.britannica.com/print/article/2172782"
+        }
+      ],
+      "check_in": [
+        "Syson 2011, provenance",
+        "Royal inventories of Charles I"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Every claim here rests on non admitted sources. Read Syson 2011 and the critical literature before any status change.",
+    "The draft gives c.1499 to 1510 without a holder. Who dates it so?"
+  ]
+}

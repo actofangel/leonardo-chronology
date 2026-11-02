@@ -1,0 +1,40 @@
+{
+  "id": "geo-munich",
+  "type": "place",
+  "subtype": "city",
+  "label": "Munich",
+  "variants": [
+    "München"
+  ],
+  "modern_name": "München",
+  "region": "Bavaria",
+  "country": "Germany",
+  "coords": {
+    "lat": 48.1351,
+    "lon": 11.582
+  },
+  "summary": "Capital of Bavaria; seat of the Alte Pinakothek.",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 48.1351,
+        "lon": 11.582
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Munich, coordinate table found by search (background only).",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7883725/table/tbl1"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

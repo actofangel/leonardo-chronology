@@ -1,0 +1,54 @@
+{
+  "id": "e-arundel-begun",
+  "type": "event",
+  "subtype": "manuscript",
+  "label": "Arundel collection begun",
+  "summary": "A dated note says the collection was begun in Florence in the house of Piero di Braccio Martelli.",
+  "relations": [
+    {
+      "rel": "recorded_in",
+      "target": "ms-arundel",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "date",
+      "value": {
+        "text": "22 March 1508",
+        "start": 1508.22,
+        "end": 1508.22
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A note in the Codex Arundel states that the collection was begun in Florence in the house of Piero di Braccio Martelli on 22 March 1508.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Codex Arundel (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/codex-arundel/"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Arundel (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Arundel"
+        }
+      ],
+      "check_in": [
+        "Pedretti (ed.), Il Codice Arundel 263, 1998",
+        "Richter 1883 and Pedretti 1977 Commentary"
+      ]
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Manuscript",
+    "start": 1508.22,
+    "date": "22 March 1508",
+    "tier": "D",
+    "place": "Florence",
+    "text": "A dated note says the collection was begun in Florence in the house of Piero di Braccio Martelli.",
+    "basis": "Autograph dated note, Codex Arundel (folio to locate)."
+  }
+}

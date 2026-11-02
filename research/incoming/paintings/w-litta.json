@@ -1,0 +1,171 @@
+{
+  "id": "w-litta",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Madonna Litta",
+  "current_location": "geo-hermitage",
+  "inventory": "GE-249",
+  "medium": "tempera",
+  "support": "canvas, transferred from panel",
+  "dimensions": "42 x 33 cm",
+  "summary": "Madonna and Child in the State Hermitage Museum (GE-249), bought from Count Antonio Litta in Milan in 1865.",
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1490,
+    "end": 1496,
+    "date": "c.1490 to mid 1490s",
+    "tier": "S",
+    "place": "Milan, now St Petersburg",
+    "text": "Madonna nursing the Child. Its execution is attributed by some to Leonardo and by others to a pupil on his design.",
+    "basis": "Museum dating; attribution debated."
+  },
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-hermitage",
+      "claim": "c1"
+    },
+    {
+      "rel": "collaborator",
+      "target": "pe-boltraffio",
+      "claim": "c6"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": "St Petersburg, State Hermitage Museum, GE-249",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Hermitage lists The Madonna and Child (The Litta Madonna), Leonardo, GE-249, tempera on canvas transferred from panel, 42 x 33 cm.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "State Hermitage Museum, digital collection 29633. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.hermitagemuseum.org/digital-collection/29633?lng=en"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "1490 to 1491",
+        "start": 1490,
+        "end": 1491
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "One Hermitage page dates the painting 1490 to 1491.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "State Hermitage Museum, digital collection 29633. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.hermitagemuseum.org/digital-collection/29633?lng=en"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "mid 1490s",
+        "start": 1494,
+        "end": 1496
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Another Hermitage page gives the mid 1490s.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "State Hermitage Museum, page on the Litta Madonna. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.hermitagemuseum.org/explore/history/Madonna+Litta?lng=en"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ],
+      "alternative_to": [
+        "c2"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": "Bought 12 January 1865 from Count Antonio Litta, Milan",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Hermitage history page records purchase on 12 January 1865; Stepan Gedeonov, director of the Imperial Hermitage, chose four paintings in Milan from the Litta collection for 100,000 francs.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "State Hermitage Museum, history: The acquisition of the Litta Madonna. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.hermitagemuseum.org/explore/history/Madonna+Litta?lng=en"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "attribution",
+      "value": "Leonardo",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Catalogued by the Hermitage as Leonardo.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "State Hermitage Museum, digital collection 29633. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.hermitagemuseum.org/digital-collection/29633?lng=en"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "attribution",
+      "value": "Leonardo design, execution by a pupil (Boltraffio or Marco d'Oggiono proposed)",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "Many scholars attribute the execution to a pupil working on Leonardo's design (Boltraffio is the name most often proposed; the 2011 National Gallery exhibition discussed this). Holders not verified in this session.",
+      "sources": [
+        {
+          "ref": "src-syson-2011",
+          "loc": "cat. no. to locate"
+        },
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry",
+        "Syson 2011"
+      ],
+      "alternative_to": [
+        "c5"
+      ]
+    }
+  ]
+}

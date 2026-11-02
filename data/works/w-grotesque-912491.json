@@ -1,0 +1,122 @@
+{
+  "id": "w-grotesque-912491",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Five grotesque heads and three heads of men in profile",
+  "classification": {
+    "form": "sheet_of_studies",
+    "technique": [
+      "pen_and_ink",
+      "red_chalk"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "head"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912491",
+  "medium": "Pen and ink over red chalk",
+  "dimensions": "21.8 x 15.3 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912491"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912491 (Windsor RL 12491 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912491, Five grotesque heads, and three heads of men in profile, c.1510 to 1520. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912491"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "medium",
+      "value": {
+        "text": "Pen and ink over red chalk; 21.8 x 15.3 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Medium and sheet size as on the RCT record.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912491, Five grotesque heads, and three heads of men in profile, c.1510 to 1520. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912491"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1510 to 1520",
+        "start": 1510,
+        "end": 1520
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the sheet c.1510 to 1520. Dating by style and context unless stated otherwise.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912491, Five grotesque heads, and three heads of men in profile, c.1510 to 1520. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912491"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "content",
+      "value": {
+        "text": "Derived from Leonardo's grotesque heads of c.1490"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT notes that countless copies of Leonardo's grotesque heads survive, mostly derived from carefully finished heads of around 1490; a book index attributes a 'Five Grotesque Heads' to Melzi. Attribution of this sheet to be confirmed.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912491, Five grotesque heads, and three heads of men in profile, c.1510 to 1520. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912491"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Is RCIN 912491 by Leonardo or by Melzi?",
+    "The well known 'Five characters in a comic scene' (often given as RL 12495) was not found in this session: RCIN to locate."
+  ]
+}

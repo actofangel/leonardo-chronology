@@ -3,6 +3,14 @@
   "type": "work",
   "subtype": "drawing",
   "label": "Servite St Anne cartoon (lost)",
+  "classification": {
+    "form": "cartoon",
+    "condition": "lost",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check form, technique, support and condition against the holding institution's record or a catalogue raisonné (Marani 2000, Zöllner 2003; for manuscripts, the Edizione Nazionale or Pedretti)."
+  },
   "claims": [
     {
       "id": "c1",
@@ -24,6 +32,10 @@
       ],
       "check_in": []
     }
+  ],
+  "open_questions": [
+    "The Novellara letter of 3 April 1501 describes a cartoon; text and archival reference to check in Villata 1999.",
+    "Is the cartoon Vasari describes the one in the Novellara letter, and how does it relate to w-burlington (now dated c.1506 to 1508 by the National Gallery)?"
   ],
   "timeline": {
     "lane": "works",

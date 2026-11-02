@@ -1,0 +1,72 @@
+{
+  "id": "w-anatomy2",
+  "type": "work",
+  "subtype": "anatomy",
+  "label": "Anatomical studies, Milan and Pavia",
+  "current_location": "geo-royal-collection-windsor",
+  "relations": [
+    {
+      "rel": "parent_of",
+      "target": "w-heart-919073",
+      "claim": "c1"
+    },
+    {
+      "rel": "parent_of",
+      "target": "w-embryo-919102"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "content",
+      "value": {
+        "text": "Heart studies c.1511 to 1513 based on ox hearts"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT: after 1511 Leonardo had little or no access to human material and his heart dissections were of the ox. The bovine source is read from the drawings and notes.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, exhibition page, Heart studies. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://rct.uk/collection/exhibitions/leonardo-da-vinci-a-life-in-drawing/the-queens-gallery-buckingham-palace/the-exhibition/milan-1506-13-and-rome-1513-16/heart-studies"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "c.1511 to 1513",
+        "start": 1511,
+        "end": 1513
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates RCIN 919073 and 919071 c.1511 to 1513, 919078 and 919116 c.1512 to 1513, and the fetus sheet 919102 c.1511.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919073, The ventricles, papillary muscles and tricuspid valve / The heart and coronary vessels. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919073"
+        },
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919102, The fetus in the womb, c.1511. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919102"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Nothing found in this session links these sheets to Marcantonio della Torre beyond Vasari. Check Clayton and Philo 2012 for the documentary basis."
+  ]
+}

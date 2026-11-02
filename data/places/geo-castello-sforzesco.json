@@ -1,0 +1,48 @@
+{
+  "id": "geo-castello-sforzesco",
+  "type": "place",
+  "subtype": "building",
+  "label": "Castello Sforzesco",
+  "variants": [
+    "Castello di Porta Giovia",
+    "Sforza Castle"
+  ],
+  "modern_name": "Castello Sforzesco",
+  "region": "Lombardy",
+  "country": "Italy",
+  "coords": {
+    "lat": 45.4704,
+    "lon": 9.1795
+  },
+  "within": "geo-milan",
+  "summary": "Sforza castle of Milan (in the fifteenth century the Castello di Porta Giovia); contains the Sala delle Asse (w-asse) and today the Biblioteca Trivulziana.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-milan"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 45.4704,
+        "lon": 9.1795
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Castello Sforzesco, Burgenwelt castle guide (WGS84) found by search, converted to decimal (background only).",
+          "url": "https://www.burgenwelt.org/italien/mailand/burgenwelt-mailand-italien.pdf"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

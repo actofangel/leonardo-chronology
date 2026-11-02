@@ -1,0 +1,11 @@
+{
+  "id": "geo-lombardy",
+  "type": "place",
+  "subtype": "region",
+  "label": "Lombardy",
+  "variants": [
+    "Lombardia"
+  ],
+  "country": "Italy",
+  "summary": "Region of northern Italy containing Milan, Pavia and Vaprio d'Adda; in Leonardo's time the core of the Duchy of Milan."
+}

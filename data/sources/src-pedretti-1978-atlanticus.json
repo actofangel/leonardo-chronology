@@ -1,0 +1,55 @@
+{
+  "id": "src-pedretti-1978-atlanticus",
+  "type": "source",
+  "label": "Pedretti 1978 to 1979, The Codex Atlanticus: A Catalogue of Its Newly Restored Sheets",
+  "source_type": "ms_study",
+  "citation": "Pedretti, Carlo. The Codex Atlanticus of Leonardo da Vinci: A Catalogue of Its Newly Restored Sheets. 2 parts (vols I to VI; VII to XII). New York: Johnson Reprint Corporation and Harcourt Brace Jovanovich, 1978 to 1979.",
+  "short": "Pedretti 1978 to 1979",
+  "language": "en",
+  "url": "https://swisscollections.ch/Record/991157375789705501",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Pedretti, Carlo. The Codex Atlanticus of Leonardo da Vinci: A Catalogue of Its Newly Restored Sheets. 2 parts (vols I to VI; VII to XII). New York: Johnson Reprint Corporation and Harcourt Brace Jovanovich, 1978 to 1979.",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "swisscollections record (seen as search result).",
+          "url": "https://swisscollections.ch/Record/991157375789705501"
+        },
+        {
+          "type": "other",
+          "cite": "Czech library record, part 2 (vols VII to XII), 1979 (seen as search result).",
+          "url": "https://arl.cbvk.cz/arl-cbvk/en/detail-cbvk_us_cat-0575798-The-Codex-Atlanticus-of-Leonardo-da-Vinci"
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "ms_study"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted: codicological catalogue of the restored Codex Atlanticus sheets (Pedretti's codicological studies are named in the project rules).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ]
+}

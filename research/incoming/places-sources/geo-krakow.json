@@ -1,0 +1,40 @@
+{
+  "id": "geo-krakow",
+  "type": "place",
+  "subtype": "city",
+  "label": "Kraków",
+  "variants": [
+    "Cracow",
+    "Cracovia"
+  ],
+  "modern_name": "Kraków",
+  "country": "Poland",
+  "coords": {
+    "lat": 50.0647,
+    "lon": 19.945
+  },
+  "summary": "City in southern Poland; seat of the Czartoryski Museum.",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 50.0647,
+        "lon": 19.945
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Kraków, coverage table found by search (background only).",
+          "url": "https://matterport.com/legal/EMEA-capture-services-coverage"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

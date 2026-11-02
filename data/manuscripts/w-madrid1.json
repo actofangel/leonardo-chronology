@@ -2,6 +2,19 @@
   "id": "w-madrid1",
   "type": "manuscript",
   "label": "Madrid Codices I and II",
+  "classification": {
+    "ms_form": "notebook",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "mechanics",
+      "horse",
+      "cartography",
+      "military",
+      "optics"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check form, technique, support and condition against the holding institution's record or a catalogue raisonné (Marani 2000, Zöllner 2003; for manuscripts, the Edizione Nazionale or Pedretti)."
+  },
   "claims": [
     {
       "id": "c1",
@@ -22,7 +35,253 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "identity",
+      "value": {
+        "text": "Group record for two codices"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "This legacy record stands for the pair; each codex has its own record (ms-madrid-1, ms-madrid-2) because they differ in shelfmark, size and date.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Madrid (Leonardo) (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Madrid_(Leonardo)"
+        },
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Madrid, Biblioteca Nacional de Espana, MS 8937 and MS 8936.",
+          "url": "https://www.facsimilefinder.com/facsimiles/madrid-codices-facsimile"
+        }
+      ],
+      "check_in": [
+        "Reti 1974"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "provenance",
+      "value": {
+        "text": "Reported by Jules Piccus, 1965",
+        "start": 1965,
+        "end": 1965
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The codices were reported in 1965 by Jules Piccus of the University of Massachusetts.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Madrid (Leonardo) (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Madrid_(Leonardo)"
+        },
+        {
+          "type": "web",
+          "cite": "New York Review of Books, Leonardo's Notebooks, 12 December 1974 (review of the 1974 Madrid codices edition).",
+          "url": "https://www.nybooks.com/articles/1974/12/12/leonardos-notebooks/"
+        }
+      ],
+      "check_in": [
+        "Reti (ed.), The Madrid Codices, 1974, commentary volume",
+        "Biblioteca Nacional records"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": {
+        "text": "Rediscovery reported 1966"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "A 1966 Kunstchronik report on the rediscovered manuscripts; the first draft gives 1966.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Kunstchronik (Heidelberg digital journals), 1966 report on the rediscovered Leonardo manuscripts of the Biblioteca Nacional, Madrid.",
+          "url": "https://journals.ub.uni-heidelberg.de/index.php/kchronik/article/view/71095/64448"
+        },
+        {
+          "type": "model_recall",
+          "cite": "Inventory draft w-madrid1 (unverified)."
+        }
+      ],
+      "check_in": [
+        "Reti (ed.), The Madrid Codices, 1974, commentary volume"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": {
+        "text": "Found February 1967"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Facsimile sellers say Piccus found them in February 1967 (announced in 1967 in the press).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Madrid, Biblioteca Nacional de Espana, MS 8937 and MS 8936.",
+          "url": "https://www.facsimilefinder.com/facsimiles/madrid-codices-facsimile"
+        }
+      ],
+      "check_in": [
+        "Reti (ed.), The Madrid Codices, 1974, commentary volume"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "provenance",
+      "value": {
+        "text": "Juan de Espina"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The codices are said, circumstantially, to have passed from Pompeo Leoni to Juan de Espina, who refused to sell Leonardo volumes to the Earl of Arundel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Madrid, Biblioteca Nacional de Espana, MS 8937 and MS 8936.",
+          "url": "https://www.facsimilefinder.com/facsimiles/madrid-codices-facsimile"
+        },
+        {
+          "type": "web",
+          "cite": "New York Review of Books, Leonardo's Notebooks, 12 December 1974 (review of the 1974 Madrid codices edition).",
+          "url": "https://www.nybooks.com/articles/1974/12/12/leonardos-notebooks/"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Madrid (Leonardo) (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Madrid_(Leonardo)"
+        }
+      ],
+      "check_in": [
+        "Reti (ed.), The Madrid Codices, 1974, commentary volume"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "provenance",
+      "value": {
+        "text": "Spanish royal library by 1712 or before 1830"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Wikipedia gives entry to the Biblioteca Real in 1712; a facsimile publisher says before 1830, after binding in red morocco in the eighteenth century.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Madrid (Leonardo) (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Madrid_(Leonardo)"
+        },
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Madrid, Biblioteca Nacional de Espana, MS 8937 and MS 8936.",
+          "url": "https://www.facsimilefinder.com/facsimiles/madrid-codices-facsimile"
+        }
+      ],
+      "check_in": [
+        "Reti (ed.), The Madrid Codices, 1974, commentary volume"
+      ]
+    },
+    {
+      "id": "c8",
+      "about": "digital_facsimile",
+      "value": {
+        "text": "Biblioteca Digital Hispanica"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The Biblioteca Nacional de Espana digitised both codices (reported February 2026) and offers them in the Biblioteca Digital Hispanica; the BNE also runs a Leonardo interactive site.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Euronews, The Madrid Codices: Leonardo da Vinci's treasure trove digitised by Spain's National Library, 20 February 2026.",
+          "url": "https://euronews.com/2026/02/20/the-madrid-codices-leonardo-da-vincis-treasure-trove-digitised-by-spains-national-library"
+        },
+        {
+          "type": "other",
+          "cite": "Biblioteca Nacional de Espana, exhibition leaflet on the Leonardo codices.",
+          "url": "https://www.bne.es/sites/default/files/repositorio-archivos/FolletoExpoLeonardo.pdf"
+        }
+      ],
+      "check_in": [
+        "BNE Biblioteca Digital Hispanica record URLs"
+      ]
+    },
+    {
+      "id": "c9",
+      "about": "content",
+      "value": {
+        "text": "Draft: Codex I Milan years, Codex II Florence years"
+      },
+      "layer": "interpretation",
+      "status": "disputed",
+      "statement": "The first draft assigns Codex I to the Milan years and Codex II to Florence; sources seen give c.1493 to 1495 for Codex I and c.1503 to 1505 for Codex II with an earlier part c.1491 to 1493, so Codex II is not wholly Florentine.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "University of Virginia NEH Institute site, Madrid Codices.",
+          "url": "https://uva.theopenscholar.com/neh-institute/madrid-codices"
+        },
+        {
+          "type": "model_recall",
+          "cite": "Inventory draft w-madrid1 (unverified)."
+        }
+      ],
+      "check_in": [
+        "Reti (ed.), The Madrid Codices, 1974, commentary volume"
+      ]
     }
+  ],
+  "subtype": "group",
+  "summary": "Two Leonardo manuscripts in the Biblioteca Nacional de Espana, Madrid, Mss. 8937 (Madrid I) and 8936 (Madrid II), reported rediscovered in the 1960s.",
+  "holding": "geo-biblioteca-nacional-madrid",
+  "shelfmark": "Mss. 8937 and 8936",
+  "date_range": {
+    "start": 1490,
+    "end": 1505
+  },
+  "history": [
+    "probably Pompeo Leoni (circumstantial)",
+    "Juan de Espina, from 1608",
+    "Spanish royal library (1712, or before 1830)",
+    "misplaced in the Biblioteca Nacional",
+    "reported 1965 to 1967"
+  ],
+  "variants": [
+    "Codices Madrid"
+  ],
+  "relations": [
+    {
+      "rel": "has_part",
+      "target": "ms-madrid-1"
+    },
+    {
+      "rel": "has_part",
+      "target": "ms-madrid-2"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-nacional-madrid"
+    },
+    {
+      "rel": "located_in",
+      "target": "geo-madrid"
+    }
+  ],
+  "open_questions": [
+    "Year of rediscovery: 1965, 1966 or 1967. The draft's 1966 needs checking against Reti 1974 and BNE records."
   ],
   "timeline": {
     "lane": "works",

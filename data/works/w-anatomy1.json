@@ -3,6 +3,18 @@
   "type": "work",
   "subtype": "anatomy",
   "label": "Anatomical studies, Florence",
+  "classification": {
+    "form": "sheet_of_studies",
+    "technique": [
+      "pen_and_ink"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "anatomy"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check form, technique, support and condition against the holding institution's record or a catalogue raisonné (Marani 2000, Zöllner 2003; for manuscripts, the Edizione Nazionale or Pedretti)."
+  },
   "claims": [
     {
       "id": "c1",
@@ -23,6 +35,105 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "content",
+      "value": {
+        "text": "RCIN 919027: notes on the death and dissection of an old man"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "RCIN 919027 (recto veins of the left arm, young and old vessels compared; verso notes on the dissection of an old man and changes in hepatic vessels in old age) records that an old man who said he was over a hundred years old died in the hospital of Santa Maria Nuova and that Leonardo dissected him 'to see the cause of so sweet a death'.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919027, The veins of the arm and notes on the death of a centenarian, c.1508. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919027"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012",
+        "Richter 1883 for the Italian"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "winter 1507 to 1508",
+        "start": 1507.8,
+        "end": 1508.2
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT exhibition pages place the dissection in the winter of 1507 to 1508. The note itself, as excerpted, gives no date.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, exhibition page, The Centenarian: Anatomical Manuscript B. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://rct.uk/collection/exhibitions/leonardo-da-vinci/the-queens-gallery-buckingham-palace/the-exhibition/the-centenarian-anatomical-manuscript-b"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "1506"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "Another page cited by search gives 1506 for the dissection.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "University of Melbourne news article on Leonardo's anatomy. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://findanexpert.unimelb.edu.au/news/3073-leonardo-da-vinci-revisited--how-a-15th-century-artist-dissected-the-human-machine"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "content",
+      "value": {
+        "text": "Dissection of a child of two years"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The notes also mention the dissection of a child of two, in whom he found everything contrary to the old man.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919027, The veins of the arm and notes on the death of a centenarian, c.1508. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919027"
+        }
+      ],
+      "check_in": [
+        "Richter 1883",
+        "Clayton and Philo 2012"
+      ]
+    }
+  ],
+  "current_location": "geo-royal-collection-windsor",
+  "relations": [
+    {
+      "rel": "parent_of",
+      "target": "w-centenarian-919027",
+      "claim": "c2"
     }
   ],
   "timeline": {

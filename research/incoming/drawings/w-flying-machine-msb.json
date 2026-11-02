@@ -1,0 +1,132 @@
+{
+  "id": "w-flying-machine-msb",
+  "type": "work",
+  "subtype": "machine",
+  "label": "Vertical flying machine (ornithopter)",
+  "manuscript": "ms-paris-b",
+  "folio": "f. 80 recto",
+  "current_location": "geo-institut-de-france",
+  "relations": [
+    {
+      "rel": "drawn_on",
+      "target": "ms-paris-b",
+      "claim": "c1"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-institut-de-france"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "location",
+      "value": {
+        "text": "f. 80 recto"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The design is on f. 80 recto of Paris Manuscript B (Institut de France).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Bridgeman Images, 'Vertically standing bird's winged flying machine, fol. 80r from Paris Manuscript B, 1488 to 90'. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://bridgemanimages.com/fr/vinci/vertically-standing-bird-s-winged-flying-machine-fol-80r-from-paris-manuscript-b-1488-90-pen-and-ink/pen-and-ink-on-paper/asset/39645"
+        }
+      ],
+      "check_in": [
+        "Institut de France, Ms B digitised"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "content",
+      "value": {
+        "text": "a vertically standing flying machine with bird like wings, pen and ink"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The sheet shows: a vertically standing flying machine with bird like wings, pen and ink. This is a fact about the drawing on paper only.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Bridgeman Images, 'Vertically standing bird's winged flying machine, fol. 80r from Paris Manuscript B, 1488 to 90'. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://bridgemanimages.com/fr/vinci/vertically-standing-bird-s-winged-flying-machine-fol-80r-from-paris-manuscript-b-1488-90-pen-and-ink/pen-and-ink-on-paper/asset/39645"
+        }
+      ],
+      "check_in": [
+        "Institut de France, Ms B digitised"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1488 to 1490",
+        "start": 1488,
+        "end": 1490
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Dated c.1488 to 1490 by the holding institution or source cited; sheet datings in Leonardo's codices are palaeographic and stylistic estimates.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Bridgeman Images, 'Vertically standing bird's winged flying machine, fol. 80r from Paris Manuscript B, 1488 to 90'. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://bridgemanimages.com/fr/vinci/vertically-standing-bird-s-winged-flying-machine-fol-80r-from-paris-manuscript-b-1488-90-pen-and-ink/pen-and-ink-on-paper/asset/39645"
+        }
+      ],
+      "check_in": [
+        "Institut de France, Ms B digitised"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "built",
+      "value": {
+        "text": "No evidence of construction"
+      },
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "Nothing found in this session shows that the device was built or tested by Leonardo; any such claim needs separate evidence.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Bridgeman Images, 'Vertically standing bird's winged flying machine, fol. 80r from Paris Manuscript B, 1488 to 90'. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://bridgemanimages.com/fr/vinci/vertically-standing-bird-s-winged-flying-machine-fol-80r-from-paris-manuscript-b-1488-90-pen-and-ink/pen-and-ink-on-paper/asset/39645"
+        }
+      ],
+      "check_in": [
+        "Institut de France, Ms B digitised"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "related",
+      "value": {
+        "text": "Ms B f. 74 verso, ornithopter"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Aggregator pages say that models of an ornithopter (Smithsonian, Museo Leonardiano 1929) are based on Ms B f. 74 verso. Unconfirmed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "thehistoryofart.org, Ornithopter. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.thehistoryofart.org/leonardo-da-vinci/ornithopter/"
+        }
+      ],
+      "check_in": [
+        "Institut de France, Ms B digitised"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Modern models do not show that Leonardo built a flying machine; the Monte Ceceri note (Codex on the Flight of Birds) concerns a planned flight, evidence for an attempt is lacking."
+  ]
+}

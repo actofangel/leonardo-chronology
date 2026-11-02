@@ -1,0 +1,127 @@
+{
+  "id": "w-trivulzio-912356",
+  "type": "work",
+  "subtype": "sculpture_project",
+  "label": "Study for the Trivulzio monument",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "red_chalk",
+      "pen_and_ink"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "horse"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912356",
+  "medium": "Red chalk, pen and ink",
+  "dimensions": "21.7 x 16.9 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    },
+    {
+      "rel": "preparatory_for",
+      "target": "w-trivulzio"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912356"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912356 (Windsor RL 12356 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912356, Recto: A study for the Trivulzio monument. Verso: A study for an equestrian monument. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912356"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "medium",
+      "value": {
+        "text": "Red chalk, pen and ink; 21.7 x 16.9 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Medium and sheet size as on the RCT record.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912356, Recto: A study for the Trivulzio monument. Verso: A study for an equestrian monument. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912356"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1508 to 1510 (recto); c.1517 to 1518 (verso)",
+        "start": 1508,
+        "end": 1510
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the sheet c.1508 to 1510 (recto); c.1517 to 1518 (verso). Dating by style and context unless stated otherwise.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912356, Recto: A study for the Trivulzio monument. Verso: A study for an equestrian monument. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912356"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "c.1510 to 1512 (recto)",
+        "start": 1510,
+        "end": 1512
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "Another RCT page dates the recto c.1510 to 1512.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, exhibition page, Recto: A study for the Trivulzio monument. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://rct.uk/collection/exhibitions/leonardo-da-vinci-a-life-in-drawing/the-queens-gallery-palace-of/recto-a-study-for-the-trivulzio-monument-verso-a-study-for-an-equestrian-monument"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    }
+  ]
+}

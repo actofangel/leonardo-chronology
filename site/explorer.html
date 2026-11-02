@@ -57,6 +57,11 @@ input[type=search]{width:100%;padding:7px 10px;border:1px solid var(--rule);bord
 .li .t{font-size:13.5px}
 .li .m{font:11px var(--mono);color:var(--muted);white-space:nowrap}
 .count{font:11.5px var(--mono);color:var(--muted)}
+.facets{display:grid;grid-template-columns:1fr 1fr;gap:6px 8px}
+.facets label{display:flex;flex-direction:column;gap:2px;font:11px var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.facets select{padding:4px 6px;border:1px solid var(--rule);border-radius:5px;background:var(--card);font:13px var(--sans);text-transform:none;letter-spacing:0;color:var(--ink);min-width:0}
+.cls{display:flex;flex-wrap:wrap;gap:5px}
+.cls .b{color:var(--ink)}
 .main{display:flex;flex-direction:column;gap:14px;min-width:0}
 .card{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:16px 18px;display:flex;flex-direction:column;gap:12px;min-width:0}
 .ehead{display:flex;flex-direction:column;gap:4px}
@@ -114,6 +119,7 @@ ul.plain{margin:0;padding-left:18px;font-size:13.5px;display:flex;flex-direction
   <div class="layout">
     <aside class="side" aria-label="Browse">
       <div class="chips" id="types"></div>
+      <div class="facets" id="facets"></div>
       <label class="kicker" for="q">Search</label>
       <input id="q" type="search" placeholder="Name, variant, id or text" autocomplete="off">
       <span class="count" id="count"></span>
@@ -130,7 +136,26 @@ ul.plain{margin:0;padding-left:18px;font-size:13.5px;display:flex;flex-direction
   var TYPES = [['person','People'],['place','Places'],['work','Works'],['manuscript','Manuscripts'],['event','Events'],['source','Sources'],['hypothesis','Hypotheses']];
   var TYPE_NAME = {}; TYPES.forEach(function(t){ TYPE_NAME[t[0]] = t[1]; });
   var ADMITTED = ['primary','edition','catalogue','ms_study','monograph','archive_publication'];
-  var DB = null, E = {}, state = {types:new Set(TYPES.map(function(t){return t[0];})), q:'', sel:null};
+  var DB = null, E = {}, V = {}, state = {types:new Set(TYPES.map(function(t){return t[0];})), q:'', sel:null, f:{}};
+  var FACETS = [['group','Form group'],['form','Form'],['ms_form','Manuscript form'],['subject','Subject'],['technique','Technique'],['condition','Survival']];
+  function vlabel(axis, v){ return (V[axis] && V[axis].values[v]) ? V[axis].values[v].label : v; }
+  function clsValues(e, axis){
+    var c = e.classification || {};
+    if(axis === 'group'){ return c.form && V.form.values[c.form] ? [V.form.values[c.form].group] : (c.ms_form ? ['Manuscripts'] : []); }
+    var v = c[axis]; return v == null ? [] : (Array.isArray(v) ? v : [v]);
+  }
+  function buildFacets(){
+    var html = FACETS.map(function(f){
+      var counts = {};
+      Object.values(E).forEach(function(e){ clsValues(e, f[0]).forEach(function(v){ counts[v] = (counts[v]||0) + 1; }); });
+      var keys = Object.keys(counts); if(!keys.length) return '';
+      keys.sort(function(a,b){ return counts[b] - counts[a] || a.localeCompare(b); });
+      return '<label>' + f[1] + '<select data-facet="' + f[0] + '"><option value="">All</option>' + keys.map(function(k){ return '<option value="' + esc(k) + '">' + esc(f[0] === 'group' ? k : vlabel(f[0], k)) + ' (' + counts[k] + ')</option>'; }).join('') + '</select></label>';
+    }).join('');
+    $('facets').innerHTML = html;
+    $('facets').addEventListener('change', function(ev){ var s = ev.target.closest('select[data-facet]'); if(!s) return; state.f[s.getAttribute('data-facet')] = s.value; renderList(); });
+  }
+  function facetOK(e){ return Object.keys(state.f).every(function(k){ return !state.f[k] || clsValues(e, k).indexOf(state.f[k]) >= 0; }); }
   function $(id){ return document.getElementById(id); }
   function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
   function link(id, label){ return E[id] ? '<a href="#' + esc(id) + '">' + esc(label || E[id].label) + '</a>' : '<span class="miss" title="Not yet in the database">' + esc(label || id) + '</span>'; }
@@ -160,7 +185,7 @@ ul.plain{margin:0;padding-left:18px;font-size:13.5px;display:flex;flex-direction
   function sortKey(e){ return (e.timeline && typeof e.timeline.start === 'number') ? e.timeline.start : 9999; }
   function renderList(){
     var q = state.q;
-    var items = Object.values(E).filter(function(e){ return state.types.has(e.type) && (!q || e._hay.indexOf(q) >= 0); });
+    var items = Object.values(E).filter(function(e){ return state.types.has(e.type) && facetOK(e) && (!q || e._hay.indexOf(q) >= 0); });
     items.sort(function(a,b){ return a.type.localeCompare(b.type) || a.label.localeCompare(b.label); });
     $('count').textContent = items.length + ' of ' + Object.keys(E).length;
     $('list').innerHTML = items.map(function(e){
@@ -175,6 +200,8 @@ ul.plain{margin:0;padding-left:18px;font-size:13.5px;display:flex;flex-direction
     function txt(v){ return Array.isArray(v) ? v.map(esc).join('; ') : esc(v); }
     function ref(v){ return typeof v === 'string' && /^[a-z]+-/.test(v) ? link(v) : esc(v); }
     add('Variants', txt(e.variants));
+    if(e.classification){ var cl = []; Object.keys(e.classification).forEach(function(ax){ if(ax === 'basis') return; var vs = e.classification[ax]; (Array.isArray(vs) ? vs : [vs]).forEach(function(v){ cl.push('<span class="b" title="' + esc(V[ax] ? V[ax].label : ax) + '">' + esc(vlabel(ax, v)) + '</span>'); }); });
+      add('Classification', '<span class="cls">' + cl.join('') + '</span>' + (e.classification.basis ? '<br><span class="rel">' + esc(e.classification.basis) + '</span>' : '')); }
     if(e.type === 'person'){ add('Born', txt(e.born)); add('Died', txt(e.died)); add('Roles', txt(e.roles)); }
     if(e.type === 'place'){ add('Modern name', txt(e.modern_name)); add('Region', txt(e.region)); add('Country', txt(e.country)); add('Within', e.within ? ref(e.within) : ''); if(e.coords) add('Coordinates', '<a href="https://www.openstreetmap.org/?mlat=' + e.coords.lat + '&mlon=' + e.coords.lon + '#map=13/' + e.coords.lat + '/' + e.coords.lon + '" rel="noopener">' + e.coords.lat.toFixed(4) + ', ' + e.coords.lon.toFixed(4) + '</a>'); }
     if(e.type === 'work'){ add('Medium', txt(e.medium)); add('Support', txt(e.support)); add('Dimensions', txt(e.dimensions)); add('Current location', e.current_location ? ref(e.current_location) : ''); add('Inventory', txt(e.inventory));
@@ -277,8 +304,8 @@ ul.plain{margin:0;padding-left:18px;font-size:13.5px;display:flex;flex-direction
   $('q').addEventListener('input', function(){ state.q = this.value.trim().toLowerCase(); renderList(); });
   window.addEventListener('hashchange', route);
   fetch('db.json', {cache:'no-store'}).then(function(r){ if(!r.ok) throw new Error('db.json returned ' + r.status); return r.json(); }).then(function(d){
-    DB = d; E = d.entities; Object.values(E).forEach(function(e){ e._hay = hay(e); });
-    stats(); buildTypes(); renderList(); route();
+    DB = d; E = d.entities; V = d.vocab || {}; Object.values(E).forEach(function(e){ e._hay = hay(e); });
+    stats(); buildTypes(); buildFacets(); renderList(); route();
   }).catch(function(err){ $('main').innerHTML = '<section class="card"><p class="empty">Could not load db.json (' + esc(err.message) + '). Serve the built folder over http, for example with python3 -m http.server.</p></section>'; });
 })();
 </script>

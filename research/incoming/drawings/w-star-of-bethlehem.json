@@ -1,0 +1,135 @@
+{
+  "id": "w-star-of-bethlehem",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Star of Bethlehem, wood anemone and sun spurge",
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912424",
+  "medium": "Red chalk, pen and ink",
+  "dimensions": "19.8 x 16.0 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    },
+    {
+      "rel": "preparatory_for",
+      "target": "w-leda"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912424"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912424 (Windsor RL 12424 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912424, A star of Bethlehem and other plants, c.1506 to 1512. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912424"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "medium",
+      "value": {
+        "text": "Red chalk, pen and ink; 19.8 x 16.0 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Medium and sheet size as on the RCT record.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912424, A star of Bethlehem and other plants, c.1506 to 1512. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912424"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1506 to 1512",
+        "start": 1506,
+        "end": 1512
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the sheet c.1506 to 1512. Dating by style and context unless stated otherwise.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912424, A star of Bethlehem and other plants, c.1506 to 1512. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912424"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "c.1505 to 1510",
+        "start": 1505,
+        "end": 1510
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "RCT exhibition pages and the Louvre 2019 summary give c.1505 to 1510.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, exhibition page, A star of Bethlehem and other plants. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/exhibitions/leonardo-da-vinci-a-life-in-drawing/kelvingrove-art-gallery-museum-glasgow/a-star-of-bethlehem-and-other-plants"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "relation",
+      "value": {
+        "text": "Plant studies for the Leda"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT relates this and other plant studies to the foreground of the lost Leda; an interpretation.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912424, A star of Bethlehem and other plants, c.1506 to 1512. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912424"
+        }
+      ],
+      "check_in": [
+        "Bambach 2019"
+      ]
+    }
+  ]
+}

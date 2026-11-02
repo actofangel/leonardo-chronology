@@ -1,0 +1,82 @@
+{
+  "id": "w-military-machines-bm",
+  "type": "work",
+  "subtype": "military",
+  "label": "Studies of military machines (armoured vehicle, scythed chariot)",
+  "current_location": "geo-british-museum",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-british-museum"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "British Museum, 1860,0616.99"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The sheet is British Museum, 1860,0616.99.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "British Museum, collection online, 1860,0616.99. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.britishmuseum.org/collection/object/P_1860-0616-99"
+        }
+      ],
+      "check_in": [
+        "Popham and Pouncey 1950"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "content",
+      "value": {
+        "text": "several tank like war machines; at top a horse drawn contraption with revolving blades; pen and brown ink over stylus, some lines ruled or drawn with compass"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The sheet shows: several tank like war machines; at top a horse drawn contraption with revolving blades; pen and brown ink over stylus, some lines ruled or drawn with compass. This is a fact about the drawing on paper only.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "British Museum, collection online, 1860,0616.99. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.britishmuseum.org/collection/object/P_1860-0616-99"
+        }
+      ],
+      "check_in": [
+        "Popham and Pouncey 1950"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "built",
+      "value": {
+        "text": "No evidence of construction"
+      },
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "Nothing found in this session shows that the device was built or tested by Leonardo; any such claim needs separate evidence.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "British Museum, collection online, 1860,0616.99. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.britishmuseum.org/collection/object/P_1860-0616-99"
+        }
+      ],
+      "check_in": [
+        "Popham and Pouncey 1950"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Date to locate; not given in the excerpt of the British Museum record."
+  ],
+  "inventory": "1860,0616.99"
+}

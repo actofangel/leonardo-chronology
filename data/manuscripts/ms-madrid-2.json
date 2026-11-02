@@ -1,0 +1,160 @@
+{
+  "id": "ms-madrid-2",
+  "type": "manuscript",
+  "subtype": "codex",
+  "label": "Madrid Codex II",
+  "classification": {
+    "ms_form": "notebook",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "horse",
+      "cartography",
+      "military",
+      "optics",
+      "geometry"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check against the holding's record or the Edizione Nazionale."
+  },
+  "variants": [
+    "Codex Madrid II",
+    "Ms. 8936"
+  ],
+  "summary": "Leonardo manuscript of mixed contents, Biblioteca Nacional de Espana, Ms. 8936.",
+  "holding": "geo-biblioteca-nacional-madrid",
+  "shelfmark": "Ms. 8936",
+  "folios": "158 (one study: 157)",
+  "dimensions": "210 x 145 mm (as reported)",
+  "date_range": {
+    "start": 1491,
+    "end": 1505
+  },
+  "relations": [
+    {
+      "rel": "part_of",
+      "target": "w-madrid1"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-nacional-madrid",
+      "claim": "c1"
+    },
+    {
+      "rel": "related_to",
+      "target": "e-arno"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "shelfmark",
+      "value": {
+        "text": "Ms. 8936"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Biblioteca Nacional de Espana Ms. 8936.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Madrid, Biblioteca Nacional de Espana, MS 8937 and MS 8936.",
+          "url": "https://www.facsimilefinder.com/facsimiles/madrid-codices-facsimile"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Madrid (Leonardo) (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Madrid_(Leonardo)"
+        }
+      ],
+      "check_in": [
+        "BNE catalogue"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "folios",
+      "value": {
+        "text": "158 folios"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "158 folios (316 pages), internal format 210 x 145 mm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Madrid (Leonardo) (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Madrid_(Leonardo)"
+        }
+      ],
+      "check_in": [
+        "BNE catalogue",
+        "Reti (ed.), The Madrid Codices, 1974, commentary volume"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "folios",
+      "value": {
+        "text": "157 folios"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "A 2022 article gives 157 folios.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Article in Foundations of Science (Springer), 2022, on Codex Madrid I (cites Codex Madrid II as 157 folios).",
+          "url": "https://link.springer.com/article/10.1007/s10699-022-09896-4"
+        }
+      ],
+      "check_in": [
+        "BNE catalogue"
+      ],
+      "alternative_to": [
+        "c2"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "c.1503 to 1505, with an earlier part c.1491 to 1493",
+        "start": 1491,
+        "end": 1505
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Most of the codex is dated c.1503 to 1505; one part is dated c.1491 to 1493.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "University of Virginia NEH Institute site, Madrid Codices.",
+          "url": "https://uva.theopenscholar.com/neh-institute/madrid-codices"
+        }
+      ],
+      "check_in": [
+        "Reti (ed.), The Madrid Codices, 1974, commentary volume"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "content",
+      "value": {
+        "text": "Fortification, Sforza horse casting, Arno, perspective, optics"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Contents as remembered: notes on the casting of the Sforza horse (earlier part), fortification, maps of the Arno valley and optics. Not confirmed by any source seen in this session.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Model recall (unverified)."
+        }
+      ],
+      "check_in": [
+        "Reti (ed.), The Madrid Codices, 1974, commentary volume"
+      ]
+    }
+  ]
+}

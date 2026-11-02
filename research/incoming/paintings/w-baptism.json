@@ -1,0 +1,189 @@
+{
+  "id": "w-baptism",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Baptism of Christ (Verrocchio)",
+  "current_location": "geo-uffizi",
+  "relations": [
+    {
+      "rel": "collaborator",
+      "target": "pe-verrocchio",
+      "claim": "c6"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-uffizi",
+      "claim": "c1"
+    },
+    {
+      "rel": "made_for",
+      "target": "geo-san-salvi-florence",
+      "claim": "c7"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": "Florence, Gallerie degli Uffizi",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Held by the Gallerie degli Uffizi, Florence, which catalogues it as by Verrocchio with Leonardo.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, artwork page, Verrocchio and Leonardo, Baptism of Christ. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/en/artworks/verrocchio-leonardo-baptism-of-christ"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "inventory",
+      "value": "Inv. 1890 n. 8358",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "One Uffizi page returned in search gives inventory 1890 n. 8358; another returned 1890 no. 8359. The number must be read on the museum record.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, artwork page. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/en/artworks/verrocchio-leonardo-baptism-of-christ"
+        }
+      ],
+      "check_in": [
+        "Uffizi artwork record",
+        "Marani 2000, catalogue entry"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1470 to 1475",
+        "start": 1470,
+        "end": 1475
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Uffizi artwork page dates the panel c.1470 to 1475 (museum dating, stylistic).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, artwork page. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/en/artworks/verrocchio-leonardo-baptism-of-christ"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "1475 to 1478",
+        "start": 1475,
+        "end": 1478
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "A Uffizi news item on the new Leonardo room places the work c.1475 to 1478 (museum text, stylistic).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, news: The new room of Leonardo da Vinci. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/en/news/the-new-room-of-leonardo-da-vinci"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "attribution",
+      "value": "Vasari: Leonardo painted the angel on the left",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Vasari's Life of Verrocchio states that Leonardo, as a young pupil, painted an angel in Verrocchio's Baptism. That Vasari says this is a fact about the text; it is a narrative source written some eighty years later.",
+      "sources": [
+        {
+          "ref": "src-vasari-1568",
+          "loc": "Life of Andrea del Verrocchio, page to locate"
+        },
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, artwork page, summarising Vasari. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/en/artworks/verrocchio-leonardo-baptism-of-christ"
+        }
+      ],
+      "check_in": [
+        "Vasari 1568, Vita di Andrea del Verrocchio",
+        "Vasari 1550, same Life"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "attribution",
+      "value": "Collaboration: Verrocchio workshop with passages by Leonardo (left angel, landscape)",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Uffizi credits the panel to Verrocchio with Leonardo; the allocation of the left angel and parts of the landscape to Leonardo is a connoisseurship judgement, supported but not proven by Vasari's account.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, artwork page. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/en/artworks/verrocchio-leonardo-baptism-of-christ"
+        },
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "provenance",
+      "value": "San Salvi, Florence; 1730 Santa Verdiana; 1810 Florentine Galleries; Uffizi since 1919",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Uffizi page gives the provenance: church of San Salvi (Vallombrosan), moved in 1730 to the Vallombrosan monastery of Santa Verdiana, entered the Florentine Galleries in 1810, in the Uffizi since 1919.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, artwork page. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/en/artworks/verrocchio-leonardo-baptism-of-christ"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Inventory number: 1890 n. 8358 or 8359? Read the Uffizi record.",
+    "Was the panel made for San Salvi, or did it only arrive there? Check Marani 2000 and Zöllner 2003 entries."
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "w-melzi-portrait",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Portrait of Leonardo, attributed to Melzi",
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912726",
+  "medium": "Red chalk",
+  "dimensions": "27.5 x 19.0 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    },
+    {
+      "rel": "depicts",
+      "target": "pe-leonardo"
+    },
+    {
+      "rel": "attributed_to",
+      "target": "pe-melzi",
+      "claim": "c4"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912726"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912726 (Windsor RL 12726 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912726, A portrait of Leonardo, c.1515 to 1518. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912726"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "medium",
+      "value": {
+        "text": "Red chalk; 27.5 x 19.0 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Medium and sheet size as on the RCT record.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912726, A portrait of Leonardo, c.1515 to 1518. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912726"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1515 to 1518",
+        "start": 1515,
+        "end": 1518
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the sheet c.1515 to 1518. Dating by style and context unless stated otherwise.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912726, A portrait of Leonardo, c.1515 to 1518. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912726"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "attribution",
+      "value": {
+        "text": "Francesco Melzi, possibly retouched by Leonardo"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Attributed by RCT to Francesco Melzi, perhaps with enlivening strokes by Leonardo in the lower part of the hair.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912726, A portrait of Leonardo, c.1515 to 1518. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912726"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968",
+        "Bambach 2019"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "identity",
+      "value": {
+        "text": "Portrait of Leonardo"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT calls it the only reliable surviving portrait of Leonardo and presumes it to be the portrait Vasari saw at Melzi's villa. Identification and Vasari link are interpretations.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912726, A portrait of Leonardo, c.1515 to 1518. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912726"
+        },
+        {
+          "ref": "src-vasari-1568",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Vasari 1568, life of Leonardo"
+      ]
+    }
+  ],
+  "open_questions": [
+    "One RCT page cites the portrait as RCIN 912716; probably a typo for 912726. Check."
+  ]
+}

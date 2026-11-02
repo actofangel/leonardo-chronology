@@ -1,0 +1,13 @@
+{
+  "id": "geo-loire-valley",
+  "type": "place",
+  "subtype": "region",
+  "label": "Touraine and the Loire valley",
+  "variants": [
+    "Touraine",
+    "Val de Loire"
+  ],
+  "region": "Centre Val de Loire",
+  "country": "France",
+  "summary": "Area of France containing Amboise and Romorantin, where the French court resided in Leonardo's last years."
+}

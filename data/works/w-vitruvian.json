@@ -3,6 +3,21 @@
   "type": "work",
   "subtype": "drawing",
   "label": "Vitruvian Man",
+  "classification": {
+    "form": "finished_drawing",
+    "technique": [
+      "pen_and_ink",
+      "wash",
+      "metalpoint"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "proportion",
+      "figure"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check form, technique, support and condition against the holding institution's record or a catalogue raisonné (Marani 2000, Zöllner 2003; for manuscripts, the Edizione Nazionale or Pedretti)."
+  },
   "claims": [
     {
       "id": "c1",
@@ -22,7 +37,140 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "current_location",
+      "value": {
+        "text": "Gallerie dell'Accademia, Venice, inv. 228"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Held in the Gabinetto dei disegni e delle stampe of the Gallerie dell'Accademia, Venice, under number 228.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Vitruvian Man (background only). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://en.wikipedia.org/wiki/Vitruvian_Man"
+        },
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, exhibition report, Venice 2019. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.finestresullarte.info/mostre/leonardo-da-vinci-uomo-modello-mondo-mostra-venezia"
+        }
+      ],
+      "check_in": [
+        "Gallerie dell'Accademia catalogue",
+        "Zöllner 2003"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "medium",
+      "value": {
+        "text": "Metalpoint, pen and ink, touches of wash on white paper"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Medium given as punta metallica, penna e inchiostro, tocchi di acquerello.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "arte.it, L'uomo modello del mondo. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.arte.it/leonardo/leonardo-da-vinci-e-la-sfida-dell-uomo-vitruviano-16159"
+        }
+      ],
+      "check_in": [
+        "Accademia catalogue"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "dimensions",
+      "value": {
+        "text": "34.4 x 24.5 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "A 2019 exhibition caption gives 34.4 x 24.5 cm; a German study gives 34.5 x 24.5 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, exhibition report, Venice 2019. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.finestresullarte.info/mostre/leonardo-da-vinci-uomo-modello-mondo-mostra-venezia"
+        },
+        {
+          "type": "other",
+          "cite": "Heidelberg ART Dok, study of the Vitruvian Man. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://archiv.ub.uni-heidelberg.de/artdok/id/eprint/2399/contents"
+        }
+      ],
+      "check_in": [
+        "Accademia catalogue"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "dimensions",
+      "value": {
+        "text": "34.6 x 25.5 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "An encyclopedia infobox gives 34.6 x 25.5 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Simple English Wikipedia, Vitruvian Man (background only). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://simple.wikipedia.com/wiki/Vitruvian_Man"
+        }
+      ],
+      "check_in": [
+        "Accademia catalogue"
+      ],
+      "alternative_to": [
+        "c4"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "inscription",
+      "value": {
+        "text": "to locate"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The sheet carries Leonardo's text paraphrasing Vitruvius above and below the figure. The text was not read in this session.",
+      "sources": [
+        {
+          "ref": "src-richter-1883",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Richter 1883",
+        "Pedretti 1977",
+        "Accademia catalogue"
+      ]
     }
+  ],
+  "current_location": "geo-gallerie-accademia-venice",
+  "inventory": "Gabinetto dei disegni e delle stampe, inv. 228",
+  "medium": "Metalpoint, pen and ink, touches of wash",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-gallerie-accademia-venice",
+      "claim": "c2"
+    }
+  ],
+  "open_questions": [
+    "Which dimensions are on the Accademia's own record?"
   ],
   "timeline": {
     "lane": "works",

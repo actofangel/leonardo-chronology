@@ -1,0 +1,277 @@
+{
+  "id": "ms-arundel",
+  "type": "manuscript",
+  "subtype": "codex",
+  "label": "Codex Arundel",
+  "variants": [
+    "Arundel MS 263",
+    "Codice Arundel"
+  ],
+  "summary": "Bound collection of loose sheets of Leonardo's notes and drawings, British Library, London, Arundel MS 263.",
+  "holding": "geo-british-library",
+  "shelfmark": "Arundel MS 263",
+  "folios": "283 (foliated 283 + 100* + 101*)",
+  "dimensions": "c. 205 x 290 mm (British Library catalogue, as reported)",
+  "date_range": {
+    "start": 1478,
+    "end": 1518
+  },
+  "contents": [
+    "mechanics",
+    "physics and weights",
+    "geometry",
+    "optics",
+    "architecture",
+    "notes made in Florence in 1508"
+  ],
+  "history": [
+    "Thomas Howard, Earl of Arundel, c.1630 or c.1636",
+    "presented to the Royal Society 1667 by Henry Howard",
+    "bought by the British Museum 1831",
+    "British Library from 1973"
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-british-library",
+      "claim": "c1"
+    },
+    {
+      "rel": "located_in",
+      "target": "geo-london"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-thomas-howard-arundel",
+      "claim": "c5"
+    },
+    {
+      "rel": "related_to",
+      "target": "e-arundel-begun",
+      "claim": "c4"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "folios",
+      "value": {
+        "text": "283 folios, c. 205 x 290 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The British Library catalogue describes one paper codex of 283 folios, foliated 283 + 100* + 101*, c. 205 x 290 mm.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "British Library, Archives and Manuscripts catalogue, Arundel MS 263 (seen only as a search summary: 1 paper codex, 283 folios, foliation 283 + 100* + 101*, c. 205 x 290 mm, full digital coverage, Royal Society stamp on f. 2r, presented 1667 by Henry Howard, 6th Duke of Norfolk; host blocked for direct fetch in this session).",
+          "url": "https://searcharchives.bl.uk/catalog/040-002039546"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Arundel (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Arundel"
+        }
+      ],
+      "check_in": [
+        "British Library catalogue record for Arundel MS 263 (direct read)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "c.1478 to 1518",
+        "start": 1478,
+        "end": 1518
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The sheets are dated from c.1478 to 1518.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Arundel (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Arundel"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Codex Arundel (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/codex-arundel/"
+        }
+      ],
+      "check_in": [
+        "Pedretti (ed.), Il Codice Arundel 263 nella British Library, Florence, Giunti, 1998, introduction and chronology"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "Pedretti's chronological reordering"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Pedretti's 1998 edition is the standard dating of the individual sheets; the sheet datings belong to that study and must be recorded from it.",
+      "sources": [
+        {
+          "type": "ms_study",
+          "cite": "Pedretti, Carlo (ed.), Il Codice Arundel 263 nella British Library, 2 vols, Florence, Giunti, 1998 (cited in the British Library record; not read in this session).",
+          "url": "https://searcharchives.bl.uk/catalog/040-002039546"
+        }
+      ],
+      "check_in": [
+        "Pedretti (ed.), Il Codice Arundel 263 nella British Library, Florence, Giunti, 1998, introduction and chronology"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "content",
+      "value": {
+        "text": "Note: begun in Florence in the house of Piero di Braccio Martelli, 22 March 1508",
+        "start": 1508.22,
+        "end": 1508.22
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "An autograph note states that the collection was begun in Florence in the house of Piero di Braccio Martelli on 22 March 1508, as a collection without order drawn from many sheets copied there. Italian text and folio to be taken from the edition; the English wording here is from a secondary source and is a translation.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Codex Arundel (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/codex-arundel/"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Arundel (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Arundel"
+        }
+      ],
+      "check_in": [
+        "Pedretti (ed.), Il Codice Arundel 263 nella British Library, Florence, Giunti, 1998, introduction and chronology",
+        "Richter 1883 and Pedretti 1977 Commentary",
+        "Arundel 263, folio of the note: to locate"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": {
+        "text": "Earl of Arundel, c.1630 to c.1636"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Thomas Howard, 14th Earl of Arundel, acquired the volume; sources give c.1630 or c.1636, one says in Spain.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Arundel (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Arundel"
+        },
+        {
+          "type": "other",
+          "cite": "Royal Society blog, The collector earl, November 2019.",
+          "url": "https://royalsociety.org/blog/2019/11/the-collector-earl/"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Codex Arundel (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/codex-arundel/"
+        }
+      ],
+      "check_in": [
+        "British Library catalogue record for Arundel MS 263 (direct read)",
+        "Pedretti (ed.), Il Codice Arundel 263 nella British Library, Florence, Giunti, 1998, introduction and chronology"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "provenance",
+      "value": {
+        "text": "Presented to the Royal Society, 1667",
+        "start": 1667,
+        "end": 1667
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Henry Howard, 6th Duke of Norfolk, presented the volume to the Royal Society in 1667; the Royal Society ink stamp is on f. 2r.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "British Library, Archives and Manuscripts catalogue, Arundel MS 263 (seen only as a search summary: 1 paper codex, 283 folios, foliation 283 + 100* + 101*, c. 205 x 290 mm, full digital coverage, Royal Society stamp on f. 2r, presented 1667 by Henry Howard, 6th Duke of Norfolk; host blocked for direct fetch in this session).",
+          "url": "https://searcharchives.bl.uk/catalog/040-002039546"
+        },
+        {
+          "type": "other",
+          "cite": "Royal Society blog, The collector earl, November 2019.",
+          "url": "https://royalsociety.org/blog/2019/11/the-collector-earl/"
+        }
+      ],
+      "check_in": [
+        "British Library catalogue record for Arundel MS 263 (direct read)"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "provenance",
+      "value": {
+        "text": "Bought by the British Museum, 1831",
+        "start": 1831,
+        "end": 1831
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The British Museum bought the volume from the Royal Society in 1831 with 549 other Arundel manuscripts; it passed to the British Library at its separation from the Museum in 1973.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Arundel (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Arundel"
+        },
+        {
+          "type": "other",
+          "cite": "British Library, Archives and Manuscripts catalogue, Arundel MS 263 (seen only as a search summary: 1 paper codex, 283 folios, foliation 283 + 100* + 101*, c. 205 x 290 mm, full digital coverage, Royal Society stamp on f. 2r, presented 1667 by Henry Howard, 6th Duke of Norfolk; host blocked for direct fetch in this session).",
+          "url": "https://searcharchives.bl.uk/catalog/040-002039546"
+        }
+      ],
+      "check_in": [
+        "British Library catalogue record for Arundel MS 263 (direct read)"
+      ]
+    },
+    {
+      "id": "c8",
+      "about": "digital_facsimile",
+      "value": {
+        "text": "British Library digitised manuscripts"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The British Library reports full digital coverage, showing the disbound sheets as bifolia; Wikipedia dates the first online version (Turning the Pages) to 30 January 2007.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "British Library, Archives and Manuscripts catalogue, Arundel MS 263 (seen only as a search summary: 1 paper codex, 283 folios, foliation 283 + 100* + 101*, c. 205 x 290 mm, full digital coverage, Royal Society stamp on f. 2r, presented 1667 by Henry Howard, 6th Duke of Norfolk; host blocked for direct fetch in this session).",
+          "url": "https://searcharchives.bl.uk/catalog/040-002039546"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Arundel (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Arundel"
+        },
+        {
+          "type": "web",
+          "cite": "ZME Science, report on British Library digitisation of the Codex Arundel, 2017.",
+          "url": "https://zmescience.com/science/leonardo-digitized-06092017"
+        }
+      ],
+      "check_in": [
+        "British Library Digitised Manuscripts viewer, URL to record after direct check"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Folio and Italian text of the 1508 note; Arundel 263 f. 1r is commonly cited but not confirmed here.",
+    "When and where the Earl of Arundel obtained the volume (c.1630 or c.1636, Spain or elsewhere) and its link with Pompeo Leoni's heirs."
+  ]
+}

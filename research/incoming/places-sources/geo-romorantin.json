@@ -1,0 +1,77 @@
+{
+  "id": "geo-romorantin",
+  "type": "place",
+  "subtype": "town",
+  "label": "Romorantin",
+  "variants": [
+    "Romorantin Lanthenay",
+    "Romolontino (Leonardo's spelling, to verify)"
+  ],
+  "modern_name": "Romorantin Lanthenay",
+  "region": "Centre Val de Loire (Loir et Cher)",
+  "country": "France",
+  "coords": {
+    "lat": 47.3589,
+    "lon": 1.7436
+  },
+  "within": "geo-loire-valley",
+  "summary": "Town in the Sologne for which Leonardo planned a royal residence and canal works for Francis I (w-romorantin).",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-loire-valley"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 47.3589,
+        "lon": 1.7436
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Romorantin Lanthenay, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Romorantin-Lanthenay"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "leonardo_connection",
+      "value": {
+        "text": "1517 to 1519",
+        "start": 1517,
+        "end": 1519
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Leonardo's plans for a palace and waterworks at Romorantin are dated to his French years from notes in the Codex Arundel and Codex Atlanticus; the dating of individual sheets is interpretive.",
+      "sources": [
+        {
+          "ref": "src-pedretti-1978-atlanticus",
+          "loc": "to locate"
+        },
+        {
+          "type": "model_recall",
+          "cite": "Pedretti, Leonardo da Vinci: The Royal Palace at Romorantin, 1972 (not checked)."
+        }
+      ],
+      "check_in": [
+        "Pedretti 1972, The Royal Palace at Romorantin",
+        "Pedretti 1978, Leonardo architetto (src-pedretti-1978-architetto)"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Leonardo's own spelling of the town name in the manuscripts was not verified."
+  ]
+}

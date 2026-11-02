@@ -1,0 +1,100 @@
+{
+  "id": "w-anghiari-912326",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Rearing horse and heads of horses, a lion and a man",
+  "classification": {
+    "form": "study",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "horse",
+      "battle",
+      "head"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912326",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    },
+    {
+      "rel": "preparatory_for",
+      "target": "w-anghiari"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912326"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912326 (Windsor RL 12326 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912326, Recto: A rearing horse and heads of horses, a lion and a man. Verso: Notes and diagrams on astronomy, c.1503 to 1504. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912326"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "c.1503 to 1504",
+        "start": 1503,
+        "end": 1504
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the sheet c.1503 to 1504. Dating by style and context unless stated otherwise.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912326, Recto: A rearing horse and heads of horses, a lion and a man. Verso: Notes and diagrams on astronomy, c.1503 to 1504. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912326"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "content",
+      "value": {
+        "text": "Comparative study of fury in horse, lion and man"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT reads the sheet as a comparative study of expressions of fury, background research for the Battle of Anghiari.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912326, Recto: A rearing horse and heads of horses, a lion and a man. Verso: Notes and diagrams on astronomy, c.1503 to 1504. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912326"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    }
+  ],
+  "open_questions": [
+    "RCT says RCIN 912327 was originally part of the same sheet; confirm."
+  ]
+}

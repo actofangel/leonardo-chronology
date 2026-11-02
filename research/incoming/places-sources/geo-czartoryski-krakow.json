@@ -1,0 +1,66 @@
+{
+  "id": "geo-czartoryski-krakow",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Czartoryski Museum",
+  "variants": [
+    "Muzeum Książąt Czartoryskich",
+    "National Museum in Kraków, Czartoryski collection"
+  ],
+  "modern_name": "Muzeum Książąt Czartoryskich",
+  "region": "Lesser Poland",
+  "country": "Poland",
+  "coords": {
+    "lat": 50.064666,
+    "lon": 19.939945
+  },
+  "within": "geo-krakow",
+  "summary": "Museum of the Czartoryski collection, Pijarska 15, Kraków, now part of the National Museum in Kraków.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-krakow"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 50.064666,
+        "lon": 19.939945
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Czartoryski Museum, museum digital record citing English Wikipedia (background only).",
+          "url": "https://term.museum-digital.de/md-de/place/67632"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "Lady with an Ermine (w-ermine)",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ]
+}

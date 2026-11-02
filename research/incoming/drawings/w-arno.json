@@ -1,0 +1,216 @@
+{
+  "id": "w-arno",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Arno valley landscape",
+  "variants": [
+    "Landscape drawing for Santa Maria della Neve",
+    "Study of a Tuscan landscape"
+  ],
+  "current_location": "geo-uffizi",
+  "inventory": "Gabinetto Disegni e Stampe degli Uffizi, inv. 8 P",
+  "medium": "Pen and brown ink",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-uffizi",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Gallerie degli Uffizi, Gabinetto Disegni e Stampe, inv. 8 P"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The sheet is in the Gabinetto Disegni e Stampe of the Uffizi under inventory 8 P, as cited in the Louvre 2019 exhibition material.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, Leonardo da Vinci 1452 to 1519, exhibition catalogue and online pages, Paris 2019. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://mini-site.louvre.fr/trimestriel/2019/l%C3%A9onard_de_vinciGB/files/assets/common/downloads/publication.pdf"
+        }
+      ],
+      "check_in": [
+        "Uffizi, Gabinetto Disegni e Stampe, inventory record",
+        "Zöllner 2003, drawings catalogue"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "medium",
+      "value": {
+        "text": "Pen and brown ink"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Pen and brown ink, per the Louvre 2019 exhibition text as excerpted.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, Leonardo da Vinci 1452 to 1519, exhibition catalogue and online pages, Paris 2019. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://mini-site.louvre.fr/trimestriel/2019/l%C3%A9onard_de_vinciGB/files/assets/common/downloads/publication.pdf"
+        }
+      ],
+      "check_in": [
+        "Uffizi inventory record",
+        "Zöllner 2003"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "dimensions",
+      "value": {
+        "text": "to locate"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Sheet dimensions were not found on any page read in this session.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, Leonardo da Vinci 1452 to 1519, exhibition catalogue and online pages, Paris 2019. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://mini-site.louvre.fr/trimestriel/2019/l%C3%A9onard_de_vinciGB/files/assets/common/downloads/publication.pdf"
+        }
+      ],
+      "check_in": [
+        "Uffizi inventory record",
+        "Zöllner 2003"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "inscription",
+      "value": {
+        "text": "Dì di santa Maria della neve / addj 5 daghossto 1473"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Inscription at upper left, written right to left in mirror script: 'Dì di s[an]ta Maria della neve / addj 5 daghossto 1473' ('The day of Santa Maria della Neve, on the 5th of August 1473'). The translation is the compiler's.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Lombardia Beni Culturali, photographic record of the drawing, transcription of the inscription. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://lombardiabeniculturali.it/fotografie/schede-complete/IMM-4t060-0000493"
+        },
+        {
+          "type": "other",
+          "cite": "Alessandro Nova, 'ADDJ 5 DAGHOSSTO 1473', essay on the inscription, Heidelberg ART Dok. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://archiv.ub.uni-heidelberg.de/artdok/id/eprint/5525/contents"
+        }
+      ],
+      "check_in": [
+        "Uffizi record",
+        "Zöllner 2003",
+        "Nova essay, full text",
+        "Richter 1883 or Pedretti 1977, transcription"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "date",
+      "value": {
+        "text": "5 August 1473",
+        "start": 1473.59,
+        "end": 1473.59
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The date 5 August 1473 is written on the sheet; this dates the inscription, and by usual inference the drawing.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, Leonardo da Vinci 1452 to 1519, exhibition catalogue and online pages, Paris 2019. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://mini-site.louvre.fr/trimestriel/2019/l%C3%A9onard_de_vinciGB/files/assets/common/downloads/publication.pdf"
+        }
+      ],
+      "check_in": [
+        "Uffizi record",
+        "Zöllner 2003"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "inscription_verso",
+      "value": {
+        "text": "Io Morando d'Antonio sono chontento"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "A second note on the verso, written left to right, is reported as 'Io Morando d'Antoni[o] sono chontento' ('I, Morando d'Antonio, am content'). Its hand and meaning are not established here.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "arte.it, Leonardo, Paesaggio, catalogue page. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.arte.it/leonardo/loc/paesaggio-2657"
+        }
+      ],
+      "check_in": [
+        "Uffizi record",
+        "Nova essay",
+        "Zöllner 2003"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "content",
+      "value": {
+        "text": "Valdinievole and Padule di Fucecchio seen from Montalbano"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The view is identified as the Valdinievole and the Padule di Fucecchio seen from Montalbano; other texts say only that it is a landscape in the Arno valley, probably near Vinci. The identification of the view is an interpretation.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Museo Galileo, itinerary 'Youthful period in Florence'. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/YouthfulPeriodFlorence.html"
+        },
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, Leonardo da Vinci 1452 to 1519, exhibition catalogue and online pages, Paris 2019. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://mini-site.louvre.fr/trimestriel/2019/l%C3%A9onard_de_vinciGB/files/assets/common/downloads/publication.pdf"
+        }
+      ],
+      "check_in": [
+        "Zöllner 2003",
+        "Nova essay"
+      ]
+    },
+    {
+      "id": "c8",
+      "about": "ambidexterity",
+      "value": {
+        "text": "Inscription and verso note in different directions"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Press reports of 2019 Uffizi studies took the two directions of writing (mirror script on the recto, conventional on the verso) as evidence that Leonardo wrote with both hands. This is a reading, not a statement on the sheet.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Artnet News, report on 2019 study of the 1473 landscape. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://news.artnet.com/art-world/leonardo-da-vinci-ambidextrous-1512265?amp=1"
+        }
+      ],
+      "check_in": [
+        "published Uffizi study of 2019"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Does the verso note 'Io Morando d'Antonio sono chontento' belong to Leonardo's hand, and what does it record?",
+    "An online copy of Richter's English text was reported to read a different day ('August the 2nd'). Check whether that is a transcription error in the online copy or in Richter 1883."
+  ]
+}

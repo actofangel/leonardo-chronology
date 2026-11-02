@@ -1,0 +1,70 @@
+{
+  "id": "geo-santa-maria-nuova",
+  "type": "place",
+  "subtype": "building",
+  "label": "Santa Maria Nuova, Florence",
+  "variants": [
+    "Ospedale di Santa Maria Nuova",
+    "Spedale di Santa Maria Nuova"
+  ],
+  "modern_name": "Ospedale di Santa Maria Nuova",
+  "region": "Tuscany",
+  "country": "Italy",
+  "within": "geo-florence",
+  "summary": "Hospital in Florence (Piazza di Santa Maria Nuova); it also kept deposit accounts, and Leonardo had an account there.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-florence"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "bank_account",
+      "value": {
+        "text": "from 1500"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo deposited money at the hospital of Santa Maria Nuova and drew on the account in later years; the account books survive (amounts and dates not checked here).",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard statement in biographies; not checked."
+        }
+      ],
+      "check_in": [
+        "Villata 1999, Santa Maria Nuova deposit records",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "anatomy",
+      "value": {
+        "text": "c.1507 to 1508"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A note by Leonardo on an anatomical sheet at Windsor records his dissection of an old man (the centenarian) who died in the hospital of Santa Maria Nuova (sheet number not checked).",
+      "sources": [
+        {
+          "ref": "src-clayton-philo-2012",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-clark-pedretti-1968",
+          "loc": "RL number to locate"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012, the centenarian sheet",
+        "Royal Collection online catalogue, RL number"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Coordinates not found; the address Piazza di Santa Maria Nuova 1 was found."
+  ]
+}

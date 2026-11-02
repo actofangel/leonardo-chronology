@@ -1,0 +1,47 @@
+{
+  "id": "geo-pavia",
+  "type": "place",
+  "subtype": "city",
+  "label": "Pavia",
+  "variants": [
+    "Ticinum (Latin)"
+  ],
+  "modern_name": "Pavia",
+  "region": "Lombardy",
+  "country": "Italy",
+  "coords": {
+    "lat": 45.1858877,
+    "lon": 9.1565627
+  },
+  "within": "geo-lombardy",
+  "summary": "University town of the Duchy of Milan; named in the inventory as a place of Leonardo's anatomical work with Marcantonio della Torre (pe-torre).",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-lombardy"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 45.1858877,
+        "lon": 9.1565627
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search. Sources found differ by about 0.01 degree.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Pavia, coordinate site found by search (background only).",
+          "url": "https://www.latlong.net/place/pavia-lombardy-italy-29971.html"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

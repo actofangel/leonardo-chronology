@@ -3,6 +3,18 @@
   "type": "work",
   "subtype": "anatomy",
   "label": "Skull studies",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "pen_and_ink"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "anatomy"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check form, technique, support and condition against the holding institution's record or a catalogue raisonné (Marani 2000, Zöllner 2003; for manuscripts, the Edizione Nazionale or Pedretti)."
+  },
   "claims": [
     {
       "id": "c1",
@@ -22,7 +34,126 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "content",
+      "value": {
+        "text": "Group: RCIN 919057, 919058, 919059"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The 1489 skull studies at Windsor include RCIN 919057 (skull sectioned / cranium), 919058 (cranium sectioned / skull sectioned) and 919059 (cranium / notes on topics to be investigated).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919057, Recto: The skull sectioned. Verso: The cranium, 1489. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919057"
+        },
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919059, Recto: The cranium. Verso: Notes on topics to be investigated, 1489. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919059"
+        },
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919058. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://col.rct.uk/collection/919058/recto-the-cranium-sectioned-verso-the-skull-sectioned"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012",
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "inscription",
+      "value": {
+        "text": "'On the 2nd day of April 1489'; later 'Book entitled On the Human Figure'"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "RCT translation: at the top of RCIN 919059 Leonardo wrote 'On the 2nd day of April 1489', adding later 'Book entitled On the Human Figure'. The Italian text was not read in this session.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919059, Recto: The cranium. Verso: Notes on topics to be investigated, 1489. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919059"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012",
+        "Richter 1883 or Pedretti 1977 for the Italian"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "2 April 1489",
+        "start": 1489.25,
+        "end": 1489.25
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The date 2 April 1489 is written on RCIN 919059; the other skull sheets are dated 1489 by association.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919059, Recto: The cranium. Verso: Notes on topics to be investigated, 1489. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919059"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "manuscript",
+      "value": {
+        "text": "Anatomical Manuscript B"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT assigns the sheets to the reconstructed 'Anatomical Manuscript B', a notebook of 44 folios used around 1489 and around 1508. The reconstruction is a codicological interpretation.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919059, Recto: The cranium. Verso: Notes on topics to be investigated, 1489. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919059"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968",
+        "Clayton and Philo 2012"
+      ]
     }
+  ],
+  "current_location": "geo-royal-collection-windsor",
+  "relations": [
+    {
+      "rel": "parent_of",
+      "target": "w-skull-sectioned-919057",
+      "claim": "c2"
+    },
+    {
+      "rel": "parent_of",
+      "target": "w-cranium-919059",
+      "claim": "c2"
+    },
+    {
+      "rel": "drawn_on",
+      "target": "ms-windsor"
+    }
+  ],
+  "open_questions": [
+    "The draft says 'a dated inscription marks the drawings' (plural). Only RCIN 919059 is reported as dated. Do 919057 and 919058 carry dates?"
   ],
   "timeline": {
     "lane": "works",

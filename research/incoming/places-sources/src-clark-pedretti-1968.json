@@ -1,0 +1,55 @@
+{
+  "id": "src-clark-pedretti-1968",
+  "type": "source",
+  "label": "Clark and Pedretti 1968, The Drawings of Leonardo da Vinci at Windsor Castle",
+  "source_type": "catalogue",
+  "citation": "Clark, Kenneth. The Drawings of Leonardo da Vinci in the Collection of Her Majesty the Queen at Windsor Castle. 2nd ed., revised with the assistance of Carlo Pedretti. 3 vols. London: Phaidon, 1968 to 1969.",
+  "short": "Clark and Pedretti 1968",
+  "language": "en",
+  "url": "https://biblio.ub.uni-heidelberg.de/rubens/Record/KXP-PPN227918460",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Clark, Kenneth. The Drawings of Leonardo da Vinci in the Collection of Her Majesty the Queen at Windsor Castle. 2nd ed., revised with the assistance of Carlo Pedretti. 3 vols. London: Phaidon, 1968 to 1969.",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. Imprint given as London, Phaidon, 1968 in some records and New York, Phaidon, 1968 to 1969 in others. First edition: A Catalogue of the Drawings of Leonardo da Vinci in the Collection of His Majesty the King at Windsor Castle, 2 vols, 1935. Vol. 3 covers RL 19000 to 19152 (Anatomical Manuscripts A, B, C) per one record.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Universitätsbibliothek Heidelberg catalogue record KXP PPN227918460 (seen as search result).",
+          "url": "https://biblio.ub.uni-heidelberg.de/rubens/Record/KXP-PPN227918460"
+        },
+        {
+          "type": "other",
+          "cite": "College of the Holy Cross library record (seen as search result): 2nd ed., revised with assistance of Carlo Pedretti, 3 v.",
+          "url": "https://library.holycross.edu/Record/b1011864"
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "catalogue"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted: catalogue of the Windsor drawings with RL numbers and scholarly apparatus.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ]
+}

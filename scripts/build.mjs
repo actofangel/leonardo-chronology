@@ -13,7 +13,7 @@
 //   extra.json        empty; new records now go in data/
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
-import { ROOT, loadAll, loadView, resolve, LANES, LANE_CONST, isAdmitted } from './lib.mjs';
+import { ROOT, loadAll, loadView, loadVocab, resolve, LANES, LANE_CONST, isAdmitted } from './lib.mjs';
 
 const arg = (name, dflt) => { const i = process.argv.indexOf(name); return i > 0 ? process.argv[i + 1] : dflt; };
 const OUT = path.resolve(ROOT, arg('--out', 'dist'));
@@ -46,6 +46,12 @@ for (const e of entities.values()) {
   for (const c of e.claims || []) { stats.claims++; if (c.status === 'verified') stats.verified++; if (isAdmitted(c, entities)) stats.admittedSourced++; }
 }
 db.stats = stats;
+db.vocab = loadVocab().axes;
+const facets = {};
+for (const e of entities.values()) for (const [axis, val] of Object.entries(e.classification || {})) {
+  for (const v of (Array.isArray(val) ? val : [val])) { facets[axis] = facets[axis] || {}; facets[axis][v] = (facets[axis][v] || 0) + 1; }
+}
+db.facets = facets;
 
 // ---------- chronology records ----------
 const lanes = Object.fromEntries(LANES.map((l) => [l, []]));

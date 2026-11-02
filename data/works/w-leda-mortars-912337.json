@@ -1,0 +1,56 @@
+{
+  "id": "w-leda-mortars-912337",
+  "type": "work",
+  "subtype": "military",
+  "label": "Horse and rider and studies for Leda; mortars bombarding a fortress",
+  "classification": {
+    "form": "sheet_of_studies",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "mythology",
+      "horse",
+      "military"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912337",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    },
+    {
+      "rel": "related_to",
+      "target": "w-leda"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912337"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912337 (Windsor RL 12337 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912337, Recto: A horse and rider and studies for Leda. Verso: Mortars bombarding a fortress. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912337"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Date, medium and size to locate; only the RCT title was seen."
+  ]
+}

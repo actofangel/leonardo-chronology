@@ -1,0 +1,142 @@
+{
+  "id": "w-annunciation-louvre",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Annunciation predella (Louvre)",
+  "current_location": "geo-louvre",
+  "inventory": "MI 598",
+  "summary": "Small Annunciation panel in the Louvre (MI 598), central part of the predella of the Verrocchio altarpiece for Pistoia Cathedral, catalogued by the Louvre as Lorenzo di Credi.",
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1475,
+    "end": 1479,
+    "date": "c.1475 to 1479",
+    "tier": "S",
+    "place": "Florence, now Louvre",
+    "text": "Predella panel of the Verrocchio altarpiece for Pistoia Cathedral. Its attribution is divided between Lorenzo di Credi and the young Leonardo.",
+    "basis": "Louvre dating of the altarpiece; attribution disputed."
+  },
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre",
+      "claim": "c1"
+    },
+    {
+      "rel": "part_of",
+      "target": "w-pistoia-altarpiece",
+      "claim": "c2"
+    },
+    {
+      "rel": "attributed_to",
+      "target": "pe-lorenzo-di-credi",
+      "claim": "c3"
+    },
+    {
+      "rel": "workshop_of",
+      "target": "pe-verrocchio",
+      "claim": "c2"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": "Paris, Musée du Louvre, MI 598",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre lists L'Annonciation, MI 598, attributed to Lorenzo di Credi, former attribution Leonardo da Vinci.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, MI 598. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010064973"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "relation",
+      "value": "Central part of the predella of the Pistoia altarpiece",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Louvre states the panel belongs to the predella of the altarpiece begun by Verrocchio around 1475 to 1477 for a chapel of Pistoia Cathedral; the Miracle of Saint Donatus in the Worcester Art Museum is the right hand fragment.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, MI 598. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010064973"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "attribution",
+      "value": "Lorenzo di Credi",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Louvre attributes it to Lorenzo di Credi (proportions, expressions and drapery modelling closer to Credi).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, MI 598. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010064973"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "attribution",
+      "value": "Leonardo, or collaboration Leonardo and Credi",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "The Louvre notes specialists are divided between Credi alone, Leonardo alone, or a collaboration of the two.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, MI 598. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010064973"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": "Campana collection, Rome; bought 1861; Louvre 1863",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Resurfaced in Rome in 1858 in the Campana collection (catalogued there as Ghirlandaio); bought by the Louvre in 1861; entered the museum in 1863, when Reiset gave it to Lorenzo di Credi.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, MI 598. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010064973"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Dating of the predella panel itself (the Louvre gives the altarpiece c.1475 to 1477; the documents of the Pistoia altarpiece should be checked)."
+  ]
+}

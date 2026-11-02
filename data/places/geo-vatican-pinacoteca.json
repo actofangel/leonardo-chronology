@@ -1,0 +1,65 @@
+{
+  "id": "geo-vatican-pinacoteca",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Pinacoteca Vaticana",
+  "variants": [
+    "Vatican Pinacoteca",
+    "Musei Vaticani, Pinacoteca"
+  ],
+  "modern_name": "Pinacoteca Vaticana",
+  "country": "Vatican City",
+  "coords": {
+    "lat": 41.9051,
+    "lon": 12.455
+  },
+  "within": "geo-vatican",
+  "summary": "Picture gallery of the Vatican Museums.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-vatican"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 41.9051,
+        "lon": 12.455
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Musei Vaticani, CDLI collection page map point (complex, not the Pinacoteca building; background only).",
+          "url": "https://cdli.earth/collections/633"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "St Jerome (w-jerome)",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ]
+}

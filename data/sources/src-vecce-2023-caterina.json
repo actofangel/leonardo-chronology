@@ -1,0 +1,70 @@
+{
+  "id": "src-vecce-2023-caterina",
+  "type": "source",
+  "label": "Vecce 2023, Il sorriso di Caterina",
+  "source_type": "other",
+  "citation": "Vecce, Carlo. Il sorriso di Caterina: la madre di Leonardo. Firenze: Giunti, 2023.",
+  "short": "Vecce 2023",
+  "language": "it",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Vecce, Carlo. Il sorriso di Caterina: la madre di Leonardo. Firenze: Giunti, 2023.",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. Search budget for this session ran out before this record could be checked against a catalogue; every element of the citation is from model recall.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Vecce, Il sorriso di Caterina, Giunti, 2023 (not checked)."
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": false,
+        "source_type": "other"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Not admitted as ground in itself: a novel based on archival research. The archival document it draws on (a notarial act of 1452 concerning the freeing of a slave named Caterina, written by Ser Piero da Vinci, as reported) is admissible once cited from the archive or from a scholarly publication of its text.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "identification",
+      "value": "Caterina of the 1452 manumission act is Leonardo's mother",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "Vecce's identification of Leonardo's mother with an enslaved Circassian woman named Caterina, freed by an act drawn up by Ser Piero in 1452, is an interpretation and has been debated.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Press coverage of March 2023 (not checked)."
+        }
+      ],
+      "check_in": [
+        "Archivio di Stato di Firenze, Notarile antecosimiano, Ser Piero da Vinci, act of 1452, locator to locate",
+        "Any scholarly article by Vecce publishing the document text"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Has Vecce published the 1452 document with full archival locator in a peer reviewed venue? Cite that as archive_publication if so."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "geo-florence-cathedral",
+  "type": "place",
+  "subtype": "building",
+  "label": "Florence Cathedral",
+  "variants": [
+    "Santa Maria del Fiore",
+    "Duomo di Firenze"
+  ],
+  "country": "Italy",
+  "within": "geo-florence",
+  "summary": "Cathedral of Florence, named in the inventory as the site of the Pazzi conspiracy attack of 26 April 1478 (h-pazzi).",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-florence"
+    }
+  ],
+  "open_questions": [
+    "Coordinates not sourced."
+  ]
+}

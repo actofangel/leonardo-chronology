@@ -1,0 +1,55 @@
+{
+  "id": "src-syson-2011",
+  "type": "source",
+  "label": "Syson et al. 2011, Leonardo da Vinci: Painter at the Court of Milan",
+  "source_type": "monograph",
+  "citation": "Syson, Luke, with Larry Keith, et al. Leonardo da Vinci: Painter at the Court of Milan. London: National Gallery Company; distributed by Yale University Press, 2011. 319 p. ISBN 9781857094916 (hardback); 9781857094909 (paperback).",
+  "short": "Syson 2011",
+  "language": "en",
+  "url": "https://lib.ecu.edu/catalog-preview/catalog/2995246",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Syson, Luke, with Larry Keith, et al. Leonardo da Vinci: Painter at the Court of Milan. London: National Gallery Company; distributed by Yale University Press, 2011. 319 p. ISBN 9781857094916 (hardback); 9781857094909 (paperback).",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. Page count given as 319 or 320 in different records.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "East Carolina University library record (seen as search result).",
+          "url": "https://lib.ecu.edu/catalog-preview/catalog/2995246"
+        },
+        {
+          "type": "other",
+          "cite": "Renaissance Quarterly review listing: New Haven, Yale University Press, 2011, 320 pp., ISBN 9781857094916 (seen as search result).",
+          "url": "https://www.cambridge.org/core/journals/renaissance-quarterly/article/luke-syson-leonardo-da-vinci-painter-at-the-court-of-milan-new-haven-yale-university-press-2011-320-pp-65-isbn-9781857094916-rachel-billinge-jill-dunkerton-and-larry-keith-national-gallery-technical-bulletin-vol-32-leonardo-da-vinci-pupil-painter-and-master-new-haven-yale-university-press-2011-112-pp-169-color-illus-70-isbn-9781857095302/CA2BC0189CE2E7FA5450C05E488EDCDB"
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "monograph"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted: exhibition catalogue with scholarly entries and technical research from the National Gallery, London; classed as monograph (it is not a catalogue raisonné).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ]
+}

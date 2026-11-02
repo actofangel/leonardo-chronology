@@ -1,0 +1,16 @@
+{
+  "id": "geo-turin",
+  "type": "place",
+  "subtype": "city",
+  "label": "Turin",
+  "variants": [
+    "Torino"
+  ],
+  "modern_name": "Torino",
+  "region": "Piedmont",
+  "country": "Italy",
+  "summary": "City in Piedmont; seat of the Biblioteca Reale.",
+  "open_questions": [
+    "City centre coordinates not yet sourced."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "geo-vinci",
+  "type": "place",
+  "subtype": "town",
+  "label": "Vinci",
+  "variants": [
+    "Vinci (Firenze)"
+  ],
+  "modern_name": "Vinci",
+  "region": "Tuscany",
+  "country": "Italy",
+  "coords": {
+    "lat": 43.78417,
+    "lon": 10.92472
+  },
+  "within": "geo-tuscany",
+  "summary": "Hill town west of Florence from which Leonardo's family took its name; the family household of his grandfather Antonio was there.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-tuscany"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 43.78417,
+        "lon": 10.92472
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Vinci, Tuscany, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Vinci,_Tuscany"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "leonardo_connection",
+      "value": {
+        "text": "1452 to c.1464",
+        "start": 1452,
+        "end": 1464
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo is listed as a member of his grandfather Antonio's household at Vinci in the Florentine tax return (catasto) of 1457.",
+      "sources": [
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-beltrami-1919",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, documents for 1457",
+        "Beltrami 1919, document for 1457"
+      ],
+      "bearing": "Supports pl-vinci and e-1457."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "geo-uffizi",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Gallerie degli Uffizi",
+  "variants": [
+    "Uffizi",
+    "Galleria degli Uffizi",
+    "Gabinetto dei Disegni e delle Stampe"
+  ],
+  "modern_name": "Gallerie degli Uffizi",
+  "region": "Tuscany",
+  "country": "Italy",
+  "coords": {
+    "lat": 43.7683,
+    "lon": 11.2553
+  },
+  "within": "geo-florence",
+  "summary": "Museum in Florence; its drawings department holds the 1473 Arno landscape.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-florence"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 43.7683,
+        "lon": 11.2553
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Uffizi, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Uffizi"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "Annunciation (w-annunciation), Adoration of the Magi (w-magi), Baptism of Christ with Verrocchio (w-baptism), Arno landscape drawing (w-arno)",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ]
+}

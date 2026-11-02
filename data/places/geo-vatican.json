@@ -1,0 +1,47 @@
+{
+  "id": "geo-vatican",
+  "type": "place",
+  "subtype": "district",
+  "label": "Vatican",
+  "variants": [
+    "Vaticano",
+    "Città del Vaticano"
+  ],
+  "modern_name": "Vatican City",
+  "country": "Vatican City",
+  "coords": {
+    "lat": 41.9027,
+    "lon": 12.4541
+  },
+  "within": "geo-rome",
+  "summary": "Papal palace complex on the Vatican hill in Rome; in Leonardo's time part of Rome, today a separate state.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-rome"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 41.9027,
+        "lon": 12.4541
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Vatican City, coordinate list found by search (background only).",
+          "url": "https://time-ok.com/coordinates/vatican"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

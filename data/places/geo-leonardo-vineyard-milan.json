@@ -1,0 +1,172 @@
+{
+  "id": "geo-leonardo-vineyard-milan",
+  "type": "place",
+  "subtype": "site",
+  "label": "Leonardo's vineyard, Porta Vercellina",
+  "variants": [
+    "Vigna di Leonardo",
+    "Vigna di Porta Vercellina",
+    "Casa degli Atellani garden"
+  ],
+  "modern_name": "Vigna di Leonardo, Casa degli Atellani, Corso Magenta",
+  "region": "Lombardy",
+  "country": "Italy",
+  "coords": {
+    "lat": 45.4656,
+    "lon": 9.171
+  },
+  "within": "geo-milan",
+  "summary": "Plot of vineyard outside the Porta Vercellina of Milan, near Santa Maria delle Grazie, given to Leonardo by Ludovico Sforza.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-milan"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 45.4656,
+        "lon": 9.171
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search. Point is the Casa degli Atellani, behind which the replanted vineyard lies; the extent of the original plot is not mapped here.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Casa Atellani, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Casa_Atellani"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "grant",
+      "value": {
+        "text": "26 April 1499",
+        "date": 1499.32
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Web sources state that Ludovico Sforza's gift of the vineyard was confirmed by a ducal letter dated 26 April 1499.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Leonardo da Vinci's Vineyard, English Wikipedia (background only).",
+          "url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci%27s_Vineyard"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, document of 26 April 1499",
+        "Beltrami 1919, document of 1499"
+      ],
+      "bearing": "Supports e-vineyard."
+    },
+    {
+      "id": "c3",
+      "about": "grant",
+      "value": {
+        "text": "possession from 1497 or 1498"
+      },
+      "layer": "interpretation",
+      "status": "disputed",
+      "statement": "Some accounts date Leonardo's possession of the vineyard earlier than the 1499 letter (August 1497, or 1498), on the basis of a later document about a neighbouring property; no deed of transfer is said to survive.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Fondo Ambiente Italiano, La Vigna di Leonardo (background only).",
+          "url": "https://fondoambiente.it/luoghi/la-vigna-di-leonardo"
+        },
+        {
+          "ref": "src-nicholl-2004",
+          "loc": "chapter on the vineyard, page to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, documents 1497 to 1499 on the vineyard"
+      ],
+      "alternative_to": [
+        "c2"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "area",
+      "value": {
+        "text": "about 15 or 16 pertiche milanesi (about 1 hectare)"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "The plot is given as about 16 pertiche by FAI and other sources, and as about 15 pertiche (about one hectare) by English Wikipedia.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Fondo Ambiente Italiano, La Vigna di Leonardo (background only).",
+          "url": "https://fondoambiente.it/luoghi/la-vigna-di-leonardo"
+        },
+        {
+          "type": "web",
+          "cite": "Leonardo da Vinci's Vineyard, English Wikipedia (background only).",
+          "url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci%27s_Vineyard"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, 1499 document, measurement as stated"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "confiscation",
+      "value": {
+        "text": "1502",
+        "date": 1502
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "English Wikipedia states that the French administration confiscated the vineyard in 1502 and assigned it to Leonardo Biglia; Leonardo later recovered it (recovery date not checked).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Leonardo da Vinci's Vineyard, English Wikipedia (background only).",
+          "url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci%27s_Vineyard"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, documents 1502 and 1507 on the vineyard"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "will",
+      "value": {
+        "text": "1519"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo's will of 23 April 1519 divides the Milan vineyard between Salai (pe-salai) and Battista de Vilanis (from recall, not checked).",
+      "sources": [
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, will of 23 April 1519"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Date of first possession: 1497, 1498 or 26 April 1499?",
+    "Area: 15 or 16 pertiche?"
+  ]
+}

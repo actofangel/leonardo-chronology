@@ -1,0 +1,216 @@
+{
+  "id": "ms-ashburnham-2038",
+  "type": "manuscript",
+  "subtype": "separated_leaves",
+  "label": "Ashburnham 2038",
+  "variants": [
+    "Codex Ashburnham 2038",
+    "Institut de France Ms. 2185"
+  ],
+  "summary": "Leaves removed from Paris Manuscript A by Guglielmo Libri, sold to the Earl of Ashburnham as no. 2038, now Institut de France Ms. 2185.",
+  "holding": "geo-institut-de-france",
+  "shelfmark": "Ms. 2185 (formerly Ashburnham 2038)",
+  "folios": "to locate",
+  "dimensions": "to locate",
+  "history": [
+    "Paris Manuscript A",
+    "removed by Guglielmo Libri before 1848",
+    "sold to Bertram, 4th Earl of Ashburnham, 1847",
+    "Libri convicted in absentia, 1850",
+    "sold by the 5th Earl to the Bibliotheque nationale, 1888",
+    "Institut de France (1890 per one source)"
+  ],
+  "relations": [
+    {
+      "rel": "separated_from",
+      "target": "ms-paris-a",
+      "claim": "c1"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-institut-de-france",
+      "claim": "c1"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-guglielmo-libri",
+      "claim": "c4"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-bertram-ashburnham",
+      "claim": "c4"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "identity",
+      "value": {
+        "text": "Formerly part of Manuscript A, now Institut Ms. 2185"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Ashburnham 2038 is taken to be the leaves from Manuscript A, now Institut Ms. 2185. This pairing combines a listing that gives 2037 from B and 2038 from A with the Institut records that bind B with Ms. 2184 (facsimile of mss B 2173 and 2184) and A with Ms. 2185 (Manuscript A, Ms. 2172 and Ms. 2185).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Paris, Institut de France, Ashburnham 2037 and Ashburnham 2038.",
+          "url": "https://www.facsimilefinder.com/facsimiles/codex-ashburnham-facsimile"
+        },
+        {
+          "type": "other",
+          "cite": "Bibliotheques numeriques du Ministere des Armees, record of Manuscrit B, fac simile des mss B 2173 et 2184 de l'Institut de France (Grenoble, 1960).",
+          "url": "https://bibliotheques-numeriques.defense.gouv.fr/impression/document/7c2d9d23-26af-43c2-8978-c6ecb6e39843"
+        },
+        {
+          "type": "web",
+          "cite": "University of Virginia NEH Institute site, Manuscripts A to M (list of Institut de France manuscripts with Ms. numbers and datings).",
+          "url": "https://uva.theopenscholar.com/neh-institute/manuscripts-m"
+        }
+      ],
+      "check_in": [
+        "Delisle 1888",
+        "Marinoni edition of the Institut de France manuscripts (Giunti, 1986 to 1990), introduction to the volume",
+        "Bibliotheque de l'Institut de France catalogue"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identity",
+      "value": {
+        "text": "Reverse pairing reported"
+      },
+      "layer": "interpretation",
+      "status": "disputed",
+      "statement": "Another listing among the facsimile and popular pages consulted pairs 2038 with B and 2037 with A (the search summary did not make clear which page); this conflicts with the Institut shelfmark evidence.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Paris, Institut de France, Ashburnham 2037 and Ashburnham 2038.",
+          "url": "https://www.facsimilefinder.com/facsimiles/codex-ashburnham-facsimile"
+        },
+        {
+          "type": "web",
+          "cite": "Facsimiles.com, Leonardo da Vinci, Codex Ashburnham (Vol. I 15.0 x 22.0 cm, 68 pages; Vol. II 16.0 x 23.0 cm, 20 pages).",
+          "url": "https://www.facsimiles.com/facsimiles/leonardo-da-vinci-codex-ashburnham"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Codex Ashburnham I and II (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/codex-ashburnham/"
+        }
+      ],
+      "check_in": [
+        "Delisle 1888",
+        "Marinoni edition of the Institut de France manuscripts (Giunti, 1986 to 1990), introduction to the volume"
+      ],
+      "alternative_to": [
+        "c1"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "identity",
+      "value": {
+        "text": "Codex Ashburnham I or II"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The labels Codex Ashburnham I and II are applied inconsistently in the sources consulted; this record therefore uses the Ashburnham number.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Facsimiles.com, Leonardo da Vinci, Codex Ashburnham (Vol. I 15.0 x 22.0 cm, 68 pages; Vol. II 16.0 x 23.0 cm, 20 pages).",
+          "url": "https://www.facsimiles.com/facsimiles/leonardo-da-vinci-codex-ashburnham"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Codex Ashburnham I and II (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/codex-ashburnham/"
+        }
+      ],
+      "check_in": [
+        "Marinoni edition of the Institut de France manuscripts (Giunti, 1986 to 1990), introduction to the volume"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": {
+        "text": "Libri to Ashburnham, March 1847"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Libri sold 1923 manuscripts, among them the Leonardo leaves, to Bertram, 4th Earl of Ashburnham, for 8000 pounds in March 1847; Libri was convicted in absentia by a French court in 1850.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Bertram Ashburnham, 4th Earl of Ashburnham (background only).",
+          "url": "https://en.wikipedia.org/wiki/Bertram_Ashburnham,_4th_Earl_of_Ashburnham"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Codex Ashburnham I and II (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/codex-ashburnham/"
+        }
+      ],
+      "check_in": [
+        "Delisle 1888"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": {
+        "text": "Returned to France, 1888"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "After a dispute with Leopold Delisle, the 5th Earl sold the Libri manuscripts to the Bibliotheque nationale in 1888; the Leonardo leaves went to the Institut (1890 according to one source).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Bertram Ashburnham, 4th Earl of Ashburnham (background only).",
+          "url": "https://en.wikipedia.org/wiki/Bertram_Ashburnham,_4th_Earl_of_Ashburnham"
+        },
+        {
+          "type": "other",
+          "cite": "Delisle, Leopold, Catalogue des manuscrits des fonds Libri et Barrois, Paris, 1888 (Open Library record).",
+          "url": "https://openlibrary.org/books/OL179702M"
+        },
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Paris, Institut de France, Ashburnham 2037 and Ashburnham 2038.",
+          "url": "https://www.facsimilefinder.com/facsimiles/codex-ashburnham-facsimile"
+        }
+      ],
+      "check_in": [
+        "Delisle 1888"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "dimensions",
+      "value": {
+        "text": "Facsimile figures: Vol. I 15.0 x 22.0 cm, 68 pages; Vol. II 16.0 x 23.0 cm, 20 pages"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "A facsimile listing gives these figures for the two Ashburnham volumes without making clear which number each volume is.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Facsimiles.com, Leonardo da Vinci, Codex Ashburnham (Vol. I 15.0 x 22.0 cm, 68 pages; Vol. II 16.0 x 23.0 cm, 20 pages).",
+          "url": "https://www.facsimiles.com/facsimiles/leonardo-da-vinci-codex-ashburnham"
+        }
+      ],
+      "check_in": [
+        "Marinoni edition of the Institut de France manuscripts (Giunti, 1986 to 1990), introduction to the volume"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Which of the two volumes is called Codex Ashburnham I, and folio count of Ashburnham 2038."
+  ]
+}

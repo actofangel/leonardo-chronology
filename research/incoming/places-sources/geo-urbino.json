@@ -1,0 +1,40 @@
+{
+  "id": "geo-urbino",
+  "type": "place",
+  "subtype": "town",
+  "label": "Urbino",
+  "variants": [
+    "Urbinum (Latin)"
+  ],
+  "modern_name": "Urbino",
+  "region": "Marche",
+  "country": "Italy",
+  "coords": {
+    "lat": 43.72639,
+    "lon": 12.63639
+  },
+  "summary": "Ducal town taken by Cesare Borgia in June 1502; Leonardo was there in the summer of 1502.",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 43.72639,
+        "lon": 12.63639
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Urbino, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Urbino"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

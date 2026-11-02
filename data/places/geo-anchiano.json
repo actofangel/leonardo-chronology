@@ -1,0 +1,72 @@
+{
+  "id": "geo-anchiano",
+  "type": "place",
+  "subtype": "hamlet",
+  "label": "Anchiano",
+  "variants": [
+    "Anchiano di Vinci",
+    "Casa natale di Leonardo"
+  ],
+  "modern_name": "Anchiano (Vinci)",
+  "region": "Tuscany",
+  "country": "Italy",
+  "coords": {
+    "lat": 43.79917,
+    "lon": 10.93806
+  },
+  "within": "geo-vinci",
+  "summary": "Hamlet about 3 km north of Vinci where a house is shown as Leonardo's birthplace (Casa natale).",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-vinci"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 43.79917,
+        "lon": 10.93806
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search. The same pair is attached to the house said to be Leonardo's birthplace, about 3 km north of Vinci; no separate house coordinate was found.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Anchiano, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Anchiano"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "birthplace",
+      "value": "Anchiano as place of birth",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The identification of the Anchiano house as the place of Leonardo's birth is a local tradition. Antonio da Vinci's family note records the birth and baptism but, as far as checked here, does not name Anchiano.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Case della Memoria, Leonardo da Vinci, Casa natale, Località Anchiano (museum network page).",
+          "url": "https://www.casedellamemoria.it/en/associated-homes/leonardo-da-vinci.html"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the 1452 note of Antonio da Vinci",
+        "Vecce 1998 (src-vecce-1998), chapter on birth"
+      ],
+      "bearing": "Affects e-birth, whose place field reads 'Anchiano, near Vinci'."
+    }
+  ],
+  "open_questions": [
+    "Does any fifteenth century document place Leonardo's birth at Anchiano rather than in or near Vinci generally? When is the Anchiano tradition first recorded?"
+  ]
+}

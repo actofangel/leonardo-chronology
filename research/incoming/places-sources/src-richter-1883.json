@@ -1,0 +1,55 @@
+{
+  "id": "src-richter-1883",
+  "type": "source",
+  "label": "Richter 1883, The Literary Works of Leonardo da Vinci",
+  "source_type": "edition",
+  "citation": "Richter, Jean Paul (comp. and ed.). The Literary Works of Leonardo da Vinci, Compiled and Edited from the Original Manuscripts. 2 vols. London: Sampson Low, Marston, Searle and Rivington, 1883.",
+  "short": "Richter 1883",
+  "language": "en",
+  "url": "https://catalogue.nli.ie/Record/vtls000394618",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Richter, Jean Paul (comp. and ed.). The Literary Works of Leonardo da Vinci, Compiled and Edited from the Original Manuscripts. 2 vols. London: Sampson Low, Marston, Searle and Rivington, 1883.",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. Reprinted by Dover, 1970 (as The Notebooks of Leonardo da Vinci).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Library of Ireland catalogue record (seen as search result).",
+          "url": "https://catalogue.nli.ie/Record/vtls000394618"
+        },
+        {
+          "type": "other",
+          "cite": "Internet Archive copy, vol. 1 (seen as search result).",
+          "url": "https://archive.org/details/literaryworksofl01leonuoft/page/n135/mode/2up"
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "edition"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted with care: an edition of selected passages transcribed and translated from the manuscripts. Transcriptions are primary evidence once checked against the folio; translations and datings are interpretation. Readings are revised by Pedretti 1977.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "w-baroncelli",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Hanged man, Baroncelli",
+  "current_location": "geo-musee-bonnat-bayonne",
+  "medium": "Pen and ink",
+  "dimensions": "19.2 x 7.3 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-musee-bonnat-bayonne",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Musée Bonnat Helleu, Bayonne"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The drawing is in the Musée Bonnat Helleu, Bayonne. The inventory number was not found.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Italian Art Society, image caption: pen and ink, 19.2 x 7.3 cm, Musée Bonnat, Bayonne. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.italianartsociety.org/?p=19047"
+        },
+        {
+          "type": "web",
+          "cite": "Pubhist, Leonardo, work page (192 x 73 mm). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.pubhist.com/w5670"
+        }
+      ],
+      "check_in": [
+        "Musée Bonnat Helleu inventory",
+        "Zöllner 2003",
+        "Louvre 2019 catalogue"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "dimensions",
+      "value": {
+        "text": "19.2 x 7.3 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Pen and ink, 19.2 x 7.3 cm, as given in two web captions.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Italian Art Society, image caption. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.italianartsociety.org/?p=19047"
+        }
+      ],
+      "check_in": [
+        "museum record",
+        "Zöllner 2003"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "identity",
+      "value": {
+        "text": "Bernardo di Bandino Baroncelli, hanged 29 December 1479"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The hanged man is identified as Bernardo di Bandino Baroncelli, executed in Florence on 29 December 1479 for the Pazzi conspiracy. The identification rests on the notes about his clothing and on the execution record; the notes on the sheet were not read in this session.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Bernardo Bandini Baroncelli (background only). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://en.wikipedia.org/wiki/Bernardo_Bandini_Baroncelli"
+        }
+      ],
+      "check_in": [
+        "Zöllner 2003",
+        "Villata 1999 for the execution date",
+        "Richter 1883 for the text of the notes"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "inscription",
+      "value": {
+        "text": "to locate"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The text of the notes on the clothing was not read in this session. The draft calls them a dated inscription; whether the sheet itself carries the date 29 December 1479 is not confirmed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Executed Today, 1479: Bernardo di Bandino Baroncelli. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.executedtoday.com/?p=6526"
+        }
+      ],
+      "check_in": [
+        "Richter 1883",
+        "Zöllner 2003",
+        "Musée Bonnat Helleu record"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Does the sheet carry a date, or is the date 29 December 1479 supplied from the execution record? The draft basis says 'dated inscription'.",
+    "Inventory number at the Musée Bonnat Helleu: the Louvre 2019 catalogue lists Bayonne inv. 656 to 660 for several Leonardo sheets; which one, if any, is this drawing?"
+  ]
+}

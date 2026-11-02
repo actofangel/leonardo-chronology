@@ -1,0 +1,51 @@
+{
+  "id": "src-shell-sironi-1991",
+  "type": "source",
+  "label": "Shell and Sironi 1991, Salaì and Leonardo's Legacy",
+  "source_type": "archive_publication",
+  "citation": "Shell, Janice, and Grazioso Sironi. Salaì and Leonardo's Legacy. The Burlington Magazine 133, no. 1055 (February 1991): pages to verify.",
+  "short": "Shell and Sironi 1991",
+  "language": "en",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Shell, Janice, and Grazioso Sironi. Salaì and Leonardo's Legacy. The Burlington Magazine 133, no. 1055 (February 1991): pages to verify.",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. Search budget for this session ran out before this record could be checked against a catalogue; every element of the citation is from model recall. Title, volume, issue number and pages (recalled as 133, no. 1055, pp. 95 to 108) all require verification on JSTOR or the Burlington Magazine index.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Shell and Sironi, Burlington Magazine, 1991 (not checked)."
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "archive_publication"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted: journal article publishing archival documents, including the 1525 inventory of Salai's estate, from Milanese archives.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Verify exact title, volume, issue and page range on JSTOR."
+  ]
+}

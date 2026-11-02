@@ -1,0 +1,37 @@
+{
+  "id": "geo-parma",
+  "type": "place",
+  "subtype": "city",
+  "label": "Parma",
+  "modern_name": "Parma",
+  "region": "Emilia Romagna",
+  "country": "Italy",
+  "coords": {
+    "lat": 44.7992,
+    "lon": 10.3331
+  },
+  "summary": "City in Emilia; seat of the Galleria Nazionale in the Pilotta complex.",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 44.7992,
+        "lon": 10.3331
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Parma, Radboud University MEDIATE places database found by search (approximate, background only).",
+          "url": "https://mediate-database.rich.ru.nl/persons/places/?page=92"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

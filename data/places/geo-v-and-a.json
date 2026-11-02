@@ -1,0 +1,65 @@
+{
+  "id": "geo-v-and-a",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Victoria and Albert Museum",
+  "variants": [
+    "V&A",
+    "South Kensington Museum (former name)"
+  ],
+  "modern_name": "Victoria and Albert Museum",
+  "country": "United Kingdom",
+  "coords": {
+    "lat": 51.49667,
+    "lon": -0.17194
+  },
+  "within": "geo-london",
+  "summary": "Museum of art and design, South Kensington, London; its National Art Library holds the Forster Codices.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-london"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 51.49667,
+        "lon": -0.17194
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Victoria and Albert Museum, Wikipedia mirror as reported in search results (background only).",
+          "url": "https://episteme.tllm.fr/wiki/V_&_A"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "Codices Forster I, II and III",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ]
+}

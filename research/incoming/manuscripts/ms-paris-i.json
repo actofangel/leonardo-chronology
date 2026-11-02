@@ -1,0 +1,163 @@
+{
+  "id": "ms-paris-i",
+  "type": "manuscript",
+  "subtype": "notebook",
+  "label": "Paris Manuscript I",
+  "variants": [
+    "Manuscript I",
+    "Ms. I",
+    "Institut de France Ms. 2180"
+  ],
+  "summary": "Leonardo notebook in the Bibliotheque de l'Institut de France, Paris, Ms. 2180.",
+  "holding": "geo-institut-de-france",
+  "shelfmark": "Ms. 2180",
+  "folios": "to locate",
+  "dimensions": "to locate",
+  "date_range": {
+    "start": 1497,
+    "end": 1497
+  },
+  "contents": [
+    "Latin grammar and vocabulary",
+    "geometry",
+    "architecture"
+  ],
+  "history": [
+    "Leonardo's papers, Melzi and later owners (route per manuscript to locate)",
+    "Biblioteca Ambrosiana, Milan (donor and date per manuscript to locate; Arconati 1637 for most)",
+    "removed to Paris 1796, Institut de France",
+    "not returned in 1815"
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-institut-de-france",
+      "claim": "c1"
+    },
+    {
+      "rel": "located_in",
+      "target": "geo-paris"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "shelfmark",
+      "value": {
+        "text": "Ms. 2180"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Manuscript I is Institut de France Ms. 2180.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "University of Virginia NEH Institute site, Manuscripts A to M (list of Institut de France manuscripts with Ms. numbers and datings).",
+          "url": "https://uva.theopenscholar.com/neh-institute/manuscripts-m"
+        }
+      ],
+      "check_in": [
+        "Bibliotheque de l'Institut de France catalogue",
+        "Marinoni edition of the Institut de France manuscripts (Giunti, 1986 to 1990), introduction to the volume"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "1497",
+        "start": 1497,
+        "end": 1497
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Listed as dated 1497 (internal dates). The dated folios must be identified.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "University of Virginia NEH Institute site, Manuscripts A to M (list of Institut de France manuscripts with Ms. numbers and datings).",
+          "url": "https://uva.theopenscholar.com/neh-institute/manuscripts-m"
+        }
+      ],
+      "check_in": [
+        "Marinoni edition of the Institut de France manuscripts (Giunti, 1986 to 1990), introduction to the volume",
+        "Folios with dated notes: to locate"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "content",
+      "value": {
+        "text": "Latin grammar and vocabulary, geometry, architecture"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Main subjects listed from model recall (the first draft for B); to be checked against the edition before display.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Model recall (unverified); listed for orientation only."
+        }
+      ],
+      "check_in": [
+        "Marinoni edition of the Institut de France manuscripts (Giunti, 1986 to 1990), introduction to the volume"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": {
+        "text": "Taken from the Ambrosiana to Paris, 1796; not returned in 1815"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The Institut notebooks were among the Leonardo manuscripts removed from the Ambrosiana by the French in 1796 and not returned in 1815.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Academie des sciences, conference document on the Leonardo manuscripts of the Institut (5a7, 26 March 2019).",
+          "url": "https://www.academie-sciences.fr/pdf/conf/5a7_260319.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Atlanticus (background only, not grounds).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Atlanticus"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Paris Manuscripts A to M (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/paris-manuscripts/"
+        }
+      ],
+      "check_in": [
+        "Ravaisson Mollien facsimile edition of the Institut de France manuscripts (1881 to 1891)",
+        "Marinoni edition of the Institut de France manuscripts (Giunti, 1986 to 1990), introduction to the volume"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "digital_facsimile",
+      "value": {
+        "text": "To locate"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "No official digital facsimile page of the Institut (for example its digital library) was reached in this session; e-Leo includes Institut manuscripts according to its own description.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Studi sulla Formazione 23 (2020), article on L'archivio digitale E-leo della Biblioteca leonardiana.",
+          "url": "https://oajournals.fupress.net/index.php/sf/article/view/11804"
+        }
+      ],
+      "check_in": [
+        "Bibliotheque de l'Institut de France digital library",
+        "e-Leo list of codices"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Folio count and dimensions of Manuscript I: to locate in the Institut catalogue or Marinoni 1986 to 1990.",
+    "Donor and date of entry of Manuscript I into the Ambrosiana."
+  ]
+}

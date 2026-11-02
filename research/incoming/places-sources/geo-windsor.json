@@ -1,0 +1,13 @@
+{
+  "id": "geo-windsor",
+  "type": "place",
+  "subtype": "town",
+  "label": "Windsor",
+  "modern_name": "Windsor",
+  "region": "Berkshire",
+  "country": "United Kingdom",
+  "summary": "Town west of London containing Windsor Castle, home of the Royal Library.",
+  "open_questions": [
+    "Town coordinates not yet sourced; see geo-royal-collection-windsor for the castle."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "geo-vaprio-d-adda",
+  "type": "place",
+  "subtype": "town",
+  "label": "Vaprio d'Adda",
+  "variants": [
+    "Vaprio",
+    "Villa Melzi, Vaprio"
+  ],
+  "modern_name": "Vaprio d'Adda",
+  "region": "Lombardy",
+  "country": "Italy",
+  "coords": {
+    "lat": 45.5768405,
+    "lon": 9.5311364
+  },
+  "within": "geo-lombardy",
+  "summary": "Town on the Adda river east of Milan, seat of the Melzi family villa.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-lombardy"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 45.5768405,
+        "lon": 9.5311364
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Vaprio d'Adda, route site found by search (background only); Wikipedia gives rounded 45.583, 9.533.",
+          "url": "https://calcolopercorso.it/it/distanza/Forlì/Vaprio-d-Adda"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "leonardo_connection",
+      "value": {
+        "text": "c.1511 to 1513",
+        "start": 1511,
+        "end": 1513
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Leonardo is generally said to have stayed at the Melzi villa at Vaprio in the years before his departure for Rome; the precise dates rest on notes and drawings whose dating is itself interpretive.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Commonly stated in Leonardo biographies; not checked in this session."
+        }
+      ],
+      "check_in": [
+        "Villata 1999, documents 1511 to 1513",
+        "Clark and Pedretti 1968, Adda landscape drawings"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Coordinates for Villa Melzi d'Eril itself were not found; only the town centre is given."
+  ]
+}

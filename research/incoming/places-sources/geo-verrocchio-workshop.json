@@ -1,0 +1,64 @@
+{
+  "id": "geo-verrocchio-workshop",
+  "type": "place",
+  "subtype": "site",
+  "label": "Verrocchio's workshop, Florence",
+  "variants": [
+    "Bottega del Verrocchio"
+  ],
+  "region": "Tuscany",
+  "country": "Italy",
+  "within": "geo-florence",
+  "summary": "Workshop of Andrea del Verrocchio (pe-verrocchio) in Florence, where Leonardo trained.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-florence"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "location",
+      "value": "Verrocchio family house, corner of Via dell'Agnolo and Via de' Macci, parish of Sant'Ambrogio",
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Verrocchio family owned a house at the corner of Via dell'Agnolo and Via de' Macci (formerly Via Pentolini) from at least 1451, in the parish of Sant'Ambrogio; the early workshop is thought to have been there.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "La Toscana di Leonardo, Verrocchio's shop (regional itinerary page, background only).",
+          "url": "https://www.latoscanadileonardo.it/en/places/metropolitan-city-of-florence/municipality-of-florence/verrocchio-s-shop.html"
+        }
+      ],
+      "check_in": [
+        "Butterfield, The Sculptures of Andrea del Verrocchio (1997), on the workshop",
+        "Covi, Andrea del Verrocchio: Life and Work (2005)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "location",
+      "value": "Via Ghibellina, near the Stinche; later nearer the Duomo",
+      "layer": "interpretation",
+      "status": "disputed",
+      "statement": "Another account places the workshop on Via Ghibellina near the Stinche prison, and says it moved nearer the cathedral before 1480.",
+      "sources": [
+        {
+          "ref": "src-nicholl-2004",
+          "loc": "chapter on Verrocchio's workshop, page to locate"
+        }
+      ],
+      "check_in": [
+        "Covi 2005",
+        "Butterfield 1997"
+      ],
+      "alternative_to": [
+        "c1"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Where exactly was Verrocchio's workshop in 1472 to 1476, when Leonardo is recorded in his household (1476)?"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "src-kemp-2006",
+  "type": "source",
+  "label": "Kemp 2006, Leonardo da Vinci: The Marvellous Works of Nature and Man",
+  "source_type": "monograph",
+  "citation": "Kemp, Martin. Leonardo da Vinci: The Marvellous Works of Nature and Man. Revised ed. Oxford: Oxford University Press, 2006. ISBN 0192807250 (978 0192807250); paperback ISBN 019920778X (978 0199207787). First ed. London: Dent; Cambridge, Mass.: Harvard University Press, 1981.",
+  "short": "Kemp 2006",
+  "language": "en",
+  "url": "https://wellcomecollection.org/works/a88bn3xk",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Kemp, Martin. Leonardo da Vinci: The Marvellous Works of Nature and Man. Revised ed. Oxford: Oxford University Press, 2006. ISBN 0192807250 (978 0192807250); paperback ISBN 019920778X (978 0199207787). First ed. London: Dent; Cambridge, Mass.: Harvard University Press, 1981.",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. The 1981 first edition imprint (Dent and Harvard) is from recall.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Wellcome Collection catalogue record (seen as search result).",
+          "url": "https://wellcomecollection.org/works/a88bn3xk"
+        },
+        {
+          "type": "other",
+          "cite": "Medical Humanities (BMJ) review: OUP 2nd edn 2006, 382 pp, ISBN 978 0 19 920778 7 (seen as search result).",
+          "url": "https://mh.bmj.com/content/34/1/55"
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "monograph"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted: scholarly monograph by a leading Leonardo specialist from a university press.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ]
+}

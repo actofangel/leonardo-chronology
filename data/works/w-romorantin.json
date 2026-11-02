@@ -3,6 +3,16 @@
   "type": "work",
   "subtype": "engineering",
   "label": "Romorantin residence and canal",
+  "classification": {
+    "form": "architectural_project",
+    "condition": "never_executed",
+    "subject": [
+      "architecture",
+      "urbanism",
+      "water"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check form, technique, support and condition against the holding institution's record or a catalogue raisonné (Marani 2000, Zöllner 2003; for manuscripts, the Edizione Nazionale or Pedretti)."
+  },
   "claims": [
     {
       "id": "c1",
@@ -23,7 +33,109 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "content",
+      "value": {
+        "text": "RCIN 912292 verso, palace design"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "RCIN 912292 verso shows a vast rectangular palace of three storeys with towers at the corners and mid sides, on an island approached by two bridges; black chalk, pen and ink, 18 x 24.5 cm.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912292, Recto: A horse's fore leg and chest. Verso: A design for a palace, c.1517 to 1518. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912292"
+        }
+      ],
+      "check_in": [
+        "Pedretti, Leonardo da Vinci: the Royal Palace at Romorantin (1972)"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "identity",
+      "value": {
+        "text": "Palace at Romorantin"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "The design is usually linked to the Romorantin project.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "thehistoryofart.org, Romorantin palace. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.thehistoryofart.org/leonardo-da-vinci/romorantin-palace/"
+        }
+      ],
+      "check_in": [
+        "Pedretti 1972, Romorantin"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "identity",
+      "value": {
+        "text": "Palace on the island at Amboise"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "RCT argues that the topography of the sketch corresponds with Amboise, so it may show a palace on the Amboise island, while noting that his main architectural activity in France was at Romorantin.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912292, Recto: A horse's fore leg and chest. Verso: A design for a palace, c.1517 to 1518. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912292"
+        }
+      ],
+      "check_in": [
+        "Pedretti 1972, Romorantin"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "location",
+      "value": {
+        "text": "Codex Arundel f. 270v"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "A design for a palace and park associated with Romorantin is captioned as Codex Arundel f. 270v by a print vendor; unconfirmed.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Meisterdrucke, print listing 'Design for a Palace and Park (Romorantin), fol. 270v from the Codex Arundel'. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.meisterdrucke.us/fine-art-prints/Leonardo-da-Vinci/271581/Design-for-a-Palace-and-Park-%28Romorantin%29%2C-fol.-270v-from-the-Codex-Arundel.html"
+        }
+      ],
+      "check_in": [
+        "British Library, Arundel MS 263 digitised",
+        "Pedretti 1972"
+      ]
     }
+  ],
+  "relations": [
+    {
+      "rel": "parent_of",
+      "target": "w-palace-912292",
+      "claim": "c2"
+    },
+    {
+      "rel": "drawn_on",
+      "target": "ms-arundel"
+    }
+  ],
+  "open_questions": [
+    "Which works at Romorantin (earthworks, diversion of the Sauldre) are documented, and by what records? Web sources claim works between 1516 and 1518; no primary record seen."
   ],
   "timeline": {
     "lane": "works",

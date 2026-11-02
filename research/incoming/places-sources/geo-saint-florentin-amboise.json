@@ -1,0 +1,126 @@
+{
+  "id": "geo-saint-florentin-amboise",
+  "type": "place",
+  "subtype": "building",
+  "label": "Saint Florentin, Amboise (collegiate church)",
+  "variants": [
+    "Collégiale Saint Florentin",
+    "Église collégiale royale de Saint Florentin d'Amboise"
+  ],
+  "region": "Centre Val de Loire (Indre et Loire)",
+  "country": "France",
+  "within": "geo-chateau-amboise",
+  "summary": "Royal collegiate church inside the walls of the château of Amboise, named in Leonardo's will as his place of burial; the church no longer stands.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-chateau-amboise"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "burial",
+      "value": {
+        "text": "1519",
+        "date": 1519.6
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo's will of 23 April 1519 asks for burial in the church of Saint Florentin at Amboise.",
+      "sources": [
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        },
+        {
+          "type": "web",
+          "cite": "Château royal d'Amboise, Testament de Léonard de Vinci, Google Arts and Culture story (seen as search result).",
+          "url": "https://Artsandculture.google.com/story/hgUh5c-h_1P_KA"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, will of 23 April 1519"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "demolition",
+      "value": {
+        "text": "1806 to 1810"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Web sources disagree on when the collegiate church was demolished: 1806 to 1810, 1807, or 1808.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Château d'Amboise, English Wikipedia (background only).",
+          "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_d%27Amboise"
+        },
+        {
+          "type": "web",
+          "cite": "Atlas Obscura, Leonardo da Vinci's Tomb (background only).",
+          "url": "https://www.atlasobscura.com/places/leonardo-da-vincis-tomb"
+        }
+      ],
+      "check_in": [
+        "A published history of the château of Amboise with archival references"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "loss_of_tomb",
+      "value": {
+        "text": "1863 excavation"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Arsène Houssaye excavated the site in 1863 and reported finding a skeleton with fragments of an inscription.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Atlas Obscura, Leonardo da Vinci's Tomb (background only).",
+          "url": "https://www.atlasobscura.com/places/leonardo-da-vincis-tomb"
+        },
+        {
+          "type": "web",
+          "cite": "Leonardo in Amboise, chapel page (background only).",
+          "url": "https://buffaloah.com/a/virtual/fr/amb/davinci/chapel.html"
+        }
+      ],
+      "check_in": [
+        "Houssaye's own published report of the 1863 excavation"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "identity_of_remains",
+      "value": "Remains reburied in the chapel of Saint Hubert are Leonardo's",
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "disputed",
+      "statement": "The identification of the bones found in 1863 and later placed in the chapel of Saint Hubert as Leonardo's is doubted; the date of the transfer is given as 1874 by one source and as the mid nineteenth century by others.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Atlas Obscura, Leonardo da Vinci's Tomb (background only).",
+          "url": "https://www.atlasobscura.com/places/leonardo-da-vincis-tomb"
+        },
+        {
+          "type": "web",
+          "cite": "Italian Art Society, Anne Leader (background only).",
+          "url": "https://www.italianartsociety.org/?p=18528"
+        }
+      ],
+      "check_in": [
+        "Scholarly account of the 1863 excavation and the Saint Hubert reburial"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact year of demolition of Saint Florentin (1806 to 1810, 1807, 1808?).",
+    "Year of reburial in the chapel of Saint Hubert (1874 or earlier?).",
+    "Is the Saint Florentin of the will the royal collegiate chapel inside the castle walls, distinct from the parish church of Saint Florentin in the town? The English Wikipedia article on the château says so; confirm."
+  ]
+}

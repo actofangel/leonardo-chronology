@@ -1,0 +1,66 @@
+{
+  "id": "geo-biblioteca-reale-turin",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Biblioteca Reale, Turin",
+  "variants": [
+    "Royal Library of Turin",
+    "Musei Reali, Biblioteca Reale"
+  ],
+  "modern_name": "Biblioteca Reale di Torino",
+  "region": "Piedmont",
+  "country": "Italy",
+  "coords": {
+    "lat": 45.0721,
+    "lon": 7.6865
+  },
+  "within": "geo-turin",
+  "summary": "Royal Library in the Royal Palace, Piazza Castello, Turin.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-turin"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 45.0721,
+        "lon": 7.6865
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Biblioteca Reale, Landscapefor atlas entry drawing on Wikidata, as reported in search results (background only).",
+          "url": "https://atlas.landscapefor.eu/category/storia-museo/poi/15937-residenze-sabaude-biblioteca-reale/"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "Codex on the Flight of Birds (w-flightcodex), the red chalk self portrait, other drawings",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ]
+}

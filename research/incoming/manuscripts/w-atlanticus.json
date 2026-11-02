@@ -1,0 +1,503 @@
+{
+  "id": "w-atlanticus",
+  "type": "manuscript",
+  "subtype": "codex",
+  "label": "Codex Atlanticus",
+  "variants": [
+    "Codice Atlantico"
+  ],
+  "summary": "Collection of 1119 sheets of Leonardo's drawings and writings assembled by Pompeo Leoni in the late sixteenth century, held by the Veneranda Biblioteca Ambrosiana, Milan.",
+  "holding": "geo-ambrosiana",
+  "shelfmark": "to locate",
+  "folios": 1119,
+  "date_range": {
+    "start": 1478,
+    "end": 1519
+  },
+  "contents": [
+    "mechanics and machines",
+    "military engineering",
+    "hydraulics",
+    "mathematics and geometry",
+    "architecture",
+    "flight",
+    "astronomy",
+    "drafts of letters and memoranda"
+  ],
+  "history": [
+    "Francesco Melzi (bequest of 1519)",
+    "Orazio Melzi and dispersal after Francesco Melzi's death",
+    "Pompeo Leoni, assembly late sixteenth century",
+    "Galeazzo Arconati",
+    "Biblioteca Ambrosiana, deed of 21 January 1637",
+    "Paris 1796 to 1815",
+    "Ambrosiana from 1815",
+    "restoration at Grottaferrata 1962 to 1972 (or 1968 to 1972)",
+    "disbound for display from 2008 to 2009"
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana",
+      "claim": "c1"
+    },
+    {
+      "rel": "located_in",
+      "target": "geo-milan"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-melzi",
+      "claim": "c4"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-pompeo-leoni",
+      "claim": "c4"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-galeazzo-arconati",
+      "claim": "c7"
+    },
+    {
+      "rel": "related_to",
+      "target": "ms-windsor",
+      "claim": "c14"
+    },
+    {
+      "rel": "bequeathed_in",
+      "target": "e-will"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "folios",
+      "value": {
+        "text": "1119 sheets"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The codex now consists of 1119 sheets, the count after the twentieth century restoration.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana on Google Arts and Culture, Ten key facts about Leonardo da Vinci's Codex Atlanticus.",
+          "url": "https://artsandculture.google.com/story/ten-key-facts-about-leonardo-da-vinci-s-codex-atlanticus/_AWx3jZHwWiyJA"
+        },
+        {
+          "type": "web",
+          "cite": "Affaritaliani, report on Politecnico di Milano study of the Codex Atlanticus (restoration at Grottaferrata 1962 to 1972, 12 volumes, 1119 sheets).",
+          "url": "https://www.affaritaliani.it/milano/politecnico-nuova-scoperta-sul-codice-di-leonardo-850420.html"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Atlanticus (background only, not grounds).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Atlanticus"
+        }
+      ],
+      "check_in": [
+        "Ambrosiana official description",
+        "Pedretti 1978 to 1979, The Codex Atlanticus: A Catalogue of Its Newly Restored Sheets"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "1478 to 1519",
+        "start": 1478,
+        "end": 1519
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The sheets are dated individually across Leonardo's whole working life, c.1478 to 1519. The span is an aggregate of sheet datings, not a date of the codex as a unit.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Atlanticus (background only, not grounds).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Atlanticus"
+        },
+        {
+          "ref": "src-pedretti-1978-atlanticus",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Pedretti 1978 to 1979, The Codex Atlanticus: A Catalogue of Its Newly Restored Sheets"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "Sheet by sheet chronology (Pedretti)"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Pedretti's catalogue of the restored sheets assigns a date to each sheet; it is the standard chronology of the codex. Individual sheet datings must be taken from it and recorded on the sheet or the work drawn on it, never from this record.",
+      "sources": [
+        {
+          "ref": "src-pedretti-1978-atlanticus",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Pedretti 1978 to 1979, The Codex Atlanticus: A Catalogue of Its Newly Restored Sheets"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": {
+        "text": "Assembled by Pompeo Leoni, late sixteenth century"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Pompeo Leoni formed the codex by cutting and mounting sheets from Leonardo's papers, including sheets taken from original notebooks, in a large album.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Atlanticus (background only, not grounds).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Atlanticus"
+        },
+        {
+          "type": "other",
+          "cite": "Museo Galileo, Leonardo//thek@, introduction page (digital reconstruction of the Codex Atlanticus before Leoni's dismemberment).",
+          "url": "https://teche.museogalileo.it/leonardo/intro/index_en.html?lang=en"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, A Record of the Manuscripts (popular site, background only).",
+          "url": "https://discoveringdavinci.com/notebooks/provenance.html"
+        }
+      ],
+      "check_in": [
+        "Marinoni, Il Codice Atlantico (Giunti, 1973 to 1980), introduction",
+        "Clark and Pedretti 1968, introduction (history of the Windsor collection)"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": {
+        "text": "Leoni obtained the Melzi papers between 1582 and 1590"
+      },
+      "layer": "interpretation",
+      "status": "disputed",
+      "statement": "Leoni is said to have obtained the papers from Orazio Melzi after his return from Spain in 1582 and by 1590, the year of Lomazzo's mention; another account says he took seven volumes plus three bought from Mazenta to Spain in 1590.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, A Record of the Manuscripts (popular site, background only).",
+          "url": "https://discoveringdavinci.com/notebooks/provenance.html"
+        },
+        {
+          "type": "web",
+          "cite": "Milanofree, Codici di Leonardo: storia di furti, avventure e colpi di scena (popular article).",
+          "url": "https://www.milanofree.it/tradizioni/storia/codici-di-leonardo-storia-di-furti-avventure-e-colpi-di-scena.html"
+        }
+      ],
+      "check_in": [
+        "Marinoni, Il Codice Atlantico (Giunti, 1973 to 1980), introduction",
+        "Clark and Pedretti 1968, introduction (history of the Windsor collection)",
+        "Ambrogio Mazenta, Memorie (c.1635), in Beltrami 1919"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "provenance",
+      "value": {
+        "text": "Sold by Leoni's heir to Galeazzo Arconati"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "After Leoni's death in 1608 the codex passed through his son in law (name to locate) by sale to Count Galeazzo Arconati.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Atlanticus (background only, not grounds).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Atlanticus"
+        },
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana on Google Arts and Culture, Ten key facts about Leonardo da Vinci's Codex Atlanticus.",
+          "url": "https://artsandculture.google.com/story/ten-key-facts-about-leonardo-da-vinci-s-codex-atlanticus/_AWx3jZHwWiyJA"
+        }
+      ],
+      "check_in": [
+        "Marinoni, Il Codice Atlantico (Giunti, 1973 to 1980), introduction",
+        "Arconati purchase document, to locate"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "provenance",
+      "value": {
+        "text": "Donated to the Ambrosiana by deed of 21 January 1637",
+        "start": 1637,
+        "end": 1637
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Galeazzo Arconati gave the codex with other Leonardo volumes (twelve volumes in the printed instrument of donation) to the Biblioteca Ambrosiana; a recent study of the original deed dates it 21 January 1637, executed through the proxy Cristoforo Sola.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Marcuccio, Roberto, article on the Arconati donation deed to the Biblioteca Ambrosiana, Achademia Leonardi Vinci, n.s., 2022 (only the opening pages were seen in a search result: deed dated 21 January 1637, executed through the proxy Cristoforo Sola).",
+          "url": "https://serena.atcult.it/index.php/achademia/article/download/9677/10183/35891"
+        },
+        {
+          "type": "other",
+          "cite": "Finarte auction, Rome, 4 July 2024: printed Istrumento della donazione di dodici volumi di Leonardo da Vinci fatta alla Biblioteca Ambrosiana da Galeazzo Arconati.",
+          "url": "https://www.finarte.it/asta/libri-autografi-e-stampe-roma-2024-07-04/leonardo-da-vinci-istrumento-della-donazione-di-dodici-volumi-di-leonardo-da-vinci-fatta-alla-biblioteca-ambrosiana-da-galeazzo-arconati-125820?lang=en"
+        },
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana on Google Arts and Culture, Ten key facts about Leonardo da Vinci's Codex Atlanticus.",
+          "url": "https://artsandculture.google.com/story/ten-key-facts-about-leonardo-da-vinci-s-codex-atlanticus/_AWx3jZHwWiyJA"
+        }
+      ],
+      "check_in": [
+        "Marcuccio 2022, Achademia Leonardi Vinci, text of the 1637 deed",
+        "Ambrosiana archive, original deed"
+      ]
+    },
+    {
+      "id": "c8",
+      "about": "provenance",
+      "value": {
+        "text": "Donation dated 1636"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Some accounts date the Arconati donation 1636.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Paris Manuscripts A to M (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/paris-manuscripts/"
+        },
+        {
+          "type": "web",
+          "cite": "Universidad de Buenos Aires, Facultad de Agronomia library, leaflet on the Leonardo manuscripts (2015).",
+          "url": "https://agro.uba.ar/sites/default/files/documentos/biblioteca/folleto_manuscritos_da_vinci_20092015_2.pdf"
+        }
+      ],
+      "check_in": [
+        "Marcuccio 2022, Achademia Leonardi Vinci, text of the 1637 deed"
+      ],
+      "alternative_to": [
+        "c7"
+      ]
+    },
+    {
+      "id": "c9",
+      "about": "provenance",
+      "value": {
+        "text": "Taken to Paris 1796",
+        "start": 1796,
+        "end": 1796
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The codex was removed from the Ambrosiana to Paris by the French after Bonaparte's entry into Milan in 1796. One source gives 1795.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Atlanticus (background only, not grounds).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Atlanticus"
+        },
+        {
+          "type": "other",
+          "cite": "Academie des sciences, conference document on the Leonardo manuscripts of the Institut (5a7, 26 March 2019).",
+          "url": "https://www.academie-sciences.fr/pdf/conf/5a7_260319.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "Universidad de Buenos Aires, Facultad de Agronomia library, leaflet on the Leonardo manuscripts (2015).",
+          "url": "https://agro.uba.ar/sites/default/files/documentos/biblioteca/folleto_manuscritos_da_vinci_20092015_2.pdf"
+        }
+      ],
+      "check_in": [
+        "French requisition record of 1796, to locate",
+        "Marinoni, Il Codice Atlantico (Giunti, 1973 to 1980), introduction"
+      ]
+    },
+    {
+      "id": "c10",
+      "about": "provenance",
+      "value": {
+        "text": "Returned to Milan 1815",
+        "start": 1815,
+        "end": 1815
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "After the Congress of Vienna ordered restitution in 1815, the Codex Atlanticus alone returned to the Ambrosiana; the other Leonardo manuscripts taken in 1796 stayed in Paris at the Institut de France.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Atlanticus (background only, not grounds).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Atlanticus"
+        },
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana on Google Arts and Culture, Ten key facts about Leonardo da Vinci's Codex Atlanticus.",
+          "url": "https://artsandculture.google.com/story/ten-key-facts-about-leonardo-da-vinci-s-codex-atlanticus/_AWx3jZHwWiyJA"
+        }
+      ],
+      "check_in": [
+        "Marinoni, Il Codice Atlantico (Giunti, 1973 to 1980), introduction",
+        "Restitution record 1815, to locate"
+      ]
+    },
+    {
+      "id": "c11",
+      "about": "provenance",
+      "value": {
+        "text": "Restored at the Abbey of Grottaferrata, 1962 to 1972",
+        "start": 1962,
+        "end": 1972
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "The sheets were detached from Leoni's album and remounted in 12 volumes by the Laboratorio del Libro Antico of the Abbey of Grottaferrata; Italian reports give 1962 to 1972, English sources 1968 to 1972.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Affaritaliani, report on Politecnico di Milano study of the Codex Atlanticus (restoration at Grottaferrata 1962 to 1972, 12 volumes, 1119 sheets).",
+          "url": "https://www.affaritaliani.it/milano/politecnico-nuova-scoperta-sul-codice-di-leonardo-850420.html"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Atlanticus (background only, not grounds).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Atlanticus"
+        },
+        {
+          "type": "web",
+          "cite": "Varesenews, The long story of the Atlantic Code, November 2009.",
+          "url": "https://www.varesenews.it/2009/11/the-long-story-of-the-atlantic-code/162539/"
+        }
+      ],
+      "check_in": [
+        "Pedretti 1978 to 1979, The Codex Atlanticus: A Catalogue of Its Newly Restored Sheets",
+        "Ambrosiana restoration documentation"
+      ]
+    },
+    {
+      "id": "c12",
+      "about": "provenance",
+      "value": {
+        "text": "Volumes disbound for rotating display from 2008 to 2009"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The twelve volumes were taken apart and the sheets have been shown in rotation at the Ambrosiana and in the Bramante Sacristy of Santa Maria delle Grazie since 2009.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Varesenews, The long story of the Atlantic Code, November 2009.",
+          "url": "https://www.varesenews.it/2009/11/the-long-story-of-the-atlantic-code/162539/"
+        },
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana on Google Arts and Culture, Ten key facts about Leonardo da Vinci's Codex Atlanticus.",
+          "url": "https://artsandculture.google.com/story/ten-key-facts-about-leonardo-da-vinci-s-codex-atlanticus/_AWx3jZHwWiyJA"
+        }
+      ],
+      "check_in": [
+        "Ambrosiana exhibition records"
+      ]
+    },
+    {
+      "id": "c13",
+      "about": "condition",
+      "value": {
+        "text": "Stains caused by mercury salts and sulphur"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A Politecnico di Milano study (Scientific Reports, 2023) traced stains on the sheets to mercury salts from earlier conservation and sulphur from pollution.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "ANSA, Culprits behind stains on Leonardo's Codex Atlanticus found, 9 May 2023.",
+          "url": "https://www.ansa.it/english/news/2023/05/09/culprits-behind-stains-on-leonardos-codex-atlanticus-found_113f8de0-053b-4000-adea-5024879727af.html"
+        }
+      ],
+      "check_in": [
+        "Scientific Reports, 2023, article to locate"
+      ]
+    },
+    {
+      "id": "c14",
+      "about": "digital_facsimile",
+      "value": {
+        "text": "Leonardo//thek@, Museo Galileo"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Digital reconstruction of the Codex Atlanticus published by Museo Galileo with the Ambrosiana, Royal Collection Trust and Biblioteca Leonardiana in March 2023; version 2.0 launched in London on 8 June 2026 digitally reinserts about 550 sheets cut out in the sixteenth century.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Museo Galileo, Leonardo//thek@, introduction page (digital reconstruction of the Codex Atlanticus before Leoni's dismemberment).",
+          "url": "https://teche.museogalileo.it/leonardo/intro/index_en.html?lang=en"
+        },
+        {
+          "type": "other",
+          "cite": "Museo Galileo, news item on Leonardo//thek@ (2023).",
+          "url": "https://www2.museogalileo.it/en/news-archive/167-news-archive-2023/2421-leonardo-thek-eng.html"
+        },
+        {
+          "type": "web",
+          "cite": "ANSA, Leonardo's manuscripts reunited after four centuries, online platform presented in London, 8 June 2026.",
+          "url": "https://www.ansa.it/amp/english/news/news_from_embassies/2026/06/08/leonardos-manuscripts-reunited-after-four-centuries-online-platform-presented-in-london_18a55502-4c4b-45e8-a1b3-3aabe0eac757.html"
+        },
+        {
+          "type": "web",
+          "cite": "Artribune, Per la prima volta in 400 anni il Codice Atlantico di Leonardo da Vinci e completo, June 2026.",
+          "url": "https://www.artribune.com/editoria/2026/06/codice-atlantico-leonardo-riunito/"
+        }
+      ],
+      "check_in": [
+        "Museo Galileo project documentation"
+      ]
+    },
+    {
+      "id": "c15",
+      "about": "digital_facsimile",
+      "value": {
+        "text": "e-Leo, Biblioteca Leonardiana, Vinci"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The e-Leo digital archive of the Biblioteca Leonardiana (online from 2007, new version 25 November 2019) includes facsimiles of Leonardo's codices; the site address is reported as www.leonardodigitale.com but was not opened in this session.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Studi sulla Formazione 23 (2020), article on L'archivio digitale E-leo della Biblioteca leonardiana.",
+          "url": "https://oajournals.fupress.net/index.php/sf/article/view/11804"
+        },
+        {
+          "type": "other",
+          "cite": "IRIS Firenze, page on e-Leo.",
+          "url": "https://www.iris-firenze.org/index_e.php?page=leo_e"
+        }
+      ],
+      "check_in": [
+        "e-Leo site, list of codices"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact year of the Arconati donation (1636 or 21 January 1637) and whether the deed names the Codex Atlanticus among the twelve volumes.",
+    "Dates of the Grottaferrata restoration: 1962 to 1972 or 1968 to 1972.",
+    "Dimensions of Leoni's original album and of the mounted sheets: to locate in the Ambrosiana description or Pedretti 1978.",
+    "Inventory draft e-letter cites the Codex Atlanticus without folio; the folio must be supplied from Pedretti 1978 or Marinoni."
+  ]
+}

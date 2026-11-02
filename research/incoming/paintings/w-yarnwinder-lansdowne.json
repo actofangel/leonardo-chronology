@@ -1,0 +1,109 @@
+{
+  "id": "w-yarnwinder-lansdowne",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Madonna of the Yarnwinder (Lansdowne)",
+  "current_location": "Private collection (Kenneth C. Griffin), on loan to the Metropolitan Museum of Art, New York",
+  "summary": "Version of the Madonna of the Yarnwinder formerly in the Lansdowne collection, privately owned and on loan to the Metropolitan Museum of Art.",
+  "relations": [
+    {
+      "rel": "version_of",
+      "target": "w-yarnwinder",
+      "claim": "c4"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": "Private collection, on loan to the Metropolitan Museum of Art",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "On long term loan from the collection of Kenneth C. Griffin to the Metropolitan Museum of Art, labelled Leonardo and his studio.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Artlyst, Met's Leonardo studio work.",
+          "url": "https://artlyst.com/mets-leonardo-da-vinci-studio-work-may-be-the-masters-hand"
+        }
+      ],
+      "check_in": [
+        "Metropolitan Museum loan label"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "c.1501",
+        "start": 1501,
+        "end": 1501
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Met website gives about 1501.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Artlyst, reporting the Met website and label.",
+          "url": "https://artlyst.com/mets-leonardo-da-vinci-studio-work-may-be-the-masters-hand"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1505",
+        "start": 1505,
+        "end": 1505
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Met wall label gives approximately 1505.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Artlyst, reporting the Met website and label.",
+          "url": "https://artlyst.com/mets-leonardo-da-vinci-studio-work-may-be-the-masters-hand"
+        }
+      ],
+      "alternative_to": [
+        "c2"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "attribution",
+      "value": "Leonardo and studio",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Labelled Leonardo and his studio by the Met; Kemp is reported as holding it was finished later in the studio under Leonardo's direct oversight, with possible participation.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Artlyst.",
+          "url": "https://artlyst.com/mets-leonardo-da-vinci-studio-work-may-be-the-masters-hand"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Madonna of the Yarnwinder, background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Madonna_of_the_Yarnwinder"
+        },
+        {
+          "ref": "src-kemp-2006",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry",
+        "Kemp 2006"
+      ]
+    }
+  ]
+}

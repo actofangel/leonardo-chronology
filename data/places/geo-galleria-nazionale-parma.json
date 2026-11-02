@@ -1,0 +1,85 @@
+{
+  "id": "geo-galleria-nazionale-parma",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Galleria Nazionale di Parma",
+  "variants": [
+    "Complesso monumentale della Pilotta",
+    "Palazzo della Pilotta"
+  ],
+  "modern_name": "Complesso monumentale della Pilotta, Galleria Nazionale",
+  "region": "Emilia Romagna",
+  "country": "Italy",
+  "coords": {
+    "lat": 44.80498,
+    "lon": 10.32658
+  },
+  "within": "geo-parma",
+  "summary": "Picture gallery in the Palazzo della Pilotta, Parma.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-parma"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 44.80498,
+        "lon": 10.32658
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Galleria Nazionale di Parma, Emilia Romagna regional heritage catalogue (Samira) georeference, as reported in search results (background only).",
+          "url": "https://bbcc.regione.emilia-romagna.it/samira/api/print/card/26526"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "Head of a Woman, called La Scapigliata",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "attribution_note",
+      "value": "La Scapigliata as Leonardo",
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The attribution of La Scapigliata to Leonardo is an interpretation; a 2019 exhibition on it at Parma was curated by Pietro C. Marani and Simone Verde.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, exhibition on the Scapigliata at Parma (background only).",
+          "url": "https://www.finestresullarte.info/mostre/scapigliata-leonardo-da-vinci-mostra-galleria-nazionale-parma"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    }
+  ]
+}

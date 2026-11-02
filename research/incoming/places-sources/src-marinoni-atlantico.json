@@ -1,0 +1,54 @@
+{
+  "id": "src-marinoni-atlantico",
+  "type": "source",
+  "label": "Marinoni 1973 to 1980, Il Codice Atlantico",
+  "source_type": "edition",
+  "citation": "Leonardo da Vinci. Il Codice Atlantico della Biblioteca Ambrosiana di Milano. Trascrizione diplomatica e critica di Augusto Marinoni. Firenze: Giunti Barbèra, 1973 to 1980. Facsimile and transcription volumes (Edizione Nazionale dei Manoscritti e dei Disegni di Leonardo da Vinci).",
+  "short": "Marinoni 1973 to 1980",
+  "language": "it",
+  "relations": [
+    {
+      "rel": "part_of",
+      "target": "src-edizione-nazionale"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Leonardo da Vinci. Il Codice Atlantico della Biblioteca Ambrosiana di Milano. Trascrizione diplomatica e critica di Augusto Marinoni. Firenze: Giunti Barbèra, 1973 to 1980. Facsimile and transcription volumes (Edizione Nazionale dei Manoscritti e dei Disegni di Leonardo da Vinci).",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. Search budget for this session ran out before this record could be checked against a catalogue; every element of the citation is from model recall. The number of volumes (commonly given as 12 facsimile and 12 transcription volumes) is unverified.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Marinoni, Il Codice Atlantico, Giunti Barbèra, 1973 to 1980 (not checked)."
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "edition"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted: critical (diplomatic and critical) transcription of the Codex Atlanticus in the restored order.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ]
+}

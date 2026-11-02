@@ -1,0 +1,64 @@
+{
+  "id": "src-anonimo-gaddiano",
+  "type": "source",
+  "label": "Anonimo Gaddiano, ed. Frey 1892",
+  "source_type": "edition",
+  "citation": "Frey, Carl (ed.). Il Codice Magliabechiano cl. XVII. 17, contenente notizie sopra l'arte degli antichi e quella de' Fiorentini da Cimabue a Michelangelo Buonarroti, scritte da Anonimo Fiorentino. Berlin: G. Grote, 1892. Reprint Farnborough: Gregg, 1969.",
+  "short": "Anonimo Gaddiano, ed. Frey 1892",
+  "language": "it",
+  "url": "https://search.ub.tum.de/vufind/Record/DE-604.BV011404364",
+  "variants": [
+    "Anonimo Magliabechiano",
+    "Anonimo Fiorentino",
+    "src-frey-1892"
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Frey, Carl (ed.). Il Codice Magliabechiano cl. XVII. 17, contenente notizie sopra l'arte degli antichi e quella de' Fiorentini da Cimabue a Michelangelo Buonarroti, scritte da Anonimo Fiorentino. Berlin: G. Grote, 1892. Reprint Farnborough: Gregg, 1969.",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. Subtitle after 'cl. XVII. 17' is from recall and not checked. One older note cites the shelfmark as Cl. XVI n. 17; unresolved.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "TUM library catalogue record BV011404364 (seen as search result).",
+          "url": "https://search.ub.tum.de/vufind/Record/DE-604.BV011404364"
+        },
+        {
+          "type": "web",
+          "cite": "Anonimo Gaddiano, English Wikipedia (background only).",
+          "url": "https://en.wikipedia.org/wiki/Anonimo_Gaddiano"
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "edition"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted: edition of an early sixteenth century manuscript (Biblioteca Nazionale Centrale di Firenze, Magliabechiano XVII 17) with biographical notes on Leonardo. The edition is admitted; the anonymous author's statements are testimony, to be graded like Vasari.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Shelfmark Magliabechiano XVII 17 or XVI 17?",
+    "Date of the manuscript (1530s to 1540s per Wikipedia)."
+  ]
+}

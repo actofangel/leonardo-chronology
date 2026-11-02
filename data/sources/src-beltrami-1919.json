@@ -1,0 +1,63 @@
+{
+  "id": "src-beltrami-1919",
+  "type": "source",
+  "label": "Beltrami 1919, Documenti e memorie riguardanti la vita e le opere di Leonardo da Vinci",
+  "source_type": "edition",
+  "citation": "Beltrami, Luca (ed.). Documenti e memorie riguardanti la vita e le opere di Leonardo da Vinci in ordine cronologico. Milano: Fratelli Treves, 1919.",
+  "short": "Beltrami 1919",
+  "language": "it",
+  "url": "https://digi.ub.uni-heidelberg.de/diglit/beltrami1919",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Beltrami, Luca (ed.). Documenti e memorie riguardanti la vita e le opere di Leonardo da Vinci in ordine cronologico. Milano: Fratelli Treves, 1919.",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. Collation conflicts: the 1919 Warburg bibliography gives xii, 224 p. with one plate; the SBN record gives X, 221 p. with portrait plate and an edition of 600 copies.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "CiNii Books record BA75687704: published by F. Treves, 1919 (seen as search result).",
+          "url": "https://ci.nii.ac.jp/ncid/BA75687704"
+        },
+        {
+          "type": "other",
+          "cite": "Universitätsbibliothek Heidelberg, digitised copy (seen as search result).",
+          "url": "https://digi.ub.uni-heidelberg.de/diglit/beltrami1919"
+        },
+        {
+          "type": "other",
+          "cite": "SBN record via Sardegna Cultura, IT ICCU NAP 0104771 (seen as search result).",
+          "url": "https://www.sardegnacultura.it/index.php/en/search/IT%5CICCU%5CNAP%5C0104771?internal=0"
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "edition"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted: critical documentary edition of documents on Leonardo in chronological order, named in the project rules; a digitised copy is available at Heidelberg.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Collation: xii, 224 p. or X, 221 p.?"
+  ]
+}

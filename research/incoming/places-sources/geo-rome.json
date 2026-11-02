@@ -1,0 +1,40 @@
+{
+  "id": "geo-rome",
+  "type": "place",
+  "subtype": "city",
+  "label": "Rome",
+  "variants": [
+    "Roma"
+  ],
+  "modern_name": "Roma",
+  "region": "Lazio",
+  "country": "Italy",
+  "coords": {
+    "lat": 41.89333,
+    "lon": 12.48278
+  },
+  "summary": "Papal capital; Leonardo lived there 1513 to 1516 in the service of Giuliano de' Medici.",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 41.89333,
+        "lon": 12.48278
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Rome, Wikipedia data in a 2024 Kiwix mirror as reported in search results (background only).",
+          "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Rome"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "geo-madrid",
+  "type": "place",
+  "subtype": "city",
+  "label": "Madrid",
+  "modern_name": "Madrid",
+  "country": "Spain",
+  "coords": {
+    "lat": 40.4168,
+    "lon": -3.7038
+  },
+  "summary": "Capital of Spain; seat of the Biblioteca Nacional de España, holder of the Madrid Codices.",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 40.4168,
+        "lon": -3.7038
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Madrid, coordinate table found by search (background only).",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7883725/table/tbl1"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

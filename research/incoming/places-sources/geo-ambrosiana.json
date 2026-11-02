@@ -1,0 +1,66 @@
+{
+  "id": "geo-ambrosiana",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Biblioteca and Pinacoteca Ambrosiana",
+  "variants": [
+    "Veneranda Biblioteca Ambrosiana",
+    "Ambrosiana"
+  ],
+  "modern_name": "Veneranda Biblioteca Ambrosiana",
+  "region": "Lombardy",
+  "country": "Italy",
+  "coords": {
+    "lat": 45.4631,
+    "lon": 9.1854
+  },
+  "within": "geo-milan",
+  "summary": "Library and picture gallery in Milan founded by Cardinal Federico Borromeo.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-milan"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 45.4631,
+        "lon": 9.1854
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Biblioteca Ambrosiana, Wikipedia infobox as reported in search results (background only).",
+          "url": "https://www.wikipedia.org/wiki/Ambrosiana"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "Codex Atlanticus (w-atlanticus), Portrait of a Musician (w-musician)",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ]
+}

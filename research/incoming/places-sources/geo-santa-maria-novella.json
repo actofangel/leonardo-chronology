@@ -1,0 +1,69 @@
+{
+  "id": "geo-santa-maria-novella",
+  "type": "place",
+  "subtype": "building",
+  "label": "Santa Maria Novella",
+  "variants": [
+    "Sala del Papa",
+    "Santa Maria Novella, Firenze"
+  ],
+  "modern_name": "Basilica di Santa Maria Novella",
+  "region": "Tuscany",
+  "country": "Italy",
+  "coords": {
+    "lat": 43.7746,
+    "lon": 11.2493
+  },
+  "within": "geo-florence",
+  "summary": "Dominican church and convent in Florence; its Sala del Papa was assigned to Leonardo for preparing the Anghiari cartoon.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-florence"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 43.7746,
+        "lon": 11.2493
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Santa Maria Novella, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Santa_Maria_Novella"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "leonardo_connection",
+      "value": {
+        "text": "from October 1503",
+        "date": 1503.8
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Florentine records of autumn 1503 concern the keys and repair of the Sala del Papa at Santa Maria Novella for Leonardo's work on the Anghiari cartoon (date from recall, not checked).",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard statement in biographies; not checked."
+        }
+      ],
+      "check_in": [
+        "Villata 1999, documents of October 1503",
+        "Beltrami 1919, documents of 1503"
+      ]
+    }
+  ]
+}

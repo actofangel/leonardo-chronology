@@ -1,0 +1,12 @@
+{
+  "id": "geo-romagna",
+  "type": "place",
+  "subtype": "region",
+  "label": "Romagna",
+  "variants": [
+    "Romagna"
+  ],
+  "region": "Emilia Romagna",
+  "country": "Italy",
+  "summary": "Historical region of northern Italy, part of the Papal States, campaigned over by Cesare Borgia in 1499 to 1503."
+}

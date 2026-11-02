@@ -1,0 +1,11 @@
+{
+  "id": "geo-apulia",
+  "type": "place",
+  "subtype": "region",
+  "label": "Apulia",
+  "variants": [
+    "Puglia"
+  ],
+  "country": "Italy",
+  "summary": "Region of southern Italy containing Otranto."
+}

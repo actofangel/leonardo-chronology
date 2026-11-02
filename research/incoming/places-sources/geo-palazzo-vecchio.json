@@ -1,0 +1,50 @@
+{
+  "id": "geo-palazzo-vecchio",
+  "type": "place",
+  "subtype": "building",
+  "label": "Palazzo Vecchio",
+  "variants": [
+    "Palazzo della Signoria",
+    "Palazzo dei Priori",
+    "Sala del Gran Consiglio",
+    "Salone dei Cinquecento"
+  ],
+  "modern_name": "Palazzo Vecchio",
+  "region": "Tuscany",
+  "country": "Italy",
+  "coords": {
+    "lat": 43.7694,
+    "lon": 11.2561
+  },
+  "within": "geo-florence",
+  "summary": "Seat of the Florentine government; its Sala del Gran Consiglio (today Salone dei Cinquecento) was the site of the Battle of Anghiari commission (w-anghiari), and the Chapel of San Bernardo commission of 1478 (e-chapel) was for the same palace.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-florence"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 43.7694,
+        "lon": 11.2561
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Palazzo Vecchio, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Palazzo_Vecchio"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

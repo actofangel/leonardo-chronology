@@ -11,8 +11,10 @@ import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import {
   ROOT, FOLDERS, LANES, TIERS, REVIEW_STATUSES, CLAIM_STATUSES, LAYERS, GRADES,
-  ADMITTED, SOURCE_TYPES, loadAll, loadView, isAdmitted, sourceType
+  ADMITTED, SOURCE_TYPES, loadAll, loadView, loadVocab, isAdmitted, sourceType
 } from './lib.mjs';
+
+const VOCAB = loadVocab().axes;
 
 const errors = [], warnings = [];
 const err = (m) => errors.push(m), warn = (m) => warnings.push(m);
@@ -94,6 +96,25 @@ for (const [id, e] of entities) {
     }
   }
 
+  // classification
+  if (e.classification) {
+    const cw = `${where}.classification`;
+    if (e.classification.basis !== undefined && (typeof e.classification.basis !== 'string' || !e.classification.basis.trim())) err(`${cw}.basis: must be a non-empty string`);
+    if (e.classification.basis === undefined) warn(`${cw}: no basis stated for the classification values`);
+    for (const [axis, val] of Object.entries(e.classification)) {
+      if (axis === 'basis') continue;
+      const ax = VOCAB[axis];
+      if (!ax) { err(`${cw}: unknown axis "${axis}"`); continue; }
+      if (!ax.applies_to.includes(e.type)) err(`${cw}: axis "${axis}" does not apply to ${e.type}`);
+      const vals = Array.isArray(val) ? val : [val];
+      if (Array.isArray(val) && !ax.multiple) err(`${cw}.${axis}: takes one value`);
+      if (!Array.isArray(val) && ax.multiple) err(`${cw}.${axis}: must be an array`);
+      for (const v of vals) if (!ax.values[v]) err(`${cw}.${axis}: "${v}" is not in data/vocab/classification.json`);
+    }
+    if (e.type === 'work' && !e.classification.form) err(`${cw}: form is required for works`);
+    if (e.type === 'manuscript' && !e.classification.ms_form) err(`${cw}: ms_form is required for manuscripts`);
+  } else if (e.type === 'work' || e.type === 'manuscript') warn(`${where}: no classification block`);
+
   // timeline
   if (e.timeline) {
     const t = e.timeline, tw = `${where}.timeline`;
@@ -158,7 +179,7 @@ const byType = {};
 let claims = 0, verified = 0;
 for (const e of entities.values()) { byType[e.type] = (byType[e.type] || 0) + 1; for (const c of e.claims || []) { claims++; if (c.status === 'verified') verified++; } }
 console.log(`Entities: ${entities.size} (${Object.entries(byType).map(([k, v]) => `${k} ${v}`).join(', ')}). Claims: ${claims}, verified ${verified}.`);
-const MAXW = 40;
+const MAXW = Number(process.env.MAXW || 40);
 warnings.slice(0, MAXW).forEach((w) => console.log('warning: ' + w));
 if (warnings.length > MAXW) console.log(`warning: ... and ${warnings.length - MAXW} more`);
 errors.forEach((e) => console.log('error: ' + e));

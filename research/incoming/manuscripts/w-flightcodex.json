@@ -1,0 +1,278 @@
+{
+  "id": "w-flightcodex",
+  "type": "manuscript",
+  "subtype": "notebook",
+  "label": "Codex on the Flight of Birds",
+  "variants": [
+    "Codice sul volo degli uccelli",
+    "Varia 95"
+  ],
+  "summary": "Small notebook on bird flight and flying machines, Biblioteca Reale, Turin, class mark Varia 95.",
+  "holding": "geo-biblioteca-reale-turin",
+  "shelfmark": "Varia 95",
+  "folios": "18 folios (one source: 38 pages)",
+  "date_range": {
+    "start": 1505,
+    "end": 1506
+  },
+  "contents": [
+    "bird flight",
+    "flying machines",
+    "mechanics of weight"
+  ],
+  "history": [
+    "Institut de France (with Manuscript B)",
+    "removed by Guglielmo Libri before 1848",
+    "Giacomo Manzoni, Lugo, 1867 or 1868",
+    "Teodoro Sabachnikoff, c.1892",
+    "given to the House of Savoy 31 December 1893",
+    "folio 17 added 1913, four further sheets from Henri Fatio after 1920"
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-reale-turin",
+      "claim": "c1"
+    },
+    {
+      "rel": "located_in",
+      "target": "geo-turin"
+    },
+    {
+      "rel": "separated_from",
+      "target": "w-msb",
+      "claim": "c6"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-guglielmo-libri",
+      "claim": "c5"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "shelfmark",
+      "value": {
+        "text": "Varia 95"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The codex was uncatalogued until February 1970, when it received the class mark Varia 95.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Library of Congress catalogue record 2021668201 (Codex on the Flight of Birds facsimile; notes Varia 95 class mark from February 1970, Manzoni heirs 1867, Sabachnikoff gift 31 December 1893 to Queen Margherita, folio 17 added 1913).",
+          "url": "https://www.loc.gov/item/2021668201/"
+        }
+      ],
+      "check_in": [
+        "Biblioteca Reale catalogue"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "folios",
+      "value": {
+        "text": "18 folios"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "18 folios.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Codex on the Flight of Birds (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/codex-flight/"
+        }
+      ],
+      "check_in": [
+        "Biblioteca Reale description; Marinoni edition (1976)"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "folios",
+      "value": {
+        "text": "38 pages"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Described as a small notebook of thirty eight pages.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, Il MiC celebra il Codice sul Volo di Leonardo a oltre 100 anni dalla sua ricomposizione integrale.",
+          "url": "https://www.finestresullarte.info/arte-antica/ministero-cultura-celebra-codice-del-volo-leonardo-con-mini-documentario"
+        }
+      ],
+      "check_in": [
+        "Biblioteca Reale description"
+      ],
+      "alternative_to": [
+        "c2"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "c.1505 to 1506",
+        "start": 1505,
+        "end": 1506
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Dated c.1505 to 1506.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Library of Congress catalogue record 2021668201 (Codex on the Flight of Birds facsimile; notes Varia 95 class mark from February 1970, Manzoni heirs 1867, Sabachnikoff gift 31 December 1893 to Queen Margherita, folio 17 added 1913).",
+          "url": "https://www.loc.gov/item/2021668201/"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Codex on the Flight of Birds (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/codex-flight/"
+        }
+      ],
+      "check_in": [
+        "Marinoni edition (1976)",
+        "Pedretti 1977 Commentary"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": {
+        "text": "Removed by Guglielmo Libri from the Institut de France before 1848"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The notebook was taken by Libri from the Institut de France, where it had been with Manuscript B.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Codex on the Flight of Birds (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/codex-flight/"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Paris Manuscripts A to M (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/paris-manuscripts/"
+        }
+      ],
+      "check_in": [
+        "Ravaisson Mollien facsimile edition of the Institut de France manuscripts (1881 to 1891)",
+        "Delisle 1888"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "provenance",
+      "value": {
+        "text": "Originally an appendix of Manuscript B"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Described as originally forming an appendix to Paris Manuscript B. Whether it was physically bound with B, or only kept with it, needs codicological confirmation.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Codex on the Flight of Birds (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/codex-flight/"
+        }
+      ],
+      "check_in": [
+        "Marinoni edition of the Institut de France manuscripts (Giunti, 1986 to 1990), introduction to the volume",
+        "Ravaisson Mollien facsimile edition of the Institut de France manuscripts (1881 to 1891)"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "provenance",
+      "value": {
+        "text": "Sold to Giacomo Manzoni, 1867 or 1868"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "The Library of Congress record says the Manzoni heirs acquired the major part in 1867; another account says Libri sold it to Count Giacomo Manzoni of Lugo in 1868.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Library of Congress catalogue record 2021668201 (Codex on the Flight of Birds facsimile; notes Varia 95 class mark from February 1970, Manzoni heirs 1867, Sabachnikoff gift 31 December 1893 to Queen Margherita, folio 17 added 1913).",
+          "url": "https://www.loc.gov/item/2021668201/"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering da Vinci, Codex on the Flight of Birds (popular site).",
+          "url": "https://discoveringdavinci.com/notebooks/codex-flight/"
+        }
+      ],
+      "check_in": [
+        "Sabachnikoff and Piumati edition, 1893, preface"
+      ]
+    },
+    {
+      "id": "c8",
+      "about": "provenance",
+      "value": {
+        "text": "Teodoro Sabachnikoff, edition 1893, gift 31 December 1893"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Sabachnikoff bought the codex from the Manzoni heirs about 1892, published it with Giovanni Piumati in 1893 and gave it to the House of Savoy on 31 December 1893; the recipient is given as Queen Margherita (Library of Congress) or King Umberto I (Ministry of Culture).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Library of Congress catalogue record 2021668201 (Codex on the Flight of Birds facsimile; notes Varia 95 class mark from February 1970, Manzoni heirs 1867, Sabachnikoff gift 31 December 1893 to Queen Margherita, folio 17 added 1913).",
+          "url": "https://www.loc.gov/item/2021668201/"
+        },
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, Il MiC celebra il Codice sul Volo di Leonardo a oltre 100 anni dalla sua ricomposizione integrale.",
+          "url": "https://www.finestresullarte.info/arte-antica/ministero-cultura-celebra-codice-del-volo-leonardo-con-mini-documentario"
+        },
+        {
+          "type": "web",
+          "cite": "HistoryofMedicine.com (Garrison and Morton entry), Codice sul volo degli uccelli, Piumati and Sabachnikoff edition 1893.",
+          "url": "https://historyofmedicine.com/id/53"
+        }
+      ],
+      "check_in": [
+        "Sabachnikoff and Piumati edition, 1893"
+      ]
+    },
+    {
+      "id": "c9",
+      "about": "provenance",
+      "value": {
+        "text": "Completed 1913 and after 1920"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Folio 17 was added in 1913, and four missing sheets given by Henri Fatio to Victor Emmanuel III after 1920 completed the codex.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Library of Congress catalogue record 2021668201 (Codex on the Flight of Birds facsimile; notes Varia 95 class mark from February 1970, Manzoni heirs 1867, Sabachnikoff gift 31 December 1893 to Queen Margherita, folio 17 added 1913).",
+          "url": "https://www.loc.gov/item/2021668201/"
+        },
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, Il MiC celebra il Codice sul Volo di Leonardo a oltre 100 anni dalla sua ricomposizione integrale.",
+          "url": "https://www.finestresullarte.info/arte-antica/ministero-cultura-celebra-codice-del-volo-leonardo-con-mini-documentario"
+        }
+      ],
+      "check_in": [
+        "Biblioteca Reale records"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Folio count (18 folios vs 38 pages; the two may agree if covers are counted) and dimensions.",
+    "Folio of the Monte Ceceri note mentioned in the inventory draft: to locate.",
+    "Official digital facsimile: none located in this session."
+  ]
+}

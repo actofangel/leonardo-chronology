@@ -1,0 +1,152 @@
+{
+  "id": "w-arno-canal-map",
+  "type": "work",
+  "subtype": "map",
+  "label": "Arno valley with the route of a proposed canal",
+  "classification": {
+    "form": "map",
+    "technique": [
+      "charcoal",
+      "pen_and_ink",
+      "wash",
+      "pricking"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "cartography",
+      "water"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912279",
+  "medium": "Charcoal, pen and ink, brush and ink, pricked through",
+  "dimensions": "33.5 x 48.2 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    },
+    {
+      "rel": "related_to",
+      "target": "e-arno"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912279"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912279 (Windsor RL 12279 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912279, The Arno valley with the route of a proposed canal, c.1503 to 1504. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912279"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "medium",
+      "value": {
+        "text": "Charcoal, pen and ink, brush and ink, pricked through; 33.5 x 48.2 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Medium and sheet size as on the RCT record.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912279, The Arno valley with the route of a proposed canal, c.1503 to 1504. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912279"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1503 to 1504",
+        "start": 1503,
+        "end": 1504
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the sheet c.1503 to 1504. Dating by style and context unless stated otherwise.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912279, The Arno valley with the route of a proposed canal, c.1503 to 1504. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912279"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "content",
+      "value": {
+        "text": "Diversion channels drawn from the Arno south west towards Livorno"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The sheet shows diversion channels drawn as rough diagonal lines from the Arno towards Livorno; the sheet is pricked through.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912279, The Arno valley with the route of a proposed canal, c.1503 to 1504. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912279"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "related_event",
+      "value": {
+        "text": "Digging begun 22 August 1504, abandoned 26 October 1504"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "RCT cites Landucci's Diario: digging of a channel began on 22 August 1504 and was abandoned on 26 October. This is a fact about the event, reported via a chronicle; whether the works followed this drawing is an interpretation.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912279, The Arno valley with the route of a proposed canal, c.1503 to 1504. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912279"
+        },
+        {
+          "type": "other",
+          "cite": "Luca Landucci, Diario fiorentino, ed. Del Badia 1883, entries for August and October 1504 (cited by RCT; not read).",
+          "url": "https://rct.uk/collection/912279"
+        }
+      ],
+      "check_in": [
+        "Landucci, Diario fiorentino, ed. Del Badia 1883",
+        "Villata 1999 for the Signoria correspondence"
+      ]
+    }
+  ]
+}

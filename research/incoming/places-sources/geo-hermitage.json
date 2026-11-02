@@ -1,0 +1,65 @@
+{
+  "id": "geo-hermitage",
+  "type": "place",
+  "subtype": "institution",
+  "label": "State Hermitage Museum",
+  "variants": [
+    "Hermitage",
+    "Ermitazh"
+  ],
+  "modern_name": "State Hermitage Museum",
+  "country": "Russia",
+  "coords": {
+    "lat": 59.9406,
+    "lon": 30.3136
+  },
+  "within": "geo-saint-petersburg",
+  "summary": "State museum in the Winter Palace complex, Saint Petersburg.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-saint-petersburg"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 59.9406,
+        "lon": 30.3136
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Hermitage Museum, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Hermitage_Museum"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "Benois Madonna (w-benois), Litta Madonna",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ]
+}

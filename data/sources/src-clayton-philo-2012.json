@@ -1,0 +1,51 @@
+{
+  "id": "src-clayton-philo-2012",
+  "type": "source",
+  "label": "Clayton and Philo 2012, Leonardo da Vinci: Anatomist",
+  "source_type": "monograph",
+  "citation": "Clayton, Martin, and Ron Philo. Leonardo da Vinci: Anatomist. London: Royal Collection Publications, 2012.",
+  "short": "Clayton and Philo 2012",
+  "language": "en",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Clayton, Martin, and Ron Philo. Leonardo da Vinci: Anatomist. London: Royal Collection Publications, 2012.",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. Search budget for this session ran out before this record could be checked against a catalogue; every element of the citation is from model recall. ISBN not recorded.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Clayton and Philo, Leonardo da Vinci: Anatomist, Royal Collection Publications, 2012 (not checked)."
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "monograph"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted: scholarly catalogue of the Windsor anatomical drawings by the Royal Collection's curator with an anatomist; classed as monograph.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Find ISBN and catalogue record."
+  ]
+}

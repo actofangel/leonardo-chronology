@@ -1,0 +1,67 @@
+{
+  "id": "geo-institut-de-france",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Bibliothèque de l'Institut de France",
+  "variants": [
+    "Institut de France",
+    "Palais de l'Institut",
+    "Collège des Quatre Nations"
+  ],
+  "modern_name": "Institut de France",
+  "region": "Île de France",
+  "country": "France",
+  "coords": {
+    "lat": 48.8573,
+    "lon": 2.3369
+  },
+  "within": "geo-paris",
+  "summary": "Library of the Institut de France on the quai de Conti, Paris.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-paris"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 48.8573,
+        "lon": 2.3369
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Institut de France, Structurae record found by search, converted to decimal (background only).",
+          "url": "https://structurae.net/structures/20009596"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "Paris Manuscripts A to M including Manuscript B (w-msb)",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ]
+}

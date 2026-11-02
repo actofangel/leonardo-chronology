@@ -1,0 +1,70 @@
+{
+  "id": "geo-santa-maria-delle-grazie",
+  "type": "place",
+  "subtype": "building",
+  "label": "Santa Maria delle Grazie",
+  "variants": [
+    "Santa Maria delle Grazie, Milano",
+    "Refettorio di Santa Maria delle Grazie",
+    "Cenacolo Vinciano"
+  ],
+  "modern_name": "Basilica di Santa Maria delle Grazie",
+  "region": "Lombardy",
+  "country": "Italy",
+  "coords": {
+    "lat": 45.46583,
+    "lon": 9.17111
+  },
+  "within": "geo-milan",
+  "summary": "Dominican church and convent in Milan; the Last Supper (w-lastsupper) is painted on an end wall of its refectory.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-milan"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 45.46583,
+        "lon": 9.17111
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Santa Maria delle Grazie, Milan, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Santa_Maria_delle_Grazie,_Milan"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "unesco",
+      "value": "World Heritage Site no. 93",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The church and Dominican convent with the Last Supper are inscribed on the UNESCO World Heritage List (site 93, per the UNESCO maps page url).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "UNESCO World Heritage Centre, site 93 maps page (seen only as a search result).",
+          "url": "https://whc.unesco.org/en/list/93/maps/"
+        }
+      ],
+      "check_in": [
+        "UNESCO site page opened directly"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Confirm which end wall of the refectory carries the Last Supper, from the conservation literature."
+  ]
+}

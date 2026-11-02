@@ -1,0 +1,70 @@
+{
+  "id": "geo-belvedere-vatican",
+  "type": "place",
+  "subtype": "building",
+  "label": "Belvedere, Vatican",
+  "variants": [
+    "Villa Belvedere",
+    "Cortile del Belvedere",
+    "Belvedere di Innocenzo VIII"
+  ],
+  "modern_name": "Cortile del Belvedere (Vatican Museums)",
+  "country": "Vatican City",
+  "coords": {
+    "lat": 41.90417,
+    "lon": 12.45472
+  },
+  "within": "geo-vatican",
+  "summary": "Papal villa of Innocent VIII on the Vatican hill, joined to the palace by Bramante's courtyard; named in the inventory (pl-rome) as Leonardo's lodging in Rome.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-vatican"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 41.90417,
+        "lon": 12.45472
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search. Point is the courtyard; Innocent VIII's villa where Leonardo lodged is at its north end.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Cortile del Belvedere, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Cortile_del_Belvedere"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "leonardo_connection",
+      "value": {
+        "text": "1513 to 1516",
+        "start": 1513.8,
+        "end": 1516.6
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Records of works carried out at the Belvedere for Leonardo's lodging in late 1513 are cited in the literature (not checked here).",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard statement; not checked."
+        }
+      ],
+      "check_in": [
+        "Villata 1999, documents of December 1513",
+        "Beltrami 1919"
+      ]
+    }
+  ]
+}

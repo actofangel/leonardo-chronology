@@ -1,0 +1,53 @@
+{
+  "id": "src-marani-2000",
+  "type": "source",
+  "label": "Marani 2000, Leonardo da Vinci: The Complete Paintings",
+  "source_type": "catalogue",
+  "citation": "Marani, Pietro C. Leonardo da Vinci: The Complete Paintings. Appendices edited by Pietro C. Marani and Edoardo Villata. New York: Harry N. Abrams, 2000. 384 p. ISBN 0810935813 (978 0810935815).",
+  "short": "Marani 2000",
+  "language": "en",
+  "url": "https://cageweb.be/catalog/msk01:000018386",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Marani, Pietro C. Leonardo da Vinci: The Complete Paintings. Appendices edited by Pietro C. Marani and Edoardo Villata. New York: Harry N. Abrams, 2000. 384 p. ISBN 0810935813 (978 0810935815).",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. A revised edition was published by Abrams in 2019 (ISBN 9781419740671, 400 p.); catalogue numbers may differ between editions. The Italian original (Leonardo: una carriera di pittore, Federico Motta, 1999) was not checked.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Museum voor Schone Kunsten Gent library catalogue (seen as search result): Abrams, New York, 2000, 384 p., ISBN 0810935813.",
+          "url": "https://cageweb.be/catalog/msk01:000018386"
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "catalogue"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted: catalogue raisonné of the paintings with scholarly apparatus, named in the project rules.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Record which edition (1999 Italian, 2000 English, 2019 revised) is used for catalogue numbers in the database."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "geo-piombino",
+  "type": "place",
+  "subtype": "town",
+  "label": "Piombino",
+  "variants": [
+    "Plumbinum (Latin)"
+  ],
+  "modern_name": "Piombino",
+  "region": "Tuscany",
+  "country": "Italy",
+  "coords": {
+    "lat": 42.9256,
+    "lon": 10.5259
+  },
+  "within": "geo-tuscany",
+  "summary": "Coastal lordship of Jacopo IV Appiani; Leonardo studied its fortifications.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-tuscany"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 42.9256,
+        "lon": 10.5259
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Piombino, route site found by search (background only).",
+          "url": "https://calcolopercorso.it/it/distanza/Piombino/Imola"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "leonardo_connection",
+      "value": {
+        "text": "1504",
+        "date": 1504
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Notes in Leonardo's hand in Madrid Codex II record work on the fortifications of Piombino (the year 1504 is the usual dating; not checked here).",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Madrid Codex II, folio to locate; not checked in this session."
+        }
+      ],
+      "check_in": [
+        "Madrid Codex II, Piombino notes, folio to locate",
+        "Villata 1999, documents for 1504"
+      ]
+    }
+  ]
+}

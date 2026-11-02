@@ -1,0 +1,113 @@
+{
+  "id": "w-leda",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Leda and the Swan (lost)",
+  "current_location": "lost",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-fontainebleau",
+      "claim": "c2"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "provenance",
+      "value": "Lomazzo (1590) reports seeing Leonardo's Leda at Fontainebleau",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Gian Paolo Lomazzo wrote in 1590 that he had seen Leonardo's naked Leda in the French royal collection at Fontainebleau (secondary report).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Leda and the Swan (Leonardo), background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Leda_and_the_Swan_(Leonardo)"
+        }
+      ],
+      "check_in": [
+        "Lomazzo, Idea del tempio della pittura, 1590, page to locate",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "provenance",
+      "value": "Cassiano dal Pozzo records it at Fontainebleau in 1625",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Cassiano dal Pozzo described the painting at Fontainebleau in 1625; this is the last known record of the original.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Leda and the Swan (Leonardo), background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Leda_and_the_Swan_(Leonardo)"
+        }
+      ],
+      "check_in": [
+        "Cassiano dal Pozzo, diary of 1625, ed. to locate",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "relation",
+      "value": "Known through copies: Galleria Borghese, Wilton House, Uffizi (Spiridon)",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Painted versions after the composition include those in the Galleria Borghese (attributed to Sodoma by some), Wilton House (attributed to Cesare da Sesto or Francesco Melzi) and the Uffizi (formerly Spiridon).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Galleria Borghese, collection page, Leda.",
+          "url": "https://collezionegalleriaborghese.it/en/opere/leda-3"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Leda and the Swan (Wilton House), background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Leda_and_the_Swan_(Wilton_House)"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Leda and the Swan (Leonardo), background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Leda_and_the_Swan_(Leonardo)"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "content",
+      "value": "Whether a finished painting by Leonardo ever existed",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "Whether the Fontainebleau picture was a finished autograph painting, a workshop version, or whether Leonardo ever completed the standing Leda, is debated.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Artnet News, The Hunt: Was Leonardo's Leda lost, or never completed?",
+          "url": "https://news.artnet.com/art-world/the-hunt-leonardo-lost-leda-swan-2448071"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Original dating c.1504 to 1510 rests on drawings (kneeling Leda studies at Chatsworth, Rotterdam; Windsor studies). Locators to be supplied by the drawings agent."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "geo-corte-vecchia-milan",
+  "type": "place",
+  "subtype": "building",
+  "label": "Corte Vecchia, Milan",
+  "variants": [
+    "Corte dell'Arengo",
+    "Corte Vecchia",
+    "Palazzo del Broletto Vecchio (later name, to verify)"
+  ],
+  "modern_name": "Palazzo Reale di Milano",
+  "region": "Lombardy",
+  "country": "Italy",
+  "coords": {
+    "lat": 45.4632,
+    "lon": 9.1911
+  },
+  "within": "geo-milan",
+  "summary": "Old ducal court beside Milan cathedral, on the site of the present Palazzo Reale.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-milan"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 45.4632,
+        "lon": 9.1911
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search. Coordinates are those of the present Palazzo Reale, built on the site of the old ducal court.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Royal Palace of Milan, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_Milan"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "leonardo_connection",
+      "value": {
+        "text": "c.1489 to 1499"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo is usually said to have had his lodging and workshop, including the space for the clay model of the Sforza horse (w-horse), in the Corte Vecchia. Not checked against a document in this session.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard biographical statement; not checked."
+        }
+      ],
+      "check_in": [
+        "Villata 1999, documents on the Corte Vecchia",
+        "Beltrami 1919"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Which document places Leonardo's workshop in the Corte Vecchia, and from what date?"
+  ]
+}

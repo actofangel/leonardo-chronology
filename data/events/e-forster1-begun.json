@@ -1,0 +1,54 @@
+{
+  "id": "e-forster1-begun",
+  "type": "event",
+  "subtype": "manuscript",
+  "label": "Forster I begun",
+  "summary": "A dated note marks the start of the first notebook bound in Codex Forster I.",
+  "relations": [
+    {
+      "rel": "recorded_in",
+      "target": "ms-forster-1",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "date",
+      "value": {
+        "text": "July 1505",
+        "start": 1505.5,
+        "end": 1505.5
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Codex Forster I1 was begun in July 1505 in Florence according to a note in Leonardo's hand.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Victoria and Albert Museum, collections record O1380840 (Codex Forster I; seen only as a search summary; host blocked for direct fetch).",
+          "url": "https://collections.vam.ac.uk/item/O1380840/"
+        },
+        {
+          "type": "other",
+          "cite": "Victoria and Albert Museum, Leonardo da Vinci's notebooks (article).",
+          "url": "https://www.vam.ac.uk/articles/leonardo-da-vincis-notebooks"
+        }
+      ],
+      "check_in": [
+        "Marinoni (ed.), I Codici Forster, 1992",
+        "Richter 1883 and Pedretti 1977 Commentary"
+      ]
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Manuscript",
+    "start": 1505.5,
+    "date": "July 1505",
+    "tier": "D",
+    "place": "Florence",
+    "text": "A dated note marks the start of the first notebook bound in Codex Forster I.",
+    "basis": "Autograph dated note, Codex Forster I (folio to locate); V&A record."
+  }
+}

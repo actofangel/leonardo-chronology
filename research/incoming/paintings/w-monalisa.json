@@ -1,0 +1,185 @@
+{
+  "id": "w-monalisa",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Mona Lisa",
+  "current_location": "geo-louvre",
+  "inventory": "INV 779; MR 316",
+  "medium": "oil",
+  "support": "poplar panel",
+  "dimensions": "79.4 x 53.4 cm",
+  "variants": [
+    "La Joconde",
+    "Monna Lisa",
+    "La Gioconda"
+  ],
+  "relations": [
+    {
+      "rel": "depicts",
+      "target": "pe-lisa",
+      "claim": "c4"
+    },
+    {
+      "rel": "mentioned_by",
+      "target": "pe-agostino-vespucci",
+      "claim": "c2"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-louvre",
+      "claim": "c1"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-francis",
+      "claim": "c5"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": "Paris, Musée du Louvre, INV 779 (MR 316)",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre lists Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dit La Joconde ou Monna Lisa, INV 779 (MR 316), oil on poplar, H. 0.794 m, W. 0.534 m.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 779. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062370"
+        },
+        {
+          "type": "other",
+          "cite": "Louvre, Focus: La Joconde, information. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://focus.louvre.fr/en/la-joconde/information"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "relation",
+      "value": "October 1503: Agostino Vespucci's marginal note naming Leonardo and Lisa del Giocondo",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "A marginal note by Agostino Vespucci, dated October 1503, in a copy of Cicero, Epistolae ad familiares (Bologna 1477), Heidelberg University Library, D 7620 qt., compares Leonardo with Apelles and mentions a head (caput) of Lisa del Giocondo he was then working on. Published by Veit Probst, 2008.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Heidelberg University, press release: Mona Lisa's identity established. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://uni-heidelberg.de/press/news/press552e.html"
+        },
+        {
+          "type": "other",
+          "cite": "Kunsttexte, Heidelberg journal article. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://journals.ub.uni-heidelberg.de/index.php/kunsttexte/article/view/87890/82305"
+        },
+        {
+          "type": "other",
+          "cite": "Heidelberg, ART-Dok repository record 410. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://archiv.ub.uni-heidelberg.de/artdok/410"
+        }
+      ],
+      "check_in": [
+        "Heidelberg UB D 7620 qt., the incunable itself",
+        "Probst 2008"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "1503 to 1519",
+        "start": 1503,
+        "end": 1519
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Louvre dates the painting 1503 to 1519 (begun by 1503, kept and worked on until the end of Leonardo's life). The end date is an inference.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 779. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062370"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "identity",
+      "value": "Sitter: Lisa Gherardini, wife of Francesco del Giocondo",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Louvre states that a solid tradition from the sixteenth century identifies the sitter as Lisa Gherardini (1479 to 1542). The Vespucci note shows Leonardo was painting her in 1503; linking it to the Louvre panel is a strong but still interpretive step.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 779. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062370"
+        },
+        {
+          "type": "other",
+          "cite": "Heidelberg University, press release. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://uni-heidelberg.de/press/news/press552e.html"
+        },
+        {
+          "ref": "src-vasari-1568",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": "Kept by Leonardo; probably acquired by Francis I in 1518",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Louvre states the painting was probably acquired by Francis I in 1518. The purchase is an inference from later documents; not read in this session.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 779. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062370"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry",
+        "Villata 1999, documents on Salai's estate (1525)"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "content",
+      "value": "Damaged in 1956 by a thrown stone (left elbow)",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "In 1956 a visitor threw a stone that broke the glass and slightly damaged the left elbow.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 779. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062370"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Is the portrait seen by de Beatis in 1517 ('certa donna fiorentina', made at the instance of Giuliano de' Medici) the same panel? Read the de Beatis passage.",
+    "Exact transcription of the Vespucci note."
+  ]
+}

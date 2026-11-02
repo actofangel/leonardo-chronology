@@ -1,0 +1,94 @@
+{
+  "id": "w-centenarian-919027",
+  "type": "work",
+  "subtype": "anatomy",
+  "label": "Veins of the arm; notes on the death of a centenarian",
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 919027",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    },
+    {
+      "rel": "drawn_on",
+      "target": "ms-anatomical-b"
+    },
+    {
+      "rel": "part_of",
+      "target": "w-anatomy1"
+    },
+    {
+      "rel": "located_in",
+      "target": "geo-santa-maria-nuova"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 919027"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 919027 (Windsor RL 19027 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919027, The veins of the arm and notes on the death of a centenarian, c.1508. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919027"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "c.1508",
+        "start": 1507.8,
+        "end": 1508.5
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the sheet c.1508. Dating by style and context unless stated otherwise.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919027, The veins of the arm and notes on the death of a centenarian, c.1508. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919027"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "content",
+      "value": {
+        "text": "Notes on the old man who died at Santa Maria Nuova"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Verso notes record the death of an old man who said he was over a hundred, in the hospital of Santa Maria Nuova, and Leonardo's dissection of him.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 919027, The veins of the arm and notes on the death of a centenarian, c.1508. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/919027"
+        }
+      ],
+      "check_in": [
+        "Clayton and Philo 2012"
+      ]
+    }
+  ]
+}

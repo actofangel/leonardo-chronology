@@ -1,0 +1,71 @@
+{
+  "id": "geo-santissima-annunziata",
+  "type": "place",
+  "subtype": "building",
+  "label": "Santissima Annunziata, Florence",
+  "variants": [
+    "Santissima Annunziata",
+    "SS. Annunziata",
+    "Convent of the Servites"
+  ],
+  "modern_name": "Basilica della Santissima Annunziata",
+  "region": "Tuscany",
+  "country": "Italy",
+  "coords": {
+    "lat": 43.7781,
+    "lon": 11.2594
+  },
+  "within": "geo-florence",
+  "summary": "Church and convent of the Servite friars in Florence, on the northeast side of Piazza della Santissima Annunziata.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-florence"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 43.7781,
+        "lon": 11.2594
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Basilica of the Santissima Annunziata, Sputnik8 tourist page found by search (single source, background only).",
+          "url": "https://www.sputnik8.com/ru/florence/sights/tserkov-blagovescheniya/info"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "leonardo_connection",
+      "value": {
+        "text": "1500 to 1501"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Vasari reports that the Servites lodged Leonardo and his household while he worked on a cartoon of St Anne for their high altar (w-servite).",
+      "sources": [
+        {
+          "ref": "src-vasari-1568",
+          "loc": "Life of Leonardo, page to locate"
+        }
+      ],
+      "check_in": [
+        "Vasari 1568, Bettarini and Barocchi edition, Life of Leonardo"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Coordinates rest on one tourist page; confirm in a gazetteer."
+  ]
+}

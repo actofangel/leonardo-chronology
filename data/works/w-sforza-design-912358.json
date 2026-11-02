@@ -1,0 +1,142 @@
+{
+  "id": "w-sforza-design-912358",
+  "type": "work",
+  "subtype": "sculpture_project",
+  "label": "Design for an equestrian monument (Sforza)",
+  "classification": {
+    "form": "study",
+    "technique": [
+      "metalpoint"
+    ],
+    "support": "blue_paper",
+    "condition": "extant",
+    "subject": [
+      "horse"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912358",
+  "medium": "Metalpoint on blue prepared paper",
+  "dimensions": "14.8 x 18.5 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c1"
+    },
+    {
+      "rel": "preparatory_for",
+      "target": "w-horse"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912358"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912358 (Windsor RL 12358 in the older numbering, by the usual RCIN convention).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912358, Recto: A design for an equestrian monument. Verso: Studies of flowing water, a cross bow, geometry, c.1485 to 1488. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912358"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "medium",
+      "value": {
+        "text": "Metalpoint on blue prepared paper; 14.8 x 18.5 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Medium and sheet size as on the RCT record.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912358, Recto: A design for an equestrian monument. Verso: Studies of flowing water, a cross bow, geometry, c.1485 to 1488. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912358"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1485 to 1488",
+        "start": 1485,
+        "end": 1488
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the sheet c.1485 to 1488. Dating by style and context unless stated otherwise.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912358, Recto: A design for an equestrian monument. Verso: Studies of flowing water, a cross bow, geometry, c.1485 to 1488. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912358"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "content",
+      "value": {
+        "text": "Rearing horse, featureless rider, fallen soldier; verso with a crossbow"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Recto: a nude rider on a rearing horse supported by a cowering soldier, arms in alternative positions; verso: flowing water, a crossbow, geometry.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912358, Recto: A design for an equestrian monument. Verso: Studies of flowing water, a cross bow, geometry, c.1485 to 1488. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912358"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "dimensions",
+      "value": {
+        "text": "152 x 188 mm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "Finestre sull'Arte gives 152 x 188 mm and c.1485 to 1490, against RCT 14.8 x 18.5 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, Horses and condottieri. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://finestresullarte.info/en/works-and-artists/horses-and-condottieri-leonardo-da-vinci-and-the-story-of-the-equestrian-monument-to-francesco-sforza"
+        }
+      ],
+      "check_in": [
+        "RCT record"
+      ]
+    }
+  ]
+}

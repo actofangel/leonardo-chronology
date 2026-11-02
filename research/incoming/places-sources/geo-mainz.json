@@ -1,0 +1,15 @@
+{
+  "id": "geo-mainz",
+  "type": "place",
+  "subtype": "town",
+  "label": "Mainz",
+  "variants": [
+    "Magonza",
+    "Mogontiacum (Latin)"
+  ],
+  "country": "Germany",
+  "summary": "Context place named in the inventory history lane (h-gutenberg); no Leonardo connection is claimed.",
+  "open_questions": [
+    "Coordinates not sourced; low priority context place."
+  ]
+}

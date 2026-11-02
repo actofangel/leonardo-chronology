@@ -1,0 +1,189 @@
+{
+  "id": "ms-forster-3",
+  "type": "manuscript",
+  "subtype": "notebook",
+  "label": "Codex Forster III",
+  "classification": {
+    "ms_form": "pocket_notebook",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "mechanics",
+      "accounts",
+      "festival"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check against the holding's record or the Edizione Nazionale."
+  },
+  "variants": [
+    "Forster III",
+    "MSL/1876/Forster/141/III"
+  ],
+  "summary": "Leonardo notebook volume in the Victoria and Albert Museum, London, MSL/1876/Forster/141/III. Pocket notebook, c.1490 to 1493, Milan.",
+  "holding": "geo-v-and-a",
+  "shelfmark": "MSL/1876/Forster/141/III",
+  "folios": "to locate",
+  "dimensions": "to locate",
+  "date_range": {
+    "start": 1490,
+    "end": 1493
+  },
+  "contents": [
+    "geometry",
+    "weights",
+    "hydraulics",
+    "miscellaneous notes"
+  ],
+  "history": [
+    "Francesco Melzi",
+    "Pompeo Leoni",
+    "bought in Vienna by Robert Bulwer Lytton (1862 per Scala)",
+    "given to John Forster",
+    "bequeathed by Forster to the South Kensington (now V&A) Museum, 1876"
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-v-and-a",
+      "claim": "c1"
+    },
+    {
+      "rel": "located_in",
+      "target": "geo-london"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-john-forster",
+      "claim": "c4"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "shelfmark",
+      "value": {
+        "text": "MSL/1876/Forster/141/III"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "V&A shelfmark MSL/1876/Forster/141/III. The V&A holds five notebooks bound in three volumes, probably in the seventeenth century, not in logical order.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Victoria and Albert Museum, Leonardo da Vinci's notebooks (article).",
+          "url": "https://www.vam.ac.uk/articles/leonardo-da-vincis-notebooks"
+        },
+        {
+          "type": "other",
+          "cite": "Victoria and Albert Museum, collections record O1380777 (Codex Forster III; seen only as a search summary; host blocked for direct fetch).",
+          "url": "https://collections.vam.ac.uk/item/O1380777/"
+        }
+      ],
+      "check_in": [
+        "V&A collections records for the Forster codices (direct read)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "c.1490 to 1493",
+        "start": 1490,
+        "end": 1493
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The V&A dates the notebook c.1490 to 1493, Milan; a Udine thesis tests a date before 1493 on handwriting.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Victoria and Albert Museum, collections record O1380777 (Codex Forster III; seen only as a search summary; host blocked for direct fetch).",
+          "url": "https://collections.vam.ac.uk/item/O1380777/"
+        },
+        {
+          "type": "other",
+          "cite": "Victoria and Albert Museum, Explore Leonardo da Vinci's notebooks: Codex Forster III.",
+          "url": "https://www.vam.ac.uk/articles/explore-leonardo-da-vincis-notebooks-codex-forster-iii"
+        },
+        {
+          "type": "other",
+          "cite": "Universita di Udine, AIR repository, thesis on the Forster codices (handle 11390/1132965).",
+          "url": "https://air.uniud.it/handle/11390/1132965"
+        }
+      ],
+      "check_in": [
+        "V&A collections records for the Forster codices (direct read)",
+        "Marinoni (ed.), I Codici Forster del Victoria and Albert Museum (Giunti, 1992), introduction"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "digital_facsimile",
+      "value": {
+        "text": "V&A online notebook viewer"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The V&A published Codex Forster III online (2018), with the other volumes following.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Victoria and Albert Museum, Explore Leonardo da Vinci's notebooks: Codex Forster III.",
+          "url": "https://www.vam.ac.uk/articles/explore-leonardo-da-vincis-notebooks-codex-forster-iii"
+        }
+      ],
+      "check_in": [
+        "V&A website"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": {
+        "text": "Bulwer Lytton, Vienna; Forster; V&A 1876"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The volumes were bought, probably in Vienna (1862 per Scala), by Robert Bulwer Lytton, later 1st Earl of Lytton, who gave them to John Forster; Forster bequeathed them to the museum in 1876.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Victoria and Albert Museum, Leonardo da Vinci's notebooks (article).",
+          "url": "https://www.vam.ac.uk/articles/leonardo-da-vincis-notebooks"
+        },
+        {
+          "type": "web",
+          "cite": "Scala Archives, Leonardo da Vinci's notebooks, not only technology, 12 October 2023 (Bulwer Lytton purchase in Vienna 1862).",
+          "url": "https://scalarchives.com/leonardo-da-vincis-notebooks-not-only-technology/"
+        }
+      ],
+      "check_in": [
+        "V&A collections records for the Forster codices (direct read)",
+        "Marinoni (ed.), I Codici Forster del Victoria and Albert Museum (Giunti, 1992), introduction"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": {
+        "text": "Melzi and Pompeo Leoni"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Earlier owners were Francesco Melzi and Pompeo Leoni.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Victoria and Albert Museum, Leonardo da Vinci's notebooks (article).",
+          "url": "https://www.vam.ac.uk/articles/leonardo-da-vincis-notebooks"
+        }
+      ],
+      "check_in": [
+        "Marinoni (ed.), I Codici Forster del Victoria and Albert Museum (Giunti, 1992), introduction"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Folio count and leaf dimensions: to locate in the V&A records (host blocked in this session) or Marinoni 1992."
+  ]
+}

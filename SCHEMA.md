@@ -45,6 +45,27 @@ Only `id`, `type`, `label` are required. `summary` must not contain interpretati
 * source: `source_type` (see admission), `citation` (full), `short` (e.g. "Villata 1999"), `url`, `language`
 * hypothesis: `status` (always `"working_hypothesis"` or `"speculation"`), `statement`, `assumes` (array of `"entity#claim"` refs), `supports`, `against`, `falsified_if` (arrays of strings), `proposed_by`
 
+## Classification
+
+Works and manuscripts carry a `classification` block whose values come from the controlled vocabularies in `data/vocab/classification.json`. The validator rejects any other value.
+
+```json
+"classification": {
+  "form": "painting",
+  "technique": ["oil"],
+  "support": "panel_walnut",
+  "condition": "extant",
+  "subject": ["portrait", "animal"],
+  "basis": "Where the values come from, e.g. the holding institution's record, or 'model recall, to check'."
+}
+```
+
+* Works: `form` (one value; grouped as Paintings, Drawings, Sketches, Designs, Projects), `technique` (several), `support`, `condition`, `subject` (several).
+* Manuscripts: `ms_form` (notebook, pocket notebook, compiled codex, collection of sheets, compilation by another hand), `support`, `condition`, `subject` (several).
+* Form, technique, support and condition describe the object and should rest on an observation or a documented description. Subjects are an editorial finding aid, not a claim about meaning.
+* Anything contested stays out of the classification and goes into claims: attribution, a sheet's role as preparatory for a given work, the identity of a sitter, the dating.
+* Classification values for a heavily debated object (for example, whether a work is a painting by Leonardo at all) are still descriptive: the Salvator Mundi is classified as a painting on walnut panel; its attribution is a set of claims.
+
 ## Claims
 
 A claim is one assertion about the entity, with its own layer, sources and status. Competing datings or attributions are separate claims about the same `about` key.

@@ -1,0 +1,119 @@
+{
+  "id": "w-tobias",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Tobias and the Angel (Verrocchio workshop)",
+  "current_location": "geo-national-gallery-london",
+  "inventory": "NG781",
+  "summary": "Tobias and the Angel, catalogued by the National Gallery, London, as workshop of Andrea del Verrocchio (NG781).",
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1470,
+    "end": 1475,
+    "date": "c.1470 to 1475",
+    "tier": "S",
+    "place": "Florence, now London",
+    "text": "Verrocchio workshop painting. A share by the young Leonardo in the fish and the dog has been proposed but is not established.",
+    "basis": "Museum dating; attribution of passages is a proposal."
+  },
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-national-gallery-london",
+      "claim": "c1"
+    },
+    {
+      "rel": "workshop_of",
+      "target": "pe-verrocchio",
+      "claim": "c3"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": "London, National Gallery, NG781",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The National Gallery catalogues the picture as Workshop of Andrea del Verrocchio, Tobias and the Angel, about 1470 to 1475, NG781.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, painting page NG781. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nationalgallery.org.uk/paintings/NG781"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "about 1470 to 1475",
+        "start": 1470,
+        "end": 1475
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Dated about 1470 to 1475 by the National Gallery (stylistic).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, painting page NG781. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nationalgallery.org.uk/paintings/NG781"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "attribution",
+      "value": "Workshop of Verrocchio",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The National Gallery's attribution is to the Verrocchio workshop.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, painting page NG781. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nationalgallery.org.uk/paintings/NG781"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "attribution",
+      "value": "Fish and/or dog painted by Leonardo",
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "It has been proposed that Leonardo painted the fish and the dog (National Gallery wording: 'it has been suggested'). Wilhelm Suida (1954) is cited as the first; David Alan Brown is cited for the dog (one source) or for the dog and fish (another). The Louvre 2019 exhibition text states most art historians give the fish and dog to Leonardo.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, painting page NG781. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nationalgallery.org.uk/paintings/NG781"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Tobias and the Angel (Verrocchio), background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Tobias_and_the_Angel_(Verrocchio)"
+        },
+        {
+          "type": "web",
+          "cite": "Louvre, Leonardo exhibition 2019, mini site.",
+          "url": "https://mini-site.louvre.fr/trimestriel/2019/l%c3%a9onard_de_vinciGB/18/"
+        }
+      ],
+      "check_in": [
+        "Brown, David Alan, Leonardo da Vinci: Origins of a Genius, 1998",
+        "Suida 1954"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    }
+  ]
+}

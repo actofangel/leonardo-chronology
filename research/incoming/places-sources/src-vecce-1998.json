@@ -1,0 +1,51 @@
+{
+  "id": "src-vecce-1998",
+  "type": "source",
+  "label": "Vecce 1998, Leonardo",
+  "source_type": "monograph",
+  "citation": "Vecce, Carlo. Leonardo. Presentazione di Carlo Pedretti. Roma: Salerno Editrice, 1998 (Profili, 31). 2nd ed. 2006.",
+  "short": "Vecce 1998",
+  "language": "it",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Vecce, Carlo. Leonardo. Presentazione di Carlo Pedretti. Roma: Salerno Editrice, 1998 (Profili, 31). 2nd ed. 2006.",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. Search budget for this session ran out before this record could be checked against a catalogue; every element of the citation is from model recall. Series name and number and the Pedretti preface are uncertain.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Vecce, Leonardo, Salerno Editrice, 1998 (not checked)."
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "monograph"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted: scholarly biography by a philologist editor of Leonardo's texts, with documentary apparatus.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Confirm imprint, series and second edition year in SBN OPAC."
+  ]
+}

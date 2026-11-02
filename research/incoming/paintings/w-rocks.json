@@ -1,0 +1,228 @@
+{
+  "id": "w-rocks",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Virgin of the Rocks (Louvre)",
+  "current_location": "geo-louvre",
+  "inventory": "INV 777; MR 320",
+  "medium": "oil",
+  "support": "canvas, transferred from wood",
+  "dimensions": "199.5 x 122 cm",
+  "relations": [
+    {
+      "rel": "commissioned_by",
+      "target": "geo-confraternity-immaculate-conception-milan",
+      "claim": "c2"
+    },
+    {
+      "rel": "made_for",
+      "target": "geo-san-francesco-grande-milan",
+      "claim": "c2"
+    },
+    {
+      "rel": "collaborator",
+      "target": "pe-predis",
+      "claim": "c2"
+    },
+    {
+      "rel": "collaborator",
+      "target": "pe-evangelista-de-predis",
+      "claim": "c2"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-louvre",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": "Paris, Musée du Louvre, INV 777 (MR 320)",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre collections database lists La Vierge, l'Enfant Jésus, saint Jean Baptiste et un ange, dit La Vierge aux rochers, INV 777 (MR 320), oil on canvas transferred from wood, H. 1.995 m, W. 1.22 m.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 777. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062373"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "relation",
+      "value": "Contract of 25 April 1483 with the Confraternity of the Immaculate Conception",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "A contract dated 25 April 1483 bound Leonardo and the half brothers Ambrogio and Evangelista de Predis to gild and paint the carved wooden altarpiece made by Giacomo del Maiano for the Confraternity of the Immaculate Conception at San Francesco Grande, Milan; the central panel was to show Our Lady with her Son and angels, in oil. The National Gallery names the notary as Antonio de' Capitani and gives a fee of 800 lire.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, painting page NG1093. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-virgin-of-the-rocks"
+        },
+        {
+          "type": "other",
+          "cite": "National Gallery, London, painting page NG1662 (de Predis, Angel in red). Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://nationalgallery.org.uk/paintings/NG1662"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "doc. no. to locate"
+        },
+        {
+          "ref": "src-beltrami-1919",
+          "loc": "doc. no. to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, contract of 25 April 1483",
+        "Beltrami 1919, same",
+        "Syson 2011, documentary appendix"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "relation",
+      "value": "Delivery due 8 December 1483",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "Some accounts give the delivery deadline as the feast of the Immaculate Conception, 8 December 1483.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Virgin of the Rocks, background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Virgin_of_the_Rocks"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, contract text"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "relation",
+      "value": "Delivery due 8 December 1484",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "A search summary of a National Gallery page gives the deadline as 8 December 1484. Conflicts with the 1483 version.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, painting page NG1662. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://nationalgallery.org.uk/paintings/NG1662"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, contract text"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "date",
+      "value": {
+        "text": "c.1483 to 1494",
+        "start": 1483,
+        "end": 1494
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Louvre dates the panel to the last quarter of the fifteenth century, c.1483 to 1494.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 777. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062373"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "identity",
+      "value": "The Louvre panel is the first version, the one painted under the 1483 contract",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "That the Louvre picture is the panel produced under the 1483 contract and later removed from the confraternity (sold or otherwise diverted) is the prevailing scholarly reconstruction; the National Gallery describes the London panel as a replacement for it. No document names the Louvre panel.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, painting page NG1093. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-virgin-of-the-rocks"
+        },
+        {
+          "ref": "src-syson-2011",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry",
+        "Syson 2011, Virgin of the Rocks chapter"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "provenance",
+      "value": "First recorded at Fontainebleau in 1625; French royal collection; Louvre 1793",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre records the first mention in 1625 at Fontainebleau; earlier acquisition by Louis XII (1499 to 1512) or Francis I is suggested as probable; entered the national collection in 1793.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 777. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062373"
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "about": "provenance",
+      "value": "Possibly acquired by Louis XII or Francis I",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Louvre's suggestion that the panel reached the French crown under Louis XII or Francis I is an inference, not documented.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 777. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062373"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Delivery deadline in the 1483 contract: 8 December 1483 or 1484? Read the contract text in Villata.",
+    "How and when did the first version leave the confraternity (sale to Ludovico, to the French, or other)? Which documents support each version?"
+  ]
+}

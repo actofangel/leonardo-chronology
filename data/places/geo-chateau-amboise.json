@@ -1,0 +1,48 @@
+{
+  "id": "geo-chateau-amboise",
+  "type": "place",
+  "subtype": "building",
+  "label": "Château d'Amboise",
+  "variants": [
+    "Château royal d'Amboise",
+    "Castello di Amboise"
+  ],
+  "modern_name": "Château royal d'Amboise",
+  "region": "Centre Val de Loire (Indre et Loire)",
+  "country": "France",
+  "coords": {
+    "lat": 47.41362,
+    "lon": 0.98611
+  },
+  "within": "geo-amboise",
+  "summary": "Royal castle at Amboise; within its walls stood the collegiate church of Saint Florentin, and its chapel of Saint Hubert now holds a tomb for Leonardo.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-amboise"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 47.41362,
+        "lon": 0.98611
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Château d'Amboise, Sygic travel listing found by search (background only); other sources differ by a few hundred metres.",
+          "url": "https://travel.sygic.com/en/poi/chateau-d-amboise-poi:6712"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

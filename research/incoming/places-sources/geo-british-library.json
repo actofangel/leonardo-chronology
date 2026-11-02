@@ -1,0 +1,64 @@
+{
+  "id": "geo-british-library",
+  "type": "place",
+  "subtype": "institution",
+  "label": "British Library",
+  "variants": [
+    "BL"
+  ],
+  "modern_name": "The British Library",
+  "country": "United Kingdom",
+  "coords": {
+    "lat": 51.52944,
+    "lon": -0.12694
+  },
+  "within": "geo-london",
+  "summary": "National library of the United Kingdom, St Pancras, London.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-london"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 51.52944,
+        "lon": -0.12694
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "British Library, Wikipedia mirror as reported in search results (background only).",
+          "url": "https://britishlistedbuildings.co.uk/101426345-the-british-library-piazza-boundary-wall-and-railings-to-ossulston-street-euston-road-and-midland-road-st-pancras-and-somers-town-ward/maps"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "holdings",
+      "value": "Codex Arundel (Arundel MS 263; shelfmark from recall, to verify)",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "geo-florence",
+  "type": "place",
+  "subtype": "city",
+  "label": "Florence",
+  "variants": [
+    "Firenze",
+    "Florentia (Latin)",
+    "Fiorenza"
+  ],
+  "modern_name": "Firenze",
+  "region": "Tuscany",
+  "country": "Italy",
+  "coords": {
+    "lat": 43.77139,
+    "lon": 11.25417
+  },
+  "within": "geo-tuscany",
+  "summary": "Capital of the Florentine republic; Leonardo trained and worked there c.1464 to 1482, 1500 to 1506 and on later visits.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-tuscany"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 43.77139,
+        "lon": 11.25417
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Florence, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Florence"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

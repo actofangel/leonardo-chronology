@@ -1,0 +1,47 @@
+{
+  "id": "geo-pisa",
+  "type": "place",
+  "subtype": "city",
+  "label": "Pisa",
+  "variants": [
+    "Pisae (Latin)"
+  ],
+  "modern_name": "Pisa",
+  "region": "Tuscany",
+  "country": "Italy",
+  "coords": {
+    "lat": 43.7085,
+    "lon": 10.4036
+  },
+  "within": "geo-tuscany",
+  "summary": "City at war with Florence in 1503 to 1504; target of the Florentine Arno diversion scheme (e-arno).",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-tuscany"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 43.7085,
+        "lon": 10.4036
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Pisa, coordinate site found by search (background only).",
+          "url": "https://time-ok.com/coordinates/pisa"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

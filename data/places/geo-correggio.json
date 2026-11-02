@@ -1,0 +1,13 @@
+{
+  "id": "geo-correggio",
+  "type": "place",
+  "subtype": "town",
+  "label": "Correggio",
+  "modern_name": "Correggio",
+  "region": "Emilia Romagna",
+  "country": "Italy",
+  "summary": "Town in Emilia named in the inventory as the place of death of Charles d'Amboise (e-amboise-death).",
+  "open_questions": [
+    "Coordinates not yet sourced."
+  ]
+}

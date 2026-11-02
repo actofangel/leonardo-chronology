@@ -1,0 +1,261 @@
+{
+  "id": "w-leicester",
+  "type": "manuscript",
+  "subtype": "codex",
+  "label": "Codex Leicester",
+  "variants": [
+    "Codex Hammer"
+  ],
+  "summary": "Notebook of 18 double sheets (72 pages) on water, the Earth and the Moon, in a private collection (Bill Gates) since 1994.",
+  "holding": "Private collection (Bill Gates), Seattle",
+  "shelfmark": "none (private)",
+  "folios": "18 double sheets, 72 pages",
+  "date_range": {
+    "start": 1508,
+    "end": 1510
+  },
+  "contents": [
+    "water and hydraulics",
+    "geology and fossils",
+    "the light of the Moon"
+  ],
+  "history": [
+    "Guglielmo della Porta (Rome)",
+    "Giuseppe Ghezzi, c.1689 to 1690",
+    "Thomas Coke, later Earl of Leicester, 1717 or 1719",
+    "Armand Hammer, 12 December 1980",
+    "Bill Gates, 11 November 1994"
+  ],
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-seattle"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-thomas-coke",
+      "claim": "c6"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "folios",
+      "value": {
+        "text": "18 double sheets, 72 pages"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The codex consists of 18 double sheets giving 72 pages.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikimonde (French Wikipedia mirror), Codex Leicester: 72 pages, 18 feuillets doubles, vers 1508 to 1510.",
+          "url": "https://wikimonde.com/article/Codex_Leicester"
+        },
+        {
+          "type": "web",
+          "cite": "L'Unione Sarda, Il Codice Leicester di Leonardo a Firenze (72 pages).",
+          "url": "https://www.unionesarda.it/cultura/il-codice-leicester-di-leonardo-a-firenze-bill-gates-lo-presta-agli-uffizi-rsnvfslj?amp=1"
+        }
+      ],
+      "check_in": [
+        "Museo Galileo exhibition catalogue (Florence 2018)",
+        "Codex Leicester facsimile commentary"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "c.1508 to 1510",
+        "start": 1508,
+        "end": 1510
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Dated c.1508 to 1510.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikimonde (French Wikipedia mirror), Codex Leicester: 72 pages, 18 feuillets doubles, vers 1508 to 1510.",
+          "url": "https://wikimonde.com/article/Codex_Leicester"
+        },
+        {
+          "type": "web",
+          "cite": "Seattle Times, Codex history, a coveted trophy for the intellectually curious, 14 October 1997.",
+          "url": "https://archive.seattletimes.com/archive/19971014/2566020/codex-history----a-coveted-trophy-for-the-intellectually-curious"
+        }
+      ],
+      "check_in": [
+        "Museo Galileo exhibition catalogue (Florence 2018)",
+        "Kemp 2006"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1504 to 1510 (first draft)",
+        "start": 1504,
+        "end": 1510
+      },
+      "layer": "interpretation",
+      "status": "disputed",
+      "statement": "The first chronology draft gives c.1504 to 1510; no source seen in this session supports a start before 1506.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Inventory draft w-leicester (unverified)."
+        }
+      ],
+      "check_in": [
+        "Museo Galileo exhibition catalogue (Florence 2018)"
+      ],
+      "alternative_to": [
+        "c2"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": {
+        "text": "Owned by Guglielmo della Porta"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "The Museo Galileo exhibition text records the sculptor Guglielmo della Porta as an early owner; its stated year (1537) is not reconcilable with della Porta's biography without checking.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Museo Galileo, exhibition site Water as Microscope of Nature: the Codex Leicester, section The fortunes of the Codex (seen only as a search summary; host blocked for direct fetch).",
+          "url": "https://mostre.museogalileo.it/codiceleicester/en/the-fortunes-of-the-codex/62-the-european-circulation-of-the-codex-leicester"
+        },
+        {
+          "type": "web",
+          "cite": "Seattle Times, Codex history, a coveted trophy for the intellectually curious, 14 October 1997.",
+          "url": "https://archive.seattletimes.com/archive/19971014/2566020/codex-history----a-coveted-trophy-for-the-intellectually-curious"
+        }
+      ],
+      "check_in": [
+        "Museo Galileo exhibition catalogue (Florence 2018), chapter on the fortunes of the codex"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": {
+        "text": "Giuseppe Ghezzi, c.1689 to 1690"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The painter Giuseppe Ghezzi owned the codex in Rome by 1689 (Museo Galileo) or c.1690 (Italian press).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Museo Galileo, exhibition site Water as Microscope of Nature: the Codex Leicester, section The fortunes of the Codex (seen only as a search summary; host blocked for direct fetch).",
+          "url": "https://mostre.museogalileo.it/codiceleicester/en/the-fortunes-of-the-codex/62-the-european-circulation-of-the-codex-leicester"
+        },
+        {
+          "type": "web",
+          "cite": "Fanpage.it, Firenze, il ritorno del Codice da Vinci agli Uffizi in prestito da Bill Gates.",
+          "url": "https://www.fanpage.it/firenze-il-ritorno-del-codice-da-vinci-agli-uffizi-in-prestito-da-bill-gates"
+        }
+      ],
+      "check_in": [
+        "Museo Galileo exhibition catalogue (Florence 2018)"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "provenance",
+      "value": {
+        "text": "Bought by Thomas Coke, 1717 or 1719"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Thomas Coke, later Earl of Leicester, bought the codex from Ghezzi; sources give 1717 or 1719. It stayed with the family at Holkham for over two centuries.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Leicester (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Leicester"
+        },
+        {
+          "type": "web",
+          "cite": "Fanpage.it, Firenze, il ritorno del Codice da Vinci agli Uffizi in prestito da Bill Gates.",
+          "url": "https://www.fanpage.it/firenze-il-ritorno-del-codice-da-vinci-agli-uffizi-in-prestito-da-bill-gates"
+        },
+        {
+          "type": "other",
+          "cite": "Museo Galileo, exhibition site Water as Microscope of Nature: the Codex Leicester, introduction.",
+          "url": "https://mostre.museogalileo.it/codiceleicester/en/introduction"
+        }
+      ],
+      "check_in": [
+        "Museo Galileo exhibition catalogue (Florence 2018)",
+        "Holkham Hall archive"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "provenance",
+      "value": {
+        "text": "Sold to Armand Hammer, 12 December 1980",
+        "start": 1980,
+        "end": 1980
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Sold at Christie's, London, on 12 December 1980 to Armand Hammer for about 5.1 million US dollars and renamed Codex Hammer.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "HISTORY.com, Da Vinci notebook sells for over 5 million (12 December 1980 sale).",
+          "url": "https://www.history.com/this-day-in-history/da-vinci-notebook-sells-for-over-5-million"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Leicester (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Leicester"
+        }
+      ],
+      "check_in": [
+        "Christie's sale catalogue, 12 December 1980"
+      ]
+    },
+    {
+      "id": "c8",
+      "about": "provenance",
+      "value": {
+        "text": "Sold to Bill Gates, 11 November 1994",
+        "start": 1994,
+        "end": 1994
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Sold at Christie's, New York, on 11 November 1994 for 30,802,500 US dollars to a buyer later identified as Bill Gates, who restored the name Codex Leicester.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Leicester (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Leicester"
+        },
+        {
+          "type": "web",
+          "cite": "Seattle Times, Codex history, a coveted trophy for the intellectually curious, 14 October 1997.",
+          "url": "https://archive.seattletimes.com/archive/19971014/2566020/codex-history----a-coveted-trophy-for-the-intellectually-curious"
+        }
+      ],
+      "check_in": [
+        "Christie's sale catalogue, 11 November 1994"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Leaf dimensions: to locate in the Museo Galileo 2018 catalogue or a facsimile commentary.",
+    "Della Porta ownership: year and source of the record (Museo Galileo gives 1537).",
+    "Digital facsimile: no official complete online facsimile located; check e-Leo and the Gates collection."
+  ]
+}

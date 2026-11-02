@@ -41,6 +41,10 @@ export function loadAll(dataDir = DATA) {
   return { entities, files, problems };
 }
 
+export function loadVocab() {
+  return JSON.parse(readFileSync(path.join(DATA, 'vocab', 'classification.json'), 'utf8'));
+}
+
 export function loadView() {
   return JSON.parse(readFileSync(path.join(DATA, 'views', 'chronology.json'), 'utf8'));
 }

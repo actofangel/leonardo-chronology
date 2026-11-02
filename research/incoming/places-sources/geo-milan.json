@@ -1,0 +1,49 @@
+{
+  "id": "geo-milan",
+  "type": "place",
+  "subtype": "city",
+  "label": "Milan",
+  "variants": [
+    "Milano",
+    "Mediolanum (Latin)",
+    "Milan (French)"
+  ],
+  "modern_name": "Milano",
+  "region": "Lombardy",
+  "country": "Italy",
+  "coords": {
+    "lat": 45.46694,
+    "lon": 9.19
+  },
+  "within": "geo-lombardy",
+  "summary": "Capital of the Duchy of Milan; Leonardo worked there c.1482 to 1499 and 1506 to 1513.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-lombardy"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "coords",
+      "value": {
+        "lat": 45.46694,
+        "lon": 9.19
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Modern coordinates of the site as given by a web gazetteer or encyclopedia page found by search.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Milan, English Wikipedia infobox as reported in search results (background only).",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ],
+      "check_in": [
+        "A gazetteer record (GeoNames, Wikidata) opened directly"
+      ]
+    }
+  ]
+}

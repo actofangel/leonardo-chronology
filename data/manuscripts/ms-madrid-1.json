@@ -1,0 +1,139 @@
+{
+  "id": "ms-madrid-1",
+  "type": "manuscript",
+  "subtype": "codex",
+  "label": "Madrid Codex I",
+  "classification": {
+    "ms_form": "notebook",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "mechanics"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check against the holding's record or the Edizione Nazionale."
+  },
+  "variants": [
+    "Codex Madrid I",
+    "Ms. 8937"
+  ],
+  "summary": "Leonardo manuscript on mechanics and machine elements, Biblioteca Nacional de Espana, Ms. 8937.",
+  "holding": "geo-biblioteca-nacional-madrid",
+  "shelfmark": "Ms. 8937",
+  "folios": 192,
+  "dimensions": "215 x 145 mm (as reported)",
+  "date_range": {
+    "start": 1490,
+    "end": 1499
+  },
+  "contents": [
+    "machine elements and mechanisms",
+    "statics and dynamics"
+  ],
+  "relations": [
+    {
+      "rel": "part_of",
+      "target": "w-madrid1"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-biblioteca-nacional-madrid",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "shelfmark",
+      "value": {
+        "text": "Ms. 8937"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Biblioteca Nacional de Espana Ms. 8937.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Madrid, Biblioteca Nacional de Espana, MS 8937 and MS 8936.",
+          "url": "https://www.facsimilefinder.com/facsimiles/madrid-codices-facsimile"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Madrid (Leonardo) (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Madrid_(Leonardo)"
+        }
+      ],
+      "check_in": [
+        "BNE catalogue"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "folios",
+      "value": {
+        "text": "192 folios, 215 x 145 mm"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "192 folios (384 pages), internal format 215 x 145 mm; a popular site gives 21 x 15 cm overall.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Codex Madrid (Leonardo) (background only).",
+          "url": "https://en.wikipedia.org/wiki/Codex_Madrid_(Leonardo)"
+        },
+        {
+          "type": "web",
+          "cite": "Facsimile Finder, Madrid, Biblioteca Nacional de Espana, MS 8937 and MS 8936.",
+          "url": "https://www.facsimilefinder.com/facsimiles/madrid-codices-facsimile"
+        }
+      ],
+      "check_in": [
+        "BNE catalogue",
+        "Reti (ed.), The Madrid Codices, 1974, commentary volume"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1493 to 1495 (range of the work c.1490s)",
+        "start": 1493,
+        "end": 1495
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Dated c.1493 to 1495 (University of Virginia NEH page). Other summaries extend it through the 1490s.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "University of Virginia NEH Institute site, Madrid Codices.",
+          "url": "https://uva.theopenscholar.com/neh-institute/madrid-codices"
+        }
+      ],
+      "check_in": [
+        "Reti (ed.), The Madrid Codices, 1974, commentary volume"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "content",
+      "value": {
+        "text": "Treatise on machine elements"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Analysed by modern scholarship as the first treatise on machine elements.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Article in Foundations of Science (Springer), 2022, on Codex Madrid I (cites Codex Madrid II as 157 folios).",
+          "url": "https://link.springer.com/article/10.1007/s10699-022-09896-4"
+        }
+      ],
+      "check_in": [
+        "Reti (ed.), The Madrid Codices, 1974, commentary volume"
+      ]
+    }
+  ]
+}

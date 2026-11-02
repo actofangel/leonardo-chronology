@@ -1,0 +1,57 @@
+{
+  "id": "src-vasari-1550",
+  "type": "source",
+  "label": "Vasari 1550, Le vite (Torrentiniana)",
+  "source_type": "primary",
+  "citation": "Vasari, Giorgio. Le vite de' più eccellenti architetti, pittori, et scultori italiani, da Cimabue insino a' tempi nostri. 2 vols. Firenze: Lorenzo Torrentino, 1550. Critical edition: Le vite ... nelle redazioni del 1550 e 1568, ed. Rosanna Bettarini and Paola Barocchi, Firenze: Sansoni (later S.P.E.S.), 1966 to 1987.",
+  "short": "Vasari 1550",
+  "language": "it",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "value": "Vasari, Giorgio. Le vite de' più eccellenti architetti, pittori, et scultori italiani, da Cimabue insino a' tempi nostri. 2 vols. Firenze: Lorenzo Torrentino, 1550. Critical edition: Le vite ... nelle redazioni del 1550 e 1568, ed. Rosanna Bettarini and Paola Barocchi, Firenze: Sansoni (later S.P.E.S.), 1966 to 1987.",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bibliographic data as found in the catalogue record(s) cited. Exact title wording of the 1550 edition not checked against a catalogue.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Lives of the Most Excellent Painters, Sculptors, and Architects, English Wikipedia (background only): Torrentino 1550, Giunti 1568.",
+          "url": "https://en.wikipedia.org/wiki/Lives_of_the_Most_Excellent_Painters,_Sculptors,_and_Architects"
+        },
+        {
+          "type": "other",
+          "cite": "Article in Mitteilungen des Kunsthistorischen Institutes in Florenz on the Bettarini and Barocchi edition, 1966 to 1987 (seen as search result).",
+          "url": "https://journals.ub.uni-heidelberg.de/index.php/mkhi/article/view/52398/46017"
+        }
+      ],
+      "check_in": [
+        "WorldCat or SBN OPAC record opened directly"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "admission",
+      "value": {
+        "admitted": true,
+        "source_type": "primary"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Admitted as a primary witness to what Vasari wrote in 1550, cited by page of the edition used. What Vasari reports about Leonardo (written some 30 years after his death) is testimony, not proof; claims resting on it alone should be graded as interpretation or marked accordingly.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project SCHEMA.md source admission table and research/AGENT_BRIEF.md rule 2 (project rules, not a bibliographic source)."
+        }
+      ],
+      "check_in": [
+        "Project lead review of source classification"
+      ]
+    }
+  ],
+  "open_questions": [
+    "source_type 'primary' for a printed sixteenth century biography: confirm the project wants this rather than 'edition' (for the Bettarini and Barocchi text)."
+  ]
+}

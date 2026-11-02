@@ -1,0 +1,61 @@
+{
+  "id": "geo-biblioteca-trivulziana",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Biblioteca Trivulziana",
+  "variants": [
+    "Archivio Storico Civico e Biblioteca Trivulziana"
+  ],
+  "modern_name": "Archivio Storico Civico e Biblioteca Trivulziana",
+  "region": "Lombardy",
+  "country": "Italy",
+  "within": "geo-castello-sforzesco",
+  "summary": "Municipal historical archive and library of Milan, housed in the Castello Sforzesco.",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-castello-sforzesco"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "holdings",
+      "value": "Codex Trivulzianus, Codice Trivulziano 2162 (w-trivulz); shelfmark as given on Google Arts and Culture asset pages",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo works or manuscripts held here, as listed in the first draft or found in search; inventory numbers not checked.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Draft inventory and general knowledge; not checked."
+        }
+      ],
+      "check_in": [
+        "Institution's own catalogue",
+        "Marani 2000 or Zöllner 2003 for paintings"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "provenance",
+      "value": "Trivulzio collection, to the Trivulziana in 1935",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The Trivulzio collection, including the Codex Trivulzianus, passed to the city library in 1935 (as stated by the Trivulziana story on Google Arts and Culture).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Archivio Storico Civico e Biblioteca Trivulziana, The notebook of Leonardo da Vinci, Google Arts and Culture story (seen as search result).",
+          "url": "https://artsandculture.google.com/story/the-notebook-of-leonardo-da-vinci-archivio-storico-civico-e-biblioteca-trivulziana/WAWBnxbz1aB7Lg?hl=en"
+        }
+      ],
+      "check_in": [
+        "Brizio 1980 transcription of the Codex Trivulzianus, introduction"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Coordinates: use the Castello Sforzesco point (geo-castello-sforzesco) until a separate point is needed."
+  ]
+}

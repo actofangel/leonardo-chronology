@@ -21,7 +21,139 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "location",
+      "value": {
+        "text": "Codex Atlanticus, folio to locate"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The draft letter is in the Codex Atlanticus. The folio (often cited as f. 1082r, old 391ra) was not confirmed on any page in this session.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Google Arts and Culture, 'Leonardo's Cover Letter' (Ambrosiana story). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://artsandculture.google.com/story/sQVRpZ4EhlnSKg"
+        }
+      ],
+      "check_in": [
+        "Pedretti 1978 Atlanticus catalogue",
+        "Richter 1883",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "1482 to 1483",
+        "start": 1482,
+        "end": 1483
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "The Ambrosiana story dates the letter soon after Leonardo's arrival in Milan, 1482 to 1483.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Google Arts and Culture, 'Leonardo's Cover Letter' (Ambrosiana story). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://artsandculture.google.com/story/sQVRpZ4EhlnSKg"
+        }
+      ],
+      "check_in": [
+        "Pedretti 1978",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "c.1483 to 1485",
+        "start": 1483,
+        "end": 1485
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "Another web text dates the draft to about 1483 to 1485.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Google Arts and Culture, ten key facts about the Codex Atlanticus. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://artsandculture.google.com/story/ten-key-facts-about-leonardo-da-vinci-s-codex-atlanticus/_AWx3jZHwWiyJA"
+        }
+      ],
+      "check_in": [
+        "Pedretti 1978"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "hand",
+      "value": {
+        "text": "Hand to establish"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "The text runs left to right and is often said to be in a hand other than Leonardo's (a scribe or secretary). No page read in this session settled the question.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Letter from Leonardo da Vinci to Ludovico Sforza (background only). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://en.wikipedia.org/wiki/Letter_from_Leonardo_da_Vinci_to_Ludovico_Sforza"
+        }
+      ],
+      "check_in": [
+        "Pedretti 1978",
+        "Marani 2000",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "sent",
+      "value": {
+        "text": "Unknown"
+      },
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "Nothing found shows that the letter was sent. The military devices it offers are promises, not evidence of things built.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Google Arts and Culture, 'Leonardo's Cover Letter' (Ambrosiana story). Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://artsandculture.google.com/story/sQVRpZ4EhlnSKg"
+        }
+      ],
+      "check_in": [
+        "Villata 1999"
+      ]
     }
+  ],
+  "subtype": "document",
+  "relations": [
+    {
+      "rel": "contained_in",
+      "target": "w-atlanticus",
+      "claim": "c2"
+    },
+    {
+      "rel": "addressed_to",
+      "target": "pe-ludovico"
+    }
+  ],
+  "open_questions": [
+    "Is the letter in Leonardo's hand? Check Pedretti 1978 and the Ambrosiana catalogue."
   ],
   "timeline": {
     "lane": "events",

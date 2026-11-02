@@ -3,6 +3,18 @@
   "type": "work",
   "subtype": "painting",
   "label": "Virgin of the Rocks (Louvre)",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "transferred_to_canvas",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check form, technique, support and condition against the holding institution's record or a catalogue raisonné (Marani 2000, Zöllner 2003; for manuscripts, the Edizione Nazionale or Pedretti)."
+  },
   "claims": [
     {
       "id": "c1",

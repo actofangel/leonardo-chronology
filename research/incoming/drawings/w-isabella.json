@@ -1,0 +1,200 @@
+{
+  "id": "w-isabella",
+  "type": "work",
+  "subtype": "cartoon",
+  "label": "Portrait of Isabella d'Este",
+  "current_location": "geo-louvre",
+  "inventory": "Département des Arts graphiques, MI 753",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre",
+      "claim": "c1"
+    },
+    {
+      "rel": "depicts",
+      "target": "pe-isabella"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": {
+        "text": "Musée du Louvre, Département des Arts graphiques, MI 753"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Held by the Louvre under inventory MI 753 (recto), as cited in the Louvre's 2019 exhibition pages.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, Leonardo da Vinci exhibition 2019, online page 82. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://mini-site.louvre.fr/trimestriel/2019/l%C3%A9onard_de_vinciGB/82/"
+        }
+      ],
+      "check_in": [
+        "Louvre collections database",
+        "Zöllner 2003"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "medium",
+      "value": {
+        "text": "Metalpoint, charcoal, red chalk and stump, yellow ochre chalk on prepared paper"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "One web page gives this medium.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "thehistoryofart.org, Portrait of Isabella d'Este. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.thehistoryofart.org/leonardo-da-vinci/portrait-of-isabella-d-este/"
+        }
+      ],
+      "check_in": [
+        "Louvre collections database"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "medium",
+      "value": {
+        "text": "Black and red chalk with yellow pastel"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "Another web caption gives black and red chalk with yellow pastel.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia derived caption. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://rachel.core2learn.org/modules/en-wikipedia_for_schools-static/images/788/78823.jpg.htm"
+        }
+      ],
+      "check_in": [
+        "Louvre collections database"
+      ],
+      "alternative_to": [
+        "c2"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "dimensions",
+      "value": {
+        "text": "61 x 46.5 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "Web page gives 61 x 46.5 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "thehistoryofart.org, Portrait of Isabella d'Este. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.thehistoryofart.org/leonardo-da-vinci/portrait-of-isabella-d-este/"
+        }
+      ],
+      "check_in": [
+        "Louvre collections database"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "dimensions",
+      "value": {
+        "text": "63 x 46 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "disputed",
+      "statement": "Wikipedia derived caption gives 63 x 46 cm.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia derived caption. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://rachel.core2learn.org/modules/en-wikipedia_for_schools-static/images/788/78823.jpg.htm"
+        }
+      ],
+      "check_in": [
+        "Louvre collections database"
+      ],
+      "alternative_to": [
+        "c4"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "condition",
+      "value": {
+        "text": "Water damage; side and lower edges missing"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre page reports water damage and loss of the side and lower edges.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Musée du Louvre, Leonardo da Vinci exhibition 2019, online page 82. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://mini-site.louvre.fr/trimestriel/2019/l%c3%a9onard_de_vinciGB/82"
+        }
+      ],
+      "check_in": [
+        "Louvre collections database"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "condition",
+      "value": {
+        "text": "Cut down, with loss of a ledge and a book"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Martin Kemp argues that the cartoon was later cut down and lost a ledge with a book.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Martin Kemp, blog essay 'Leonardo and the supposed...'. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://martinjkemp.com/?p=1130"
+        }
+      ],
+      "check_in": [
+        "Kemp 2006",
+        "Louvre technical study"
+      ]
+    },
+    {
+      "id": "c8",
+      "about": "date",
+      "value": {
+        "text": "c.1499 to 1500",
+        "start": 1499.9,
+        "end": 1500.3
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Louvre material as cited dates the sheet about 1499 to 1500, linking it to Leonardo's stay in Mantua.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "thehistoryofart.org citing the Louvre record. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.thehistoryofart.org/leonardo-da-vinci/portrait-of-isabella-d-este/"
+        }
+      ],
+      "check_in": [
+        "Louvre collections database",
+        "Villata 1999 for the letters of 1500 to 1506"
+      ]
+    }
+  ]
+}

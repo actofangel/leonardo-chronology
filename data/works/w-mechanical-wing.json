@@ -1,0 +1,118 @@
+{
+  "id": "w-mechanical-wing",
+  "type": "work",
+  "subtype": "machine",
+  "label": "Mechanical wing worked by a winch",
+  "classification": {
+    "form": "technical_drawing",
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "flight",
+      "mechanics"
+    ],
+    "basis": "Form from the research batch of 2026-11-02 (subtype and medium as reported by the holding institution's page, read through search excerpts); subjects editorial. Check against the holding's record."
+  },
+  "manuscript": "w-atlanticus",
+  "folio": "f. 858 recto",
+  "current_location": "geo-ambrosiana",
+  "relations": [
+    {
+      "rel": "drawn_on",
+      "target": "w-atlanticus",
+      "claim": "c1"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "location",
+      "value": {
+        "text": "f. 858 recto"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The design is on f. 858 recto of the Codex Atlanticus (Biblioteca Ambrosiana).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana, catalogue page, Codex Atlanticus f. 858 recto, mechanical wing activated by a winch. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://ambrosiana.it/en/opere/atlantic-codex-codex-atlanticus-f-858-recto/"
+        }
+      ],
+      "check_in": [
+        "Pedretti 1978 Atlanticus catalogue"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "content",
+      "value": {
+        "text": "a mechanical wing activated by a winch, with detail of the winch below right"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The sheet shows: a mechanical wing activated by a winch, with detail of the winch below right. This is a fact about the drawing on paper only.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana, catalogue page, Codex Atlanticus f. 858 recto, mechanical wing activated by a winch. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://ambrosiana.it/en/opere/atlantic-codex-codex-atlanticus-f-858-recto/"
+        }
+      ],
+      "check_in": [
+        "Pedretti 1978 Atlanticus catalogue"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1478 to 1480",
+        "start": 1478,
+        "end": 1480
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Dated c.1478 to 1480 by the holding institution or source cited; sheet datings in Leonardo's codices are palaeographic and stylistic estimates.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana, catalogue page, Codex Atlanticus f. 858 recto, mechanical wing activated by a winch. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://ambrosiana.it/en/opere/atlantic-codex-codex-atlanticus-f-858-recto/"
+        }
+      ],
+      "check_in": [
+        "Pedretti 1978 Atlanticus catalogue"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "built",
+      "value": {
+        "text": "No evidence of construction"
+      },
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "Nothing found in this session shows that the device was built or tested by Leonardo; any such claim needs separate evidence.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Veneranda Biblioteca Ambrosiana, catalogue page, Codex Atlanticus f. 858 recto, mechanical wing activated by a winch. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://ambrosiana.it/en/opere/atlantic-codex-codex-atlanticus-f-858-recto/"
+        }
+      ],
+      "check_in": [
+        "Pedretti 1978 Atlanticus catalogue"
+      ]
+    }
+  ]
+}

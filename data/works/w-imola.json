@@ -3,6 +3,20 @@
   "type": "work",
   "subtype": "engineering",
   "label": "Map of Imola",
+  "classification": {
+    "form": "map",
+    "technique": [
+      "pen_and_ink",
+      "wash"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "cartography",
+      "urbanism"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check form, technique, support and condition against the holding institution's record or a catalogue raisonné (Marani 2000, Zöllner 2003; for manuscripts, the Edizione Nazionale or Pedretti)."
+  },
   "claims": [
     {
       "id": "c1",
@@ -22,7 +36,113 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "current_location",
+      "value": {
+        "text": "Royal Collection, Windsor, RCIN 912284"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal Collection, RCIN 912284 (in older literature Windsor RL 12284; the RCIN adds a leading 9).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912284, A map of Imola 1502. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912284"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "medium",
+      "value": {
+        "text": "Black chalk, stylus lines, pen and ink, coloured washes; 44.0 x 60.2 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Medium and sheet size as on the RCT record.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912284, A map of Imola 1502. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912284"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "autumn 1502",
+        "start": 1502.7,
+        "end": 1502.95
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT dates the map 1502, probably autumn 1502, when Cesare Borgia's retinue was quartered in Imola. The sheet itself carries no date in the excerpts read.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912284, A map of Imola 1502. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912284"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968",
+        "Villata 1999 for the Borgia passport of August 1502"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "method",
+      "value": {
+        "text": "Paced street lengths; bearings from the tower of the Palazzo Comunale"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "RCT describes the method: street lengths paced and bearings taken from the tower of the central Palazzo Comunale, with the plan built up geometrically. This is a reconstruction from the sheet and related notes.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, collection online, RCIN 912284, A map of Imola 1502. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.rct.uk/collection/912284"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968",
+        "Kemp 2006"
+      ]
     }
+  ],
+  "current_location": "geo-royal-collection-windsor",
+  "inventory": "RCIN 912284",
+  "medium": "Black chalk, stylus lines, pen and ink, coloured washes",
+  "dimensions": "44.0 x 60.2 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-royal-collection-windsor",
+      "claim": "c2"
+    },
+    {
+      "rel": "commissioned_by",
+      "target": "pe-borgia"
+    }
+  ],
+  "open_questions": [
+    "Is there any document showing that Borgia commissioned the map, or is the link inferred from date and place?"
   ],
   "timeline": {
     "lane": "works",

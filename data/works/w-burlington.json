@@ -3,6 +3,20 @@
   "type": "work",
   "subtype": "drawing",
   "label": "Burlington House Cartoon",
+  "classification": {
+    "form": "cartoon",
+    "technique": [
+      "charcoal",
+      "black_chalk",
+      "white_heightening"
+    ],
+    "support": "paper",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked. Check form, technique, support and condition against the holding institution's record or a catalogue raisonné (Marani 2000, Zöllner 2003; for manuscripts, the Edizione Nazionale or Pedretti)."
+  },
   "claims": [
     {
       "id": "c1",
@@ -23,7 +37,169 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "current_location",
+      "value": {
+        "text": "National Gallery, London, NG6337"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "National Gallery, London, inventory NG6337; acquired 1962 with a special grant, Art Fund and Pilgrim Trust support and a public appeal.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, collection page, The Burlington House Cartoon, NG6337. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-burlington-house-cartoon"
+        }
+      ],
+      "check_in": [
+        "National Gallery catalogue (Syson 2011 for the exhibition entry)"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "medium",
+      "value": {
+        "text": "Charcoal and white chalk on paper, mounted on canvas; 141.5 x 104.6 cm"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Medium and size as given on the National Gallery page.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, collection page, The Burlington House Cartoon, NG6337. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-burlington-house-cartoon"
+        }
+      ],
+      "check_in": [
+        "Syson 2011"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "technique",
+      "value": {
+        "text": "Outlines not pricked or incised"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The outlines are not pricked or incised, so the sheet was not used to transfer the design.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, collection page, The Burlington House Cartoon, NG6337. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-burlington-house-cartoon"
+        }
+      ],
+      "check_in": [
+        "Syson 2011",
+        "National Gallery Technical Bulletin"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "function",
+      "value": {
+        "text": "Presentation drawing"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "From the absence of transfer marks the Gallery infers that it was a presentation drawing shown to patrons to approve or gain a commission.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, collection page, The Burlington House Cartoon, NG6337. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-burlington-house-cartoon"
+        }
+      ],
+      "check_in": [
+        "Syson 2011"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "date",
+      "value": {
+        "text": "c.1499 to 1500",
+        "start": 1499,
+        "end": 1500
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "Traditional date, resting on Vasari's account of a cartoon shown in Florence in 1501, as summarised by the National Gallery.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, collection page, The Burlington House Cartoon, NG6337. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-burlington-house-cartoon"
+        },
+        {
+          "ref": "src-vasari-1568",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Syson 2011",
+        "Zöllner 2003"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "date",
+      "value": {
+        "text": "c.1506 to 1508",
+        "start": 1506,
+        "end": 1508
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "The National Gallery now dates the cartoon about 1506 to 1508 on technical and stylistic grounds.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery, London, collection page, The Burlington House Cartoon, NG6337. Read through search engine excerpts in this session; the page itself was not fetched in this session.",
+          "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-burlington-house-cartoon"
+        }
+      ],
+      "check_in": [
+        "Syson 2011",
+        "Zöllner 2003"
+      ],
+      "alternative_to": [
+        "c6"
+      ]
     }
+  ],
+  "current_location": "geo-national-gallery-london",
+  "inventory": "NG6337",
+  "medium": "Charcoal and white chalk on paper, mounted on canvas",
+  "support": "Paper mounted on canvas",
+  "dimensions": "141.5 x 104.6 cm",
+  "variants": [
+    "The Virgin and Child with Saint Anne and Saint John the Baptist"
+  ],
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-national-gallery-london",
+      "claim": "c2"
+    },
+    {
+      "rel": "related_to",
+      "target": "w-st-anne-study-bm"
+    }
+  ],
+  "open_questions": [
+    "Is the 1501 cartoon described by Vasari and in the Novellara letter this sheet, the lost Servite cartoon, or another one? See w-servite."
   ],
   "timeline": {
     "lane": "works",
