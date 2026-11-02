@@ -35,6 +35,25 @@
       "check_in": [
         "A gazetteer record (GeoNames, Wikidata) opened directly"
       ]
+    },
+    {
+      "id": "iv135",
+      "about": "leonardo_presence",
+      "value": {
+        "text": "July 1502"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Itinerario Vinciano map marks Urbino: July 1502.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "map of stays (Carta dei soggiorni)"
+        }
+      ],
+      "check_in": [
+        "Villata 1999 or the dated autograph note concerned"
+      ]
     }
   ]
 }

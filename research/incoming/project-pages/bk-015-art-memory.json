@@ -1,0 +1,80 @@
+{
+  "id": "bk-015-art-memory",
+  "type": "book",
+  "subtype": "identified",
+  "label": "The Art of Memory",
+  "variants": [
+    "Ars memoriae",
+    "memory by places"
+  ],
+  "library_no": 15,
+  "category": "Language, Rhetoric and Grammar",
+  "summary": "A treatise on the classical art of memory, fixing recollection through imagined spatial arrangement.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 15, Language, Rhetoric and Grammar"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 15 in the reconstructed catalogue of Leonardo's books, under Language, Rhetoric and Grammar. Leonardo's wording as rendered there: \"memory by places\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 15"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Ars memoriae"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Ars memoriae. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 15"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed antiquity to Middle Ages · Printed later 15th century"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed antiquity to Middle Ages · Printed later 15th century.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 15"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

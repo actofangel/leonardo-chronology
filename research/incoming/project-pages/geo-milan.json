@@ -1,0 +1,97 @@
+{
+  "id": "geo-milan",
+  "type": "place",
+  "label": "Milan",
+  "claims": [
+    {
+      "id": "iv41",
+      "about": "coords",
+      "value": {
+        "text": "45.4642, 9.19"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Coordinates given in the Itinerario Vinciano: 45.4642 N, 9.19 E.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, First Period Milano, Coordinates"
+        }
+      ]
+    },
+    {
+      "id": "iv106",
+      "about": "coords",
+      "value": {
+        "text": "45.4642, 9.19"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Coordinates given in the Itinerario Vinciano: 45.4642 N, 9.19 E.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, Second Period Milano, Coordinates"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#milano1",
+      "text": "Patron saint: Saint Ambrose (Milanese feast 7 December); eponym of the anti Sforza Ambrosian Republic of 1447 to 1450",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#milano1",
+      "text": "Government: Duchy under princely rule: Visconti, then the Ambrosian Republic, then the Sforza. During Leonardo's residence the effective ruler was Ludovico il Moro, duke in title from 1494",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#milano1",
+      "text": "Terrain and water: Center of the Po plain; the Ticino to the west, the Adda to the east, the Alpine foothills with lakes Como and Maggiore to the north. The navigli, the canal network, tied the city to its rivers",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#milano1",
+      "text": "Economy and trade: Armor and arms manufacture, silk and wool, intensive irrigated agriculture of the plain. A node of transalpine trade whose transit tolls fed the ducal treasury",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#milano1",
+      "text": "Geopolitics: Ludovico, holding a dubious title, balanced France against the Empire and helped precipitate the invasion of Charles VIII in 1494. In 1499 Louis XII, asserting a Visconti claim, took the duchy",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#milano2",
+      "text": "Patron saint: Saint Ambrose, as in section III",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#milano2",
+      "text": "Government: Direct French rule through governors, Charles d'Amboise and his successors. In 1512 the Holy League and the Swiss expelled the French and restored Massimiliano Sforza",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#milano2",
+      "text": "Geopolitics: Northern Italy as the battlefield of the wars of the League of Cambrai and the Holy League: Agnadello 1509, Ravenna 1512, Novara 1513",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

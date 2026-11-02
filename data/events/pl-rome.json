@@ -23,6 +23,138 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "iv108",
+      "about": "period",
+      "value": {
+        "text": "From 24 September 1513 (the autograph note of Ms E"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "From 24 September 1513 (the autograph note of Ms E (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Rome Roma, Period"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv110",
+      "about": "period",
+      "value": {
+        "text": ") until 1516. A short journey toward Parma in September 1514 is fixed by a manuscript entry"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": ") until 1516. A short journey toward Parma in September 1514 is fixed by a manuscript entry (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Rome Roma, Period"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv112",
+      "about": "period",
+      "value": {
+        "text": "attendance in the papal train at Bologna in December 1515, for the meeting of Leo X and Francis I, is the scholarly consensus"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "attendance in the papal train at Bologna in December 1515, for the meeting of Leo X and Francis I, is the scholarly consensus (Itinerario tier C)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Rome Roma, Period"
+        }
+      ],
+      "check_in": []
+    },
+    {
+      "id": "iv114",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "December 1513, payments in the account book of the architect Giuliano Leno for fitting out rooms for Leonardo in the Belvedere"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "December 1513, payments in the account book of the architect Giuliano Leno for fitting out rooms for Leonardo in the Belvedere (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Rome Roma, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv116",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "Draft letters to Giuliano de' Medici concerning the dispute with the German mirror maker Giovanni and the denunciation of his dissections at the hospital of Santo Spirito"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Draft letters to Giuliano de' Medici concerning the dispute with the German mirror maker Giovanni and the denunciation of his dissections at the hospital of Santo Spirito (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Rome Roma, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv118",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "Autograph note: the Magnifico Giuliano de' Medici left Rome at dawn on 9 January 1515 to marry his wife in Savoy, and on that day came the death of the king of France"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Autograph note: the Magnifico Giuliano de' Medici left Rome at dawn on 9 January 1515 to marry his wife in Savoy, and on that day came the death of the king of France (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Rome Roma, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#roma",
+      "text": "At the Belvedere Leonardo drew a monthly allowance but stood outside the great public commissions: Raphael held the Stanze, Michelangelo the tomb of Julius, and to Leonardo, past sixty, fell technical reconnaissance. The content of the period is the colored map of the Pontine marshes, Windsor RL 12684, of about 1514 to 1515, answering the drainage concession granted to Giuliano A ; the survey of the harbor of Civitavecchia; geometry, above all the quadrature of lunes; and experiments with mirrors and burning mirrors. The halt of his dissections upon denunciation to the papal court exposes the normative constraints of the curial environment as a patronage system, and the draft letters to Giuliano are the rare surviving instance of Leonardo composing a defense of his own position.",
+      "retrieved": "2026-11-02"
     }
   ],
   "timeline": {

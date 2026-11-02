@@ -1,0 +1,88 @@
+{
+  "id": "bk-082-euclid-in-vernacular-first",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Euclid in the Vernacular, the First Three Books",
+  "variants": [
+    "Elementa (in volgare)",
+    "Euclid in the vernacular, that is the first three books"
+  ],
+  "library_no": 82,
+  "category": "Science, Mathematics, Engineering and Military",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 82, Science, Mathematics, Engineering and Military"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 82 in the reconstructed catalogue of Leonardo's books, under Science, Mathematics, Engineering and Military. Leonardo's wording as rendered there: \"Euclid in the vernacular, that is the first three books\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 82"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Elementa (in volgare)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Elementa (in volgare). The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 82"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed c. 300 BC · Manuscript translation, no printed Italian Euclid before 1543"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed c. 300 BC · Manuscript translation, no printed Italian Euclid before 1543.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 82"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "project-library",
+      "lang": "en",
+      "url": "views/library.html",
+      "text": "An Italian translation of the opening books of the Elements.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

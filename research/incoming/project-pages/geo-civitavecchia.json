@@ -1,0 +1,31 @@
+{
+  "id": "geo-civitavecchia",
+  "type": "place",
+  "subtype": "town",
+  "label": "Civitavecchia",
+  "claims": [
+    {
+      "id": "iv145",
+      "about": "leonardo_presence",
+      "value": {
+        "text": "the harbor survey"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Itinerario Vinciano map marks Civitavecchia: the harbor survey.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "map of stays (Carta dei soggiorni)"
+        }
+      ],
+      "check_in": [
+        "Villata 1999 or the dated autograph note concerned"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Created from the Itinerario Vinciano map; needs sources for the historical connection."
+  ],
+  "relations": []
+}

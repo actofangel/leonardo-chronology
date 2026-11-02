@@ -1,0 +1,80 @@
+{
+  "id": "bk-038-masuccio-s-novellino",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Masuccio's Novellino",
+  "variants": [
+    "Il Novellino",
+    "the little works of Masuccio"
+  ],
+  "library_no": 38,
+  "category": "Literature, Poetry and Fables",
+  "summary": "The short story collection of Masuccio Salernitano, mined for Leonardo's word lists.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 38, Literature, Poetry and Fables"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 38 in the reconstructed catalogue of Leonardo's books, under Literature, Poetry and Fables. Leonardo's wording as rendered there: \"the little works of Masuccio\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 38"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Il Novellino"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Il Novellino. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 38"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 1475 · Printed 1476"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 1475 · Printed 1476.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 38"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

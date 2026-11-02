@@ -1,0 +1,80 @@
+{
+  "id": "bk-011-stefano-fieschi-da-soncino",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Stefano Fieschi da Soncino",
+  "variants": [
+    "Synonyma sententiarum",
+    "Stefano Frisco da Soncino"
+  ],
+  "library_no": 11,
+  "category": "Language, Rhetoric and Grammar",
+  "summary": "A manual of Latin phrasing, synonyms, and letter composition by Stefano Fieschi.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 11, Language, Rhetoric and Grammar"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 11 in the reconstructed catalogue of Leonardo's books, under Language, Rhetoric and Grammar. Leonardo's wording as rendered there: \"Stefano Frisco da Soncino\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 11"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Synonyma sententiarum"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Synonyma sententiarum. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 11"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed mid 15th century · Printed 1477"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed mid 15th century · Printed 1477.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 11"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

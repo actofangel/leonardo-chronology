@@ -1,0 +1,80 @@
+{
+  "id": "bk-022-quadriregio",
+  "type": "book",
+  "subtype": "identified",
+  "label": "The Quadriregio",
+  "variants": [
+    "Il Quadriregio",
+    "Quadriregio"
+  ],
+  "library_no": 22,
+  "category": "Literature, Poetry and Fables",
+  "summary": "Federico Frezzi's allegorical epic of the four realms, written under the influence of Dante.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 22, Literature, Poetry and Fables"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 22 in the reconstructed catalogue of Leonardo's books, under Literature, Poetry and Fables. Leonardo's wording as rendered there: \"Quadriregio\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 22"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Il Quadriregio"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Il Quadriregio. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 22"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed c. 1400 · Printed 1481"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed c. 1400 · Printed 1481.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 22"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

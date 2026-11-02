@@ -11,7 +11,7 @@
 //   db.json           every entity, with resolved claims and backlinks
 //   reviews.json      review layer for the chronology page
 //   extra.json        empty; new records now go in data/
-import { readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync, readdirSync } from 'node:fs';
 import path from 'node:path';
 import { ROOT, loadAll, loadView, loadVocab, resolve, LANES, LANE_CONST, isAdmitted } from './lib.mjs';
 
@@ -114,6 +114,9 @@ writeFileSync(path.join(OUT, 'extra.json'), JSON.stringify({ schema: 'ldv-chrono
 writeFileSync(path.join(OUT, 'db.json'), JSON.stringify(db) + '\n');
 if (existsSync(path.join(ROOT, 'site', 'explorer.html'))) copyFileSync(path.join(ROOT, 'site', 'explorer.html'), path.join(OUT, 'index.html'));
 writeFileSync(path.join(OUT, '.nojekyll'), '');
+// Published views (project pages kept as they are)
+const VIEWS = path.join(ROOT, 'site', 'views');
+if (existsSync(VIEWS)) { mkdirSync(path.join(OUT, 'views'), { recursive: true }); for (const f of readdirSync(VIEWS)) copyFileSync(path.join(VIEWS, f), path.join(OUT, 'views', f)); }
 
 const n = LANES.reduce((s, l) => s + lanes[l].length, 0);
 console.log(`Built ${OUT}${SCENARIO ? ' (scenario ' + SCENARIO + ')' : ''}: ${stats.entities} entities, ${stats.claims} claims (${stats.verified} verified, ${stats.admittedSourced} with an admitted source), ${n} chronology records.`);

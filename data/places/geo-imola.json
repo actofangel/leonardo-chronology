@@ -42,6 +42,64 @@
       "check_in": [
         "A gazetteer record (GeoNames, Wikidata) opened directly"
       ]
+    },
+    {
+      "id": "iv89",
+      "about": "coords",
+      "value": {
+        "text": "43.7262, 12.6365"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Coordinates given in the Itinerario Vinciano: 43.7262 N, 12.6365 E.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Romagna and the Marches in the service of Cesare Borgia, Coordinates"
+        }
+      ]
+    },
+    {
+      "id": "iv140",
+      "about": "leonardo_presence",
+      "value": {
+        "text": "autumn 1502, the town plan RL 12284"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Itinerario Vinciano map marks Imola: autumn 1502, the town plan RL 12284.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "map of stays (Carta dei soggiorni)"
+        }
+      ],
+      "check_in": [
+        "Villata 1999 or the dated autograph note concerned"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#romagna",
+      "text": "Patron saints: Cesena: Saint John the Baptist, with the Madonna del Popolo as co-patron. Imola: Saint Cassian (feast 13 August). Urbino: Saint Crescentinus (feast 1 June)",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#romagna",
+      "text": "Government: Nominally the Papal States; in practice a mosaic of local lordships (Malatesta, Riario, Manfredi, Montefeltro) which Cesare, son of Alexander VI, subjugated by force between 1499 and 1502, seating his new duchy at Cesena",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#romagna",
+      "text": "Terrain: Hill country descending from the Apennine ridge toward the Adriatic coast, the towns strung along the Via Emilia",
+      "retrieved": "2026-11-02"
     }
   ]
 }

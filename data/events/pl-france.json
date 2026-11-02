@@ -23,6 +23,155 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "iv121",
+      "about": "period",
+      "value": {
+        "text": "From 1516 (summer or autumn by inference"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "From 1516 (summer or autumn by inference (Itinerario tier C)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Amboise and Le Clos Lucé Amboise . Cloux, Period"
+        }
+      ],
+      "check_in": []
+    },
+    {
+      "id": "iv123",
+      "about": "period",
+      "value": {
+        "text": ") until his death on 2 May 1519. Residence at the manor of Cloux below the château, the present Clos Lucé"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": ") until his death on 2 May 1519. Residence at the manor of Cloux below the château, the present Clos Lucé",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Amboise and Le Clos Lucé Amboise . Cloux, Period"
+        }
+      ],
+      "check_in": []
+    },
+    {
+      "id": "iv125",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "Royal accounts: to maistre Lyenard de Vince, Italian painter, two thousand écus soleil for the two years 1517 and 1518, with eight hundred to Melzi"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal accounts: to maistre Lyenard de Vince, Italian painter, two thousand écus soleil for the two years 1517 and 1518, with eight hundred to Melzi (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Amboise and Le Clos Lucé Amboise . Cloux, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv127",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "10 October 1517, the visit of Cardinal Luigi d'Aragona recorded by his secretary Antonio de Beatis, who saw three paintings, the portrait of a Florentine lady made for Giuliano de' Medici, the young Saint John, and the Saint Anne, and noted the paralysis of the right hand"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "10 October 1517, the visit of Cardinal Luigi d'Aragona recorded by his secretary Antonio de Beatis, who saw three paintings, the portrait of a Florentine lady made for Giuliano de' Medici, the young Saint John, and the Saint Anne, and noted the paralysis of the right hand (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Amboise and Le Clos Lucé Amboise . Cloux, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv129",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "Autograph note of 24 June 1518, the day of Saint John, at Amboise in the palace of Cloux"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Autograph note of 24 June 1518, the day of Saint John, at Amboise in the palace of Cloux (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Amboise and Le Clos Lucé Amboise . Cloux, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv131",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "23 April 1519, will before the notary Guillaume Boreau, directing burial in the collegiate church of Saint Florentin within the château of Amboise"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "23 April 1519, will before the notary Guillaume Boreau, directing burial in the collegiate church of Saint Florentin within the château of Amboise (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Amboise and Le Clos Lucé Amboise . Cloux, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv133",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "12 August 1519, the burial register of the collegiate cloister: Leonard de Vincy, noble Milanese, first painter and engineer and architect of the King"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "12 August 1519, the burial register of the collegiate cloister: Leonard de Vincy, noble Milanese, first painter and engineer and architect of the King (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Amboise and Le Clos Lucé Amboise . Cloux, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#amboise",
+      "text": "The terms of Francis I, the title of first painter, engineer, and architect of the King and a large pension, purchased not finished works but the presence of Leonardo himself at the court. The paralysis of the right hand reported by Beatis marks the physical close of his painting; the same account dwells on the mass of manuscripts and anatomical drawings, confirming that the labor of the last years had already shifted to the ordering of the papers. The documented work of the period comprises the plan for a new palace and canal system at Romorantin (1517 to 1518, manuscript studies and survey on the ground A ) and the production of court festivals: the celebrations of May 1518 for the baptism of the Dauphin and the wedding of Lorenzo de' Medici, and the restaging of the Festa del Paradiso at Cloux on 19 June 1518, reported in ambassadorial dispatches A . As the will directed, the body was buried in the collegiate church of Saint Florentin within the château. The church, ruined in the revolutionary years, was demolished early in the nineteenth century (about 1806 to 1808); in 1863 an excavation conducted by Arsène Houssaye recovered remains presumed to be Leonardo's, and in 1874 they were placed in the chapel of Saint Hubert on the ramparts. The present tomb is thus a translation, and the identification of the remains has never risen above presumption D .",
+      "retrieved": "2026-11-02"
     }
   ],
   "timeline": {

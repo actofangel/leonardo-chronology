@@ -1,0 +1,11 @@
+{
+  "id": "geo-blois",
+  "type": "place",
+  "subtype": "town",
+  "label": "Blois",
+  "claims": [],
+  "open_questions": [
+    "Created from the Itinerario Vinciano map; needs sources for the historical connection."
+  ],
+  "relations": []
+}

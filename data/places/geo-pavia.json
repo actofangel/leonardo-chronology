@@ -42,6 +42,25 @@
       "check_in": [
         "A gazetteer record (GeoNames, Wikidata) opened directly"
       ]
+    },
+    {
+      "id": "iv141",
+      "about": "leonardo_presence",
+      "value": {
+        "text": "June 1490, the cathedral consultation"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Itinerario Vinciano map marks Pavia: June 1490, the cathedral consultation.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "map of stays (Carta dei soggiorni)"
+        }
+      ],
+      "check_in": [
+        "Villata 1999 or the dated autograph note concerned"
+      ]
     }
   ]
 }

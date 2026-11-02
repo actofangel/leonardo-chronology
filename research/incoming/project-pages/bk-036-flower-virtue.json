@@ -1,0 +1,80 @@
+{
+  "id": "bk-036-flower-virtue",
+  "type": "book",
+  "subtype": "identified",
+  "label": "The Flower of Virtue",
+  "variants": [
+    "Fiore di virtù",
+    "Flower of Virtue"
+  ],
+  "library_no": 36,
+  "category": "Literature, Poetry and Fables",
+  "summary": "An anonymous moral bestiary of the fourteenth century, a direct source for Leonardo's animal fables and emblematic sketches.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 36, Literature, Poetry and Fables"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 36 in the reconstructed catalogue of Leonardo's books, under Literature, Poetry and Fables. Leonardo's wording as rendered there: \"Flower of Virtue\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 36"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Fiore di virtù"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Fiore di virtù. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 36"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed c. 1320 · Printed 1470s"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed c. 1320 · Printed 1470s.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 36"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

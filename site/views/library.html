@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Library of Leonardo da Vinci · A Reconstructed Catalogue</title>
+<meta name="description" content="A reconstructed catalogue of the 125 books identifiable in Leonardo da Vinci's library, with the three autograph book lists and essays on how his reading shaped his art and science.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --rose:#C26B78;
+  --rose-ink:#B0596A;
+  --chermisi:#9B111E;
+  --chermisi-deep:#800020;
+  --paonazzo:#3B2F4C;
+  --paonazzo-alt:#4B283A;
+  --linen:#F4F0EA;
+  --velvet:#1A1A1A;
+  --ink:var(--velvet);
+  --paper:var(--linen);
+  --panel:#EBE4DB;
+  --rule:#D6C6C2;
+  --muted:#7A6469;
+  --verdigris:var(--rose-ink);
+  --oxide:var(--chermisi);
+  --gold:var(--paonazzo);
+  --paper-2:var(--panel);
+  --ink-soft:var(--muted);
+  --ink-faint:color-mix(in srgb, var(--muted) 72%, var(--linen));
+  --rubric:var(--chermisi);
+  --rubric-deep:var(--chermisi-deep);
+  --azurite:var(--rose-ink);
+  --dark:var(--velvet);
+  --line:var(--rule);
+  --line-soft:color-mix(in srgb, var(--rule) 55%, transparent);
+  --on-dark-soft:color-mix(in srgb, var(--linen) 62%, var(--velvet));
+  --on-shadow-soft:color-mix(in srgb, var(--linen) 74%, var(--paonazzo));
+  --band-rule:color-mix(in srgb, var(--rose) 30%, var(--velvet));
+  --serif-display:"Cormorant Garamond",Georgia,serif;
+  --serif-body:"EB Garamond",Georgia,serif;
+  --mono:"IBM Plex Mono","Courier New",monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--serif-body);
+  font-size:19px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";
+  position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:
+    repeating-linear-gradient(0deg, color-mix(in srgb, var(--velvet) 2%, transparent) 0px, color-mix(in srgb, var(--velvet) 2%, transparent) 1px, transparent 1px, transparent 7px),
+    radial-gradient(ellipse at 20% 0%, color-mix(in srgb, var(--rose) 7%, transparent), transparent 55%),
+    radial-gradient(ellipse at 85% 100%, color-mix(in srgb, var(--paonazzo) 9%, transparent), transparent 50%);
+}
+main,header,footer{position:relative;z-index:1}
+a{color:var(--azurite)}
+a:hover{color:var(--rubric)}
+a:focus-visible,button:focus-visible,input:focus-visible{
+  outline:2px solid var(--rubric);outline-offset:3px;border-radius:2px;
+}
+::selection{background:var(--chermisi);color:var(--linen)}
+
+/* ---------- top band ---------- */
+.band{
+  background:var(--dark);
+  color:var(--on-dark-soft);
+  border-bottom:3px double var(--band-rule);
+}
+.band-inner{
+  max-width:1180px;margin:0 auto;
+  padding:14px 24px;
+  display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;
+}
+.band .mark{
+  font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--on-dark-soft);
+}
+.band nav{display:flex;gap:22px;flex-wrap:wrap}
+.band nav .navlink{
+  background:none;border:none;cursor:pointer;padding:0;
+  color:var(--on-dark-soft);text-decoration:none;
+  font-family:var(--serif-body);font-size:16px;letter-spacing:.04em;
+  border-bottom:1px solid transparent;
+}
+.band nav .navlink:hover{color:var(--linen);border-bottom-color:var(--rose)}
+
+/* ---------- hero ---------- */
+.hero{
+  max-width:1180px;margin:0 auto;
+  padding:78px 24px 30px;
+  text-align:center;
+}
+.hero .eyebrow{
+  font-family:var(--mono);font-size:12.5px;letter-spacing:.3em;text-transform:uppercase;
+  color:var(--rubric);
+}
+.hero h1{
+  font-family:var(--serif-display);
+  font-weight:600;
+  font-size:clamp(46px,7.4vw,96px);
+  line-height:1.02;
+  letter-spacing:.005em;
+  margin-top:18px;
+}
+.hero h1 .amp{font-style:italic;font-weight:500;color:var(--ink-soft)}
+.mirror{
+  display:block;
+  transform:scaleX(-1);
+  font-family:var(--serif-display);
+  font-weight:500;font-style:italic;
+  font-size:clamp(22px,3.4vw,42px);
+  color:transparent;
+  -webkit-text-stroke:1px color-mix(in srgb, var(--chermisi) 55%, transparent);
+  letter-spacing:.02em;
+  margin-top:6px;
+  user-select:none;
+}
+.mirror-note{
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-faint);margin-top:10px;
+}
+.hero .lede{
+  max-width:760px;margin:34px auto 0;
+  font-size:21px;line-height:1.65;color:var(--ink-soft);
+}
+.hero .lede em{color:var(--ink)}
+.hero .project-line{
+  margin-top:26px;
+  font-family:var(--mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink-faint);
+}
+.hero .project-line b{font-weight:500;color:var(--rose-ink)}
+
+.stats{
+  max-width:1180px;margin:56px auto 0;padding:0 24px;
+  display:grid;grid-template-columns:repeat(4,1fr);
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+}
+.stat{
+  padding:26px 18px;text-align:center;
+  border-left:1px solid var(--line-soft);
+}
+.stat:first-child{border-left:none}
+.stat b{
+  display:block;font-family:var(--serif-display);font-weight:600;
+  font-size:44px;line-height:1;color:var(--rubric);
+}
+.stat span{
+  display:block;margin-top:10px;
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);
+  line-height:1.7;
+}
+@media(max-width:820px){
+  .stats{grid-template-columns:1fr 1fr}
+  .stat:nth-child(3){border-left:none}
+  .stat{border-top:1px solid var(--line-soft)}
+  .stat:nth-child(-n+2){border-top:none}
+}
+
+/* ---------- sections ---------- */
+section{max-width:1180px;margin:0 auto;padding:88px 24px 0;scroll-margin-top:18px}
+.sec-head{max-width:820px}
+.sec-head .kicker{
+  font-family:var(--mono);font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--rubric);
+}
+.sec-head .kicker::before{content:"¶ ";color:var(--rubric)}
+.sec-head h2{
+  font-family:var(--serif-display);font-weight:600;
+  font-size:clamp(32px,4.4vw,52px);line-height:1.08;margin-top:14px;
+}
+.sec-head p{margin-top:20px;font-size:20px;color:var(--ink-soft)}
+.prose{max-width:760px;margin-top:26px}
+.prose p{margin-top:18px;text-align:justify;text-justify:inter-word;hyphens:auto}
+.prose p:first-child{margin-top:0}
+.prose .initial::first-letter{
+  font-family:var(--serif-display);
+  float:left;font-size:74px;line-height:.78;
+  padding:8px 10px 0 0;color:var(--rubric);font-weight:600;
+}
+.smallcaps{font-variant:small-caps;letter-spacing:.05em}
+
+/* ---------- book lists timeline ---------- */
+.lists{
+  margin-top:48px;
+  display:grid;grid-template-columns:repeat(3,1fr);gap:0;
+  border:1px solid var(--line);
+  background:var(--paper-2);
+}
+.list-card{
+  padding:34px 28px 30px;
+  border-left:1px solid var(--line);
+  display:flex;flex-direction:column;
+}
+.list-card:first-child{border-left:none}
+.list-card .when{
+  font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--rubric);
+}
+.list-card h3{
+  font-family:var(--serif-display);font-weight:600;font-size:29px;line-height:1.12;margin-top:12px;
+}
+.list-card .folio{
+  font-family:var(--mono);font-size:12.5px;color:var(--ink-faint);margin-top:6px;
+}
+.list-card .count{
+  font-family:var(--serif-display);font-size:58px;font-weight:600;line-height:1;
+  margin-top:22px;color:var(--ink);
+}
+.list-card .count small{
+  font-family:var(--serif-body);font-size:16px;font-weight:400;font-style:italic;color:var(--ink-soft);margin-left:8px;
+}
+.list-card p{margin-top:16px;font-size:17.5px;line-height:1.6;color:var(--ink-soft)}
+@media(max-width:900px){
+  .lists{grid-template-columns:1fr}
+  .list-card{border-left:none;border-top:1px solid var(--line)}
+  .list-card:first-child{border-top:none}
+}
+
+/* ---------- catalogue ---------- */
+#catalogue .sec-head{max-width:900px}
+.toolbar{
+  margin-top:44px;
+  position:sticky;top:0;z-index:5;
+  background:linear-gradient(var(--paper) 82%, color-mix(in srgb, var(--paper) 1%, transparent));
+  padding:14px 0 22px;
+}
+.toolbar-row{
+  display:flex;gap:14px;flex-wrap:wrap;align-items:center;
+}
+.search-wrap{position:relative;flex:1 1 320px;max-width:520px}
+.search-wrap input{
+  width:100%;
+  font-family:var(--serif-body);font-size:18px;color:var(--ink);
+  background:var(--paper-2);
+  border:1px solid var(--line);
+  padding:12px 16px 12px 42px;
+}
+.search-wrap input::placeholder{color:var(--ink-faint);font-style:italic}
+.search-wrap svg{
+  position:absolute;left:14px;top:50%;transform:translateY(-50%);
+  width:17px;height:17px;stroke:var(--ink-faint);fill:none;stroke-width:2;
+}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{
+  font-family:var(--serif-body);font-size:16px;
+  background:transparent;color:var(--ink-soft);
+  border:1px solid var(--line);
+  padding:8px 16px;cursor:pointer;
+  transition:background .15s,color .15s;
+}
+.chip:hover{border-color:var(--ink-soft);color:var(--ink)}
+.chip.active{background:var(--ink);color:var(--paper-2);border-color:var(--ink)}
+.chip .n{font-family:var(--mono);font-size:12px;opacity:.65;margin-left:6px}
+.result-count{
+  margin-top:10px;
+  font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);
+}
+
+.cat-group{margin-top:36px}
+.cat-group-head{
+  display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;
+  border-bottom:2px solid var(--ink);
+  padding-bottom:10px;
+}
+.cat-group-head h3{
+  font-family:var(--serif-display);font-weight:600;font-size:27px;
+}
+.cat-group-head .range{
+  font-family:var(--mono);font-size:12px;letter-spacing:.12em;color:var(--rubric);
+}
+.cat-group-head .desc{
+  flex-basis:100%;
+  font-size:17px;font-style:italic;color:var(--ink-soft);margin-top:2px;
+}
+
+.entry{
+  display:grid;
+  grid-template-columns:64px minmax(220px,1.15fr) minmax(240px,1.6fr) auto;
+  gap:8px 22px;align-items:baseline;
+  padding:18px 0 16px;
+  border-bottom:1px solid var(--line-soft);
+}
+.entry:hover{background:linear-gradient(90deg, color-mix(in srgb, var(--chermisi) 5%, transparent), transparent 70%)}
+.entry .no{
+  font-family:var(--mono);font-size:13px;color:var(--rubric);
+  padding-top:4px;
+}
+.entry .titles .en{
+  font-family:var(--serif-display);font-weight:600;font-size:22.5px;line-height:1.2;
+}
+.entry .titles .years{
+  display:block;margin-top:6px;
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.05em;color:var(--ink-faint);
+}
+.entry .titles .orig{
+  display:block;margin-top:3px;
+  font-style:italic;font-size:16.5px;color:var(--ink-soft);
+}
+.entry .body .leo{
+  font-size:16px;color:var(--ink-soft);
+}
+.entry .body .leo b{font-weight:500;color:var(--ink);font-style:italic}
+.entry .body .note{
+  display:block;margin-top:4px;font-size:16.5px;line-height:1.55;color:var(--ink);
+}
+.entry .go{
+  font-family:var(--mono);font-size:12px;letter-spacing:.08em;
+  white-space:nowrap;text-decoration:none;
+  border-bottom:1px solid color-mix(in srgb, var(--rose-ink) 45%, transparent);
+}
+.entry .go:hover{border-bottom-color:var(--chermisi)}
+@media(max-width:900px){
+  .entry{grid-template-columns:52px 1fr;gap:6px 14px}
+  .entry .body{grid-column:2}
+  .entry .go{grid-column:2;justify-self:start;margin-top:2px}
+}
+.no-results{
+  margin-top:40px;padding:38px;text-align:center;
+  border:1px dashed var(--line);color:var(--ink-soft);font-style:italic;
+}
+
+/* ---------- essays ---------- */
+.essays{
+  margin-top:48px;
+  display:grid;grid-template-columns:1fr 1fr;gap:1px;
+  background:var(--line);border:1px solid var(--line);
+}
+.essay{
+  background:var(--paper-2);
+  padding:36px 32px 34px;
+}
+.essay .tag{
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--rubric);
+}
+.essay h3{
+  font-family:var(--serif-display);font-weight:600;font-size:27px;line-height:1.15;margin-top:12px;
+}
+.essay p{margin-top:14px;font-size:17.5px;line-height:1.62;color:var(--ink-soft)}
+.essay p b{color:var(--ink);font-weight:500}
+.essay .refs{
+  margin-top:16px;font-family:var(--mono);font-size:12px;color:var(--ink-faint);letter-spacing:.04em;line-height:1.9;
+}
+@media(max-width:900px){.essays{grid-template-columns:1fr}}
+
+/* ---------- survivor ---------- */
+.survivor{
+  margin-top:48px;
+  background:var(--paonazzo);color:var(--on-shadow-soft);
+  border:1px solid color-mix(in srgb, var(--rose) 30%, var(--paonazzo));
+  padding:52px 46px;
+  display:grid;grid-template-columns:1fr 1.6fr;gap:44px;align-items:center;
+}
+.survivor .big-one{
+  font-family:var(--serif-display);font-weight:600;
+  font-size:clamp(120px,16vw,220px);line-height:.85;
+  color:transparent;-webkit-text-stroke:1.5px var(--rose);
+  text-align:center;
+}
+.survivor .big-one small{
+  display:block;-webkit-text-stroke:0;color:var(--on-shadow-soft);
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;margin-top:16px;
+}
+.survivor h3{
+  font-family:var(--serif-display);font-weight:600;font-size:32px;color:var(--linen);line-height:1.15;
+}
+.survivor p{margin-top:16px;font-size:18px;line-height:1.65;color:var(--on-shadow-soft)}
+.survivor p em{color:var(--linen)}
+.survivor .shelf{
+  margin-top:18px;font-family:var(--mono);font-size:12.5px;letter-spacing:.1em;color:var(--on-shadow-soft);
+}
+@media(max-width:900px){.survivor{grid-template-columns:1fr;padding:40px 28px}}
+
+/* ---------- sources / footer ---------- */
+.sources{margin-top:48px;max-width:860px}
+.sources ol{margin-top:22px;padding-left:0;list-style:none;counter-reset:src}
+.sources li{
+  counter-increment:src;
+  padding:14px 0 12px 52px;position:relative;
+  border-bottom:1px solid var(--line-soft);
+  font-size:17px;line-height:1.55;
+}
+.sources li::before{
+  content:counter(src,decimal-leading-zero);
+  position:absolute;left:0;top:16px;
+  font-family:var(--mono);font-size:12px;color:var(--rubric);
+}
+.sources li em{color:var(--ink)}
+.sources li a{word-break:break-word}
+footer{
+  margin-top:100px;
+  background:var(--velvet);color:var(--on-dark-soft);
+  border-top:3px double var(--band-rule);
+}
+.foot-inner{
+  max-width:1180px;margin:0 auto;padding:44px 24px 52px;
+  display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:baseline;
+}
+.foot-inner .colophon{font-size:16px;font-style:italic;max-width:560px;line-height:1.65}
+.foot-inner .mark{font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase}
+</style>
+</head>
+<body>
+
+<header class="band">
+  <div class="band-inner">
+    <span class="mark" translate="no">Identity of Leonardo Da Vinci</span>
+    <nav aria-label="Sections">
+      <button class="navlink" data-goto="lists">The Book Lists</button>
+      <button class="navlink" data-goto="catalogue">Catalogue</button>
+      <button class="navlink" data-goto="reading">Reading Leonardo</button>
+      <button class="navlink" data-goto="survivor">The Survivor</button>
+      <button class="navlink" data-goto="sources">Sources</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<div class="hero">
+  <p class="eyebrow">A Reconstructed Catalogue</p>
+  <h1>The Library <span class="amp">of</span> Leonardo</h1>
+  <span class="mirror" aria-hidden="true" translate="no">omo sanza lettere</span>
+  <p class="mirror-note">"a man without letters" · written here in mirror script, as Leonardo wrote</p>
+  <p class="lede">
+    Leonardo da Vinci called himself an <em translate="no">omo sanza lettere</em>, a man without letters.
+    His manuscripts tell another story. By the end of his life he owned nearly two hundred books,
+    an extraordinary number for an artist and engineer of the fifteenth century.
+    This site reconstructs that lost library: the <em>125 titles</em> that can be identified today
+    from the book lists, quotations, and notes scattered through his own hand.
+  </p>
+  <p class="project-line">A chapter of the research project <b>Identity of Leonardo Da Vinci</b></p>
+</div>
+
+<div class="stats" role="list" aria-label="Key figures">
+  <div class="stat" role="listitem"><b>125</b><span>titles identified<br>in this catalogue</span></div>
+  <div class="stat" role="listitem"><b>~200</b><span>books estimated<br>at his death, 1519</span></div>
+  <div class="stat" role="listitem"><b>3</b><span>autograph book lists<br>in his manuscripts</span></div>
+  <div class="stat" role="listitem"><b>1</b><span>volume surviving<br>with his annotations</span></div>
+</div>
+
+<section id="myth" aria-labelledby="myth-h">
+  <div class="sec-head">
+    <p class="kicker">The Myth</p>
+    <h2 id="myth-h">Unmaking the "man without letters"</h2>
+  </div>
+  <div class="prose">
+    <p class="initial">The phrase <em translate="no">omo sanza lettere</em> long fed a legend: a solitary genius who learned nothing from books and everything from nature. Modern bibliography has dismantled it. Leonardo grew up inside a culture of writing. His father, Ser Piero, was a notary; his grandfather Antonio kept the family record book that notes Leonardo's birth; his half brother Lorenzo, a wool merchant, wrote a <em translate="no">Libro di patientia</em> and a confessional manual quoting Dante and Petrarch. Leonardo's own handwriting is the <span class="smallcaps" translate="no">mercantesca</span>, the merchant's hand of Florentine tradesmen and clerks.</p>
+    <p>What he lacked was Latin, the language of the universities, and much of his library documents a lifelong campaign to conquer it: grammars of Donatus and Perotti, model letter collections, dictionaries, and a word list of more than eight thousand entries that he compiled himself, his <em translate="no">libro di mia vocaboli</em>. The self description was less confession than provocation. Book learning, he argued, must answer to experience; the authors he called <em translate="no">altori</em> were partners in an argument he intended to win by observation. The library below is the record of that argument.</p>
+  </div>
+</section>
+
+<section id="lists" aria-labelledby="lists-h">
+  <div class="sec-head">
+    <p class="kicker">Primary Evidence</p>
+    <h2 id="lists-h">Three lists in his own hand</h2>
+    <p>The reconstruction rests on inventories Leonardo himself jotted into his notebooks at three moments of his life. Read in sequence, they chart the growth of a working library from five schoolroom titles to a private collection rivaling a scholar's.</p>
+  </div>
+  <div class="lists">
+    <article class="list-card">
+      <span class="when">Milan · c. 1487 to 1490</span>
+      <h3>Codex Trivulzianus</h3>
+      <span class="folio">Cod. Triv. 2162, f. 2r</span>
+      <span class="count">5 <small>titles</small></span>
+      <p>The earliest record: Donatus, a lapidary, Pliny, an abacus book, and Pulci's <em translate="no">Morgante</em>. The same codex holds his vast word lists, over 8,000 entries drawn from Pulci, Valturio, Masuccio, and Poggio, including whole clusters of terms for turbulence, whirlwind, and storm that would later power his descriptions of water and air.</p>
+    </article>
+    <article class="list-card">
+      <span class="when">Milan · c. 1495</span>
+      <h3>Codex Atlanticus</h3>
+      <span class="folio">f. 559r · written in red chalk</span>
+      <span class="count">~40 <small>titles</small></span>
+      <p>A rapidly expanding shelf, still dominated by literature, grammar, and rhetoric, but with scientific and technical works beginning to appear. Books are now instruments of dialogue with the <em translate="no">altori</em>, the authors ancient and modern.</p>
+    </article>
+    <article class="list-card">
+      <span class="when">Florence · 1503 to 1504</span>
+      <h3>Madrid Codex II</h3>
+      <span class="folio">Cod. Madrid 8936, ff. 2v to 3r</span>
+      <span class="count">116 <small>titles</small></span>
+      <p>The mature library: philosophy, geometry, astronomy, cosmography, medicine, and anatomy, much of it now in Latin. Leonardo notes that 98 volumes are locked away <em translate="no">serati nel cassone</em>, in the great chest, with the rest stored in a second box.</p>
+    </article>
+  </div>
+</section>
+
+<section id="catalogue" aria-labelledby="catalogue-h">
+  <div class="sec-head">
+    <p class="kicker">The Catalogue</p>
+    <h2 id="catalogue-h">125 books, five shelves</h2>
+    <p>Every identifiable title, ordered as Leonardo's own entries suggest and grouped by subject. Each record gives the book's common English name, the presumed original title, Leonardo's own wording as it appears in his manuscripts, a note on the work, and two dates: when the text was composed, and when the edition Leonardo could have owned was printed. Links lead to the Museo Galileo digital library, which gathers the very editions he is likely to have read.</p>
+  </div>
+
+  <div class="toolbar">
+    <div class="toolbar-row">
+      <div class="search-wrap">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
+        <input id="search" type="search" placeholder="Search titles, authors, notes… e.g. Euclid, fables, anatomy" aria-label="Search the catalogue">
+      </div>
+      <div class="chips" role="group" aria-label="Filter by shelf" id="chips"></div>
+    </div>
+    <p class="result-count" id="count" aria-live="polite"></p>
+  </div>
+
+  <div id="entries"></div>
+  <div class="no-results" id="noresults" hidden>Nothing on these shelves matches that search. Try a broader word, or clear the filter.</div>
+</section>
+
+<section id="reading" aria-labelledby="reading-h">
+  <div class="sec-head">
+    <p class="kicker">Influence</p>
+    <h2 id="reading-h">Reading Leonardo</h2>
+    <p>The catalogue is not a list of dead titles. Traced through the notebooks, these books show how Leonardo absorbed the knowledge of his age and turned it into something new.</p>
+  </div>
+  <div class="essays">
+    <article class="essay">
+      <span class="tag">Natural Philosophy</span>
+      <h3>Pliny, water, and the moon</h3>
+      <p>Leonardo owned the <b>Natural History</b> of Pliny the Elder in Cristoforo Landino's Italian translation of 1476, and read it hard. In the <b>Codex Leicester</b>, drafted around 1508 to 1510, Pliny is the constant point of reference when Leonardo argues about the light of the moon and the movement of the earth's waters, treating the dark lunar maria as seas like our own and testing the ancient authority against his own eyes. Mandeville's book of marvels, Foresti's world chronicle, and Ptolemy's cosmography fed the same habit of mind: the correspondence of macrocosm and microcosm, world and body.</p>
+      <p class="refs">Catalogue nos. 69 · 75 · 77 · 61</p>
+    </article>
+    <article class="essay">
+      <span class="tag">Mathematics</span>
+      <h3>Pacioli and the discipline of geometry</h3>
+      <p>The mathematician <b>Luca Pacioli</b> arrived in Milan in 1496 and transformed Leonardo's shelf. Under his guidance Leonardo worked through a vernacular <b>Euclid</b>; Madrid Codex II, f. 78r, carries a tree of proportion drawn straight out of Pacioli's <b>Summa de arithmetica</b>. Leonardo repaid the debt with the celebrated polyhedra he drew for Pacioli's <b>De divina proportione</b>, and his pursuit of proportion in painting and architecture moved from workshop rule of thumb toward exact mathematical law. Witelo, Pecham, and Giorgio Valla supplied the optics behind his theory of vision.</p>
+      <p class="refs">Catalogue nos. 81 to 83 · 92 · 102 · 105</p>
+    </article>
+    <article class="essay">
+      <span class="tag">Medicine</span>
+      <h3>Anatomy against the book</h3>
+      <p>His shelves held a <b>Latin medical booklet</b>, a <b>book of anatomy</b>, Montagnana on urines, and the great surgery of <b>Guy de Chauliac</b>, channels for Galen, Avicenna, Celsus, and Soranus. Academic anatomy of the day was still recitation: the professor read the authority aloud while the cadaver illustrated it. Leonardo inverted the ritual. He began from the books, then cut, looked, and corrected the text with the knife, producing anatomical drawings that put direct observation above written authority and opened a door to modern science.</p>
+      <p class="refs">Catalogue nos. 106 · 108 to 110 · 112 · 123</p>
+    </article>
+    <article class="essay">
+      <span class="tag">Painting</span>
+      <h3>Fables, theology, and the painted idea</h3>
+      <p>The moral bestiary <b>Fiore di virtù</b> and his three copies of <b>Aesop</b> stand directly behind the fables and emblematic animals of the notebooks, texts he turned into rebuses and allegories. Theology reached the easel too: the prophetic <b>Apocalypsis Nova</b> of Amadeus of Portugal, with its teaching on the Immaculate Conception and the privileged sinlessness of the infant John the Baptist, has been proposed as the doctrinal ground of both versions of the <b>Virgin of the Rocks</b>, down to the angel Uriel's pointing hand in the Louvre panel. Painting, for Leonardo, was a <em translate="no">discorso mentale</em>, a discourse of the mind fed by everything he read.</p>
+      <p class="refs">Catalogue nos. 33 to 36 · 57</p>
+    </article>
+  </div>
+</section>
+
+<section id="survivor" aria-labelledby="survivor-h">
+  <div class="sec-head">
+    <p class="kicker">What Remains</p>
+    <h2 id="survivor-h">The one that survived</h2>
+  </div>
+  <div class="survivor">
+    <div class="big-one" aria-hidden="true">I<small>volume · of nearly 200</small></div>
+    <div>
+      <h3>Francesco di Giorgio Martini, <em translate="no">Trattato di architettura civile e militare</em></h3>
+      <p>At Leonardo's death in 1519 the library passed to his beloved pupil <em>Francesco Melzi</em>, and in the centuries that followed it was scattered to the winds. A single physical volume that Leonardo demonstrably owned and used has come down to us: a manuscript of Francesco di Giorgio's treatise on civil and military architecture, carrying about a dozen marginal notes in Leonardo's own hand.</p>
+      <p>Everything else on this site is reconstruction: titles recovered from his lists, his quotations, and the names of authors he argued with on paper.</p>
+      <p class="shelf">Biblioteca Medicea Laurenziana, Florence · MS Ashburnham 361</p>
+    </div>
+  </div>
+</section>
+
+<section id="reconstruction" aria-labelledby="recon-h">
+  <div class="sec-head">
+    <p class="kicker">Digital Humanities</p>
+    <h2 id="recon-h">Rebuilding a lost library</h2>
+  </div>
+  <div class="prose">
+    <p class="initial">The scholarly reconstruction behind this catalogue is above all the work of <em>Carlo Vecce</em> and an international team coordinated with the <em>Museo Galileo</em> in Florence and the Max Planck Institute for the History of Science in Berlin. Their exhibition <em>Leonardo and His Books: The Library of the Universal Genius</em> opened in Florence in 2019 for the fifth centenary of Leonardo's death and traveled to the Berlin State Library in 2021 as <em>Leonardo's Intellectual Cosmos</em>, accompanied by a full catalogue published by Giunti.</p>
+    <p>The Museo Galileo's thematic digital library, <a href="https://bibliotecadileonardo.museogalileo.it/" target="_blank" rel="noopener">La Biblioteca di Leonardo</a>, assembles digitized pages of the specific incunabula and manuscripts Leonardo is likely to have consulted, cross referenced against his notebooks, so that a reader today can follow which page he read, which figure struck him, and where it resurfaces in his own hand. It is less a list of books than a map of a mind, and it is the destination of every link in the catalogue above.</p>
+  </div>
+</section>
+
+<section id="sources" aria-labelledby="sources-h">
+  <div class="sec-head">
+    <p class="kicker">Apparatus</p>
+    <h2 id="sources-h">Principal sources</h2>
+  </div>
+  <div class="sources">
+    <ol>
+      <li><em>La Biblioteca di Leonardo</em>, thematic digital library, Museo Galileo, Florence. <a href="https://bibliotecadileonardo.museogalileo.it/" target="_blank" rel="noopener">bibliotecadileonardo.museogalileo.it</a></li>
+      <li>Carlo Vecce (ed.), <em>Leonardo and His Books: The Library of the Universal Genius</em>, exhibition catalogue, Museo Galileo, Florence, Giunti, 2019.</li>
+      <li><em>Leonardo's Intellectual Cosmos</em>, exhibition and catalogue, Staatsbibliothek zu Berlin with the Max Planck Institute for the History of Science and Museo Galileo, 2021. <a href="https://www.mpiwg-berlin.mpg.de/feature-story/leonardo-da-vincis-intellectual-cosmos-exhibitions-museo-galileo-and-staatsbibliothek" target="_blank" rel="noopener">mpiwg-berlin.mpg.de</a></li>
+      <li>Museo Galileo exhibition site <em>Leonardo e i suoi libri</em>, including the pages on the family writings, the book lists, and the partnership with Luca Pacioli. <a href="https://mostre.museogalileo.it/bibliotecaleonardo/" target="_blank" rel="noopener">mostre.museogalileo.it/bibliotecaleonardo</a></li>
+      <li>Leonardo da Vinci, autograph book lists: Codex Trivulzianus 2162, f. 2r; Codex Atlanticus, f. 559r; Madrid Codex II (8936), ff. 2v to 3r.</li>
+      <li>Francesco di Giorgio Martini, <em>Trattato di architettura civile e militare</em>, with Leonardo's marginalia, Biblioteca Medicea Laurenziana, MS Ashburnham 361.</li>
+      <li>Google Arts &amp; Culture, <em>Leonardo da Vinci and His Books</em>, Museo Galileo. <a href="https://artsandculture.google.com/story/leonardo-da-vinci-and-his-books-museo-galileo/UAVRFMTE3VoqLg?hl=en" target="_blank" rel="noopener">artsandculture.google.com</a></li>
+      <li>Compiled research dossier on Leonardo's book collection provided for this project, integrating the lists above with references and citations across the manuscripts into the 125 title reconstruction presented here.</li>
+    </ol>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <p class="colophon">This catalogue is part of the research project <em>Identity of Leonardo Da Vinci</em>. A static record of a lost library, rebuilt from lists, quotations, and marginal notes. Attributions of unidentified titles follow current scholarship and remain, like the library itself, a reconstruction.</p>
+    <span class="mark" translate="no">Identity of Leonardo Da Vinci · The Library · 125 titles</span>
+  </div>
+</footer>
+
+<script>
+/* ============ DATA ============ */
+const CATS = [
+  {id:1, name:"Language, Rhetoric & Grammar", range:"nos. 1 to 20",
+   desc:"The schoolbooks with which a man without letters taught himself Latin and the arts of the word."},
+  {id:2, name:"Literature, Poetry & Fables", range:"nos. 21 to 41",
+   desc:"Epic, satire, romance, and fable: the works that fed his imagination and his allegorical images."},
+  {id:3, name:"Religion, Philosophy & History", range:"nos. 42 to 68",
+   desc:"First principles of nature, devotion, and the memory of antiquity."},
+  {id:4, name:"Science, Mathematics, Engineering & Military", range:"nos. 69 to 104",
+   desc:"The working shelf that bound art to technics: geometry, astronomy, machines, and war."},
+  {id:5, name:"Medicine, Anatomy, Astrology & Miscellany", range:"nos. 105 to 125",
+   desc:"The microcosm of the body, and the invisible forces thought to govern fate and temperament."}
+];
+const GAL = "https://bibliotecadileonardo.museogalileo.it/";
+const B = [
+/* ---- Shelf 1: Language, Rhetoric & Grammar ---- */
+{n:1,c:1,en:"Perotti's Grammar",or:"Rudimenta grammatices",leo:"Perotti's textbook",note:"Niccolò Perotti's Latin grammar, a humanist bestseller of the first age of print.",y:"Composed 1468 · Printed 1473"},
+{n:2,c:1,en:"Donatus, Latin and Vernacular",or:"Ianua (Ars minor in volgare)",leo:"Donatus in Italian and Latin",note:"A bilingual edition of Aelius Donatus's elementary grammar, the standard first Latin book.",y:"Composed 4th century · Printed later 15th century"},
+{n:3,c:1,en:"Donatus",or:"Ars minor",leo:"Donato",note:"Donatus's elementary Latin grammar; one of the five titles in the earliest list of c. 1487 to 1490.",link:"https://bibliotecadileonardo.museogalileo.it/index.php/esplora/scheda/ars-minor/61683/61683",y:"Composed 4th century · Printed from the 1450s"},
+{n:4,c:1,en:"Donatus, Another Copy",or:"Ars minor (alio modo)",leo:"a Donatus grammar",note:"A second copy in a different binding, or an annotated edition of the same schoolbook.",y:"Composed 4th century · Printed later 15th century"},
+{n:5,c:1,en:"Francesco da Urbino's Latin Primer",or:"Regulae grammaticae",leo:"the Latin textbook of Francesco da Urbino",note:"A humanist introduction to Latin.",y:"Composed 15th century · Printed late 15th century"},
+{n:6,c:1,en:"A Latin Primer",or:"(Unidentified)",leo:"a Latin textbook",note:"A Latin teaching text whose exact identity is unknown.",y:"Composition unknown · Printed later 15th century"},
+{n:7,c:1,en:"A Grammar Bound in Boards",or:"(Unidentified)",leo:"a grammar textbook with board covers",note:"A working schoolbook, bound in wooden boards to survive constant use.",y:"Composition unknown · Printed later 15th century"},
+{n:8,c:1,en:"Priscian's Grammar",or:"Institutiones grammaticae",leo:"Priscian's grammar",note:"Priscian's systematic Latin grammar, the advanced counterpart to Donatus.",y:"Composed early 6th century · Printed 1470"},
+{n:9,c:1,en:"The New Rhetoric",or:"Rhetorica ad Herennium",leo:"the new rhetoric",note:"The manual of rhetoric attributed in the Renaissance to Cicero (in fact pseudo Ciceronian).",y:"Composed 1st century BC · Printed 1470"},
+{n:10,c:1,en:"On the Elegance of the Latin Language",or:"Elegantiae linguae latinae",leo:"the Elegances",note:"Lorenzo Valla's landmark treatise on Latin usage and style.",y:"Composed 1440s · Printed 1471"},
+{n:11,c:1,en:"Stefano Fieschi da Soncino",or:"Synonyma sententiarum",leo:"Stefano Frisco da Soncino",note:"A manual of Latin phrasing, synonyms, and letter composition by Stefano Fieschi.",y:"Composed mid 15th century · Printed 1477"},
+{n:12,c:1,en:"A Vocabulary on Parchment",or:"(Manuscript vocabulary)",leo:"a vocabulary in parchment",note:"A Latin or vernacular dictionary written on parchment.",y:"Composed 15th century · Manuscript"},
+{n:13,c:1,en:"My Book of Words",or:"Libro di mia vocaboli",leo:"my book of words",note:"Leonardo's own word lists, over 8,000 entries compiled in the Codex Trivulzianus and elsewhere.",y:"Compiled 1480s · Leonardo's autograph manuscript"},
+{n:14,c:1,en:"A Small Vocabulary",or:"(Vocabolario piccolo)",leo:"a small vocabulary",note:"A portable dictionary or wordbook.",y:"Composed 15th century · Printed later 15th century"},
+{n:15,c:1,en:"The Art of Memory",or:"Ars memoriae",leo:"memory by places",note:"A treatise on the classical art of memory, fixing recollection through imagined spatial arrangement.",y:"Composed antiquity to Middle Ages · Printed later 15th century"},
+{n:16,c:1,en:"Two Textbooks of Domenico Maccagni",or:"(Opere di Domenico Maccagni)",leo:"the two textbooks of Domenico Maccagni",note:"Texts attributed to Domenico Maccagni.",y:"Composed later 15th century · Printed late 15th century"},
+{n:17,c:1,en:"Gasparino's Letters",or:"Epistolae (Gasparinus Barzizius)",leo:"the letters of Gasparino",note:"Model Latin letters by the humanist Gasparino Barzizza, used as templates of good style.",y:"Composed 1420s · Printed 1470"},
+{n:18,c:1,en:"The Letters of Phalaris",or:"Epistolae Phalaridis",leo:"the letters of Phalaris",note:"Letters attributed to the ancient Sicilian tyrant Phalaris, a favorite school text.",y:"Composed in antiquity, a later Greek forgery · Printed c. 1470"},
+{n:19,c:1,en:"Filelfo's Letters",or:"Epistolae (Franciscus Philelphus)",leo:"the letters of Filelfo",note:"The letter collection of the humanist Francesco Filelfo.",y:"Composed mid 15th century · Printed 1473"},
+{n:20,c:1,en:"A Book of Forms",or:"Formularium diversorum contractuum",leo:"the formulary",note:"Model texts for drafting official letters, contracts, and legal documents.",y:"Composed Middle Ages to 15th century · Printed later 15th century"},
+/* ---- Shelf 2: Literature, Poetry & Fables ---- */
+{n:21,c:2,en:"Petrarch",or:"Canzoniere / Trionfi",leo:"Petrarch",note:"Francesco Petrarca's lyric Canzoniere or his allegorical Trionfi.",y:"Composed 14th century · Printed 1470"},
+{n:22,c:2,en:"The Quadriregio",or:"Il Quadriregio",leo:"Quadriregio",note:"Federico Frezzi's allegorical epic of the four realms, written under the influence of Dante.",y:"Composed c. 1400 · Printed 1481"},
+{n:23,c:2,en:"Geta and Birria",or:"Geta e Birria",leo:"Geta e Birria",note:"A medieval comic poem reworking ancient Roman comedy.",y:"Composed 12th century · Printed later 15th century"},
+{n:24,c:2,en:"Ciriffo Calvaneo",or:"Ciriffo Calvaneo",leo:"Ciriffo Calvaneo",note:"A chivalric romance by Luigi and Luca Pulci.",y:"Composed 1460s · Printed late 15th century"},
+{n:25,c:2,en:"Morgante",or:"Il Morgante",leo:"Morgante",note:"Luigi Pulci's comic chivalric epic; already present in the earliest book list.",y:"Composed 1460s to 1470s · Printed 1478, complete edition 1483"},
+{n:26,c:2,en:"Pulci's Driadeo",or:"Driadeo d'amore",leo:"Pulci, Driadeo",note:"Luca Pulci's mythological pastoral poem.",y:"Composed 1465 · Printed 1479"},
+{n:27,c:2,en:"Burchiello's Sonnets",or:"Sonetti (Burchiello)",leo:"the sonnets of Burchiello",note:"Satirical, riddling sonnets by the Florentine barber poet Burchiello.",y:"Composed earlier 15th century · Printed 1472"},
+{n:28,c:2,en:"Burchiello, Another Copy",or:"Sonetti (Burchiello)",leo:"Burchiello",note:"A second copy or edition of the same poet.",y:"Composed earlier 15th century · Printed later 15th century"},
+{n:29,c:2,en:"Sonnets of Messer Gasparo Visconti",or:"Sonetti (Gasparo Visconti)",leo:"the sonnets of Messer Gasparo Visconti",note:"Poems by the Milanese court poet Gasparo Visconti, a friend of Leonardo.",y:"Composed late 15th century · Printed 1493"},
+{n:30,c:2,en:"Lucan",or:"Pharsalia (De bello civili)",leo:"Lucan",note:"Lucan's historical epic on the Roman civil war.",y:"Composed 1st century AD · Printed 1469"},
+{n:31,c:2,en:"Ovid, Metamorphoses",or:"Metamorphoses",leo:"Ovid's Metamorphoses",note:"The great sourcebook of Greek and Roman myth, and a lifelong presence in Leonardo's imagination.",link:"https://bibliotecadileonardo.museogalileo.it/index.php/esplora/scheda/metamorphoses/62802/62802",y:"Completed 8 AD · Printed 1471"},
+{n:32,c:2,en:"Ovid, Epistles",or:"Heroides",leo:"Ovid's epistles",note:"Ovid's Heroides, the imagined letters of mythic heroines.",y:"Composed 1st century BC · Printed 1471"},
+{n:33,c:2,en:"Aesop's Fables in French",or:"Les fables d'Esope",leo:"Aesop's fables in French",note:"A French language collection of Aesopic fables.",y:"Composed in antiquity · Printed 1480s"},
+{n:34,c:2,en:"Aesop in Verse",or:"Aesopus moralisatus",leo:"Aesop's fables in verse",note:"A verse Aesop, in Italian or Latin, with moral applications.",y:"Composed Middle Ages · Printed later 15th century"},
+{n:35,c:2,en:"Aesop's Fables",or:"Fabulae (Aesopus)",leo:"Aesop",note:"The standard prose Aesop; the third copy of the fabulist on his shelves.",y:"Composed in antiquity · Printed later 15th century"},
+{n:36,c:2,en:"The Flower of Virtue",or:"Fiore di virtù",leo:"Flower of Virtue",note:"An anonymous moral bestiary of the fourteenth century, a direct source for Leonardo's animal fables and emblematic sketches.",y:"Composed c. 1320 · Printed 1470s"},
+{n:37,c:2,en:"The Ship of Fools",or:"Stultifera navis",leo:"the ship of fools",note:"Sebastian Brant's great satire on the follies of humankind.",y:"Composed 1494 · Latin edition printed 1497"},
+{n:38,c:2,en:"Masuccio's Novellino",or:"Il Novellino",leo:"the little works of Masuccio",note:"The short story collection of Masuccio Salernitano, mined for Leonardo's word lists.",y:"Composed 1475 · Printed 1476"},
+{n:39,c:2,en:"The Manganello",or:"Il Manganello",leo:"Manganello",note:"A satirical, misogynist poem of the late fifteenth century.",link:"https://bibliotecadileonardo.museogalileo.it/index.php/esplora/scheda/manganello/62461/62461",y:"Composed late 15th century · Printed early 16th century"},
+{n:40,c:2,en:"Poggio's Facetiae",or:"Facetiae",leo:"the Facetiae of Poggio",note:"Poggio Bracciolini's celebrated jest book, another quarry for the vocabulary lists.",y:"Composed c. 1450 · Printed 1470"},
+{n:41,c:2,en:"Guerrino",or:"Il Guerrin Meschino",leo:"Guerrino",note:"Andrea da Barberino's chivalric romance of the wandering knight Guerrino.",y:"Composed c. 1410 · Printed 1473"},
+/* ---- Shelf 3: Religion, Philosophy & History ---- */
+{n:42,c:3,en:"Aristotle, On Interpretation",or:"De interpretatione",leo:"the propositions of Aristotle",note:"Aristotle's foundational text of logic.",y:"Composed 4th century BC · Printed later 15th century"},
+{n:43,c:3,en:"Aristotle's Problems",or:"Problemata",leo:"the problems of Aristotle",note:"The pseudo Aristotelian compendium of questions on natural science and medicine.",y:"Composed antiquity to Middle Ages · Printed 1473"},
+{n:44,c:3,en:"Albert of Saxony",or:"Quaestiones in Aristotelis physica",leo:"Albertus of Saxony",note:"Natural philosophy and logic by Albert of Saxony, a key channel of medieval physics.",y:"Composed 14th century · Printed late 15th century"},
+{n:45,c:3,en:"Albertus Magnus, Philosophy",or:"Philosophia pauperum",leo:"the philosophy of Albertus Magnus",note:"A treatise of natural philosophy under the name of Albertus Magnus.",link:"https://bibliotecadileonardo.museogalileo.it/index.php/esplora/scheda/philosophia-pauperum/60824/60824",y:"Composed 13th century · Printed later 15th century"},
+{n:46,c:3,en:"Albertus Magnus, Secrets",or:"De secretis mulierum",leo:"the mysteries of Albertus Magnus",note:"An occult and mystical work attributed, probably falsely, to the same author.",y:"Composed 13th to 14th century · Printed later 15th century"},
+{n:47,c:3,en:"On the Immortality of the Soul",or:"Theologia Platonica de immortalitate animorum",leo:"the immortality of the soul",note:"Marsilio Ficino's Platonic Theology, or a related theological and philosophical work.",y:"Composed 1469 to 1474 · Printed 1482"},
+{n:48,c:3,en:"On the Nature of Man",or:"De natura hominis",leo:"on human temperament",note:"A work on human nature, temperament, and character.",y:"Composed antiquity to Middle Ages · Printed later 15th century"},
+{n:49,c:3,en:"Lives of the Philosophers",or:"Vitae et sententiae philosophorum",leo:"the lives of the philosophers",note:"Diogenes Laertius's lives and opinions of the Greek philosophers.",y:"Composed earlier 3rd century · Printed in Latin, 1470s"},
+{n:50,c:3,en:"Augustine, The City of God",or:"De civitate Dei",leo:"Augustine, City of God",note:"Augustine's monumental defense of the Christian order of history.",y:"Composed 413 to 426 · Printed 1467"},
+{n:51,c:3,en:"Sermons of St. Augustine",or:"Sermones (Augustinus)",leo:"the sermons of Saint Augustine",note:"A collection of Augustine's preaching.",y:"Composed earlier 5th century · Printed later 15th century"},
+{n:52,c:3,en:"The Bible",or:"Biblia sacra",leo:"the Bible",note:"The Christian scriptures, probably in a vernacular edition.",y:"Composed in antiquity · Italian Bible printed 1471"},
+{n:53,c:3,en:"A Psalter",or:"Psalterium",leo:"psalms",note:"The book of Psalms as used in the liturgy.",y:"Composed in antiquity · Printed later 15th century"},
+{n:54,c:3,en:"A Book of Sermons",or:"Sermones",leo:"sermons",note:"An anonymous or composite collection of sermons.",y:"Composed Middle Ages · Printed later 15th century"},
+{n:55,c:3,en:"The Passion of Christ",or:"Passio Christi",leo:"the Passion of Christ",note:"A devotional and meditative text on the Passion.",y:"Composed Middle Ages · Printed later 15th century"},
+{n:56,c:3,en:"On Temptations, Bound in Boards",or:"De tentationibus",leo:"on temptations, with board covers",note:"A moral and religious manual on the struggle against temptation and sin.",y:"Composed Middle Ages · Printed later 15th century"},
+{n:57,c:3,en:"The Book of Amadeus",or:"Apocalypsis Nova",leo:"the book of Amadeus",note:"The prophetic New Apocalypse of Amadeus of Portugal (Amadeo Menendez de Sylva); proposed as the doctrinal ground of the Virgin of the Rocks.",y:"Composed later 15th century · Circulated in manuscript"},
+{n:58,c:3,en:"The Book of St. Margaret",or:"Leggenda di Santa Margherita",leo:"the book of Santa Margherita",note:"A life of Saint Margaret, or a prayer book devoted to her.",y:"Composed Middle Ages · Printed later 15th century"},
+{n:59,c:3,en:"Life of St. Ambrose",or:"Vita Sancti Ambrosii",leo:"the life of Saint Ambrose",note:"A life of the patron saint of Milan.",y:"Composed earlier 5th century · Printed later 15th century"},
+{n:60,c:3,en:"Chronicle of St. Isidore",or:"Chronica (Isidorus)",leo:"the chronicle of Saint Isidore",note:"The chronicle of Isidore of Seville.",y:"Composed 7th century · Printed 1472"},
+{n:61,c:3,en:"The World Chronicle",or:"Supplementum Chronicarum",leo:"the world chronicle",note:"Jacopo Foresti's universal chronicle in the vernacular edition of Venice, 1491.",y:"Composed 1483 · Printed 1483, Italian version 1491"},
+{n:62,c:3,en:"Livy, First Decade",or:"Ab Urbe condita (Decas I)",leo:"the first decade of Livy",note:"Books 1 to 10 of Livy's history of Rome from its founding.",y:"Composed 1st century BC · Printed 1469, Italian 1476"},
+{n:63,c:3,en:"Livy, Third Decade",or:"Ab Urbe condita (Decas III)",leo:"the third decade of Livy",note:"The decade of the war with Hannibal.",y:"Composed 1st century BC · Printed 1469, Italian 1476"},
+{n:64,c:3,en:"Livy, Fourth Decade",or:"Ab Urbe condita (Decas IV)",leo:"the fourth decade of Livy",note:"A third volume of the same history.",y:"Composed 1st century BC · Printed 1469, Italian 1476"},
+{n:65,c:3,en:"Attila",or:"Attila",leo:"Attila",note:"A historical account of Attila, king of the Huns.",y:"Composed Middle Ages · Printed later 15th century"},
+{n:66,c:3,en:"Justin in the Vernacular",or:"Iustino vulgarizato",leo:"Justinianus",note:"The historian Justin in Italian translation, or possibly the code of the emperor Justinian.",link:"https://bibliotecadileonardo.museogalileo.it/index.php/esplora/scheda/iustino-vulgarizato/62164/62164",y:"Composed in antiquity · Printed 1470"},
+{n:67,c:3,en:"The Eagle of Leonardo d'Arezzo",or:"L'Aquila",leo:"the Eagle of Lionardo d'Arezzo",note:"Possibly a work of the humanist Leonardo Bruni of Arezzo.",y:"Composed earlier 15th century · Printed later 15th century"},
+{n:68,c:3,en:"Palmieri, On Civic Life",or:"Della vita civile",leo:"the civic life of Matteo Palmieri",note:"Matteo Palmieri's dialogue on the life of the citizen.",y:"Composed 1430s · Printed later 15th century"},
+/* ---- Shelf 4: Science, Mathematics, Engineering & Military ---- */
+{n:69,c:4,en:"Pliny, Natural History",or:"Historia naturale",leo:"Pliny",note:"Pliny the Elder in Cristoforo Landino's Italian translation of 1476; the constant reference of the Codex Leicester on water, earth, and the moon.",y:"Completed 77 AD · Italian translation printed 1476"},
+{n:70,c:4,en:"Piero Crescenzi",or:"Ruralia commoda",leo:"Piero Crescentio",note:"Pietro de' Crescenzi's encyclopedia of agriculture and plants.",y:"Composed c. 1300 · Printed 1471"},
+{n:71,c:4,en:"A Large Herbal",or:"Hortus sanitatis",leo:"a herbal in large format",note:"A large illustrated compendium of medicinal herbs and plants.",y:"Composed 1485 · Printed 1491"},
+{n:72,c:4,en:"Aristotle, Meteorology",or:"Meteorologica",leo:"the meteorology of Aristotle",note:"Aristotle's treatise on weather and the phenomena of the upper air.",y:"Composed 4th century BC · Printed later 15th century"},
+{n:73,c:4,en:"Philo on Water",or:"Pneumatica / De aquis ductibus",leo:"the book of Philo on waters",note:"Philo of Byzantium on pneumatics and the conduct of water.",y:"Composed 3rd century BC · Circulated in manuscript"},
+{n:74,c:4,en:"On the Changes of the Air",or:"De mutatione aeris",leo:"on the mutation of the air",note:"A text on atmospheric change and the weather.",y:"Composed antiquity to Middle Ages · Printed later 15th century"},
+{n:75,c:4,en:"Ptolemy's Cosmography",or:"Cosmographia / Geographia",leo:"the cosmography of Ptolemy",note:"Claudius Ptolemy's Geography, or possibly the Almagest.",y:"Composed 2nd century · Printed 1475"},
+{n:76,c:4,en:"The Sphere",or:"Tractatus de sphaera mundi",leo:"the Sphere",note:"Johannes de Sacrobosco's Sphere, the standard textbook of astronomy for three centuries.",y:"Composed c. 1230 · Printed 1472"},
+{n:77,c:4,en:"Mandeville",or:"Tractato de le più maravegliose cosse",leo:"Mandeville",note:"Jean de Mandeville's book of the world's marvels.",y:"Composed later 14th century · Italian edition printed 1480"},
+{n:78,c:4,en:"Albumasar",or:"Introductorium in astronomiam",leo:"Albumasar",note:"The introduction to astronomy of Abu Ma'shar, the great astrologer of Baghdad.",y:"Composed 9th century · Printed 1489"},
+{n:79,c:4,en:"The Computus",or:"Computus",leo:"the calendar",note:"A manual for calendar reckoning and the calculation of the date of Easter.",y:"Composed Middle Ages · Printed later 15th century"},
+{n:80,c:4,en:"Cecco d'Ascoli",or:"L'Acerba",leo:"Cecco d'Ascoli",note:"Cecco d'Ascoli's verse encyclopedia of astronomy and natural philosophy.",y:"Composed 1320s · Printed 1473"},
+{n:81,c:4,en:"Euclid's Geometry",or:"Elementa",leo:"the geometry of Euclid",note:"Euclid's Elements, studied intensively under Luca Pacioli's guidance after 1496.",y:"Composed c. 300 BC · Printed 1482"},
+{n:82,c:4,en:"Euclid in the Vernacular, the First Three Books",or:"Elementa (in volgare)",leo:"Euclid in the vernacular, that is the first three books",note:"An Italian translation of the opening books of the Elements.",y:"Composed c. 300 BC · Manuscript translation, no printed Italian Euclid before 1543"},
+{n:83,c:4,en:"Master Luca's Arithmetic",or:"Summa de arithmetica",leo:"the arithmetic of Maestro Luca",note:"Luca Pacioli's Summa of arithmetic, geometry, proportion, and proportionality; the source of the tree of proportion in Madrid Codex II, f. 78r.",y:"Composed 1494 · Printed 1494"},
+{n:84,c:4,en:"An Abacus Book, Lent to Giovan del Sodo",or:"Trattato d'abaco",leo:"an abacus book, which Giovan del Sodo has",note:"A book of commercial arithmetic, recorded as out on loan to an acquaintance.",y:"Composed Middle Ages to 15th century · Printed later 15th century"},
+{n:85,c:4,en:"A Medium Abacus Book",or:"Trattato d'abaco",leo:"an abacus book of medium size",note:"A commercial arithmetic text in medium format.",y:"Composed Middle Ages to 15th century · Printed later 15th century"},
+{n:86,c:4,en:"A Medium Abacus Book, Second Copy",or:"Trattato d'abaco",leo:"another abacus book of medium size",note:"A further copy, or another edition, of the same kind of text.",y:"Composed Middle Ages to 15th century · Printed later 15th century"},
+{n:87,c:4,en:"An Abacus Book Printed in Colors",or:"Trattato d'abaco",leo:"an abacus book printed in colors",note:"An arithmetic printed in red and black, an expensive rubricated edition.",y:"Composed Middle Ages to 15th century · Printed late 15th century"},
+{n:88,c:4,en:"A Milanese Abacus Book, Large, in Boards",or:"Trattato d'abaco (Milanese)",leo:"a Milanese abacus book, large, with board covers",note:"A large practical arithmetic printed and bound in Milan.",y:"Composed Middle Ages to 15th century · Printed late 15th century"},
+{n:89,c:4,en:"Sassetto's Abacus Book",or:"Trattato d'abaco (Sassetto)",leo:"the abacus book of Sassetto",note:"An arithmetic written by, or once owned by, one Sassetto.",y:"Composed 15th century · Printed late 15th century"},
+{n:90,c:4,en:"An Old Booklet of Arithmetic",or:"Trattato d'abaco (antico)",leo:"an old booklet of arithmetic",note:"An arithmetic booklet surviving from the age of manuscript.",y:"Composed Middle Ages · Manuscript"},
+{n:91,c:4,en:"A Mathematics Book from Urbino",or:"Trattato matematico",leo:"the mathematics of Urbino",note:"A mathematical work connected with the court of Urbino.",y:"Composed 15th century · Manuscript or late 15th century print"},
+{n:92,c:4,en:"Squaring the Circle",or:"Tetragonismus",leo:"the quadrature of the circle",note:"A geometric treatise on the quadrature of the circle, a problem Leonardo pursued for years.",link:"https://bibliotecadileonardo.museogalileo.it/index.php/esplora/scheda/tetragonismus/77916/77916",y:"Composed in antiquity · Printed 1503 in Venice, the year of the Madrid list"},
+{n:93,c:4,en:"Alberti, On Measurement",or:"Ludi matematici",leo:"the book of measurement of Battista Alberti",note:"Leon Battista Alberti's mathematical games and treatise on measurement.",y:"Composed c. 1450 · Circulated in manuscript"},
+{n:94,c:4,en:"Alberti, On Architecture",or:"De re aedificatoria",leo:"the architecture of Battista Alberti",note:"Alberti's ten books on building, the canonical treatise of Renaissance architecture.",y:"Composed c. 1443 to 1452 · Printed 1485"},
+{n:95,c:4,en:"On the Military Art",or:"De re militari",leo:"the military art",note:"Roberto Valturio's illustrated treatise on war, another source of Leonardo's word lists.",y:"Composed c. 1455 · Printed 1472, Italian 1483"},
+{n:96,c:4,en:"Cornazzano's Art of War, Lent to Guglielmo de' Pazzi",or:"De re militari",leo:"the military art of Cornazzano, which Guglielmo de' Pazzi has",note:"Antonio Cornazzano's manual of war, recorded as out on loan.",y:"Composed 1476 · Printed 1493"},
+{n:97,c:4,en:"A Book of Machines with a Skull on the Cover",or:"(Trattato di ingegneria)",leo:"a book of machines with a skull on the cover",note:"A manuscript or printed book of mechanics, remembered by the death's head ornamenting its binding.",y:"Composed 15th century · Manuscript or late 15th century print"},
+{n:98,c:4,en:"On Cutting Ships' Rigging",or:"(Trattato nautico)",leo:"the book on cutting ropes of ships",note:"A naval technical manual on rigging and the handling of ropes.",y:"Composed Middle Ages to 15th century · Printed late 15th century"},
+{n:99,c:4,en:"The Armature of the Horse",or:"Dell'armadura del cavallo",leo:"the armature of the horse",note:"A book on casting and internal armature, consulted for the colossal equestrian monument to Francesco Sforza.",y:"Composed 15th century · Circulated in manuscript"},
+{n:100,c:4,en:"A Book of Horses Sketched for the Cartoon",or:"(Libro di schizzi)",leo:"a book of horses sketched for the cartoon",note:"A sketchbook of equine anatomy and proportion assembled for a working design.",y:"Compiled 15th century · Working sketchbook in manuscript"},
+{n:101,c:4,en:"On the Temple of Solomon",or:"De templo Salomonis",leo:"on the temple of Solomon",note:"A treatise on the structure and proportions of Solomon's Temple.",y:"Composed Middle Ages to 15th century · Circulated in manuscript"},
+{n:102,c:4,en:"Common Perspective",or:"Perspectiva communis",leo:"a summary of perspective",note:"A handbook of optics and perspective in the tradition of John Pecham's Perspectiva communis.",y:"Composed 1270s · Printed c. 1482 in Milan, edited by Fazio Cardano"},
+{n:103,c:4,en:"On the Quadrant",or:"Tractatus de quadrante",leo:"on the quadrant",note:"A treatise on the construction and use of the quadrant, the surveyor's instrument.",y:"Composed Middle Ages · Printed later 15th century"},
+{n:104,c:4,en:"On Antiquities",or:"De antiquitatibus",leo:"on antiquities",note:"An antiquarian study of Roman ruins, remains, and inscriptions.",y:"Composed 15th century · Printed late 15th century"},
+/* ---- Shelf 5: Medicine, Anatomy, Astrology & Miscellany ---- */
+{n:105,c:5,en:"The Book of Giorgio Valla",or:"De expetendis et fugiendis rebus",leo:"the book of Giorgio Valla",note:"Giorgio Valla's encyclopedic work on the sciences and medicine, a bridge to Greek learning.",y:"Composed by 1500 · Printed 1501, posthumously"},
+{n:106,c:5,en:"A Latin Medical Booklet",or:"Fasciculus medicinae",leo:"a medical booklet in Latin",note:"A compact Latin compendium of medicine and prescriptions.",y:"Compiled 1491 · Printed 1491, Italian 1494"},
+{n:107,c:5,en:"Romuleo",or:"Romuleon / Liber Anathomiae",leo:"Romuleo",note:"Either an anatomical text in the circle of Gabriele Zerbi, or the Romuleon, a history of Rome.",y:"Composed 14th to 15th century · Printed late 15th century"},
+{n:108,c:5,en:"A Compendium of Surgery",or:"Chirurgia magna (compendium)",leo:"a summary of surgery",note:"An abridgment of a great surgical encyclopedia such as Guy de Chauliac's Chirurgia.",y:"Composed later 14th century · Printed late 15th century"},
+{n:109,c:5,en:"A Book of Anatomy",or:"Anathomia",leo:"a book of anatomy",note:"A dissection manual such as Mondino de' Luzzi's Anathomia, the standard text of the anatomy theater.",y:"Composed 1316 · Printed 1478"},
+{n:110,c:5,en:"Montagnana's Little Book on Urines",or:"De urinis",leo:"the little book on urines of Montagnana",note:"Bartolomeo Montagnana on diagnosis by uroscopy.",y:"Composed mid 15th century · Printed 1473"},
+{n:111,c:5,en:"A Treasury of Horse Medicine",or:"Marescalcia",leo:"the marshal's book of the horse",note:"A veterinary manual on the diseases and treatment of horses.",y:"Composed 13th century · Printed late 15th century"},
+{n:112,c:5,en:"Medical Consilia",or:"Consilia medica",leo:"a collection of medical opinions",note:"Collected opinions of the medical authorities, transmitting Galen, Avicenna, and their heirs.",y:"Composed antiquity to Middle Ages · Printed late 15th century"},
+{n:113,c:5,en:"On Health",or:"De honesta voluptate et valetudine",leo:"on the preservation of health",note:"Platina's treatise on right pleasure and good health.",y:"Composed c. 1465 · Printed c. 1470"},
+{n:114,c:5,en:"On Gastronomy",or:"De honesta voluptate et valetudine",leo:"on good eating",note:"A book of dietetics and the table, in the same tradition.",y:"Composed c. 1465 · Printed c. 1470"},
+{n:115,c:5,en:"On Precious Stones",or:"De lapidibus / Lapidario",leo:"the lapidary",note:"A lapidary of medicinal stones, alchemy, and the virtues of rare minerals; a lapidary already appears in the earliest list.",y:"Composed antiquity to Middle Ages · Printed late 15th century"},
+{n:116,c:5,en:"Alcabitius in the Vernacular",or:"Libellus isagogicus",leo:"Alcabitius in the vernacular, by Serigatto",note:"An Italian version of the introduction to astrology of al Qabisi (Alcabitius).",y:"Composed 10th century · Printed 1473"},
+{n:117,c:5,en:"Scot's Physiognomy",or:"Liber physiognomiae",leo:"the physiognomy of Scotus",note:"Michael Scot on physiognomy, the reading of character from outward appearance.",y:"Composed c. 1230 · Printed 1477"},
+{n:118,c:5,en:"On Chiromancy",or:"Chyromantia",leo:"chiromancy",note:"A text on palmistry, reading fate and temperament from the lines of the hand.",y:"Composed Middle Ages to 15th century · Printed late 15th century"},
+{n:119,c:5,en:"A Milanese Chiromancy",or:"Chyromantia (Milanese)",leo:"the chiromancy of Milan",note:"A palmistry text of the Milanese school, or printed in Milan.",y:"Composed Middle Ages to 15th century · Printed late 15th century"},
+{n:120,c:5,en:"The Dreams of Daniel",or:"Somniale Danielis",leo:"the dream book of Daniel",note:"The Somniale Danielis, the most popular dream interpretation manual of the Middle Ages.",y:"Composed 7th century to Middle Ages · Printed c. 1475"},
+{n:121,c:5,en:"Burley",or:"De vita et moribus philosophorum",leo:"Burleo",note:"Walter Burley's lives and manners of the philosophers.",y:"Composed 1320s · Printed c. 1470"},
+{n:122,c:5,en:"Francesco da Siena",or:"Trattato di architettura (?)",leo:"Francesco da Siena",note:"A work by a Francesco of Siena; very plausibly Francesco di Giorgio Martini, in which case this entry may denote the treatise on architecture that survives today with Leonardo's marginal notes.",y:"Composition unknown, possibly 1480s · Manuscript"},
+{n:123,c:5,en:"Guidone",or:"Inventarium sive Chirurgia magna",leo:"Guidone",note:"Guy de Chauliac's great encyclopedia of surgery, the summa of medieval surgical knowledge.",y:"Composed 1363 · Printed 1478"},
+{n:124,c:5,en:"An Old Book of Amelia",or:"(Manoscritto antico)",leo:"the old book of Amelia",note:"An old manuscript connected with Amelia in Umbria, or by an author of that name.",y:"Composition unknown · Manuscript"},
+{n:125,c:5,en:"Romuleo, a Duplicate, and Sundry Booklets",or:"(Opuscoli vari)",leo:"other booklets",note:"A possible second Romuleo together with untitled booklets kept in the chest, completing the count of 125.",y:"Composition unknown · Edition unknown"}
+];
+
+/* ============ RENDER ============ */
+const chipsEl=document.getElementById("chips");
+const entriesEl=document.getElementById("entries");
+const countEl=document.getElementById("count");
+const noresEl=document.getElementById("noresults");
+const searchEl=document.getElementById("search");
+let activeCat=0;
+
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
+
+function buildChips(){
+  const all=document.createElement("button");
+  all.className="chip active";
+  all.innerHTML='All shelves <span class="n" translate="no">125</span>';
+  all.dataset.cat="0";
+  chipsEl.appendChild(all);
+  CATS.forEach(c=>{
+    const b=document.createElement("button");
+    const n=B.filter(x=>x.c===c.id).length;
+    b.className="chip";
+    b.dataset.cat=String(c.id);
+    b.innerHTML=esc(shortName(c.name))+' <span class="n" translate="no">'+n+'</span>';
+    chipsEl.appendChild(b);
+  });
+  chipsEl.addEventListener("click",e=>{
+    const b=e.target.closest(".chip");if(!b)return;
+    activeCat=Number(b.dataset.cat);
+    chipsEl.querySelectorAll(".chip").forEach(x=>x.classList.toggle("active",x===b));
+    render();
+  });
+}
+function shortName(n){
+  return n.replace("Science, Mathematics, Engineering & Military","Science & Engineering")
+          .replace("Medicine, Anatomy, Astrology & Miscellany","Medicine & Astrology")
+          .replace("Religion, Philosophy & History","Religion & History")
+          .replace("Literature, Poetry & Fables","Literature & Fables")
+          .replace("Language, Rhetoric & Grammar","Language & Grammar");
+}
+
+/* The catalogue is rendered ONCE into the DOM. Search and filters only
+   toggle visibility. This keeps the page compatible with in browser
+   machine translation (Chrome, Edge, etc.): translated nodes are never
+   destroyed and rebuilt in English. */
+function buildEntries(){
+  let html="";
+  CATS.forEach(c=>{
+    html+='<div class="cat-group" data-group="'+c.id+'">'
+      +'<div class="cat-group-head"><h3>'+esc(c.name)+'</h3>'
+      +'<span class="range" translate="no">'+esc(c.range)+'</span>'
+      +'<span class="desc">'+esc(c.desc)+'</span></div>';
+    B.filter(b=>b.c===c.id).forEach(b=>{
+      const link=b.link||GAL;
+      const hay=(b.en+" "+b.or+" "+b.leo+" "+b.note+" "+b.y+" "+b.n).toLowerCase();
+      html+='<div class="entry" data-hay="'+esc(hay)+'">'
+        +'<span class="no" translate="no">'+String(b.n).padStart(3,"0")+'</span>'
+        +'<div class="titles"><span class="en">'+esc(b.en)+'</span>'
+        +'<span class="orig" translate="no">'+esc(b.or)+'</span>'
+        +'<span class="years">'+esc(b.y)+'</span></div>'
+        +'<div class="body"><span class="leo">Leonardo\u2019s entry: <b>\u201C'+esc(b.leo)+'\u201D</b></span>'
+        +'<span class="note">'+esc(b.note)+'</span></div>'
+        +'<a class="go" href="'+link+'" target="_blank" rel="noopener" translate="no">Museo Galileo \u2197</a>'
+        +'</div>';
+    });
+    html+='</div>';
+  });
+  entriesEl.innerHTML=html;
+}
+
+function render(){
+  const q=searchEl.value.trim().toLowerCase();
+  const terms=q?q.split(/\s+/):[];
+  let total=0;
+  entriesEl.querySelectorAll(".cat-group").forEach(g=>{
+    const cid=Number(g.dataset.group);
+    const catOk=(activeCat===0||activeCat===cid);
+    let vis=0;
+    g.querySelectorAll(".entry").forEach(en=>{
+      const ok=catOk&&terms.every(t=>en.dataset.hay.includes(t));
+      en.style.display=ok?"":"none";
+      if(ok)vis++;
+    });
+    g.style.display=vis?"":"none";
+    total+=vis;
+  });
+  countEl.textContent=total===125?"Showing all 125 titles":"Showing "+total+" of 125 titles";
+  noresEl.hidden=total!==0;
+}
+
+buildChips();
+buildEntries();
+searchEl.addEventListener("input",render);
+render();
+
+/* In-page navigation.
+   The claude.ai artifact sandbox rewrites and hijacks native #anchor links,
+   so the header nav uses buttons with data-goto instead of href, and any
+   remaining internal anchors are intercepted in the capture phase before
+   the sandbox can act on them. Works identically in a normal browser. */
+function goTo(id){
+  const target=document.getElementById(id);
+  if(!target)return;
+  const reduce=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  target.scrollIntoView({behavior:reduce?"auto":"smooth",block:"start"});
+}
+document.addEventListener("click",function(e){
+  const btn=e.target.closest("[data-goto]");
+  if(btn){e.preventDefault();e.stopPropagation();goTo(btn.dataset.goto);return;}
+  const a=e.target.closest('a[href^="#"]');
+  if(a){
+    e.preventDefault();e.stopPropagation();
+    goTo(a.getAttribute("href").slice(1));
+  }
+},true);
+</script>
+</body>
+</html>

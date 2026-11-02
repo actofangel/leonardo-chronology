@@ -35,6 +35,25 @@
       "check_in": [
         "A gazetteer record (GeoNames, Wikidata) opened directly"
       ]
+    },
+    {
+      "id": "iv136",
+      "about": "leonardo_presence",
+      "value": {
+        "text": "August 1502"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Itinerario Vinciano map marks Pesaro: August 1502.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "map of stays (Carta dei soggiorni)"
+        }
+      ],
+      "check_in": [
+        "Villata 1999 or the dated autograph note concerned"
+      ]
     }
   ]
 }

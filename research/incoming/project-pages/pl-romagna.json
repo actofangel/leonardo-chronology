@@ -1,0 +1,96 @@
+{
+  "id": "pl-romagna",
+  "type": "event",
+  "label": "Romagna",
+  "claims": [
+    {
+      "id": "iv82",
+      "about": "period",
+      "value": {
+        "text": "Summer 1502 to early 1503, as inspector general of fortifications on circuit through the new Borgia state"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Summer 1502 to early 1503, as inspector general of fortifications on circuit through the new Borgia state",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Romagna and the Marches in the service of Cesare Borgia, Period"
+        }
+      ],
+      "check_in": []
+    },
+    {
+      "id": "iv84",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "Patent of Cesare Borgia, issued at Pavia on 18 August 1502, styling Leonardo our most excellent and dearly beloved familiar, architect and engineer general, and granting free passage, the right of inspection of all fortresses, and the power to requisition men"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Patent of Cesare Borgia, issued at Pavia on 18 August 1502, styling Leonardo our most excellent and dearly beloved familiar, architect and engineer general, and granting free passage, the right of inspection of all fortresses, and the power to requisition men (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Romagna and the Marches in the service of Cesare Borgia, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv86",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "The itinerary entries of Manuscript L: Urbino (late July 1502), Pesaro, Rimini (8 August, the harmony of the falling water of the fountain), Cesena (observations on the trellising of vines and the local carts), Cesenatico (6 September 1502 at the fifteenth hour, measured drawing of the harbor canal)"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The itinerary entries of Manuscript L: Urbino (late July 1502), Pesaro, Rimini (8 August, the harmony of the falling water of the fountain), Cesena (observations on the trellising of vines and the local carts), Cesenatico (6 September 1502 at the fifteenth hour, measured drawing of the harbor canal) (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Romagna and the Marches in the service of Cesare Borgia, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv88",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "The town plan of Imola, Windsor RL 12284, autumn 1502"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The town plan of Imola, Windsor RL 12284, autumn 1502 (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Romagna and the Marches in the service of Cesare Borgia, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#romagna",
+      "text": "The Imola plan combines pacing with an odometer and bearings taken by compass to render the town as a true plan, an ichnographia seen from directly above: among the earliest measured town plans in existence. A circular frame carries the eight wind names, and marginal notes give the distances to neighboring towns; the drawing marks the passage from the intuitive bird's eye view to the coordinate plan. Its context is the confinement of Cesare at Imola in the autumn of 1502, during the revolt of his captains at Magione. In precisely those months the envoy of the Florentine republic resident at the Borgia court in Imola was Machiavelli, whose dispatches survive (legation of October to December 1502 A ). This is the one interval in which the presence of Leonardo and Machiavelli at the same court can be fixed by documents on both sides; no document records a direct exchange between them D , but the overlap itself is established at tier A.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

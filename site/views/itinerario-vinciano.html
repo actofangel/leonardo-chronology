@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Itinerario Vinciano . Places of Residence and Travel, 1452 to 1519 . Identity of Leonardo da Vinci</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --rose:#C26B78;
+  --rose-ink:#B0596A;
+  --chermisi:#9B111E;
+  --chermisi-deep:#800020;
+  --paonazzo:#3B2F4C;
+  --paonazzo-alt:#4B283A;
+  --linen:#F4F0EA;
+  --velvet:#1A1A1A;
+
+  --ink:var(--velvet);
+  --ink-soft:#7A6469;
+  --plaster:var(--linen);
+  --plaster-deep:#E4DBD2;
+  --paper-card:#EBE4DB;
+  --rule:#D6C6C2;
+  --santerno:var(--rose-ink);
+  --santerno-deep:var(--paonazzo);
+  --mattone:var(--chermisi);
+  --verde:var(--paonazzo-alt);
+
+  --side-bg:#4A0E15;
+  --side-line:#6B2029;
+  --side-txt:#E6D3D2;
+  --side-dim:#C79BA0;
+  --side-faint:#A9757D;
+  --side-num:#94636B;
+  --side-scroll:#7A2A33;
+  --side-head:#F2E4E2;
+  --hair:#CBB5B8;
+  --raster-fade:.62;
+  color-scheme:light;
+}
+[data-theme="dark"]{
+  --ink:#EDE3E0;
+  --ink-soft:#B39BA1;
+  --plaster:#151219;
+  --plaster-deep:#221D29;
+  --paper-card:#1E1A25;
+  --rule:#3A3040;
+  --rose-ink:#DE93A0;
+  --chermisi:#D2455A;
+  --chermisi-deep:#B02338;
+  --paonazzo:#C0A6D6;
+  --santerno:var(--rose-ink);
+  --santerno-deep:var(--paonazzo);
+  --mattone:var(--chermisi);
+
+  --side-bg:#2B070D;
+  --side-line:#4A1119;
+  --side-txt:#E6D3D2;
+  --side-dim:#C08E95;
+  --side-faint:#9C6A72;
+  --side-num:#8A5A62;
+  --side-scroll:#5E1B24;
+  --side-head:#F2E4E2;
+  --hair:#4A3C46;
+  --raster-fade:.34;
+  color-scheme:dark;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--plaster);
+  transition:background .25s ease,color .25s ease;
+  color:var(--ink);
+  font-family:"EB Garamond",Georgia,"Times New Roman",serif;
+  font-size:17.5px;line-height:1.72;
+}
+::selection{background:var(--santerno);color:#fff}
+.mono{font-family:"IBM Plex Mono","Courier New",monospace}
+
+/* ---------- layout ---------- */
+.frame{display:flex;min-height:100vh}
+nav.side{
+  width:264px;flex-shrink:0;
+  background:var(--side-bg);color:var(--side-txt);
+  padding:34px 26px 60px;
+  position:sticky;top:0;height:100vh;overflow-y:auto;
+}
+nav.side::-webkit-scrollbar{width:4px}
+nav.side::-webkit-scrollbar-thumb{background:var(--side-scroll)}
+main{flex:1;min-width:0;padding:0 clamp(24px,5vw,88px) 120px}
+
+.brand{margin-bottom:30px;border-bottom:1px solid var(--side-line);padding-bottom:22px}
+.brand .t{font-size:21px;font-weight:600;letter-spacing:.04em;color:#fff;line-height:1.35;font-style:italic}
+.brand .project{font-size:10.5px;letter-spacing:.2em;color:var(--side-dim);text-transform:uppercase;font-family:"IBM Plex Mono",monospace;margin-bottom:9px;line-height:1.5}
+.brand .sub{font-size:11.5px;letter-spacing:.14em;color:var(--side-dim);margin-top:7px;text-transform:uppercase}
+.brand .yrs{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--side-faint);margin-top:4px}
+
+nav.side ol{list-style:none;counter-reset:st}
+nav.side li{counter-increment:st}
+nav.side a{
+  display:flex;align-items:baseline;gap:10px;
+  color:var(--side-txt);text-decoration:none;font-size:14.5px;
+  padding:6px 6px;border-left:2px solid transparent;
+  transition:all .15s;
+}
+nav.side a::before{
+  content:counter(st,decimal-leading-zero);
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--side-num);
+}
+nav.side a:hover,nav.side a.on{color:#fff;border-left-color:var(--plaster);background:rgba(255,255,255,.07)}
+nav.side .navgrp{font-size:10.5px;letter-spacing:.22em;color:var(--side-faint);margin:22px 0 6px;font-family:"IBM Plex Mono",monospace}
+nav.side .aux a::before{content:"·";color:var(--side-num)}
+
+/* ---------- header, route strip ---------- */
+header.top{padding:64px 0 0}
+header.top .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.28em;color:var(--mattone);text-transform:uppercase}
+header.top h1{
+  font-size:clamp(30px,4vw,48px);font-weight:500;letter-spacing:.01em;line-height:1.2;
+  font-style:italic;margin-top:8px;
+}
+header.top .subtitle{font-size:clamp(16px,1.8vw,20px);color:var(--santerno-deep);margin-top:10px;font-variant:small-caps;letter-spacing:.08em}
+header.top p.lede{max-width:44em;margin-top:22px;color:var(--ink-soft)}
+
+.route-wrap{margin:44px 0 8px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:20px 0 14px;overflow-x:auto}
+.route-cap{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.2em;color:var(--ink-soft);margin-bottom:6px}
+svg.route{display:block;min-width:960px;width:100%;height:118px}
+svg.route .ln{stroke:var(--santerno);stroke-width:1.6;fill:none}
+svg.route .nd{fill:var(--mattone);stroke:var(--plaster);stroke-width:2}
+svg.route .nd-s{fill:var(--plaster);stroke:var(--santerno);stroke-width:1.4}
+svg.route text{font-family:"EB Garamond",serif;font-size:13px;fill:var(--ink)}
+svg.route text.y{font-family:"IBM Plex Mono",monospace;font-size:9.5px;fill:var(--ink-soft)}
+svg.route a{cursor:pointer}
+svg.route a:hover text{fill:var(--santerno-deep);font-weight:600}
+
+/* ---------- legend ---------- */
+.legend{display:flex;flex-wrap:wrap;gap:12px 26px;margin:26px 0 0;padding:18px 20px;background:var(--paper-card);border:1px solid var(--rule);font-size:14px}
+.legend b{font-weight:600}
+.tier{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.08em;padding:1px 7px;border:1px solid;border-radius:2px;vertical-align:.12em;margin-right:2px}
+.tA{color:#fff;background:var(--santerno-deep);border-color:var(--santerno-deep)}
+.tB{color:var(--santerno-deep);border-color:var(--santerno-deep)}
+.tC{color:var(--ink-soft);border-color:var(--hair)}
+.tD{color:var(--mattone);border-color:var(--mattone)}
+
+/* ---------- sections ---------- */
+section.stage{margin-top:84px;scroll-margin-top:24px}
+.stage-head{display:flex;align-items:baseline;gap:16px;border-bottom:2px solid var(--ink);padding-bottom:10px}
+.stage-head .no{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--mattone);letter-spacing:.1em}
+.stage-head h2{font-size:clamp(23px,2.6vw,30px);font-weight:600;letter-spacing:.01em}
+.stage-head .it{font-style:italic;font-weight:400;color:var(--santerno-deep);font-size:.78em;margin-left:6px}
+.stage-head .span{margin-left:auto;font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--ink-soft);white-space:nowrap}
+
+table.meta{width:100%;border-collapse:collapse;margin:26px 0 6px;background:var(--paper-card);font-size:15px}
+table.meta th{
+  width:172px;text-align:left;vertical-align:top;font-weight:600;
+  padding:10px 14px;border:1px solid var(--rule);background:var(--plaster-deep);
+  letter-spacing:.03em;font-variant:small-caps;
+}
+table.meta td{padding:10px 16px;border:1px solid var(--rule);line-height:1.65}
+table.meta td .mono{font-size:12.5px;color:var(--santerno-deep)}
+
+h3.sub{margin:34px 0 10px;font-size:17px;font-weight:600;letter-spacing:.05em;color:var(--santerno-deep);font-variant:small-caps}
+h3.sub::before{content:"§ ";color:var(--mattone)}
+section p{margin:12px 0;max-width:46em}
+
+.doc{
+  margin:16px 0;padding:14px 18px;background:var(--paper-card);
+  border-left:3px solid var(--santerno);font-size:15px;max-width:44em;
+}
+.doc .d{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--santerno-deep);display:block;margin-bottom:3px;letter-spacing:.04em}
+.doc .q{font-style:italic;color:var(--ink-soft)}
+
+ul.plain{margin:10px 0 10px 1.4em;max-width:44em}
+ul.plain li{margin:6px 0}
+
+/* ---------- notes table ---------- */
+table.notes{width:100%;border-collapse:collapse;font-size:14.5px;margin-top:20px;background:var(--paper-card)}
+table.notes th{background:var(--side-bg);color:var(--side-head);font-weight:600;padding:9px 12px;text-align:left;letter-spacing:.05em;font-variant:small-caps}
+table.notes td{border:1px solid var(--rule);padding:9px 12px;vertical-align:top;line-height:1.6}
+table.notes td:first-child{white-space:nowrap;font-weight:600}
+
+/* ---------- bibliography ---------- */
+ol.bib{margin:16px 0 0 1.6em;font-size:15px;max-width:48em}
+ol.bib li{margin:8px 0}
+
+
+/* ---------- carta ---------- */
+.carta-wrap{margin:34px 0 8px;border:1px solid var(--rule);background:var(--paper-card);padding:18px 14px 8px;overflow-x:auto}
+.carta-cap{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.2em;color:var(--ink-soft);margin:0 0 4px 8px}
+svg.carta{display:block;min-width:880px;width:100%;height:auto}
+svg.carta .coast{stroke:var(--ink-soft);stroke-width:1;fill:none;opacity:.55}
+svg.carta .river{stroke:var(--santerno);stroke-width:1.1;fill:none;opacity:.75}
+svg.carta .jn{stroke:var(--santerno);stroke-width:1.1;stroke-dasharray:3 4;fill:none;opacity:.5}
+svg.carta .sea{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.3em;fill:var(--santerno);opacity:.6}
+svg.carta .riv{font-family:"EB Garamond",serif;font-style:italic;font-size:10.5px;fill:var(--santerno-deep);opacity:.85}
+svg.carta text.lb{font-family:"EB Garamond",serif;font-size:12.5px;fill:var(--ink)}
+svg.carta text.lb.min{font-size:11px;fill:var(--ink-soft)}
+svg.carta .inset{fill:none;stroke:var(--rule);stroke-width:1}
+.mapnode circle.c1{fill:var(--mattone);stroke:var(--paper-card);stroke-width:1.6}
+.mapnode circle.c2{fill:var(--paper-card);stroke:var(--mattone);stroke-width:1.3}
+.mapnode circle{transition:transform .18s ease;transform-box:fill-box;transform-origin:center}
+.mapnode:hover circle,.mapnode.live circle{transform:scale(1.7)}
+.mapnode.live text.lb{font-weight:600;fill:var(--santerno-deep)}
+.gm{font-size:13.5px}
+.gm a{color:var(--santerno-deep);text-decoration:none;border-bottom:1px solid var(--hair);white-space:nowrap}
+.gm a:hover{color:var(--mattone);border-bottom-color:var(--mattone)}
+
+/* ---------- controls ---------- */
+.sidetools{display:flex;gap:8px;margin-top:20px;padding-top:16px;border-top:1px solid var(--side-line)}
+.sidetools button{
+  flex:1;background:transparent;color:var(--side-dim);border:1px solid var(--side-line);
+  font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.14em;
+  padding:7px 4px;cursor:pointer;text-transform:uppercase;transition:all .15s;
+}
+.sidetools button:hover{color:#fff;border-color:var(--side-faint)}
+.sidetools button[aria-pressed="true"]{color:var(--side-head);border-color:var(--side-faint);background:rgba(255,255,255,.07)}
+.carta-bar{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin:0 0 4px 8px}
+.carta-bar button{
+  background:transparent;border:1px solid var(--rule);color:var(--ink-soft);
+  font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.14em;
+  padding:3px 9px;cursor:pointer;text-transform:uppercase;
+}
+.carta-bar button[aria-pressed="true"]{border-color:var(--mattone);color:var(--mattone)}
+.carta-bar button[hidden]{display:none}
+.carta-stage{position:relative;min-width:880px}
+.carta-stage .raster{opacity:0;transition:opacity .3s ease;pointer-events:none}
+[data-raster="on"] .carta-stage .raster{opacity:var(--raster-fade)}
+[data-theme="dark"] .carta-stage .raster{filter:invert(1) hue-rotate(180deg) saturate(.5) brightness(.9)}
+[data-raster="on"] svg.carta .coast{opacity:.3}
+svg.carta{position:relative}
+
+footer{margin-top:100px;border-top:1px solid var(--rule);padding-top:18px;font-size:12px;color:var(--ink-soft);font-family:"IBM Plex Mono",monospace;letter-spacing:.06em}
+
+@media(max-width:900px){
+  .frame{display:block}
+  nav.side{position:static;width:100%;height:auto;padding:24px 22px}
+  nav.side ol{display:grid;grid-template-columns:1fr 1fr}
+  .stage-head{flex-wrap:wrap}
+  .stage-head .span{margin-left:0;width:100%}
+  table.meta th{width:110px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="frame">
+
+<nav class="side">
+  <div class="brand">
+    <div class="project">Identity of<br>Leonardo da Vinci</div>
+    <div class="t">Itinerario Vinciano</div>
+    <div class="sub">Places of Residence and Travel</div>
+    <div class="yrs">MCDLII . MDXIX</div>
+  </div>
+  <ol>
+    <li><a href="#vinci">Vinci</a></li>
+    <li><a href="#firenze1">Florence, First Period</a></li>
+    <li><a href="#milano1">Milan, First Period</a></li>
+    <li><a href="#mantova">Mantua</a></li>
+    <li><a href="#venezia">Venice</a></li>
+    <li><a href="#firenze2">Florence, Second Period</a></li>
+    <li><a href="#romagna">Romagna and the Marches</a></li>
+    <li><a href="#piombino">Piombino</a></li>
+    <li><a href="#milano2">Milan, Second Period</a></li>
+    <li><a href="#roma">Rome</a></li>
+    <li><a href="#amboise">Amboise</a></li>
+  </ol>
+  <div class="sidetools">
+    <button id="themeBtn" type="button" aria-pressed="false">Rosa secca</button>
+    <button id="mapBtn" type="button" aria-pressed="false" hidden>Relief</button>
+  </div>
+  <div class="navgrp">APPARATUS</div>
+  <ol class="aux">
+    <li><a href="#synthesis">Synthesis</a></li>
+    <li><a href="#notes">Contested Points</a></li>
+    <li><a href="#bib">Sources</a></li>
+  </ol>
+</nav>
+
+<main>
+<header class="top">
+  <div class="eyebrow">Identity of Leonardo da Vinci . Itinerario Vinciano</div>
+  <h1>Places of Residence and Travel</h1>
+  <div class="subtitle">Leonardo da Vinci, 1452 to 1519</div>
+  <p class="lede">A reference resource of the project <i>Identity of Leonardo da Vinci</i>: a gazetteer of every region where Leonardo lived or worked, organized in the order of his movements. Each entry records the documentary anchors that fix the stay, the patron saint of the place, its form of government, terrain and waterways, economic structure, and Leonardo's documented activity there. Every statement carries a source tier, so that facts fixed by contemporary documents remain distinguishable from tradition and inference.</p>
+
+  <div class="route-wrap">
+    <div class="route-cap">SEQUENZA DEI SOGGIORNI . the order of the stays (click a node)</div>
+    <svg class="route" viewBox="0 0 1180 118" role="navigation" aria-label="Sequence of stays">
+      <path class="ln" d="M40,62 C120,30 160,88 240,62 S360,30 440,62 S560,92 640,62 S760,30 840,62 S960,92 1040,62 L1140,62"/>
+      <a href="#vinci"><circle class="nd" cx="40" cy="62" r="5"/><text x="40" y="44" text-anchor="middle">Vinci</text><text class="y" x="40" y="86" text-anchor="middle">1452</text></a>
+      <a href="#firenze1"><circle class="nd" cx="150" cy="60" r="5"/><text x="150" y="42" text-anchor="middle">Florence</text><text class="y" x="150" y="84" text-anchor="middle">c.1464</text></a>
+      <a href="#milano1"><circle class="nd" cx="260" cy="60" r="5"/><text x="260" y="42" text-anchor="middle">Milan</text><text class="y" x="260" y="84" text-anchor="middle">1482/83</text></a>
+      <a href="#mantova"><circle class="nd-s" cx="370" cy="48" r="4.4"/><text x="370" y="30" text-anchor="middle">Mantua</text><text class="y" x="370" y="72" text-anchor="middle">1499/1500</text></a>
+      <a href="#venezia"><circle class="nd-s" cx="470" cy="66" r="4.4"/><text x="470" y="96" text-anchor="middle">Venice</text><text class="y" x="470" y="48" text-anchor="middle">1500.03</text></a>
+      <a href="#firenze2"><circle class="nd" cx="575" cy="70" r="5"/><text x="575" y="100" text-anchor="middle">Florence</text><text class="y" x="575" y="52" text-anchor="middle">1500</text></a>
+      <a href="#romagna"><circle class="nd-s" cx="675" cy="52" r="4.4"/><text x="675" y="34" text-anchor="middle">Romagna</text><text class="y" x="675" y="76" text-anchor="middle">1502</text></a>
+      <a href="#piombino"><circle class="nd-s" cx="775" cy="52" r="4.4"/><text x="775" y="34" text-anchor="middle">Piombino</text><text class="y" x="775" y="76" text-anchor="middle">1504</text></a>
+      <a href="#milano2"><circle class="nd" cx="880" cy="66" r="5"/><text x="880" y="96" text-anchor="middle">Milan</text><text class="y" x="880" y="48" text-anchor="middle">1506</text></a>
+      <a href="#roma"><circle class="nd" cx="990" cy="62" r="5"/><text x="990" y="44" text-anchor="middle">Rome</text><text class="y" x="990" y="86" text-anchor="middle">1513.09.24</text></a>
+      <a href="#amboise"><circle class="nd" cx="1110" cy="62" r="5"/><text x="1110" y="44" text-anchor="middle">Amboise</text><text class="y" x="1110" y="86" text-anchor="middle">1516.19</text></a>
+    </svg>
+  </div>
+
+
+  <div class="carta-wrap" id="carta">
+    <div class="carta-bar">
+      <span class="carta-cap" style="margin:0">CARTA DEI SOGGIORNI . drawn to coordinates, equirectangular</span>
+      <button id="rasterBtn" type="button" aria-pressed="false" hidden>Relief layer</button>
+    </div>
+    <div class="carta-stage">
+    <svg class="carta" viewBox="0 0 960 520" role="navigation" aria-label="Map of the places of the itinerary">
+      <image class="raster" id="rasterItalia" x="0" y="0" width="960" height="520" preserveAspectRatio="none"/>
+      <image class="raster" id="rasterLoira" x="25" y="345" width="330" height="150" preserveAspectRatio="none" clip-path="inset(0)"/>
+      <!-- coasts -->
+      <path class="coast" d="M496.9,208 L517,219 561.6,239 591.9,262 596.2,294 612,356 644.4,377 654.4,406 702.6,440 737.9,476 760.9,491"/>
+      <path class="coast" d="M843.6,84 L818.4,81 753.7,117 737.9,127 753.7,154 737.9,207 746.5,229 758.7,243 783.2,258 827.1,287 868.8,349"/>
+      <!-- rivers -->
+      <path class="river" d="M433.6,144 C470,141 490,140 516.3,139 C545,137 555,137 573.9,137 C605,139 620,143 638.6,146 C670,149 700,150 710.5,151 L753.7,154"/>
+      <path class="river" d="M481.1,77 C492,92 497,101 501.9,109 C507,120 510,126 513.4,130 L519.9,139"/>
+      <path class="river" d="M530.7,64 C533,72 533.5,75 534.3,79 C537,85 538.5,88 540.3,91.3 C545,102 546,111 548.7,119 C556,129 561,134 566.7,139"/>
+      <path class="river" d="M624.2,105 C627,116 629,124 630.8,133.4 L637.2,145"/>
+      <path class="river" d="M697.6,269 C685,272 674,272 664.2,272 C655,275 649,276 641.5,277 C627,278 613,277.5 602.6,277 L593.3,281"/>
+      <path class="river" d="M728.5,289 C737,315 743,336 746.5,359 C749,382 750,400 750.1,419 C751,435 751.2,447 751.5,457 L738.6,474"/>
+      <path class="river" d="M685.4,239 C690,229 693,222 697.2,213.7 C701,206 704,200 707,194"/>
+      <!-- sea labels -->
+      <text class="sea" x="600" y="430">MAR TIRRENO</text>
+      <text class="sea" x="790" y="150">MARE ADRIATICO</text>
+      <text class="riv" x="585" y="130">Po</text>
+      <text class="riv" x="614" y="288">Arno</text>
+      <text class="riv" x="757" y="405">Tevere</text>
+      <text class="riv" x="548" y="108">Adda</text>
+      <!-- journey -->
+      <path class="jn" d="M640.4,270.6 L664.2,272 L515.6,102.6 L630.8,133.4 L741.8,105.2 L664.2,272 L763.6,276.4 L783.4,258 L758.6,243.1 L735.2,235.1 L746.1,229.1 L697.2,213.7 L664.2,272 L611.8,356.5 L515.6,102.6 L750.4,458.5"/>
+      <path class="jn" d="M737,462 C640,485 480,478 366,448" marker-end="url(#arr)"/>
+      <text class="lb min" x="520" y="492" style="font-style:italic">1516 . to the Loire</text>
+      <defs><marker id="arr" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="var(--rose-ink)" opacity=".6"/></marker></defs>
+
+      <!-- major stays -->
+      <a href="#vinci" class="mapnode" data-sec="vinci"><title>Vinci . 1452 to c.1464</title><circle class="c1" cx="640.4" cy="270.6" r="4.6"/><text class="lb" x="633" y="266" text-anchor="end">Vinci</text></a>
+      <a href="#firenze1" class="mapnode" data-sec="firenze1 firenze2"><title>Florence . c.1464 to 1481/82 and 1500 to 1506</title><circle class="c1" cx="664.2" cy="272" r="4.6"/><text class="lb" x="671" y="284">Firenze</text></a>
+      <a href="#milano1" class="mapnode" data-sec="milano1 milano2"><title>Milan . 1482/83 to 1499 and 1506 to 1513</title><circle class="c1" cx="515.6" cy="102.6" r="4.6"/><text class="lb" x="507" y="98" text-anchor="end">Milano</text></a>
+      <a href="#mantova" class="mapnode" data-sec="mantova"><title>Mantua . winter 1499 to 1500</title><circle class="c2" cx="630.8" cy="133.4" r="4"/><text class="lb" x="637" y="146">Mantova</text></a>
+      <a href="#venezia" class="mapnode" data-sec="venezia"><title>Venice . March 1500</title><circle class="c2" cx="741.8" cy="105.2" r="4"/><text class="lb" x="749" y="102">Venezia</text></a>
+      <a href="#romagna" class="mapnode" data-sec="romagna"><title>Urbino . July 1502</title><circle class="c2" cx="763.6" cy="276.4" r="4"/><text class="lb min" x="770" y="286">Urbino</text></a>
+      <a href="#romagna" class="mapnode" data-sec="romagna"><title>Pesaro . August 1502</title><circle class="c2" cx="783.4" cy="258" r="4"/><text class="lb min" x="790" y="262">Pesaro</text></a>
+      <a href="#romagna" class="mapnode" data-sec="romagna"><title>Rimini . 8 August 1502</title><circle class="c2" cx="758.6" cy="243.1" r="4"/><text class="lb min" x="765" y="247">Rimini</text></a>
+      <a href="#romagna" class="mapnode" data-sec="romagna"><title>Cesena . 1502</title><circle class="c2" cx="735.2" cy="235.1" r="4"/><text class="lb min" x="729" y="245" text-anchor="end">Cesena</text></a>
+      <a href="#romagna" class="mapnode" data-sec="romagna"><title>Cesenatico . 6 September 1502</title><circle class="c2" cx="746.1" cy="229.1" r="4"/><text class="lb min" x="752" y="226">Cesenatico</text></a>
+      <a href="#romagna" class="mapnode" data-sec="romagna"><title>Imola . autumn 1502, the town plan RL 12284</title><circle class="c2" cx="697.2" cy="213.7" r="4"/><text class="lb" x="690" y="209" text-anchor="end">Imola</text></a>
+      <a href="#piombino" class="mapnode" data-sec="piombino"><title>Piombino . October to November 1504</title><circle class="c2" cx="611.8" cy="356.5" r="4"/><text class="lb" x="604" y="352" text-anchor="end">Piombino</text></a>
+      <a href="#roma" class="mapnode" data-sec="roma"><title>Rome . 1513 to 1516</title><circle class="c1" cx="750.4" cy="458.5" r="4.6"/><text class="lb" x="758" y="455">Roma</text></a>
+      <!-- minor -->
+      <a href="#milano1" class="mapnode" data-sec="none"><title>Pavia . June 1490, the cathedral consultation</title><circle class="c2" cx="513.3" cy="130.5" r="3.2"/><text class="lb min" x="506" y="140" text-anchor="end">Pavia</text></a>
+      <a href="#milano1" class="mapnode" data-sec="none"><title>Vigevano . 1494, the ducal estate</title><circle class="c2" cx="491.4" cy="117.6" r="3.2"/><text class="lb min" x="484" y="114" text-anchor="end">Vigevano</text></a>
+      <a href="#milano2" class="mapnode" data-sec="none"><title>Vaprio d'Adda . 1512 to 1513, the Melzi villa</title><circle class="c2" cx="540.3" cy="91.3" r="3.2"/><text class="lb min" x="547" y="88">Vaprio</text></a>
+      <a href="#roma" class="mapnode" data-sec="none"><title>Bologna . December 1515, the meeting of Leo X and Francis I</title><circle class="c2" cx="670.5" cy="199.6" r="3.2"/><text class="lb min" x="663" y="196" text-anchor="end">Bologna</text></a>
+      <a href="#roma" class="mapnode" data-sec="none"><title>Civitavecchia . the harbor survey</title><circle class="c2" cx="703" cy="439.8" r="3.2"/><text class="lb min" x="695" y="436" text-anchor="end">Civitavecchia</text></a>
+
+      <!-- Loire inset -->
+      <rect class="inset" x="25" y="345" width="330" height="150" fill="var(--paper-card)"/>
+      <text class="sea" x="40" y="365">VALLE DELLA LOIRA . 1516 TO 1519</text>
+      <path class="river" d="M25,431 C45,427 60,424 74.5,421.3 C98,419.5 120,417 140.1,415.2 C168,408 196,382 216.2,359.5 C240,352 262,349 285,347"/>
+      <path class="river" d="M25,447 C60,446 100,442 140,438 C190,434 240,432 305.3,432.4" opacity=".45"/>
+      <text class="riv" x="243" y="372">Loire</text>
+      <text class="riv" x="196" y="452" style="font-size:9.5px">Cher</text>
+      <a href="#amboise" class="mapnode" data-sec="amboise"><title>Amboise and Le Clos Lucé . 1516 to 2 May 1519</title><circle class="c1" cx="140.1" cy="415.2" r="4.6"/><text class="lb" x="140" y="404" text-anchor="middle">Amboise</text></a>
+      <a href="#amboise" class="mapnode" data-sec="none"><title>Tours</title><circle class="c2" cx="74.5" cy="421.3" r="3.2"/><text class="lb min" x="70" y="412" text-anchor="end">Tours</text></a>
+      <a href="#amboise" class="mapnode" data-sec="none"><title>Blois</title><circle class="c2" cx="216.2" cy="359.5" r="3.2"/><text class="lb min" x="224" y="357">Blois</text></a>
+      <a href="#amboise" class="mapnode" data-sec="none"><title>Romorantin . the palace and canal project of 1517 to 1518</title><circle class="c2" cx="305.3" cy="432.4" r="3.2"/><text class="lb min" x="305" y="448" text-anchor="middle">Romorantin</text></a>
+    </svg>
+    </div>
+  </div>
+
+  <div class="legend">
+    <span><b>Source tiers</b></span>
+    <span><span class="tier tA">A</span> Contemporary primary documents: contracts, notarial records, letters, dated entries in Leonardo's own manuscripts</span>
+    <span><span class="tier tB">B</span> Facts resting on documents printed in critical editions (Villata, Beltrami) or in institutional records</span>
+    <span><span class="tier tC">C</span> Scholarly consensus, or sixteenth century biographical tradition (Anonimo Gaddiano, Vasari)</span>
+    <span><span class="tier tD">D</span> Contested, unresolved, or commonly misstated: see the notes on contested points</span>
+  </div>
+</header>
+
+<!-- ================= 1 VINCI ================= -->
+<section class="stage" id="vinci">
+  <div class="stage-head">
+    <span class="no">I</span>
+    <h2>Vinci</h2>
+    <span class="span">1452 . c.1464</span>
+  </div>
+  <table class="meta">
+    <tr><th>Period</th><td>From his birth on 15 April 1452 until the move to Florence, conjecturally placed in the mid 1460s <span class="tier tC">C</span></td></tr>
+    <tr><th>Documentary anchors</th><td>Birth record written by his grandfather Antonio da Vinci on the final leaf of a notarial book: a grandson born to his son ser Piero on Saturday 15 April 1452 at the third hour of the night, named Lionardo; the record names the baptizing priest, Piero di Bartolomeo, and the witnesses <span class="tier tA">A</span>. The 1457 catasto declaration of Antonio da Vinci lists Leonardo, illegitimate son of ser Piero, aged five, among the household <span class="tier tA">A</span></td></tr>
+    <tr><th>Church</th><td>Baptism in the church of Santa Croce at Vinci is the accepted tradition <span class="tier tC">C</span>; the birth record itself names no church, and no patronal dedication for the village is asserted here</td></tr>
+    <tr><th>Government</th><td>Rural commune under the Republic of Florence. The castle of Vinci, formerly a stronghold of the Conti Guidi, passed to Florentine control in the thirteenth century</td></tr>
+    <tr><th>Terrain and water</th><td>Northwestern slopes of the Montalbano massif, terraced in olives and vines above the lower Arno valley. Anchiano, the traditional site of his infancy, lies about two kilometers north of the village</td></tr>
+    <tr><th>Economy</th><td>Agrarian: olive oil, wine, silkworm rearing. The paternal family were notaries, a profession that tied the household to the urban economy of Florence</td></tr>
+      <tr><th>Coordinates</th><td class="gm"><a href="https://www.google.com/maps/search/?api=1&amp;query=43.7837,10.925" target="_blank" rel="noopener">Vinci 43.7837 N, 10.925 E</a> . <a href="https://www.google.com/maps/search/?api=1&amp;query=43.8006,10.9319" target="_blank" rel="noopener">Anchiano 43.8006 N, 10.9319 E</a></td></tr>
+  </table>
+  <h3 class="sub">The record of the stay</h3>
+  <p>The first document of Leonardo's life is his grandfather's birth entry, which fixes the day of the week and the hour: an exceptionally precise starting point for a Renaissance artist. The years with his mother Caterina, the relation of the Anchiano farmhouse to the family, and the content of his village schooling all rest on later tradition and have no support in contemporary documents. What the 1457 catasto does establish is that by the age of five Leonardo belonged to his father's household in Vinci. The rural commune and the notarial family are the initial conditions of the whole itinerary: a childhood spent between agrarian terrain and a profession built on the written instrument.</p>
+</section>
+
+<!-- ================= 2 FIRENZE I ================= -->
+<section class="stage" id="firenze1">
+  <div class="stage-head">
+    <span class="no">II</span>
+    <h2>Florence, First Period <span class="it">Firenze</span></h2>
+    <span class="span">c.1464 . 1481/82</span>
+  </div>
+  <table class="meta">
+    <tr><th>Period</th><td>The year of the move is not documented; between 1464 and 1469 by inference <span class="tier tC">C</span>. Leonardo disappears from Florentine records after a final payment entry of 28 September 1481 <span class="tier tB">B</span></td></tr>
+    <tr><th>Documentary anchors</th><td>1472, enrollment in the painters' confraternity, the Compagnia di San Luca, as Lyonardo di ser Piero da Vinci dipintore <span class="tier tA">A</span>. April 1476, the Saltarelli denunciation records that he lives with Andrea del Verrocchio <span class="tier tA">A</span>. January 1478, commission for the altarpiece of the chapel of San Bernardo in the Palazzo della Signoria <span class="tier tA">A</span>. March 1481, contract with the monastery of San Donato a Scopeto for the Adoration of the Magi <span class="tier tA">A</span></td></tr>
+    <tr><th>Patron saints</th><td>Saint John the Baptist (feast 24 June); Saint Zenobius, first bishop, and Saint Reparata as co-patrons</td></tr>
+    <tr><th>Government</th><td>Republic. The Signoria of nine priors headed by the Gonfaloniere di Giustizia; guild oligarchy of seven major and fourteen minor arti. Effective power with the Medici; Lorenzo il Magnifico from 1469 to 1492</td></tr>
+    <tr><th>Terrain and water</th><td>Basin of the middle Arno. Apennine timber and river power for fulling and milling underpinned the wool industry</td></tr>
+    <tr><th>Economy and trade</th><td>Luxury wool and silk textiles; international banking and exchange. The gold florin, struck from 1252, served as the international standard coin. The conquest of Pisa in 1406 secured an outlet to the sea</td></tr>
+    <tr><th>Geopolitics</th><td>The five power equilibrium of the Peace of Lodi (1454) among Florence, Milan, Venice, Naples, and the Papacy. The Pazzi conspiracy of 1478 and the ensuing war with the Papacy and Naples</td></tr>
+      <tr><th>Coordinates</th><td class="gm"><a href="https://www.google.com/maps/search/?api=1&amp;query=43.7696,11.2558" target="_blank" rel="noopener">Florence 43.7696 N, 11.2558 E</a></td></tr>
+  </table>
+  <h3 class="sub">The structure of the city</h3>
+  <p>The Florentine constitution barred the old nobility from office and opened power only to guild members: a merchant republic in form. Behind the machinery of sortition and short terms of office ran the factional contest of the great families, and from Cosimo onward the Medici governed as monarchs in substance while preserving the republican frame. A city without mineral resources sought its survival not in territorial conquest but in the multiplier of trade and exchange; the branch networks of the Bardi, Peruzzi, and Medici banks, stretching from London to the Black Sea, generated the surplus wealth on which workshop production and patronage rested.</p>
+  <h3 class="sub">Leonardo's activity</h3>
+  <p>Training in Verrocchio's workshop was a comprehensive education of the bottega: casting, metallurgy, and surveying alongside painting. The 1472 enrollment marks his qualification as an independent master, yet the 1476 denunciation shows him still living under Verrocchio's roof. The commissions that documents can fix, the San Bernardo altarpiece of 1478, never begun, and the Adoration of 1481, abandoned at the underpainting, share a single trait: neither was completed. That fact is itself a source for Leonardo's position in the Florentine market of his first period.</p>
+  <div class="doc"><span class="d">1481.03 contract / 1481.09.28 last payment <span class="tier tA">A</span></span>The San Donato a Scopeto contract stipulated delivery within twenty four to thirty months. Leonardo vanishes from the payment records after September 1481, leaving the panel in monochrome. No document fixes the date of his departure for Milan.</div>
+</section>
+
+<!-- ================= 3 MILANO I ================= -->
+<section class="stage" id="milano1">
+  <div class="stage-head">
+    <span class="no">III</span>
+    <h2>Milan, First Period <span class="it">Milano</span></h2>
+    <span class="span">1482/83 . 1499</span>
+  </div>
+  <table class="meta">
+    <tr><th>Period</th><td>Arrival in 1482 rests on tradition (Anonimo Gaddiano <span class="tier tC">C</span>); the first document places him in Milan on 25 April 1483 <span class="tier tA">A</span>. He left in December 1499, after the French entry of October</td></tr>
+    <tr><th>Documentary anchors</th><td>25 April 1483, contract with the Confraternity of the Immaculate Conception for the Virgin of the Rocks, jointly with the de Predis brothers <span class="tier tA">A</span>. 1495 to 1498, the documentary series on the refectory mural at Santa Maria delle Grazie, including Ludovico's 1497 memorandum urging that the work in the refectory be hastened <span class="tier tA">A</span>. April 1498, the ducal secretary's report on the decoration of the Sala delle Asse <span class="tier tA">A</span>. December 1499, transfer of six hundred florins to the hospital of Santa Maria Nuova in Florence <span class="tier tA">A</span></td></tr>
+    <tr><th>Patron saint</th><td>Saint Ambrose (Milanese feast 7 December); eponym of the anti Sforza Ambrosian Republic of 1447 to 1450</td></tr>
+    <tr><th>Government</th><td>Duchy under princely rule: Visconti, then the Ambrosian Republic, then the Sforza. During Leonardo's residence the effective ruler was Ludovico il Moro, duke in title from 1494</td></tr>
+    <tr><th>Terrain and water</th><td>Center of the Po plain; the Ticino to the west, the Adda to the east, the Alpine foothills with lakes Como and Maggiore to the north. The navigli, the canal network, tied the city to its rivers</td></tr>
+    <tr><th>Economy and trade</th><td>Armor and arms manufacture, silk and wool, intensive irrigated agriculture of the plain. A node of transalpine trade whose transit tolls fed the ducal treasury</td></tr>
+    <tr><th>Geopolitics</th><td>Ludovico, holding a dubious title, balanced France against the Empire and helped precipitate the invasion of Charles VIII in 1494. In 1499 Louis XII, asserting a Visconti claim, took the duchy</td></tr>
+      <tr><th>Coordinates</th><td class="gm"><a href="https://www.google.com/maps/search/?api=1&amp;query=45.4642,9.19" target="_blank" rel="noopener">Milan 45.4642 N, 9.19 E</a> . <a href="https://www.google.com/maps/search/?api=1&amp;query=45.1847,9.1582" target="_blank" rel="noopener">Pavia 45.1847 N, 9.1582 E</a> . <a href="https://www.google.com/maps/search/?api=1&amp;query=45.314,8.8541" target="_blank" rel="noopener">Vigevano 45.314 N, 8.8541 E</a></td></tr>
+  </table>
+  <h3 class="sub">The record of the stay</h3>
+  <p>The story that Lorenzo de' Medici sent Leonardo to Milan with the musician Atalante Migliorotti, bearing a silver lyre for Ludovico, comes from the Anonimo Gaddiano and has no documentary support <span class="tier tC">C</span>. What survives in Leonardo's own hand is the draft letter of self recommendation in the Codex Atlanticus, which lists military engineering first and places painting and sculpture at the end: a first rank source for how Leonardo himself read the structure of demand in the Milanese market <span class="tier tA">A</span>. From about 1490 the documents show him formally installed as a court engineer, with a workshop in the Corte Vecchia, engaged on the clay model of the Sforza horse (exhibited 1493), on festival production (the Festa del Paradiso, 1490), and on advice in canal works and fortification.</p>
+  <h3 class="sub">Movements in the duchy: Pavia, Vigevano</h3>
+  <p>In June 1490 the fabbrica of Pavia cathedral summoned Leonardo, together with Francesco di Giorgio Martini, to advise on the building; the payment and invitation records survive <span class="tier tA">A</span>. Pavia's patron is Saint Syrus (feast 9 December). His notebooks record the Visconti library in the castle and the antique equestrian statue called the Regisole. At Vigevano, Ludovico's model estate, Leonardo studied the irrigation works and stepped water channels, with a dated entry of 1494 <span class="tier tA">A</span>.</p>
+  <h3 class="sub">The structure of the city</h3>
+  <p>Milan held roughly twice the population of Florence, and its market for the arts had a different shape: a single overwhelming purchaser, the court, where Florence dispersed demand among guilds, confraternities, and religious houses. The horizontal spread of Leonardo's employment, from painting to ordnance, hydraulics, and festival machinery, answers that structure of demand. The wealth of a toll state astride the transalpine routes coexisted with exposure to invasion from every quarter, and the collapse of the regime in 1499 ended what would remain the longest residence of Leonardo's life, seventeen years.</p>
+  <div class="doc"><span class="d">1499.12 transfer of funds <span class="tier tA">A</span></span>Before leaving Milan, Leonardo sent six hundred florins to his account at the hospital of Santa Maria Nuova in Florence. The movements of that account become one of the fixed frames of reference for tracking his whereabouts in the years that follow.</div>
+</section>
+
+<!-- ================= 4 MANTOVA ================= -->
+<section class="stage" id="mantova">
+  <div class="stage-head">
+    <span class="no">IV</span>
+    <h2>Mantua <span class="it">Mantova</span></h2>
+    <span class="span">late 1499 . early 1500</span>
+  </div>
+  <table class="meta">
+    <tr><th>Period</th><td>December 1499 to early 1500, a brief stay in the company of Luca Pacioli <span class="tier tB">B</span></td></tr>
+    <tr><th>Documentary anchors</th><td>Letter of 13 March 1500 from the instrument maker Lorenzo Gusnasco da Pavia, writing from Venice to Isabella d'Este: Leonardo had shown in Venice a portrait drawing of the marchioness that was very true to life <span class="tier tA">A</span>. Isabella's letters of 1501 to Fra Pietro da Novellara presuppose the stay <span class="tier tA">A</span></td></tr>
+    <tr><th>Patron saints</th><td>Saint Anselm of Lucca (feast 18 March), patron of the see. The cult of the Blessed Osanna Andreasi (d. 1505) was promoted by the Gonzaga</td></tr>
+    <tr><th>Government</th><td>Marquisate under the Gonzaga. Francesco II served the great powers as a condottiere while his wife Isabella d'Este conducted the diplomacy of culture: a double strategy of survival</td></tr>
+    <tr><th>Terrain and water</th><td>A natural fortress ringed on three sides by lakes formed by damming the Mincio</td></tr>
+    <tr><th>Economy and trade</th><td>A node among Venice, Milan, and the Papal States. Horse breeding and export; long distance trade in rarities through merchant networks reaching North Africa and beyond</td></tr>
+      <tr><th>Coordinates</th><td class="gm"><a href="https://www.google.com/maps/search/?api=1&amp;query=45.1564,10.7914" target="_blank" rel="noopener">Mantua 45.1564 N, 10.7914 E</a></td></tr>
+  </table>
+  <h3 class="sub">The record and the result</h3>
+  <p>The material witness of the stay is the profile portrait of Isabella d'Este in the Louvre, black and red chalk, its outlines pricked for transfer. The pricking implies a workshop procedure of replication, consistent with Gusnasco's report that copies were being seen. For years afterward Isabella pressed Leonardo, through intermediaries, to convert the drawing into a painted portrait; he never did. The correspondence generated by that unconsummated negotiation is itself the principal source, documenting at once the working of Mantuan cultural diplomacy and the logic by which Leonardo selected and declined commissions.</p>
+</section>
+
+<!-- ================= 5 VENEZIA ================= -->
+<section class="stage" id="venezia">
+  <div class="stage-head">
+    <span class="no">V</span>
+    <h2>Venice <span class="it">Venezia</span></h2>
+    <span class="span">c. 1500.03</span>
+  </div>
+  <table class="meta">
+    <tr><th>Period</th><td>A short stay around March 1500; the Gusnasco letter of 13 March attests his presence <span class="tier tA">A</span></td></tr>
+    <tr><th>Documentary anchors</th><td>The Gusnasco letter <span class="tier tA">A</span>; Leonardo's own memoranda and draft report on the defense of the Isonzo line in Friuli, proposing a movable weir to control the river's level against Ottoman incursion <span class="tier tA">A</span></td></tr>
+    <tr><th>Patron saint</th><td>Saint Mark (feast 25 April); before the translation of his relics in 828, Saint Theodore</td></tr>
+    <tr><th>Government</th><td>Hereditary aristocratic republic: a doge elected for life and largely ceremonial, the Great Council, the Senate, and the Council of Ten in a mixed constitution</td></tr>
+    <tr><th>Terrain and water</th><td>A lagoon of some 550 square kilometers; shoals averaging a meter in depth and a maze of channels served as the city's fortification</td></tr>
+    <tr><th>Economy and trade</th><td>Galley borne Levantine trade in spices and silk; export of glass, brocade, and arms. Through the sixteenth century, with over a thousand printers and publishers, the capital of the European book trade</td></tr>
+    <tr><th>Geopolitics</th><td>Defeat by the Ottoman fleet at Zonchio in August 1499 and the loss of Lepanto. The League of Cambrai formed in 1508; the defeat at Agnadello in 1509 ended expansion on the mainland</td></tr>
+      <tr><th>Coordinates</th><td class="gm"><a href="https://www.google.com/maps/search/?api=1&amp;query=45.438,12.3346" target="_blank" rel="noopener">Venice 45.438 N, 12.3346 E</a></td></tr>
+  </table>
+  <h3 class="sub">The record of the stay</h3>
+  <p>Leonardo arrived in the immediate aftermath of Zonchio, when Ottoman cavalry had raided as far as Friuli. What the Republic wanted from a foreign engineer was not painting but river engineering, and the Isonzo memoranda show it: a movable barrier to flood the valley at will and deny the passage. The conception is of the same grammar as the Arno diversion he would propose to Florence in 1503, and confirms that Leonardo's hydraulics formed a consistent defensive science across employers. The stay was brief; no painting commission is recorded.</p>
+</section>
+
+<!-- ================= 6 FIRENZE II ================= -->
+<section class="stage" id="firenze2">
+  <div class="stage-head">
+    <span class="no">VI</span>
+    <h2>Florence, Second Period <span class="it">Firenze</span></h2>
+    <span class="span">1500.04 . 1506.05</span>
+  </div>
+  <table class="meta">
+    <tr><th>Period</th><td>Return fixed by a withdrawal from the Santa Maria Nuova account on 24 April 1500 <span class="tier tA">A</span>. Departure for Milan on leave of the Signoria, 30 May 1506, for three months under a bond of 150 florins <span class="tier tA">A</span>. The period encloses the Romagna service of 1502 to 1503 (section VII) and the Piombino mission of 1504 (section VIII)</td></tr>
+    <tr><th>Documentary anchors</th><td>Letters of Fra Pietro da Novellara to Isabella d'Este, 3 and 14 April 1501, describing the Saint Anne cartoon and observing that Leonardo, immersed in geometry, could not endure the brush <span class="tier tA">A</span>. July 1503, payment for his journey to the siege camp at Pisa for the Arno diversion scheme <span class="tier tA">A</span>. 24 October 1503, delivery of the keys of the Sala del Papa at Santa Maria Novella, his workshop for the Battle of Anghiari cartoon <span class="tier tA">A</span>. May 1504, the Signoria's contract terms for the Anghiari <span class="tier tA">A</span>. 9 July 1504, Leonardo's own note of the death of his father ser Piero <span class="tier tA">A</span></td></tr>
+    <tr><th>Patron saints</th><td>Saint John the Baptist (24 June), Saint Zenobius, Saint Reparata, as in section II</td></tr>
+    <tr><th>Government</th><td>The republic restored after the expulsion of the Medici in 1494; after Savonarola's execution in 1498, Piero Soderini as Gonfaloniere for life from 1502. Second chancellor of the republic: Niccolò Machiavelli</td></tr>
+    <tr><th>Geopolitics</th><td>The war to recover Pisa (1494 to 1509) dominated policy, together with the pressure of Cesare Borgia's expansion to the north and east</td></tr>
+      <tr><th>Coordinates</th><td class="gm"><a href="https://www.google.com/maps/search/?api=1&amp;query=43.7696,11.2558" target="_blank" rel="noopener">Florence 43.7696 N, 11.2558 E</a></td></tr>
+  </table>
+  <h3 class="sub">The record of the stay</h3>
+  <p>The structure of demand in the second Florentine period differs in kind from the first. To the religious houses and private patrons is added the republic itself, and the commissions span altarpiece (the Saint Anne for the Servites), state imagery (the Battle of Anghiari), military hydraulics (the Arno diversion), and private portraiture. Novellara's observation that mathematical experiments had drawn Leonardo away from painting is among the rare contemporary testimonies to his order of priorities in these years.</p>
+  <div class="doc"><span class="d">1503.10 marginal note of Agostino Vespucci <span class="tier tA">A</span></span>In a printed Cicero now at Heidelberg, the chancery official Agostino Vespucci noted that Leonardo was at work on the head of Lisa del Giocondo. This marginal note is at present the single contemporary document fixing the inception of the Mona Lisa.</div>
+  <p>The Arno diversion, an attempt to strangle Pisa by moving the river, failed at the excavation stage in 1504. It is nonetheless one of the few dossiers in which the Signoria, Leonardo, and the chancellor Machiavelli appear within a single documentary chain, and together with the Borgia service of the following section it defines the ground on which any contact between the two men can be examined at the level of documents.</p>
+</section>
+
+<!-- ================= 7 ROMAGNA ================= -->
+<section class="stage" id="romagna">
+  <div class="stage-head">
+    <span class="no">VII</span>
+    <h2>Romagna and the Marches <span class="it">in the service of Cesare Borgia</span></h2>
+    <span class="span">summer 1502 . early 1503</span>
+  </div>
+  <table class="meta">
+    <tr><th>Period</th><td>Summer 1502 to early 1503, as inspector general of fortifications on circuit through the new Borgia state</td></tr>
+    <tr><th>Documentary anchors</th><td>Patent of Cesare Borgia, issued at Pavia on 18 August 1502, styling Leonardo our most excellent and dearly beloved familiar, architect and engineer general, and granting free passage, the right of inspection of all fortresses, and the power to requisition men <span class="tier tA">A</span>. The itinerary entries of Manuscript L: Urbino (late July 1502), Pesaro, Rimini (8 August, the harmony of the falling water of the fountain), Cesena (observations on the trellising of vines and the local carts), Cesenatico (6 September 1502 at the fifteenth hour, measured drawing of the harbor canal) <span class="tier tA">A</span>. The town plan of Imola, Windsor RL 12284, autumn 1502 <span class="tier tA">A</span></td></tr>
+    <tr><th>Patron saints</th><td>Cesena: Saint John the Baptist, with the Madonna del Popolo as co-patron. Imola: Saint Cassian (feast 13 August). Urbino: Saint Crescentinus (feast 1 June)</td></tr>
+    <tr><th>Government</th><td>Nominally the Papal States; in practice a mosaic of local lordships (Malatesta, Riario, Manfredi, Montefeltro) which Cesare, son of Alexander VI, subjugated by force between 1499 and 1502, seating his new duchy at Cesena</td></tr>
+    <tr><th>Terrain</th><td>Hill country descending from the Apennine ridge toward the Adriatic coast, the towns strung along the Via Emilia</td></tr>
+      <tr><th>Coordinates</th><td class="gm"><a href="https://www.google.com/maps/search/?api=1&amp;query=43.7262,12.6365" target="_blank" rel="noopener">Urbino 43.7262 N, 12.6365 E</a> . <a href="https://www.google.com/maps/search/?api=1&amp;query=44.059,12.5684" target="_blank" rel="noopener">Rimini 44.059 N, 12.5684 E</a> . <a href="https://www.google.com/maps/search/?api=1&amp;query=44.1391,12.2431" target="_blank" rel="noopener">Cesena 44.1391 N, 12.2431 E</a> . <a href="https://www.google.com/maps/search/?api=1&amp;query=44.1994,12.3954" target="_blank" rel="noopener">Cesenatico 44.1994 N, 12.3954 E</a> . <a href="https://www.google.com/maps/search/?api=1&amp;query=44.3531,11.7147" target="_blank" rel="noopener">Imola 44.3531 N, 11.7147 E</a></td></tr>
+  </table>
+  <h3 class="sub">The record and the result</h3>
+  <p>The Imola plan combines pacing with an odometer and bearings taken by compass to render the town as a true plan, an ichnographia seen from directly above: among the earliest measured town plans in existence. A circular frame carries the eight wind names, and marginal notes give the distances to neighboring towns; the drawing marks the passage from the intuitive bird's eye view to the coordinate plan. Its context is the confinement of Cesare at Imola in the autumn of 1502, during the revolt of his captains at Magione. In precisely those months the envoy of the Florentine republic resident at the Borgia court in Imola was Machiavelli, whose dispatches survive (legation of October to December 1502 <span class="tier tA">A</span>). This is the one interval in which the presence of Leonardo and Machiavelli at the same court can be fixed by documents on both sides; no document records a direct exchange between them <span class="tier tD">D</span>, but the overlap itself is established at tier A.</p>
+  <div class="doc"><span class="d">Ms L, 1502.09.06 <span class="tier tA">A</span></span>The drawing of the port of Cesenatico is dated to the day and the hour: 6 September 1502 at the fifteenth hour. The canal harbor was the new state's outlet to the sea, and its survey tied the inland capital of Cesena to Adriatic shipping: military and economic infrastructure in a single reconnaissance.</div>
+</section>
+
+<!-- ================= 8 PIOMBINO ================= -->
+<section class="stage" id="piombino">
+  <div class="stage-head">
+    <span class="no">VIII</span>
+    <h2>Piombino</h2>
+    <span class="span">1504.10 . 11</span>
+  </div>
+  <table class="meta">
+    <tr><th>Period</th><td>Late October to November 1504. Madrid Manuscript II carries entries dated on site, among them one on All Saints' Day, 1 November 1504, at Piombino <span class="tier tA">A</span></td></tr>
+    <tr><th>Documentary anchors</th><td>The dated Piombino series of Madrid Ms II: schemes for the modernization of the fortifications, observations of waves and sediment, drainage of the marsh <span class="tier tA">A</span>. The mission proceeded within the alliance between the Florentine republic and the restored lord Jacopo IV d'Appiano <span class="tier tB">B</span></td></tr>
+    <tr><th>Patron saint</th><td><b>Saint Anastasia (feast 8 May)</b>. Her cult in the town is attested from the fourteenth century; in 1471 the Council of Elders (Consiglio degli Anziani) decreed an annual palio for her feast, which continued through the sixteenth century <span class="tier tB">B</span>. Saint Cerbonius, sometimes cited in this connection, is the patron of the diocese of Massa Marittima, heir of the see of Populonia, not of the town: see the notes on contested points <span class="tier tD">D</span></td></tr>
+    <tr><th>Government</th><td>A dual regime: the Appiani as lords in coordination with the communal Council of Elders. Cesare Borgia held the town from 1501 to 1503; Jacopo IV was restored in 1503</td></tr>
+    <tr><th>Terrain and water</th><td>A harbor town on a promontory into the Tyrrhenian Sea, facing Elba, whose iron ore was the core of the state's value</td></tr>
+    <tr><th>Economy and trade</th><td>Shipment of Elban iron ore and coastal trade, absorbing part of the commercial sphere of declining Pisa</td></tr>
+      <tr><th>Coordinates</th><td class="gm"><a href="https://www.google.com/maps/search/?api=1&amp;query=42.9252,10.5266" target="_blank" rel="noopener">Piombino 42.9252 N, 10.5266 E</a></td></tr>
+  </table>
+  <h3 class="sub">The record and the result</h3>
+  <p>The Piombino pages of Madrid II record Leonardo thinking through, on a specific terrain, the transition of fortification into the age of artillery: low thick walls, covered lines of fire. Interleaved with the military drawings run observations of waves breaking on the mole and of the transport and deposition of sediment; defensive architecture and fluid observation proceed as one inquiry, which is the signature of his method. The political context of the mission was the reordering of the Tyrrhenian coast after the fall of the Borgia state: for Florence, the defensibility of Piombino bore directly on the maritime supply lines of the Pisan war. The same Council of Elders with which the Appiani shared power was the body that administered the patronal feast, a small instance of the interlocking of cult and constitution in the Italian commune.</p>
+</section>
+
+<!-- ================= 9 MILANO II ================= -->
+<section class="stage" id="milano2">
+  <div class="stage-head">
+    <span class="no">IX</span>
+    <h2>Milan, Second Period <span class="it">Milano</span></h2>
+    <span class="span">1506.06 . 1513.09</span>
+  </div>
+  <table class="meta">
+    <tr><th>Period</th><td>June 1506 to 24 September 1513. Within it, the winter of 1507 to 1508 in Florence for the lawsuit with his half brothers over the estate of his uncle Francesco; 1512 to 1513 at the Melzi villa at Vaprio d'Adda</td></tr>
+    <tr><th>Documentary anchors</th><td>30 May 1506, leave of the Signoria for three months <span class="tier tA">A</span>. August 1506, letters of the governor Charles d'Amboise requesting extension <span class="tier tA">A</span>. January 1507, Louis XII personally demands of the Florentine ambassador that your painter Leonardo remain, and appoints him peintre et ingegneur ordinaire <span class="tier tA">A</span>. 10 and 16 December 1511, dated drawings recording the fires set at Desio by the Swiss <span class="tier tA">A</span>. Autograph note on the cover of Manuscript E: I departed from Milan for Rome on 24 September 1513, with Giovanni, Francesco de' Melzi, Salaì, Lorenzo, and il Fanfoia <span class="tier tA">A</span></td></tr>
+    <tr><th>Patron saint</th><td>Saint Ambrose, as in section III</td></tr>
+    <tr><th>Government</th><td>Direct French rule through governors, Charles d'Amboise and his successors. In 1512 the Holy League and the Swiss expelled the French and restored Massimiliano Sforza</td></tr>
+    <tr><th>Geopolitics</th><td>Northern Italy as the battlefield of the wars of the League of Cambrai and the Holy League: Agnadello 1509, Ravenna 1512, Novara 1513</td></tr>
+      <tr><th>Coordinates</th><td class="gm"><a href="https://www.google.com/maps/search/?api=1&amp;query=45.4642,9.19" target="_blank" rel="noopener">Milan 45.4642 N, 9.19 E</a> . <a href="https://www.google.com/maps/search/?api=1&amp;query=45.5769,9.5331" target="_blank" rel="noopener">Vaprio d'Adda 45.5769 N, 9.5331 E</a></td></tr>
+  </table>
+  <h3 class="sub">The record of the stay</h3>
+  <p>The employer of the second Milanese period is the French crown. Louis XII's direct intervention against the Florentine demand for Leonardo's return (the unfinished Anghiari) shows his labor being treated as a matter of interstate diplomacy. The center of gravity of the period lies in anatomy, with the concentrated production of the Windsor anatomical sheets <span class="tier tA">A</span> and the collaboration with Marcantonio della Torre of Pavia reported by the tradition <span class="tier tC">C</span>; in hydraulics on the Adda and the Martesana canal; and in the design of the Trivulzio equestrian monument.</p>
+  <h3 class="sub">Vaprio d'Adda</h3>
+  <p>After the French collapse of 1512 Leonardo withdrew to the villa of his pupil Francesco Melzi's family on the bank of the Adda at Vaprio, where the sequences of water studies and geological observation of the Adda gorge were made. That the refuge in a political vacuum was neither a court nor a city but the country house of a noble pupil marks the shift of his late structure of protection toward personal bonds: the same bond that would, by the will of 1519, determine the survival of the manuscripts.</p>
+</section>
+
+<!-- ================= 10 ROMA ================= -->
+<section class="stage" id="roma">
+  <div class="stage-head">
+    <span class="no">X</span>
+    <h2>Rome <span class="it">Roma</span></h2>
+    <span class="span">1513.09 . 1516</span>
+  </div>
+  <table class="meta">
+    <tr><th>Period</th><td>From 24 September 1513 (the autograph note of Ms E <span class="tier tA">A</span>) until 1516. A short journey toward Parma in September 1514 is fixed by a manuscript entry <span class="tier tA">A</span>; attendance in the papal train at Bologna in December 1515, for the meeting of Leo X and Francis I, is the scholarly consensus <span class="tier tC">C</span></td></tr>
+    <tr><th>Documentary anchors</th><td>December 1513, payments in the account book of the architect Giuliano Leno for fitting out rooms for Leonardo in the Belvedere <span class="tier tA">A</span>. Draft letters to Giuliano de' Medici concerning the dispute with the German mirror maker Giovanni and the denunciation of his dissections at the hospital of Santo Spirito <span class="tier tA">A</span>. Autograph note: the Magnifico Giuliano de' Medici left Rome at dawn on 9 January 1515 to marry his wife in Savoy, and on that day came the death of the king of France <span class="tier tA">A</span></td></tr>
+    <tr><th>Patron saints</th><td>The apostles Peter and Paul (feast 29 June)</td></tr>
+    <tr><th>Government</th><td>Papal monarchy. Leo X, Giovanni de' Medici, reigned 1513 to 1521; Leonardo's protector was the pope's brother Giuliano de' Medici, who died in March 1516</td></tr>
+    <tr><th>Terrain and water</th><td>The lower Tiber; to the south the malarial Pontine marshes; the outer port at Civitavecchia</td></tr>
+    <tr><th>Economy</th><td>A city of consumption organized around jubilees, indulgences, and the redistribution of church revenue; the concentration of clergy, bankers, and pilgrims from all Europe formed the largest patronage market of the peninsula</td></tr>
+      <tr><th>Coordinates</th><td class="gm"><a href="https://www.google.com/maps/search/?api=1&amp;query=41.9046,12.4544" target="_blank" rel="noopener">Belvedere, Vatican 41.9046 N, 12.4544 E</a> . <a href="https://www.google.com/maps/search/?api=1&amp;query=42.0924,11.7954" target="_blank" rel="noopener">Civitavecchia 42.0924 N, 11.7954 E</a></td></tr>
+  </table>
+  <h3 class="sub">The record of the stay</h3>
+  <p>At the Belvedere Leonardo drew a monthly allowance but stood outside the great public commissions: Raphael held the Stanze, Michelangelo the tomb of Julius, and to Leonardo, past sixty, fell technical reconnaissance. The content of the period is the colored map of the Pontine marshes, Windsor RL 12684, of about 1514 to 1515, answering the drainage concession granted to Giuliano <span class="tier tA">A</span>; the survey of the harbor of Civitavecchia; geometry, above all the quadrature of lunes; and experiments with mirrors and burning mirrors. The halt of his dissections upon denunciation to the papal court exposes the normative constraints of the curial environment as a patronage system, and the draft letters to Giuliano are the rare surviving instance of Leonardo composing a defense of his own position.</p>
+</section>
+
+<!-- ================= 11 AMBOISE ================= -->
+<section class="stage" id="amboise">
+  <div class="stage-head">
+    <span class="no">XI</span>
+    <h2>Amboise and Le Clos Lucé <span class="it">Amboise . Cloux</span></h2>
+    <span class="span">1516 . 1519.05.02</span>
+  </div>
+  <table class="meta">
+    <tr><th>Period</th><td>From 1516 (summer or autumn by inference <span class="tier tC">C</span>) until his death on 2 May 1519. Residence at the manor of Cloux below the château, the present Clos Lucé</td></tr>
+    <tr><th>Documentary anchors</th><td>Royal accounts: to maistre Lyenard de Vince, Italian painter, two thousand écus soleil for the two years 1517 and 1518, with eight hundred to Melzi <span class="tier tA">A</span>. 10 October 1517, the visit of Cardinal Luigi d'Aragona recorded by his secretary Antonio de Beatis, who saw three paintings, the portrait of a Florentine lady made for Giuliano de' Medici, the young Saint John, and the Saint Anne, and noted the paralysis of the right hand <span class="tier tA">A</span>. Autograph note of 24 June 1518, the day of Saint John, at Amboise in the palace of Cloux <span class="tier tA">A</span>. 23 April 1519, will before the notary Guillaume Boreau, directing burial in the collegiate church of Saint Florentin within the château of Amboise <span class="tier tA">A</span>. 12 August 1519, the burial register of the collegiate cloister: Leonard de Vincy, noble Milanese, first painter and engineer and architect of the King <span class="tier tA">A</span></td></tr>
+    <tr><th>Patron saint</th><td><b>Saint Florentin</b>. Around 1010 Fulk Nerra, count of Anjou, translated the saint's relics into the château and founded the collegiate church of Notre Dame and Saint Florentin, thereafter the center of the cult of castle and town <span class="tier tB">B</span>; the old parish church of the town below was Saint Denis. Saint Hubert names the royal chapel built on the ramparts under Charles VIII (1491 to 1496), not the town's patron: see the notes on contested points <span class="tier tD">D</span></td></tr>
+    <tr><th>Government</th><td>The kingdom of France under the Valois; Francis I, reigned 1515 to 1547. A centralizing sovereign state in formation, with a standing army and a growing office holding class</td></tr>
+    <tr><th>Terrain and water</th><td>The middle Loire; the château on a rock spur above the river, the manor of Cloux some five hundred meters southwest</td></tr>
+    <tr><th>Economy</th><td>A fiscal base of royal domain and kingdom wide taxation on a scale no Italian state could match: a single patron of a different order of magnitude</td></tr>
+      <tr><th>Coordinates</th><td class="gm"><a href="https://www.google.com/maps/search/?api=1&amp;query=47.4108,0.9915" target="_blank" rel="noopener">Le Clos Lucé 47.4108 N, 0.9915 E</a> . <a href="https://www.google.com/maps/search/?api=1&amp;query=47.4131,0.9857" target="_blank" rel="noopener">Château d'Amboise 47.4131 N, 0.9857 E</a> . <a href="https://www.google.com/maps/search/?api=1&amp;query=47.3595,1.7442" target="_blank" rel="noopener">Romorantin 47.3595 N, 1.7442 E</a></td></tr>
+  </table>
+  <h3 class="sub">The record of the stay</h3>
+  <p>The terms of Francis I, the title of first painter, engineer, and architect of the King and a large pension, purchased not finished works but the presence of Leonardo himself at the court. The paralysis of the right hand reported by Beatis marks the physical close of his painting; the same account dwells on the mass of manuscripts and anatomical drawings, confirming that the labor of the last years had already shifted to the ordering of the papers. The documented work of the period comprises the plan for a new palace and canal system at Romorantin (1517 to 1518, manuscript studies and survey on the ground <span class="tier tA">A</span>) and the production of court festivals: the celebrations of May 1518 for the baptism of the Dauphin and the wedding of Lorenzo de' Medici, and the restaging of the Festa del Paradiso at Cloux on 19 June 1518, reported in ambassadorial dispatches <span class="tier tA">A</span>.</p>
+  <h3 class="sub">Burial and translation</h3>
+  <p>As the will directed, the body was buried in the collegiate church of Saint Florentin within the château. The church, ruined in the revolutionary years, was demolished early in the nineteenth century (about 1806 to 1808); in 1863 an excavation conducted by Arsène Houssaye recovered remains presumed to be Leonardo's, and in 1874 they were placed in the chapel of Saint Hubert on the ramparts. The present tomb is thus a translation, and the identification of the remains has never risen above presumption <span class="tier tD">D</span>.</p>
+  <div class="doc"><span class="d">Will, 1519.04.23 <span class="tier tA">A</span></span>All the manuscripts, drawings, and instruments passed to Francesco de' Melzi, gentleman of Milan. The route by which Leonardo's intellectual estate survives to the present day was determined by this single instrument.</div>
+</section>
+
+<!-- ================= SYNTHESIS ================= -->
+<section class="stage" id="synthesis">
+  <div class="stage-head">
+    <span class="no">XII</span>
+    <h2>Synthesis: three variables of the itinerary</h2>
+  </div>
+  <h3 class="sub">The variable of commission structure</h3>
+  <p>Ordered by type of purchaser, the itinerary shows a steady enlargement of the commissioning body: the guild and monastic market of the first Florentine period, the single court of Sforza Milan, the republican government of the second Florentine period, the military state of the Borgia, the papal curia, and finally the crown of France. The differences of constitution and economy among these places appear directly as differences in what was asked of Leonardo. The guild city bought panels; the court bought festivals and representation; the state at war bought survey and fortification; the crown bought the belonging of the man himself.</p>
+  <h3 class="sub">The variable of geopolitics</h3>
+  <p>Few of the major moves were freely chosen. The departures of 1499 (the fall of the Sforza), 1512 to 1513 (the fall of the French and the retreat to Vaprio, then Rome), and 1516 (the death of Giuliano de' Medici) were each preceded by the collapse of a regime or the loss of a protector. A model of attraction, in which the artist gravitates toward safety and the largest purse, captures part of the pattern; but expulsion, not attraction, is the proximate cause of the greater number of the moves. Leonardo was pressed out of falling structures at least as often as he was drawn toward rising ones.</p>
+  <h3 class="sub">The variable of water</h3>
+  <p>Rearranged by drainage basin, the itinerary reads: the Arno (Vinci, Florence, the Pisan front), the Po system (Milan, Pavia, Mantua, the Adda at Vaprio), the lagoon and the Adriatic shore (Venice, Cesenatico), the Tyrrhenian coast (Piombino, Civitavecchia), the Tiber (Rome), the Loire (Amboise, Romorantin). In every place of the itinerary, without exception, some work of hydraulics, flood control, or harbor engineering is documentarily attested. If patron saint and constitution are the variables by which each city represented itself, water is the physical socket by which Leonardo's competence connected to each of them.</p>
+</section>
+
+<!-- ================= NOTES ================= -->
+<section class="stage" id="notes">
+  <div class="stage-head">
+    <span class="no">XIII</span>
+    <h2>Notes on contested and commonly misstated points</h2>
+  </div>
+  <p>Several facts in this gazetteer are frequently given incorrectly in general literature. The following notes record the state of the evidence for each, so that the entries above can be used with confidence.</p>
+  <table class="notes">
+    <tr><th>Point</th><th>State of the evidence</th></tr>
+    <tr>
+      <td>Patron saint of Piombino</td>
+      <td>Saint Anastasia, feast 8 May. Her cult in the town is attested from the fourteenth century, and in 1471 the Council of Elders decreed an annual palio for her feast (diocesan records; the canonical recognition of 1874 formalized an existing cult). Saint Cerbonius, often cited instead, is the patron of the diocese of Massa Marittima, successor of the see of Populonia, and of Populonia itself, not of the town of Piombino. The distinction matters here because the very council that shared power with the Appiani, the constitutional feature Leonardo's employers dealt with, was the body administering the patronal feast</td>
+    </tr>
+    <tr>
+      <td>Patron saint of Amboise</td>
+      <td>The center of the cult of castle and town was Saint Florentin, whose relics Fulk Nerra translated into the château around 1010, founding the collegiate church of Notre Dame and Saint Florentin; the parish church of the lower town was Saint Denis. Saint Hubert, frequently named as the town's patron because Leonardo's present tomb stands in the chapel of that dedication, names only the royal oratory built under Charles VIII between 1491 and 1496 (and a suburban church consecrated in 1521). Leonardo's will and the burial register of 1519 concern the church of Saint Florentin (French Ministry of Culture, Mérimée database; Biblissima; L. Gaugain, Amboise, 2014)</td>
+    </tr>
+    <tr>
+      <td>Dates of exhumation and translation</td>
+      <td>The collegiate church was demolished about 1806 to 1808 after revolutionary ruin; Houssaye's excavation took place in 1863; the translation of the presumed remains to the chapel of Saint Hubert followed in 1874. The three dates are regularly conflated into a single event of 1863. The identification of the remains rests on circumstantial evidence and remains a presumption</td>
+    </tr>
+    <tr>
+      <td>Arrival in Milan</td>
+      <td>The year 1482 rests on the biographical tradition of the Anonimo Gaddiano; the first document placing Leonardo in Milan is the contract of 25 April 1483 for the Virgin of the Rocks. Any statement of the period should preserve the difference of tier between the two dates</td>
+    </tr>
+    <tr>
+      <td>The mechanical lion</td>
+      <td>The automaton in the form of a lion, which walked and opened its breast to disclose lilies, is known through later testimony, above all Lomazzo (1584); it is associated by different sources with the entry of Francis I into Lyon in 1515 and with a presentation at Argentan in 1517. No contemporary document assigns its construction to the Amboise years, and it should be handled at tier C or below</td>
+    </tr>
+    <tr>
+      <td>Leonardo and Machiavelli</td>
+      <td>Their simultaneous presence at the court of Cesare Borgia at Imola in the autumn of 1502 is fixed independently on both sides: Leonardo by the patent of 18 August 1502 and the Imola plan, Machiavelli by the surviving dispatches of his legation of October to December 1502. No document records a direct exchange between the two men, at Imola or in Florence; the Arno diversion dossier of 1503 to 1504 is the other documentary chain in which both appear near the same business of state. Claims of collaboration beyond these overlaps exceed the evidence</td>
+    </tr>
+  </table>
+</section>
+
+<!-- ================= BIB ================= -->
+<section class="stage" id="bib">
+  <div class="stage-head">
+    <span class="no">XIV</span>
+    <h2>Sources</h2>
+  </div>
+  <h3 class="sub">Documentary collections (the basis of tiers A and B)</h3>
+  <ol class="bib">
+    <li>Villata, Edoardo (ed.), <i>Leonardo da Vinci. I documenti e le testimonianze contemporanee</i>, Milan, 1999. The standard reference for the documentary anchors cited above.</li>
+    <li>Beltrami, Luca, <i>Documenti e memorie riguardanti la vita e le opere di Leonardo da Vinci</i>, Milan, 1919.</li>
+    <li>Leonardo da Vinci, Codex Atlanticus; Manuscripts L and E (Institut de France); Madrid Codices I and II; Codex Arundel; Windsor RL 12284 and RL 12684: the dated autograph entries.</li>
+  </ol>
+  <h3 class="sub">Studies (tier C)</h3>
+  <ol class="bib">
+    <li>Marani, Pietro C., <i>Leonardo. Una carriera di pittore</i>, Milan, 1999.</li>
+    <li>Zöllner, Frank, <i>Leonardo da Vinci. The Complete Paintings and Drawings</i>, Cologne, 2003.</li>
+    <li>Pedretti, Carlo, <i>Leonardo architetto</i>, Milan, 1978. Romorantin, Piombino, and the fortification studies.</li>
+    <li>Gaugain, Lucie, <i>Amboise. Un château dans la ville</i>, Presses universitaires François-Rabelais, 2014. The ecclesiastical organization and urban structure of Amboise.</li>
+  </ol>
+  <h3 class="sub">Institutional records consulted for local facts</h3>
+  <ol class="bib">
+    <li>Diocese of Massa Marittima e Piombino, official records, with the Sapere.it encyclopedia and communal records of Piombino: Saint Anastasia, 8 May, and the palio decree of 1471.</li>
+    <li>Mérimée database of the French Ministry of Culture, and Biblissima (CNRS and IRHT): the collegiate church of Amboise, the relics of Saint Florentin, and the character of the chapel of Saint Hubert.</li>
+  </ol>
+  <p style="margin-top:22px;font-size:14px;color:var(--ink-soft)">As stated in the legend, dates and proper facts throughout rest on tier A documents where so marked, and on tradition or consensus at tier C where so marked. Tier D flags points that are contested, unresolved, or commonly misstated, and refers to section XIII.</p>
+</section>
+
+<footer>IDENTITY OF LEONARDO DA VINCI . ITINERARIO VINCIANO . PLACES OF RESIDENCE AND TRAVEL</footer>
+</main>
+</div>
+
+<script>
+const links=[...document.querySelectorAll('nav.side a[href^="#"]')];
+const map=new Map(links.map(a=>[a.getAttribute('href').slice(1),a]));
+const mapNodes=[...document.querySelectorAll('.mapnode[data-sec]')];
+const obs=new IntersectionObserver(es=>{
+  es.forEach(e=>{
+    if(!e.isIntersecting) return;
+    const id=e.target.id;
+    const a=map.get(id);
+    if(a){links.forEach(l=>l.classList.remove('on'));a.classList.add('on');}
+    mapNodes.forEach(g=>g.classList.toggle('live',g.dataset.sec.split(' ').includes(id)));
+  });
+},{rootMargin:'-20% 0px -70% 0px'});
+document.querySelectorAll('section.stage').forEach(s=>obs.observe(s));
+
+/* ---- persistence: works when the file is opened locally; silent no-op otherwise ---- */
+const store={
+  get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+  set(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+};
+
+/* ---- theme ---- */
+const root=document.documentElement, themeBtn=document.getElementById('themeBtn');
+function setTheme(mode){
+  root.dataset.theme=mode;
+  themeBtn.textContent = mode==='dark' ? 'Velluto nero' : 'Rosa secca';
+  themeBtn.setAttribute('aria-pressed', mode==='dark');
+  store.set('iv-theme',mode);
+}
+setTheme(store.get('iv-theme') || (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+themeBtn.addEventListener('click',()=>setTheme(root.dataset.theme==='dark'?'light':'dark'));
+
+/* ---- relief layer: shown only if the local asset folder is present ---- */
+const ASSETS=[['rasterItalia','assets/carta-italia.jpg'],['rasterLoira','assets/carta-loira.jpg']];
+const rasterBtn=document.getElementById('rasterBtn'), mapBtn=document.getElementById('mapBtn');
+let ready=0;
+function setRaster(on){
+  root.dataset.raster = on ? 'on' : 'off';
+  [rasterBtn,mapBtn].forEach(b=>b.setAttribute('aria-pressed',on));
+  store.set('iv-raster', on?'on':'off');
+}
+ASSETS.forEach(([id,src])=>{
+  const probe=new Image();
+  probe.onload=()=>{
+    document.getElementById(id).setAttribute('href',src);
+    if(++ready===1){
+      rasterBtn.hidden=false; mapBtn.hidden=false;
+      if(store.get('iv-raster')==='on') setRaster(true);
+    }
+  };
+  probe.src=src;
+});
+[rasterBtn,mapBtn].forEach(b=>b.addEventListener('click',()=>setRaster(root.dataset.raster!=='on')));
+</script>
+</body>
+</html>

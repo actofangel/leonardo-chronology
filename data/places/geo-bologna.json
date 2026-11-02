@@ -56,6 +56,25 @@
         "Villata 1999, documents for late 1515",
         "Vecce 1998 (src-vecce-1998)"
       ]
+    },
+    {
+      "id": "iv144",
+      "about": "leonardo_presence",
+      "value": {
+        "text": "December 1515, the meeting of Leo X and Francis I"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Itinerario Vinciano map marks Bologna: December 1515, the meeting of Leo X and Francis I.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "map of stays (Carta dei soggiorni)"
+        }
+      ],
+      "check_in": [
+        "Villata 1999 or the dated autograph note concerned"
+      ]
     }
   ],
   "open_questions": [

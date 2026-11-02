@@ -56,6 +56,59 @@
       "check_in": [
         "Villata 1999, document of 13 March 1500"
       ]
+    },
+    {
+      "id": "iv55",
+      "about": "coords",
+      "value": {
+        "text": "45.438, 12.3346"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Coordinates given in the Itinerario Vinciano: 45.438 N, 12.3346 E.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Venice Venezia, Coordinates"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#venezia",
+      "text": "Patron saint: Saint Mark (feast 25 April); before the translation of his relics in 828, Saint Theodore",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#venezia",
+      "text": "Government: Hereditary aristocratic republic: a doge elected for life and largely ceremonial, the Great Council, the Senate, and the Council of Ten in a mixed constitution",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#venezia",
+      "text": "Terrain and water: A lagoon of some 550 square kilometers; shoals averaging a meter in depth and a maze of channels served as the city's fortification",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#venezia",
+      "text": "Economy and trade: Galley borne Levantine trade in spices and silk; export of glass, brocade, and arms. Through the sixteenth century, with over a thousand printers and publishers, the capital of the European book trade",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#venezia",
+      "text": "Geopolitics: Defeat by the Ottoman fleet at Zonchio in August 1499 and the loss of Lepanto. The League of Cambrai formed in 1508; the defeat at Agnadello in 1509 ended expansion on the mainland",
+      "retrieved": "2026-11-02"
     }
   ]
 }

@@ -1,0 +1,80 @@
+{
+  "id": "bk-050-augustine-city-god",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Augustine, The City of God",
+  "variants": [
+    "De civitate Dei",
+    "Augustine, City of God"
+  ],
+  "library_no": 50,
+  "category": "Religion, Philosophy and History",
+  "summary": "Augustine's monumental defense of the Christian order of history.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 50, Religion, Philosophy and History"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 50 in the reconstructed catalogue of Leonardo's books, under Religion, Philosophy and History. Leonardo's wording as rendered there: \"Augustine, City of God\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 50"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "De civitate Dei"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as De civitate Dei. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 50"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 413 to 426 · Printed 1467"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 413 to 426 · Printed 1467.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 50"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

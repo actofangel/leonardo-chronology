@@ -1,0 +1,80 @@
+{
+  "id": "bk-018-letters-phalaris",
+  "type": "book",
+  "subtype": "identified",
+  "label": "The Letters of Phalaris",
+  "variants": [
+    "Epistolae Phalaridis",
+    "the letters of Phalaris"
+  ],
+  "library_no": 18,
+  "category": "Language, Rhetoric and Grammar",
+  "summary": "Letters attributed to the ancient Sicilian tyrant Phalaris, a favorite school text.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 18, Language, Rhetoric and Grammar"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 18 in the reconstructed catalogue of Leonardo's books, under Language, Rhetoric and Grammar. Leonardo's wording as rendered there: \"the letters of Phalaris\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 18"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Epistolae Phalaridis"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Epistolae Phalaridis. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 18"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed in antiquity, a later Greek forgery · Printed c. 1470"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed in antiquity, a later Greek forgery · Printed c. 1470.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 18"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

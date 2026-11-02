@@ -69,6 +69,25 @@
         "Pedretti 1972, The Royal Palace at Romorantin",
         "Pedretti 1978, Leonardo architetto (src-pedretti-1978-architetto)"
       ]
+    },
+    {
+      "id": "iv146",
+      "about": "leonardo_presence",
+      "value": {
+        "text": "the palace and canal project of 1517 to 1518"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Itinerario Vinciano map marks Romorantin: the palace and canal project of 1517 to 1518.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "map of stays (Carta dei soggiorni)"
+        }
+      ],
+      "check_in": [
+        "Villata 1999 or the dated autograph note concerned"
+      ]
     }
   ],
   "open_questions": [

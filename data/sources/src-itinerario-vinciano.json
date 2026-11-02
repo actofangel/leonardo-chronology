@@ -1,0 +1,25 @@
+{
+  "id": "src-itinerario-vinciano",
+  "type": "source",
+  "source_type": "other",
+  "label": "Itinerario Vinciano: Places of Residence and Travel, 1452 to 1519 (project page)",
+  "short": "Itinerario Vinciano",
+  "citation": "Identity of Leonardo da Vinci, Itinerario Vinciano: Places of Residence and Travel, 1452 to 1519, project web page (site/views/itinerario-vinciano.html). Grades its statements in tiers A (contemporary documents), B (documents in critical editions or institutional records), C (consensus or sixteenth century tradition), D (contested).",
+  "url": "views/itinerario-vinciano.html",
+  "language": "en",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "admission",
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "A compiled research page of this project. It is reference material, not a ground. Its tier A and B statements name documents to be checked in Villata 1999 and Beltrami 1919; its tier labels are kept on the imported claims.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project source admission rules (SCHEMA.md)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "bk-122-francesco-da-siena",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Francesco da Siena",
+  "variants": [
+    "Trattato di architettura (?)"
+  ],
+  "library_no": 122,
+  "category": "Medicine, Anatomy, Astrology and Miscellany",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 122, Medicine, Anatomy, Astrology and Miscellany"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 122 in the reconstructed catalogue of Leonardo's books, under Medicine, Anatomy, Astrology and Miscellany. Leonardo's wording as rendered there: \"Francesco da Siena\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 122"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Trattato di architettura (?)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Trattato di architettura (?). The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 122"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composition unknown, possibly 1480s · Manuscript"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composition unknown, possibly 1480s · Manuscript.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 122"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "project-library",
+      "lang": "en",
+      "url": "views/library.html",
+      "text": "A work by a Francesco of Siena; very plausibly Francesco di Giorgio Martini, in which case this entry may denote the treatise on architecture that survives today with Leonardo's marginal notes.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

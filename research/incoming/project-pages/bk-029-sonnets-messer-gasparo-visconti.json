@@ -1,0 +1,80 @@
+{
+  "id": "bk-029-sonnets-messer-gasparo-visconti",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Sonnets of Messer Gasparo Visconti",
+  "variants": [
+    "Sonetti (Gasparo Visconti)",
+    "the sonnets of Messer Gasparo Visconti"
+  ],
+  "library_no": 29,
+  "category": "Literature, Poetry and Fables",
+  "summary": "Poems by the Milanese court poet Gasparo Visconti, a friend of Leonardo.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 29, Literature, Poetry and Fables"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 29 in the reconstructed catalogue of Leonardo's books, under Literature, Poetry and Fables. Leonardo's wording as rendered there: \"the sonnets of Messer Gasparo Visconti\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 29"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Sonetti (Gasparo Visconti)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Sonetti (Gasparo Visconti). The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 29"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed late 15th century · Printed 1493"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed late 15th century · Printed 1493.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 29"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

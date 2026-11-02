@@ -1,0 +1,80 @@
+{
+  "id": "bk-120-dreams-daniel",
+  "type": "book",
+  "subtype": "identified",
+  "label": "The Dreams of Daniel",
+  "variants": [
+    "Somniale Danielis",
+    "the dream book of Daniel"
+  ],
+  "library_no": 120,
+  "category": "Medicine, Anatomy, Astrology and Miscellany",
+  "summary": "The Somniale Danielis, the most popular dream interpretation manual of the Middle Ages.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 120, Medicine, Anatomy, Astrology and Miscellany"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 120 in the reconstructed catalogue of Leonardo's books, under Medicine, Anatomy, Astrology and Miscellany. Leonardo's wording as rendered there: \"the dream book of Daniel\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 120"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Somniale Danielis"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Somniale Danielis. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 120"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 7th century to Middle Ages · Printed c. 1475"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 7th century to Middle Ages · Printed c. 1475.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 120"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

@@ -44,6 +44,96 @@
       "check_in": [
         "A gazetteer record (GeoNames, Wikidata) opened directly"
       ]
+    },
+    {
+      "id": "iv26",
+      "about": "coords",
+      "value": {
+        "text": "43.7696, 11.2558"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Coordinates given in the Itinerario Vinciano: 43.7696 N, 11.2558 E.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, First Period Firenze, Coordinates"
+        }
+      ]
+    },
+    {
+      "id": "iv80",
+      "about": "coords",
+      "value": {
+        "text": "43.7696, 11.2558"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Coordinates given in the Itinerario Vinciano: 43.7696 N, 11.2558 E.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, Second Period Firenze, Coordinates"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#firenze1",
+      "text": "Patron saints: Saint John the Baptist (feast 24 June); Saint Zenobius, first bishop, and Saint Reparata as co-patrons",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#firenze1",
+      "text": "Government: Republic. The Signoria of nine priors headed by the Gonfaloniere di Giustizia; guild oligarchy of seven major and fourteen minor arti. Effective power with the Medici; Lorenzo il Magnifico from 1469 to 1492",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#firenze1",
+      "text": "Terrain and water: Basin of the middle Arno. Apennine timber and river power for fulling and milling underpinned the wool industry",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#firenze1",
+      "text": "Economy and trade: Luxury wool and silk textiles; international banking and exchange. The gold florin, struck from 1252, served as the international standard coin. The conquest of Pisa in 1406 secured an outlet to the sea",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#firenze1",
+      "text": "Geopolitics: The five power equilibrium of the Peace of Lodi (1454) among Florence, Milan, Venice, Naples, and the Papacy. The Pazzi conspiracy of 1478 and the ensuing war with the Papacy and Naples",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#firenze2",
+      "text": "Patron saints: Saint John the Baptist (24 June), Saint Zenobius, Saint Reparata, as in section II",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#firenze2",
+      "text": "Government: The republic restored after the expulsion of the Medici in 1494; after Savonarola's execution in 1498, Piero Soderini as Gonfaloniere for life from 1502. Second chancellor of the republic: Niccolò Machiavelli",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#firenze2",
+      "text": "Geopolitics: The war to recover Pisa (1494 to 1509) dominated policy, together with the pressure of Cesare Borgia's expansion to the north and east",
+      "retrieved": "2026-11-02"
     }
   ]
 }

@@ -23,6 +23,179 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "iv57",
+      "about": "period",
+      "value": {
+        "text": "Return fixed by a withdrawal from the Santa Maria Nuova account on 24 April 1500"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Return fixed by a withdrawal from the Santa Maria Nuova account on 24 April 1500 (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, Second Period Firenze, Period"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv60",
+      "about": "period",
+      "value": {
+        "text": "Departure for Milan on leave of the Signoria, 30 May 1506, for three months under a bond of 150 florins"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Departure for Milan on leave of the Signoria, 30 May 1506, for three months under a bond of 150 florins (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, Second Period Firenze, Period"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv63",
+      "about": "period",
+      "value": {
+        "text": "The period encloses the Romagna service of 1502 to 1503 (section VII) and the Piombino mission of 1504 (section VIII)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The period encloses the Romagna service of 1502 to 1503 (section VII) and the Piombino mission of 1504 (section VIII)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, Second Period Firenze, Period"
+        }
+      ],
+      "check_in": []
+    },
+    {
+      "id": "iv66",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "Letters of Fra Pietro da Novellara to Isabella d'Este, 3 and 14 April 1501, describing the Saint Anne cartoon and observing that Leonardo, immersed in geometry, could not endure the brush"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Letters of Fra Pietro da Novellara to Isabella d'Este, 3 and 14 April 1501, describing the Saint Anne cartoon and observing that Leonardo, immersed in geometry, could not endure the brush (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, Second Period Firenze, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv69",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "July 1503, payment for his journey to the siege camp at Pisa for the Arno diversion scheme"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "July 1503, payment for his journey to the siege camp at Pisa for the Arno diversion scheme (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, Second Period Firenze, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv72",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "24 October 1503, delivery of the keys of the Sala del Papa at Santa Maria Novella, his workshop for the Battle of Anghiari cartoon"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "24 October 1503, delivery of the keys of the Sala del Papa at Santa Maria Novella, his workshop for the Battle of Anghiari cartoon (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, Second Period Firenze, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv75",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "May 1504, the Signoria's contract terms for the Anghiari"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "May 1504, the Signoria's contract terms for the Anghiari (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, Second Period Firenze, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv78",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "9 July 1504, Leonardo's own note of the death of his father ser Piero"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "9 July 1504, Leonardo's own note of the death of his father ser Piero (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, Second Period Firenze, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#firenze2",
+      "text": "The structure of demand in the second Florentine period differs in kind from the first. To the religious houses and private patrons is added the republic itself, and the commissions span altarpiece (the Saint Anne for the Servites), state imagery (the Battle of Anghiari), military hydraulics (the Arno diversion), and private portraiture. Novellara's observation that mathematical experiments had drawn Leonardo away from painting is among the rare contemporary testimonies to his order of priorities in these years. The Arno diversion, an attempt to strangle Pisa by moving the river, failed at the excavation stage in 1504. It is nonetheless one of the few dossiers in which the Signoria, Leonardo, and the chancellor Machiavelli appear within a single documentary chain, and together with the Borgia service of the following section it defines the ground on which any contact between the two men can be examined at the level of documents.",
+      "retrieved": "2026-11-02"
     }
   ],
   "timeline": {

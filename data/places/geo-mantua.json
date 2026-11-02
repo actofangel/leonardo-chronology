@@ -43,6 +43,52 @@
       "check_in": [
         "A gazetteer record (GeoNames, Wikidata) opened directly"
       ]
+    },
+    {
+      "id": "iv48",
+      "about": "coords",
+      "value": {
+        "text": "45.1564, 10.7914"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Coordinates given in the Itinerario Vinciano: 45.1564 N, 10.7914 E.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Mantua Mantova, Coordinates"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#mantova",
+      "text": "Patron saints: Saint Anselm of Lucca (feast 18 March), patron of the see. The cult of the Blessed Osanna Andreasi (d. 1505) was promoted by the Gonzaga",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#mantova",
+      "text": "Government: Marquisate under the Gonzaga. Francesco II served the great powers as a condottiere while his wife Isabella d'Este conducted the diplomacy of culture: a double strategy of survival",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#mantova",
+      "text": "Terrain and water: A natural fortress ringed on three sides by lakes formed by damming the Mincio",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#mantova",
+      "text": "Economy and trade: A node among Venice, Milan, and the Papal States. Horse breeding and export; long distance trade in rarities through merchant networks reaching North Africa and beyond",
+      "retrieved": "2026-11-02"
     }
   ]
 }

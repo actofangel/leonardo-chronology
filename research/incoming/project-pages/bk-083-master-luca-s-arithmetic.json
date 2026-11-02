@@ -1,0 +1,80 @@
+{
+  "id": "bk-083-master-luca-s-arithmetic",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Master Luca's Arithmetic",
+  "variants": [
+    "Summa de arithmetica",
+    "the arithmetic of Maestro Luca"
+  ],
+  "library_no": 83,
+  "category": "Science, Mathematics, Engineering and Military",
+  "summary": "Luca Pacioli's Summa of arithmetic, geometry, proportion, and proportionality; the source of the tree of proportion in Madrid Codex II, f. 78r.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 83, Science, Mathematics, Engineering and Military"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 83 in the reconstructed catalogue of Leonardo's books, under Science, Mathematics, Engineering and Military. Leonardo's wording as rendered there: \"the arithmetic of Maestro Luca\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 83"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Summa de arithmetica"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Summa de arithmetica. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 83"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 1494 · Printed 1494"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 1494 · Printed 1494.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 83"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

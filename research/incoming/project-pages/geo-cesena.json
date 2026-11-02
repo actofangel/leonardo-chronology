@@ -1,0 +1,26 @@
+{
+  "id": "geo-cesena",
+  "type": "place",
+  "label": "Cesena",
+  "claims": [
+    {
+      "id": "iv138",
+      "about": "leonardo_presence",
+      "value": {
+        "text": "1502"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Itinerario Vinciano map marks Cesena: 1502.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "map of stays (Carta dei soggiorni)"
+        }
+      ],
+      "check_in": [
+        "Villata 1999 or the dated autograph note concerned"
+      ]
+    }
+  ]
+}

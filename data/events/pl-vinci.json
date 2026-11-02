@@ -23,6 +23,75 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "iv2",
+      "about": "period",
+      "value": {
+        "text": "From his birth on 15 April 1452 until the move to Florence, conjecturally placed in the mid 1460s"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "From his birth on 15 April 1452 until the move to Florence, conjecturally placed in the mid 1460s (Itinerario tier C)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Vinci, Period"
+        }
+      ],
+      "check_in": []
+    },
+    {
+      "id": "iv4",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "Birth record written by his grandfather Antonio da Vinci on the final leaf of a notarial book: a grandson born to his son ser Piero on Saturday 15 April 1452 at the third hour of the night, named Lionardo; the record names the baptizing priest, Piero di Bartolomeo, and the witnesses"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Birth record written by his grandfather Antonio da Vinci on the final leaf of a notarial book: a grandson born to his son ser Piero on Saturday 15 April 1452 at the third hour of the night, named Lionardo; the record names the baptizing priest, Piero di Bartolomeo, and the witnesses (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Vinci, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv6",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "The 1457 catasto declaration of Antonio da Vinci lists Leonardo, illegitimate son of ser Piero, aged five, among the household"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The 1457 catasto declaration of Antonio da Vinci lists Leonardo, illegitimate son of ser Piero, aged five, among the household (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Vinci, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#vinci",
+      "text": "The first document of Leonardo's life is his grandfather's birth entry, which fixes the day of the week and the hour: an exceptionally precise starting point for a Renaissance artist. The years with his mother Caterina, the relation of the Anchiano farmhouse to the family, and the content of his village schooling all rest on later tradition and have no support in contemporary documents. What the 1457 catasto does establish is that by the age of five Leonardo belonged to his father's household in Vinci. The rural commune and the notarial family are the initial conditions of the whole itinerary: a childhood spent between agrarian terrain and a profession built on the written instrument.",
+      "retrieved": "2026-11-02"
     }
   ],
   "timeline": {

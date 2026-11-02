@@ -1,0 +1,79 @@
+{
+  "id": "bk-097-book-machines-with-skull",
+  "type": "book",
+  "subtype": "unidentified",
+  "label": "A Book of Machines with a Skull on the Cover",
+  "variants": [
+    "a book of machines with a skull on the cover"
+  ],
+  "library_no": 97,
+  "category": "Science, Mathematics, Engineering and Military",
+  "summary": "A manuscript or printed book of mechanics, remembered by the death's head ornamenting its binding.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 97, Science, Mathematics, Engineering and Military"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 97 in the reconstructed catalogue of Leonardo's books, under Science, Mathematics, Engineering and Military. Leonardo's wording as rendered there: \"a book of machines with a skull on the cover\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 97"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "(Trattato di ingegneria)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Not identified with a known text; the catalogue describes it as (Trattato di ingegneria).",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 97"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 15th century · Manuscript or late 15th century print"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 15th century · Manuscript or late 15th century print.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 97"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

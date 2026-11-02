@@ -1,0 +1,79 @@
+{
+  "id": "bk-006-latin-primer",
+  "type": "book",
+  "subtype": "unidentified",
+  "label": "A Latin Primer",
+  "variants": [
+    "a Latin textbook"
+  ],
+  "library_no": 6,
+  "category": "Language, Rhetoric and Grammar",
+  "summary": "A Latin teaching text whose exact identity is unknown.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 6, Language, Rhetoric and Grammar"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 6 in the reconstructed catalogue of Leonardo's books, under Language, Rhetoric and Grammar. Leonardo's wording as rendered there: \"a Latin textbook\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 6"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "(Unidentified)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Not identified with a known text; the catalogue describes it as (Unidentified).",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 6"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composition unknown · Printed later 15th century"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composition unknown · Printed later 15th century.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 6"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

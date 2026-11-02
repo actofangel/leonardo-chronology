@@ -1,0 +1,96 @@
+{
+  "id": "bk-003-donatus",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Donatus",
+  "variants": [
+    "Ars minor",
+    "Donato"
+  ],
+  "library_no": 3,
+  "category": "Language, Rhetoric and Grammar",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 3, Language, Rhetoric and Grammar"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 3 in the reconstructed catalogue of Leonardo's books, under Language, Rhetoric and Grammar. Leonardo's wording as rendered there: \"Donato\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 3"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Ars minor"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Ars minor. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 3"
+        },
+        {
+          "type": "other",
+          "cite": "Museo Galileo, La Biblioteca di Leonardo, record for this title.",
+          "url": "https://bibliotecadileonardo.museogalileo.it/index.php/esplora/scheda/ars-minor/61683/61683"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 4th century · Printed from the 1450s"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 4th century · Printed from the 1450s.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 3"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ],
+  "identifiers": {
+    "museo_galileo": "https://bibliotecadileonardo.museogalileo.it/index.php/esplora/scheda/ars-minor/61683/61683"
+  },
+  "background": [
+    {
+      "source": "project-library",
+      "lang": "en",
+      "url": "views/library.html",
+      "text": "Donatus's elementary Latin grammar; one of the five titles in the earliest list of c. 1487 to 1490.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

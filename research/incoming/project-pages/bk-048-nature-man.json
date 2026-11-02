@@ -1,0 +1,80 @@
+{
+  "id": "bk-048-nature-man",
+  "type": "book",
+  "subtype": "identified",
+  "label": "On the Nature of Man",
+  "variants": [
+    "De natura hominis",
+    "on human temperament"
+  ],
+  "library_no": 48,
+  "category": "Religion, Philosophy and History",
+  "summary": "A work on human nature, temperament, and character.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 48, Religion, Philosophy and History"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 48 in the reconstructed catalogue of Leonardo's books, under Religion, Philosophy and History. Leonardo's wording as rendered there: \"on human temperament\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 48"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "De natura hominis"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as De natura hominis. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 48"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed antiquity to Middle Ages · Printed later 15th century"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed antiquity to Middle Ages · Printed later 15th century.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 48"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

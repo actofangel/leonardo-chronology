@@ -1,0 +1,80 @@
+{
+  "id": "bk-026-pulci-s-driadeo",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Pulci's Driadeo",
+  "variants": [
+    "Driadeo d'amore",
+    "Pulci, Driadeo"
+  ],
+  "library_no": 26,
+  "category": "Literature, Poetry and Fables",
+  "summary": "Luca Pulci's mythological pastoral poem.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 26, Literature, Poetry and Fables"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 26 in the reconstructed catalogue of Leonardo's books, under Literature, Poetry and Fables. Leonardo's wording as rendered there: \"Pulci, Driadeo\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 26"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Driadeo d'amore"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Driadeo d'amore. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 26"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 1465 · Printed 1479"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 1465 · Printed 1479.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 26"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

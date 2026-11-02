@@ -1,0 +1,88 @@
+{
+  "id": "bk-009-new-rhetoric",
+  "type": "book",
+  "subtype": "identified",
+  "label": "The New Rhetoric",
+  "variants": [
+    "Rhetorica ad Herennium",
+    "the new rhetoric"
+  ],
+  "library_no": 9,
+  "category": "Language, Rhetoric and Grammar",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 9, Language, Rhetoric and Grammar"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 9 in the reconstructed catalogue of Leonardo's books, under Language, Rhetoric and Grammar. Leonardo's wording as rendered there: \"the new rhetoric\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 9"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Rhetorica ad Herennium"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Rhetorica ad Herennium. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 9"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 1st century BC · Printed 1470"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 1st century BC · Printed 1470.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 9"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "project-library",
+      "lang": "en",
+      "url": "views/library.html",
+      "text": "The manual of rhetoric attributed in the Renaissance to Cicero (in fact pseudo Ciceronian).",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

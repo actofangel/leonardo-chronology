@@ -1,0 +1,53 @@
+{
+  "id": "geo-vinci",
+  "type": "place",
+  "label": "Vinci",
+  "claims": [
+    {
+      "id": "iv7",
+      "about": "coords",
+      "value": {
+        "text": "43.7837, 10.925"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Coordinates given in the Itinerario Vinciano: 43.7837 N, 10.925 E.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Vinci, Coordinates"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#vinci",
+      "text": "Church: Baptism in the church of Santa Croce at Vinci is the accepted tradition C ; the birth record itself names no church, and no patronal dedication for the village is asserted here",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#vinci",
+      "text": "Government: Rural commune under the Republic of Florence. The castle of Vinci, formerly a stronghold of the Conti Guidi, passed to Florentine control in the thirteenth century",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#vinci",
+      "text": "Terrain and water: Northwestern slopes of the Montalbano massif, terraced in olives and vines above the lower Arno valley. Anchiano, the traditional site of his infancy, lies about two kilometers north of the village",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#vinci",
+      "text": "Economy: Agrarian: olive oil, wine, silkworm rearing. The paternal family were notaries, a profession that tied the household to the urban economy of Florence",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

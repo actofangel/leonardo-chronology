@@ -1,0 +1,80 @@
+{
+  "id": "bk-084-abacus-book-lent-to",
+  "type": "book",
+  "subtype": "identified",
+  "label": "An Abacus Book, Lent to Giovan del Sodo",
+  "variants": [
+    "Trattato d'abaco",
+    "an abacus book, which Giovan del Sodo has"
+  ],
+  "library_no": 84,
+  "category": "Science, Mathematics, Engineering and Military",
+  "summary": "A book of commercial arithmetic, recorded as out on loan to an acquaintance.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 84, Science, Mathematics, Engineering and Military"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 84 in the reconstructed catalogue of Leonardo's books, under Science, Mathematics, Engineering and Military. Leonardo's wording as rendered there: \"an abacus book, which Giovan del Sodo has\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 84"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Trattato d'abaco"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Trattato d'abaco. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 84"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed Middle Ages to 15th century · Printed later 15th century"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed Middle Ages to 15th century · Printed later 15th century.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 84"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

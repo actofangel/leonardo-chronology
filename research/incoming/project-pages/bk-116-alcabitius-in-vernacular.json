@@ -1,0 +1,80 @@
+{
+  "id": "bk-116-alcabitius-in-vernacular",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Alcabitius in the Vernacular",
+  "variants": [
+    "Libellus isagogicus",
+    "Alcabitius in the vernacular, by Serigatto"
+  ],
+  "library_no": 116,
+  "category": "Medicine, Anatomy, Astrology and Miscellany",
+  "summary": "An Italian version of the introduction to astrology of al Qabisi (Alcabitius).",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 116, Medicine, Anatomy, Astrology and Miscellany"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 116 in the reconstructed catalogue of Leonardo's books, under Medicine, Anatomy, Astrology and Miscellany. Leonardo's wording as rendered there: \"Alcabitius in the vernacular, by Serigatto\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 116"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Libellus isagogicus"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Libellus isagogicus. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 116"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 10th century · Printed 1473"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 10th century · Printed 1473.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 116"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

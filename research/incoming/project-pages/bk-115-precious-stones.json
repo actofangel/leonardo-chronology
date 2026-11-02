@@ -1,0 +1,80 @@
+{
+  "id": "bk-115-precious-stones",
+  "type": "book",
+  "subtype": "identified",
+  "label": "On Precious Stones",
+  "variants": [
+    "De lapidibus / Lapidario",
+    "the lapidary"
+  ],
+  "library_no": 115,
+  "category": "Medicine, Anatomy, Astrology and Miscellany",
+  "summary": "A lapidary of medicinal stones, alchemy, and the virtues of rare minerals; a lapidary already appears in the earliest list.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 115, Medicine, Anatomy, Astrology and Miscellany"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 115 in the reconstructed catalogue of Leonardo's books, under Medicine, Anatomy, Astrology and Miscellany. Leonardo's wording as rendered there: \"the lapidary\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 115"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "De lapidibus / Lapidario"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as De lapidibus / Lapidario. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 115"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed antiquity to Middle Ages · Printed late 15th century"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed antiquity to Middle Ages · Printed late 15th century.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 115"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "bk-014-small-vocabulary",
+  "type": "book",
+  "subtype": "unidentified",
+  "label": "A Small Vocabulary",
+  "variants": [
+    "a small vocabulary"
+  ],
+  "library_no": 14,
+  "category": "Language, Rhetoric and Grammar",
+  "summary": "A portable dictionary or wordbook.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 14, Language, Rhetoric and Grammar"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 14 in the reconstructed catalogue of Leonardo's books, under Language, Rhetoric and Grammar. Leonardo's wording as rendered there: \"a small vocabulary\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 14"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "(Vocabolario piccolo)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Not identified with a known text; the catalogue describes it as (Vocabolario piccolo).",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 14"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 15th century · Printed later 15th century"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 15th century · Printed later 15th century.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 14"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

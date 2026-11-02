@@ -1,0 +1,88 @@
+{
+  "id": "bk-004-donatus-another-copy",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Donatus, Another Copy",
+  "variants": [
+    "Ars minor (alio modo)",
+    "a Donatus grammar"
+  ],
+  "library_no": 4,
+  "category": "Language, Rhetoric and Grammar",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 4, Language, Rhetoric and Grammar"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 4 in the reconstructed catalogue of Leonardo's books, under Language, Rhetoric and Grammar. Leonardo's wording as rendered there: \"a Donatus grammar\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 4"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Ars minor (alio modo)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Ars minor (alio modo). The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 4"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 4th century · Printed later 15th century"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 4th century · Printed later 15th century.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 4"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "project-library",
+      "lang": "en",
+      "url": "views/library.html",
+      "text": "A second copy in a different binding, or an annotated edition of the same schoolbook.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

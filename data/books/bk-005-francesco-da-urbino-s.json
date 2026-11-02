@@ -1,0 +1,88 @@
+{
+  "id": "bk-005-francesco-da-urbino-s",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Francesco da Urbino's Latin Primer",
+  "variants": [
+    "Regulae grammaticae",
+    "the Latin textbook of Francesco da Urbino"
+  ],
+  "library_no": 5,
+  "category": "Language, Rhetoric and Grammar",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 5, Language, Rhetoric and Grammar"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 5 in the reconstructed catalogue of Leonardo's books, under Language, Rhetoric and Grammar. Leonardo's wording as rendered there: \"the Latin textbook of Francesco da Urbino\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 5"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Regulae grammaticae"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Regulae grammaticae. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 5"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 15th century · Printed late 15th century"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 15th century · Printed late 15th century.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 5"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "project-library",
+      "lang": "en",
+      "url": "views/library.html",
+      "text": "A humanist introduction to Latin.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

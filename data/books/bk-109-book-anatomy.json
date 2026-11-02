@@ -1,0 +1,88 @@
+{
+  "id": "bk-109-book-anatomy",
+  "type": "book",
+  "subtype": "identified",
+  "label": "A Book of Anatomy",
+  "variants": [
+    "Anathomia",
+    "a book of anatomy"
+  ],
+  "library_no": 109,
+  "category": "Medicine, Anatomy, Astrology and Miscellany",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 109, Medicine, Anatomy, Astrology and Miscellany"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 109 in the reconstructed catalogue of Leonardo's books, under Medicine, Anatomy, Astrology and Miscellany. Leonardo's wording as rendered there: \"a book of anatomy\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 109"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Anathomia"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Anathomia. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 109"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 1316 · Printed 1478"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 1316 · Printed 1478.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 109"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "project-library",
+      "lang": "en",
+      "url": "views/library.html",
+      "text": "A dissection manual such as Mondino de' Luzzi's Anathomia, the standard text of the anatomy theater.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

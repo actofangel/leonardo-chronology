@@ -1,0 +1,79 @@
+{
+  "id": "bk-016-two-textbooks-domenico-maccagni",
+  "type": "book",
+  "subtype": "unidentified",
+  "label": "Two Textbooks of Domenico Maccagni",
+  "variants": [
+    "the two textbooks of Domenico Maccagni"
+  ],
+  "library_no": 16,
+  "category": "Language, Rhetoric and Grammar",
+  "summary": "Texts attributed to Domenico Maccagni.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 16, Language, Rhetoric and Grammar"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 16 in the reconstructed catalogue of Leonardo's books, under Language, Rhetoric and Grammar. Leonardo's wording as rendered there: \"the two textbooks of Domenico Maccagni\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 16"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "(Opere di Domenico Maccagni)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Not identified with a known text; the catalogue describes it as (Opere di Domenico Maccagni).",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 16"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed later 15th century · Printed late 15th century"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed later 15th century · Printed late 15th century.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 16"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "bk-117-scot-s-physiognomy",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Scot's Physiognomy",
+  "variants": [
+    "Liber physiognomiae",
+    "the physiognomy of Scotus"
+  ],
+  "library_no": 117,
+  "category": "Medicine, Anatomy, Astrology and Miscellany",
+  "summary": "Michael Scot on physiognomy, the reading of character from outward appearance.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 117, Medicine, Anatomy, Astrology and Miscellany"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 117 in the reconstructed catalogue of Leonardo's books, under Medicine, Anatomy, Astrology and Miscellany. Leonardo's wording as rendered there: \"the physiognomy of Scotus\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 117"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Liber physiognomiae"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Liber physiognomiae. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 117"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed c. 1230 · Printed 1477"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed c. 1230 · Printed 1477.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 117"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

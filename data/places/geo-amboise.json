@@ -43,6 +43,71 @@
       "check_in": [
         "A gazetteer record (GeoNames, Wikidata) opened directly"
       ]
+    },
+    {
+      "id": "iv134",
+      "about": "coords",
+      "value": {
+        "text": "47.4108, 0.9915"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Coordinates given in the Itinerario Vinciano: 47.4108 N, 0.9915 E.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Amboise and Le Clos Lucé Amboise . Cloux, Coordinates"
+        }
+      ]
+    },
+    {
+      "id": "iv148",
+      "about": "contested_point",
+      "value": {
+        "text": "Patron saint of Amboise"
+      },
+      "layer": "interpretation",
+      "status": "disputed",
+      "statement": "Patron saint of Amboise: The center of the cult of castle and town was Saint Florentin, whose relics Fulk Nerra translated into the château around 1010, founding the collegiate church of Notre Dame and Saint Florentin; the parish church of the lower town was Saint Denis. Saint Hubert, frequently named as the town's patron because Leonardo's present tomb stands in the chapel of that dedication, names only the royal oratory built under Charles VIII between 1491 and 1496 (and a suburban church consecrated in 1521). Leonardo's will and the burial register of 1519 concern the church of Saint Florentin (French Ministry of Culture, Mérimée database; Biblissima; L. Gaugain, Amboise, 2014)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section XIII, Notes on contested and commonly misstated points"
+        }
+      ],
+      "check_in": [
+        "The documents and records named in the note"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#amboise",
+      "text": "Patron saint: Saint Florentin . Around 1010 Fulk Nerra, count of Anjou, translated the saint's relics into the château and founded the collegiate church of Notre Dame and Saint Florentin, thereafter the center of the cult of castle and town B ; the old parish church of the town below was Saint Denis. Saint Hubert names the royal chapel built on the ramparts under Charles VIII (1491 to 1496), not the town's patron: see the notes on contested points D",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#amboise",
+      "text": "Government: The kingdom of France under the Valois; Francis I, reigned 1515 to 1547. A centralizing sovereign state in formation, with a standing army and a growing office holding class",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#amboise",
+      "text": "Terrain and water: The middle Loire; the château on a rock spur above the river, the manor of Cloux some five hundred meters southwest",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#amboise",
+      "text": "Economy: A fiscal base of royal domain and kingdom wide taxation on a scale no Italian state could match: a single patron of a different order of magnitude",
+      "retrieved": "2026-11-02"
     }
   ]
 }

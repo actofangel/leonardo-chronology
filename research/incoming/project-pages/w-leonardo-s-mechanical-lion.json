@@ -1,0 +1,26 @@
+{
+  "id": "w-leonardo-s-mechanical-lion",
+  "type": "work",
+  "label": "Leonardo's mechanical lion",
+  "claims": [
+    {
+      "id": "iv151",
+      "about": "contested_point",
+      "value": {
+        "text": "The mechanical lion"
+      },
+      "layer": "interpretation",
+      "status": "disputed",
+      "statement": "The mechanical lion: The automaton in the form of a lion, which walked and opened its breast to disclose lilies, is known through later testimony, above all Lomazzo (1584); it is associated by different sources with the entry of Francis I into Lyon in 1515 and with a presentation at Argentan in 1517. No contemporary document assigns its construction to the Amboise years, and it should be handled at tier C or below",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section XIII, Notes on contested and commonly misstated points"
+        }
+      ],
+      "check_in": [
+        "The documents and records named in the note"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pe-machiavelli",
+  "type": "person",
+  "label": "Niccolò Machiavelli",
+  "claims": [
+    {
+      "id": "iv152",
+      "about": "contested_point",
+      "value": {
+        "text": "Leonardo and Machiavelli"
+      },
+      "layer": "interpretation",
+      "status": "disputed",
+      "statement": "Leonardo and Machiavelli: Their simultaneous presence at the court of Cesare Borgia at Imola in the autumn of 1502 is fixed independently on both sides: Leonardo by the patent of 18 August 1502 and the Imola plan, Machiavelli by the surviving dispatches of his legation of October to December 1502. No document records a direct exchange between the two men, at Imola or in Florence; the Arno diversion dossier of 1503 to 1504 is the other documentary chain in which both appear near the same business of state. Claims of collaboration beyond these overlaps exceed the evidence",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section XIII, Notes on contested and commonly misstated points"
+        }
+      ],
+      "check_in": [
+        "The documents and records named in the note"
+      ]
+    }
+  ]
+}

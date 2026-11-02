@@ -1,0 +1,25 @@
+{
+  "id": "src-project-library",
+  "type": "source",
+  "source_type": "other",
+  "label": "The Library of Leonardo da Vinci: A Reconstructed Catalogue (project page)",
+  "short": "Project library catalogue",
+  "citation": "Identity of Leonardo da Vinci, The Library of Leonardo da Vinci: A Reconstructed Catalogue, 125 titles, project web page (site/views/library.html), compiled from Vecce (ed.) 2019, the Museo Galileo digital library and Leonardo's autograph book lists.",
+  "url": "views/library.html",
+  "language": "en",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "admission",
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "A compiled research page of this project. It is reference material, not a ground: every entry points to Leonardo's autograph book lists (Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r) and to Vecce (ed.) 2019, which are where an identification must be checked.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project source admission rules (SCHEMA.md)."
+        }
+      ]
+    }
+  ]
+}

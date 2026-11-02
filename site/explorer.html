@@ -125,7 +125,7 @@ details.wl ul{margin-top:6px;max-height:320px;overflow:auto}
     <p class="kicker">Identity of Leonardo da Vinci · open research database</p>
     <h1>Leonardo Database</h1>
     <p class="lede">People, places, works, manuscripts, events, sources and working hypotheses, each held as a set of claims. Every claim states its layer (fact, interpretation or hypothesis), its sources and how far it has been checked. Where claims compete, the one shown first is chosen by a fixed precedence rule and the others stay visible.</p>
-    <nav class="nav"><a href="chronology.html">Chronology view</a><a href="#home">Overview</a><a href="db.json">db.json</a></nav>
+    <nav class="nav"><a href="chronology.html">Chronology view</a><a href="views/itinerario-vinciano.html">Itinerario Vinciano</a><a href="views/library.html">Leonardo's library</a><a href="#home">Overview</a><a href="db.json">db.json</a></nav>
     <div class="stats" id="stats"></div>
     <div id="scenario"></div>
   </header>
@@ -146,7 +146,7 @@ details.wl ul{margin-top:6px;max-height:320px;overflow:auto}
 </div>
 <script>
 (function(){
-  var TYPES = [['person','People'],['place','Places'],['work','Works'],['manuscript','Manuscripts'],['event','Events'],['source','Sources'],['hypothesis','Hypotheses']];
+  var TYPES = [['person','People'],['place','Places'],['work','Works'],['manuscript','Manuscripts'],['event','Events'],['book','Library'],['source','Sources'],['hypothesis','Hypotheses']];
   var TYPE_NAME = {}; TYPES.forEach(function(t){ TYPE_NAME[t[0]] = t[1]; });
   var ADMITTED = ['primary','edition','catalogue','ms_study','monograph','archive_publication'];
   var DB = null, E = {}, V = {}, state = {types:new Set(TYPES.map(function(t){return t[0];})), q:'', sel:null, f:{}};
@@ -230,6 +230,7 @@ details.wl ul{margin-top:6px;max-height:320px;overflow:auto}
       add('Manuscript', e.manuscript ? ref(e.manuscript) : ''); add('Folio', txt(e.folio)); }
     if(e.type === 'manuscript'){ add('Holding', e.holding ? ref(e.holding) : ''); add('Shelfmark', txt(e.shelfmark)); add('Folios', txt(e.folios)); add('Dimensions', txt(e.dimensions));
       if(e.date_range) add('Date range', esc(e.date_range.start) + ' to ' + esc(e.date_range.end)); add('Contents', txt(e.contents)); add('History', txt(e.history)); if(e.facsimile) add('Facsimile', '<a href="' + esc(e.facsimile) + '" rel="noopener">' + esc(e.facsimile) + '</a>'); }
+    if(e.type === 'book'){ add('Library no.', esc(e.library_no)); add('Category', esc(e.category)); if(e.identifiers && e.identifiers.museo_galileo) add('Museo Galileo', '<a href="' + esc(e.identifiers.museo_galileo) + '" rel="noopener">record</a>'); add('Catalogue page', '<a href="views/library.html">The Library of Leonardo da Vinci</a>'); }
     if(e.type === 'source'){ add('Citation', esc(e.citation)); add('Short form', esc(e.short)); add('Source type', esc(e.source_type) + (ADMITTED.indexOf(e.source_type) >= 0 ? ' <span class="b adm">admitted</span>' : ' <span class="b">not admitted as ground</span>')); add('Language', txt(e.language)); if(e.url) add('Link', '<a href="' + esc(e.url) + '" rel="noopener">' + esc(e.url) + '</a>'); }
     if(e.type === 'hypothesis'){ add('Status', '<span class="b l-hypothesis">' + esc(e.status) + '</span>'); add('Statement', esc(e.statement)); add('Scope', esc(e.scope)); add('Proposed by', esc(e.proposed_by)); }
     if(e.timeline){ var t = e.timeline; add('On the chronology', esc(t.date) + ' · ' + esc(t.lane) + ' lane · tier ' + esc(t.tier) + ' · <a href="chronology.html">open chronology</a>'); }

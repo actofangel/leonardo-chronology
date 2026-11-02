@@ -1,0 +1,27 @@
+{
+  "id": "src-vecce-2019-libri",
+  "type": "source",
+  "source_type": "catalogue",
+  "label": "Vecce (ed.), Leonardo and His Books, 2019",
+  "short": "Vecce 2019",
+  "citation": "Carlo Vecce (ed.), Leonardo e i suoi libri / Leonardo and His Books: The Library of the Universal Genius, exhibition catalogue, Florence, Museo Galileo, Giunti, 2019.",
+  "language": "it",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "citation",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Citation as given in the project library page; not checked against a library catalogue in this session.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "section Principal sources, no. 2"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Confirm the bibliographic details (title in Italian and English editions, pages) in a library catalogue. Classed as an exhibition catalogue with scholarly apparatus; confirm that it meets the admission rules."
+  ]
+}

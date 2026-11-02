@@ -1,0 +1,80 @@
+{
+  "id": "bk-068-palmieri-civic-life",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Palmieri, On Civic Life",
+  "variants": [
+    "Della vita civile",
+    "the civic life of Matteo Palmieri"
+  ],
+  "library_no": 68,
+  "category": "Religion, Philosophy and History",
+  "summary": "Matteo Palmieri's dialogue on the life of the citizen.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 68, Religion, Philosophy and History"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 68 in the reconstructed catalogue of Leonardo's books, under Religion, Philosophy and History. Leonardo's wording as rendered there: \"the civic life of Matteo Palmieri\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 68"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Della vita civile"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Della vita civile. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 68"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 1430s · Printed later 15th century"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 1430s · Printed later 15th century.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 68"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

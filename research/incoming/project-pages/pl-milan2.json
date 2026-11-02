@@ -1,0 +1,138 @@
+{
+  "id": "pl-milan2",
+  "type": "event",
+  "label": "Milan",
+  "claims": [
+    {
+      "id": "iv95",
+      "about": "period",
+      "value": {
+        "text": "June 1506 to 24 September 1513. Within it, the winter of 1507 to 1508 in Florence for the lawsuit with his half brothers over the estate of his uncle Francesco; 1512 to 1513 at the Melzi villa at Vaprio d'Adda"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "June 1506 to 24 September 1513. Within it, the winter of 1507 to 1508 in Florence for the lawsuit with his half brothers over the estate of his uncle Francesco; 1512 to 1513 at the Melzi villa at Vaprio d'Adda",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, Second Period Milano, Period"
+        }
+      ],
+      "check_in": []
+    },
+    {
+      "id": "iv97",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "30 May 1506, leave of the Signoria for three months"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "30 May 1506, leave of the Signoria for three months (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, Second Period Milano, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv99",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "August 1506, letters of the governor Charles d'Amboise requesting extension"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "August 1506, letters of the governor Charles d'Amboise requesting extension (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, Second Period Milano, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv101",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "January 1507, Louis XII personally demands of the Florentine ambassador that your painter Leonardo remain, and appoints him peintre et ingegneur ordinaire"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "January 1507, Louis XII personally demands of the Florentine ambassador that your painter Leonardo remain, and appoints him peintre et ingegneur ordinaire (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, Second Period Milano, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv103",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "10 and 16 December 1511, dated drawings recording the fires set at Desio by the Swiss"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "10 and 16 December 1511, dated drawings recording the fires set at Desio by the Swiss (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, Second Period Milano, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv105",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "Autograph note on the cover of Manuscript E: I departed from Milan for Rome on 24 September 1513, with Giovanni, Francesco de' Melzi, Salaì, Lorenzo, and il Fanfoia"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Autograph note on the cover of Manuscript E: I departed from Milan for Rome on 24 September 1513, with Giovanni, Francesco de' Melzi, Salaì, Lorenzo, and il Fanfoia (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, Second Period Milano, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#milano2",
+      "text": "The employer of the second Milanese period is the French crown. Louis XII's direct intervention against the Florentine demand for Leonardo's return (the unfinished Anghiari) shows his labor being treated as a matter of interstate diplomacy. The center of gravity of the period lies in anatomy, with the concentrated production of the Windsor anatomical sheets A and the collaboration with Marcantonio della Torre of Pavia reported by the tradition C ; in hydraulics on the Adda and the Martesana canal; and in the design of the Trivulzio equestrian monument. After the French collapse of 1512 Leonardo withdrew to the villa of his pupil Francesco Melzi's family on the bank of the Adda at Vaprio, where the sequences of water studies and geological observation of the Adda gorge were made. That the refuge in a political vacuum was neither a court nor a city but the country house of a noble pupil marks the shift of his late structure of protection toward personal bonds: the same bond that would, by the will of 1519, determine the survival of the manuscripts.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

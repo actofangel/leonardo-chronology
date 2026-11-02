@@ -65,6 +65,25 @@
         "Villata 1999, documents 1511 to 1513",
         "Clark and Pedretti 1968, Adda landscape drawings"
       ]
+    },
+    {
+      "id": "iv143",
+      "about": "leonardo_presence",
+      "value": {
+        "text": "1512 to 1513, the Melzi villa"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Itinerario Vinciano map marks Vaprio d'Adda: 1512 to 1513, the Melzi villa.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "map of stays (Carta dei soggiorni)"
+        }
+      ],
+      "check_in": [
+        "Villata 1999 or the dated autograph note concerned"
+      ]
     }
   ],
   "open_questions": [

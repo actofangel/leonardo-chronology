@@ -35,6 +35,52 @@
       "check_in": [
         "A gazetteer record (GeoNames, Wikidata) opened directly"
       ]
+    },
+    {
+      "id": "iv119",
+      "about": "coords",
+      "value": {
+        "text": "41.9046, 12.4544"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Coordinates given in the Itinerario Vinciano: 41.9046 N, 12.4544 E.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Rome Roma, Coordinates"
+        }
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#roma",
+      "text": "Patron saints: The apostles Peter and Paul (feast 29 June)",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#roma",
+      "text": "Government: Papal monarchy. Leo X, Giovanni de' Medici, reigned 1513 to 1521; Leonardo's protector was the pope's brother Giuliano de' Medici, who died in March 1516",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#roma",
+      "text": "Terrain and water: The lower Tiber; to the south the malarial Pontine marshes; the outer port at Civitavecchia",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#roma",
+      "text": "Economy: A city of consumption organized around jubilees, indulgences, and the redistribution of church revenue; the concentration of clergy, bankers, and pilgrims from all Europe formed the largest patronage market of the peninsula",
+      "retrieved": "2026-11-02"
     }
   ]
 }

@@ -1,0 +1,135 @@
+{
+  "id": "geo-piombino",
+  "type": "place",
+  "label": "Piombino",
+  "claims": [
+    {
+      "id": "iv90",
+      "about": "period",
+      "value": {
+        "text": "Late October to November 1504. Madrid Manuscript II carries entries dated on site, among them one on All Saints' Day, 1 November 1504, at Piombino"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Late October to November 1504. Madrid Manuscript II carries entries dated on site, among them one on All Saints' Day, 1 November 1504, at Piombino (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Piombino, Period"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv91",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "The dated Piombino series of Madrid Ms II: schemes for the modernization of the fortifications, observations of waves and sediment, drainage of the marsh"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The dated Piombino series of Madrid Ms II: schemes for the modernization of the fortifications, observations of waves and sediment, drainage of the marsh (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Piombino, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv92",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "The mission proceeded within the alliance between the Florentine republic and the restored lord Jacopo IV d'Appiano"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The mission proceeded within the alliance between the Florentine republic and the restored lord Jacopo IV d'Appiano (Itinerario tier B)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Piombino, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv93",
+      "about": "coords",
+      "value": {
+        "text": "42.9252, 10.5266"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Coordinates given in the Itinerario Vinciano: 42.9252 N, 10.5266 E.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Piombino, Coordinates"
+        }
+      ]
+    },
+    {
+      "id": "iv147",
+      "about": "contested_point",
+      "value": {
+        "text": "Patron saint of Piombino"
+      },
+      "layer": "interpretation",
+      "status": "disputed",
+      "statement": "Patron saint of Piombino: Saint Anastasia, feast 8 May. Her cult in the town is attested from the fourteenth century, and in 1471 the Council of Elders decreed an annual palio for her feast (diocesan records; the canonical recognition of 1874 formalized an existing cult). Saint Cerbonius, often cited instead, is the patron of the diocese of Massa Marittima, successor of the see of Populonia, and of Populonia itself, not of the town of Piombino. The distinction matters here because the very council that shared power with the Appiani, the constitutional feature Leonardo's employers dealt with, was the body administering the patronal feast",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section XIII, Notes on contested and commonly misstated points"
+        }
+      ],
+      "check_in": [
+        "The documents and records named in the note"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#piombino",
+      "text": "Patron saint: Saint Anastasia (feast 8 May) . Her cult in the town is attested from the fourteenth century; in 1471 the Council of Elders (Consiglio degli Anziani) decreed an annual palio for her feast, which continued through the sixteenth century B . Saint Cerbonius, sometimes cited in this connection, is the patron of the diocese of Massa Marittima, heir of the see of Populonia, not of the town: see the notes on contested points D",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#piombino",
+      "text": "Government: A dual regime: the Appiani as lords in coordination with the communal Council of Elders. Cesare Borgia held the town from 1501 to 1503; Jacopo IV was restored in 1503",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#piombino",
+      "text": "Terrain and water: A harbor town on a promontory into the Tyrrhenian Sea, facing Elba, whose iron ore was the core of the state's value",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#piombino",
+      "text": "Economy and trade: Shipment of Elban iron ore and coastal trade, absorbing part of the commercial sphere of declining Pisa",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

@@ -23,6 +23,138 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "iv9",
+      "about": "period",
+      "value": {
+        "text": "The year of the move is not documented; between 1464 and 1469 by inference"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The year of the move is not documented; between 1464 and 1469 by inference (Itinerario tier C)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, First Period Firenze, Period"
+        }
+      ],
+      "check_in": []
+    },
+    {
+      "id": "iv12",
+      "about": "period",
+      "value": {
+        "text": "Leonardo disappears from Florentine records after a final payment entry of 28 September 1481"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Leonardo disappears from Florentine records after a final payment entry of 28 September 1481 (Itinerario tier B)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, First Period Firenze, Period"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv15",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "1472, enrollment in the painters' confraternity, the Compagnia di San Luca, as Lyonardo di ser Piero da Vinci dipintore"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "1472, enrollment in the painters' confraternity, the Compagnia di San Luca, as Lyonardo di ser Piero da Vinci dipintore (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, First Period Firenze, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv18",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "April 1476, the Saltarelli denunciation records that he lives with Andrea del Verrocchio"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "April 1476, the Saltarelli denunciation records that he lives with Andrea del Verrocchio (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, First Period Firenze, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv21",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "January 1478, commission for the altarpiece of the chapel of San Bernardo in the Palazzo della Signoria"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "January 1478, commission for the altarpiece of the chapel of San Bernardo in the Palazzo della Signoria (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, First Period Firenze, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv24",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "March 1481, contract with the monastery of San Donato a Scopeto for the Adoration of the Magi"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "March 1481, contract with the monastery of San Donato a Scopeto for the Adoration of the Magi (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Florence, First Period Firenze, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#firenze1",
+      "text": "The Florentine constitution barred the old nobility from office and opened power only to guild members: a merchant republic in form. Behind the machinery of sortition and short terms of office ran the factional contest of the great families, and from Cosimo onward the Medici governed as monarchs in substance while preserving the republican frame. A city without mineral resources sought its survival not in territorial conquest but in the multiplier of trade and exchange; the branch networks of the Bardi, Peruzzi, and Medici banks, stretching from London to the Black Sea, generated the surplus wealth on which workshop production and patronage rested. Training in Verrocchio's workshop was a comprehensive education of the bottega: casting, metallurgy, and surveying alongside painting. The 1472 enrollment marks his qualification as an independent master, yet the 1476 denunciation shows him still living under Verrocchio's roof. The commissions that documents can fix, the San Bernardo altarpiece of 1478, never begun, and the Adoration of 1481, abandoned at the underpainting, share a single trait: neither was completed. That fact is itself a source for Leonardo's position in the Florentine market of his first period.",
+      "retrieved": "2026-11-02"
     }
   ],
   "timeline": {

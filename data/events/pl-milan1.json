@@ -23,6 +23,174 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "iv28",
+      "about": "period",
+      "value": {
+        "text": "Arrival in 1482 rests on tradition (Anonimo Gaddiano"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Arrival in 1482 rests on tradition (Anonimo Gaddiano (Itinerario tier C)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, First Period Milano, Period"
+        }
+      ],
+      "check_in": []
+    },
+    {
+      "id": "iv30",
+      "about": "period",
+      "value": {
+        "text": "); the first document places him in Milan on 25 April 1483"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "); the first document places him in Milan on 25 April 1483 (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, First Period Milano, Period"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv32",
+      "about": "period",
+      "value": {
+        "text": "He left in December 1499, after the French entry of October"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "He left in December 1499, after the French entry of October",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, First Period Milano, Period"
+        }
+      ],
+      "check_in": []
+    },
+    {
+      "id": "iv34",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "25 April 1483, contract with the Confraternity of the Immaculate Conception for the Virgin of the Rocks, jointly with the de Predis brothers"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "25 April 1483, contract with the Confraternity of the Immaculate Conception for the Virgin of the Rocks, jointly with the de Predis brothers (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, First Period Milano, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv36",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "1495 to 1498, the documentary series on the refectory mural at Santa Maria delle Grazie, including Ludovico's 1497 memorandum urging that the work in the refectory be hastened"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "1495 to 1498, the documentary series on the refectory mural at Santa Maria delle Grazie, including Ludovico's 1497 memorandum urging that the work in the refectory be hastened (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, First Period Milano, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv38",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "April 1498, the ducal secretary's report on the decoration of the Sala delle Asse"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "April 1498, the ducal secretary's report on the decoration of the Sala delle Asse (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, First Period Milano, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv40",
+      "about": "documentary_anchor",
+      "value": {
+        "text": "December 1499, transfer of six hundred florins to the hospital of Santa Maria Nuova in Florence"
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "December 1499, transfer of six hundred florins to the hospital of Santa Maria Nuova in Florence (Itinerario tier A)",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section Milan, First Period Milano, Documentary anchors"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, the document named",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "iv150",
+      "about": "contested_point",
+      "value": {
+        "text": "Arrival in Milan"
+      },
+      "layer": "interpretation",
+      "status": "disputed",
+      "statement": "Arrival in Milan: The year 1482 rests on the biographical tradition of the Anonimo Gaddiano; the first document placing Leonardo in Milan is the contract of 25 April 1483 for the Virgin of the Rocks. Any statement of the period should preserve the difference of tier between the two dates",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section XIII, Notes on contested and commonly misstated points"
+        }
+      ],
+      "check_in": [
+        "The documents and records named in the note"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "itinerario-vinciano",
+      "lang": "en",
+      "url": "views/itinerario-vinciano.html#milano1",
+      "text": "The story that Lorenzo de' Medici sent Leonardo to Milan with the musician Atalante Migliorotti, bearing a silver lyre for Ludovico, comes from the Anonimo Gaddiano and has no documentary support C . What survives in Leonardo's own hand is the draft letter of self recommendation in the Codex Atlanticus, which lists military engineering first and places painting and sculpture at the end: a first rank source for how Leonardo himself read the structure of demand in the Milanese market A . From about 1490 the documents show him formally installed as a court engineer, with a workshop in the Corte Vecchia, engaged on the clay model of the Sforza horse (exhibited 1493), on festival production (the Festa del Paradiso, 1490), and on advice in canal works and fortification. In June 1490 the fabbrica of Pavia cathedral summoned Leonardo, together with Francesco di Giorgio Martini, to advise on the building; the payment and invitation records survive A . Pavia's patron is Saint Syrus (feast 9 December). His notebooks record the Visconti library in the castle and the antique equestrian statue called the Regisole. At Vigevano, Ludovico's model estate, Leonardo studied the irrigation works and stepped water channels, with a dated entry of 1494 A . Milan held roughly twice the population of Florence, and its market for the arts had a different shape: a single overwhelming purchaser, the court, where Florence dispersed demand among guilds, confraternities, and religious houses. The horizontal spread of Leonardo's employment, from painting to ordnance, hydraulics, and festival machinery, answers that structure of demand. The wealth of a toll state astride the transalpine routes coexisted with exposure to invasion from every quarter, and the collapse of the regime in 1499 ended what would remain the longest residence of Leonardo's life, seventeen years.",
+      "retrieved": "2026-11-02"
     }
   ],
   "timeline": {

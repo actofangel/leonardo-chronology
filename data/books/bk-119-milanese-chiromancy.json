@@ -1,0 +1,88 @@
+{
+  "id": "bk-119-milanese-chiromancy",
+  "type": "book",
+  "subtype": "identified",
+  "label": "A Milanese Chiromancy",
+  "variants": [
+    "Chyromantia (Milanese)",
+    "the chiromancy of Milan"
+  ],
+  "library_no": 119,
+  "category": "Medicine, Anatomy, Astrology and Miscellany",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 119, Medicine, Anatomy, Astrology and Miscellany"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 119 in the reconstructed catalogue of Leonardo's books, under Medicine, Anatomy, Astrology and Miscellany. Leonardo's wording as rendered there: \"the chiromancy of Milan\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 119"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Chyromantia (Milanese)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Chyromantia (Milanese). The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 119"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed Middle Ages to 15th century · Printed late 15th century"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed Middle Ages to 15th century · Printed late 15th century.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 119"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "project-library",
+      "lang": "en",
+      "url": "views/library.html",
+      "text": "A palmistry text of the Milanese school, or printed in Milan.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

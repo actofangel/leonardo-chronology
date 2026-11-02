@@ -1,0 +1,79 @@
+{
+  "id": "bk-077-mandeville",
+  "type": "book",
+  "subtype": "identified",
+  "label": "Mandeville",
+  "variants": [
+    "Tractato de le più maravegliose cosse"
+  ],
+  "library_no": 77,
+  "category": "Science, Mathematics, Engineering and Military",
+  "summary": "Jean de Mandeville's book of the world's marvels.",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 77, Science, Mathematics, Engineering and Military"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 77 in the reconstructed catalogue of Leonardo's books, under Science, Mathematics, Engineering and Military. Leonardo's wording as rendered there: \"Mandeville\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 77"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Tractato de le più maravegliose cosse"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Tractato de le più maravegliose cosse. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 77"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed later 14th century · Italian edition printed 1480"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed later 14th century · Italian edition printed 1480.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 77"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ]
+}

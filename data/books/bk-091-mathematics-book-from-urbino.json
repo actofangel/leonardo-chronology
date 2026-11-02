@@ -1,0 +1,88 @@
+{
+  "id": "bk-091-mathematics-book-from-urbino",
+  "type": "book",
+  "subtype": "identified",
+  "label": "A Mathematics Book from Urbino",
+  "variants": [
+    "Trattato matematico",
+    "the mathematics of Urbino"
+  ],
+  "library_no": 91,
+  "category": "Science, Mathematics, Engineering and Military",
+  "relations": [
+    {
+      "rel": "listed_by",
+      "target": "pe-leonardo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "in_library",
+      "value": {
+        "text": "no. 91, Science, Mathematics, Engineering and Military"
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Entered as no. 91 in the reconstructed catalogue of Leonardo's books, under Science, Mathematics, Engineering and Military. Leonardo's wording as rendered there: \"the mathematics of Urbino\".",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 91"
+        }
+      ],
+      "check_in": [
+        "Leonardo's autograph book lists: Codex Trivulzianus f. 2r; Codex Atlanticus f. 559r; Madrid Codex II ff. 2v to 3r (which list names this title to be established)",
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identification",
+      "value": {
+        "text": "Trattato matematico"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified in the reconstruction as Trattato matematico. The identification of a title in Leonardo's lists with a specific work and edition is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 91"
+        }
+      ],
+      "check_in": [
+        "Vecce (ed.) 2019, entry for this title"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "text_history",
+      "value": {
+        "text": "Composed 15th century · Manuscript or late 15th century print"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Composition and printing as given in the reconstruction: Composed 15th century · Manuscript or late 15th century print.",
+      "sources": [
+        {
+          "ref": "src-project-library",
+          "loc": "no. 91"
+        }
+      ],
+      "check_in": [
+        "ISTC (Incunabula Short Title Catalogue) or Edit16 record for the edition"
+      ]
+    }
+  ],
+  "background": [
+    {
+      "source": "project-library",
+      "lang": "en",
+      "url": "views/library.html",
+      "text": "A mathematical work connected with the court of Urbino.",
+      "retrieved": "2026-11-02"
+    }
+  ]
+}

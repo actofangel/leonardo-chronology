@@ -8,7 +8,7 @@ export const DATA = path.join(ROOT, 'data');
 
 export const FOLDERS = {
   persons: 'person', places: 'place', works: 'work', manuscripts: 'manuscript',
-  events: 'event', sources: 'source', hypotheses: 'hypothesis'
+  events: 'event', sources: 'source', hypotheses: 'hypothesis', books: 'book'
 };
 export const LANES = ['places', 'works', 'people', 'events', 'popes', 'history'];
 export const LANE_CONST = { places: 'PLACES', works: 'WORKS', people: 'PEOPLE', events: 'EVENTS', popes: 'POPES', history: 'HISTORY' };

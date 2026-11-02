@@ -13,6 +13,7 @@ The database is a folder of JSON files under `data/`, one file per entity. The f
 | `data/events/` | `event` | `e-` | Dated events, residences (`subtype: "residence"`), historical context (`subtype: "context"`) |
 | `data/sources/` | `source` | `src-` | Bibliographic and archival sources |
 | `data/hypotheses/` | `hypothesis` | `hyp-` | Working hypotheses and scenarios |
+| `data/books/` | `book` | `bk-` | Books owned, listed or read by Leonardo (the reconstructed library); `library_no`, `category`, claims for the identification and the text history |
 
 Ids are lowercase ASCII, words joined by single hyphens, stable forever. Records migrated from the first chronology keep their old ids (`pl-`, `po-`, `h-` included).
 

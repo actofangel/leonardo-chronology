@@ -1,0 +1,26 @@
+{
+  "id": "geo-saint-florentin-amboise",
+  "type": "place",
+  "label": "Saint Florentin, Amboise (collegiate church)",
+  "claims": [
+    {
+      "id": "iv149",
+      "about": "contested_point",
+      "value": {
+        "text": "Dates of exhumation and translation"
+      },
+      "layer": "interpretation",
+      "status": "disputed",
+      "statement": "Dates of exhumation and translation: The collegiate church was demolished about 1806 to 1808 after revolutionary ruin; Houssaye's excavation took place in 1863; the translation of the presumed remains to the chapel of Saint Hubert followed in 1874. The three dates are regularly conflated into a single event of 1863. The identification of the remains rests on circumstantial evidence and remains a presumption",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "section XIII, Notes on contested and commonly misstated points"
+        }
+      ],
+      "check_in": [
+        "The documents and records named in the note"
+      ]
+    }
+  ]
+}

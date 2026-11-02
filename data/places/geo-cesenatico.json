@@ -1,0 +1,31 @@
+{
+  "id": "geo-cesenatico",
+  "type": "place",
+  "subtype": "town",
+  "label": "Cesenatico",
+  "claims": [
+    {
+      "id": "iv139",
+      "about": "leonardo_presence",
+      "value": {
+        "text": "6 September 1502"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The Itinerario Vinciano map marks Cesenatico: 6 September 1502.",
+      "sources": [
+        {
+          "ref": "src-itinerario-vinciano",
+          "loc": "map of stays (Carta dei soggiorni)"
+        }
+      ],
+      "check_in": [
+        "Villata 1999 or the dated autograph note concerned"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Created from the Itinerario Vinciano map; needs sources for the historical connection."
+  ],
+  "relations": []
+}
