@@ -34,7 +34,19 @@ Ids are lowercase ASCII, words joined by single hyphens, stable forever. Records
 }
 ```
 
-Only `id`, `type`, `label` are required. `summary` must not contain interpretation. Interpretations are claims.
+Only `id`, `type`, `label` are required.
+
+### External identifiers, images and background (all optional)
+
+```json
+"identifiers": { "wikidata": "Q186579", "met": "337498", "louvre_ark": "cl010062370", "rcin": "912282", "inventory": "INV 779" },
+"images": [ { "src": "https://commons.wikimedia.org/wiki/Special:FilePath/File.jpg", "credit": "Wikimedia Commons", "page": "https://commons.wikimedia.org/wiki/File:File.jpg" } ],
+"background": [ { "source": "wikipedia", "lang": "en", "url": "https://en.wikipedia.org/wiki/...", "text": "Summary as retrieved.", "retrieved": "2026-11-02" } ]
+```
+
+* `identifiers` link the entity to external records and drive the API importers' matching. They are not claims; anything the external record asserts (date, medium, dimensions, attribution) is imported as a claim with that record as its source.
+* `images` are links to reproductions for orientation only.
+* `background` holds texts such as Wikipedia summaries. They are never grounds for a claim and are displayed as background. `summary` must not contain interpretation. Interpretations are claims.
 
 ### Type specific fields (all optional)
 

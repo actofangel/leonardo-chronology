@@ -1,0 +1,24 @@
+{
+ "fetched": "2026-11-02T13:02:23.308Z",
+ "sources": {
+  "wikidata": {
+   "items": 822,
+   "url": "https://query.wikidata.org/"
+  },
+  "met": {
+   "hits": 0,
+   "kept": 0,
+   "url": "https://metmuseum.github.io/"
+  },
+  "louvre": {
+   "records": 0,
+   "url": "https://collections.louvre.fr/"
+  },
+  "wikipedia": {
+   "items": 88
+  },
+  "rct": {
+   "pages": 0
+  }
+ }
+}

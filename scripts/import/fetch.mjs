@@ -83,7 +83,7 @@ if (want('wikidata') || want('louvre') || want('wikipedia') || want('rct')) {
     await sleep(300);
   }
   wd = { query: q, qualifiers: quals, entities, labels };
-  save('wikidata.json', wd);
+  if (want('wikidata')) save('wikidata.json', wd);
   manifest.sources.wikidata = { items: ids.length, url: 'https://query.wikidata.org/' };
 }
 
@@ -97,8 +97,11 @@ function externalIds(e, re) {
 
 // ---------- Met ----------
 if (want('met')) {
+  // Object ids from Wikidata (The Met object ID), plus the search endpoint when it answers.
+  const fromWd = wd ? Object.values(wd.entities).flatMap((e) => externalIds(e, /metropolitan museum|met object/i)) : [];
   const s = await get('https://collectionapi.metmuseum.org/public/collection/v1/search?artistOrCulture=true&q=Leonardo%20da%20Vinci');
-  const ids = s?.objectIDs || [];
+  const ids = [...new Set([...(s?.objectIDs || []), ...fromWd.map(Number).filter(Boolean)])];
+  log('met ids from wikidata:', fromWd.length);
   log('met search hits:', ids.length);
   const objects = [];
   for (const id of ids) {
@@ -115,7 +118,7 @@ if (want('louvre') && wd) {
   const records = {};
   for (const [id, e] of Object.entries(wd.entities)) {
     for (const ark of externalIds(e, /louvre/i)) {
-      const m = String(ark).match(/cl\d{9}/); if (!m) continue;
+      const v = String(ark).trim(); const m = v.match(/cl\d{9}/) || (/^\d{9}$/.test(v) ? ['cl' + v] : null); if (!m) continue;
       const r = await get(`https://collections.louvre.fr/ark:/53355/${m[0]}.json`);
       if (r) records[m[0]] = { wikidata: id, record: r };
       await sleep(400);
@@ -142,13 +145,13 @@ if (want('wikipedia') && wd) {
 
 // ---------- Royal Collection Trust pages ----------
 if (want('rct') && wd) {
-  const out = {};
+  const out = {}; let refused = 0;
   const pick = (html, re) => { const m = html.match(re); return m ? m[1].replace(/&amp;/g, '&').replace(/&#039;|&#39;/g, "'").replace(/&quot;/g, '"').trim() : null; };
-  for (const [id, e] of Object.entries(wd.entities)) {
+  outer: for (const [id, e] of Object.entries(wd.entities)) {
     const ids = externalIds(e, /royal collection/i).concat(strings(e, 'P217').filter((v) => /^(RCIN )?9\d{5}$/.test(v)).map((v) => v.replace('RCIN ', '')));
     for (const rcin of [...new Set(ids)]) {
-      const html = await get(`https://www.rct.uk/collection/${encodeURIComponent(rcin)}`, { json: false });
-      if (!html) continue;
+      const html = await get(`https://www.rct.uk/collection/${encodeURIComponent(rcin)}`, { json: false, tries: 1 });
+      if (!html) { if (++refused >= 3 && !Object.keys(out).length) { log('rct: site refuses automated access; respecting that and stopping. RCT data comes via Wikidata.'); break outer; } continue; }
       const text = html.replace(/<script[\s\S]*?<\/script>/gi, '').replace(/<style[\s\S]*?<\/style>/gi, '');
       const block = pick(text, /(<div[^>]*class="[^"]*object-details[^"]*"[\s\S]{0,6000}?<\/div>\s*<\/div>)/i);
       out[rcin] = {

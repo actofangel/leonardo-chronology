@@ -104,6 +104,10 @@ ul.plain{margin:0;padding-left:18px;font-size:13.5px;display:flex;flex-direction
 .tile .big{font:600 1.4rem var(--serif)}
 .tile .sm{font-size:12.5px;color:var(--muted)}
 .foot{font-size:12.5px;color:var(--muted);max-width:90ch}
+.figs{display:flex;flex-wrap:wrap;gap:10px}
+.fig{margin:0;max-width:300px}
+.fig img{display:block;max-width:100%;max-height:320px;height:auto;border:1px solid var(--faint);border-radius:4px;background:var(--card)}
+.fig figcaption{font:11px var(--mono);color:var(--muted);margin-top:3px}
 details.wl{border-top:1px solid var(--faint);padding:6px 0}
 details.wl summary{cursor:pointer;font-size:14px}
 details.wl ul{margin-top:6px;max-height:320px;overflow:auto}
@@ -207,6 +211,13 @@ details.wl ul{margin-top:6px;max-height:320px;overflow:auto}
     function txt(v){ return Array.isArray(v) ? v.map(esc).join('; ') : esc(v); }
     function ref(v){ return typeof v === 'string' && /^[a-z]+-/.test(v) ? link(v) : esc(v); }
     add('Variants', txt(e.variants));
+    if(e.identifiers){ var I = e.identifiers, il = [];
+      if(I.wikidata) il.push('<a href="https://www.wikidata.org/wiki/' + esc(I.wikidata) + '" rel="noopener">Wikidata ' + esc(I.wikidata) + '</a>');
+      if(I.met) il.push('<a href="https://www.metmuseum.org/art/collection/search/' + esc(I.met) + '" rel="noopener">Met ' + esc(I.met) + '</a>');
+      if(I.louvre_ark) il.push('<a href="https://collections.louvre.fr/ark:/53355/' + esc(I.louvre_ark) + '" rel="noopener">Louvre ' + esc(I.louvre_ark) + '</a>');
+      if(I.rcin) il.push('<a href="https://www.rct.uk/collection/' + esc(I.rcin) + '" rel="noopener">RCIN ' + esc(I.rcin) + '</a>');
+      if(I.inventory) il.push('Inventory ' + esc(I.inventory));
+      add('Records', il.join(' · ')); }
     if(e.classification){ var cl = []; Object.keys(e.classification).forEach(function(ax){ if(ax === 'basis') return; var vs = e.classification[ax]; (Array.isArray(vs) ? vs : [vs]).forEach(function(v){ cl.push('<span class="b" title="' + esc(V[ax] ? V[ax].label : ax) + '">' + esc(vlabel(ax, v)) + '</span>'); }); });
       add('Classification', '<span class="cls">' + cl.join('') + '</span>' + (e.classification.basis ? '<br><span class="rel">' + esc(e.classification.basis) + '</span>' : '')); }
     if(e.type === 'person'){ add('Born', txt(e.born)); add('Died', txt(e.died)); add('Roles', txt(e.roles)); }
@@ -250,8 +261,11 @@ details.wl ul{margin-top:6px;max-height:320px;overflow:auto}
   function renderEntity(id){
     var e = E[id];
     if(!e){ $('main').innerHTML = '<section class="card"><p class="empty">No entity with id ' + esc(id) + '. It may be referenced before it has been researched.</p></section>'; return; }
+    var imgs = (e.images||[]).slice(0, 3).map(function(im){ return '<figure class="fig"><a href="' + esc(im.page || im.src) + '" rel="noopener"><img loading="lazy" src="' + esc(im.src) + '" alt="' + esc(e.label) + '"></a><figcaption>' + esc(im.credit || '') + '</figcaption></figure>'; }).join('');
     var h = '<section class="card"><div class="ehead"><p class="kicker">' + esc(TYPE_NAME[e.type] || e.type) + (e.subtype ? ' · ' + esc(e.subtype) : '') + '</p><h2>' + esc(e.label) + '</h2><p class="meta"><span>' + esc(e.id) + '</span></p></div>' +
-      (e.summary ? '<p class="summary">' + esc(e.summary) + '</p>' : '') + fieldRows(e) + '</section>';
+      (e.summary ? '<p class="summary">' + esc(e.summary) + '</p>' : '') + (imgs ? '<div class="figs">' + imgs + '</div>' : '') + fieldRows(e) + '</section>';
+    if((e.background||[]).length) h += '<section class="card"><h3>Background</h3><p class="empty">Texts retrieved from reference sites, shown for orientation. They are not grounds for any claim.</p>' +
+      e.background.map(function(b){ return '<div class="group"><p class="gname">' + esc(b.source) + (b.lang ? ' · ' + esc(b.lang) : '') + (b.retrieved ? ' · retrieved ' + esc(b.retrieved) : '') + '</p><p class="stmt">' + esc(b.text) + '</p>' + (b.url ? '<p class="rel"><a href="' + esc(b.url) + '" rel="noopener">' + esc(b.url) + '</a></p>' : '') + '</div>'; }).join('') + '</section>';
     if(e.type === 'hypothesis'){
       var lists = [['Assumes', (e.assumes||[]).map(function(r){ var p = r.split('#'); return link(p[0]) + ' <span class="rel">#' + esc(p[1]) + '</span>'; })],
         ['Supporting evidence', (e.supports||[]).map(esc)], ['Evidence against', (e.against||[]).map(esc)], ['Falsified if', (e.falsified_if||[]).map(esc)]];
