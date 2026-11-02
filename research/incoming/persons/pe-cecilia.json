@@ -1,0 +1,149 @@
+{
+  "id": "pe-cecilia",
+  "type": "person",
+  "label": "Cecilia Gallerani",
+  "born": "1473",
+  "died": "1536",
+  "roles": [
+    "courtier",
+    "mistress of Ludovico Sforza",
+    "later Countess Bergamini"
+  ],
+  "relations": [
+    {
+      "rel": "depicted_in",
+      "target": "w-ermine",
+      "claim": "c3"
+    },
+    {
+      "rel": "subject_of_poem_by",
+      "target": "pe-bellincioni"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "1473, Siena or Milan"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born in 1473.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Cecilia Gallerani. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Cecilia_Gallerani"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani, Gallerani"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "1536"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in 1536 near Cremona (San Giovanni in Croce).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Cecilia Gallerani. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Cecilia_Gallerani"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Exchange with Isabella d'Este on her portrait by Leonardo, 26 and 29 April 1498",
+        "start": 1498.32,
+        "end": 1498.38
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Isabella d'Este wrote from Mantua on 26 April 1498 asking Cecilia to lend her portrait by Leonardo; Cecilia replied from Milan on 29 April 1498 that it had been painted when she was young and she no longer resembled it. A thanks note of 18 May 1498 follows. Archivio di Stato di Mantova.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Archivio di Stato di Mantova, Leonardo e l'Archivio di Stato (list of documents, PDF). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://archiviodistatomantova.cultura.gov.it/fileadmin/risorse/Pubblicazioni/Leonardo_Archivio_di_Stato.pdf"
+        },
+        {
+          "type": "monograph",
+          "cite": "Ames-Lewis, Isabella and Leonardo: The Artistic Relationship between Isabella d'Este and Leonardo da Vinci, 1500 to 1506 (Yale University Press, 2012), appendix of letters. Cited as the place to check; not read in this session.",
+          "url": "https://yalebooks.yale.edu/9780300121247/isabella-and-leonardo"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Archivio di Stato di Mantova, Archivio Gonzaga (busta to locate)"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "content",
+      "value": {
+        "text": "Bellincioni's sonnet on her portrait by Leonardo"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Bernardo Bellincioni's Rime (printed 1493) include a sonnet on a portrait of 'madonna Cicilia' made by 'maestro Leonardo'.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Bellincioni, Rime (Milan 1493), sonnet number to locate",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "identity",
+      "value": {
+        "text": "Sitter of the Lady with an Ermine"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identification of the Kraków panel with the portrait named in the 1498 letters and the sonnet; supported by the ermine as a pun on 'Gallerani' (Greek galê) and by Ludovico's ermine emblem.",
+      "sources": [
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-syson-2011",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Zöllner 2003"
+      ]
+    }
+  ]
+}

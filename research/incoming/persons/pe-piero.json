@@ -1,0 +1,221 @@
+{
+  "id": "pe-piero",
+  "type": "person",
+  "label": "Ser Piero da Vinci",
+  "born": "c.1426",
+  "died": "9 July 1504",
+  "roles": [
+    "notary",
+    "father of Leonardo"
+  ],
+  "relations": [
+    {
+      "rel": "child_of",
+      "target": "pe-antonio-vinci",
+      "claim": "c3"
+    },
+    {
+      "rel": "sibling_of",
+      "target": "pe-francesco"
+    },
+    {
+      "rel": "married_to",
+      "target": "pe-albiera-amadori"
+    },
+    {
+      "rel": "married_to",
+      "target": "pe-francesca-lanfredini"
+    },
+    {
+      "rel": "married_to",
+      "target": "pe-margherita-di-francesco"
+    },
+    {
+      "rel": "married_to",
+      "target": "pe-lucrezia-cortigiani"
+    },
+    {
+      "rel": "parent_of",
+      "target": "pe-giuliano-vinci"
+    },
+    {
+      "rel": "father_of_leonardo",
+      "target": "e-birth",
+      "claim": "c3"
+    },
+    {
+      "rel": "employed_by",
+      "target": "geo-florence"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-piero"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "c.1426"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Usually given as born in 1426. Leonardo's own death note gives his age as 80 in 1504, which does not match a birth in 1426; Richter's commentary notes that other documents give other ages.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard biographies give 1426. Model recall, not checked in this session."
+        },
+        {
+          "type": "web",
+          "cite": "Richter, Notebooks, section 1372 (Leonardo's note on his father's death, with editorial footnote on age), online mirror. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.fromoldbooks.org/R.bak/section-21/item-1372.html"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, family documents",
+        "da Vinci family catasto declarations (1427, 1433, 1446 to 1457), as published"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "9 July 1504",
+        "date": 1504.52
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo recorded his father's death in his own hand: 'Addi 9 di luglio 1504 in mercoledì a ore 7 morì ser Piero da Vinci', followed by the age 80 and the number of children (ten sons and two daughters). Note in Codex Arundel (British Library).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "British Library, Searcharchives catalogue entry for Arundel MS 263, quoting the note and placing it at f. 271b. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://searcharchives.bl.uk/catalog/040-002039546"
+        },
+        {
+          "type": "other",
+          "cite": "Museo Galileo gallery, Codex Arundel, f. 272r: recollection of the death of his father. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/gallery/LeonardoVinciPhotoGallery_34713.html"
+        },
+        {
+          "ref": "src-richter-1883",
+          "loc": "section 1372"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "British Library, Arundel MS 263, foliation (271b in the catalogue vs 272r in Museo Galileo)",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "1452, named as father in Antonio da Vinci's note",
+        "date": 1452.29
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Antonio da Vinci's family note records the birth of a grandson 'figliuolo di ser Piero mio figliuolo' on 15 April 1452. See pe-antonio-vinci.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Museo Galileo, Leonardo itinerary, Childhood. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/Childhood.html"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, first document",
+        "Archivio di Stato di Firenze, Notarile antecosimiano, the protocol carrying the note (shelfmark to locate)"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "1457 catasto lists Leonardo as his illegitimate son",
+        "date": 1458.16
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The catasto declaration of Antonio da Vinci, delivered by ser Piero on 28 February 1457 Florentine style (1458 modern), lists 'Lionardo figliuolo di detto ser Piero non legiptimo nato di lui e della Chaterina' aged 5.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Università di Firenze repository (FLORE), Intervento Colombaria, PDF on the da Vinci family tax declarations. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://flore.unifi.it/retrieve/bc298c89-223b-4ffa-9f48-a5c4b7d36f4d/Intervento%20Colombaria%20oggi.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "Isaacson, Leonardo da Vinci (2017), chapter 1 excerpt (popular biography, not a ground). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://news.wttw.com/sites/default/files/article/file-attachments/Gini_LeonardoDaVinci.pdf"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Archivio di Stato di Firenze, Catasto 1457 return for Vinci (volume and folio to locate)"
+      ],
+      "bearing": "The inventory calls it the 1457 tax return; the delivery date 28 February 1458 is Florentine style 1457. Both labels refer to the same document."
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "Notary of the monks of San Donato a Scopeto, 1481",
+        "date": 1481.2
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Secondary accounts state that ser Piero was notary to the Augustinian canons of San Donato a Scopeto, who commissioned the Adoration of the Magi from Leonardo in 1481. That he arranged the commission is an inference.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Kemp and other biographies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, documents of March to September 1481",
+        "Zöllner 2003, Adoration catalogue entry"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "relation",
+      "value": {
+        "text": "Vasari's story that he showed Leonardo's drawings to Verrocchio"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Vasari states that ser Piero took some of his son's drawings to Andrea del Verrocchio, who then accepted the boy. This is a statement of a later biography; its truth is not documented.",
+      "sources": [
+        {
+          "ref": "src-vasari-1568",
+          "loc": "Life of Leonardo, page to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Vasari 1550 and 1568, Life of Leonardo"
+      ]
+    }
+  ],
+  "open_questions": [
+    "The death note is placed at Arundel f. 271b (British Library catalogue) or f. 272r (Museo Galileo). Which foliation is current?",
+    "Leonardo writes 'in mercoledì' for 9 July 1504; check whether 9 July 1504 was a Tuesday or Wednesday (Julian), a discrepancy often discussed."
+  ]
+}

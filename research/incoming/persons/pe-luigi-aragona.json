@@ -1,0 +1,87 @@
+{
+  "id": "pe-luigi-aragona",
+  "type": "person",
+  "label": "Cardinal Luigi d'Aragona",
+  "born": "1474",
+  "died": "21 January 1519",
+  "roles": [
+    "cardinal"
+  ],
+  "summary": "Neapolitan cardinal who visited Leonardo at Cloux on 10 October 1517, as recorded by his secretary Antonio de Beatis.",
+  "relations": [
+    {
+      "rel": "related_event",
+      "target": "e-beatis",
+      "claim": "c3"
+    },
+    {
+      "rel": "employer_of",
+      "target": "pe-beatis"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "1474"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born 1474, grandson of King Ferrante of Naples.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "21 January 1519, Rome"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Rome.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Visit at Cloux, 10 October 1517",
+        "date": 1517.77
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Visited Leonardo with his suite; recorded by Beatis.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Jheronimus Bosch Art Center, Beatis diary review. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://jeroenboschplaza.com/recensie/de-beatis-1521/?lang=en"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Pastor 1905",
+        "Hale 1979, p. 132"
+      ]
+    }
+  ]
+}

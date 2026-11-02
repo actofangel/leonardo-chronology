@@ -1,0 +1,41 @@
+{
+  "id": "pe-leonardo",
+  "type": "person",
+  "label": "Leonardo da Vinci",
+  "variants": ["Lionardo di ser Piero da Vinci", "Leonardo di ser Piero da Vinci", "Lionardo da Vinci"],
+  "summary": "Painter, draughtsman, engineer and writer, born near Vinci in 1452, died at Cloux near Amboise in 1519. The subject of this database; his life events, works and manuscripts are recorded as separate entities.",
+  "born": "15 April 1452",
+  "died": "2 May 1519",
+  "roles": ["painter", "draughtsman", "sculptor", "engineer", "architect", "writer"],
+  "relations": [
+    { "rel": "son_of", "target": "pe-piero" },
+    { "rel": "appears_in", "target": "e-birth" },
+    { "rel": "appears_in", "target": "e-death" },
+    { "rel": "appears_in", "target": "e-will" }
+  ],
+  "claims": [
+    {
+      "id": "c1", "about": "born", "layer": "fact", "status": "pending",
+      "value": { "text": "15 April 1452, Saturday, at the third hour of the night", "start": 1452.29 },
+      "statement": "His grandfather Antonio da Vinci recorded the birth of a grandson, son of ser Piero, on Saturday 15 April 1452 at the third hour of the night, and his baptism the following day.",
+      "sources": [ { "type": "model_recall", "cite": "Recalled content of Antonio da Vinci's family note; not checked in this session." } ],
+      "check_in": ["Villata 1999, the first document (Antonio da Vinci's note)", "Beltrami 1919"]
+    },
+    {
+      "id": "c2", "about": "died", "layer": "fact", "status": "pending",
+      "value": { "text": "2 May 1519, Cloux near Amboise", "start": 1519.34 },
+      "statement": "Died at Cloux near Amboise on 2 May 1519. Melzi's letter to Leonardo's half brothers reports the death.",
+      "sources": [ { "type": "model_recall", "cite": "First chronology draft (2026-10-09) and recall; see e-death." } ],
+      "check_in": ["Villata 1999, Melzi's letter of 1519", "Beltrami 1919"]
+    },
+    {
+      "id": "c3", "about": "legal_status", "layer": "fact", "status": "pending",
+      "statement": "Born to ser Piero da Vinci outside marriage. The 1457 Florentine tax return (catasto) of Antonio da Vinci lists him among the household as a son of ser Piero, not legitimate.",
+      "sources": [ { "type": "model_recall", "cite": "Recalled content of the 1457 catasto declaration; not checked in this session." } ],
+      "check_in": ["Villata 1999, catasto of 1457"]
+    }
+  ],
+  "open_questions": [
+    "The identity of his mother Caterina is debated; see the persons research batch for the competing identifications."
+  ]
+}

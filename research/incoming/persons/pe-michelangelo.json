@@ -1,0 +1,134 @@
+{
+  "id": "pe-michelangelo",
+  "type": "person",
+  "label": "Michelangelo Buonarroti",
+  "born": "6 March 1475",
+  "died": "18 February 1564",
+  "roles": [
+    "sculptor",
+    "painter",
+    "architect"
+  ],
+  "relations": [
+    {
+      "rel": "related_event",
+      "target": "e-david",
+      "claim": "c3"
+    },
+    {
+      "rel": "related_work",
+      "target": "w-anghiari"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "6 March 1475, Caprese"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born at Caprese.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Hirst, Michelangelo (2011)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "18 February 1564, Rome"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Rome.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Hirst 2011"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Leonardo on the committee placing the David, 25 January 1504",
+        "date": 1504.07
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo spoke at the meeting deciding where to place Michelangelo's David (minutes of 25 January 1504). Michelangelo himself is not recorded as present.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Levine, The Location of Michelangelo's David: The Meeting of January 25, 1504, The Art Bulletin 56 (1974), transcription of the minutes (journal article, peer reviewed). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://cours.univ-paris1.fr/pluginfile.php/1911558/mod_resource/content/1/Levine-LocationMichelangelosDavid-1974.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "Florence 1504 committee lists in secondary sources (The Florentine; Wikipedia 1504 in art). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.theflorentine.net/?p=32042"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Levine 1974",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Rival murals in the Sala del Gran Consiglio, 1504 to 1506"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Commissioned to paint the Battle of Cascina in the same hall as Leonardo's Battle of Anghiari (Michelangelo's commission 1504).",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Hirst 2011"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "Anonimo Gaddiano anecdote of a quarrel over Dante"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The Anonimo Gaddiano tells of a quarrel at Santa Trinita over a passage of Dante, in which Michelangelo taunted Leonardo over the unfinished horse. This states what the text says; the event is undocumented.",
+      "sources": [
+        {
+          "ref": "src-anonimo-gaddiano",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Frey 1892"
+      ]
+    }
+  ]
+}

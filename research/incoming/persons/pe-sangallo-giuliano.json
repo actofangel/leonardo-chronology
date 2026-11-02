@@ -1,0 +1,89 @@
+{
+  "id": "pe-sangallo-giuliano",
+  "type": "person",
+  "label": "Giuliano da Sangallo",
+  "born": "c.1445",
+  "died": "20 October 1516",
+  "roles": [
+    "architect",
+    "military engineer"
+  ],
+  "summary": "Florentine architect, present with Leonardo at the David committee of 1504.",
+  "relations": [
+    {
+      "rel": "related_event",
+      "target": "e-david",
+      "claim": "c3"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "c.1445"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born in Florence about 1443 to 1445.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani, Giamberti, Giuliano"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "20 October 1516, Florence"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Florence.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "David committee, 25 January 1504",
+        "date": 1504.07
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Named among those at the meeting with his brother Antonio. Some lists omit the Sangallo brothers.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Levine, The Location of Michelangelo's David: The Meeting of January 25, 1504, The Art Bulletin 56 (1974), transcription of the minutes (journal article, peer reviewed). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://cours.univ-paris1.fr/pluginfile.php/1911558/mod_resource/content/1/Levine-LocationMichelangelosDavid-1974.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "Florence 1504 committee lists in secondary sources (The Florentine; Wikipedia 1504 in art). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.theflorentine.net/?p=32042"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Levine 1974",
+        "Villata 1999"
+      ]
+    }
+  ]
+}

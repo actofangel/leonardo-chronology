@@ -1,0 +1,131 @@
+{
+  "id": "pe-anonimo-gaddiano",
+  "type": "person",
+  "label": "Anonimo Gaddiano",
+  "roles": [
+    "anonymous author (compiler)"
+  ],
+  "variants": [
+    "Anonimo Magliabechiano"
+  ],
+  "summary": "Anonymous Florentine compiler of a manuscript of artists' lives (Biblioteca Nazionale Centrale, Florence, Magl. XVII, 17) that includes an early life of Leonardo.",
+  "relations": [
+    {
+      "rel": "author_of",
+      "target": "src-anonimo-gaddiano"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "identity",
+      "value": {
+        "text": "Author unknown"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The compiler is not named in the manuscript.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Anonimo Gaddiano. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Anonimo_Gaddiano"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Frey 1892, introduction"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identity",
+      "value": {
+        "text": "Bernardo Vecchietti"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Wierda argues for Bernardo Vecchietti.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Wierda, article in Mitteilungen des Kunsthistorischen Institutes in Florenz (Heidelberg journal platform). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://journals.ub.uni-heidelberg.de/index.php/mkhi/article/view/51922/45428"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Wierda, Mitteilungen KHI"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "identity",
+      "value": {
+        "text": "Vincenzo Borghini"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Other scholars have suggested Vincenzo Borghini.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Anonimo Gaddiano. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Anonimo_Gaddiano"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "literature cited by Wierda"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "c.1537 to 1550",
+        "start": 1537,
+        "end": 1550
+      },
+      "layer": "interpretation",
+      "status": "disputed",
+      "statement": "Dated to the 1530s or 1540s (c.1540 to 1550 per another project). The date is inferred from content.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Anonimo Gaddiano. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Anonimo_Gaddiano"
+        },
+        {
+          "type": "other",
+          "cite": "Camposanto project, University of Zurich. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://dlf.uzh.ch/sites/camposanto/wp-json/wp/v2/posts/872"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Frey 1892"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "edition",
+      "value": {
+        "text": "Published by Karl Frey, 1892"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Edited by Karl Frey, Il codice Magliabechiano cl. XVII. 17 (Berlin, 1892).",
+      "sources": [
+        {
+          "ref": "src-anonimo-gaddiano",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Frey 1892"
+      ]
+    }
+  ]
+}

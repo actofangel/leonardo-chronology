@@ -1,0 +1,128 @@
+{
+  "id": "pe-machiavelli",
+  "type": "person",
+  "label": "Niccolò Machiavelli",
+  "born": "3 May 1469",
+  "died": "21 June 1527",
+  "roles": [
+    "Second Chancellor of the Florentine Republic"
+  ],
+  "relations": [
+    {
+      "rel": "related_event",
+      "target": "e-arno"
+    },
+    {
+      "rel": "related_work",
+      "target": "w-anghiari"
+    },
+    {
+      "rel": "employer_of",
+      "target": "pe-agostino-vespucci"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "3 May 1469, Florence"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born in Florence.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Ridolfi, Vita di Niccolò Machiavelli"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "21 June 1527, Florence"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Florence.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Ridolfi"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Anghiari contract of 4 May 1504",
+        "date": 1504.34
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The deliberation of 4 May 1504 setting terms for the Battle of Anghiari is reported as drawn up with Machiavelli as witness or secretary.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard biographies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, document of 4 May 1504"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Arno diversion, 1503 to 1504"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Chancery correspondence on the Arno diversion near Pisa, in which Machiavelli was involved, mentions Leonardo's visit to the camp in July 1503 (payment record). Personal contact is an inference.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard biographies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, documents of July 1503",
+        "Masters, Fortune is a River (1998), as background only"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "Co presence at Imola, autumn 1502"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Both were at Cesare Borgia's court in Imola in late 1502; no document records a meeting.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard biographies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Villata 1999"
+      ]
+    }
+  ]
+}

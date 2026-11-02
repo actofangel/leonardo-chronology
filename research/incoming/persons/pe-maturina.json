@@ -1,0 +1,56 @@
+{
+  "id": "pe-maturina",
+  "type": "person",
+  "label": "Maturina",
+  "roles": [
+    "servant (fantesca) of Leonardo"
+  ],
+  "variants": [
+    "Mathurine"
+  ],
+  "summary": "Female servant of Leonardo at Cloux, named in the will of 1519.",
+  "relations": [
+    {
+      "rel": "beneficiary_of",
+      "target": "e-will",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "contact",
+      "value": {
+        "text": "Bequest in the will of 23 April 1519",
+        "date": 1519.31
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The will leaves 'Maturina sua fantesca' a cloak of good black cloth lined with fur, a further piece of cloth and two ducats, in reward for her service.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Richter, The Notebooks of Leonardo da Vinci, section 1566 (text of the will, English), online mirror. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.fromoldbooks.org/R.bak/section-22/item-1566.html"
+        },
+        {
+          "type": "web",
+          "cite": "Amoretti, Memorie storiche su la vita, gli studj e le opere di Lionardo da Vinci (1804), page image on Wikisource (Italian text of the will). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://it.wikisource.org/wiki/Pagina:Memorie_storiche_su_la_vita_gli_studj_e_le_opere_di_Lionardo_da_Vinci.djvu/129"
+        },
+        {
+          "ref": "src-richter-1883",
+          "loc": "section 1566"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Beltrami 1919"
+      ]
+    }
+  ],
+  "open_questions": [
+    "The research brief lists a 'Mathurin (servant)'. The will names a woman, Maturina. No male servant Mathurin was found."
+  ]
+}

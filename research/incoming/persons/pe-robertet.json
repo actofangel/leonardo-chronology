@@ -1,0 +1,111 @@
+{
+  "id": "pe-robertet",
+  "type": "person",
+  "label": "Florimond Robertet",
+  "born": "c.1458",
+  "died": "29 November 1527",
+  "roles": [
+    "secretary of state to Louis XII and Francis I"
+  ],
+  "summary": "French royal secretary for whom Leonardo was painting a small picture in April 1501, according to Fra Pietro da Novellara.",
+  "relations": [
+    {
+      "rel": "commissioned",
+      "target": "w-yarnwinder",
+      "claim": "c3"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "c.1458"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born about 1458.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dictionnaire de biographie française"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "29 November 1527"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died 29 November 1527.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dictionnaire de biographie française"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Commission reported on 14 April 1501",
+        "date": 1501.28
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Novellara's letter of 14 April 1501 states Leonardo was painting a small picture for 'uno Robertet favorito del Re di Francia'.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Archivio di Stato di Mantova, Leonardo e l'Archivio di Stato (list of documents, PDF). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://archiviodistatomantova.cultura.gov.it/fileadmin/risorse/Pubblicazioni/Leonardo_Archivio_di_Stato.pdf"
+        },
+        {
+          "type": "monograph",
+          "cite": "Ames-Lewis, Isabella and Leonardo: The Artistic Relationship between Isabella d'Este and Leonardo da Vinci, 1500 to 1506 (Yale University Press, 2012), appendix of letters. Cited as the place to check; not read in this session.",
+          "url": "https://yalebooks.yale.edu/9780300121247/isabella-and-leonardo"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "identity",
+      "value": {
+        "text": "The picture is a Madonna of the Yarnwinder"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identification with a version of the Yarnwinder; which surviving version (Buccleuch or Lansdowne) is debated.",
+      "sources": [
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-kemp-2006",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Zöllner 2003"
+      ]
+    }
+  ]
+}

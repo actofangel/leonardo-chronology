@@ -1,0 +1,49 @@
+{
+  "id": "pe-lucrezia-cortigiani",
+  "type": "person",
+  "label": "Lucrezia Cortigiani",
+  "roles": [
+    "stepmother of Leonardo",
+    "wife of ser Piero da Vinci"
+  ],
+  "summary": "Fourth wife of ser Piero, married c.1485 to 1487; outlived him.",
+  "relations": [
+    {
+      "rel": "married_to",
+      "target": "pe-piero"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "relation",
+      "value": {
+        "text": "Fourth wife of ser Piero, married c.1485 to 1487; outlived him."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Lucrezia di Guglielmo Cortigiani married ser Piero about 1485 to 1487 and bore him several children; she survived him in 1504. A draft letter by Leonardo addressing a 'carissima e dolce madre' is often read as addressed to her, which is an interpretation.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Sepoltuario fiorentino online database, entry for Cortigiani, Lucrezia (entry number not confirmed). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://sepoltuario.iath.virginia.edu/"
+        },
+        {
+          "type": "web",
+          "cite": "franco.wiki, Entourage et relations de Léonard de Vinci. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://franco.wiki/fr/Entourage_et_relations_de_L%C3%A9onard_de_Vinci.html"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Codex Atlanticus draft letter (folio to locate, Pedretti 1978)"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Locate the 'cara e dolce madre' draft and decide whether it names Lucrezia."
+  ],
+  "died": "after 1504"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "geo-seattle",
+  "type": "place",
+  "subtype": "city",
+  "label": "Seattle",
+  "claims": [],
+  "open_questions": [
+    "Stub created on 2026-11-02 to resolve links from other entities. Needs research: coordinates, historical role, sources."
+  ]
+}

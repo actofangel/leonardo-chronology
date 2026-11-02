@@ -1,0 +1,49 @@
+{
+  "id": "pe-albiera-amadori",
+  "type": "person",
+  "label": "Albiera Amadori",
+  "roles": [
+    "stepmother of Leonardo",
+    "wife of ser Piero da Vinci"
+  ],
+  "summary": "First wife of ser Piero (married 1452); died 1464.",
+  "relations": [
+    {
+      "rel": "married_to",
+      "target": "pe-piero"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "relation",
+      "value": {
+        "text": "First wife of ser Piero (married 1452); died 1464."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Albiera di Giovanni Amadori married ser Piero da Vinci in 1452, the year of Leonardo's birth, and died childless in 1464, reportedly in childbirth. She is the first of Leonardo's four stepmothers.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Museo Galileo, Chronology of Leonardo. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/ChronologyLeonardo.html"
+        },
+        {
+          "type": "model_recall",
+          "cite": "Standard biographies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Sepoltuario fiorentino database, Amadori entry"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Did Albiera's household include Leonardo before 1464? Vasari and later writers assume so; the 1457 catasto places him with Antonio."
+  ],
+  "born": "c.1436",
+  "died": "1464"
+}

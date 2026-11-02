@@ -1,0 +1,161 @@
+{
+  "id": "pe-lisa-gherardini",
+  "type": "person",
+  "label": "Lisa Gherardini",
+  "born": "15 June 1479",
+  "died": "1542",
+  "roles": [
+    "wife of Francesco del Giocondo"
+  ],
+  "variants": [
+    "Lisa del Giocondo",
+    "Monna Lisa"
+  ],
+  "summary": "Florentine woman, wife of Francesco del Giocondo. Named by Agostino Vespucci in October 1503 as the subject of a head by Leonardo.",
+  "relations": [
+    {
+      "rel": "member_of_group",
+      "target": "pe-lisa"
+    },
+    {
+      "rel": "depicted_in",
+      "target": "w-monalisa",
+      "claim": "c4"
+    },
+    {
+      "rel": "married_to",
+      "target": "pe-francesco-giocondo"
+    },
+    {
+      "rel": "named_by",
+      "target": "pe-agostino-vespucci",
+      "claim": "c4"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "15 June 1479, Florence",
+        "date": 1479.45
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born in Florence on 15 June 1479 (one older source says Naples 1474, which is not supported).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Lisa del Giocondo. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Lisa_del_Giocondo"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Pallanti, Monna Lisa, mulier ingenua (2004)",
+        "Kemp and Pallanti 2017"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "1542, convent of Sant'Orsola, Florence",
+        "date": 1542.5
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in 1542 aged about 63; the date 15 July 1542 is given in some accounts but not confirmed in this round.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "The Florentine, Mona Lisa and Sant'Orsola (2024). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.theflorentine.net/2024/09/03/mona-lisa-sant-orsola/"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Pallanti 2004"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "relation",
+      "value": {
+        "text": "Married 5 March 1495"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Married Francesco del Giocondo on 5 March 1495.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Lisa del Giocondo. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Lisa_del_Giocondo"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Pallanti 2004"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Vespucci note, October 1503",
+        "date": 1503.8
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Agostino Vespucci's marginal note in Heidelberg University Library's 1477 Cicero cites 'caput Lise del Giocondo' as a work of Leonardo, dated '1503 octobris'.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Heidelberg University press release, Mona Lisa's identity established beyond doubt (2008). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://uni-heidelberg.de/press/news/press552e.html"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Agostino Vespucci. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Agostino_Vespucci"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Heidelberg University Library, D 7620 qt. INC (as reported)",
+        "Schlechter's publication (2005 to 2008)"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "identity",
+      "value": {
+        "text": "Sitter of the Louvre Mona Lisa"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "That the Louvre panel is her portrait rests on Vasari (1550) and on the Vespucci note; Louvre curator Delieuvin has said certainty is not possible. Beatis (1517) describes a portrait of 'a certain Florentine lady' made for Giuliano de' Medici, a separate testimony read in several ways.",
+      "sources": [
+        {
+          "ref": "src-vasari-1550",
+          "loc": "to locate"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Vincent Delieuvin. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Vincent_Delieuvin"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Zöllner 2003",
+        "Marani 2000"
+      ]
+    }
+  ]
+}

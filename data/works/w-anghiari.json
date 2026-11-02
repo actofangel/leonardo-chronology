@@ -196,7 +196,7 @@
   "relations": [
     {
       "rel": "commissioned_by",
-      "target": "geo-signoria-florence",
+      "target": "geo-palazzo-vecchio",
       "claim": "c3"
     },
     {

@@ -1,0 +1,81 @@
+{
+  "id": "pe-oggiono",
+  "type": "person",
+  "label": "Marco d'Oggiono",
+  "born": "c.1467",
+  "died": "c.1524",
+  "roles": [
+    "painter"
+  ],
+  "summary": "Lombard painter in Leonardo's circle in the 1490s, known for copies after the Last Supper.",
+  "relations": [
+    {
+      "rel": "member_of_group",
+      "target": "pe-boltraffio"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "c.1467"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born about 1467 at Oggiono.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Shell, in Syson 2011 or a peer reviewed Oggiono study"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "c.1524",
+        "start": 1524,
+        "end": 1530
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Died about 1524 (some give c.1530).",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Syson 2011"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "'Marco' in Leonardo's notes, 1491"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified with the 'Marco' of the Salai theft notes of 1491.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Richter 1883"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "pe-lisa",
+  "type": "person",
+  "label": "Lisa Gherardini and Francesco del Giocondo (group)",
+  "roles": [
+    "group record"
+  ],
+  "relations": [
+    {
+      "rel": "has_member",
+      "target": "pe-lisa-gherardini"
+    },
+    {
+      "rel": "has_member",
+      "target": "pe-francesco-giocondo"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "identity",
+      "value": {
+        "text": "Group record of a married couple"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "This record bundles Lisa and her husband Francesco; see the individual entities.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Inventory structure. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "n/a"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Group of two; split recommended. The 1503 date belongs to Lisa's portrait (Vespucci note); Francesco is the presumed commissioner."
+  ]
+}

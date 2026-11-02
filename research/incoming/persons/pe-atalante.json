@@ -1,0 +1,177 @@
+{
+  "id": "pe-atalante",
+  "type": "person",
+  "label": "Atalante Migliorotti",
+  "born": "1466",
+  "died": "1532",
+  "roles": [
+    "musician",
+    "singer",
+    "instrument maker"
+  ],
+  "summary": "Florentine musician and maker of string instruments, named by the Anonimo Gaddiano as Leonardo's companion on his journey to Milan.",
+  "relations": [
+    {
+      "rel": "travelled_with",
+      "target": "e-letter",
+      "claim": "c3"
+    },
+    {
+      "rel": "sent_by",
+      "target": "pe-lorenzo",
+      "claim": "c3"
+    },
+    {
+      "rel": "related_work",
+      "target": "w-musician"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "1466, Florence"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born in Florence in 1466.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Atalante Migliorotti. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Atalante_Migliorotti"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Grove Music Online, Migliorotti"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "1532"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in 1532 (in Rome per some accounts).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Atalante Migliorotti. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Atalante_Migliorotti"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Grove Music Online"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Sent to Milan with Leonardo with a lyre for Ludovico, c.1482"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The Anonimo Gaddiano says Lorenzo de' Medici sent Leonardo, with Atalante Migliorotti, to the Duke of Milan to present a lyre. This is what the text says; no contemporary record confirms it.",
+      "sources": [
+        {
+          "ref": "src-anonimo-gaddiano",
+          "loc": "to locate"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Atalante Migliorotti. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Atalante_Migliorotti"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Frey 1892",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "'Una testa ritratta d'Atalante che alzava il volto'"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A list of works in Leonardo's hand in the Codex Atlanticus (c.1482) is said to include a portrait head of Atalante raising his face. Not confirmed in this round.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        },
+        {
+          "ref": "src-richter-1883",
+          "loc": "section 680 (to confirm)"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Pedretti 1978, folio to locate"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "identity",
+      "value": {
+        "text": "Sitter of the Portrait of a Musician (Ambrosiana)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "A traditional but problematic identification.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Search summaries of secondary literature on the Portrait of a Musician. Seen in a web search result summary only; the page was not opened in this session."
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Marani 2000",
+        "Zöllner 2003"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "career",
+      "value": {
+        "text": "Orfeo at Mantua 1491; lirone for Isabella d'Este 1505; works at St Peter's 1513"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Reported to have sung Poliziano's Orfeo at Mantua in 1491, to have made a lira for Isabella d'Este in 1505, and to have supervised works at St Peter's in Rome from 1513.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Cartwright, Isabella d'Este (1903), on Heidelberg digital library. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://digi.ub.uni-heidelberg.de/diglit/cartwright1903bd1/0118/text_ocr"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Prizer, Early Music History, on Isabella's musicians",
+        "Grove Music Online"
+      ]
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Milan circle",
+    "start": 1482,
+    "end": 1483,
+    "date": "c.1482",
+    "tier": "T",
+    "place": "Florence, Milan",
+    "text": "Musician. The Anonimo Gaddiano names him as travelling with Leonardo to Milan to present a lyre. No contemporary document confirms the journey.",
+    "basis": "Anonimo Gaddiano."
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "pe-vilanis",
+  "type": "person",
+  "label": "Battista de Vilanis",
+  "born": "",
+  "died": "",
+  "roles": [
+    "servant of Leonardo"
+  ],
+  "variants": [
+    "Baptiste de Villanis"
+  ],
+  "summary": "Servant of Leonardo in France, beneficiary of the will of 1519.",
+  "relations": [
+    {
+      "rel": "beneficiary_of",
+      "target": "e-will",
+      "claim": "c1"
+    },
+    {
+      "rel": "co_beneficiary_with",
+      "target": "pe-salai",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "contact",
+      "value": {
+        "text": "Bequests in the will of 23 April 1519",
+        "date": 1519.31
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The will leaves him half of the garden (vineyard) outside the walls of Milan, the water rights of the San Cristoforo canal granted by Louis XII, and furnishings at Cloux.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Richter, The Notebooks of Leonardo da Vinci, section 1566 (text of the will, English), online mirror. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.fromoldbooks.org/R.bak/section-22/item-1566.html"
+        },
+        {
+          "type": "web",
+          "cite": "Amoretti, Memorie storiche su la vita, gli studj e le opere di Lionardo da Vinci (1804), page image on Wikisource (Italian text of the will). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://it.wikisource.org/wiki/Pagina:Memorie_storiche_su_la_vita_gli_studj_e_le_opere_di_Lionardo_da_Vinci.djvu/129"
+        },
+        {
+          "ref": "src-richter-1883",
+          "loc": "section 1566"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "later",
+      "value": {
+        "text": "His half of the vineyard passed to San Gerolamo by 1534"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "His lot is reported to have been transferred to the monastery of San Gerolamo by 1534.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Leonardo da Vinci's Vineyard. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci%27s_Vineyard"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Archivio di Stato di Milano, as published in the vineyard studies"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "French royal accounts list him in Leonardo's household"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Royal accounts of 1517 to 1518 are said to record a payment to Battista as servant. Not confirmed in this round.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, French documents"
+      ]
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Household",
+    "start": 1516.8,
+    "end": 1519.34,
+    "date": "1516 to 1519",
+    "tier": "S",
+    "place": "Amboise",
+    "text": "Servant in the French household. The will of 1519 leaves him half of the Milan vineyard and the canal water rights. The start of the bar is estimated.",
+    "basis": "Will of 23 April 1519."
+  }
+}

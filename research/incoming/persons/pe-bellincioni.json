@@ -1,0 +1,95 @@
+{
+  "id": "pe-bellincioni",
+  "type": "person",
+  "label": "Bernardo Bellincioni",
+  "born": "1452",
+  "died": "12 September 1492",
+  "roles": [
+    "court poet"
+  ],
+  "summary": "Florentine court poet in Milan; author of the text of the Festa del Paradiso (1490) staged by Leonardo and of a sonnet on Leonardo's portrait of Cecilia Gallerani.",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "1452, Florence"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born in Florence.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani, Bellincioni"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "12 September 1492, Milan"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Milan.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Festa del Paradiso, 13 January 1490",
+        "date": 1490.03
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The printed text of his Festa del Paradiso states that the stage apparatus was made by 'maestro Leonardo Vinci fiorentino'.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Bellincioni, Rime (Milan, 1493)",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Sonnet on Leonardo's portrait of Cecilia"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "His Rime include a sonnet on the portrait of 'madonna Cicilia' by Leonardo.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Bellincioni, Rime (1493)"
+      ]
+    }
+  ]
+}

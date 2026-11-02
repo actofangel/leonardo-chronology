@@ -1,0 +1,100 @@
+{
+  "id": "po-callixtus3",
+  "type": "person",
+  "label": "Callixtus III",
+  "subtype": "pope",
+  "born": "31 December 1378",
+  "died": "6 August 1458",
+  "roles": [
+    "pope"
+  ],
+  "variants": [
+    "Alfonso de Borja"
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "reign_start",
+      "value": {
+        "text": "elected 8 April 1455",
+        "date": 1455.27
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Elected pope on 8 April 1455.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists",
+        "Annuario Pontificio, list of popes"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "coronation",
+      "value": {
+        "text": "20 April 1455",
+        "date": 1455.3
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Crowned on 20 April 1455. Election and coronation are separate events.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "reign_end",
+      "value": {
+        "text": "died 6 August 1458",
+        "date": 1458.6
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Reign ended with his death on 6 August 1458.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "No documented contact with Leonardo"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "No document records contact between this pope and Leonardo.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Absence noted in this round; not exhaustive. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, index of names"
+      ]
+    }
+  ]
+}

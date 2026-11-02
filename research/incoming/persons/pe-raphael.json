@@ -1,0 +1,90 @@
+{
+  "id": "pe-raphael",
+  "type": "person",
+  "label": "Raphael",
+  "born": "1483",
+  "died": "6 April 1520",
+  "roles": [
+    "painter",
+    "architect"
+  ],
+  "variants": [
+    "Raffaello Sanzio"
+  ],
+  "relations": [
+    {
+      "rel": "child_of",
+      "target": "pe-giovanni-santi"
+    },
+    {
+      "rel": "related_work",
+      "target": "w-monalisa"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "28 March or 6 April 1483, Urbino"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Born at Urbino in 1483; the day is given as 28 March or 6 April.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Shearman, Raphael in Early Modern Sources (2003)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "6 April 1520, Rome"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Rome.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Shearman 2003"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Drawings after Leonardo's compositions, c.1504 to 1508"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "A Louvre drawing of a young woman on a balcony and studies after Leda and the Anghiari battle are read as made after Leonardo's works; no document records a meeting.",
+      "sources": [
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-bambach-2019",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Bambach 2019"
+      ]
+    }
+  ]
+}

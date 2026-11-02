@@ -1,0 +1,20 @@
+{
+  "id": "geo-biblioteca-apostolica-vaticana",
+  "type": "place",
+  "subtype": "institution",
+  "label": "Biblioteca Apostolica Vaticana",
+  "variants": [
+    "Vatican Library"
+  ],
+  "within": "geo-rome",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-rome"
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Stub created on 2026-11-02 to resolve links from other entities. Needs research: coordinates, historical role, sources."
+  ]
+}

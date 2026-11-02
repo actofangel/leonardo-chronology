@@ -1,0 +1,57 @@
+{
+  "id": "pe-beatis",
+  "type": "person",
+  "label": "Antonio de Beatis",
+  "born": "",
+  "died": "",
+  "roles": [
+    "canon of Molfetta",
+    "secretary of Cardinal Luigi d'Aragona",
+    "diarist"
+  ],
+  "relations": [
+    {
+      "rel": "related_event",
+      "target": "e-beatis",
+      "claim": "c1"
+    },
+    {
+      "rel": "employed_by",
+      "target": "pe-luigi-aragona"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "contact",
+      "value": {
+        "text": "Visit to Leonardo at Cloux, 10 October 1517",
+        "date": 1517.77
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "His travel diary records that the cardinal and his suite visited Leonardo at Cloux on 10 October 1517 and saw three pictures (a Florentine lady done for Giuliano de' Medici, a young St John the Baptist, and the Virgin and Child with St Anne); it calls Leonardo an old man of over seventy and notes paralysis of his right hand.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Jheronimus Bosch Art Center, review of the Beatis diary (cites Hale 1979, p. 132). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://jeroenboschplaza.com/recensie/de-beatis-1521/?lang=en"
+        },
+        {
+          "type": "other",
+          "cite": "Heidelberg digital library, Pastor 1905 edition of the diary. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://digi.ub.uni-heidelberg.de/diglit/beatis1905"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Pastor 1905, page to locate",
+        "Hale (ed.), The Travel Journal of Antonio de Beatis (Hakluyt Society, 1979), p. 132",
+        "Biblioteca Nazionale di Napoli manuscript (to locate)"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Birth and death dates not found. His statement that Leonardo was 'over seventy' contradicts the 1452 birth: record as testimony, not as age."
+  ]
+}

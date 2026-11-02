@@ -1,0 +1,284 @@
+{
+  "id": "pe-caterina",
+  "type": "person",
+  "label": "Caterina, mother of Leonardo",
+  "born": "c.1436 (if di Meo Lippi); unknown",
+  "died": "1494 (if the Caterina of the Milan notes)",
+  "roles": [
+    "mother of Leonardo"
+  ],
+  "variants": [
+    "Chaterina",
+    "Caterina di Meo Lippi (identification)",
+    "Caterina, Circassian slave (identification)"
+  ],
+  "summary": "Named as Leonardo's mother in the 1457 catasto declaration ('nato di lui e della Chaterina'). Her identity beyond the name is debated.",
+  "relations": [
+    {
+      "rel": "mother_of_leonardo",
+      "target": "e-birth",
+      "claim": "c1"
+    },
+    {
+      "rel": "named_in",
+      "target": "e-1457",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "identity",
+      "value": {
+        "text": "Named 'Chaterina' as the mother in the 1457 catasto"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The 1457 catasto of Antonio da Vinci describes Leonardo as born of ser Piero 'e della Chaterina'. The document names her only by first name.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Università di Firenze repository (FLORE), Intervento Colombaria, PDF on the da Vinci family tax declarations. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://flore.unifi.it/retrieve/bc298c89-223b-4ffa-9f48-a5c4b7d36f4d/Intervento%20Colombaria%20oggi.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "Isaacson, Leonardo da Vinci (2017), chapter 1 excerpt (popular biography, not a ground). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://news.wttw.com/sites/default/files/article/file-attachments/Gini_LeonardoDaVinci.pdf"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, catasto 1457"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "identity",
+      "value": {
+        "text": "Caterina di Meo Lippi, an orphan from the Vinci area, born c.1436"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Martin Kemp and Giuseppe Pallanti (Mona Lisa: The People and the Painting, Oxford University Press, 2017) identify her as Caterina di Meo Lippi, an orphaned girl of about 15 in 1451, from tax records of Vinci. Elisabetta Ulivi (2017) found the argument weak and proposed other candidates.",
+      "sources": [
+        {
+          "type": "monograph",
+          "cite": "Kemp and Pallanti, Mona Lisa: The People and the Painting (Oxford University Press, 2017). Cited as the place to check; not read in this session."
+        },
+        {
+          "type": "web",
+          "cite": "History.com, An orphaned teenager was mother to the world's most famous artist. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.history.com/articles/an-orphaned-teenager-was-mother-to-the-worlds-most-famous-artist"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Caterina di Meo Lippi. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Caterina_di_Meo_Lippi"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Kemp and Pallanti 2017, chapter on Caterina",
+        "Ulivi 2017 paper (to locate)"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "identity",
+      "value": {
+        "text": "Caterina, a Circassian slave freed in Florence on 2 November 1452"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Carlo Vecce (2023, with the novel Il sorriso di Caterina, Giunti) identifies her with a Circassian slave Caterina freed by a Latin act of manumission dated 2 November 1452 and drawn up by ser Piero as notary, with further papers on her ownership and her work as a wet nurse in 1450. The act is a document; its link to Leonardo's mother is Vecce's argument. Press reports say the findings were not yet published in a peer reviewed venue; Finestre sull'Arte notes no document ties the 1452 deed unambiguously to Leonardo's mother.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "The Art Newspaper, 16 March 2023, Leonardo da Vinci's mother enslaved, Carlo Vecce. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://theartnewspaper.com/2023/03/16/leonardo-da-vinci-mother-enslaved-carlo-vecce"
+        },
+        {
+          "type": "web",
+          "cite": "Live Science, Da Vinci's mother was an enslaved teenager trafficked to Italy, new documents suggest. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.livescience.com/da-vincis-mother-was-an-enslaved-teenager-trafficked-to-italy-new-documents-suggest"
+        },
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, What do we really know about Leonardo da Vinci's mother? Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.finestresullarte.info/en/ancient-art/what-do-we-really-know-about-leonardo-da-vinci-s-mother"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Vecce's scholarly publication of the 1452 act (to locate)",
+        "Archivio di Stato di Firenze, Notarile antecosimiano, protocol of ser Piero da Vinci for 1452"
+      ],
+      "alternative_to": [
+        "c2"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "identity",
+      "value": {
+        "text": "Caterina di Antonio di Cambio, or a domestic slave"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Elisabetta Ulivi (2017) proposed Caterina di Antonio di Cambio as an alternative candidate and considered a slave origin possible.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Search summary of Ulivi's November 2017 conference paper, as reported in press coverage. Seen in a web search result summary only; the page was not opened in this session."
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Ulivi 2017 (to locate)"
+      ],
+      "alternative_to": [
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "'Caterina venne a dì 16 di luglio 1493'",
+        "date": 1493.54,
+        "place": "Milan"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo noted in Milan the arrival of a Caterina on 16 July 1493 (Codex Forster III, f. 88r per one transcription). Later notes list burial expenses for a Caterina.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Gingko Edizioni, tag page Caterina, Leonardo da Vinci, Porta Vercellina (cites Forster III f. 88r and Forster II f. 64v). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.gingkoedizioni.it/tag/caterina-leonardo-da-vinci-fucecchio-porta-vercellina/"
+        },
+        {
+          "type": "other",
+          "cite": "Victoria and Albert Museum, Explore Leonardo da Vinci's notebooks: Codex Forster III. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.vam.ac.uk/articles/explore-leonardo-da-vincis-notebooks-codex-forster-iii"
+        },
+        {
+          "ref": "src-richter-1883",
+          "loc": "section 1384 (to confirm)"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "V&A, Codex Forster III f. 88r (facsimile)",
+        "Richter 1883 and Pedretti 1977 commentary"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "identity",
+      "value": {
+        "text": "The Caterina of the Milan notes was Leonardo's mother"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "That the Caterina who came to Milan in 1493 and was buried at Leonardo's expense was his mother is an identification made by many biographers (including Kemp) on circumstantial grounds; others read her as a housekeeper.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Caterina di Meo Lippi. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Caterina_di_Meo_Lippi"
+        },
+        {
+          "type": "model_recall",
+          "cite": "Kemp 2006 and other biographies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Kemp 2006",
+        "Pedretti 1977 commentary on Richter"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "died",
+      "value": {
+        "text": "26 June 1494, Milan (if the Caterina of the Milan death record)",
+        "date": 1494.48
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A Latin entry in the Milan death registers (Archivio di Stato di Milano), dated 26 June 1494, records the death of a Caterina from Florence, reportedly of malaria. Its link to Leonardo's mother rests on the identification above.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Gingko Edizioni, Caterina tag page (cites the Milan record of 26 June 1494). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.gingkoedizioni.it/tag/caterina-leonardo-da-vinci-fucecchio-porta-vercellina/"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Archivio di Stato di Milano, Popolazione, necrologi 1494 (to locate)",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c8",
+      "about": "content",
+      "value": {
+        "text": "Funeral expenses note"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Sources disagree on the burial note: one total given is 123 soldi, while an itemized list reported online sums to about 81 soldi; the note is placed in Forster II f. 64v by one source. The date of the note (1494 or later) is also given differently.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Gingko Edizioni, Caterina tag page. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.gingkoedizioni.it/tag/caterina-leonardo-da-vinci-fucecchio-porta-vercellina/"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Caterina di Meo Lippi. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Caterina_di_Meo_Lippi"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "V&A Codex Forster II, f. 64v (facsimile)",
+        "Richter 1883 section on household expenses"
+      ]
+    },
+    {
+      "id": "c9",
+      "about": "relation",
+      "value": {
+        "text": "Married Antonio di Piero Buti, called Accattabriga"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Biographies report that after Leonardo's birth Caterina married Antonio di Piero Buti del Vacca, known as Accattabriga, of Campo Zeppi near Vinci. Holds for the di Meo Lippi line; the Vecce thesis also places her in this marriage.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Kemp and Pallanti 2017; Vecce 2023 press coverage. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Kemp and Pallanti 2017",
+        "Villata 1999, catasto of Accattabriga (to locate)"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Which candidate (di Meo Lippi, the Circassian slave of the 2 November 1452 act, di Antonio di Cambio) fits all documents? Holders: Kemp and Pallanti 2017 (di Meo Lippi); Vecce 2023 (Circassian slave); Ulivi 2017 (other candidates).",
+    "Is the Caterina of the Milan notes of 1493 to 1494 the same woman as the mother? This is an interpretation in all current literature.",
+    "Has Vecce's documentary dossier been published in a peer reviewed or critical edition form? Locate it before admitting the act's text."
+  ]
+}

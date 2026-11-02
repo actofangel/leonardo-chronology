@@ -1,0 +1,109 @@
+{
+  "id": "pe-ginevra-benci",
+  "type": "person",
+  "label": "Ginevra de' Benci",
+  "born": "1457",
+  "died": "c.1520",
+  "roles": [
+    "Florentine noblewoman",
+    "poet"
+  ],
+  "summary": "Florentine woman, daughter of Amerigo de' Benci, named by early biographers as the sitter of a portrait by Leonardo.",
+  "relations": [
+    {
+      "rel": "depicted_in",
+      "target": "w-ginevra"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "1457"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born 1457 (catasto of her father).",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Brown, Virtue and Beauty (NGA 2001)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "c.1520"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died about 1520.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Brown 2001"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Early biographies record Leonardo's portrait of her"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The Libro di Antonio Billi, the Anonimo Gaddiano and Vasari mention a portrait of Ginevra d'Amerigo Benci by Leonardo.",
+      "sources": [
+        {
+          "ref": "src-anonimo-gaddiano",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-vasari-1550",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Frey 1892",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "identity",
+      "value": {
+        "text": "Sitter of the Washington portrait"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identification of the NGA panel with that portrait, supported by the juniper (ginepro) pun and the reverse emblem.",
+      "sources": [
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Zöllner 2003"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "pe-gusnasco",
+  "type": "person",
+  "label": "Lorenzo Gusnasco da Pavia",
+  "born": "",
+  "died": "1517",
+  "roles": [
+    "instrument maker",
+    "agent of Isabella d'Este in Venice"
+  ],
+  "variants": [
+    "Lorenzo da Pavia"
+  ],
+  "summary": "Instrument maker in Venice and correspondent of Isabella d'Este, who reported seeing Leonardo and a portrait of her in March 1500.",
+  "relations": [
+    {
+      "rel": "related_event",
+      "target": "e-venice",
+      "claim": "c2"
+    },
+    {
+      "rel": "correspondent_of",
+      "target": "pe-isabella",
+      "claim": "c2"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "died",
+      "value": {
+        "text": "1517"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Usually said to have died in 1517.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Lorenzo da Pavia. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Lorenzo_da_Pavia"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Prizer, Isabella d'Este and Lorenzo da Pavia, Early Music History 2 (1982)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "contact",
+      "value": {
+        "text": "Letter to Isabella d'Este from Venice, 13 March 1500",
+        "date": 1500.2,
+        "place": "Venice"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "He wrote that Leonardo was in Venice and had shown him a portrait of Isabella that was very like her. The day 13 March is given in the draft; this round confirmed only 'March 1500'.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Italian Roots newsletter, Isabella d'Este. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://italianroots.beehiiv.com/p/isabella-deste-and-francesco-gonzago-5891"
+        },
+        {
+          "type": "web",
+          "cite": "Cartwright, Isabella d'Este (1903), Heidelberg digital library. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://digi.ub.uni-heidelberg.de/diglit/cartwright1903bd1/0212"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Archivio di Stato di Mantova, Archivio Gonzaga"
+      ]
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Correspondent",
+    "start": 1500.2,
+    "end": 1500.2,
+    "date": "March 1500",
+    "tier": "D",
+    "place": "Venice",
+    "text": "Instrument maker. Wrote to Isabella d'Este that Leonardo was in Venice and had shown him her portrait.",
+    "basis": "Letter of Lorenzo Gusnasco to Isabella d'Este, March 1500."
+  }
+}

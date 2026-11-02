@@ -1,0 +1,84 @@
+{
+  "id": "pe-beatrice-este",
+  "type": "person",
+  "label": "Beatrice d'Este",
+  "born": "29 June 1475",
+  "died": "2 January 1497",
+  "roles": [
+    "Duchess of Milan"
+  ],
+  "summary": "Wife of Ludovico Sforza from 1491, sister of Isabella d'Este.",
+  "relations": [
+    {
+      "rel": "married_to",
+      "target": "pe-ludovico"
+    },
+    {
+      "rel": "sibling_of",
+      "target": "pe-isabella"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "29 June 1475, Ferrara"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born at Ferrara.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "2 January 1497, Milan"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in childbirth in Milan.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Court festivities of 1491"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo's notes record preparations at Galeazzo da Sanseverino's house for a joust (26 January 1491) held for the Sforza and Este weddings. Direct contact with Beatrice is not documented.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Paris MS C, f. 15v (to confirm)",
+        "Richter 1883"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "po-alexander6",
+  "type": "person",
+  "label": "Alexander VI",
+  "subtype": "pope",
+  "born": "1 January 1431",
+  "died": "18 August 1503",
+  "roles": [
+    "pope"
+  ],
+  "variants": [
+    "Rodrigo de Borja"
+  ],
+  "relations": [
+    {
+      "rel": "parent_of",
+      "target": "pe-borgia"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "reign_start",
+      "value": {
+        "text": "elected 11 August 1492",
+        "date": 1492.61
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Elected pope on 11 August 1492.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists",
+        "Annuario Pontificio, list of popes"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "coronation",
+      "value": {
+        "text": "26 August 1492",
+        "date": 1492.65
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Crowned on 26 August 1492. Election and coronation are separate events.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "reign_end",
+      "value": {
+        "text": "died 18 August 1503",
+        "date": 1503.63
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Reign ended with his death on 18 August 1503.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "No documented contact with Leonardo"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "No document records direct contact. Leonardo's service in 1502 to 1503 was with his son Cesare Borgia.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Absence noted in this round; not exhaustive. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, index of names"
+      ]
+    }
+  ]
+}

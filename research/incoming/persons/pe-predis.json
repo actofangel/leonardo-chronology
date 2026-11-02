@@ -1,0 +1,66 @@
+{
+  "id": "pe-predis",
+  "type": "person",
+  "label": "Ambrogio and Evangelista de Predis (group)",
+  "roles": [
+    "group record"
+  ],
+  "relations": [
+    {
+      "rel": "has_member",
+      "target": "pe-ambrogio-predis"
+    },
+    {
+      "rel": "has_member",
+      "target": "pe-evangelista-predis"
+    },
+    {
+      "rel": "related_work",
+      "target": "w-rocks",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "contact",
+      "value": {
+        "text": "Contract of 25 April 1483",
+        "date": 1483.31,
+        "place": "Milan"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "On 25 April 1483 the Confraternity of the Immaculate Conception (prior Bartolomeo Scorlione) contracted Leonardo and the brothers Evangelista and Giovanni Ambrogio de Predis for the painted parts of their altarpiece in San Francesco Grande. Notary: Antonio de' Capitani (to confirm).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Virgin of the Rocks. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Virgin_of_the_Rocks"
+        },
+        {
+          "type": "other",
+          "cite": "National Gallery, London, The commission (Virgin of the Rocks in depth). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://nationalgallery.org.uk/paintings/learn-about-art/paintings-in-depth/mysterious-virgin?viewPage=3"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-syson-2011",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Archivio di Stato di Milano, Notarile, contract of 25 April 1483",
+        "Syson 2011"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Group record of two brothers; separate bars recommended (pe-ambrogio-predis, pe-evangelista-predis). Evangelista died c.1490 to 1491, so the bar to 1508 applies only to Ambrogio."
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "pe-ludovico",
+  "type": "person",
+  "label": "Ludovico Sforza",
+  "born": "27 July 1452",
+  "died": "27 May 1508",
+  "roles": [
+    "regent of Milan from 1480",
+    "Duke of Milan 1494 to 1499"
+  ],
+  "variants": [
+    "Ludovico il Moro"
+  ],
+  "relations": [
+    {
+      "rel": "patron_of",
+      "target": "w-horse"
+    },
+    {
+      "rel": "patron_of",
+      "target": "w-lastsupper"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-letter",
+      "claim": "c3"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-vineyard"
+    },
+    {
+      "rel": "sibling_in_law_of",
+      "target": "pe-isabella"
+    },
+    {
+      "rel": "married_to",
+      "target": "pe-beatrice-este"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "27 July 1452, Vigevano",
+        "date": 1452.57
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born at Vigevano on 27 July 1452.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani, Sforza, Ludovico"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "27 May 1508, Loches",
+        "date": 1508.4
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died a prisoner of the French at the castle of Loches, May 1508.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Leonardo's draft letter offering his services",
+        "start": 1482,
+        "end": 1483
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A draft letter in the Codex Atlanticus, not in Leonardo's usual hand, addressed to the 'Illustrissimo Signor mio', lists military engineering abilities and offers to make the bronze horse. The addressee is identified with Ludovico; the date c.1482 is an estimate.",
+      "sources": [
+        {
+          "ref": "src-pedretti-1978-atlanticus",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-richter-1883",
+          "loc": "section 1340 (to confirm)"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Codex Atlanticus folio (to locate in Pedretti 1978)",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Letter of 29 June 1497 urging completion of the Last Supper",
+        "date": 1497.49
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A ducal memorandum of 29 June 1497 to Marchesino Stanga asks that Leonardo finish the Last Supper so that he can start the other wall of the refectory.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard biographies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, documents of 1497",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "Gift of the vineyard at Porta Vercellina, 1498 to 1499"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Ludovico granted Leonardo a vineyard outside Porta Vercellina; the deed is dated 26 April 1499 in most accounts. Half of it was left to Battista de Vilanis and half to Salai in the will of 1519.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Leonardo da Vinci's Vineyard. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci%27s_Vineyard"
+        },
+        {
+          "type": "web",
+          "cite": "Richter, The Notebooks of Leonardo da Vinci, section 1566 (text of the will, English), online mirror. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.fromoldbooks.org/R.bak/section-22/item-1566.html"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, deed of donation",
+        "Beltrami 1919"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Is the vineyard deed dated 1498 or 26 April 1499? The draft uses 'e-vineyard'."
+  ]
+}

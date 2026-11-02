@@ -1,0 +1,135 @@
+{
+  "id": "pe-agostino-vespucci",
+  "type": "person",
+  "label": "Agostino Vespucci",
+  "born": "",
+  "died": "",
+  "roles": [
+    "clerk of the Florentine chancery",
+    "assistant of Machiavelli"
+  ],
+  "summary": "Florentine chancery official whose marginal note of October 1503 names a head of Lisa del Giocondo by Leonardo.",
+  "relations": [
+    {
+      "rel": "author_of",
+      "target": "e-vespucci",
+      "claim": "c1"
+    },
+    {
+      "rel": "employed_by",
+      "target": "pe-machiavelli"
+    },
+    {
+      "rel": "names",
+      "target": "pe-lisa-gherardini",
+      "claim": "c1"
+    },
+    {
+      "rel": "related_work",
+      "target": "w-monalisa",
+      "claim": "c1"
+    },
+    {
+      "rel": "related_work",
+      "target": "w-anghiari"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "contact",
+      "value": {
+        "text": "Marginal note dated October 1503",
+        "date": 1503.8,
+        "place": "Florence"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "In a copy of Cicero, Epistulae ad familiares (Bologna, 1477), now in Heidelberg University Library, Vespucci wrote beside a passage on Apelles: 'Apelles pictor. Ita Leonardus Vincius facit in omnibus suis picturis, ut enim caput Lise del Giocondo et Anne matris virginis', with mention of the hall of the great council and the date '1503 octobris'. Noticed by librarian Armin Schlechter in 2005; announced 2008. Shelfmark reported as D 7620 qt. INC.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Heidelberg University press release, Mona Lisa's identity established beyond doubt (2008). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://uni-heidelberg.de/press/news/press552e.html"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Agostino Vespucci. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Agostino_Vespucci"
+        },
+        {
+          "type": "other",
+          "cite": "Heidelberg University archive (ART-Dok) item 410, Schlechter's publication on the note. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://archiv.ub.uni-heidelberg.de/artdok/410"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Heidelberg University Library catalogue (confirm shelfmark)",
+        "Schlechter 2005 to 2008 publication",
+        "Burke, Agostino Vespucci's marginal note about Leonardo da Vinci in Heidelberg (Leonardo da Vinci Society Newsletter, 2008)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "content",
+      "value": {
+        "text": "English rendering"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Translation: 'Apelles the painter. So does Leonardo da Vinci in all his pictures, as in the head of Lisa del Giocondo and of Anne, mother of the Virgin.' Translations are interpretations.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Heidelberg University press release, Mona Lisa's identity established beyond doubt (2008). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://uni-heidelberg.de/press/news/press552e.html"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Agostino Vespucci. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Agostino_Vespucci"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Schlechter"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Description of the Battle of Anghiari in the Codex Atlanticus"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A narrative of the battle of Anghiari, in the hand of a chancery writer identified as Agostino Vespucci, is preserved among Leonardo's papers.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Pedretti 1978, folio to locate",
+        "Villata 1999"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Birth and death dates of Agostino Vespucci not found in this round."
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Florentine officials",
+    "start": 1503.75,
+    "end": 1503.83,
+    "date": "October 1503",
+    "tier": "D",
+    "place": "Florence",
+    "text": "Chancery clerk. His marginal note in a printed Cicero names a head of Lisa del Giocondo by Leonardo.",
+    "basis": "Marginal note in Cicero, Ad familiares (1477), Heidelberg University Library."
+  }
+}

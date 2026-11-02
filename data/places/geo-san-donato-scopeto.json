@@ -1,0 +1,17 @@
+{
+  "id": "geo-san-donato-scopeto",
+  "type": "place",
+  "subtype": "building",
+  "label": "San Donato a Scopeto",
+  "within": "geo-florence",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-florence"
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Stub created on 2026-11-02 to resolve links from other entities. Needs research: coordinates, historical role, sources."
+  ]
+}

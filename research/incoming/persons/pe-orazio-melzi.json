@@ -1,0 +1,46 @@
+{
+  "id": "pe-orazio-melzi",
+  "type": "person",
+  "label": "Orazio Melzi",
+  "roles": [
+    "heir of Francesco Melzi"
+  ],
+  "summary": "Son and heir of Francesco Melzi, from whom Pompeo Leoni obtained the bulk of Leonardo's papers.",
+  "relations": [
+    {
+      "rel": "child_of",
+      "target": "pe-melzi"
+    },
+    {
+      "rel": "source_for",
+      "target": "pe-pompeo-leoni"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "relation",
+      "value": {
+        "text": "Heir of the Leonardo papers at Vaprio after c.1570"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "After Francesco Melzi's death (c.1570) the papers passed to his son Orazio; Leoni obtained most of them from him (c.1580 per the Royal Collection; c.1582 to 1590 in its provenance line).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, The Leoni binding (RCIN 933320 page). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://col.rct.uk/collection/933320/the-leoni-binding"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Mazenta, Memorie (ed. Gramatica 1919)",
+        "Clark and Pedretti 1968, introduction"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Orazio Melzi's dates were not found in this round."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "pe-trivulzio",
+  "type": "person",
+  "label": "Gian Giacomo Trivulzio",
+  "born": "c.1440",
+  "died": "5 December 1518",
+  "roles": [
+    "Marshal of France",
+    "condottiere"
+  ],
+  "relations": [
+    {
+      "rel": "commissioned",
+      "target": "w-trivulzio"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "c.1440 or 1441, Milan"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born in Milan about 1440.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "5 December 1518, Chartres"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Died in France (Chartres or Arpajon in different accounts).",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Cost estimate for his tomb monument"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A note in Leonardo's hand in the Codex Atlanticus itemises costs of an equestrian 'sepultura di messer Giovan Jacomo da Trevulzo'.",
+      "sources": [
+        {
+          "ref": "src-richter-1883",
+          "loc": "section 725 (to confirm)"
+        },
+        {
+          "ref": "src-pedretti-1978-atlanticus",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Pedretti 1978, folio to locate"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Will of 1504 providing for a chapel and tomb"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "His will of 1504 provides for a funerary chapel at San Nazaro; linking the Windsor horse studies to it is interpretation.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Clark and Pedretti 1968",
+        "Villata 1999"
+      ]
+    }
+  ]
+}

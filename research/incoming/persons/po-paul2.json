@@ -1,0 +1,100 @@
+{
+  "id": "po-paul2",
+  "type": "person",
+  "label": "Paul II",
+  "subtype": "pope",
+  "born": "23 February 1417",
+  "died": "26 July 1471",
+  "roles": [
+    "pope"
+  ],
+  "variants": [
+    "Pietro Barbo"
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "reign_start",
+      "value": {
+        "text": "elected 30 August 1464",
+        "date": 1464.66
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Elected pope on 30 August 1464.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists",
+        "Annuario Pontificio, list of popes"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "coronation",
+      "value": {
+        "text": "16 September 1464",
+        "date": 1464.71
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Crowned on 16 September 1464. Election and coronation are separate events.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "reign_end",
+      "value": {
+        "text": "died 26 July 1471",
+        "date": 1471.57
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Reign ended with his death on 26 July 1471.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "No documented contact with Leonardo"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "No document records contact between this pope and Leonardo.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Absence noted in this round; not exhaustive. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, index of names"
+      ]
+    }
+  ]
+}

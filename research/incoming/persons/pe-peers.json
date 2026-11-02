@@ -1,0 +1,79 @@
+{
+  "id": "pe-peers",
+  "type": "person",
+  "label": "Perugino and Lorenzo di Credi (group)",
+  "roles": [
+    "group record"
+  ],
+  "relations": [
+    {
+      "rel": "has_member",
+      "target": "pe-perugino"
+    },
+    {
+      "rel": "has_member",
+      "target": "pe-credi"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-david",
+      "claim": "c2"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "identity",
+      "value": {
+        "text": "Group record of two individuals"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "This record bundles two people. Individual entities: pe-perugino and pe-credi.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Inventory structure. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "n/a"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "contact",
+      "value": {
+        "text": "Both sat with Leonardo on the David committee, 25 January 1504",
+        "date": 1504.07,
+        "place": "Florence, Opera del Duomo"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The minutes of the meeting of 25 January 1504 on the placement of Michelangelo's David list Perugino, Lorenzo di Credi and Leonardo among those consulted. This is a documented point of contact; it corrects the draft statement that contact is only inferred from workshop context.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Levine, The Location of Michelangelo's David: The Meeting of January 25, 1504, The Art Bulletin 56 (1974), transcription of the minutes (journal article, peer reviewed). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://cours.univ-paris1.fr/pluginfile.php/1911558/mod_resource/content/1/Levine-LocationMichelangelosDavid-1974.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "Florence 1504 committee lists in secondary sources (The Florentine; Wikipedia 1504 in art). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.theflorentine.net/?p=32042"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Levine 1974 transcription",
+        "Villata 1999, document of 25 January 1504",
+        "Archivio dell'Opera del Duomo, Deliberazioni (to locate)"
+      ],
+      "bearing": "The draft says contact is inferred; a documented meeting exists in 1504, outside the bar's c.1470 to 1482 range."
+    }
+  ],
+  "open_questions": [
+    "This record is a group of two people. Should the chronology show two bars (pe-perugino, pe-credi) instead of one?"
+  ]
+}

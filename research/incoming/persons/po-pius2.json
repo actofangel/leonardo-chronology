@@ -1,0 +1,100 @@
+{
+  "id": "po-pius2",
+  "type": "person",
+  "label": "Pius II",
+  "subtype": "pope",
+  "born": "18 October 1405",
+  "died": "14 August 1464",
+  "roles": [
+    "pope"
+  ],
+  "variants": [
+    "Enea Silvio Piccolomini"
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "reign_start",
+      "value": {
+        "text": "elected 19 August 1458",
+        "date": 1458.63
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Elected pope on 19 August 1458.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists",
+        "Annuario Pontificio, list of popes"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "coronation",
+      "value": {
+        "text": "3 September 1458",
+        "date": 1458.67
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Crowned on 3 September 1458. Election and coronation are separate events.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "reign_end",
+      "value": {
+        "text": "died 14 August 1464, Ancona",
+        "date": 1464.62
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Reign ended with his death on 14 August 1464, Ancona.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "No documented contact with Leonardo"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "No document records contact between this pope and Leonardo.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Absence noted in this round; not exhaustive. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, index of names"
+      ]
+    }
+  ]
+}

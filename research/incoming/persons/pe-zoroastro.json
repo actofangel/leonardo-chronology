@@ -1,0 +1,111 @@
+{
+  "id": "pe-zoroastro",
+  "type": "person",
+  "label": "Tommaso Masini, called Zoroastro",
+  "born": "c.1462",
+  "died": "1520",
+  "roles": [
+    "assistant",
+    "metalworker",
+    "colour grinder"
+  ],
+  "variants": [
+    "Zoroastro da Peretola",
+    "Tommaso di Giovanni Masini"
+  ],
+  "summary": "Assistant of Leonardo from Peretola, known by the nickname Zoroastro.",
+  "relations": [
+    {
+      "rel": "assistant_of",
+      "target": "w-anghiari"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "c.1462, Peretola"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born about 1462 at Peretola near Florence.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Tommaso Masini. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Tommaso_Masini"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "1520, Rome"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Rome in 1520; tomb reported at Sant'Onofrio.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Tommaso Masini. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Tommaso_Masini"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Named as Leonardo's assistant ('garzone') in Milan"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The Anonimo Gaddiano lists 'Zoroastro da Peretola' among Leonardo's assistants in Milan.",
+      "sources": [
+        {
+          "ref": "src-anonimo-gaddiano",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Frey 1892"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Battle of Anghiari payment records, 1505"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Payment records of the Signoria for the Anghiari painting (1505) are said to include Tommaso di Giovanni Masini grinding colours. Not confirmed in this round.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, documents of 1505",
+        "Frey, Studien zu Michelagniolo und zur Kunst seiner Zeit (1909) for the payments"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Locate the 1505 payment entries naming Masini, if they exist."
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "po-innocent8",
+  "type": "person",
+  "label": "Innocent VIII",
+  "subtype": "pope",
+  "born": "1432",
+  "died": "25 July 1492",
+  "roles": [
+    "pope"
+  ],
+  "variants": [
+    "Giovanni Battista Cybo"
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "reign_start",
+      "value": {
+        "text": "elected 29 August 1484",
+        "date": 1484.66
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Elected pope on 29 August 1484.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists",
+        "Annuario Pontificio, list of popes"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "coronation",
+      "value": {
+        "text": "12 September 1484",
+        "date": 1484.7
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Crowned on 12 September 1484. Election and coronation are separate events.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "reign_end",
+      "value": {
+        "text": "died 25 July 1492",
+        "date": 1492.56
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Reign ended with his death on 25 July 1492.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "No documented contact with Leonardo"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "No document records contact between this pope and Leonardo.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Absence noted in this round; not exhaustive. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, index of names"
+      ]
+    }
+  ]
+}

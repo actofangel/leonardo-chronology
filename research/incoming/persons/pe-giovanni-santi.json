@@ -1,0 +1,60 @@
+{
+  "id": "pe-giovanni-santi",
+  "type": "person",
+  "label": "Giovanni Santi",
+  "born": "c.1440",
+  "died": "1 August 1494",
+  "roles": [
+    "painter",
+    "poet"
+  ],
+  "summary": "Painter and poet at Urbino, father of Raphael, whose rhymed chronicle names Leonardo.",
+  "relations": [
+    {
+      "rel": "parent_of",
+      "target": "pe-raphael"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "died",
+      "value": {
+        "text": "1 August 1494, Urbino"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died at Urbino.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Varese, Giovanni Santi (1994)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "contact",
+      "value": {
+        "text": "Names Leonardo in his rhymed chronicle, c.1490"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "His Cronaca rimata lists Leonardo with Perugino as 'due giovin par d'etate e par d'amori'.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Michelini Tocci ed. 1985"
+      ]
+    }
+  ]
+}
