@@ -1,0 +1,43 @@
+{
+  "id": "e-festival",
+  "type": "event",
+  "label": "Amboise festivities",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1518",
+        "start": 1518.4
+      },
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "Later writers credit Leonardo with stage design and machinery for royal festivities at Amboise. The attribution rests on tradition.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Later sources only."
+        }
+      ],
+      "check_in": [],
+      "note": "Evidence tier T: rests on later tradition."
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Court",
+    "start": 1518.4,
+    "date": "1518",
+    "tier": "T",
+    "place": "Amboise",
+    "text": "Later writers credit Leonardo with stage design and machinery for royal festivities at Amboise. The attribution rests on tradition.",
+    "basis": "Later sources only."
+  },
+  "review": {
+    "flags": [
+      "Rests on later sources only. No contemporary document is known to the compiler."
+    ],
+    "sources": []
+  }
+}

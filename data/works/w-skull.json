@@ -1,0 +1,37 @@
+{
+  "id": "w-skull",
+  "type": "work",
+  "subtype": "anatomy",
+  "label": "Skull studies",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "2 April 1489",
+        "start": 1489.25
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Sheets of a skull in section and in several views. A dated inscription marks the drawings.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Dated inscription on the sheets."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Anatomy",
+    "start": 1489.25,
+    "date": "2 April 1489",
+    "tier": "D",
+    "place": "Milan, Windsor",
+    "text": "Sheets of a skull in section and in several views. A dated inscription marks the drawings.",
+    "basis": "Dated inscription on the sheets."
+  }
+}

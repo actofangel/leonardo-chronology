@@ -1,0 +1,38 @@
+{
+  "id": "w-madrid1",
+  "type": "manuscript",
+  "label": "Madrid Codices I and II",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1490 to 1505",
+        "start": 1490,
+        "end": 1505
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Two notebooks on mechanics and geometry, rediscovered in Madrid in 1966. The first belongs to the Milan years, the second to the years in Florence.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Internal dating."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Notebook",
+    "start": 1490,
+    "end": 1505,
+    "date": "c.1490 to 1505",
+    "tier": "S",
+    "place": "Milan and Florence",
+    "text": "Two notebooks on mechanics and geometry, rediscovered in Madrid in 1966. The first belongs to the Milan years, the second to the years in Florence.",
+    "basis": "Internal dating."
+  }
+}

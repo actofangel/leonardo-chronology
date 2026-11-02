@@ -1,0 +1,37 @@
+{
+  "id": "h-francesco-sforza",
+  "type": "event",
+  "subtype": "context",
+  "label": "Death of Francesco Sforza",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "8 March 1466",
+        "start": 1466.18
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Duke of Milan dies and is succeeded by his son Galeazzo Maria Sforza.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies of the period."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "Politics",
+    "start": 1466.18,
+    "date": "8 March 1466",
+    "tier": "D",
+    "place": "Milan",
+    "text": "The Duke of Milan dies and is succeeded by his son Galeazzo Maria Sforza.",
+    "basis": "Standard chronologies of the period."
+  }
+}

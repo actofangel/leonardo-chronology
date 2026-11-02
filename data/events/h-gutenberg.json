@@ -1,0 +1,37 @@
+{
+  "id": "h-gutenberg",
+  "type": "event",
+  "subtype": "context",
+  "label": "Gutenberg Bible",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1455",
+        "start": 1455
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "First major book printed from movable type in Europe. The date is an estimate.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard bibliographical dating."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "Culture",
+    "start": 1455,
+    "date": "c.1455",
+    "tier": "S",
+    "place": "Mainz",
+    "text": "First major book printed from movable type in Europe. The date is an estimate.",
+    "basis": "Standard bibliographical dating."
+  }
+}

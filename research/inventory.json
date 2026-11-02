@@ -1,0 +1,1484 @@
+{
+ "places": [
+  {
+   "id": "pl-vinci",
+   "title": "Vinci",
+   "kind": "Residence",
+   "date": "1452 to c.1464",
+   "place": "Vinci, Tuscany",
+   "tier": "S",
+   "text": "Born near Vinci and raised in the household of his grandfather Antonio and his uncle Francesco. The childhood residence is documented, the move to Florence is dated by estimate.",
+   "basis": "Family note of Antonio da Vinci; 1457 Florentine tax return."
+  },
+  {
+   "id": "pl-flor1a",
+   "title": "Florence, apprentice",
+   "kind": "Residence",
+   "date": "c.1464 to 1472",
+   "place": "Florence",
+   "tier": "S",
+   "text": "Apprenticeship in the workshop of Andrea del Verrocchio. No apprenticeship contract survives, so both ends of this bar are scholarly estimates.",
+   "basis": "Inferred from later records and from workshop practice."
+  },
+  {
+   "id": "pl-flor1b",
+   "title": "Florence, master",
+   "kind": "Residence",
+   "date": "1472 to 1482",
+   "place": "Florence",
+   "tier": "D",
+   "text": "Listed in the painters' company in 1472, recorded in Verrocchio's household in 1476, then commissioned independently in 1478 and 1481.",
+   "basis": "Company of San Luca register; Ufficiali di Notte record, 1476; commission records, 1478 and 1481."
+  },
+  {
+   "id": "pl-milan1",
+   "title": "Milan",
+   "kind": "Residence",
+   "date": "c.1482 to Dec 1499",
+   "place": "Milan",
+   "tier": "S",
+   "text": "Employed at the court of Ludovico Sforza. Presence in Milan is documented from the 1483 Virgin of the Rocks contract. The date of arrival is not recorded.",
+   "basis": "Contract of 25 April 1483; court and cathedral records."
+  },
+  {
+   "id": "pl-mantua",
+   "title": "Mantua, Venice",
+   "kind": "Residence",
+   "date": "Dec 1499 to Apr 1500",
+   "place": "Mantua and Venice",
+   "tier": "D",
+   "text": "After the French conquest of Milan he travelled to Mantua, where he drew Isabella d'Este, and was in Venice by mid March 1500.",
+   "basis": "Letter of Lorenzo Gusnasco to Isabella d'Este, 13 March 1500."
+  },
+  {
+   "id": "pl-flor2a",
+   "title": "Florence",
+   "kind": "Residence",
+   "date": "1500 to 1502",
+   "place": "Florence, Santissima Annunziata",
+   "tier": "D",
+   "text": "Back in Florence by spring 1500, working at the Servite house of Santissima Annunziata. Fra Pietro da Novellara reports on his work in April 1501.",
+   "basis": "Novellara letter of 3 April 1501; financial records."
+  },
+  {
+   "id": "pl-romagna",
+   "title": "Romagna",
+   "kind": "Residence",
+   "date": "Aug 1502 to early 1503",
+   "place": "Imola, Cesena, Urbino and the Romagna",
+   "tier": "D",
+   "text": "Military architect and engineer in the service of Cesare Borgia. Travel through Urbino, Pesaro, Rimini, Cesena and Imola.",
+   "basis": "Passport dated 18 August 1502; maps and notes in his own hand."
+  },
+  {
+   "id": "pl-flor2b",
+   "title": "Florence",
+   "kind": "Residence",
+   "date": "1503 to May 1506",
+   "place": "Florence, Santa Maria Novella",
+   "tier": "D",
+   "text": "Working on the Battle of Anghiari for the Council Hall and, in the same years, on the Mona Lisa and on Arno projects.",
+   "basis": "Commission of 4 May 1504; payment records; his own notes."
+  },
+  {
+   "id": "pl-milan2",
+   "title": "Milan",
+   "kind": "Residence",
+   "date": "1506 to Sep 1513",
+   "place": "Milan, with interludes in Florence and Pavia",
+   "tier": "D",
+   "text": "Called to Milan by Charles d'Amboise in 1506. Returned to Florence for the inheritance dispute in 1507 and 1508, and lived in the Melzi household at Vaprio d'Adda in part of 1513.",
+   "basis": "Florentine leave of absence, 1506; his notes dated Milan; inheritance suit records."
+  },
+  {
+   "id": "pl-rome",
+   "title": "Rome",
+   "kind": "Residence",
+   "date": "Sep 1513 to 1516",
+   "place": "Rome, Belvedere",
+   "tier": "D",
+   "text": "Left Milan for Rome on 24 September 1513 and lived in the Belvedere at the Vatican under Giuliano de' Medici.",
+   "basis": "His own note on the departure; Vatican payment lists."
+  },
+  {
+   "id": "pl-france",
+   "title": "Cloux, Amboise",
+   "kind": "Residence",
+   "date": "late 1516 to 2 May 1519",
+   "place": "Cloux (Clos Lucé), Amboise",
+   "tier": "D",
+   "text": "Lived at the manor of Cloux near the royal château at Amboise. His presence is documented in October 1517 and at the will of April 1519.",
+   "basis": "Travel diary of Antonio de Beatis, 10 October 1517; will of 23 April 1519."
+  }
+ ],
+ "works": [
+  {
+   "id": "w-arno",
+   "title": "Arno valley landscape",
+   "kind": "Drawing",
+   "date": "5 August 1473",
+   "place": "Florence, Uffizi",
+   "tier": "D",
+   "text": "Pen drawing of a river valley with a dated inscription. It is the earliest securely dated sheet by Leonardo.",
+   "basis": "Dated inscription on the sheet."
+  },
+  {
+   "id": "w-baptism",
+   "title": "Baptism of Christ (Verrocchio)",
+   "kind": "Painting",
+   "date": "c.1472 to 1475",
+   "place": "Florence",
+   "tier": "S",
+   "text": "Workshop painting by Verrocchio. Leonardo's hand is generally recognised in the left angel and parts of the landscape. The allocation of passages is a scholarly judgement.",
+   "basis": "Style and technique; attribution of passages."
+  },
+  {
+   "id": "w-annunciation",
+   "title": "Annunciation",
+   "kind": "Painting",
+   "date": "c.1472 to 1476",
+   "place": "Florence",
+   "tier": "S",
+   "text": "Early panel now in the Uffizi, dated by style. Its attribution to Leonardo is widely accepted.",
+   "basis": "Stylistic dating."
+  },
+  {
+   "id": "w-ginevra",
+   "title": "Ginevra de' Benci",
+   "kind": "Painting",
+   "date": "c.1474 to 1478",
+   "place": "Florence",
+   "tier": "S",
+   "text": "Portrait of a young Florentine woman with a juniper motif on the reverse. The dating rests on style and on the identification of the sitter.",
+   "basis": "Stylistic dating; heraldry and emblem on the reverse."
+  },
+  {
+   "id": "w-baroncelli",
+   "title": "Hanged man, Baroncelli",
+   "kind": "Drawing",
+   "date": "29 December 1479",
+   "place": "Florence",
+   "tier": "D",
+   "text": "Study of the hanged conspirator Bernardo di Bandino Baroncelli with notes on his clothing, drawn on the day of the execution.",
+   "basis": "Dated inscription on the sheet."
+  },
+  {
+   "id": "w-carnation",
+   "title": "Madonna of the Carnation",
+   "kind": "Painting",
+   "date": "c.1478 to 1480",
+   "place": "Florence, now Munich",
+   "tier": "S",
+   "text": "Early Madonna panel, dated by style. Some scholars debate the share of workshop assistance.",
+   "basis": "Stylistic dating."
+  },
+  {
+   "id": "w-benois",
+   "title": "Benois Madonna",
+   "kind": "Painting",
+   "date": "c.1478 to 1482",
+   "place": "Florence, now St Petersburg",
+   "tier": "S",
+   "text": "Madonna with a flower held out to the child. Dated by style to the last Florentine years.",
+   "basis": "Stylistic dating."
+  },
+  {
+   "id": "w-magi",
+   "title": "Adoration of the Magi",
+   "kind": "Painting",
+   "date": "1481 to 1482",
+   "place": "Florence, now Uffizi",
+   "tier": "D",
+   "text": "Commissioned in March 1481 by the monks of San Donato a Scopeto and left unfinished when Leonardo moved to Milan. The date of the commission is documented, the state of the underdrawing is a matter for study.",
+   "basis": "Contract of March 1481."
+  },
+  {
+   "id": "w-jerome",
+   "title": "St Jerome",
+   "kind": "Painting",
+   "date": "c.1480 to 1490",
+   "place": "Florence or Milan, now Vatican",
+   "tier": "S",
+   "text": "Unfinished panel in monochrome underpainting. Its dating is disputed between the late Florentine and early Milanese years.",
+   "basis": "Stylistic dating; contested."
+  },
+  {
+   "id": "w-horse",
+   "title": "Sforza horse",
+   "kind": "Engineering",
+   "date": "c.1482 to 1499",
+   "place": "Milan",
+   "tier": "S",
+   "text": "Project for a monumental bronze equestrian statue of Francesco Sforza. A full scale clay model was shown in November 1493 and damaged in 1499. The bronze was never cast.",
+   "basis": "Court correspondence; Leonardo's notes and drawings."
+  },
+  {
+   "id": "w-rocks",
+   "title": "Virgin of the Rocks (Louvre)",
+   "kind": "Painting",
+   "date": "c.1483 to 1486",
+   "place": "Milan, now Louvre",
+   "tier": "S",
+   "text": "The contract with the Confraternity of the Immaculate Conception is dated 25 April 1483. The painting's date within the following years is an estimate. A second version in London was completed later after a legal dispute.",
+   "basis": "Contract of 25 April 1483; stylistic dating."
+  },
+  {
+   "id": "w-musician",
+   "title": "Portrait of a Musician",
+   "kind": "Painting",
+   "date": "c.1485 to 1490",
+   "place": "Milan, Ambrosiana",
+   "tier": "S",
+   "text": "Unfinished male portrait. The face is generally accepted as Leonardo's, while the extent of his participation and the identity of the sitter are debated.",
+   "basis": "Stylistic dating; attribution debated."
+  },
+  {
+   "id": "w-duomo",
+   "title": "Milan Cathedral crossing model",
+   "kind": "Engineering",
+   "date": "1487 to 1490",
+   "place": "Milan",
+   "tier": "D",
+   "text": "Leonardo is paid for a model for the crossing tower of Milan Cathedral and consults on the design.",
+   "basis": "Cathedral building accounts."
+  },
+  {
+   "id": "w-msb",
+   "title": "Paris Manuscript B",
+   "kind": "Notebook",
+   "date": "c.1487 to 1490",
+   "place": "Milan",
+   "tier": "S",
+   "text": "Small notebook with studies of flying machines, fortifications and ideal city design. Now in the Institut de France.",
+   "basis": "Palaeographic and internal dating."
+  },
+  {
+   "id": "w-trivulz",
+   "title": "Codex Trivulzianus",
+   "kind": "Notebook",
+   "date": "c.1487 to 1490",
+   "place": "Milan",
+   "tier": "S",
+   "text": "Notebook with long word lists and architectural sketches, now in Milan.",
+   "basis": "Internal dating."
+  },
+  {
+   "id": "w-skull",
+   "title": "Skull studies",
+   "kind": "Anatomy",
+   "date": "2 April 1489",
+   "place": "Milan, Windsor",
+   "tier": "D",
+   "text": "Sheets of a skull in section and in several views. A dated inscription marks the drawings.",
+   "basis": "Dated inscription on the sheets."
+  },
+  {
+   "id": "w-ermine",
+   "title": "Lady with an Ermine",
+   "kind": "Painting",
+   "date": "c.1489 to 1491",
+   "place": "Milan, now Kraków",
+   "tier": "S",
+   "text": "Portrait of a woman from the Sforza court. The identification as Cecilia Gallerani is an interpretation that rests on the ermine emblem and a contemporary sonnet.",
+   "basis": "Stylistic dating; identification of sitter is interpretive."
+  },
+  {
+   "id": "w-vitruvian",
+   "title": "Vitruvian Man",
+   "kind": "Drawing",
+   "date": "c.1490",
+   "place": "Milan, Venice",
+   "tier": "S",
+   "text": "Pen drawing on proportions after Vitruvius. Dated to about 1490 on stylistic and notebook grounds.",
+   "basis": "Stylistic and notebook dating."
+  },
+  {
+   "id": "w-madrid1",
+   "title": "Madrid Codices I and II",
+   "kind": "Notebook",
+   "date": "c.1490 to 1505",
+   "place": "Milan and Florence",
+   "tier": "S",
+   "text": "Two notebooks on mechanics and geometry, rediscovered in Madrid in 1966. The first belongs to the Milan years, the second to the years in Florence.",
+   "basis": "Internal dating."
+  },
+  {
+   "id": "w-pacioli",
+   "title": "Polyhedra for Pacioli",
+   "kind": "Drawing",
+   "date": "1496 to 1498",
+   "place": "Milan",
+   "tier": "D",
+   "text": "Illustrations of regular and semi regular solids for Luca Pacioli's De divina proportione. Manuscript copies are dated 1498, and the printed book appeared in 1509.",
+   "basis": "Pacioli's dedications; surviving copies."
+  },
+  {
+   "id": "w-lastsupper",
+   "title": "Last Supper",
+   "kind": "Painting",
+   "date": "c.1495 to 1498",
+   "place": "Santa Maria delle Grazie, Milan",
+   "tier": "S",
+   "text": "Wall painting in the refectory. Ducal correspondence of 1497 presses for completion, but the beginning and end of the work are estimates. Its technical condition is a separate question from its dating.",
+   "basis": "Ducal correspondence, 1497; stylistic and technical study."
+  },
+  {
+   "id": "w-asse",
+   "title": "Sala delle Asse",
+   "kind": "Painting",
+   "date": "1498",
+   "place": "Castello Sforzesco, Milan",
+   "tier": "S",
+   "text": "Decoration of the ceiling of a hall in the Sforza castle with interlaced trees. The work is dated by court correspondence to 1498.",
+   "basis": "Court correspondence; later restoration."
+  },
+  {
+   "id": "w-isabella",
+   "title": "Portrait of Isabella d'Este",
+   "kind": "Drawing",
+   "date": "Dec 1499 to early 1500",
+   "place": "Mantua, now Louvre",
+   "tier": "S",
+   "text": "Profile drawing in chalk, made at Mantua. Isabella pressed for a painted version for several years.",
+   "basis": "Correspondence of Isabella d'Este; stylistic dating."
+  },
+  {
+   "id": "w-burlington",
+   "title": "Burlington House Cartoon",
+   "kind": "Drawing",
+   "date": "c.1499 to 1508",
+   "place": "London, National Gallery",
+   "tier": "S",
+   "text": "Large charcoal cartoon of the Virgin, Child, St Anne and St John. The date is disputed between the late Milan years and 1506 to 1508.",
+   "basis": "Stylistic dating; contested."
+  },
+  {
+   "id": "w-salvator",
+   "title": "Salvator Mundi",
+   "kind": "Painting",
+   "date": "c.1499 to 1510",
+   "place": "Milan or Florence",
+   "tier": "S",
+   "text": "Half length Christ with a crystal orb. Attribution to Leonardo is accepted by some scholars and disputed by others.",
+   "basis": "Attribution debated."
+  },
+  {
+   "id": "w-servite",
+   "title": "Servite St Anne cartoon (lost)",
+   "kind": "Drawing",
+   "date": "1500 to 1501",
+   "place": "Santissima Annunziata, Florence",
+   "tier": "S",
+   "text": "Cartoon of the Virgin and St Anne known from descriptions, among them the Novellara letter. The relation to the later compositions is an interpretation.",
+   "basis": "Novellara letter; Vasari."
+  },
+  {
+   "id": "w-yarnwinder",
+   "title": "Madonna of the Yarnwinder",
+   "kind": "Painting",
+   "date": "c.1501 to 1510",
+   "place": "Florence",
+   "tier": "S",
+   "text": "The Novellara letter describes a small Madonna with a yarnwinder commissioned for Florimond Robertet. Surviving versions are not securely tied to that description.",
+   "basis": "Novellara letter; version history debated."
+  },
+  {
+   "id": "w-imola",
+   "title": "Map of Imola",
+   "kind": "Engineering",
+   "date": "1502",
+   "place": "Imola, now Windsor",
+   "tier": "S",
+   "text": "Town plan drawn with surveying methods during his service with Cesare Borgia.",
+   "basis": "Context of the Borgia service."
+  },
+  {
+   "id": "w-monalisa",
+   "title": "Mona Lisa",
+   "kind": "Painting",
+   "date": "c.1503 to 1519",
+   "place": "Florence, later France, now Louvre",
+   "tier": "S",
+   "text": "Portrait of a woman widely identified as Lisa del Giocondo. The Vespucci note of October 1503 is the main contemporary evidence. The painting was probably worked on over many years.",
+   "basis": "Vespucci note, 1503; stylistic and technical study."
+  },
+  {
+   "id": "w-anghiari",
+   "title": "Battle of Anghiari",
+   "kind": "Painting",
+   "date": "1503 to 1506",
+   "place": "Palazzo della Signoria, Florence",
+   "tier": "D",
+   "text": "Wall painting for the Council Hall with a cartoon completed in 1504 and painting begun in 1505. The experiment in oil technique failed and the work was abandoned. It is known from copies.",
+   "basis": "Contract of 4 May 1504; his own note of 6 June 1505."
+  },
+  {
+   "id": "w-flightcodex",
+   "title": "Codex on the Flight of Birds",
+   "kind": "Notebook",
+   "date": "c.1505 to 1506",
+   "place": "Florence, now Turin",
+   "tier": "S",
+   "text": "Notebook on bird flight and flying machines, with the note on a planned flight from Monte Ceceri.",
+   "basis": "Internal dating."
+  },
+  {
+   "id": "w-leda",
+   "title": "Leda and the Swan (lost)",
+   "kind": "Painting",
+   "date": "c.1504 to 1510",
+   "place": "Florence or Milan",
+   "tier": "S",
+   "text": "Known only through copies and drawings. The date of the lost original is estimated from the studies.",
+   "basis": "Copies and preparatory drawings."
+  },
+  {
+   "id": "w-leicester",
+   "title": "Codex Leicester",
+   "kind": "Notebook",
+   "date": "c.1504 to 1510",
+   "place": "Florence and Milan",
+   "tier": "S",
+   "text": "Notebook on water, the Earth and the Moon, with fossil observations.",
+   "basis": "Internal dating."
+  },
+  {
+   "id": "w-anatomy1",
+   "title": "Anatomical studies, Florence",
+   "kind": "Anatomy",
+   "date": "winter 1507 to 1508",
+   "place": "Santa Maria Nuova, Florence",
+   "tier": "S",
+   "text": "Studies after the dissection of an old man at the hospital, according to his own notes on the sheets at Windsor.",
+   "basis": "Windsor drawings and notes."
+  },
+  {
+   "id": "w-trivulzio",
+   "title": "Trivulzio monument",
+   "kind": "Engineering",
+   "date": "c.1507 to 1511",
+   "place": "Milan",
+   "tier": "S",
+   "text": "Design and costing for an equestrian funerary monument for Marshal Gian Giacomo Trivulzio. It was not built.",
+   "basis": "Notes and drawings."
+  },
+  {
+   "id": "w-annelouvre",
+   "title": "Virgin and Child with St Anne",
+   "kind": "Painting",
+   "date": "c.1503 to 1519",
+   "place": "Florence, Milan, France, now Louvre",
+   "tier": "S",
+   "text": "Panel on which he worked over many years. Its date is an estimate that spans the later part of his career.",
+   "basis": "Stylistic and technical study."
+  },
+  {
+   "id": "w-anatomy2",
+   "title": "Anatomical studies, Milan and Pavia",
+   "kind": "Anatomy",
+   "date": "c.1510 to 1513",
+   "place": "Milan and Pavia",
+   "tier": "S",
+   "text": "Windsor sheets on the heart, vessels and the body in motion. The link with Marcantonio della Torre rests on Vasari.",
+   "basis": "Windsor drawings; Vasari."
+  },
+  {
+   "id": "w-baptist",
+   "title": "St John the Baptist",
+   "kind": "Painting",
+   "date": "c.1513 to 1516",
+   "place": "Rome or France, now Louvre",
+   "tier": "S",
+   "text": "Half length figure pointing upward. Dated to the last years by style.",
+   "basis": "Stylistic dating."
+  },
+  {
+   "id": "w-deluge",
+   "title": "Deluge drawings",
+   "kind": "Drawing",
+   "date": "c.1517 to 1518",
+   "place": "Cloux, now Windsor",
+   "tier": "S",
+   "text": "Late series of black chalk drawings of storms and floods.",
+   "basis": "Stylistic dating."
+  },
+  {
+   "id": "w-romorantin",
+   "title": "Romorantin residence and canal",
+   "kind": "Engineering",
+   "date": "1517 to 1519",
+   "place": "Romorantin",
+   "tier": "S",
+   "text": "Project for a royal residence and canal system for Francis I. The surviving sheets are plans and notes, not a built work.",
+   "basis": "Notes and plans."
+  },
+  {
+   "id": "w-atlanticus",
+   "title": "Codex Atlanticus (content)",
+   "kind": "Notebook",
+   "date": "1478 to 1519",
+   "place": "Milan, Biblioteca Ambrosiana",
+   "tier": "S",
+   "text": "A late sixteenth century assembly of sheets by Pompeo Leoni. The sheets themselves date from the whole of Leonardo's active life.",
+   "basis": "Individual sheet datings."
+  }
+ ],
+ "people": [
+  {
+   "id": "pe-piero",
+   "title": "Ser Piero da Vinci",
+   "kind": "Family",
+   "date": "1452 to 1504",
+   "place": "Vinci, Florence",
+   "tier": "D",
+   "text": "Notary and Leonardo's father. Leonardo, born out of wedlock, did not share in his estate.",
+   "basis": "Family notes; tax returns; Leonardo's note of 1504."
+  },
+  {
+   "id": "pe-francesco",
+   "title": "Francesco da Vinci",
+   "kind": "Family",
+   "date": "1452 to 1507",
+   "place": "Vinci",
+   "tier": "D",
+   "text": "Uncle of Leonardo. His will named Leonardo, and the half brothers contested it after his death.",
+   "basis": "Legal records of the dispute."
+  },
+  {
+   "id": "pe-verrocchio",
+   "title": "Andrea del Verrocchio",
+   "kind": "Master",
+   "date": "c.1466 to 1488",
+   "place": "Florence",
+   "tier": "S",
+   "text": "Painter, sculptor and goldsmith whose workshop trained Leonardo. A 1476 record places Leonardo in his household. The start of the relationship is estimated.",
+   "basis": "Ufficiali di Notte record, 1476."
+  },
+  {
+   "id": "pe-peers",
+   "title": "Perugino and Lorenzo di Credi",
+   "kind": "Peers",
+   "date": "overlap, c.1470 to 1482",
+   "place": "Florence",
+   "tier": "S",
+   "text": "Contemporaries in Verrocchio's circle. The bar shows shared workshop years, not a recorded friendship. Contact with Leonardo is inferred from workshop context.",
+   "basis": "Workshop context."
+  },
+  {
+   "id": "pe-lorenzo",
+   "title": "Lorenzo de' Medici",
+   "kind": "Patron",
+   "date": "c.1478 to 1482",
+   "place": "Florence",
+   "tier": "T",
+   "text": "Later biographers place Leonardo in his circle and say he sent him to Milan with a silver lyre. Contemporary evidence is thin.",
+   "basis": "Vasari and the Anonimo Gaddiano."
+  },
+  {
+   "id": "pe-ludovico",
+   "title": "Ludovico Sforza",
+   "kind": "Patron",
+   "date": "c.1482 to 1499",
+   "place": "Milan",
+   "tier": "D",
+   "text": "Duke of Milan and Leonardo's principal patron during the Milan years.",
+   "basis": "Ducal letters and grants."
+  },
+  {
+   "id": "pe-predis",
+   "title": "Ambrogio and Evangelista de Predis",
+   "kind": "Milan circle",
+   "date": "1483 to 1508",
+   "place": "Milan",
+   "tier": "D",
+   "text": "Partners in the 1483 Virgin of the Rocks contract. A long dispute over payment was settled in the later years.",
+   "basis": "Contract of 25 April 1483; later arbitration."
+  },
+  {
+   "id": "pe-bramante",
+   "title": "Donato Bramante",
+   "kind": "Peers",
+   "date": "overlap, c.1482 to 1499",
+   "place": "Milan",
+   "tier": "S",
+   "text": "Architect at the Sforza court. The bar shows the years both were in Milan, not a recorded friendship. Shared interest in central plan churches is traced in Leonardo's sketches. The contact is inferred from overlap in time and subject.",
+   "basis": "Inference from co presence in Milan."
+  },
+  {
+   "id": "pe-boltraffio",
+   "title": "Boltraffio and Marco d'Oggiono",
+   "kind": "Milan circle",
+   "date": "overlap, c.1490 to 1500",
+   "place": "Milan",
+   "tier": "S",
+   "text": "Milanese painters working in the manner of Leonardo. Their status as pupils or associates is debated.",
+   "basis": "Stylistic dependence; workshop traditions."
+  },
+  {
+   "id": "pe-salai",
+   "title": "Salai (Gian Giacomo Caprotti)",
+   "kind": "Household",
+   "date": "1490 to 1519",
+   "place": "Milan, Florence, Rome",
+   "tier": "D",
+   "text": "Joined the household aged ten and remained in his circle for decades. The 1519 will leaves him half of the Milan vineyard.",
+   "basis": "Leonardo's note, 1490; will of 1519."
+  },
+  {
+   "id": "pe-cecilia",
+   "title": "Cecilia Gallerani",
+   "kind": "Court",
+   "date": "c.1489 to 1491",
+   "place": "Milan",
+   "tier": "S",
+   "text": "Identified as the sitter of the Lady with an Ermine. The identification rests on the ermine emblem and a sonnet by Bellincioni.",
+   "basis": "Interpretive identification."
+  },
+  {
+   "id": "pe-pacioli",
+   "title": "Luca Pacioli",
+   "kind": "Mathematician",
+   "date": "1496 to 1500",
+   "place": "Milan, Mantua, Venice",
+   "tier": "D",
+   "text": "Franciscan mathematician at the Sforza court. Leonardo drew the solids for his De divina proportione. Their travel together after 1499 is an inference.",
+   "basis": "Pacioli's dedications; sources on the departure from Milan."
+  },
+  {
+   "id": "pe-isabella",
+   "title": "Isabella d'Este",
+   "kind": "Patron",
+   "date": "1499 to 1506",
+   "place": "Mantua",
+   "tier": "D",
+   "text": "Marchioness of Mantua. She sat for a drawing in 1499 and sought a painting through agents for years.",
+   "basis": "Correspondence of Isabella d'Este."
+  },
+  {
+   "id": "pe-novellara",
+   "title": "Fra Pietro da Novellara",
+   "kind": "Correspondent",
+   "date": "spring 1501",
+   "place": "Florence",
+   "tier": "D",
+   "text": "Carmelite vicar who reported on Leonardo's work to Isabella d'Este.",
+   "basis": "Letter of 3 April 1501."
+  },
+  {
+   "id": "pe-borgia",
+   "title": "Cesare Borgia",
+   "kind": "Patron",
+   "date": "Aug 1502 to early 1503",
+   "place": "Romagna",
+   "tier": "D",
+   "text": "Employed Leonardo as military architect and engineer.",
+   "basis": "Passport of 18 August 1502."
+  },
+  {
+   "id": "pe-machiavelli",
+   "title": "Niccolò Machiavelli",
+   "kind": "Florentine officials",
+   "date": "overlap, 1502 to 1504",
+   "place": "Romagna, Florence",
+   "tier": "S",
+   "text": "Florentine secretary, present at the Borgia court in autumn 1502 and involved in the Arno project. The documents establish overlap, while any personal friendship is an interpretation.",
+   "basis": "Florentine correspondence."
+  },
+  {
+   "id": "pe-soderini",
+   "title": "Pier Soderini",
+   "kind": "Florentine officials",
+   "date": "1502 to 1506",
+   "place": "Florence",
+   "tier": "D",
+   "text": "Head of the Florentine government during the Anghiari commission and the leave of 1506.",
+   "basis": "Government records."
+  },
+  {
+   "id": "pe-lisa",
+   "title": "Lisa Gherardini and Francesco del Giocondo",
+   "kind": "Sitter circle",
+   "date": "1503",
+   "place": "Florence",
+   "tier": "S",
+   "text": "The Vespucci note links Lisa del Giocondo with a portrait by Leonardo. That the Louvre panel is that portrait rests on later sources and scholarly argument.",
+   "basis": "Vespucci note, 1503; Vasari."
+  },
+  {
+   "id": "pe-michelangelo",
+   "title": "Michelangelo Buonarroti",
+   "kind": "Peers",
+   "date": "overlap, 1504 to 1506",
+   "place": "Florence",
+   "tier": "S",
+   "text": "Rival commission in the Council Hall (Battle of Cascina). Both artists were in Florence at the same time, which is documented. The bar shows this overlap, not a recorded friendship. Direct exchange between them is mostly reported by later writers.",
+   "basis": "Commission records; later sources."
+  },
+  {
+   "id": "pe-raphael",
+   "title": "Raphael",
+   "kind": "Peers",
+   "date": "overlap, 1504 to 1508",
+   "place": "Florence",
+   "tier": "S",
+   "text": "In Florence from 1504 until he left for Rome in 1508. The bar shows the years both were in the city, not a recorded friendship. Raphael's drawings after Leonardo's compositions indicate study, which is an inference.",
+   "basis": "Raphael's residence in Florence; drawings and compositional parallels."
+  },
+  {
+   "id": "pe-amboise",
+   "title": "Charles d'Amboise",
+   "kind": "Patron",
+   "date": "1506 to 1511",
+   "place": "Milan",
+   "tier": "D",
+   "text": "French governor of Milan. Asked Florence for Leonardo in 1506 and employed him as painter and engineer.",
+   "basis": "Correspondence between Milan and Florence."
+  },
+  {
+   "id": "pe-melzi",
+   "title": "Francesco Melzi",
+   "kind": "Household",
+   "date": "c.1508 to 1519",
+   "place": "Milan, Rome, Amboise",
+   "tier": "D",
+   "text": "Young Milanese nobleman who became Leonardo's closest assistant and heir. He kept the notebooks after 1519. The start of the relationship is estimated.",
+   "basis": "Will of 1519; Melzi's letter."
+  },
+  {
+   "id": "pe-trivulzio",
+   "title": "Gian Giacomo Trivulzio",
+   "kind": "Patron",
+   "date": "c.1507 to 1511",
+   "place": "Milan",
+   "tier": "S",
+   "text": "Marshal in French service for whom Leonardo planned a funerary monument.",
+   "basis": "Notes and drawings."
+  },
+  {
+   "id": "pe-torre",
+   "title": "Marcantonio della Torre",
+   "kind": "Anatomist",
+   "date": "c.1510 to 1511",
+   "place": "Pavia",
+   "tier": "T",
+   "text": "Vasari reports a collaboration on anatomy. No contemporary document confirms it.",
+   "basis": "Vasari only."
+  },
+  {
+   "id": "pe-giuliano",
+   "title": "Giuliano de' Medici",
+   "kind": "Patron",
+   "date": "1513 to 1516",
+   "place": "Rome",
+   "tier": "D",
+   "text": "Brother of Pope Leo X. Provided Belvedere quarters and payments.",
+   "basis": "Vatican payment lists."
+  },
+  {
+   "id": "pe-francis",
+   "title": "Francis I",
+   "kind": "Patron",
+   "date": "late 1516 to 1519",
+   "place": "Amboise",
+   "tier": "D",
+   "text": "King of France who brought Leonardo to the Loire and housed him at Cloux.",
+   "basis": "French royal documents; will of 1519."
+  },
+  {
+   "id": "pe-beatis",
+   "title": "Antonio de Beatis",
+   "kind": "Visitor",
+   "date": "October 1517",
+   "place": "Cloux",
+   "tier": "D",
+   "text": "Secretary of Cardinal Luigi d'Aragona. His diary records a visit to Leonardo.",
+   "basis": "Travel diary."
+  },
+  {
+   "id": "pe-boreau",
+   "title": "Guillaume Boreau",
+   "kind": "Notary",
+   "date": "April 1519",
+   "place": "Amboise",
+   "tier": "D",
+   "text": "Royal notary who drew up the will.",
+   "basis": "Will of 23 April 1519."
+  }
+ ],
+ "events": [
+  {
+   "id": "e-birth",
+   "title": "Birth",
+   "kind": "Life",
+   "date": "15 April 1452",
+   "place": "Anchiano, near Vinci",
+   "tier": "D",
+   "text": "Born on a Saturday, as recorded by his grandfather Antonio in a family note. Baptised at Vinci.",
+   "basis": "Family note of Antonio da Vinci."
+  },
+  {
+   "id": "e-1457",
+   "title": "Tax return of 1457",
+   "kind": "Life",
+   "date": "1457",
+   "place": "Vinci",
+   "tier": "D",
+   "text": "Antonio da Vinci's tax return lists Leonardo, aged five, as the illegitimate son of Ser Piero and a woman named Caterina.",
+   "basis": "Florentine catasto declaration, 1457."
+  },
+  {
+   "id": "e-verrocchio",
+   "title": "Enters Verrocchio's workshop",
+   "kind": "Training",
+   "date": "c.1466",
+   "place": "Florence",
+   "tier": "S",
+   "text": "The usual estimate places his entry at about age fourteen. No contract survives.",
+   "basis": "Estimate from later biographies and the 1472 guild entry."
+  },
+  {
+   "id": "e-guild",
+   "title": "Painters' company of San Luca",
+   "kind": "Training",
+   "date": "1472",
+   "place": "Florence",
+   "tier": "D",
+   "text": "Enrolled as a painter in the Florentine company of San Luca.",
+   "basis": "Register of the painters' company, 1472."
+  },
+  {
+   "id": "e-denunciation",
+   "title": "Anonymous denunciation",
+   "kind": "Life",
+   "date": "Apr to 7 Jun 1476",
+   "place": "Florence",
+   "tier": "D",
+   "text": "An anonymous accusation naming Leonardo and others was lodged with the Ufficiali di Notte. The case was dismissed on 7 June 1476. The record also places him in Verrocchio's household.",
+   "basis": "Archivio di Stato di Firenze, Ufficiali di Notte."
+  },
+  {
+   "id": "e-chapel",
+   "title": "Chapel of San Bernardo commission",
+   "kind": "Commission",
+   "date": "10 January 1478",
+   "place": "Palazzo della Signoria, Florence",
+   "tier": "D",
+   "text": "First independent public commission: an altarpiece for the chapel of San Bernardo. It was never delivered and was reassigned in 1481.",
+   "basis": "Florentine government records."
+  },
+  {
+   "id": "e-letter",
+   "title": "Letter to Ludovico Sforza",
+   "kind": "Career",
+   "date": "c.1482 to 1483",
+   "place": "Florence or Milan",
+   "tier": "S",
+   "text": "A draft letter offering skills in military engineering and noting his ability as painter and sculptor. Whether it was sent, and exactly when, is not known.",
+   "basis": "Codex Atlanticus; dating is an editorial estimate."
+  },
+  {
+   "id": "e-salai",
+   "title": "Salai enters the household",
+   "kind": "Household",
+   "date": "22 July 1490",
+   "place": "Milan",
+   "tier": "D",
+   "text": "Gian Giacomo Caprotti, called Salai, aged ten, joins the household. Leonardo's note records the cost of his clothes and a list of his thefts.",
+   "basis": "Leonardo's own notebook entry."
+  },
+  {
+   "id": "e-vineyard",
+   "title": "Vineyard granted",
+   "kind": "Career",
+   "date": "1498",
+   "place": "Porta Vercellina, Milan",
+   "tier": "D",
+   "text": "Ludovico Sforza grants Leonardo a vineyard outside the Porta Vercellina. Leonardo later bequeaths it in his will.",
+   "basis": "Ducal grant; will of 1519."
+  },
+  {
+   "id": "e-leaves",
+   "title": "Leaves Milan",
+   "kind": "Travel",
+   "date": "December 1499",
+   "place": "Milan to Mantua",
+   "tier": "S",
+   "text": "Departs for Mantua and Venice, probably in company with Luca Pacioli. Records show 600 florins placed at Santa Maria Nuova in Florence on 14 December 1499.",
+   "basis": "Hospital account of Santa Maria Nuova; the companionship with Pacioli is an inference."
+  },
+  {
+   "id": "e-venice",
+   "title": "In Venice",
+   "kind": "Travel",
+   "date": "by 13 March 1500",
+   "place": "Venice",
+   "tier": "D",
+   "text": "A letter to Isabella d'Este reports that Leonardo is in Venice.",
+   "basis": "Letter of Lorenzo Gusnasco, 13 March 1500."
+  },
+  {
+   "id": "e-novellara",
+   "title": "Novellara letter",
+   "kind": "Correspondence",
+   "date": "3 April 1501",
+   "place": "Florence",
+   "tier": "D",
+   "text": "The Carmelite Fra Pietro da Novellara tells Isabella d'Este that Leonardo is working on a small Madonna with a yarnwinder and has made little progress with the St Anne cartoon.",
+   "basis": "Letter of Fra Pietro da Novellara, 3 April 1501."
+  },
+  {
+   "id": "e-borgia",
+   "title": "Passport from Cesare Borgia",
+   "kind": "Career",
+   "date": "18 August 1502",
+   "place": "Borgia court",
+   "tier": "D",
+   "text": "Cesare Borgia names Leonardo architect and general engineer with free passage through his territories.",
+   "basis": "Passport dated 18 August 1502."
+  },
+  {
+   "id": "e-arno",
+   "title": "Arno diversion project",
+   "kind": "Engineering",
+   "date": "1503 to 1504",
+   "place": "Pisa and the Arno",
+   "tier": "D",
+   "text": "Leonardo advises the Florentine government on diverting the Arno to cut off Pisa. Niccolò Machiavelli was involved on the government side. The works failed in 1504.",
+   "basis": "Florentine government correspondence."
+  },
+  {
+   "id": "e-vespucci",
+   "title": "Vespucci marginal note",
+   "kind": "Correspondence",
+   "date": "October 1503",
+   "place": "Florence",
+   "tier": "D",
+   "text": "Agostino Vespucci notes in a printed book that Leonardo is painting a portrait of Lisa del Giocondo. This note is the principal contemporary link to the Mona Lisa.",
+   "basis": "Marginal note in a volume of Cicero, Heidelberg University Library."
+  },
+  {
+   "id": "e-david",
+   "title": "David placement committee",
+   "kind": "Commission",
+   "date": "25 January 1504",
+   "place": "Florence",
+   "tier": "D",
+   "text": "Leonardo is among the artists consulted on the placement of Michelangelo's David.",
+   "basis": "Minutes of the committee."
+  },
+  {
+   "id": "e-piero",
+   "title": "Death of Ser Piero",
+   "kind": "Life",
+   "date": "9 July 1504",
+   "place": "Florence",
+   "tier": "D",
+   "text": "Leonardo records the death of his father in his own hand. As an illegitimate son he did not share in the estate.",
+   "basis": "Leonardo's own note."
+  },
+  {
+   "id": "e-anghiari",
+   "title": "Begins to paint at the Palazzo",
+   "kind": "Commission",
+   "date": "6 June 1505",
+   "place": "Palazzo della Signoria, Florence",
+   "tier": "D",
+   "text": "His note records the day he began to paint the Battle of Anghiari on the wall of the Council Hall.",
+   "basis": "Leonardo's own note."
+  },
+  {
+   "id": "e-leave",
+   "title": "Leave to Milan",
+   "kind": "Career",
+   "date": "May 1506",
+   "place": "Florence to Milan",
+   "tier": "D",
+   "text": "Charles d'Amboise asks Florence for Leonardo. The republic grants a leave of limited length that is later extended.",
+   "basis": "Florentine records and French correspondence."
+  },
+  {
+   "id": "e-inherit",
+   "title": "Inheritance dispute",
+   "kind": "Life",
+   "date": "1507 to 1508",
+   "place": "Florence",
+   "tier": "D",
+   "text": "After the death of his uncle Francesco, Leonardo's half brothers contest the will. Leonardo returns to Florence for the suit.",
+   "basis": "Legal records of the dispute."
+  },
+  {
+   "id": "e-amboise-death",
+   "title": "Death of Charles d'Amboise",
+   "kind": "Politics",
+   "date": "10 March 1511",
+   "place": "Correggio",
+   "tier": "D",
+   "text": "The French governor of Milan dies, ending a patron relationship begun in 1506.",
+   "basis": "Contemporary records."
+  },
+  {
+   "id": "e-rome-leave",
+   "title": "Departs for Rome",
+   "kind": "Travel",
+   "date": "24 September 1513",
+   "place": "Milan",
+   "tier": "D",
+   "text": "Leonardo notes his departure from Milan for Rome with Melzi, Salai and two assistants.",
+   "basis": "Leonardo's own note."
+  },
+  {
+   "id": "e-lion",
+   "title": "Mechanical lion at Lyon",
+   "kind": "Court",
+   "date": "1515",
+   "place": "Lyon",
+   "tier": "T",
+   "text": "Later writers credit Leonardo with a mechanical lion for the entry of Francis I into Lyon. The attribution rests on tradition.",
+   "basis": "Later sources only."
+  },
+  {
+   "id": "e-giuliano",
+   "title": "Death of Giuliano de' Medici",
+   "kind": "Politics",
+   "date": "17 March 1516",
+   "place": "Florence",
+   "tier": "D",
+   "text": "The patron who housed Leonardo in the Belvedere dies, which opens the way to the French invitation.",
+   "basis": "Contemporary records."
+  },
+  {
+   "id": "e-france",
+   "title": "Moves to France",
+   "kind": "Travel",
+   "date": "late 1516",
+   "place": "Rome to Amboise",
+   "tier": "S",
+   "text": "Leonardo crosses the Alps with Melzi at the invitation of Francis I. The exact date is not recorded.",
+   "basis": "Later documents; the arrival is inferred from 1517."
+  },
+  {
+   "id": "e-beatis",
+   "title": "Beatis visit",
+   "kind": "Visitor",
+   "date": "10 October 1517",
+   "place": "Cloux",
+   "tier": "D",
+   "text": "Antonio de Beatis visits and describes three paintings in the house and Leonardo's paralysed right hand.",
+   "basis": "Travel diary of Antonio de Beatis."
+  },
+  {
+   "id": "e-festival",
+   "title": "Amboise festivities",
+   "kind": "Court",
+   "date": "1518",
+   "place": "Amboise",
+   "tier": "T",
+   "text": "Later writers credit Leonardo with stage design and machinery for royal festivities at Amboise. The attribution rests on tradition.",
+   "basis": "Later sources only."
+  },
+  {
+   "id": "e-will",
+   "title": "Will",
+   "kind": "Life",
+   "date": "23 April 1519",
+   "place": "Cloux",
+   "tier": "D",
+   "text": "Leonardo's will names Francesco Melzi heir to books and instruments and divides the Milan vineyard between Salai and a servant.",
+   "basis": "Notarial act drawn up at Amboise."
+  },
+  {
+   "id": "e-death",
+   "title": "Death",
+   "kind": "Life",
+   "date": "2 May 1519",
+   "place": "Cloux, Amboise",
+   "tier": "D",
+   "text": "Leonardo dies. Melzi announces the death in a letter to the half brothers on 1 June 1519.",
+   "basis": "Melzi's letter; the will."
+  }
+ ],
+ "popes": [
+  {
+   "id": "po-nicholas5",
+   "title": "Nicholas V",
+   "kind": "Papacy",
+   "date": "1447 to 24 March 1455",
+   "place": "Rome",
+   "tier": "D",
+   "text": "Pope at the time of Leonardo's birth. Founded the Vatican Library and began the rebuilding of Rome. Succeeded by Callixtus III.",
+   "basis": "Standard papal chronologies."
+  },
+  {
+   "id": "po-callixtus3",
+   "title": "Callixtus III",
+   "kind": "Papacy",
+   "date": "8 April 1455 to 6 August 1458",
+   "place": "Rome",
+   "tier": "D",
+   "text": "Alfons de Borja, the first Borgia pope and uncle of the future Alexander VI. Elected after Nicholas V and followed by Pius II.",
+   "basis": "Standard papal chronologies."
+  },
+  {
+   "id": "po-pius2",
+   "title": "Pius II",
+   "kind": "Papacy",
+   "date": "19 August 1458 to 14 August 1464",
+   "place": "Rome",
+   "tier": "D",
+   "text": "Enea Silvio Piccolomini, a humanist who tried to organise a crusade after the fall of Constantinople. Died at Ancona and was succeeded by Paul II.",
+   "basis": "Standard papal chronologies."
+  },
+  {
+   "id": "po-paul2",
+   "title": "Paul II",
+   "kind": "Papacy",
+   "date": "30 August 1464 to 26 July 1471",
+   "place": "Rome",
+   "tier": "D",
+   "text": "Pietro Barbo. His reign covers the years of Leonardo's apprenticeship in Florence. Succeeded by Sixtus IV.",
+   "basis": "Standard papal chronologies."
+  },
+  {
+   "id": "po-sixtus4",
+   "title": "Sixtus IV",
+   "kind": "Papacy",
+   "date": "9 August 1471 to 12 August 1484",
+   "place": "Rome",
+   "tier": "D",
+   "text": "Francesco della Rovere. Excommunicated Lorenzo de' Medici after the Pazzi conspiracy of 1478 and placed Florence under interdict, which led to war. Built the Sistine Chapel. His reign spans Leonardo's independent years in Florence and the move to Milan.",
+   "basis": "Standard papal chronologies."
+  },
+  {
+   "id": "po-innocent8",
+   "title": "Innocent VIII",
+   "kind": "Papacy",
+   "date": "29 August 1484 to 25 July 1492",
+   "place": "Rome",
+   "tier": "D",
+   "text": "Giovanni Battista Cybo, allied with Lorenzo de' Medici by marriage. Created Lorenzo's son Giovanni, the later Leo X, a cardinal in 1489.",
+   "basis": "Standard papal chronologies."
+  },
+  {
+   "id": "po-alexander6",
+   "title": "Alexander VI",
+   "kind": "Papacy",
+   "date": "11 August 1492 to 18 August 1503",
+   "place": "Rome",
+   "tier": "D",
+   "text": "Rodrigo Borgia, father of Cesare Borgia, in whose service Leonardo worked in 1502 and 1503. His death in August 1503 ended Cesare's power.",
+   "basis": "Standard papal chronologies."
+  },
+  {
+   "id": "po-pius3",
+   "title": "Pius III",
+   "kind": "Papacy",
+   "date": "22 September to 18 October 1503",
+   "place": "Rome",
+   "tier": "D",
+   "text": "Francesco Todeschini Piccolomini. Reigned for about a month between Alexander VI and Julius II.",
+   "basis": "Standard papal chronologies."
+  },
+  {
+   "id": "po-julius2",
+   "title": "Julius II",
+   "kind": "Papacy",
+   "date": "1 November 1503 to 21 February 1513",
+   "place": "Rome",
+   "tier": "D",
+   "text": "Giuliano della Rovere, an enemy of the Borgias. Commissioned Michelangelo's Sistine ceiling and Raphael's rooms in the Vatican. Leonardo was in Florence and Milan throughout his reign.",
+   "basis": "Standard papal chronologies."
+  },
+  {
+   "id": "po-leo10",
+   "title": "Leo X",
+   "kind": "Papacy",
+   "date": "11 March 1513 to 1 December 1521",
+   "place": "Rome",
+   "tier": "D",
+   "text": "Giovanni de' Medici, son of Lorenzo and brother of Giuliano de' Medici, Leonardo's patron in Rome. The Belvedere years fall in his reign, which ran beyond the end of the chart.",
+   "basis": "Standard papal chronologies."
+  }
+ ],
+ "history": [
+  {
+   "id": "h-constantinople",
+   "title": "Fall of Constantinople",
+   "kind": "Politics",
+   "date": "29 May 1453",
+   "place": "Constantinople",
+   "tier": "D",
+   "text": "Ottoman forces under Mehmed II take the Byzantine capital. Greek scholars and manuscripts move west in the following decades.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-lodi",
+   "title": "Peace of Lodi",
+   "kind": "Politics",
+   "date": "April 1454",
+   "place": "Lombardy",
+   "tier": "D",
+   "text": "Milan and Venice end their war. The settlement underlies the balance among the Italian states for the next four decades.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-gutenberg",
+   "title": "Gutenberg Bible",
+   "kind": "Culture",
+   "date": "c.1455",
+   "place": "Mainz",
+   "tier": "S",
+   "text": "First major book printed from movable type in Europe. The date is an estimate.",
+   "basis": "Standard bibliographical dating."
+  },
+  {
+   "id": "h-francesco-sforza",
+   "title": "Death of Francesco Sforza",
+   "kind": "Politics",
+   "date": "8 March 1466",
+   "place": "Milan",
+   "tier": "D",
+   "text": "The Duke of Milan dies and is succeeded by his son Galeazzo Maria Sforza.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-lorenzo-power",
+   "title": "Lorenzo takes power in Florence",
+   "kind": "Politics",
+   "date": "December 1469",
+   "place": "Florence",
+   "tier": "D",
+   "text": "After the death of his father Piero, Lorenzo de' Medici, aged twenty, becomes the leading figure of the Florentine state.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-galeazzo",
+   "title": "Galeazzo Maria Sforza killed",
+   "kind": "Politics",
+   "date": "26 December 1476",
+   "place": "Milan",
+   "tier": "D",
+   "text": "The duke is assassinated in the church of Santo Stefano. His widow rules for his young son, and the way opens for his brother Ludovico.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-pazzi",
+   "title": "Pazzi conspiracy",
+   "kind": "Politics",
+   "date": "26 April 1478",
+   "place": "Florence Cathedral",
+   "tier": "D",
+   "text": "Giuliano de' Medici is murdered at Mass in the cathedral and Lorenzo is wounded but escapes. Many conspirators are hanged. Bernardo di Bandino Baroncelli, who fled, is brought back and hanged in December 1479, the event Leonardo drew.",
+   "basis": "Standard chronologies; Leonardo's dated drawing of 29 December 1479."
+  },
+  {
+   "id": "h-pazzi-war",
+   "title": "War after the Pazzi plot",
+   "kind": "Politics",
+   "date": "April 1478 to March 1480",
+   "place": "Tuscany and Naples",
+   "tier": "D",
+   "text": "Pope Sixtus IV and Naples fight Florence. Lorenzo travels to Naples in December 1479 and secures peace in March 1480.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-otranto",
+   "title": "Ottomans take Otranto",
+   "kind": "Politics",
+   "date": "11 August 1480",
+   "place": "Apulia",
+   "tier": "D",
+   "text": "Ottoman forces capture the Italian port. The shock helps to end the Pazzi war.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-ludovico-control",
+   "title": "Ludovico takes control in Milan",
+   "kind": "Politics",
+   "date": "autumn 1480",
+   "place": "Milan",
+   "tier": "D",
+   "text": "Ludovico Sforza ends the regency of Cicco Simonetta and becomes the effective ruler of Milan for his nephew Gian Galeazzo.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-sistine-walls",
+   "title": "Sistine Chapel wall frescoes",
+   "kind": "Culture",
+   "date": "c.1481 to 1482",
+   "place": "Rome",
+   "tier": "S",
+   "text": "Florentine painters including Botticelli, Perugino, Ghirlandaio and Cosimo Rosselli are called to Rome by Sixtus IV. Leonardo is not among them.",
+   "basis": "Commission records; dates are approximate."
+  },
+  {
+   "id": "h-granada",
+   "title": "Fall of Granada",
+   "kind": "Politics",
+   "date": "2 January 1492",
+   "place": "Spain",
+   "tier": "D",
+   "text": "The last Muslim kingdom in Iberia falls to Castile and Aragon.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-lorenzo-death",
+   "title": "Death of Lorenzo de' Medici",
+   "kind": "Politics",
+   "date": "8 April 1492",
+   "place": "Careggi, Florence",
+   "tier": "D",
+   "text": "Lorenzo dies and is succeeded by his son Piero.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-columbus",
+   "title": "Columbus reaches the Americas",
+   "kind": "Exploration",
+   "date": "12 October 1492",
+   "place": "Caribbean",
+   "tier": "D",
+   "text": "Christopher Columbus, a Genoese in Spanish service, lands in the Caribbean.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-charles8",
+   "title": "Charles VIII invades Italy",
+   "kind": "War",
+   "date": "September 1494 to October 1495",
+   "place": "Italy",
+   "tier": "D",
+   "text": "Charles VIII of France crosses the Alps, enters Florence and Naples, and then retreats. Italy becomes a battlefield of the French and Spanish crowns for decades.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-ludovico-duke",
+   "title": "Ludovico becomes Duke of Milan",
+   "kind": "Politics",
+   "date": "October 1494",
+   "place": "Milan",
+   "tier": "D",
+   "text": "Gian Galeazzo Sforza dies and Ludovico takes the ducal title.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-medici-expelled",
+   "title": "Medici expelled from Florence",
+   "kind": "Politics",
+   "date": "9 November 1494",
+   "place": "Florence",
+   "tier": "D",
+   "text": "Piero de' Medici flees as the French approach. A republic influenced by Savonarola follows.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-aldine",
+   "title": "Aldine Press, Venice",
+   "kind": "Culture",
+   "date": "c.1494 to 1495",
+   "place": "Venice",
+   "tier": "S",
+   "text": "Aldus Manutius begins to publish Greek and Latin classics in Venice. The starting year is approximate.",
+   "basis": "Standard bibliographical dating."
+  },
+  {
+   "id": "h-savonarola",
+   "title": "Savonarola executed",
+   "kind": "Politics",
+   "date": "23 May 1498",
+   "place": "Florence",
+   "tier": "D",
+   "text": "Girolamo Savonarola is hanged and burned in the Piazza della Signoria.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-milan1499",
+   "title": "French take Milan",
+   "kind": "War",
+   "date": "September 1499",
+   "place": "Milan",
+   "tier": "D",
+   "text": "The army of Louis XII conquers the duchy and Ludovico Sforza flees. Later tradition says French troops damaged the clay model of the Sforza horse.",
+   "basis": "Standard chronologies; the model's fate rests on later sources."
+  },
+  {
+   "id": "h-borgia",
+   "title": "Cesare Borgia in the Romagna",
+   "kind": "War",
+   "date": "late 1499 to August 1503",
+   "place": "Romagna",
+   "tier": "D",
+   "text": "Cesare Borgia conquers the cities of the Romagna with papal and French backing. His power collapses after the death of Alexander VI.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-sistine-ceiling",
+   "title": "Sistine Chapel ceiling",
+   "kind": "Culture",
+   "date": "May 1508 to October 1512",
+   "place": "Rome",
+   "tier": "D",
+   "text": "Michelangelo paints the ceiling for Julius II. It is unveiled on 1 November 1512.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-cambrai",
+   "title": "League of Cambrai",
+   "kind": "War",
+   "date": "December 1508 to May 1509",
+   "place": "Venetian territories",
+   "tier": "D",
+   "text": "The pope, France, Spain and the Empire ally against Venice. The war opens with the battle of Agnadello on 14 May 1509.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-french-out",
+   "title": "French driven from Milan",
+   "kind": "War",
+   "date": "June 1512",
+   "place": "Milan",
+   "tier": "D",
+   "text": "The Holy League expels the French and Massimiliano Sforza is restored in December.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-medici-return",
+   "title": "Medici return to Florence",
+   "kind": "Politics",
+   "date": "September 1512",
+   "place": "Florence",
+   "tier": "D",
+   "text": "The republic falls after the sack of Prato and the Medici come back.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-francis",
+   "title": "Francis I becomes king",
+   "kind": "Politics",
+   "date": "1 January 1515",
+   "place": "France",
+   "tier": "D",
+   "text": "Francis I succeeds Louis XII.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-marignano",
+   "title": "Battle of Marignano",
+   "kind": "War",
+   "date": "13 and 14 September 1515",
+   "place": "Lombardy",
+   "tier": "D",
+   "text": "Francis I defeats the Swiss and takes Milan. He meets Leo X at Bologna in December.",
+   "basis": "Standard chronologies of the period."
+  },
+  {
+   "id": "h-luther",
+   "title": "Ninety five Theses",
+   "kind": "Religion",
+   "date": "31 October 1517",
+   "place": "Wittenberg",
+   "tier": "D",
+   "text": "Martin Luther publishes his theses against indulgences, the usual starting point of the Reformation.",
+   "basis": "Standard chronologies of the period."
+  }
+ ]
+}

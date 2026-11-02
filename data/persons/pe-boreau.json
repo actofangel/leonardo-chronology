@@ -1,0 +1,38 @@
+{
+  "id": "pe-boreau",
+  "type": "person",
+  "label": "Guillaume Boreau",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "April 1519",
+        "start": 1519.31,
+        "end": 1519.4
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Royal notary who drew up the will.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Will of 23 April 1519."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Notary",
+    "start": 1519.31,
+    "end": 1519.4,
+    "date": "April 1519",
+    "tier": "D",
+    "place": "Amboise",
+    "text": "Royal notary who drew up the will.",
+    "basis": "Will of 23 April 1519."
+  }
+}

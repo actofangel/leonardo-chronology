@@ -1,0 +1,38 @@
+{
+  "id": "pe-trivulzio",
+  "type": "person",
+  "label": "Gian Giacomo Trivulzio",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1507 to 1511",
+        "start": 1507.5,
+        "end": 1511.2
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Marshal in French service for whom Leonardo planned a funerary monument.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Notes and drawings."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Patron",
+    "start": 1507.5,
+    "end": 1511.2,
+    "date": "c.1507 to 1511",
+    "tier": "S",
+    "place": "Milan",
+    "text": "Marshal in French service for whom Leonardo planned a funerary monument.",
+    "basis": "Notes and drawings."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "w-msb",
+  "type": "manuscript",
+  "label": "Paris Manuscript B",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1487 to 1490",
+        "start": 1487,
+        "end": 1490
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Small notebook with studies of flying machines, fortifications and ideal city design. Now in the Institut de France.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Palaeographic and internal dating."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Notebook",
+    "start": 1487,
+    "end": 1490,
+    "date": "c.1487 to 1490",
+    "tier": "S",
+    "place": "Milan",
+    "text": "Small notebook with studies of flying machines, fortifications and ideal city design. Now in the Institut de France.",
+    "basis": "Palaeographic and internal dating."
+  }
+}

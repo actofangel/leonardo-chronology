@@ -1,0 +1,44 @@
+{
+  "id": "pe-raphael",
+  "type": "person",
+  "label": "Raphael",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "overlap, 1504 to 1508",
+        "start": 1504.8,
+        "end": 1508.5
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "In Florence from 1504 until he left for Rome in 1508. The bar shows the years both were in the city, not a recorded friendship. Raphael's drawings after Leonardo's compositions indicate study, which is an inference.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Raphael's residence in Florence; drawings and compositional parallels."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Peers",
+    "start": 1504.8,
+    "end": 1508.5,
+    "date": "overlap, 1504 to 1508",
+    "tier": "S",
+    "place": "Florence",
+    "text": "In Florence from 1504 until he left for Rome in 1508. The bar shows the years both were in the city, not a recorded friendship. Raphael's drawings after Leonardo's compositions indicate study, which is an inference.",
+    "basis": "Raphael's residence in Florence; drawings and compositional parallels."
+  },
+  "review": {
+    "flags": [
+      "The bar shows an overlap in time and place. It does not record a relationship."
+    ],
+    "sources": []
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "e-birth",
+  "type": "event",
+  "label": "Birth",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "15 April 1452",
+        "start": 1452.29
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Born on a Saturday, as recorded by his grandfather Antonio in a family note. Baptised at Vinci.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Family note of Antonio da Vinci."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Life",
+    "start": 1452.29,
+    "date": "15 April 1452",
+    "tier": "D",
+    "place": "Anchiano, near Vinci",
+    "text": "Born on a Saturday, as recorded by his grandfather Antonio in a family note. Baptised at Vinci.",
+    "basis": "Family note of Antonio da Vinci."
+  },
+  "review": {
+    "flags": [
+      "The place Anchiano follows local tradition. As recalled, Antonio's note names Vinci and not Anchiano. Check the edition."
+    ],
+    "history": [
+      {
+        "at": "2026-10-09",
+        "by": "claude, model recall",
+        "note": "Raised while drafting."
+      }
+    ],
+    "sources": []
+  }
+}

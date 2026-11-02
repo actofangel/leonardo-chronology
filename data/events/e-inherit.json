@@ -1,0 +1,36 @@
+{
+  "id": "e-inherit",
+  "type": "event",
+  "label": "Inheritance dispute",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1507 to 1508",
+        "start": 1507.5
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "After the death of his uncle Francesco, Leonardo's half brothers contest the will. Leonardo returns to Florence for the suit.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Legal records of the dispute."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Life",
+    "start": 1507.5,
+    "date": "1507 to 1508",
+    "tier": "D",
+    "place": "Florence",
+    "text": "After the death of his uncle Francesco, Leonardo's half brothers contest the will. Leonardo returns to Florence for the suit.",
+    "basis": "Legal records of the dispute."
+  }
+}

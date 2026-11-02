@@ -1,0 +1,39 @@
+{
+  "id": "pl-vinci",
+  "type": "event",
+  "subtype": "residence",
+  "label": "Vinci",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1452 to c.1464",
+        "start": 1452.29,
+        "end": 1464
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Born near Vinci and raised in the household of his grandfather Antonio and his uncle Francesco. The childhood residence is documented, the move to Florence is dated by estimate.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Family note of Antonio da Vinci; 1457 Florentine tax return."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "places",
+    "kind": "Residence",
+    "start": 1452.29,
+    "end": 1464,
+    "date": "1452 to c.1464",
+    "tier": "S",
+    "place": "Vinci, Tuscany",
+    "text": "Born near Vinci and raised in the household of his grandfather Antonio and his uncle Francesco. The childhood residence is documented, the move to Florence is dated by estimate.",
+    "basis": "Family note of Antonio da Vinci; 1457 Florentine tax return."
+  }
+}

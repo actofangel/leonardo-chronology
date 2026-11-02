@@ -1,0 +1,42 @@
+{
+  "id": "e-chapel",
+  "type": "event",
+  "label": "Chapel of San Bernardo commission",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "10 January 1478",
+        "start": 1478.03
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "First independent public commission: an altarpiece for the chapel of San Bernardo. It was never delivered and was reassigned in 1481.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Florentine government records."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Commission",
+    "start": 1478.03,
+    "date": "10 January 1478",
+    "tier": "D",
+    "place": "Palazzo della Signoria, Florence",
+    "text": "First independent public commission: an altarpiece for the chapel of San Bernardo. It was never delivered and was reassigned in 1481.",
+    "basis": "Florentine government records."
+  },
+  "review": {
+    "flags": [
+      "The reassignment in 1481 is recalled. Confirm it."
+    ],
+    "sources": []
+  }
+}

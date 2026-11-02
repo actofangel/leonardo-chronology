@@ -1,0 +1,39 @@
+{
+  "id": "pl-romagna",
+  "type": "event",
+  "subtype": "residence",
+  "label": "Romagna",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "Aug 1502 to early 1503",
+        "start": 1502.6,
+        "end": 1503.2
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Military architect and engineer in the service of Cesare Borgia. Travel through Urbino, Pesaro, Rimini, Cesena and Imola.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Passport dated 18 August 1502; maps and notes in his own hand."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "places",
+    "kind": "Residence",
+    "start": 1502.6,
+    "end": 1503.2,
+    "date": "Aug 1502 to early 1503",
+    "tier": "D",
+    "place": "Imola, Cesena, Urbino and the Romagna",
+    "text": "Military architect and engineer in the service of Cesare Borgia. Travel through Urbino, Pesaro, Rimini, Cesena and Imola.",
+    "basis": "Passport dated 18 August 1502; maps and notes in his own hand."
+  }
+}

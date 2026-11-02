@@ -1,0 +1,39 @@
+{
+  "id": "po-pius2",
+  "type": "person",
+  "subtype": "pope",
+  "label": "Pius II",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "19 August 1458 to 14 August 1464",
+        "start": 1458.63,
+        "end": 1464.62
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Enea Silvio Piccolomini, a humanist who tried to organise a crusade after the fall of Constantinople. Died at Ancona and was succeeded by Paul II.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard papal chronologies."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "popes",
+    "kind": "Papacy",
+    "start": 1458.63,
+    "end": 1464.62,
+    "date": "19 August 1458 to 14 August 1464",
+    "tier": "D",
+    "place": "Rome",
+    "text": "Enea Silvio Piccolomini, a humanist who tried to organise a crusade after the fall of Constantinople. Died at Ancona and was succeeded by Paul II.",
+    "basis": "Standard papal chronologies."
+  }
+}

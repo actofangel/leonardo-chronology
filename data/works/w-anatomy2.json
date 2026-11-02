@@ -1,0 +1,39 @@
+{
+  "id": "w-anatomy2",
+  "type": "work",
+  "subtype": "anatomy",
+  "label": "Anatomical studies, Milan and Pavia",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1510 to 1513",
+        "start": 1510,
+        "end": 1513
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Windsor sheets on the heart, vessels and the body in motion. The link with Marcantonio della Torre rests on Vasari.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Windsor drawings; Vasari."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Anatomy",
+    "start": 1510,
+    "end": 1513,
+    "date": "c.1510 to 1513",
+    "tier": "S",
+    "place": "Milan and Pavia",
+    "text": "Windsor sheets on the heart, vessels and the body in motion. The link with Marcantonio della Torre rests on Vasari.",
+    "basis": "Windsor drawings; Vasari."
+  }
+}

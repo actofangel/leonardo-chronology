@@ -1,0 +1,39 @@
+{
+  "id": "po-julius2",
+  "type": "person",
+  "subtype": "pope",
+  "label": "Julius II",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1 November 1503 to 21 February 1513",
+        "start": 1503.84,
+        "end": 1513.14
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Giuliano della Rovere, an enemy of the Borgias. Commissioned Michelangelo's Sistine ceiling and Raphael's rooms in the Vatican. Leonardo was in Florence and Milan throughout his reign.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard papal chronologies."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "popes",
+    "kind": "Papacy",
+    "start": 1503.84,
+    "end": 1513.14,
+    "date": "1 November 1503 to 21 February 1513",
+    "tier": "D",
+    "place": "Rome",
+    "text": "Giuliano della Rovere, an enemy of the Borgias. Commissioned Michelangelo's Sistine ceiling and Raphael's rooms in the Vatican. Leonardo was in Florence and Milan throughout his reign.",
+    "basis": "Standard papal chronologies."
+  }
+}

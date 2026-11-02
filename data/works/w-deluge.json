@@ -1,0 +1,39 @@
+{
+  "id": "w-deluge",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Deluge drawings",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1517 to 1518",
+        "start": 1517,
+        "end": 1518.5
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Late series of black chalk drawings of storms and floods.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Stylistic dating."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Drawing",
+    "start": 1517,
+    "end": 1518.5,
+    "date": "c.1517 to 1518",
+    "tier": "S",
+    "place": "Cloux, now Windsor",
+    "text": "Late series of black chalk drawings of storms and floods.",
+    "basis": "Stylistic dating."
+  }
+}

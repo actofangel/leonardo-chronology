@@ -1,0 +1,36 @@
+{
+  "id": "e-rome-leave",
+  "type": "event",
+  "label": "Departs for Rome",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "24 September 1513",
+        "start": 1513.72
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Leonardo notes his departure from Milan for Rome with Melzi, Salai and two assistants.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Leonardo's own note."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Travel",
+    "start": 1513.72,
+    "date": "24 September 1513",
+    "tier": "D",
+    "place": "Milan",
+    "text": "Leonardo notes his departure from Milan for Rome with Melzi, Salai and two assistants.",
+    "basis": "Leonardo's own note."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "h-galeazzo",
+  "type": "event",
+  "subtype": "context",
+  "label": "Galeazzo Maria Sforza killed",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "26 December 1476",
+        "start": 1476.99
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The duke is assassinated in the church of Santo Stefano. His widow rules for his young son, and the way opens for his brother Ludovico.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies of the period."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "Politics",
+    "start": 1476.99,
+    "date": "26 December 1476",
+    "tier": "D",
+    "place": "Milan",
+    "text": "The duke is assassinated in the church of Santo Stefano. His widow rules for his young son, and the way opens for his brother Ludovico.",
+    "basis": "Standard chronologies of the period."
+  }
+}

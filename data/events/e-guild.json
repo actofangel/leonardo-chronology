@@ -1,0 +1,36 @@
+{
+  "id": "e-guild",
+  "type": "event",
+  "label": "Painters' company of San Luca",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1472",
+        "start": 1472
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Enrolled as a painter in the Florentine company of San Luca.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Register of the painters' company, 1472."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Training",
+    "start": 1472,
+    "date": "1472",
+    "tier": "D",
+    "place": "Florence",
+    "text": "Enrolled as a painter in the Florentine company of San Luca.",
+    "basis": "Register of the painters' company, 1472."
+  }
+}

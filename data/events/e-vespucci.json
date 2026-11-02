@@ -1,0 +1,36 @@
+{
+  "id": "e-vespucci",
+  "type": "event",
+  "label": "Vespucci marginal note",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "October 1503",
+        "start": 1503.8
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Agostino Vespucci notes in a printed book that Leonardo is painting a portrait of Lisa del Giocondo. This note is the principal contemporary link to the Mona Lisa.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Marginal note in a volume of Cicero, Heidelberg University Library."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Correspondence",
+    "start": 1503.8,
+    "date": "October 1503",
+    "tier": "D",
+    "place": "Florence",
+    "text": "Agostino Vespucci notes in a printed book that Leonardo is painting a portrait of Lisa del Giocondo. This note is the principal contemporary link to the Mona Lisa.",
+    "basis": "Marginal note in a volume of Cicero, Heidelberg University Library."
+  }
+}

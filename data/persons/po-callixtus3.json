@@ -1,0 +1,39 @@
+{
+  "id": "po-callixtus3",
+  "type": "person",
+  "subtype": "pope",
+  "label": "Callixtus III",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "8 April 1455 to 6 August 1458",
+        "start": 1455.27,
+        "end": 1458.6
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Alfons de Borja, the first Borgia pope and uncle of the future Alexander VI. Elected after Nicholas V and followed by Pius II.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard papal chronologies."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "popes",
+    "kind": "Papacy",
+    "start": 1455.27,
+    "end": 1458.6,
+    "date": "8 April 1455 to 6 August 1458",
+    "tier": "D",
+    "place": "Rome",
+    "text": "Alfons de Borja, the first Borgia pope and uncle of the future Alexander VI. Elected after Nicholas V and followed by Pius II.",
+    "basis": "Standard papal chronologies."
+  }
+}

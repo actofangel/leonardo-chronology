@@ -1,0 +1,39 @@
+{
+  "id": "w-ermine",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Lady with an Ermine",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1489 to 1491",
+        "start": 1489,
+        "end": 1491
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Portrait of a woman from the Sforza court. The identification as Cecilia Gallerani is an interpretation that rests on the ermine emblem and a contemporary sonnet.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Stylistic dating; identification of sitter is interpretive."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1489,
+    "end": 1491,
+    "date": "c.1489 to 1491",
+    "tier": "S",
+    "place": "Milan, now Kraków",
+    "text": "Portrait of a woman from the Sforza court. The identification as Cecilia Gallerani is an interpretation that rests on the ermine emblem and a contemporary sonnet.",
+    "basis": "Stylistic dating; identification of sitter is interpretive."
+  }
+}

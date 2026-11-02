@@ -1,0 +1,165 @@
+{
+  "id": "pe-melzi",
+  "type": "person",
+  "label": "Francesco Melzi",
+  "variants": [
+    "Francesco da Melzo",
+    "Giovan Francesco Melzi"
+  ],
+  "summary": "Milanese nobleman from Vaprio d'Adda, Leonardo's assistant from about 1508, executor and heir to his books and instruments, and compiler of the Libro di pittura from the notebooks.",
+  "relations": [
+    {
+      "rel": "appears_in",
+      "target": "pl-milan2"
+    },
+    {
+      "rel": "appears_in",
+      "target": "e-rome-leave"
+    },
+    {
+      "rel": "appears_in",
+      "target": "e-france"
+    },
+    {
+      "rel": "appears_in",
+      "target": "e-will"
+    },
+    {
+      "rel": "appears_in",
+      "target": "e-death"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1508 to 1519",
+        "start": 1508.5,
+        "end": 1519.34
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Young Milanese nobleman who became Leonardo's closest assistant and heir. He kept the notebooks after 1519. The start of the relationship is estimated.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Will of 1519; Melzi's letter."
+        }
+      ],
+      "check_in": []
+    },
+    {
+      "id": "mel-1",
+      "about": "born",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Sources disagree on his year of birth: about 1490, about 1491, and 1493 are all given. The usual later span is 1493 to about 1570.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "National Gallery, London, Leonardo's legacy: Francesco Melzi and the Leonardeschi.",
+          "url": "https://www.nationalgallery.org.uk/paintings/leonardo-s-legacy-francesco-melzi-and-the-leonardeschi"
+        },
+        {
+          "type": "web",
+          "cite": "Catholic Encyclopedia (1913), Francesco Melzi.",
+          "url": "https://www.newadvent.org/cathen/10171b.htm"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering Da Vinci, Francesco Melzi.",
+          "url": "https://discoveringdavinci.com/notebooks/researchers/melzi.html"
+        }
+      ],
+      "check_in": [
+        "a dated inscription by Melzi giving his age",
+        "the Melzi family records as published in a monograph"
+      ]
+    },
+    {
+      "id": "mel-2",
+      "about": "relation",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "His association with Leonardo is first documented in Milan around 1508. Some accounts place his entry into the workshop between 1505 and 1508. The chronology's start of c.1508 matches the more cautious reading.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Musée du Louvre, Léonard de Vinci 2019, exhibition pages.",
+          "url": "https://mini-site.louvre.fr/trimestriel/2019/l%c3%a9onard_de_vinciGB/111/"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering Da Vinci, Melzi.",
+          "url": "https://discoveringdavinci.com/cast/melzi.html"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, documents of 1507 to 1508",
+        "Leonardo's draft letter to Melzi, Richter edition (number to locate)"
+      ]
+    },
+    {
+      "id": "mel-3",
+      "about": "identity",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A 1519 notarial document names him as M. Francesco da Melzo, a gentleman of Milan.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Amoretti, Memorie storiche su la vita, gli studj e le opere di Lionardo da Vinci (1804), page image on Wikisource.",
+          "url": "https://it.wikisource.org/wiki/Pagina:Memorie_storiche_su_la_vita_gli_studj_e_le_opere_di_Lionardo_da_Vinci.djvu/132"
+        }
+      ],
+      "check_in": [
+        "Villata 1999 or Beltrami 1919, text of the will of 23 April 1519"
+      ]
+    },
+    {
+      "id": "mel-4",
+      "about": "content",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "After Leonardo's death he compiled the treatise on painting from the notebooks, the text preserved in the Codex Urbinas. Work on it is placed between the 1520s and the 1550s.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Museo Galileo, The three years in France (1516 to 1519).",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/TheThreeYearsFrance.html"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering Da Vinci, Melzi.",
+          "url": "https://discoveringdavinci.com/cast/melzi.html"
+        }
+      ],
+      "check_in": [
+        "Pedretti's studies of the Codex Urbinas"
+      ]
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Household",
+    "start": 1508.5,
+    "end": 1519.34,
+    "date": "c.1508 to 1519",
+    "tier": "D",
+    "place": "Milan, Rome, Amboise",
+    "text": "Young Milanese nobleman who became Leonardo's closest assistant and heir. He kept the notebooks after 1519. The start of the relationship is estimated.",
+    "basis": "Will of 1519; Melzi's letter."
+  },
+  "review": {
+    "flags": [
+      "The start of the relationship is estimated."
+    ],
+    "sources": []
+  },
+  "open_questions": [
+    "The chronology dates Melzi's letter announcing the death to 1 June 1519. This round did not confirm the day. Check the text of the letter in Villata or Beltrami.",
+    "Which document fixes the start of the relationship? Without one, the bar's start stays an estimate."
+  ]
+}

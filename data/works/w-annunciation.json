@@ -1,0 +1,39 @@
+{
+  "id": "w-annunciation",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Annunciation",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1472 to 1476",
+        "start": 1472.5,
+        "end": 1476
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Early panel now in the Uffizi, dated by style. Its attribution to Leonardo is widely accepted.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Stylistic dating."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1472.5,
+    "end": 1476,
+    "date": "c.1472 to 1476",
+    "tier": "S",
+    "place": "Florence",
+    "text": "Early panel now in the Uffizi, dated by style. Its attribution to Leonardo is widely accepted.",
+    "basis": "Stylistic dating."
+  }
+}

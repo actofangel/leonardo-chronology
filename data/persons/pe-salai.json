@@ -1,0 +1,147 @@
+{
+  "id": "pe-salai",
+  "type": "person",
+  "label": "Salai (Gian Giacomo Caprotti)",
+  "variants": [
+    "Salai",
+    "Salaì",
+    "Giacomo",
+    "Andrea Salaì (later usage)"
+  ],
+  "summary": "Joined Leonardo's household at about ten in 1490 and stayed in his circle for most of the rest of his life. Left a share of the Milan vineyard in the will. Died in Milan in 1524.",
+  "relations": [
+    {
+      "rel": "appears_in",
+      "target": "e-salai"
+    },
+    {
+      "rel": "appears_in",
+      "target": "e-rome-leave"
+    },
+    {
+      "rel": "appears_in",
+      "target": "e-will"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1490 to 1519",
+        "start": 1490.55,
+        "end": 1519.34
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Joined the household aged ten and remained in his circle for decades. The 1519 will leaves him half of the Milan vineyard.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Leonardo's note, 1490; will of 1519."
+        }
+      ],
+      "check_in": []
+    },
+    {
+      "id": "sal-1",
+      "about": "relation",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo's notes record his entry into the household in 1490 at about ten years old, the cost of his clothes, and several thefts. One account counts at least five. Leonardo calls him thief, liar, obstinate and greedy.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, Gian Giacomo Caprotti known as the Salaì.",
+          "url": "https://finestresullarte.info/en/works-and-artists/gian-giacomo-caprotti-known-as-the-salai-the-thief-and-liar-pupil-of-leonardo-da-vinci"
+        }
+      ],
+      "check_in": [
+        "the notebook folio (recalled as Paris Manuscript C, to confirm) in a manuscript edition",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "sal-2",
+      "about": "died",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Milan on 19 January 1524, a violent death. The cause is reported as a gunshot in one source and a crossbow wound in another.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, Italian edition.",
+          "url": "https://www.finestresullarte.info/opere-e-artisti/salai-gian-giacomo-caprotti-allievo-ladro-e-bugiardo-di-leonardo-da-vinci"
+        },
+        {
+          "type": "web",
+          "cite": "Panorama, on Salaì.",
+          "url": "https://www.panorama.it/lifestyle/salai-leonardo-da-vinci-capolavoro"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering Da Vinci, Salai.",
+          "url": "https://discoveringdavinci.com/cast/salai.html"
+        }
+      ],
+      "check_in": [
+        "Shell and Sironi 1991 (see sal-3)"
+      ]
+    },
+    {
+      "id": "sal-3",
+      "about": "provenance",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "An inventory of his property dated 21 April 1525, in the Archivio di Stato di Milano, lists paintings including a Leda and an unfinished Christ at the Column. It was published by Janice Shell, with Grazioso Sironi, in 1991.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Finestre sull'Arte, Gian Giacomo Caprotti known as the Salaì.",
+          "url": "https://finestresullarte.info/en/works-and-artists/gian-giacomo-caprotti-known-as-the-salai-the-thief-and-liar-pupil-of-leonardo-da-vinci"
+        },
+        {
+          "type": "model_recall",
+          "cite": "Shell, Janice, and Grazioso Sironi, 'Salaì and Leonardo's legacy', Burlington Magazine 133 (1991). Recalled, not confirmed in this round."
+        }
+      ],
+      "check_in": [
+        "Shell and Sironi 1991, Burlington Magazine (archive publication of the inventory)"
+      ]
+    },
+    {
+      "id": "sal-4",
+      "about": "provenance",
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Readings of the 1525 inventory that identify its entries with surviving Leonardo paintings, such as the Mona Lisa, are interpretations. One popular source states them as fact.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Discovering Da Vinci, Salai.",
+          "url": "https://discoveringdavinci.com/cast/salai.html"
+        }
+      ],
+      "check_in": [
+        "Shell and Sironi 1991",
+        "Marani or Zöllner on the provenance of the paintings concerned"
+      ]
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Household",
+    "start": 1490.55,
+    "end": 1519.34,
+    "date": "1490 to 1519",
+    "tier": "D",
+    "place": "Milan, Florence, Rome",
+    "text": "Joined the household aged ten and remained in his circle for decades. The 1519 will leaves him half of the Milan vineyard.",
+    "basis": "Leonardo's note, 1490; will of 1519."
+  },
+  "open_questions": [
+    "Was Salaì in France at Leonardo's death? The People bar runs to 2 May 1519, which implies continuous presence.",
+    "His death in 1524 falls outside the chart's range (1450 to 1520). Record it here only, or widen the range?"
+  ]
+}

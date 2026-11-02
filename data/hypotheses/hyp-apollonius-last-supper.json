@@ -1,0 +1,23 @@
+{
+  "id": "hyp-apollonius-last-supper",
+  "type": "hypothesis",
+  "label": "Apollonius circle in the Last Supper",
+  "status": "working_hypothesis",
+  "proposed_by": "the researcher (project working hypothesis)",
+  "statement": "Leonardo embedded the constructive properties of the Apollonius circle in the composition of the Last Supper.",
+  "scope": "Geometric construction layer of the three layer analysis model. Claims of correspondence with the symbol and attribute layer or the painted surface layer belong to the interpretive layer.",
+  "relations": [ { "rel": "concerns", "target": "w-lastsupper" } ],
+  "assumes": [],
+  "supports": [],
+  "against": [],
+  "falsified_if": [
+    "Proposed by Claude, for the researcher to accept or replace: on a rectified, high resolution image that accounts for losses and restoration, the points used in the construction do not satisfy the Apollonius ratio within the stated measurement error.",
+    "Proposed by Claude: physical traces documented in technical studies of the mural (incisions, the nail hole at the vanishing point, underdrawing) are incompatible with the proposed construction sequence.",
+    "Proposed by Claude: an equal or higher rate of fit is obtained for comparable point sets in control compositions of the period (base rate test), so the fit does not distinguish the Last Supper."
+  ],
+  "open_questions": [
+    "Which edition or transmission of Apollonius, or of a text reporting the circle property, could Leonardo or Pacioli have known in Milan in the 1490s?",
+    "Define the measurement protocol and the image source before any fit is computed, so the test cannot be tuned after the fact."
+  ],
+  "claims": []
+}

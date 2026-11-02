@@ -1,0 +1,38 @@
+{
+  "id": "pe-amboise",
+  "type": "person",
+  "label": "Charles d'Amboise",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1506 to 1511",
+        "start": 1506.4,
+        "end": 1511.19
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "French governor of Milan. Asked Florence for Leonardo in 1506 and employed him as painter and engineer.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Correspondence between Milan and Florence."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Patron",
+    "start": 1506.4,
+    "end": 1511.19,
+    "date": "1506 to 1511",
+    "tier": "D",
+    "place": "Milan",
+    "text": "French governor of Milan. Asked Florence for Leonardo in 1506 and employed him as painter and engineer.",
+    "basis": "Correspondence between Milan and Florence."
+  }
+}

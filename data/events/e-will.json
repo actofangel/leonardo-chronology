@@ -1,0 +1,36 @@
+{
+  "id": "e-will",
+  "type": "event",
+  "label": "Will",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "23 April 1519",
+        "start": 1519.31
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Leonardo's will names Francesco Melzi heir to books and instruments and divides the Milan vineyard between Salai and a servant.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Notarial act drawn up at Amboise."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Life",
+    "start": 1519.31,
+    "date": "23 April 1519",
+    "tier": "D",
+    "place": "Cloux",
+    "text": "Leonardo's will names Francesco Melzi heir to books and instruments and divides the Milan vineyard between Salai and a servant.",
+    "basis": "Notarial act drawn up at Amboise."
+  }
+}

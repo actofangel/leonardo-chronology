@@ -1,0 +1,22 @@
+{
+  "id": "hyp-latin-lexical-overlap",
+  "type": "hypothesis",
+  "label": "Mathematical and ecclesiastical Latin as a design strategy",
+  "status": "working_hypothesis",
+  "proposed_by": "the researcher (project working hypothesis)",
+  "statement": "The lexical overlap between mathematical Latin and ecclesiastical Latin was used as a deliberate design strategy.",
+  "scope": "Interpretive layer. Every translation used as evidence is itself an interpretation and must show the word by word correspondence.",
+  "relations": [ { "rel": "concerns", "target": "w-lastsupper" }, { "rel": "concerns", "target": "pe-pacioli" } ],
+  "assumes": [],
+  "supports": [],
+  "against": [],
+  "falsified_if": [
+    "Proposed by Claude, for the researcher to accept or replace: the terms claimed to bridge the two registers are not attested in both registers in texts available in Milan around 1495.",
+    "Proposed by Claude: the overlap in the chosen vocabulary is no higher than in a baseline sample of terms drawn at random from the same mathematical and liturgical texts.",
+    "Proposed by Claude: no channel is documented by which the designer could have used the overlap (no relevant text in Leonardo's library lists or notebooks, no link through Pacioli)."
+  ],
+  "open_questions": [
+    "Fix the corpus: which mathematical texts (e.g. Pacioli's Summa, De divina proportione) and which liturgical texts are admitted as the two registers?"
+  ],
+  "claims": []
+}

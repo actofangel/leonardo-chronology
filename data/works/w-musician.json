@@ -1,0 +1,39 @@
+{
+  "id": "w-musician",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Portrait of a Musician",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1485 to 1490",
+        "start": 1485,
+        "end": 1490
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Unfinished male portrait. The face is generally accepted as Leonardo's, while the extent of his participation and the identity of the sitter are debated.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Stylistic dating; attribution debated."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1485,
+    "end": 1490,
+    "date": "c.1485 to 1490",
+    "tier": "S",
+    "place": "Milan, Ambrosiana",
+    "text": "Unfinished male portrait. The face is generally accepted as Leonardo's, while the extent of his participation and the identity of the sitter are debated.",
+    "basis": "Stylistic dating; attribution debated."
+  }
+}

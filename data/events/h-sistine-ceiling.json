@@ -1,0 +1,39 @@
+{
+  "id": "h-sistine-ceiling",
+  "type": "event",
+  "subtype": "context",
+  "label": "Sistine Chapel ceiling",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "May 1508 to October 1512",
+        "start": 1508.36,
+        "end": 1512.83
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Michelangelo paints the ceiling for Julius II. It is unveiled on 1 November 1512.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies of the period."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "Culture",
+    "start": 1508.36,
+    "end": 1512.83,
+    "date": "May 1508 to October 1512",
+    "tier": "D",
+    "place": "Rome",
+    "text": "Michelangelo paints the ceiling for Julius II. It is unveiled on 1 November 1512.",
+    "basis": "Standard chronologies of the period."
+  }
+}

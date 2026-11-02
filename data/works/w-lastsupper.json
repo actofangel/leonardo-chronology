@@ -1,0 +1,45 @@
+{
+  "id": "w-lastsupper",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Last Supper",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1495 to 1498",
+        "start": 1495,
+        "end": 1498
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Wall painting in the refectory. Ducal correspondence of 1497 presses for completion, but the beginning and end of the work are estimates. Its technical condition is a separate question from its dating.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Ducal correspondence, 1497; stylistic and technical study."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1495,
+    "end": 1498,
+    "date": "c.1495 to 1498",
+    "tier": "S",
+    "place": "Santa Maria delle Grazie, Milan",
+    "text": "Wall painting in the refectory. Ducal correspondence of 1497 presses for completion, but the beginning and end of the work are estimates. Its technical condition is a separate question from its dating.",
+    "basis": "Ducal correspondence, 1497; stylistic and technical study."
+  },
+  "review": {
+    "flags": [
+      "Start and end are estimates. Check the catalogue entries and the 1497 letter."
+    ],
+    "sources": []
+  }
+}

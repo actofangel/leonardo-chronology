@@ -1,0 +1,39 @@
+{
+  "id": "w-pacioli",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Polyhedra for Pacioli",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1496 to 1498",
+        "start": 1496,
+        "end": 1498
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Illustrations of regular and semi regular solids for Luca Pacioli's De divina proportione. Manuscript copies are dated 1498, and the printed book appeared in 1509.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Pacioli's dedications; surviving copies."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Drawing",
+    "start": 1496,
+    "end": 1498,
+    "date": "1496 to 1498",
+    "tier": "D",
+    "place": "Milan",
+    "text": "Illustrations of regular and semi regular solids for Luca Pacioli's De divina proportione. Manuscript copies are dated 1498, and the printed book appeared in 1509.",
+    "basis": "Pacioli's dedications; surviving copies."
+  }
+}

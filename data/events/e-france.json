@@ -1,0 +1,36 @@
+{
+  "id": "e-france",
+  "type": "event",
+  "label": "Moves to France",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "late 1516",
+        "start": 1516.8
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Leonardo crosses the Alps with Melzi at the invitation of Francis I. The exact date is not recorded.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Later documents; the arrival is inferred from 1517."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Travel",
+    "start": 1516.8,
+    "date": "late 1516",
+    "tier": "S",
+    "place": "Rome to Amboise",
+    "text": "Leonardo crosses the Alps with Melzi at the invitation of Francis I. The exact date is not recorded.",
+    "basis": "Later documents; the arrival is inferred from 1517."
+  }
+}

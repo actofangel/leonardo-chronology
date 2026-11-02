@@ -1,0 +1,39 @@
+{
+  "id": "w-monalisa",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Mona Lisa",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1503 to 1519",
+        "start": 1503.5,
+        "end": 1519
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Portrait of a woman widely identified as Lisa del Giocondo. The Vespucci note of October 1503 is the main contemporary evidence. The painting was probably worked on over many years.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Vespucci note, 1503; stylistic and technical study."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1503.5,
+    "end": 1519,
+    "date": "c.1503 to 1519",
+    "tier": "S",
+    "place": "Florence, later France, now Louvre",
+    "text": "Portrait of a woman widely identified as Lisa del Giocondo. The Vespucci note of October 1503 is the main contemporary evidence. The painting was probably worked on over many years.",
+    "basis": "Vespucci note, 1503; stylistic and technical study."
+  }
+}

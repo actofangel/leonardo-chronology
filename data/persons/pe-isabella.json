@@ -1,0 +1,38 @@
+{
+  "id": "pe-isabella",
+  "type": "person",
+  "label": "Isabella d'Este",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1499 to 1506",
+        "start": 1499.95,
+        "end": 1506.5
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Marchioness of Mantua. She sat for a drawing in 1499 and sought a painting through agents for years.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Correspondence of Isabella d'Este."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Patron",
+    "start": 1499.95,
+    "end": 1506.5,
+    "date": "1499 to 1506",
+    "tier": "D",
+    "place": "Mantua",
+    "text": "Marchioness of Mantua. She sat for a drawing in 1499 and sought a painting through agents for years.",
+    "basis": "Correspondence of Isabella d'Este."
+  }
+}

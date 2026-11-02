@@ -1,0 +1,39 @@
+{
+  "id": "w-annelouvre",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Virgin and Child with St Anne",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1503 to 1519",
+        "start": 1503,
+        "end": 1519
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Panel on which he worked over many years. Its date is an estimate that spans the later part of his career.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Stylistic and technical study."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1503,
+    "end": 1519,
+    "date": "c.1503 to 1519",
+    "tier": "S",
+    "place": "Florence, Milan, France, now Louvre",
+    "text": "Panel on which he worked over many years. Its date is an estimate that spans the later part of his career.",
+    "basis": "Stylistic and technical study."
+  }
+}

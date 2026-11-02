@@ -1,0 +1,39 @@
+{
+  "id": "w-trivulzio",
+  "type": "work",
+  "subtype": "engineering",
+  "label": "Trivulzio monument",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1507 to 1511",
+        "start": 1507.5,
+        "end": 1511.2
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Design and costing for an equestrian funerary monument for Marshal Gian Giacomo Trivulzio. It was not built.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Notes and drawings."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Engineering",
+    "start": 1507.5,
+    "end": 1511.2,
+    "date": "c.1507 to 1511",
+    "tier": "S",
+    "place": "Milan",
+    "text": "Design and costing for an equestrian funerary monument for Marshal Gian Giacomo Trivulzio. It was not built.",
+    "basis": "Notes and drawings."
+  }
+}

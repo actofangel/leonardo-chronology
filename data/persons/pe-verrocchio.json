@@ -1,0 +1,38 @@
+{
+  "id": "pe-verrocchio",
+  "type": "person",
+  "label": "Andrea del Verrocchio",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1466 to 1488",
+        "start": 1466,
+        "end": 1488.8
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Painter, sculptor and goldsmith whose workshop trained Leonardo. A 1476 record places Leonardo in his household. The start of the relationship is estimated.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Ufficiali di Notte record, 1476."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Master",
+    "start": 1466,
+    "end": 1488.8,
+    "date": "c.1466 to 1488",
+    "tier": "S",
+    "place": "Florence",
+    "text": "Painter, sculptor and goldsmith whose workshop trained Leonardo. A 1476 record places Leonardo in his household. The start of the relationship is estimated.",
+    "basis": "Ufficiali di Notte record, 1476."
+  }
+}

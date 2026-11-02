@@ -1,0 +1,51 @@
+{
+  "id": "w-salvator",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Salvator Mundi",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1499 to 1510",
+        "start": 1499,
+        "end": 1510
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Half length Christ with a crystal orb. Attribution to Leonardo is accepted by some scholars and disputed by others.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Attribution debated."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1499,
+    "end": 1510,
+    "date": "c.1499 to 1510",
+    "tier": "S",
+    "place": "Milan or Florence",
+    "text": "Half length Christ with a crystal orb. Attribution to Leonardo is accepted by some scholars and disputed by others.",
+    "basis": "Attribution debated."
+  },
+  "review": {
+    "status": "rejected",
+    "note": "Not accepted by the researcher. Kept visible for completeness and shown in grey.",
+    "history": [
+      {
+        "at": "2026-10-09",
+        "by": "researcher",
+        "note": "Attribution not accepted."
+      }
+    ],
+    "sources": []
+  }
+}

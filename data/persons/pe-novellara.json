@@ -1,0 +1,38 @@
+{
+  "id": "pe-novellara",
+  "type": "person",
+  "label": "Fra Pietro da Novellara",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "spring 1501",
+        "start": 1501.1,
+        "end": 1501.4
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Carmelite vicar who reported on Leonardo's work to Isabella d'Este.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Letter of 3 April 1501."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Correspondent",
+    "start": 1501.1,
+    "end": 1501.4,
+    "date": "spring 1501",
+    "tier": "D",
+    "place": "Florence",
+    "text": "Carmelite vicar who reported on Leonardo's work to Isabella d'Este.",
+    "basis": "Letter of 3 April 1501."
+  }
+}

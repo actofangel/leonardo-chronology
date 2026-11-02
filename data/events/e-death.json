@@ -1,0 +1,36 @@
+{
+  "id": "e-death",
+  "type": "event",
+  "label": "Death",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "2 May 1519",
+        "start": 1519.34
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Leonardo dies. Melzi announces the death in a letter to the half brothers on 1 June 1519.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Melzi's letter; the will."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Life",
+    "start": 1519.34,
+    "date": "2 May 1519",
+    "tier": "D",
+    "place": "Cloux, Amboise",
+    "text": "Leonardo dies. Melzi announces the death in a letter to the half brothers on 1 June 1519.",
+    "basis": "Melzi's letter; the will."
+  }
+}

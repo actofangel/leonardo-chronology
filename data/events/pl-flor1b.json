@@ -1,0 +1,39 @@
+{
+  "id": "pl-flor1b",
+  "type": "event",
+  "subtype": "residence",
+  "label": "Florence, master",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1472 to 1482",
+        "start": 1472,
+        "end": 1482.3
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Listed in the painters' company in 1472, recorded in Verrocchio's household in 1476, then commissioned independently in 1478 and 1481.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Company of San Luca register; Ufficiali di Notte record, 1476; commission records, 1478 and 1481."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "places",
+    "kind": "Residence",
+    "start": 1472,
+    "end": 1482.3,
+    "date": "1472 to 1482",
+    "tier": "D",
+    "place": "Florence",
+    "text": "Listed in the painters' company in 1472, recorded in Verrocchio's household in 1476, then commissioned independently in 1478 and 1481.",
+    "basis": "Company of San Luca register; Ufficiali di Notte record, 1476; commission records, 1478 and 1481."
+  }
+}

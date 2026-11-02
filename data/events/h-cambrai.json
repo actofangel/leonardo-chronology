@@ -1,0 +1,39 @@
+{
+  "id": "h-cambrai",
+  "type": "event",
+  "subtype": "context",
+  "label": "League of Cambrai",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "December 1508 to May 1509",
+        "start": 1508.94,
+        "end": 1509.4
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The pope, France, Spain and the Empire ally against Venice. The war opens with the battle of Agnadello on 14 May 1509.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies of the period."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "War",
+    "start": 1508.94,
+    "end": 1509.4,
+    "date": "December 1508 to May 1509",
+    "tier": "D",
+    "place": "Venetian territories",
+    "text": "The pope, France, Spain and the Empire ally against Venice. The war opens with the battle of Agnadello on 14 May 1509.",
+    "basis": "Standard chronologies of the period."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "po-alexander6",
+  "type": "person",
+  "subtype": "pope",
+  "label": "Alexander VI",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "11 August 1492 to 18 August 1503",
+        "start": 1492.61,
+        "end": 1503.63
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Rodrigo Borgia, father of Cesare Borgia, in whose service Leonardo worked in 1502 and 1503. His death in August 1503 ended Cesare's power.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard papal chronologies."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "popes",
+    "kind": "Papacy",
+    "start": 1492.61,
+    "end": 1503.63,
+    "date": "11 August 1492 to 18 August 1503",
+    "tier": "D",
+    "place": "Rome",
+    "text": "Rodrigo Borgia, father of Cesare Borgia, in whose service Leonardo worked in 1502 and 1503. His death in August 1503 ended Cesare's power.",
+    "basis": "Standard papal chronologies."
+  }
+}

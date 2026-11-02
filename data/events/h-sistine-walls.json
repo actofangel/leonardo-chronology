@@ -1,0 +1,39 @@
+{
+  "id": "h-sistine-walls",
+  "type": "event",
+  "subtype": "context",
+  "label": "Sistine Chapel wall frescoes",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1481 to 1482",
+        "start": 1481.8,
+        "end": 1482.9
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Florentine painters including Botticelli, Perugino, Ghirlandaio and Cosimo Rosselli are called to Rome by Sixtus IV. Leonardo is not among them.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Commission records; dates are approximate."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "Culture",
+    "start": 1481.8,
+    "end": 1482.9,
+    "date": "c.1481 to 1482",
+    "tier": "S",
+    "place": "Rome",
+    "text": "Florentine painters including Botticelli, Perugino, Ghirlandaio and Cosimo Rosselli are called to Rome by Sixtus IV. Leonardo is not among them.",
+    "basis": "Commission records; dates are approximate."
+  }
+}

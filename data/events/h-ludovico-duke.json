@@ -1,0 +1,37 @@
+{
+  "id": "h-ludovico-duke",
+  "type": "event",
+  "subtype": "context",
+  "label": "Ludovico becomes Duke of Milan",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "October 1494",
+        "start": 1494.8
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Gian Galeazzo Sforza dies and Ludovico takes the ducal title.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies of the period."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "Politics",
+    "start": 1494.8,
+    "date": "October 1494",
+    "tier": "D",
+    "place": "Milan",
+    "text": "Gian Galeazzo Sforza dies and Ludovico takes the ducal title.",
+    "basis": "Standard chronologies of the period."
+  }
+}

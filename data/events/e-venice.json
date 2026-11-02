@@ -1,0 +1,36 @@
+{
+  "id": "e-venice",
+  "type": "event",
+  "label": "In Venice",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "by 13 March 1500",
+        "start": 1500.2
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "A letter to Isabella d'Este reports that Leonardo is in Venice.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Letter of Lorenzo Gusnasco, 13 March 1500."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Travel",
+    "start": 1500.2,
+    "date": "by 13 March 1500",
+    "tier": "D",
+    "place": "Venice",
+    "text": "A letter to Isabella d'Este reports that Leonardo is in Venice.",
+    "basis": "Letter of Lorenzo Gusnasco, 13 March 1500."
+  }
+}

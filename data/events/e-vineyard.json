@@ -1,0 +1,54 @@
+{
+  "id": "e-vineyard",
+  "type": "event",
+  "label": "Vineyard granted",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1498",
+        "start": 1498.3
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Ludovico Sforza grants Leonardo a vineyard outside the Porta Vercellina. Leonardo later bequeaths it in his will.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Ducal grant; will of 1519."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Career",
+    "start": 1498.3,
+    "date": "1498",
+    "tier": "D",
+    "place": "Porta Vercellina, Milan",
+    "text": "Ludovico Sforza grants Leonardo a vineyard outside the Porta Vercellina. Leonardo later bequeaths it in his will.",
+    "basis": "Ducal grant; will of 1519."
+  },
+  "review": {
+    "status": "disputed",
+    "flags": [
+      "The year may be wrong. Recall suggests the grant to Leonardo dates from 2 April 1499, not 1498."
+    ],
+    "proposed": {
+      "date": "2 April 1499",
+      "start": 1499.25
+    },
+    "history": [
+      {
+        "at": "2026-10-09",
+        "by": "claude, model recall",
+        "note": "Raised while drafting. Not yet checked against a source."
+      }
+    ],
+    "sources": []
+  }
+}

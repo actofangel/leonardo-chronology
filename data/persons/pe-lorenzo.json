@@ -1,0 +1,129 @@
+{
+  "id": "pe-lorenzo",
+  "type": "person",
+  "label": "Lorenzo de' Medici",
+  "variants": [
+    "Lorenzo il Magnifico"
+  ],
+  "summary": "De facto ruler of Florence from 1469 to his death in 1492. Leonardo's place in his circle rests on later sources.",
+  "relations": [
+    {
+      "rel": "appears_in",
+      "target": "h-lorenzo-power"
+    },
+    {
+      "rel": "appears_in",
+      "target": "h-lorenzo-death"
+    },
+    {
+      "rel": "appears_in",
+      "target": "po-sixtus4"
+    },
+    {
+      "rel": "appears_in",
+      "target": "po-innocent8"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1478 to 1482",
+        "start": 1478,
+        "end": 1482.3
+      },
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "Later biographers place Leonardo in his circle and say he sent him to Milan with a silver lyre. Contemporary evidence is thin.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Vasari and the Anonimo Gaddiano."
+        }
+      ],
+      "check_in": [],
+      "note": "Evidence tier T: rests on later tradition."
+    },
+    {
+      "id": "lor-1",
+      "about": "relation",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The Anonimo Gaddiano states that Leonardo as a young man stayed with Lorenzo, who provided for him and had him work in the garden at Piazza San Marco. This is a fact about what the Anonimo says, not about Leonardo's life.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "La Toscana di Leonardo, The garden of Lorenzo de' Medici at San Marco.",
+          "url": "https://www.latoscanadileonardo.it/en/places/metropolitan-city-of-florence/municipality-of-florence/the-garden-of-lorenzo-de-medici-at-san-marco.html"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Anonimo Gaddiano. Background only, not a ground.",
+          "url": "https://en.wikipedia.org/wiki/Anonimo_Gaddiano"
+        }
+      ],
+      "check_in": [
+        "Frey 1892, edition of the Anonimo Gaddiano (Codice Magliabechiano)",
+        "Villata 1999, which prints the early biographical testimonies"
+      ]
+    },
+    {
+      "id": "lor-2",
+      "about": "relation",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "On the move to Milan the two early biographies differ. The Anonimo has Leonardo sent by Lorenzo with a lyre for Ludovico Sforza. Vasari has him invited by Ludovico. The chronology's basis line names both sources for the lyre, which may overstate Vasari's support.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "La Toscana di Leonardo, Places where Leonardo lived and worked.",
+          "url": "https://www.latoscanadileonardo.it/en/itineraries/florentine-area/places-where-leonardo-lived-and-worked.html"
+        }
+      ],
+      "check_in": [
+        "Frey 1892, Anonimo Gaddiano",
+        "Vasari 1550 and 1568, Life of Leonardo, original text"
+      ]
+    },
+    {
+      "id": "lor-3",
+      "about": "relation",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "One secondary account says Lorenzo bought the San Marco garden in 1480 and that its contents were dispersed in 1494. If correct, a garden based association cannot predate 1480, while the chronology's bar starts in 1478.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Brunelleschi, Museo Galileo itinerary, Notes and anecdotes on daily life.",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/NotesAndAnecdotesOnDailyLife.html"
+        }
+      ],
+      "check_in": [
+        "a monograph on the San Marco garden (e.g. the study of the San Marco sculpture garden and the Medici collection of classical marbles)"
+      ]
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Patron",
+    "start": 1478,
+    "end": 1482.3,
+    "date": "c.1478 to 1482",
+    "tier": "T",
+    "place": "Florence",
+    "text": "Later biographers place Leonardo in his circle and say he sent him to Milan with a silver lyre. Contemporary evidence is thin.",
+    "basis": "Vasari and the Anonimo Gaddiano."
+  },
+  "review": {
+    "flags": [
+      "Rests on later sources only. No contemporary document is known to the compiler."
+    ],
+    "sources": []
+  },
+  "open_questions": [
+    "A note attributed to Leonardo, 'li Medici mi crearono e mi destrussono', is often quoted. This round found no folio. Do not use it until located in a manuscript edition.",
+    "What fixes the 1478 start of the bar?"
+  ]
+}

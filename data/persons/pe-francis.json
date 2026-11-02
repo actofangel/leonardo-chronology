@@ -1,0 +1,38 @@
+{
+  "id": "pe-francis",
+  "type": "person",
+  "label": "Francis I",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "late 1516 to 1519",
+        "start": 1516.8,
+        "end": 1519.34
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "King of France who brought Leonardo to the Loire and housed him at Cloux.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: French royal documents; will of 1519."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Patron",
+    "start": 1516.8,
+    "end": 1519.34,
+    "date": "late 1516 to 1519",
+    "tier": "D",
+    "place": "Amboise",
+    "text": "King of France who brought Leonardo to the Loire and housed him at Cloux.",
+    "basis": "French royal documents; will of 1519."
+  }
+}

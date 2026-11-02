@@ -1,0 +1,39 @@
+{
+  "id": "w-duomo",
+  "type": "work",
+  "subtype": "engineering",
+  "label": "Milan Cathedral crossing model",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1487 to 1490",
+        "start": 1487.4,
+        "end": 1490
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Leonardo is paid for a model for the crossing tower of Milan Cathedral and consults on the design.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Cathedral building accounts."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Engineering",
+    "start": 1487.4,
+    "end": 1490,
+    "date": "1487 to 1490",
+    "tier": "D",
+    "place": "Milan",
+    "text": "Leonardo is paid for a model for the crossing tower of Milan Cathedral and consults on the design.",
+    "basis": "Cathedral building accounts."
+  }
+}

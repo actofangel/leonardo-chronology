@@ -1,0 +1,39 @@
+{
+  "id": "pl-rome",
+  "type": "event",
+  "subtype": "residence",
+  "label": "Rome",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "Sep 1513 to 1516",
+        "start": 1513.73,
+        "end": 1516.6
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Left Milan for Rome on 24 September 1513 and lived in the Belvedere at the Vatican under Giuliano de' Medici.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: His own note on the departure; Vatican payment lists."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "places",
+    "kind": "Residence",
+    "start": 1513.73,
+    "end": 1516.6,
+    "date": "Sep 1513 to 1516",
+    "tier": "D",
+    "place": "Rome, Belvedere",
+    "text": "Left Milan for Rome on 24 September 1513 and lived in the Belvedere at the Vatican under Giuliano de' Medici.",
+    "basis": "His own note on the departure; Vatican payment lists."
+  }
+}

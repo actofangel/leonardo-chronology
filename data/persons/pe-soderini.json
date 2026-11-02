@@ -1,0 +1,38 @@
+{
+  "id": "pe-soderini",
+  "type": "person",
+  "label": "Pier Soderini",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1502 to 1506",
+        "start": 1502.7,
+        "end": 1506.4
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Head of the Florentine government during the Anghiari commission and the leave of 1506.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Government records."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Florentine officials",
+    "start": 1502.7,
+    "end": 1506.4,
+    "date": "1502 to 1506",
+    "tier": "D",
+    "place": "Florence",
+    "text": "Head of the Florentine government during the Anghiari commission and the leave of 1506.",
+    "basis": "Government records."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "e-arno",
+  "type": "event",
+  "label": "Arno diversion project",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1503 to 1504",
+        "start": 1503.5
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Leonardo advises the Florentine government on diverting the Arno to cut off Pisa. Niccolò Machiavelli was involved on the government side. The works failed in 1504.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Florentine government correspondence."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Engineering",
+    "start": 1503.5,
+    "date": "1503 to 1504",
+    "tier": "D",
+    "place": "Pisa and the Arno",
+    "text": "Leonardo advises the Florentine government on diverting the Arno to cut off Pisa. Niccolò Machiavelli was involved on the government side. The works failed in 1504.",
+    "basis": "Florentine government correspondence."
+  }
+}

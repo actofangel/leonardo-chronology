@@ -1,0 +1,38 @@
+{
+  "id": "pe-beatis",
+  "type": "person",
+  "label": "Antonio de Beatis",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "October 1517",
+        "start": 1517.7,
+        "end": 1517.9
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Secretary of Cardinal Luigi d'Aragona. His diary records a visit to Leonardo.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Travel diary."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Visitor",
+    "start": 1517.7,
+    "end": 1517.9,
+    "date": "October 1517",
+    "tier": "D",
+    "place": "Cloux",
+    "text": "Secretary of Cardinal Luigi d'Aragona. His diary records a visit to Leonardo.",
+    "basis": "Travel diary."
+  }
+}

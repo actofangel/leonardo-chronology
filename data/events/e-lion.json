@@ -1,0 +1,43 @@
+{
+  "id": "e-lion",
+  "type": "event",
+  "label": "Mechanical lion at Lyon",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1515",
+        "start": 1515.55
+      },
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "Later writers credit Leonardo with a mechanical lion for the entry of Francis I into Lyon. The attribution rests on tradition.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Later sources only."
+        }
+      ],
+      "check_in": [],
+      "note": "Evidence tier T: rests on later tradition."
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Court",
+    "start": 1515.55,
+    "date": "1515",
+    "tier": "T",
+    "place": "Lyon",
+    "text": "Later writers credit Leonardo with a mechanical lion for the entry of Francis I into Lyon. The attribution rests on tradition.",
+    "basis": "Later sources only."
+  },
+  "review": {
+    "flags": [
+      "Rests on later sources only. No contemporary document is known to the compiler."
+    ],
+    "sources": []
+  }
+}

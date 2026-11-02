@@ -1,0 +1,36 @@
+{
+  "id": "e-1457",
+  "type": "event",
+  "label": "Tax return of 1457",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1457",
+        "start": 1457
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Antonio da Vinci's tax return lists Leonardo, aged five, as the illegitimate son of Ser Piero and a woman named Caterina.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Florentine catasto declaration, 1457."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Life",
+    "start": 1457,
+    "date": "1457",
+    "tier": "D",
+    "place": "Vinci",
+    "text": "Antonio da Vinci's tax return lists Leonardo, aged five, as the illegitimate son of Ser Piero and a woman named Caterina.",
+    "basis": "Florentine catasto declaration, 1457."
+  }
+}

@@ -1,45 +1,58 @@
-# Leonardo Chronology
+# Leonardo Database
 
-A working research platform for the *Identity of Leonardo da Vinci* project: Leonardo's places, works, people and events from 1452 to 1519, with the papacy and the wider history of the period, on one time scale.
+An open research database for the *Identity of Leonardo da Vinci* project. It holds the people, places, works, manuscripts, events and sources of Leonardo's life as individual records, each made of **claims** that carry their own evidence layer, sources and review status. The chronology is one view generated from the database; the entity browser is another.
 
-Every record carries two independent labels.
+The repository is the database. Every record is a JSON file under `data/`, so every change is a reviewable diff, every alternative reading can live on a branch or a fork, and the full history of what was claimed, by whom and on what evidence is kept by git.
 
-* **Evidence layer** (`tier`): what kind of claim it is. `D` documented, `S` scholarly dating or attribution, `T` later tradition.
-* **Review status**: how far this site has checked it. `pending`, `flagged`, `disputed`, `corrected`, `verified`, `rejected` (not accepted).
+## Status of the content
 
-The records were first entered from model recall. They therefore stay **pending** until checked against a source of an admitted type. Nothing in this repository should be read as verified unless its review entry says so and cites an admitted source.
+Most records were first entered from model recall or from web research. They are **pending**: they say where to check, not what is established. A claim becomes `verified` only when it cites a source of an admitted type (critical edition, catalogue raisonné, codicological study, peer reviewed monograph, published archival document, or the primary object cited by folio or inventory). The validator refuses anything else.
 
-## Files
+## Layout
 
-| File | Role |
+| Path | Contents |
 | --- | --- |
-| `index.html` | The page, single file. Holds the base records (`PLACES`, `WORKS`, `PEOPLE`, `EVENTS`, `POPES`, `HISTORY`) and the app. |
-| `reviews.json` | Review layer: status, flags, proposed corrections, sources and history per record id. |
-| `extra.json` | New records added after the base draft. They start as pending. |
-| `entities/people.json` | Research dossiers per person: claims with layer (fact or interpretation), status, typed sources, and the admitted edition to check. |
-| `research/*.patch.json` | Review patches produced by research rounds. Not applied until the researcher accepts them. Preview in the page under Update protocol. |
-| `scripts/validate.mjs` | Enforces the update protocol. Run before every commit. |
-| `.github/workflows/pages.yml` | Runs the validator on every push and pull request, and deploys `main` to GitHub Pages. |
+| `data/persons/`, `places/`, `works/`, `manuscripts/`, `events/` | One file per entity |
+| `data/sources/` | Bibliography and archival sources, each typed for admission |
+| `data/hypotheses/` | Working hypotheses with their test conditions; scenarios for alternative readings |
+| `data/views/chronology.json` | Display settings for the chronology (era bands) |
+| `site/explorer.html`, `site/chronology.html` | Page templates (single file HTML) |
+| `scripts/validate.mjs` | Enforces the schema and the research protocol |
+| `scripts/build.mjs` | Builds `dist/`: entity browser, chronology, `db.json`, scenario views |
+| `scripts/merge-incoming.mjs` | Additive merge of research batches into `data/` |
+| `research/` | Research briefs, incoming batches, reports and unapplied review patches |
+| `SCHEMA.md` | The data model, source admission and precedence rules |
+| `CONTRIBUTING.md` | How to add evidence, propose corrections, and work on hypotheses in branches |
 
-## Update protocol
-
-1. Admitted source types: `edition` (critical edition, e.g. Villata, Beltrami), `catalogue` (catalogue raisonné, e.g. Marani, Zöllner), `ms_study` (codicological or manuscript study, e.g. Pedretti), `monograph` (peer reviewed), `archive_publication`. The types `web`, `model_recall` and `other` can raise a flag or propose a change. They cannot verify.
-2. A correction goes under `proposed` and is not applied to the record until the researcher accepts it. Accepting means editing the base data, setting the status to `corrected` and adding a history line.
-3. History lines are added, never edited or removed. CI compares against the previous commit.
-4. New records go in `extra.json` with a `lane` and the same fields as existing records.
-5. Status fields never go on the records themselves. They live only in `reviews.json`.
-6. Notation: no dash characters of any kind in data text.
-
-The chronology does not include the project's working hypotheses, such as the Apollonius circle in the Last Supper or deliberate Latin lexical overlap. They belong on a separate hypothesis layer.
-
-## Local use
+## Use
 
 ```bash
 node scripts/validate.mjs
 ```
 
 ```bash
-python3 -m http.server 8000
+node scripts/build.mjs
 ```
 
-Then open <http://localhost:8000>. Opening `index.html` directly from disk shows the base records only, because browsers block reading the JSON files from `file://`.
+```bash
+cd dist && python3 -m http.server 8000
+```
+
+Open <http://localhost:8000> for the entity browser and <http://localhost:8000/chronology.html> for the chronology. No dependencies beyond Node 20 or later.
+
+To see the database as a working hypothesis would have it:
+
+```bash
+node scripts/build.mjs --scenario hyp-apollonius-last-supper --out dist/scenarios/hyp-apollonius-last-supper
+```
+
+## Principles
+
+1. **Layer purity.** Facts (what a document or object states or shows), interpretations (datings by style, attributions, identifications, readings) and hypotheses are separate claims, never mixed in one statement.
+2. **Source admission.** Only admitted source types can verify. Web pages, reference works and model recall may raise questions.
+3. **Nothing is deleted.** A wrong claim is set to `rejected` with a reason; review history is append only. CI checks both against the previous commit.
+4. **Precedence is explicit.** When claims compete, a fixed rule (SCHEMA.md) decides which is shown first, and the others stay visible.
+5. **Hypotheses are held apart.** The project's working hypotheses live in `data/hypotheses/` with the conditions under which they would fail, and only appear in scenario builds.
+6. **Notation.** No dash characters in data text.
+
+Published with GitHub Pages on every push to `main`. Scenario views are published under `scenarios/<hypothesis id>/`.

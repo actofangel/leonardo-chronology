@@ -1,0 +1,39 @@
+{
+  "id": "pl-flor1a",
+  "type": "event",
+  "subtype": "residence",
+  "label": "Florence, apprentice",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1464 to 1472",
+        "start": 1464,
+        "end": 1472
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Apprenticeship in the workshop of Andrea del Verrocchio. No apprenticeship contract survives, so both ends of this bar are scholarly estimates.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Inferred from later records and from workshop practice."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "places",
+    "kind": "Residence",
+    "start": 1464,
+    "end": 1472,
+    "date": "c.1464 to 1472",
+    "tier": "S",
+    "place": "Florence",
+    "text": "Apprenticeship in the workshop of Andrea del Verrocchio. No apprenticeship contract survives, so both ends of this bar are scholarly estimates.",
+    "basis": "Inferred from later records and from workshop practice."
+  }
+}

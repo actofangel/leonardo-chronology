@@ -1,0 +1,43 @@
+{
+  "id": "h-milan1499",
+  "type": "event",
+  "subtype": "context",
+  "label": "French take Milan",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "September 1499",
+        "start": 1499.7
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The army of Louis XII conquers the duchy and Ludovico Sforza flees. Later tradition says French troops damaged the clay model of the Sforza horse.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies; the model's fate rests on later sources."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "War",
+    "start": 1499.7,
+    "date": "September 1499",
+    "tier": "D",
+    "place": "Milan",
+    "text": "The army of Louis XII conquers the duchy and Ludovico Sforza flees. Later tradition says French troops damaged the clay model of the Sforza horse.",
+    "basis": "Standard chronologies; the model's fate rests on later sources."
+  },
+  "review": {
+    "flags": [
+      "The fate of the clay model rests on later sources."
+    ],
+    "sources": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "w-isabella",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Portrait of Isabella d'Este",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "Dec 1499 to early 1500",
+        "start": 1499.95,
+        "end": 1500.2
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Profile drawing in chalk, made at Mantua. Isabella pressed for a painted version for several years.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Correspondence of Isabella d'Este; stylistic dating."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Drawing",
+    "start": 1499.95,
+    "end": 1500.2,
+    "date": "Dec 1499 to early 1500",
+    "tier": "S",
+    "place": "Mantua, now Louvre",
+    "text": "Profile drawing in chalk, made at Mantua. Isabella pressed for a painted version for several years.",
+    "basis": "Correspondence of Isabella d'Este; stylistic dating."
+  }
+}

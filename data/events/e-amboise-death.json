@@ -1,0 +1,36 @@
+{
+  "id": "e-amboise-death",
+  "type": "event",
+  "label": "Death of Charles d'Amboise",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "10 March 1511",
+        "start": 1511.19
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The French governor of Milan dies, ending a patron relationship begun in 1506.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Contemporary records."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Politics",
+    "start": 1511.19,
+    "date": "10 March 1511",
+    "tier": "D",
+    "place": "Correggio",
+    "text": "The French governor of Milan dies, ending a patron relationship begun in 1506.",
+    "basis": "Contemporary records."
+  }
+}

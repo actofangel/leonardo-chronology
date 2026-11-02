@@ -1,0 +1,39 @@
+{
+  "id": "w-jerome",
+  "type": "work",
+  "subtype": "painting",
+  "label": "St Jerome",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1480 to 1490",
+        "start": 1480,
+        "end": 1490
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Unfinished panel in monochrome underpainting. Its dating is disputed between the late Florentine and early Milanese years.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Stylistic dating; contested."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1480,
+    "end": 1490,
+    "date": "c.1480 to 1490",
+    "tier": "S",
+    "place": "Florence or Milan, now Vatican",
+    "text": "Unfinished panel in monochrome underpainting. Its dating is disputed between the late Florentine and early Milanese years.",
+    "basis": "Stylistic dating; contested."
+  }
+}

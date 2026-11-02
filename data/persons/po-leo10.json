@@ -1,0 +1,52 @@
+{
+  "id": "po-leo10",
+  "type": "person",
+  "subtype": "pope",
+  "label": "Leo X",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "11 March 1513 to 1 December 1521",
+        "start": 1513.19,
+        "end": 1520
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Giovanni de' Medici, son of Lorenzo and brother of Giuliano de' Medici, Leonardo's patron in Rome. The Belvedere years fall in his reign, which ran beyond the end of the chart.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard papal chronologies."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "popes",
+    "kind": "Papacy",
+    "start": 1513.19,
+    "end": 1520,
+    "date": "11 March 1513 to 1 December 1521",
+    "tier": "D",
+    "place": "Rome",
+    "text": "Giovanni de' Medici, son of Lorenzo and brother of Giuliano de' Medici, Leonardo's patron in Rome. The Belvedere years fall in his reign, which ran beyond the end of the chart.",
+    "basis": "Standard papal chronologies."
+  },
+  "review": {
+    "flags": [
+      "Sources differ on the first day of the reign. Both 9 March and 11 March 1513 appear in recall. Check a papal chronology."
+    ],
+    "history": [
+      {
+        "at": "2026-10-09",
+        "by": "claude, model recall",
+        "note": "Raised while drafting."
+      }
+    ],
+    "sources": []
+  }
+}

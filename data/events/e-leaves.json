@@ -1,0 +1,42 @@
+{
+  "id": "e-leaves",
+  "type": "event",
+  "label": "Leaves Milan",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "December 1499",
+        "start": 1499.95
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Departs for Mantua and Venice, probably in company with Luca Pacioli. Records show 600 florins placed at Santa Maria Nuova in Florence on 14 December 1499.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Hospital account of Santa Maria Nuova; the companionship with Pacioli is an inference."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Travel",
+    "start": 1499.95,
+    "date": "December 1499",
+    "tier": "S",
+    "place": "Milan to Mantua",
+    "text": "Departs for Mantua and Venice, probably in company with Luca Pacioli. Records show 600 florins placed at Santa Maria Nuova in Florence on 14 December 1499.",
+    "basis": "Hospital account of Santa Maria Nuova; the companionship with Pacioli is an inference."
+  },
+  "review": {
+    "flags": [
+      "Travel together with Pacioli is an inference, not a recorded fact."
+    ],
+    "sources": []
+  }
+}

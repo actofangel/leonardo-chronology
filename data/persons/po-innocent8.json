@@ -1,0 +1,39 @@
+{
+  "id": "po-innocent8",
+  "type": "person",
+  "subtype": "pope",
+  "label": "Innocent VIII",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "29 August 1484 to 25 July 1492",
+        "start": 1484.66,
+        "end": 1492.56
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Giovanni Battista Cybo, allied with Lorenzo de' Medici by marriage. Created Lorenzo's son Giovanni, the later Leo X, a cardinal in 1489.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard papal chronologies."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "popes",
+    "kind": "Papacy",
+    "start": 1484.66,
+    "end": 1492.56,
+    "date": "29 August 1484 to 25 July 1492",
+    "tier": "D",
+    "place": "Rome",
+    "text": "Giovanni Battista Cybo, allied with Lorenzo de' Medici by marriage. Created Lorenzo's son Giovanni, the later Leo X, a cardinal in 1489.",
+    "basis": "Standard papal chronologies."
+  }
+}

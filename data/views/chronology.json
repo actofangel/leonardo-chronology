@@ -1,0 +1,61 @@
+{
+  "schema": "ldv-view-chronology/1",
+  "eras": [
+    {
+      "id": "vinci",
+      "label": "Vinci",
+      "span": "1452 to 1464",
+      "start": 1450,
+      "end": 1464,
+      "sum": "Born near Vinci in 1452. The family note and the 1457 tax return fix his birth and his legal status."
+    },
+    {
+      "id": "florence1",
+      "label": "Florence",
+      "span": "1464 to 1482",
+      "start": 1464,
+      "end": 1482.3,
+      "sum": "Training in the workshop of Andrea del Verrocchio, guild entry in 1472, and an independent practice by the late 1470s."
+    },
+    {
+      "id": "milan1",
+      "label": "Milan, Sforza court",
+      "span": "1482 to 1499",
+      "start": 1482.3,
+      "end": 1499.9,
+      "sum": "In the service of Ludovico Sforza. The Virgin of the Rocks, the Sforza horse and the Last Supper belong to these years."
+    },
+    {
+      "id": "travel",
+      "label": "Mantua, Venice, Florence",
+      "span": "1499 to 1506",
+      "start": 1499.9,
+      "end": 1506.4,
+      "sum": "Flight from the French conquest, military service under Cesare Borgia, and the Palazzo della Signoria commission."
+    },
+    {
+      "id": "milan2",
+      "label": "Milan, French governors",
+      "span": "1506 to 1513",
+      "start": 1506.4,
+      "end": 1513.73,
+      "sum": "Employed by Charles d'Amboise, with the Melzi household and sustained notebook work on water, geology and anatomy."
+    },
+    {
+      "id": "rome",
+      "label": "Rome",
+      "span": "1513 to 1516",
+      "start": 1513.73,
+      "end": 1516.6,
+      "sum": "Lodged at the Belvedere under the patronage of Giuliano de' Medici."
+    },
+    {
+      "id": "france",
+      "label": "Amboise",
+      "span": "1516 to 1519",
+      "start": 1516.6,
+      "end": 1520,
+      "sum": "Residence at Cloux near Amboise under Francis I, ending with his death on 2 May 1519."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "w-burlington",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Burlington House Cartoon",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1499 to 1508",
+        "start": 1499.5,
+        "end": 1508
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Large charcoal cartoon of the Virgin, Child, St Anne and St John. The date is disputed between the late Milan years and 1506 to 1508.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Stylistic dating; contested."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Drawing",
+    "start": 1499.5,
+    "end": 1508,
+    "date": "c.1499 to 1508",
+    "tier": "S",
+    "place": "London, National Gallery",
+    "text": "Large charcoal cartoon of the Virgin, Child, St Anne and St John. The date is disputed between the late Milan years and 1506 to 1508.",
+    "basis": "Stylistic dating; contested."
+  }
+}

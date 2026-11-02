@@ -1,0 +1,39 @@
+{
+  "id": "w-horse",
+  "type": "work",
+  "subtype": "engineering",
+  "label": "Sforza horse",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1482 to 1499",
+        "start": 1482.5,
+        "end": 1499.7
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Project for a monumental bronze equestrian statue of Francesco Sforza. A full scale clay model was shown in November 1493 and damaged in 1499. The bronze was never cast.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Court correspondence; Leonardo's notes and drawings."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Engineering",
+    "start": 1482.5,
+    "end": 1499.7,
+    "date": "c.1482 to 1499",
+    "tier": "S",
+    "place": "Milan",
+    "text": "Project for a monumental bronze equestrian statue of Francesco Sforza. A full scale clay model was shown in November 1493 and damaged in 1499. The bronze was never cast.",
+    "basis": "Court correspondence; Leonardo's notes and drawings."
+  }
+}

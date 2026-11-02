@@ -1,0 +1,37 @@
+{
+  "id": "w-baroncelli",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Hanged man, Baroncelli",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "29 December 1479",
+        "start": 1479.99
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Study of the hanged conspirator Bernardo di Bandino Baroncelli with notes on his clothing, drawn on the day of the execution.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Dated inscription on the sheet."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Drawing",
+    "start": 1479.99,
+    "date": "29 December 1479",
+    "tier": "D",
+    "place": "Florence",
+    "text": "Study of the hanged conspirator Bernardo di Bandino Baroncelli with notes on his clothing, drawn on the day of the execution.",
+    "basis": "Dated inscription on the sheet."
+  }
+}

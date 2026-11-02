@@ -1,0 +1,36 @@
+{
+  "id": "e-salai",
+  "type": "event",
+  "label": "Salai enters the household",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "22 July 1490",
+        "start": 1490.55
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Gian Giacomo Caprotti, called Salai, aged ten, joins the household. Leonardo's note records the cost of his clothes and a list of his thefts.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Leonardo's own notebook entry."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Household",
+    "start": 1490.55,
+    "date": "22 July 1490",
+    "tier": "D",
+    "place": "Milan",
+    "text": "Gian Giacomo Caprotti, called Salai, aged ten, joins the household. Leonardo's note records the cost of his clothes and a list of his thefts.",
+    "basis": "Leonardo's own notebook entry."
+  }
+}

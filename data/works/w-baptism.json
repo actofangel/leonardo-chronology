@@ -1,0 +1,39 @@
+{
+  "id": "w-baptism",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Baptism of Christ (Verrocchio)",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1472 to 1475",
+        "start": 1472,
+        "end": 1475.5
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Workshop painting by Verrocchio. Leonardo's hand is generally recognised in the left angel and parts of the landscape. The allocation of passages is a scholarly judgement.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Style and technique; attribution of passages."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1472,
+    "end": 1475.5,
+    "date": "c.1472 to 1475",
+    "tier": "S",
+    "place": "Florence",
+    "text": "Workshop painting by Verrocchio. Leonardo's hand is generally recognised in the left angel and parts of the landscape. The allocation of passages is a scholarly judgement.",
+    "basis": "Style and technique; attribution of passages."
+  }
+}

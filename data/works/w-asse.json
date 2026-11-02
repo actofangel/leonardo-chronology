@@ -1,0 +1,43 @@
+{
+  "id": "w-asse",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Sala delle Asse",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1498",
+        "start": 1498
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Decoration of the ceiling of a hall in the Sforza castle with interlaced trees. The work is dated by court correspondence to 1498.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Court correspondence; later restoration."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1498,
+    "date": "1498",
+    "tier": "S",
+    "place": "Castello Sforzesco, Milan",
+    "text": "Decoration of the ceiling of a hall in the Sforza castle with interlaced trees. The work is dated by court correspondence to 1498.",
+    "basis": "Court correspondence; later restoration."
+  },
+  "review": {
+    "flags": [
+      "The 1498 date comes from recalled correspondence. Check the catalogue entry."
+    ],
+    "sources": []
+  }
+}

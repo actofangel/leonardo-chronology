@@ -1,0 +1,37 @@
+{
+  "id": "h-ludovico-control",
+  "type": "event",
+  "subtype": "context",
+  "label": "Ludovico takes control in Milan",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "autumn 1480",
+        "start": 1480.85
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Ludovico Sforza ends the regency of Cicco Simonetta and becomes the effective ruler of Milan for his nephew Gian Galeazzo.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies of the period."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "Politics",
+    "start": 1480.85,
+    "date": "autumn 1480",
+    "tier": "D",
+    "place": "Milan",
+    "text": "Ludovico Sforza ends the regency of Cicco Simonetta and becomes the effective ruler of Milan for his nephew Gian Galeazzo.",
+    "basis": "Standard chronologies of the period."
+  }
+}

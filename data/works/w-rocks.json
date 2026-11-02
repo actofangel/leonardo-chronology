@@ -1,0 +1,39 @@
+{
+  "id": "w-rocks",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Virgin of the Rocks (Louvre)",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1483 to 1486",
+        "start": 1483.3,
+        "end": 1486
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The contract with the Confraternity of the Immaculate Conception is dated 25 April 1483. The painting's date within the following years is an estimate. A second version in London was completed later after a legal dispute.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Contract of 25 April 1483; stylistic dating."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1483.3,
+    "end": 1486,
+    "date": "c.1483 to 1486",
+    "tier": "S",
+    "place": "Milan, now Louvre",
+    "text": "The contract with the Confraternity of the Immaculate Conception is dated 25 April 1483. The painting's date within the following years is an estimate. A second version in London was completed later after a legal dispute.",
+    "basis": "Contract of 25 April 1483; stylistic dating."
+  }
+}

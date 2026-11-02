@@ -1,0 +1,38 @@
+{
+  "id": "pe-predis",
+  "type": "person",
+  "label": "Ambrogio and Evangelista de Predis",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1483 to 1508",
+        "start": 1483.3,
+        "end": 1508
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Partners in the 1483 Virgin of the Rocks contract. A long dispute over payment was settled in the later years.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Contract of 25 April 1483; later arbitration."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Milan circle",
+    "start": 1483.3,
+    "end": 1508,
+    "date": "1483 to 1508",
+    "tier": "D",
+    "place": "Milan",
+    "text": "Partners in the 1483 Virgin of the Rocks contract. A long dispute over payment was settled in the later years.",
+    "basis": "Contract of 25 April 1483; later arbitration."
+  }
+}

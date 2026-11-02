@@ -1,0 +1,39 @@
+{
+  "id": "w-anatomy1",
+  "type": "work",
+  "subtype": "anatomy",
+  "label": "Anatomical studies, Florence",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "winter 1507 to 1508",
+        "start": 1507.9,
+        "end": 1508.2
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Studies after the dissection of an old man at the hospital, according to his own notes on the sheets at Windsor.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Windsor drawings and notes."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Anatomy",
+    "start": 1507.9,
+    "end": 1508.2,
+    "date": "winter 1507 to 1508",
+    "tier": "S",
+    "place": "Santa Maria Nuova, Florence",
+    "text": "Studies after the dissection of an old man at the hospital, according to his own notes on the sheets at Windsor.",
+    "basis": "Windsor drawings and notes."
+  }
+}

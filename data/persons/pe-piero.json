@@ -1,0 +1,38 @@
+{
+  "id": "pe-piero",
+  "type": "person",
+  "label": "Ser Piero da Vinci",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1452 to 1504",
+        "start": 1452.29,
+        "end": 1504.52
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Notary and Leonardo's father. Leonardo, born out of wedlock, did not share in his estate.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Family notes; tax returns; Leonardo's note of 1504."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Family",
+    "start": 1452.29,
+    "end": 1504.52,
+    "date": "1452 to 1504",
+    "tier": "D",
+    "place": "Vinci, Florence",
+    "text": "Notary and Leonardo's father. Leonardo, born out of wedlock, did not share in his estate.",
+    "basis": "Family notes; tax returns; Leonardo's note of 1504."
+  }
+}

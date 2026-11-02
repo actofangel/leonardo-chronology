@@ -1,0 +1,39 @@
+{
+  "id": "h-borgia",
+  "type": "event",
+  "subtype": "context",
+  "label": "Cesare Borgia in the Romagna",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "late 1499 to August 1503",
+        "start": 1499.85,
+        "end": 1503.65
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Cesare Borgia conquers the cities of the Romagna with papal and French backing. His power collapses after the death of Alexander VI.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies of the period."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "War",
+    "start": 1499.85,
+    "end": 1503.65,
+    "date": "late 1499 to August 1503",
+    "tier": "D",
+    "place": "Romagna",
+    "text": "Cesare Borgia conquers the cities of the Romagna with papal and French backing. His power collapses after the death of Alexander VI.",
+    "basis": "Standard chronologies of the period."
+  }
+}

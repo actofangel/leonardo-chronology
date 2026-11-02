@@ -1,0 +1,39 @@
+{
+  "id": "pl-france",
+  "type": "event",
+  "subtype": "residence",
+  "label": "Cloux, Amboise",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "late 1516 to 2 May 1519",
+        "start": 1516.8,
+        "end": 1519.34
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Lived at the manor of Cloux near the royal château at Amboise. His presence is documented in October 1517 and at the will of April 1519.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Travel diary of Antonio de Beatis, 10 October 1517; will of 23 April 1519."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "places",
+    "kind": "Residence",
+    "start": 1516.8,
+    "end": 1519.34,
+    "date": "late 1516 to 2 May 1519",
+    "tier": "D",
+    "place": "Cloux (Clos Lucé), Amboise",
+    "text": "Lived at the manor of Cloux near the royal château at Amboise. His presence is documented in October 1517 and at the will of April 1519.",
+    "basis": "Travel diary of Antonio de Beatis, 10 October 1517; will of 23 April 1519."
+  }
+}

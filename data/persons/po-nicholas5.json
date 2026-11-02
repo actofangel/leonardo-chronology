@@ -1,0 +1,39 @@
+{
+  "id": "po-nicholas5",
+  "type": "person",
+  "subtype": "pope",
+  "label": "Nicholas V",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1447 to 24 March 1455",
+        "start": 1450,
+        "end": 1455.23
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Pope at the time of Leonardo's birth. Founded the Vatican Library and began the rebuilding of Rome. Succeeded by Callixtus III.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard papal chronologies."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "popes",
+    "kind": "Papacy",
+    "start": 1450,
+    "end": 1455.23,
+    "date": "1447 to 24 March 1455",
+    "tier": "D",
+    "place": "Rome",
+    "text": "Pope at the time of Leonardo's birth. Founded the Vatican Library and began the rebuilding of Rome. Succeeded by Callixtus III.",
+    "basis": "Standard papal chronologies."
+  }
+}

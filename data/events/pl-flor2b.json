@@ -1,0 +1,39 @@
+{
+  "id": "pl-flor2b",
+  "type": "event",
+  "subtype": "residence",
+  "label": "Florence",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1503 to May 1506",
+        "start": 1503.2,
+        "end": 1506.4
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Working on the Battle of Anghiari for the Council Hall and, in the same years, on the Mona Lisa and on Arno projects.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Commission of 4 May 1504; payment records; his own notes."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "places",
+    "kind": "Residence",
+    "start": 1503.2,
+    "end": 1506.4,
+    "date": "1503 to May 1506",
+    "tier": "D",
+    "place": "Florence, Santa Maria Novella",
+    "text": "Working on the Battle of Anghiari for the Council Hall and, in the same years, on the Mona Lisa and on Arno projects.",
+    "basis": "Commission of 4 May 1504; payment records; his own notes."
+  }
+}

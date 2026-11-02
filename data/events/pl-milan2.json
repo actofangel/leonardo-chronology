@@ -1,0 +1,39 @@
+{
+  "id": "pl-milan2",
+  "type": "event",
+  "subtype": "residence",
+  "label": "Milan",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1506 to Sep 1513",
+        "start": 1506.4,
+        "end": 1513.73
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Called to Milan by Charles d'Amboise in 1506. Returned to Florence for the inheritance dispute in 1507 and 1508, and lived in the Melzi household at Vaprio d'Adda in part of 1513.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Florentine leave of absence, 1506; his notes dated Milan; inheritance suit records."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "places",
+    "kind": "Residence",
+    "start": 1506.4,
+    "end": 1513.73,
+    "date": "1506 to Sep 1513",
+    "tier": "D",
+    "place": "Milan, with interludes in Florence and Pavia",
+    "text": "Called to Milan by Charles d'Amboise in 1506. Returned to Florence for the inheritance dispute in 1507 and 1508, and lived in the Melzi household at Vaprio d'Adda in part of 1513.",
+    "basis": "Florentine leave of absence, 1506; his notes dated Milan; inheritance suit records."
+  }
+}

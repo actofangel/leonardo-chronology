@@ -1,0 +1,37 @@
+{
+  "id": "h-medici-expelled",
+  "type": "event",
+  "subtype": "context",
+  "label": "Medici expelled from Florence",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "9 November 1494",
+        "start": 1494.85
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Piero de' Medici flees as the French approach. A republic influenced by Savonarola follows.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies of the period."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "Politics",
+    "start": 1494.85,
+    "date": "9 November 1494",
+    "tier": "D",
+    "place": "Florence",
+    "text": "Piero de' Medici flees as the French approach. A republic influenced by Savonarola follows.",
+    "basis": "Standard chronologies of the period."
+  }
+}

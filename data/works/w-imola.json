@@ -1,0 +1,37 @@
+{
+  "id": "w-imola",
+  "type": "work",
+  "subtype": "engineering",
+  "label": "Map of Imola",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1502",
+        "start": 1502.7
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Town plan drawn with surveying methods during his service with Cesare Borgia.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Context of the Borgia service."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Engineering",
+    "start": 1502.7,
+    "date": "1502",
+    "tier": "S",
+    "place": "Imola, now Windsor",
+    "text": "Town plan drawn with surveying methods during his service with Cesare Borgia.",
+    "basis": "Context of the Borgia service."
+  }
+}

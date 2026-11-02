@@ -1,0 +1,37 @@
+{
+  "id": "h-pazzi",
+  "type": "event",
+  "subtype": "context",
+  "label": "Pazzi conspiracy",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "26 April 1478",
+        "start": 1478.32
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Giuliano de' Medici is murdered at Mass in the cathedral and Lorenzo is wounded but escapes. Many conspirators are hanged. Bernardo di Bandino Baroncelli, who fled, is brought back and hanged in December 1479, the event Leonardo drew.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies; Leonardo's dated drawing of 29 December 1479."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "Politics",
+    "start": 1478.32,
+    "date": "26 April 1478",
+    "tier": "D",
+    "place": "Florence Cathedral",
+    "text": "Giuliano de' Medici is murdered at Mass in the cathedral and Lorenzo is wounded but escapes. Many conspirators are hanged. Bernardo di Bandino Baroncelli, who fled, is brought back and hanged in December 1479, the event Leonardo drew.",
+    "basis": "Standard chronologies; Leonardo's dated drawing of 29 December 1479."
+  }
+}

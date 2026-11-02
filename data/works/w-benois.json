@@ -1,0 +1,39 @@
+{
+  "id": "w-benois",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Benois Madonna",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1478 to 1482",
+        "start": 1478,
+        "end": 1482
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Madonna with a flower held out to the child. Dated by style to the last Florentine years.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Stylistic dating."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1478,
+    "end": 1482,
+    "date": "c.1478 to 1482",
+    "tier": "S",
+    "place": "Florence, now St Petersburg",
+    "text": "Madonna with a flower held out to the child. Dated by style to the last Florentine years.",
+    "basis": "Stylistic dating."
+  }
+}

@@ -1,8 +1,7 @@
-name: Validate and deploy
+name: Validate, build and deploy
 
 on:
   push:
-    branches: [main]
   pull_request:
   workflow_dispatch:
 
@@ -25,7 +24,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Validate data (append-only history checked against the previous state)
+      - name: Validate data (append-only history and claims checked against the previous state)
         run: |
           BASE="${{ github.event.pull_request.base.sha || github.event.before }}"
           if [ -n "$BASE" ] && git cat-file -e "$BASE" 2>/dev/null; then
@@ -33,23 +32,26 @@ jobs:
           else
             node scripts/validate.mjs
           fi
+      - name: Build
+        run: node scripts/build.mjs --out dist
+      - name: Build hypothesis scenarios
+        run: |
+          for f in data/hypotheses/*.json; do
+            id=$(basename "$f" .json)
+            node scripts/build.mjs --scenario "$id" --out "dist/scenarios/$id"
+          done
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
 
   deploy:
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: validate
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - name: Assemble site
-        run: |
-          mkdir _site
-          cp index.html reviews.json extra.json .nojekyll _site/
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4

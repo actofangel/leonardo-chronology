@@ -1,0 +1,37 @@
+{
+  "id": "h-lorenzo-death",
+  "type": "event",
+  "subtype": "context",
+  "label": "Death of Lorenzo de' Medici",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "8 April 1492",
+        "start": 1492.27
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Lorenzo dies and is succeeded by his son Piero.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies of the period."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "Politics",
+    "start": 1492.27,
+    "date": "8 April 1492",
+    "tier": "D",
+    "place": "Careggi, Florence",
+    "text": "Lorenzo dies and is succeeded by his son Piero.",
+    "basis": "Standard chronologies of the period."
+  }
+}

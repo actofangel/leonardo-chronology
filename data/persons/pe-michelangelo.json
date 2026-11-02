@@ -1,0 +1,44 @@
+{
+  "id": "pe-michelangelo",
+  "type": "person",
+  "label": "Michelangelo Buonarroti",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "overlap, 1504 to 1506",
+        "start": 1504,
+        "end": 1506.4
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Rival commission in the Council Hall (Battle of Cascina). Both artists were in Florence at the same time, which is documented. The bar shows this overlap, not a recorded friendship. Direct exchange between them is mostly reported by later writers.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Commission records; later sources."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Peers",
+    "start": 1504,
+    "end": 1506.4,
+    "date": "overlap, 1504 to 1506",
+    "tier": "S",
+    "place": "Florence",
+    "text": "Rival commission in the Council Hall (Battle of Cascina). Both artists were in Florence at the same time, which is documented. The bar shows this overlap, not a recorded friendship. Direct exchange between them is mostly reported by later writers.",
+    "basis": "Commission records; later sources."
+  },
+  "review": {
+    "flags": [
+      "The bar shows an overlap in time and place. It does not record a relationship."
+    ],
+    "sources": []
+  }
+}

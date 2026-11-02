@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Leonardo Database</title>
+<style>
+:root{
+  --ground:#e4eaee; --paper:#eef2f5; --card:#f6f8fa; --ink:#1d2328; --muted:#56626c; --rule:#c0cad2; --faint:#d6dde3;
+  --accent:#a9402a; --ok:#2e6b4a; --bad:#a8271f; --warn:#8a5a00; --hyp:#7a3b78; --interp:#555d7c; --fact:#2f6a73;
+  --serif:'EB Garamond',Georgia,'Times New Roman',serif;
+  --sans:'Source Sans 3',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#12181d; --paper:#1a2229; --card:#202a32; --ink:#e4e9ed; --muted:#93a1ac; --rule:#2d3943; --faint:#28333c;
+    --accent:#e0765c; --ok:#7cc79a; --bad:#f08a80; --warn:#e0b252; --hyp:#c08ac0; --interp:#a3acd0; --fact:#6fb0b8; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#12181d; --paper:#1a2229; --card:#202a32; --ink:#e4e9ed; --muted:#93a1ac; --rule:#2d3943; --faint:#28333c;
+  --accent:#e0765c; --ok:#7cc79a; --bad:#f08a80; --warn:#e0b252; --hyp:#c08ac0; --interp:#a3acd0; --fact:#6fb0b8; color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--ground);color:var(--ink);font:15px/1.55 var(--sans);padding:0 16px}
+a{color:var(--accent)}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2,h3{font-family:var(--serif);font-weight:500;margin:0;text-wrap:balance}
+p{margin:0}
+.wrap{max-width:1240px;margin:0 auto;padding:18px 0 56px;display:flex;flex-direction:column;gap:18px}
+.top{display:flex;flex-direction:column;gap:6px;max-width:880px}
+.kicker{font:11px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(1.5rem,3.6vw,1.95rem);line-height:1.1}
+.lede{font-size:14px;max-width:80ch}
+.nav{display:flex;gap:14px;flex-wrap:wrap;font-size:13.5px}
+.stats{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12.5px;color:var(--muted)}
+.stats b{color:var(--ink);font-weight:600}
+.banner{border-left:3px solid var(--hyp);background:var(--paper);padding:8px 12px;font-size:13px}
+.layout{display:grid;grid-template-columns:minmax(260px,340px) 1fr;gap:18px;align-items:start}
+@media (max-width:820px){.layout{grid-template-columns:1fr}}
+.side{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:10px;position:sticky;top:12px;max-height:calc(100vh - 24px)}
+@media (max-width:820px){.side{position:static;max-height:none}}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--rule);background:var(--card);border-radius:999px;padding:2px 10px;font-size:12.5px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip .n{font-family:var(--mono);font-size:11px;opacity:.75;margin-left:4px}
+input[type=search]{width:100%;padding:7px 10px;border:1px solid var(--rule);border-radius:6px;background:var(--card)}
+.list{overflow:auto;display:flex;flex-direction:column;gap:2px;min-height:120px}
+@media (max-width:820px){.list{max-height:46vh}}
+.li{display:flex;justify-content:space-between;gap:8px;align-items:baseline;text-align:left;background:none;border:0;border-radius:5px;padding:5px 8px;cursor:pointer;width:100%}
+.li:hover{background:var(--card)}
+.li[aria-current="true"]{background:var(--card);box-shadow:inset 3px 0 0 var(--accent)}
+.li .t{font-size:13.5px}
+.li .m{font:11px var(--mono);color:var(--muted);white-space:nowrap}
+.count{font:11.5px var(--mono);color:var(--muted)}
+.main{display:flex;flex-direction:column;gap:14px;min-width:0}
+.card{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:16px 18px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.ehead{display:flex;flex-direction:column;gap:4px}
+.ehead h2{font-size:1.55rem;line-height:1.15}
+.meta{font:12px var(--mono);color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px}
+.summary{font-size:15px;max-width:76ch}
+h3{font-size:1.15rem;border-bottom:1px solid var(--rule);padding-bottom:3px}
+dl.fields{display:grid;grid-template-columns:max-content 1fr;gap:3px 14px;margin:0;font-size:13.5px}
+dl.fields dt{color:var(--muted)}
+dl.fields dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.group{display:flex;flex-direction:column;gap:8px}
+.gname{font:12px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.claim{border:1px solid var(--faint);border-left:3px solid var(--rule);border-radius:6px;padding:9px 12px;background:var(--card);display:flex;flex-direction:column;gap:5px}
+.claim.l-fact{border-left-color:var(--fact)}
+.claim.l-interpretation{border-left-color:var(--interp)}
+.claim.l-hypothesis{border-left-color:var(--hyp);border-left-style:dashed}
+.claim.alt{opacity:.82}
+.badges{display:flex;flex-wrap:wrap;gap:5px}
+.b{font:11px/1.5 var(--mono);border:1px solid var(--rule);border-radius:4px;padding:0 6px;color:var(--muted)}
+.b.shown{color:var(--ink);border-color:var(--ink)}
+.b.s-verified{color:var(--ok);border-color:var(--ok)}
+.b.s-disputed{color:var(--bad);border-color:var(--bad)}
+.b.s-rejected{text-decoration:line-through}
+.b.l-hypothesis{color:var(--hyp);border-color:var(--hyp)}
+.b.adm{color:var(--ok);border-color:var(--ok)}
+.stmt{font-size:14px}
+.val{font:12.5px var(--mono);color:var(--muted)}
+ul.src{margin:0;padding-left:18px;font-size:13px;display:flex;flex-direction:column;gap:2px}
+ul.src .ty{font:11px var(--mono);color:var(--muted);margin-right:4px}
+ul.src .ty.adm{color:var(--ok)}
+.check{font-size:12.5px;color:var(--warn)}
+.bearing{font-size:12.5px;color:var(--muted)}
+ul.plain{margin:0;padding-left:18px;font-size:13.5px;display:flex;flex-direction:column;gap:3px}
+.rel{font:11.5px var(--mono);color:var(--muted)}
+.miss{color:var(--muted);text-decoration:underline dotted}
+.empty{color:var(--muted);font-size:14px}
+.home{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.tile{background:var(--card);border:1px solid var(--faint);border-radius:6px;padding:10px 12px;cursor:pointer;text-align:left}
+.tile:hover{border-color:var(--rule)}
+.tile .big{font:600 1.4rem var(--serif)}
+.tile .sm{font-size:12.5px;color:var(--muted)}
+.foot{font-size:12.5px;color:var(--muted);max-width:90ch}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <p class="kicker">Identity of Leonardo da Vinci · open research database</p>
+    <h1>Leonardo Database</h1>
+    <p class="lede">People, places, works, manuscripts, events, sources and working hypotheses, each held as a set of claims. Every claim states its layer (fact, interpretation or hypothesis), its sources and how far it has been checked. Where claims compete, the one shown first is chosen by a fixed precedence rule and the others stay visible.</p>
+    <nav class="nav"><a href="chronology.html">Chronology view</a><a href="#home">Overview</a><a href="db.json">db.json</a></nav>
+    <div class="stats" id="stats"></div>
+    <div id="scenario"></div>
+  </header>
+  <div class="layout">
+    <aside class="side" aria-label="Browse">
+      <div class="chips" id="types"></div>
+      <label class="kicker" for="q">Search</label>
+      <input id="q" type="search" placeholder="Name, variant, id or text" autocomplete="off">
+      <span class="count" id="count"></span>
+      <div class="list" id="list" role="list"></div>
+    </aside>
+    <main class="main" id="main"></main>
+  </div>
+  <footer class="foot">
+    <p>Admitted sources are critical documentary editions, catalogues raisonnés, codicological studies, peer reviewed monographs, published archival documents and the primary object cited by folio or inventory. Web pages, reference works and model recall can raise questions and point to where to check; they never verify. Nothing marked pending should be cited as established.</p>
+  </footer>
+</div>
+<script>
+(function(){
+  var TYPES = [['person','People'],['place','Places'],['work','Works'],['manuscript','Manuscripts'],['event','Events'],['source','Sources'],['hypothesis','Hypotheses']];
+  var TYPE_NAME = {}; TYPES.forEach(function(t){ TYPE_NAME[t[0]] = t[1]; });
+  var ADMITTED = ['primary','edition','catalogue','ms_study','monograph','archive_publication'];
+  var DB = null, E = {}, state = {types:new Set(TYPES.map(function(t){return t[0];})), q:'', sel:null};
+  function $(id){ return document.getElementById(id); }
+  function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+  function link(id, label){ return E[id] ? '<a href="#' + esc(id) + '">' + esc(label || E[id].label) + '</a>' : '<span class="miss" title="Not yet in the database">' + esc(label || id) + '</span>'; }
+  function srcType(s){ if(s.ref){ var x = E[s.ref]; return x ? x.source_type : 'unknown'; } return s.type; }
+  function hay(e){ return [e.id, e.label, (e.variants||[]).join(' '), e.summary, e.subtype].join(' ').toLowerCase(); }
+
+  function stats(){
+    var s = DB.stats, parts = ['<span><b>' + s.entities + '</b> entities</span>', '<span><b>' + s.claims + '</b> claims</span>',
+      '<span><b>' + s.verified + '</b> verified</span>', '<span><b>' + s.admittedSourced + '</b> with an admitted source</span>', '<span>built ' + esc(DB.built) + '</span>'];
+    $('stats').innerHTML = parts.join('');
+    if(DB.scenario){ var h = E[DB.scenario]; $('scenario').innerHTML = '<p class="banner"><b>Scenario view:</b> ' + esc(h ? h.label : DB.scenario) + '. Claims assumed by this working hypothesis take precedence. This is not the default reading of the evidence.</p>'; }
+  }
+  function counts(){ var c = {}; Object.values(E).forEach(function(e){ c[e.type] = (c[e.type]||0) + 1; }); return c; }
+  function buildTypes(){
+    var c = counts();
+    $('types').innerHTML = TYPES.map(function(t){ return '<button type="button" class="chip" data-type="' + t[0] + '" aria-pressed="true">' + t[1] + '<span class="n">' + (c[t[0]]||0) + '</span></button>'; }).join('');
+    $('types').addEventListener('click', function(ev){
+      var b = ev.target.closest('button[data-type]'); if(!b) return;
+      var t = b.getAttribute('data-type');
+      if(state.types.size === TYPES.length){ state.types = new Set([t]); }
+      else if(state.types.has(t)){ state.types.delete(t); if(!state.types.size) state.types = new Set(TYPES.map(function(x){return x[0];})); }
+      else state.types.add(t);
+      document.querySelectorAll('#types .chip').forEach(function(x){ x.setAttribute('aria-pressed', state.types.has(x.getAttribute('data-type')) ? 'true' : 'false'); });
+      renderList();
+    });
+  }
+  function sortKey(e){ return (e.timeline && typeof e.timeline.start === 'number') ? e.timeline.start : 9999; }
+  function renderList(){
+    var q = state.q;
+    var items = Object.values(E).filter(function(e){ return state.types.has(e.type) && (!q || e._hay.indexOf(q) >= 0); });
+    items.sort(function(a,b){ return a.type.localeCompare(b.type) || a.label.localeCompare(b.label); });
+    $('count').textContent = items.length + ' of ' + Object.keys(E).length;
+    $('list').innerHTML = items.map(function(e){
+      var m = (e.subtype || TYPE_NAME[e.type] || e.type);
+      return '<button type="button" class="li" role="listitem" data-id="' + esc(e.id) + '"' + (state.sel === e.id ? ' aria-current="true"' : '') + '><span class="t">' + esc(e.label) + '</span><span class="m">' + esc(m) + '</span></button>';
+    }).join('') || '<p class="empty">No match.</p>';
+  }
+
+  function fieldRows(e){
+    var rows = [];
+    function add(k, v){ if(v !== undefined && v !== null && v !== '' && !(Array.isArray(v) && !v.length)) rows.push('<dt>' + esc(k) + '</dt><dd>' + v + '</dd>'); }
+    function txt(v){ return Array.isArray(v) ? v.map(esc).join('; ') : esc(v); }
+    function ref(v){ return typeof v === 'string' && /^[a-z]+-/.test(v) ? link(v) : esc(v); }
+    add('Variants', txt(e.variants));
+    if(e.type === 'person'){ add('Born', txt(e.born)); add('Died', txt(e.died)); add('Roles', txt(e.roles)); }
+    if(e.type === 'place'){ add('Modern name', txt(e.modern_name)); add('Region', txt(e.region)); add('Country', txt(e.country)); add('Within', e.within ? ref(e.within) : ''); if(e.coords) add('Coordinates', '<a href="https://www.openstreetmap.org/?mlat=' + e.coords.lat + '&mlon=' + e.coords.lon + '#map=13/' + e.coords.lat + '/' + e.coords.lon + '" rel="noopener">' + e.coords.lat.toFixed(4) + ', ' + e.coords.lon.toFixed(4) + '</a>'); }
+    if(e.type === 'work'){ add('Medium', txt(e.medium)); add('Support', txt(e.support)); add('Dimensions', txt(e.dimensions)); add('Current location', e.current_location ? ref(e.current_location) : ''); add('Inventory', txt(e.inventory));
+      add('Catalogue', (e.catalogue||[]).map(function(c){ return (c.src ? link(c.src, E[c.src] ? (E[c.src].short || E[c.src].label) : c.src) : '') + ' ' + esc(c.number || ''); }).join('; '));
+      add('Manuscript', e.manuscript ? ref(e.manuscript) : ''); add('Folio', txt(e.folio)); }
+    if(e.type === 'manuscript'){ add('Holding', e.holding ? ref(e.holding) : ''); add('Shelfmark', txt(e.shelfmark)); add('Folios', txt(e.folios)); add('Dimensions', txt(e.dimensions));
+      if(e.date_range) add('Date range', esc(e.date_range.start) + ' to ' + esc(e.date_range.end)); add('Contents', txt(e.contents)); add('History', txt(e.history)); if(e.facsimile) add('Facsimile', '<a href="' + esc(e.facsimile) + '" rel="noopener">' + esc(e.facsimile) + '</a>'); }
+    if(e.type === 'source'){ add('Citation', esc(e.citation)); add('Short form', esc(e.short)); add('Source type', esc(e.source_type) + (ADMITTED.indexOf(e.source_type) >= 0 ? ' <span class="b adm">admitted</span>' : ' <span class="b">not admitted as ground</span>')); add('Language', txt(e.language)); if(e.url) add('Link', '<a href="' + esc(e.url) + '" rel="noopener">' + esc(e.url) + '</a>'); }
+    if(e.type === 'hypothesis'){ add('Status', '<span class="b l-hypothesis">' + esc(e.status) + '</span>'); add('Statement', esc(e.statement)); add('Scope', esc(e.scope)); add('Proposed by', esc(e.proposed_by)); }
+    if(e.timeline){ var t = e.timeline; add('On the chronology', esc(t.date) + ' · ' + esc(t.lane) + ' lane · tier ' + esc(t.tier) + ' · <a href="chronology.html">open chronology</a>'); }
+    add('File', '<code>' + esc(e._file) + '</code>');
+    return rows.length ? '<dl class="fields">' + rows.join('') + '</dl>' : '';
+  }
+  function valueText(v){
+    if(v == null) return '';
+    if(typeof v !== 'object') return esc(v);
+    if(v.text) return esc(v.text) + (typeof v.start === 'number' ? ' [' + v.start + (v.end !== undefined ? ' to ' + v.end : '') + ']' : '');
+    return esc(JSON.stringify(v));
+  }
+  function claimHTML(e, c, shown){
+    var b = [shown === true ? '<span class="b shown">preferred</span>' : (c.alternative_to && c.alternative_to.length ? '<span class="b">alternative</span>' : ''),
+      '<span class="b l-' + esc(c.layer) + '">' + esc(c.layer) + '</span>',
+      (c.grade && c.grade !== c.layer) ? '<span class="b">' + esc(c.grade.replace(/_/g,' ')) + '</span>' : '',
+      '<span class="b s-' + esc(c.status) + '">' + esc(c.status) + '</span>',
+      '<span class="b">' + esc(c.id) + '</span>'];
+    var src = (c.sources||[]).map(function(s){
+      var ty = srcType(s), adm = ADMITTED.indexOf(ty) >= 0;
+      var body = s.ref ? link(s.ref, E[s.ref] ? (E[s.ref].short || E[s.ref].label) : s.ref) + (s.loc ? ', ' + esc(s.loc) : '') : esc(s.cite) + (s.url ? ' <a href="' + esc(s.url) + '" rel="noopener">link</a>' : '');
+      return '<li><span class="ty' + (adm ? ' adm' : '') + '">' + esc(ty || '?') + '</span>' + body + '</li>';
+    }).join('');
+    return '<div class="claim l-' + esc(c.layer) + (shown === null || shown ? '' : ' alt') + '"><div class="badges">' + b.join('') + '</div>' +
+      (c.statement ? '<p class="stmt">' + esc(c.statement) + '</p>' : '') +
+      (c.value !== undefined ? '<p class="val">' + valueText(c.value) + '</p>' : '') +
+      (src ? '<ul class="src">' + src + '</ul>' : '') +
+      ((c.check_in||[]).length ? '<p class="check">Check in: ' + c.check_in.map(esc).join('; ') + '</p>' : '') +
+      (c.bearing ? '<p class="bearing">Bearing: ' + esc(c.bearing) + '</p>' : '') +
+      (c.note ? '<p class="bearing">' + esc(c.note) + '</p>' : '') + '</div>';
+  }
+  function renderEntity(id){
+    var e = E[id];
+    if(!e){ $('main').innerHTML = '<section class="card"><p class="empty">No entity with id ' + esc(id) + '. It may be referenced before it has been researched.</p></section>'; return; }
+    var h = '<section class="card"><div class="ehead"><p class="kicker">' + esc(TYPE_NAME[e.type] || e.type) + (e.subtype ? ' · ' + esc(e.subtype) : '') + '</p><h2>' + esc(e.label) + '</h2><p class="meta"><span>' + esc(e.id) + '</span></p></div>' +
+      (e.summary ? '<p class="summary">' + esc(e.summary) + '</p>' : '') + fieldRows(e) + '</section>';
+    if(e.type === 'hypothesis'){
+      var lists = [['Assumes', (e.assumes||[]).map(function(r){ var p = r.split('#'); return link(p[0]) + ' <span class="rel">#' + esc(p[1]) + '</span>'; })],
+        ['Supporting evidence', (e.supports||[]).map(esc)], ['Evidence against', (e.against||[]).map(esc)], ['Falsified if', (e.falsified_if||[]).map(esc)]];
+      h += '<section class="card"><h3>Test conditions</h3>' + lists.map(function(l){ return '<div class="group"><p class="gname">' + l[0] + '</p>' + (l[1].length ? '<ul class="plain"><li>' + l[1].join('</li><li>') + '</li></ul>' : '<p class="empty">None recorded.</p>') + '</div>'; }).join('') + '</section>';
+    }
+    var claims = e.claims || [];
+    if(claims.length){
+      var res = e._resolved || {}, groups = {};
+      claims.forEach(function(c){ (groups[c.about] = groups[c.about] || []).push(c); });
+      h += '<section class="card"><h3>Claims <span class="count">' + claims.length + '</span></h3>';
+      Object.keys(groups).forEach(function(k){
+        var r = res[k], ordered = groups[k].slice();
+        if(r){ ordered.sort(function(a,b){ var ia = a.id === r.claim ? -1 : r.alternatives.indexOf(a.id), ib = b.id === r.claim ? -1 : r.alternatives.indexOf(b.id); if(ia < -1) ia = 999; if(ib < -1) ib = 999; return ia - ib; }); }
+        h += '<div class="group"><p class="gname">' + esc(k.replace(/_/g,' ')) + (groups[k].length > 1 ? ' · ' + groups[k].length + ' claims, first is preferred by precedence' : '') + '</p>' +
+          ordered.map(function(c){ return claimHTML(e, c, groups[k].length > 1 && r && r.claim === c.id ? true : null); }).join('') + '</div>';
+      });
+      h += '</section>';
+    }
+    var rel = (e.relations||[]).map(function(r){ return '<li><span class="rel">' + esc(r.rel) + '</span> ' + link(r.target) + (r.note ? ' <span class="rel">' + esc(r.note) + '</span>' : '') + '</li>'; });
+    var back = {}; (e._backlinks||[]).forEach(function(b){ var k = b.from + '|' + b.rel; back[k] = b; });
+    var bl = Object.values(back).map(function(b){ return '<li>' + link(b.from) + ' <span class="rel">' + esc(b.rel) + '</span></li>'; });
+    if(rel.length || bl.length){
+      h += '<section class="card"><h3>Links</h3>' + (rel.length ? '<div class="group"><p class="gname">From this entry</p><ul class="plain">' + rel.join('') + '</ul></div>' : '') +
+        (bl.length ? '<div class="group"><p class="gname">Pointing here</p><ul class="plain">' + bl.join('') + '</ul></div>' : '') + '</section>';
+    }
+    if(e.review){
+      var rv = e.review;
+      h += '<section class="card"><h3>Chronology review</h3><dl class="fields"><dt>Status</dt><dd>' + esc(rv.status || 'pending') + '</dd>' +
+        ((rv.flags||[]).length ? '<dt>Flags</dt><dd>' + rv.flags.map(esc).join('<br>') + '</dd>' : '') +
+        (rv.proposed ? '<dt>Proposed</dt><dd>' + esc(JSON.stringify(rv.proposed)) + '</dd>' : '') +
+        (rv.note ? '<dt>Note</dt><dd>' + esc(rv.note) + '</dd>' : '') +
+        ((rv.history||[]).length ? '<dt>History</dt><dd>' + rv.history.map(function(x){ return esc(x.at + ', ' + x.by + ': ' + x.note); }).join('<br>') + '</dd>' : '') + '</dl></section>';
+    }
+    if((e.open_questions||[]).length) h += '<section class="card"><h3>Open questions</h3><ul class="plain"><li>' + e.open_questions.map(esc).join('</li><li>') + '</li></ul></section>';
+    $('main').innerHTML = h;
+  }
+  function renderHome(){
+    var c = counts();
+    var att = Object.values(E).filter(function(e){ return (e.claims||[]).some(function(x){ return x.status === 'disputed'; }); }).slice(0, 40);
+    var h = '<section class="card"><h2>Overview</h2><div class="home">' + TYPES.map(function(t){ return '<button type="button" class="tile" data-tile="' + t[0] + '"><div class="big">' + (c[t[0]]||0) + '</div><div class="sm">' + t[1] + '</div></button>'; }).join('') + '</div></section>';
+    h += '<section class="card"><h3>Entries with disputed claims</h3>' + (att.length ? '<ul class="plain">' + att.map(function(e){ return '<li>' + link(e.id) + ' <span class="rel">' + esc(e.type) + '</span></li>'; }).join('') + '</ul>' : '<p class="empty">None.</p>') + '</section>';
+    var hyp = Object.values(E).filter(function(e){ return e.type === 'hypothesis'; });
+    h += '<section class="card"><h3>Working hypotheses</h3><p class="empty">Held apart from the factual layer. Each states the conditions under which it would fail.</p><ul class="plain">' + hyp.map(function(e){ return '<li>' + link(e.id) + '</li>'; }).join('') + '</ul></section>';
+    $('main').innerHTML = h;
+  }
+  function route(){
+    var id = decodeURIComponent(location.hash.slice(1));
+    state.sel = (id && id !== 'home') ? id : null;
+    if(state.sel) renderEntity(state.sel); else renderHome();
+    document.querySelectorAll('#list .li').forEach(function(b){ if(b.getAttribute('data-id') === state.sel) b.setAttribute('aria-current','true'); else b.removeAttribute('aria-current'); });
+    if(state.sel){ if(window.matchMedia('(max-width: 820px)').matches) $('main').scrollIntoView(); else window.scrollTo({top:0}); }
+  }
+  document.addEventListener('click', function(ev){
+    var b = ev.target.closest('button[data-id]'); if(b){ location.hash = b.getAttribute('data-id'); return; }
+    var t = ev.target.closest('button[data-tile]'); if(t){ var ty = t.getAttribute('data-tile'); state.types = new Set([ty]); document.querySelectorAll('#types .chip').forEach(function(x){ x.setAttribute('aria-pressed', x.getAttribute('data-type') === ty ? 'true' : 'false'); }); renderList(); $('q').focus(); }
+  });
+  $('q').addEventListener('input', function(){ state.q = this.value.trim().toLowerCase(); renderList(); });
+  window.addEventListener('hashchange', route);
+  fetch('db.json', {cache:'no-store'}).then(function(r){ if(!r.ok) throw new Error('db.json returned ' + r.status); return r.json(); }).then(function(d){
+    DB = d; E = d.entities; Object.values(E).forEach(function(e){ e._hay = hay(e); });
+    stats(); buildTypes(); renderList(); route();
+  }).catch(function(err){ $('main').innerHTML = '<section class="card"><p class="empty">Could not load db.json (' + esc(err.message) + '). Serve the built folder over http, for example with python3 -m http.server.</p></section>'; });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "id": "po-paul2",
+  "type": "person",
+  "subtype": "pope",
+  "label": "Paul II",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "30 August 1464 to 26 July 1471",
+        "start": 1464.66,
+        "end": 1471.56
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Pietro Barbo. His reign covers the years of Leonardo's apprenticeship in Florence. Succeeded by Sixtus IV.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard papal chronologies."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "popes",
+    "kind": "Papacy",
+    "start": 1464.66,
+    "end": 1471.56,
+    "date": "30 August 1464 to 26 July 1471",
+    "tier": "D",
+    "place": "Rome",
+    "text": "Pietro Barbo. His reign covers the years of Leonardo's apprenticeship in Florence. Succeeded by Sixtus IV.",
+    "basis": "Standard papal chronologies."
+  }
+}

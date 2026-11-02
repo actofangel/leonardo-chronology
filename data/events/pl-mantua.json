@@ -1,0 +1,39 @@
+{
+  "id": "pl-mantua",
+  "type": "event",
+  "subtype": "residence",
+  "label": "Mantua, Venice",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "Dec 1499 to Apr 1500",
+        "start": 1499.95,
+        "end": 1500.3
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "After the French conquest of Milan he travelled to Mantua, where he drew Isabella d'Este, and was in Venice by mid March 1500.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Letter of Lorenzo Gusnasco to Isabella d'Este, 13 March 1500."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "places",
+    "kind": "Residence",
+    "start": 1499.95,
+    "end": 1500.3,
+    "date": "Dec 1499 to Apr 1500",
+    "tier": "D",
+    "place": "Mantua and Venice",
+    "text": "After the French conquest of Milan he travelled to Mantua, where he drew Isabella d'Este, and was in Venice by mid March 1500.",
+    "basis": "Letter of Lorenzo Gusnasco to Isabella d'Este, 13 March 1500."
+  }
+}

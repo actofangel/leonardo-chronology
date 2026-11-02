@@ -1,0 +1,38 @@
+{
+  "id": "pe-giuliano",
+  "type": "person",
+  "label": "Giuliano de' Medici",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1513 to 1516",
+        "start": 1513.73,
+        "end": 1516.21
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Brother of Pope Leo X. Provided Belvedere quarters and payments.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Vatican payment lists."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Patron",
+    "start": 1513.73,
+    "end": 1516.21,
+    "date": "1513 to 1516",
+    "tier": "D",
+    "place": "Rome",
+    "text": "Brother of Pope Leo X. Provided Belvedere quarters and payments.",
+    "basis": "Vatican payment lists."
+  }
+}

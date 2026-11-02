@@ -1,0 +1,45 @@
+{
+  "id": "w-magi",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Adoration of the Magi",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1481 to 1482",
+        "start": 1481.2,
+        "end": 1482.5
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Commissioned in March 1481 by the monks of San Donato a Scopeto and left unfinished when Leonardo moved to Milan. The date of the commission is documented, the state of the underdrawing is a matter for study.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Contract of March 1481."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1481.2,
+    "end": 1482.5,
+    "date": "1481 to 1482",
+    "tier": "D",
+    "place": "Florence, now Uffizi",
+    "text": "Commissioned in March 1481 by the monks of San Donato a Scopeto and left unfinished when Leonardo moved to Milan. The date of the commission is documented, the state of the underdrawing is a matter for study.",
+    "basis": "Contract of March 1481."
+  },
+  "review": {
+    "flags": [
+      "The contract is recalled as March 1481. Confirm the day and the later reassignment of the commission."
+    ],
+    "sources": []
+  }
+}

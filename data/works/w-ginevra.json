@@ -1,0 +1,39 @@
+{
+  "id": "w-ginevra",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Ginevra de' Benci",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1474 to 1478",
+        "start": 1474,
+        "end": 1478
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Portrait of a young Florentine woman with a juniper motif on the reverse. The dating rests on style and on the identification of the sitter.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Stylistic dating; heraldry and emblem on the reverse."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1474,
+    "end": 1478,
+    "date": "c.1474 to 1478",
+    "tier": "S",
+    "place": "Florence",
+    "text": "Portrait of a young Florentine woman with a juniper motif on the reverse. The dating rests on style and on the identification of the sitter.",
+    "basis": "Stylistic dating; heraldry and emblem on the reverse."
+  }
+}

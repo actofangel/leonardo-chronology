@@ -1,0 +1,38 @@
+{
+  "id": "pe-lisa",
+  "type": "person",
+  "label": "Lisa Gherardini and Francesco del Giocondo",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1503",
+        "start": 1503.5,
+        "end": 1504.2
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Vespucci note links Lisa del Giocondo with a portrait by Leonardo. That the Louvre panel is that portrait rests on later sources and scholarly argument.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Vespucci note, 1503; Vasari."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Sitter circle",
+    "start": 1503.5,
+    "end": 1504.2,
+    "date": "1503",
+    "tier": "S",
+    "place": "Florence",
+    "text": "The Vespucci note links Lisa del Giocondo with a portrait by Leonardo. That the Louvre panel is that portrait rests on later sources and scholarly argument.",
+    "basis": "Vespucci note, 1503; Vasari."
+  }
+}

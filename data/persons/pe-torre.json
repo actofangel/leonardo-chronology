@@ -1,0 +1,144 @@
+{
+  "id": "pe-torre",
+  "type": "person",
+  "label": "Marcantonio della Torre",
+  "variants": [
+    "Marco Antonio della Torre",
+    "Marcus Antonius Turrianus"
+  ],
+  "summary": "Veronese physician and lecturer in anatomy at Pavia. Vasari reports that he and Leonardo helped each other in anatomy. Leonardo's own writings do not name him.",
+  "relations": [
+    {
+      "rel": "appears_in",
+      "target": "w-anatomy2"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1510 to 1511",
+        "start": 1510,
+        "end": 1511.5
+      },
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "Vasari reports a collaboration on anatomy. No contemporary document confirms it.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Vasari only."
+        }
+      ],
+      "check_in": [],
+      "note": "Evidence tier T: rests on later tradition."
+    },
+    {
+      "id": "tor-1",
+      "about": "career",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Took his medical degree at Padua, then moved to Pavia as professor. The year of the Pavia appointment is given as 1509 or 1510.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Article on Marcantonio della Torre, open.icm.edu.pl (journal PDF, title to record).",
+          "url": "https://open.icm.edu.pl/bitstreams/320ee747-aee9-48a9-bf39-3712d23db137/download"
+        },
+        {
+          "type": "web",
+          "cite": "Child's Nervous System article (Springer), 2021.",
+          "url": "https://link.springer.com/article/10.1007/s00381-021-05205-9"
+        }
+      ],
+      "check_in": [
+        "Pavia university records as published",
+        "a peer reviewed study of della Torre"
+      ]
+    },
+    {
+      "id": "tor-2",
+      "about": "died",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died of plague, usually in 1511, at Riva del Garda. One source gives 1511 or 1512, and an older notebook edition gives 1512.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Child's Nervous System article (Springer), 2021.",
+          "url": "https://link.springer.com/article/10.1007/s00381-021-05205-9"
+        },
+        {
+          "type": "web",
+          "cite": "Richter, The Notebooks of Leonardo da Vinci, editorial note (online copy).",
+          "url": "https://neonvagabond.xyz/mirrors/sacred-texts/aor/dv/dv20107.htm"
+        }
+      ],
+      "check_in": [
+        "a peer reviewed study of della Torre"
+      ]
+    },
+    {
+      "id": "tor-3",
+      "about": "relation",
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "That Leonardo's anatomical work of about 1510 to 1511 was shaped by della Torre rests on Vasari. One secondary author argues that Vasari overstates it, since Leonardo's anatomy began decades earlier. Leonardo never names him in the manuscripts.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Article on Marcantonio della Torre, open.icm.edu.pl.",
+          "url": "https://open.icm.edu.pl/bitstreams/320ee747-aee9-48a9-bf39-3712d23db137/download"
+        },
+        {
+          "type": "web",
+          "cite": "Richter, editorial note (online copy).",
+          "url": "https://neonvagabond.xyz/mirrors/sacred-texts/aor/dv/dv20107.htm"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968, Windsor catalogue, anatomical sheets of 1510 to 1511"
+      ]
+    },
+    {
+      "id": "tor-4",
+      "about": "content",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A Windsor anatomical sheet carries Leonardo's note that he hoped to finish all this anatomy in the winter of 1510. The note itself does not mention della Torre.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Royal Collection Trust, Leonardo da Vinci exhibition, Last works.",
+          "url": "https://www.rct.uk/collection/themes/exhibitions/leonardo-da-vinci/the-queens-gallery-palace-of-holyroodhouse/last-works"
+        }
+      ],
+      "check_in": [
+        "Clark and Pedretti 1968, Windsor catalogue, for the RL number and the exact wording"
+      ]
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Anatomist",
+    "start": 1510,
+    "end": 1511.5,
+    "date": "c.1510 to 1511",
+    "tier": "T",
+    "place": "Pavia",
+    "text": "Vasari reports a collaboration on anatomy. No contemporary document confirms it.",
+    "basis": "Vasari only."
+  },
+  "review": {
+    "flags": [
+      "Rests on later sources only. No contemporary document is known to the compiler."
+    ],
+    "sources": []
+  },
+  "open_questions": [
+    "Record the RL number and Italian wording of the 'winter of 1510' note.",
+    "Is there any document placing Leonardo in Pavia in 1510 to 1511?"
+  ]
+}

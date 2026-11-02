@@ -1,0 +1,38 @@
+{
+  "id": "pe-borgia",
+  "type": "person",
+  "label": "Cesare Borgia",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "Aug 1502 to early 1503",
+        "start": 1502.6,
+        "end": 1503.2
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Employed Leonardo as military architect and engineer.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Passport of 18 August 1502."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Patron",
+    "start": 1502.6,
+    "end": 1503.2,
+    "date": "Aug 1502 to early 1503",
+    "tier": "D",
+    "place": "Romagna",
+    "text": "Employed Leonardo as military architect and engineer.",
+    "basis": "Passport of 18 August 1502."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "pe-francesco",
+  "type": "person",
+  "label": "Francesco da Vinci",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1452 to 1507",
+        "start": 1452.29,
+        "end": 1507.5
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Uncle of Leonardo. His will named Leonardo, and the half brothers contested it after his death.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Legal records of the dispute."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Family",
+    "start": 1452.29,
+    "end": 1507.5,
+    "date": "1452 to 1507",
+    "tier": "D",
+    "place": "Vinci",
+    "text": "Uncle of Leonardo. His will named Leonardo, and the half brothers contested it after his death.",
+    "basis": "Legal records of the dispute."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "po-sixtus4",
+  "type": "person",
+  "subtype": "pope",
+  "label": "Sixtus IV",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "9 August 1471 to 12 August 1484",
+        "start": 1471.6,
+        "end": 1484.62
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Francesco della Rovere. Excommunicated Lorenzo de' Medici after the Pazzi conspiracy of 1478 and placed Florence under interdict, which led to war. Built the Sistine Chapel. His reign spans Leonardo's independent years in Florence and the move to Milan.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard papal chronologies."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "popes",
+    "kind": "Papacy",
+    "start": 1471.6,
+    "end": 1484.62,
+    "date": "9 August 1471 to 12 August 1484",
+    "tier": "D",
+    "place": "Rome",
+    "text": "Francesco della Rovere. Excommunicated Lorenzo de' Medici after the Pazzi conspiracy of 1478 and placed Florence under interdict, which led to war. Built the Sistine Chapel. His reign spans Leonardo's independent years in Florence and the move to Milan.",
+    "basis": "Standard papal chronologies."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "w-leda",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Leda and the Swan (lost)",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1504 to 1510",
+        "start": 1504,
+        "end": 1510
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Known only through copies and drawings. The date of the lost original is estimated from the studies.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Copies and preparatory drawings."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1504,
+    "end": 1510,
+    "date": "c.1504 to 1510",
+    "tier": "S",
+    "place": "Florence or Milan",
+    "text": "Known only through copies and drawings. The date of the lost original is estimated from the studies.",
+    "basis": "Copies and preparatory drawings."
+  }
+}

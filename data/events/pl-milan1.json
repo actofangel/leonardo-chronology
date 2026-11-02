@@ -1,0 +1,39 @@
+{
+  "id": "pl-milan1",
+  "type": "event",
+  "subtype": "residence",
+  "label": "Milan",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1482 to Dec 1499",
+        "start": 1482.5,
+        "end": 1499.9
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Employed at the court of Ludovico Sforza. Presence in Milan is documented from the 1483 Virgin of the Rocks contract. The date of arrival is not recorded.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Contract of 25 April 1483; court and cathedral records."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "places",
+    "kind": "Residence",
+    "start": 1482.5,
+    "end": 1499.9,
+    "date": "c.1482 to Dec 1499",
+    "tier": "S",
+    "place": "Milan",
+    "text": "Employed at the court of Ludovico Sforza. Presence in Milan is documented from the 1483 Virgin of the Rocks contract. The date of arrival is not recorded.",
+    "basis": "Contract of 25 April 1483; court and cathedral records."
+  }
+}

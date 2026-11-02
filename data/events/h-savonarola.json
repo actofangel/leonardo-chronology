@@ -1,0 +1,37 @@
+{
+  "id": "h-savonarola",
+  "type": "event",
+  "subtype": "context",
+  "label": "Savonarola executed",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "23 May 1498",
+        "start": 1498.39
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Girolamo Savonarola is hanged and burned in the Piazza della Signoria.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies of the period."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "Politics",
+    "start": 1498.39,
+    "date": "23 May 1498",
+    "tier": "D",
+    "place": "Florence",
+    "text": "Girolamo Savonarola is hanged and burned in the Piazza della Signoria.",
+    "basis": "Standard chronologies of the period."
+  }
+}

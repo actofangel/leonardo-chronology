@@ -1,0 +1,39 @@
+{
+  "id": "pl-flor2a",
+  "type": "event",
+  "subtype": "residence",
+  "label": "Florence",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1500 to 1502",
+        "start": 1500.3,
+        "end": 1502.6
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Back in Florence by spring 1500, working at the Servite house of Santissima Annunziata. Fra Pietro da Novellara reports on his work in April 1501.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Novellara letter of 3 April 1501; financial records."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "places",
+    "kind": "Residence",
+    "start": 1500.3,
+    "end": 1502.6,
+    "date": "1500 to 1502",
+    "tier": "D",
+    "place": "Florence, Santissima Annunziata",
+    "text": "Back in Florence by spring 1500, working at the Servite house of Santissima Annunziata. Fra Pietro da Novellara reports on his work in April 1501.",
+    "basis": "Novellara letter of 3 April 1501; financial records."
+  }
+}

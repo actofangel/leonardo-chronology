@@ -1,0 +1,39 @@
+{
+  "id": "h-pazzi-war",
+  "type": "event",
+  "subtype": "context",
+  "label": "War after the Pazzi plot",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "April 1478 to March 1480",
+        "start": 1478.4,
+        "end": 1480.2
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Pope Sixtus IV and Naples fight Florence. Lorenzo travels to Naples in December 1479 and secures peace in March 1480.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies of the period."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "Politics",
+    "start": 1478.4,
+    "end": 1480.2,
+    "date": "April 1478 to March 1480",
+    "tier": "D",
+    "place": "Tuscany and Naples",
+    "text": "Pope Sixtus IV and Naples fight Florence. Lorenzo travels to Naples in December 1479 and secures peace in March 1480.",
+    "basis": "Standard chronologies of the period."
+  }
+}

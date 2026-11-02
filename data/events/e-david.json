@@ -1,0 +1,36 @@
+{
+  "id": "e-david",
+  "type": "event",
+  "label": "David placement committee",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "25 January 1504",
+        "start": 1504.07
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Leonardo is among the artists consulted on the placement of Michelangelo's David.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Minutes of the committee."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Commission",
+    "start": 1504.07,
+    "date": "25 January 1504",
+    "tier": "D",
+    "place": "Florence",
+    "text": "Leonardo is among the artists consulted on the placement of Michelangelo's David.",
+    "basis": "Minutes of the committee."
+  }
+}

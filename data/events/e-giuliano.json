@@ -1,0 +1,36 @@
+{
+  "id": "e-giuliano",
+  "type": "event",
+  "label": "Death of Giuliano de' Medici",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "17 March 1516",
+        "start": 1516.21
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The patron who housed Leonardo in the Belvedere dies, which opens the way to the French invitation.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Contemporary records."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Politics",
+    "start": 1516.21,
+    "date": "17 March 1516",
+    "tier": "D",
+    "place": "Florence",
+    "text": "The patron who housed Leonardo in the Belvedere dies, which opens the way to the French invitation.",
+    "basis": "Contemporary records."
+  }
+}

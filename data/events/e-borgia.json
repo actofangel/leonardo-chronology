@@ -1,0 +1,42 @@
+{
+  "id": "e-borgia",
+  "type": "event",
+  "label": "Passport from Cesare Borgia",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "18 August 1502",
+        "start": 1502.63
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Cesare Borgia names Leonardo architect and general engineer with free passage through his territories.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Passport dated 18 August 1502."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Career",
+    "start": 1502.63,
+    "date": "18 August 1502",
+    "tier": "D",
+    "place": "Borgia court",
+    "text": "Cesare Borgia names Leonardo architect and general engineer with free passage through his territories.",
+    "basis": "Passport dated 18 August 1502."
+  },
+  "review": {
+    "flags": [
+      "The place of issue is not confirmed."
+    ],
+    "sources": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "e-beatis",
+  "type": "event",
+  "label": "Beatis visit",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "10 October 1517",
+        "start": 1517.78
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Antonio de Beatis visits and describes three paintings in the house and Leonardo's paralysed right hand.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Travel diary of Antonio de Beatis."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Visitor",
+    "start": 1517.78,
+    "date": "10 October 1517",
+    "tier": "D",
+    "place": "Cloux",
+    "text": "Antonio de Beatis visits and describes three paintings in the house and Leonardo's paralysed right hand.",
+    "basis": "Travel diary of Antonio de Beatis."
+  }
+}

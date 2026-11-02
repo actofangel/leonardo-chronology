@@ -1,0 +1,37 @@
+{
+  "id": "h-lodi",
+  "type": "event",
+  "subtype": "context",
+  "label": "Peace of Lodi",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "April 1454",
+        "start": 1454.27
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Milan and Venice end their war. The settlement underlies the balance among the Italian states for the next four decades.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies of the period."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "Politics",
+    "start": 1454.27,
+    "date": "April 1454",
+    "tier": "D",
+    "place": "Lombardy",
+    "text": "Milan and Venice end their war. The settlement underlies the balance among the Italian states for the next four decades.",
+    "basis": "Standard chronologies of the period."
+  }
+}

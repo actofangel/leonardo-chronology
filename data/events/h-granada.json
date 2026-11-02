@@ -1,0 +1,37 @@
+{
+  "id": "h-granada",
+  "type": "event",
+  "subtype": "context",
+  "label": "Fall of Granada",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "2 January 1492",
+        "start": 1492.01
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The last Muslim kingdom in Iberia falls to Castile and Aragon.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies of the period."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "Politics",
+    "start": 1492.01,
+    "date": "2 January 1492",
+    "tier": "D",
+    "place": "Spain",
+    "text": "The last Muslim kingdom in Iberia falls to Castile and Aragon.",
+    "basis": "Standard chronologies of the period."
+  }
+}

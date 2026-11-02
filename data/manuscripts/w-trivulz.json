@@ -1,0 +1,38 @@
+{
+  "id": "w-trivulz",
+  "type": "manuscript",
+  "label": "Codex Trivulzianus",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1487 to 1490",
+        "start": 1487,
+        "end": 1490
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Notebook with long word lists and architectural sketches, now in Milan.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Internal dating."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Notebook",
+    "start": 1487,
+    "end": 1490,
+    "date": "c.1487 to 1490",
+    "tier": "S",
+    "place": "Milan",
+    "text": "Notebook with long word lists and architectural sketches, now in Milan.",
+    "basis": "Internal dating."
+  }
+}

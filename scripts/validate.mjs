@@ -1,213 +1,168 @@
 #!/usr/bin/env node
-// Validator for the Leonardo Chronology data.
+// Validator for the Leonardo database (data/, ldv-entity/1). See SCHEMA.md.
 //
-// Reads the base records from index.html, plus reviews.json and extra.json,
-// and enforces the update protocol stated on the page:
-//   * record shape (id, title, dates, evidence tier, text, basis)
-//   * reviews refer to existing records and use the allowed vocabulary
-//   * "verified" requires at least one source of an admitted type
-//   * history lines are append only (when --base <git ref> is given)
-//   * notation: no dash characters in any data text
+//   node scripts/validate.mjs                 validate the working tree
+//   node scripts/validate.mjs --base <ref>    also check append-only history against a git ref
+//   node scripts/validate.mjs --strict        treat warnings as errors
 //
-// Usage: node scripts/validate.mjs [--base <git ref>]
-// Exit code 1 on any error. Warnings are printed but do not fail.
-
-import { readFileSync, readdirSync } from 'node:fs';
+// Exit code 1 on any error.
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
-import { fileURLToPath } from 'node:url';
 import path from 'node:path';
-import vm from 'node:vm';
-
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const LANES = ['places', 'works', 'people', 'events', 'popes', 'history'];
-const LANE_CONST = { places: 'PLACES', works: 'WORKS', people: 'PEOPLE', events: 'EVENTS', popes: 'POPES', history: 'HISTORY' };
-const TIERS = ['D', 'S', 'T'];
-const STATUSES = ['pending', 'verified', 'disputed', 'corrected', 'rejected'];
-const ADMITTED = ['edition', 'catalogue', 'ms_study', 'monograph', 'archive_publication'];
-const SOURCE_TYPES = [...ADMITTED, 'web', 'model_recall', 'other'];
-const Y0 = 1450, Y1 = 1520;
-// Hyphen-like and dash characters forbidden by the project notation rule.
-// The plain ASCII hyphen inside words (e.g. "ldv-chronology") is allowed; a doubled one is not.
-const DASHES = /[‐-―−⸺⸻﹘﹣－─-╿]|--/;
+import {
+  ROOT, FOLDERS, LANES, TIERS, REVIEW_STATUSES, CLAIM_STATUSES, LAYERS, GRADES,
+  ADMITTED, SOURCE_TYPES, loadAll, loadView, isAdmitted, sourceType
+} from './lib.mjs';
 
 const errors = [], warnings = [];
-const err = (m) => errors.push(m);
-const warn = (m) => warnings.push(m);
+const err = (m) => errors.push(m), warn = (m) => warnings.push(m);
+const Y0 = 1450, Y1 = 1520;
+const ID = /^[a-z][a-z0-9]*(-[a-z0-9]+)*$/;
+const DATE = /^\d{4}-\d{2}-\d{2}$/;
+// Dash characters forbidden by the project notation rule; ASCII hyphen inside words is allowed, a doubled one is not.
+const DASHES = /[‐-―−⸺⸻﹘﹣－─-╿]|--/;
+const SKIP_TEXT = new Set(['url', 'id', 'target', 'ref', 'from']);
 
-function loadBase() {
-  const html = readFileSync(path.join(ROOT, 'index.html'), 'utf8');
-  const start = html.indexOf('/* DATA PART 1');
-  const end = html.indexOf('/* PLATFORM APP');
-  if (start < 0 || end < 0) throw new Error('Could not locate the data block in index.html');
-  const code = html.slice(start, end) +
-    '\n;globalThis.__out = {ERAS, PLACES, WORKS, PEOPLE, EVENTS, POPES, HISTORY};';
-  const ctx = {};
-  vm.createContext(ctx);
-  vm.runInContext(code, ctx);
-  return ctx.__out;
+function checkText(where, v, key) {
+  if (SKIP_TEXT.has(key)) return;
+  if (typeof v === 'string') { if (DASHES.test(v)) err(`${where}: dash character in ${JSON.stringify(v.slice(0, 70))}`); }
+  else if (Array.isArray(v)) v.forEach((x, i) => checkText(`${where}[${i}]`, x));
+  else if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) checkText(`${where}.${k}`, x, k);
 }
 
-function readJSON(name, text) {
-  try { return JSON.parse(text ?? readFileSync(path.join(ROOT, name), 'utf8')); }
-  catch (e) { err(`${name}: cannot parse (${e.message})`); return null; }
-}
+const { entities, files, problems } = loadAll();
+problems.forEach(err);
 
-function checkText(where, value) {
-  if (typeof value === 'string') {
-    if (DASHES.test(value)) err(`${where}: contains a dash character: ${JSON.stringify(value.slice(0, 80))}`);
-  } else if (Array.isArray(value)) value.forEach((v, i) => checkText(`${where}[${i}]`, v));
-  else if (value && typeof value === 'object') for (const [k, v] of Object.entries(value)) {
-    if (k === 'url') continue;
-    checkText(`${where}.${k}`, v);
+const SOURCE_FIELD_TYPES = new Set([...SOURCE_TYPES]);
+for (const [id, e] of entities) {
+  const file = files.get(id);
+  const where = file;
+  const folder = file.split('/')[1];
+  if (path.basename(file, '.json') !== e.id) err(`${where}: file name must equal id "${e.id}"`);
+  if (!ID.test(e.id || '')) err(`${where}: id must be lowercase words joined by single hyphens`);
+  if (e.type !== FOLDERS[folder]) err(`${where}: type "${e.type}" does not belong in data/${folder}/`);
+  if (typeof e.label !== 'string' || !e.label.trim()) err(`${where}: label is required`);
+
+  // relations
+  for (const [i, r] of (e.relations || []).entries()) {
+    if (!r.rel || !r.target) err(`${where}.relations[${i}]: rel and target are required`);
+    else if (!entities.has(r.target)) warn(`${where}.relations[${i}]: target "${r.target}" does not exist yet`);
+    if (r.claim && !(e.claims || []).some((c) => c.id === r.claim)) err(`${where}.relations[${i}]: claim "${r.claim}" not found on this entity`);
   }
-}
 
-function checkRecord(r, where) {
-  for (const f of ['id', 'title', 'date', 'text', 'basis']) {
-    if (typeof r[f] !== 'string' || !r[f].trim()) err(`${where}: missing field "${f}"`);
-  }
-  if (typeof r.start !== 'number' || r.start < Y0 || r.start > Y1) err(`${where}: start must be a number between ${Y0} and ${Y1}`);
-  if (r.end !== undefined && (typeof r.end !== 'number' || r.end < r.start)) err(`${where}: end must be a number not before start`);
-  if (!TIERS.includes(r.tier)) err(`${where}: tier must be one of ${TIERS.join(', ')}`);
-  for (const f of ['status', 'flags', 'sources', 'history']) {
-    if (f in r) err(`${where}: "${f}" belongs in reviews.json, not on the record`);
-  }
-  checkText(where, r);
-}
-
-// ---------- base records ----------
-let base;
-try { base = loadBase(); } catch (e) { err(e.message); }
-const ids = new Map();
-if (base) {
-  base.ERAS.forEach((e, i) => checkText(`ERAS[${i}]`, e));
-  for (const lane of LANES) {
-    base[LANE_CONST[lane]].forEach((r, i) => {
-      const where = `${lane}/${r.id ?? '#' + i}`;
-      checkRecord(r, where);
-      if (ids.has(r.id)) err(`${where}: duplicate id (also in ${ids.get(r.id)})`);
-      ids.set(r.id, lane);
-    });
-  }
-}
-
-// ---------- extra.json ----------
-const extra = readJSON('extra.json');
-if (extra) {
-  if (extra.schema !== 'ldv-chronology-extra/1') err('extra.json: schema must be "ldv-chronology-extra/1"');
-  if (!Array.isArray(extra.records)) err('extra.json: records must be an array');
-  else extra.records.forEach((r, i) => {
-    const where = `extra.json/${r.id ?? '#' + i}`;
-    if (!LANES.includes(r.lane)) err(`${where}: unknown lane "${r.lane}"`);
-    checkRecord(r, where);
-    if (ids.has(r.id)) err(`${where}: duplicate id (also in ${ids.get(r.id)})`);
-    ids.set(r.id, 'extra');
-  });
-}
-
-// ---------- reviews.json ----------
-const reviews = readJSON('reviews.json');
-const counts = Object.fromEntries(STATUSES.map((s) => [s, 0]));
-if (reviews) {
-  if (reviews.schema !== 'ldv-chronology-reviews/1') err('reviews.json: schema must be "ldv-chronology-reviews/1"');
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(reviews.updated ?? '')) err('reviews.json: updated must be YYYY-MM-DD');
-  for (const [id, rv] of Object.entries(reviews.reviews ?? {})) {
-    const where = `reviews.json/${id}`;
-    if (!ids.has(id)) err(`${where}: no record with this id`);
-    const status = rv.status ?? 'pending';
-    if (!STATUSES.includes(status)) { err(`${where}: unknown status "${status}"`); continue; }
-    counts[status]++;
-    const sources = rv.sources ?? [];
-    sources.forEach((s, i) => {
-      if (!SOURCE_TYPES.includes(s.type)) err(`${where}.sources[${i}]: unknown type "${s.type}"`);
-      if (typeof s.cite !== 'string' || !s.cite.trim()) err(`${where}.sources[${i}]: cite is required`);
-    });
-    const admitted = sources.some((s) => ADMITTED.includes(s.type));
-    if (status === 'verified' && !admitted) err(`${where}: verified without a source of an admitted type`);
-    if (status === 'corrected' && !(rv.history ?? []).length) err(`${where}: corrected needs a history line saying what changed`);
-    if (status === 'disputed' && !(rv.flags ?? []).length && !rv.proposed) warn(`${where}: disputed with neither flags nor a proposed change`);
-    (rv.history ?? []).forEach((h, i) => {
-      if (!/^\d{4}-\d{2}-\d{2}$/.test(h.at ?? '') || !h.by || !h.note) err(`${where}.history[${i}]: needs at (YYYY-MM-DD), by and note`);
-    });
-    checkText(where, rv);
-  }
-}
-
-// ---------- append-only history ----------
-const baseIdx = process.argv.indexOf('--base');
-if (baseIdx > 0 && reviews) {
-  const ref = process.argv[baseIdx + 1];
-  let old = null;
-  try { old = JSON.parse(execFileSync('git', ['show', `${ref}:reviews.json`], { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] })); }
-  catch { warn(`append-only check skipped: reviews.json not found at ${ref}`); }
-  if (old) for (const [id, prev] of Object.entries(old.reviews ?? {})) {
-    const before = prev.history ?? [];
-    const now = reviews.reviews?.[id]?.history ?? [];
-    const kept = before.every((h, i) => JSON.stringify(h) === JSON.stringify(now[i]));
-    if (!kept) err(`reviews.json/${id}: history lines were edited or removed since ${ref} (history is append only)`);
-  }
-}
-
-// ---------- entities/*.json (research dossiers) ----------
-const CLAIM_LAYERS = ['fact', 'interpretation', 'hypothesis'];
-const CLAIM_STATUSES = ['pending', 'verified', 'disputed', 'rejected'];
-const ENTITY_FILES = { 'entities/people.json': ['ldv-entities-people/1', 'people'] };
-for (const [file, [schema, key]] of Object.entries(ENTITY_FILES)) {
-  let text;
-  try { text = readFileSync(path.join(ROOT, file), 'utf8'); } catch { continue; }
-  const doc = readJSON(file, text);
-  if (!doc) continue;
-  if (doc.schema !== schema) err(`${file}: schema must be "${schema}"`);
-  const seen = new Set();
-  (doc[key] ?? []).forEach((e, i) => {
-    const where = `${file}/${e.id ?? '#' + i}`;
-    if (!e.id || !e.name) err(`${where}: id and name are required`);
-    if (seen.has(e.id)) err(`${where}: duplicate entity id`);
-    seen.add(e.id);
-    (e.records ?? []).forEach((r) => { if (!ids.has(r)) err(`${where}: links to unknown record "${r}"`); });
-    const claimIds = new Set();
-    (e.claims ?? []).forEach((c, j) => {
-      const cw = `${where}.claims[${c.id ?? j}]`;
-      if (!c.id || claimIds.has(c.id)) err(`${cw}: claim id missing or duplicated`);
-      claimIds.add(c.id);
-      if (!CLAIM_LAYERS.includes(c.layer)) err(`${cw}: layer must be one of ${CLAIM_LAYERS.join(', ')}`);
-      if (!CLAIM_STATUSES.includes(c.status)) err(`${cw}: status must be one of ${CLAIM_STATUSES.join(', ')}`);
-      if (!Array.isArray(c.sources) || !c.sources.length) err(`${cw}: at least one source is required`);
-      (c.sources ?? []).forEach((s, k) => {
-        if (!SOURCE_TYPES.includes(s.type)) err(`${cw}.sources[${k}]: unknown type "${s.type}"`);
+  // claims
+  const cids = new Set();
+  for (const [i, c] of (e.claims || []).entries()) {
+    const cw = `${where}#${c.id ?? i}`;
+    if (!c.id || cids.has(c.id)) err(`${cw}: claim id missing or duplicated`);
+    cids.add(c.id);
+    if (!c.about) err(`${cw}: about is required`);
+    if (!LAYERS.includes(c.layer)) err(`${cw}: layer must be one of ${LAYERS.join(', ')}`);
+    if (c.grade && !GRADES.includes(c.grade)) err(`${cw}: unknown grade "${c.grade}"`);
+    if (!CLAIM_STATUSES.includes(c.status)) err(`${cw}: status must be one of ${CLAIM_STATUSES.join(', ')}`);
+    if (!Array.isArray(c.sources) || !c.sources.length) err(`${cw}: at least one source is required`);
+    for (const [k, s] of (c.sources || []).entries()) {
+      if (s.ref) { if (!entities.has(s.ref)) warn(`${cw}.sources[${k}]: source "${s.ref}" does not exist yet`); else if (entities.get(s.ref).type !== 'source') err(`${cw}.sources[${k}]: "${s.ref}" is not a source entity`); }
+      else {
+        if (!SOURCE_FIELD_TYPES.has(s.type)) err(`${cw}.sources[${k}]: unknown type "${s.type}"`);
         if (!s.cite) err(`${cw}.sources[${k}]: cite is required`);
-      });
-      if (c.status === 'verified' && !(c.sources ?? []).some((s) => ADMITTED.includes(s.type))) err(`${cw}: verified without a source of an admitted type`);
-    });
-    checkText(where, e);
-  });
+        if (s.type === 'primary' && !s.url && !/f\.|fol|RL|inv|folio/i.test(s.cite || '')) warn(`${cw}.sources[${k}]: primary source without folio, inventory or url`);
+      }
+    }
+    if (c.status === 'verified' && !isAdmitted(c, entities)) err(`${cw}: verified without a source of an admitted type`);
+    if (c.layer === 'hypothesis' && c.grade === 'fact') err(`${cw}: a hypothesis claim cannot have grade fact`);
+    for (const a of c.alternative_to || []) if (!cids.has(a) && !(e.claims || []).some((x) => x.id === a)) err(`${cw}: alternative_to "${a}" not found`);
+  }
+  if (e.layer === 'hypothesis') err(`${where}: layer belongs on claims, not on the entity`);
+
+  // type specific
+  if (e.type === 'source') {
+    if (!SOURCE_TYPES.includes(e.source_type)) err(`${where}: source_type must be one of ${SOURCE_TYPES.join(', ')}`);
+    if (!e.citation) err(`${where}: citation is required`);
+  }
+  if (e.type === 'place' && e.coords) {
+    const { lat, lon } = e.coords;
+    if (typeof lat !== 'number' || typeof lon !== 'number' || Math.abs(lat) > 90 || Math.abs(lon) > 180) err(`${where}: coords must be numeric lat and lon`);
+  }
+  if (e.type === 'hypothesis') {
+    if (!['working_hypothesis', 'speculation'].includes(e.status)) err(`${where}: hypothesis status must be working_hypothesis or speculation`);
+    if (!e.statement) err(`${where}: statement is required`);
+    if (!Array.isArray(e.falsified_if) || !e.falsified_if.length) err(`${where}: falsified_if must list at least one condition`);
+    for (const ref of e.assumes || []) {
+      const [eid, cid] = ref.split('#');
+      if (!entities.has(eid) || !(entities.get(eid).claims || []).some((c) => c.id === cid)) err(`${where}: assumes "${ref}", which does not exist`);
+    }
+  }
+
+  // timeline
+  if (e.timeline) {
+    const t = e.timeline, tw = `${where}.timeline`;
+    if (!LANES.includes(t.lane)) err(`${tw}: unknown lane "${t.lane}"`);
+    for (const f of ['kind', 'date', 'text', 'basis', 'place']) if (typeof t[f] !== 'string' || !t[f].trim()) err(`${tw}: ${f} is required`);
+    if (typeof t.start !== 'number' || t.start < Y0 || t.start > Y1) err(`${tw}: start must be a number between ${Y0} and ${Y1}`);
+    if (t.end !== undefined && (typeof t.end !== 'number' || t.end < t.start)) err(`${tw}: end must not be before start`);
+    if (!TIERS.includes(t.tier)) err(`${tw}: tier must be one of ${TIERS.join(', ')}`);
+  }
+
+  // review
+  if (e.review) {
+    const rv = e.review, rw = `${where}.review`, st = rv.status ?? 'pending';
+    if (!REVIEW_STATUSES.includes(st)) err(`${rw}: unknown status "${st}"`);
+    const admitted = (rv.sources || []).some((s) => ADMITTED.includes(s.ref ? sourceType(s, entities) : s.type));
+    if (st === 'verified' && !admitted) err(`${rw}: verified without a source of an admitted type`);
+    if (st === 'corrected' && !(rv.history || []).length) err(`${rw}: corrected needs a history line`);
+    for (const [i, h] of (rv.history || []).entries()) if (!DATE.test(h.at || '') || !h.by || !h.note) err(`${rw}.history[${i}]: needs at (YYYY-MM-DD), by and note`);
+    if (!e.timeline) warn(`${rw}: review without a timeline block has no effect on the chronology`);
+  }
+
+  checkText(where, e);
 }
 
-// ---------- research/*.patch.json (unapplied review patches) ----------
+// view
+try { loadView().eras.forEach((x, i) => checkText(`data/views/chronology.json eras[${i}]`, x)); }
+catch (e) { err(`data/views/chronology.json: ${e.message}`); }
 
-let patchFiles = [];
-try { patchFiles = readdirSync(path.join(ROOT, 'research')).filter((f) => f.endsWith('.patch.json')); } catch {}
-for (const f of patchFiles) {
-  const file = `research/${f}`;
-  const doc = readJSON(file);
-  if (!doc) continue;
-  for (const [id, rv] of Object.entries(doc.reviews ?? {})) {
-    const where = `${file}/${id}`;
-    if (!ids.has(id)) err(`${where}: no record with this id`);
-    if (rv.status && !STATUSES.includes(rv.status)) err(`${where}: unknown status "${rv.status}"`);
-    if (rv.status === 'verified' && !(rv.sources ?? []).some((s) => ADMITTED.includes(s.type))) err(`${where}: verified without a source of an admitted type`);
-    const existing = reviews?.reviews?.[id]?.flags ?? [];
-    if (rv.flags && !existing.every((x) => rv.flags.includes(x))) warn(`${where}: flags replace the current list and would drop an existing flag`);
-    checkText(where, rv);
+// research patches
+const rdir = path.join(ROOT, 'research');
+for (const f of existsSync(rdir) ? readdirSync(rdir).filter((x) => x.endsWith('.patch.json')) : []) {
+  let doc; try { doc = JSON.parse(readFileSync(path.join(rdir, f), 'utf8')); } catch (e) { err(`research/${f}: ${e.message}`); continue; }
+  for (const [id, rv] of Object.entries(doc.reviews || {})) {
+    const w = `research/${f}/${id}`;
+    if (!entities.has(id)) { err(`${w}: no entity with this id`); continue; }
+    if (rv.status === 'verified' && !(rv.sources || []).some((s) => ADMITTED.includes(s.type))) err(`${w}: verified without an admitted source`);
+    const existing = entities.get(id).review?.flags || [];
+    if (rv.flags && !existing.every((x) => rv.flags.includes(x))) warn(`${w}: flags replace the current list and would drop an existing flag`);
+    checkText(w, rv);
   }
 }
 
-// ---------- report ----------
-const total = ids.size;
-const reviewed = Object.keys(reviews?.reviews ?? {}).length;
-console.log(`Records: ${total} (base and extra). Review entries: ${reviewed}.`);
-console.log('By review status: ' + STATUSES.map((s) => `${s} ${counts[s]}`).join(', ') + `, no review entry ${total - reviewed}.`);
-warnings.forEach((w) => console.log('warning: ' + w));
+// append-only history against a git ref
+const bi = process.argv.indexOf('--base');
+if (bi > 0) {
+  const ref = process.argv[bi + 1];
+  for (const [id, e] of entities) {
+    let old;
+    try { old = JSON.parse(execFileSync('git', ['show', `${ref}:${files.get(id)}`], { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] })); }
+    catch { continue; }
+    const before = old.review?.history || [], now = e.review?.history || [];
+    if (!before.every((h, i) => JSON.stringify(h) === JSON.stringify(now[i]))) err(`${files.get(id)}: review history edited or removed since ${ref} (append only)`);
+    for (const oc of old.claims || []) {
+      const nc = (e.claims || []).find((c) => c.id === oc.id);
+      if (!nc) err(`${files.get(id)}#${oc.id}: claim removed since ${ref}. Set status "rejected" instead of deleting`);
+    }
+  }
+}
+
+// report
+const byType = {};
+let claims = 0, verified = 0;
+for (const e of entities.values()) { byType[e.type] = (byType[e.type] || 0) + 1; for (const c of e.claims || []) { claims++; if (c.status === 'verified') verified++; } }
+console.log(`Entities: ${entities.size} (${Object.entries(byType).map(([k, v]) => `${k} ${v}`).join(', ')}). Claims: ${claims}, verified ${verified}.`);
+const MAXW = 40;
+warnings.slice(0, MAXW).forEach((w) => console.log('warning: ' + w));
+if (warnings.length > MAXW) console.log(`warning: ... and ${warnings.length - MAXW} more`);
 errors.forEach((e) => console.log('error: ' + e));
-console.log(errors.length ? `FAILED with ${errors.length} error(s).` : 'OK');
-process.exit(errors.length ? 1 : 0);
+const strict = process.argv.includes('--strict');
+const fail = errors.length || (strict && warnings.length);
+console.log(fail ? `FAILED with ${errors.length} error(s)${strict ? ` and ${warnings.length} warning(s)` : ''}.` : `OK (${warnings.length} warning(s)).`);
+process.exit(fail ? 1 : 0);

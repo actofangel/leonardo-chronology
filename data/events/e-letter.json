@@ -1,0 +1,36 @@
+{
+  "id": "e-letter",
+  "type": "event",
+  "label": "Letter to Ludovico Sforza",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1482 to 1483",
+        "start": 1482.5
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "A draft letter offering skills in military engineering and noting his ability as painter and sculptor. Whether it was sent, and exactly when, is not known.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Codex Atlanticus; dating is an editorial estimate."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Career",
+    "start": 1482.5,
+    "date": "c.1482 to 1483",
+    "tier": "S",
+    "place": "Florence or Milan",
+    "text": "A draft letter offering skills in military engineering and noting his ability as painter and sculptor. Whether it was sent, and exactly when, is not known.",
+    "basis": "Codex Atlanticus; dating is an editorial estimate."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "w-anghiari",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Battle of Anghiari",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1503 to 1506",
+        "start": 1503.8,
+        "end": 1506.4
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Wall painting for the Council Hall with a cartoon completed in 1504 and painting begun in 1505. The experiment in oil technique failed and the work was abandoned. It is known from copies.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Contract of 4 May 1504; his own note of 6 June 1505."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1503.8,
+    "end": 1506.4,
+    "date": "1503 to 1506",
+    "tier": "D",
+    "place": "Palazzo della Signoria, Florence",
+    "text": "Wall painting for the Council Hall with a cartoon completed in 1504 and painting begun in 1505. The experiment in oil technique failed and the work was abandoned. It is known from copies.",
+    "basis": "Contract of 4 May 1504; his own note of 6 June 1505."
+  }
+}

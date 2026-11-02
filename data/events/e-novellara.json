@@ -1,0 +1,36 @@
+{
+  "id": "e-novellara",
+  "type": "event",
+  "label": "Novellara letter",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "3 April 1501",
+        "start": 1501.25
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Carmelite Fra Pietro da Novellara tells Isabella d'Este that Leonardo is working on a small Madonna with a yarnwinder and has made little progress with the St Anne cartoon.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Letter of Fra Pietro da Novellara, 3 April 1501."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Correspondence",
+    "start": 1501.25,
+    "date": "3 April 1501",
+    "tier": "D",
+    "place": "Florence",
+    "text": "The Carmelite Fra Pietro da Novellara tells Isabella d'Este that Leonardo is working on a small Madonna with a yarnwinder and has made little progress with the St Anne cartoon.",
+    "basis": "Letter of Fra Pietro da Novellara, 3 April 1501."
+  }
+}

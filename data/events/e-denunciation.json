@@ -1,0 +1,36 @@
+{
+  "id": "e-denunciation",
+  "type": "event",
+  "label": "Anonymous denunciation",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "Apr to 7 Jun 1476",
+        "start": 1476.27
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "An anonymous accusation naming Leonardo and others was lodged with the Ufficiali di Notte. The case was dismissed on 7 June 1476. The record also places him in Verrocchio's household.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Archivio di Stato di Firenze, Ufficiali di Notte."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Life",
+    "start": 1476.27,
+    "date": "Apr to 7 Jun 1476",
+    "tier": "D",
+    "place": "Florence",
+    "text": "An anonymous accusation naming Leonardo and others was lodged with the Ufficiali di Notte. The case was dismissed on 7 June 1476. The record also places him in Verrocchio's household.",
+    "basis": "Archivio di Stato di Firenze, Ufficiali di Notte."
+  }
+}

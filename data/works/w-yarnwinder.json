@@ -1,0 +1,39 @@
+{
+  "id": "w-yarnwinder",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Madonna of the Yarnwinder",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1501 to 1510",
+        "start": 1501,
+        "end": 1510
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Novellara letter describes a small Madonna with a yarnwinder commissioned for Florimond Robertet. Surviving versions are not securely tied to that description.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Novellara letter; version history debated."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1501,
+    "end": 1510,
+    "date": "c.1501 to 1510",
+    "tier": "S",
+    "place": "Florence",
+    "text": "The Novellara letter describes a small Madonna with a yarnwinder commissioned for Florimond Robertet. Surviving versions are not securely tied to that description.",
+    "basis": "Novellara letter; version history debated."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "pe-cecilia",
+  "type": "person",
+  "label": "Cecilia Gallerani",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1489 to 1491",
+        "start": 1489,
+        "end": 1491
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Identified as the sitter of the Lady with an Ermine. The identification rests on the ermine emblem and a sonnet by Bellincioni.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Interpretive identification."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Court",
+    "start": 1489,
+    "end": 1491,
+    "date": "c.1489 to 1491",
+    "tier": "S",
+    "place": "Milan",
+    "text": "Identified as the sitter of the Lady with an Ermine. The identification rests on the ermine emblem and a sonnet by Bellincioni.",
+    "basis": "Interpretive identification."
+  }
+}

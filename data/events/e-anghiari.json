@@ -1,0 +1,36 @@
+{
+  "id": "e-anghiari",
+  "type": "event",
+  "label": "Begins to paint at the Palazzo",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "6 June 1505",
+        "start": 1505.43
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "His note records the day he began to paint the Battle of Anghiari on the wall of the Council Hall.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Leonardo's own note."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Commission",
+    "start": 1505.43,
+    "date": "6 June 1505",
+    "tier": "D",
+    "place": "Palazzo della Signoria, Florence",
+    "text": "His note records the day he began to paint the Battle of Anghiari on the wall of the Council Hall.",
+    "basis": "Leonardo's own note."
+  }
+}

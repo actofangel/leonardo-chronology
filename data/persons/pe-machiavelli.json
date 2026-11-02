@@ -1,0 +1,44 @@
+{
+  "id": "pe-machiavelli",
+  "type": "person",
+  "label": "Niccolò Machiavelli",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "overlap, 1502 to 1504",
+        "start": 1502.8,
+        "end": 1504.5
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Florentine secretary, present at the Borgia court in autumn 1502 and involved in the Arno project. The documents establish overlap, while any personal friendship is an interpretation.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Florentine correspondence."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Florentine officials",
+    "start": 1502.8,
+    "end": 1504.5,
+    "date": "overlap, 1502 to 1504",
+    "tier": "S",
+    "place": "Romagna, Florence",
+    "text": "Florentine secretary, present at the Borgia court in autumn 1502 and involved in the Arno project. The documents establish overlap, while any personal friendship is an interpretation.",
+    "basis": "Florentine correspondence."
+  },
+  "review": {
+    "flags": [
+      "The bar shows an overlap in time and place. It does not record a relationship."
+    ],
+    "sources": []
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "w-atlanticus",
+  "type": "manuscript",
+  "label": "Codex Atlanticus (content)",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1478 to 1519",
+        "start": 1478,
+        "end": 1519
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "A late sixteenth century assembly of sheets by Pompeo Leoni. The sheets themselves date from the whole of Leonardo's active life.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Individual sheet datings."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Notebook",
+    "start": 1478,
+    "end": 1519,
+    "date": "1478 to 1519",
+    "tier": "S",
+    "place": "Milan, Biblioteca Ambrosiana",
+    "text": "A late sixteenth century assembly of sheets by Pompeo Leoni. The sheets themselves date from the whole of Leonardo's active life.",
+    "basis": "Individual sheet datings."
+  }
+}

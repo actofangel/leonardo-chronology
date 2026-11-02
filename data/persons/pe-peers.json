@@ -1,0 +1,44 @@
+{
+  "id": "pe-peers",
+  "type": "person",
+  "label": "Perugino and Lorenzo di Credi",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "overlap, c.1470 to 1482",
+        "start": 1470,
+        "end": 1482
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Contemporaries in Verrocchio's circle. The bar shows shared workshop years, not a recorded friendship. Contact with Leonardo is inferred from workshop context.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Workshop context."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Peers",
+    "start": 1470,
+    "end": 1482,
+    "date": "overlap, c.1470 to 1482",
+    "tier": "S",
+    "place": "Florence",
+    "text": "Contemporaries in Verrocchio's circle. The bar shows shared workshop years, not a recorded friendship. Contact with Leonardo is inferred from workshop context.",
+    "basis": "Workshop context."
+  },
+  "review": {
+    "flags": [
+      "The bar shows an overlap in time and place. It does not record a relationship."
+    ],
+    "sources": []
+  }
+}

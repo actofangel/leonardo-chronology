@@ -1,0 +1,39 @@
+{
+  "id": "w-servite",
+  "type": "work",
+  "subtype": "drawing",
+  "label": "Servite St Anne cartoon (lost)",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1500 to 1501",
+        "start": 1500.3,
+        "end": 1501.5
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Cartoon of the Virgin and St Anne known from descriptions, among them the Novellara letter. The relation to the later compositions is an interpretation.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Novellara letter; Vasari."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "works",
+    "kind": "Drawing",
+    "start": 1500.3,
+    "end": 1501.5,
+    "date": "1500 to 1501",
+    "tier": "S",
+    "place": "Santissima Annunziata, Florence",
+    "text": "Cartoon of the Virgin and St Anne known from descriptions, among them the Novellara letter. The relation to the later compositions is an interpretation.",
+    "basis": "Novellara letter; Vasari."
+  }
+}

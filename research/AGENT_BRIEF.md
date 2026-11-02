@@ -1,0 +1,31 @@
+# Brief for research agents (read fully before writing anything)
+
+Repository: /home/user/leonardo-chronology (do NOT run git commands, do NOT edit files outside your assigned output folder).
+Schema: read /home/user/leonardo-chronology/SCHEMA.md first. Every file you write must follow it (ldv-entity/1).
+Current records: /home/user/leonardo-chronology/research/inventory.json (the first chronology draft; it was written from model recall, so treat its text as unverified).
+
+## Project rules (non-negotiable)
+1. Layer purity. Facts (what a document/object states or shows) and interpretations (datings by style, attributions, identifications, readings) are separate claims. Never present an interpretation as a fact. `summary` is factual only.
+2. Source admission. Admitted (can verify): critical documentary editions (Villata 1999, Beltrami 1919), catalogues raisonnés (Marani 2000, Zöllner 2003), codicological studies (Pedretti), peer reviewed monographs, published archival documents, the primary object/manuscript itself cited by folio/inventory. Wikipedia, popular books, blogs, general web pages are NOT grounds: record them with type "web" (Wikipedia only as background, say so in cite). Museum/library official catalogue pages, Royal Collection Trust pages, e-Leo / Leonardo//thek@ / Biblioteca Ambrosiana / Institut de France pages: type "other" unless they reproduce the primary object with its folio, in which case you may use type "primary" with a precise folio/inventory locator AND the url.
+3. NEVER mark any claim "verified" unless you actually read an admitted source text yourself in this session (almost never possible). Default status is "pending". Use "disputed" when sources conflict.
+4. Never guess locators: catalogue numbers, document numbers, folio numbers, inventory numbers, RL numbers. Include one only if a page you actually fetched/searched states it; give that page's url in the same claim. Otherwise write "to locate" and add the edition to check_in.
+5. Notation: NO dash characters anywhere in text values (no em dash, en dash, minus sign, horizontal bar, no "--"). Write ranges as "1478 to 1482". Plain hyphens are allowed only inside ids. Italian/Latin quotes in original language with English translation; mark translations as interpretation if they matter.
+6. Working hypotheses of the project (Apollonius circle in the Last Supper; Latin lexical overlap) must NOT be written as fact anywhere. You do not need to research them.
+7. When sources disagree, record each version as its own claim with alternative_to links, and add an open_question.
+
+## Source registry ids you may reference with {"ref": "...", "loc": "..."} (they will exist):
+src-villata-1999, src-beltrami-1919, src-marani-2000, src-zollner-2003, src-clark-pedretti-1968, src-pedretti-1978-atlanticus (Pedretti, The Codex Atlanticus of Leonardo da Vinci: A Catalogue of Its Newly Restored Sheets, 1978 to 1979), src-pedretti-1977-richter (Pedretti, Commentary on Richter, 1977), src-richter-1883 (Richter, The Literary Works of Leonardo da Vinci), src-vasari-1550, src-vasari-1568, src-anonimo-gaddiano (Frey ed. 1892), src-kemp-2006 (Kemp, Leonardo da Vinci: The Marvellous Works of Nature and Man, rev. 2006), src-syson-2011 (Syson et al., Leonardo da Vinci: Painter at the Court of Milan, National Gallery 2011), src-bambach-2019 (Bambach, Leonardo da Vinci Rediscovered, 2019), src-clayton-philo-2012 (Clayton and Philo, Leonardo da Vinci: Anatomist, 2012).
+Any other source: inline {"type": ..., "cite": "...", "url": "..."}. Cite with author, title, year, and page/number when known.
+Only use ref ids for books you are citing as the place to check, or whose content you saw quoted on a page you fetched (then add that page as an extra inline source so the chain is visible).
+
+## Output
+Write one JSON file per entity into your assigned folder, named <id>.json, pretty printed, UTF-8.
+* For an entity that already exists in inventory.json: use the SAME id; include only the fields you add or improve (type, label are still required) plus your new claims. Do NOT include `timeline` or `review` (those are migrated separately). Your claims will be appended to the existing entity, so do not repeat the draft text as a claim.
+* For a new entity: choose an id with the right prefix (see SCHEMA.md). Check the inventory and your folder so ids are unique. If it belongs on the chronology chart you MAY add a `timeline` block (lane, kind, start, end, date, tier, place, text, basis) using decimal years (1499.25 = early April 1499); text/basis in the same sober style as the inventory.
+* Use `relations` to link entities by id (rel examples: depicts, commissioned_by, made_for, collaborator, pupil_of, contained_in, located_in, held_by, drawn_on, preparatory_for, copy_of, parent_of, owned_by, met, employed_by, author_of). Targets may be ids from inventory, from the source registry, or new ids you or other agents create using these predictable patterns: places geo-<town> (e.g. geo-milan, geo-florence, geo-vinci, geo-amboise, geo-rome, geo-venice, geo-mantua, geo-pavia, geo-paris, geo-london, geo-windsor), holdings geo-<institution> (geo-louvre, geo-uffizi, geo-national-gallery-london, geo-royal-collection-windsor, geo-ambrosiana, geo-institut-de-france, geo-biblioteca-nacional-madrid, geo-british-library, geo-biblioteca-reale-turin, geo-castello-sforzesco, geo-santa-maria-delle-grazie, geo-czartoryski-krakow, geo-hermitage, geo-alte-pinakothek, geo-vatican-pinacoteca, geo-national-gallery-washington, geo-v-and-a), manuscripts ms-<name>.
+* Every claim: id (c1, c2...), about, value, layer, status, statement, sources (at least one), check_in when not verified.
+* Add open_questions for anything unresolved.
+* Quality over quantity: a correct, well sourced claim beats five vague ones. But be thorough: aim for every entity in your scope.
+* Use WebSearch (standard mode; extended only when needed) and the web-fetch agent or WebFetch if available to read pages.
+
+When finished, write <your folder>/_REPORT.md: entities written, key conflicts found between sources and the first draft (with ids), corrections you would propose to the draft chronology (as proposals, not facts), and the most important things a human must check in an admitted edition. Then reply with a short summary (under 300 words).

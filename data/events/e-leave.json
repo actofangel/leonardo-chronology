@@ -1,0 +1,36 @@
+{
+  "id": "e-leave",
+  "type": "event",
+  "label": "Leave to Milan",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "May 1506",
+        "start": 1506.4
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Charles d'Amboise asks Florence for Leonardo. The republic grants a leave of limited length that is later extended.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Florentine records and French correspondence."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Career",
+    "start": 1506.4,
+    "date": "May 1506",
+    "tier": "D",
+    "place": "Florence to Milan",
+    "text": "Charles d'Amboise asks Florence for Leonardo. The republic grants a leave of limited length that is later extended.",
+    "basis": "Florentine records and French correspondence."
+  }
+}

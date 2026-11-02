@@ -1,0 +1,151 @@
+{
+  "id": "pe-pacioli",
+  "type": "person",
+  "label": "Luca Pacioli",
+  "variants": [
+    "Luca Paciolo",
+    "Fra Luca dal Borgo",
+    "Lucas de Burgo Sancti Sepulchri"
+  ],
+  "summary": "Franciscan mathematician from Sansepolcro. At the Sforza court in Milan from about 1496, where Leonardo drew the solids for De divina proportione. After the fall of Milan both men are reported in Mantua, Venice and Florence.",
+  "relations": [
+    {
+      "rel": "appears_in",
+      "target": "w-pacioli"
+    },
+    {
+      "rel": "appears_in",
+      "target": "e-leaves"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "1496 to 1500",
+        "start": 1496,
+        "end": 1500.3
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Franciscan mathematician at the Sforza court. Leonardo drew the solids for his De divina proportione. Their travel together after 1499 is an inference.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Pacioli's dedications; sources on the departure from Milan."
+        }
+      ],
+      "check_in": []
+    },
+    {
+      "id": "pac-1",
+      "about": "residence",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Pacioli came to Milan in or about 1496 to teach mathematics at the court of Ludovico Sforza. One account gives 1497.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Dictionary of Scientific Biography, s.v. Pacioli, Luca (online copy, MacTutor).",
+          "url": "https://mathshistory.st-andrews.ac.uk/DSB/Pacioli.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "MacTutor History of Mathematics, Luca Pacioli.",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Pacioli/"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, documents of 1496 to 1499",
+        "a peer reviewed Pacioli biography"
+      ]
+    },
+    {
+      "id": "pac-2",
+      "about": "work",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Two manuscript copies of De divina proportione survive, at the Biblioteca Ambrosiana in Milan and the Bibliothèque de Genève. The Ambrosiana copy is reported as dated 14 December 1498. The Geneva copy bears the Sforza arms and is described as the one presented to Ludovico. The printed edition appeared in Venice in 1509.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Swissinfo, report on the Geneva manuscript, 2019.",
+          "url": "https://www.swissinfo.ch/eng/culture/de-divina-proportione-_treasured-manuscript-with-da-vinci-drawings-unveiled-in-geneva/44796096"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Luca Pacioli. Background only, not a ground.",
+          "url": "https://en.wikipedia.org/wiki/Luca_Pacioli"
+        }
+      ],
+      "check_in": [
+        "Ambrosiana and Geneva library catalogue entries",
+        "Marani or Zöllner on the polyhedra drawings"
+      ]
+    },
+    {
+      "id": "pac-3",
+      "about": "attribution",
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The attribution of the polyhedra illustrations to Leonardo rests on Pacioli's own statements in the text. At least one secondary account calls the attribution controversial. This is an attribution question and belongs to the interpretive layer.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Summary of secondary accounts of the Geneva and Milan copies, search results of 2026-11-02."
+        }
+      ],
+      "check_in": [
+        "Pacioli's dedication and his references to Leonardo, in the original text",
+        "Zöllner, catalogue entry for the polyhedra"
+      ]
+    },
+    {
+      "id": "pac-4",
+      "about": "relation",
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Secondary accounts state that Pacioli and Leonardo left Milan together in December 1499, went by way of Mantua and Venice, and shared lodgings in Florence. Pacioli then taught geometry for the Studio of Pisa, then sitting in Florence, until about 1506.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Dictionary of Scientific Biography, s.v. Pacioli, Luca (online copy, MacTutor).",
+          "url": "https://mathshistory.st-andrews.ac.uk/DSB/Pacioli.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "Encyclopedia.com, Pacioli, Luca.",
+          "url": "https://www.encyclopedia.com/people/literature-and-arts/architecture-biographies/luca-pacioli"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, for a contemporary document naming both men on the journey or in the same house"
+      ],
+      "bearing": "Reference works state the joint journey as fact, but no contemporary document was found in this round. Until one is found, the chronology should keep calling it an inference."
+    }
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Mathematician",
+    "start": 1496,
+    "end": 1500.3,
+    "date": "1496 to 1500",
+    "tier": "D",
+    "place": "Milan, Mantua, Venice",
+    "text": "Franciscan mathematician at the Sforza court. Leonardo drew the solids for his De divina proportione. Their travel together after 1499 is an inference.",
+    "basis": "Pacioli's dedications; sources on the departure from Milan."
+  },
+  "review": {
+    "flags": [
+      "Joint travel after 1499 is an inference. The Milan collaboration is better attested."
+    ],
+    "sources": []
+  },
+  "open_questions": [
+    "Is there a contemporary document, rather than a later narrative, that places Pacioli and Leonardo together on the journey of December 1499?",
+    "Leonardo's notebooks are often said to mention Pacioli by name. Locate the folio and the wording.",
+    "Should the People bar be extended past 1500 to cover the Florentine years to about 1506, if the shared lodging is confirmed?"
+  ]
+}

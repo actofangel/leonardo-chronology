@@ -1,0 +1,36 @@
+{
+  "id": "e-verrocchio",
+  "type": "event",
+  "label": "Enters Verrocchio's workshop",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "c.1466",
+        "start": 1466
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The usual estimate places his entry at about age fourteen. No contract survives.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Estimate from later biographies and the 1472 guild entry."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "events",
+    "kind": "Training",
+    "start": 1466,
+    "date": "c.1466",
+    "tier": "S",
+    "place": "Florence",
+    "text": "The usual estimate places his entry at about age fourteen. No contract survives.",
+    "basis": "Estimate from later biographies and the 1472 guild entry."
+  }
+}

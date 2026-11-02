@@ -1,0 +1,39 @@
+{
+  "id": "h-charles8",
+  "type": "event",
+  "subtype": "context",
+  "label": "Charles VIII invades Italy",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "timeline",
+      "value": {
+        "text": "September 1494 to October 1495",
+        "start": 1494.7,
+        "end": 1495.85
+      },
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Charles VIII of France crosses the Alps, enters Florence and Naples, and then retreats. Italy becomes a battlefield of the French and Spanish crowns for decades.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "First chronology draft (Leonardo Chronology, 2026-10-09), entered from model recall. Basis stated in the draft: Standard chronologies of the period."
+        }
+      ],
+      "check_in": []
+    }
+  ],
+  "timeline": {
+    "lane": "history",
+    "kind": "War",
+    "start": 1494.7,
+    "end": 1495.85,
+    "date": "September 1494 to October 1495",
+    "tier": "D",
+    "place": "Italy",
+    "text": "Charles VIII of France crosses the Alps, enters Florence and Naples, and then retreats. Italy becomes a battlefield of the French and Spanish crowns for decades.",
+    "basis": "Standard chronologies of the period."
+  }
+}

@@ -1,0 +1,774 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Leonardo Chronology</title>
+<style>
+/* Layout: four lanes on one shared time scale, with era bands above and a record list below. */
+:root{
+  --ground:#e4eaee; --paper:#eef2f5; --ink:#1d2328; --muted:#56626c; --rule:#c0cad2; --on-fill:#f1f5f8;
+  --c-places:#2f6a73; --c-works:#a9402a; --c-people:#7d5b17; --c-events:#555d7c; --c-popes:#7a3b78; --c-history:#3f6f3a;
+  --on-places:var(--on-fill); --on-works:var(--on-fill); --on-people:var(--on-fill); --on-events:var(--on-fill); --on-popes:var(--on-fill); --on-history:var(--on-fill);
+  --accent:var(--c-works); --faint:#c9d0d6; --s-ok:#2e6b4a; --s-bad:#a8271f; --s-warn:#8a5a00;
+  --serif:'EB Garamond',Georgia,'Times New Roman',serif;
+  --sans:'Source Sans 3',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
+  --px:20px; --left:92px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#12181d; --paper:#1a2229; --ink:#e4e9ed; --muted:#93a1ac; --rule:#2d3943; --on-fill:#12181d;
+    --c-places:#6fb0b8; --c-works:#e0765c; --c-people:#d2a54a; --c-events:#a3acd0; --c-popes:#c08ac0; --c-history:#9cc48a; --faint:#3a4650; --s-ok:#7cc79a; --s-bad:#f08a80; --s-warn:#e0b252; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#12181d; --paper:#1a2229; --ink:#e4e9ed; --muted:#93a1ac; --rule:#2d3943; --on-fill:#12181d;
+  --c-places:#6fb0b8; --c-works:#e0765c; --c-people:#d2a54a; --c-events:#a3acd0; --c-popes:#c08ac0; --c-history:#9cc48a; --faint:#3a4650; --s-ok:#7cc79a; --s-bad:#f08a80; --s-warn:#e0b252; color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.55;padding-inline:16px}
+.wrap{max-width:1180px;margin:0 auto;padding-block:18px 56px;display:flex;flex-direction:column;gap:20px}
+h1,h2,h3{font-family:var(--serif);font-weight:500;margin:0;text-wrap:balance}
+p{margin:0}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* header */
+.top{display:flex;flex-direction:column;gap:6px;max-width:860px}
+.kicker{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(1.5rem,3.6vw,1.9rem);line-height:1.1;letter-spacing:0}
+.lede{font-size:13.5px;line-height:1.5;max-width:78ch}
+.status{font-size:12px;line-height:1.45;color:var(--muted);max-width:78ch;border-left:3px solid var(--accent);padding-left:8px}
+.legend{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:12px;color:var(--muted);align-items:center}
+.legend .it{display:inline-flex;align-items:center;gap:6px}
+
+/* marks, shared by chart and legend */
+.mark{display:block;height:16px;border:1.5px solid var(--c,var(--ink));background:var(--c,var(--ink));color:var(--on,var(--ground));
+  font-size:11px;line-height:13px;padding:0 5px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;border-radius:3px;flex:none}
+.t-S .mark{background:color-mix(in srgb,var(--c,var(--ink)) 20%,var(--ground));color:var(--ink)}
+.t-T .mark{background:transparent;border-style:dashed;color:var(--ink)}
+.mark.sw{width:22px}
+
+/* controls */
+.controls{display:flex;flex-wrap:wrap;gap:14px 24px;align-items:flex-end;padding:14px;background:var(--paper);border:1px solid var(--rule);border-radius:6px}
+.group{display:flex;flex-direction:column;gap:6px;min-width:0}
+.group.grow{flex:1 1 200px}
+.glabel{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--rule);background:var(--ground);padding:3px 10px;border-radius:999px;cursor:pointer;font-size:13px;line-height:1.4}
+.chip[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--ground)}
+.chip .dot{width:9px;height:9px;border-radius:50%;background:var(--c,var(--muted));border:1px solid var(--ground)}
+select,input[type="search"]{background:var(--ground);border:1px solid var(--rule);border-radius:4px;padding:5px 8px;min-width:0;width:100%}
+select{width:auto;min-width:9rem}
+.btn{background:var(--ground);border:1px solid var(--ink);border-radius:4px;padding:5px 12px;cursor:pointer}
+.btn:hover{background:var(--ink);color:var(--ground)}
+.count{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:10px}
+.group .row{display:flex;align-items:center;min-height:32px}
+
+/* chart */
+.chartbox{display:flex;flex-direction:column;gap:8px}
+.chart{overflow-x:auto;border:1px solid var(--rule);background:var(--paper);border-radius:6px}
+.plot{position:relative;background-image:linear-gradient(to right,var(--rule) 1px,transparent 1px);
+  background-size:calc(var(--px) * 5) 100%;background-position:var(--left) 0}
+.eras,.axis{position:relative;height:26px;border-bottom:1px solid var(--rule);background:var(--paper)}
+.era{position:absolute;top:0;height:100%;border:0;border-left:1px solid var(--ink);background:none;text-align:left;padding:3px 6px;
+  font-family:var(--serif);font-size:13px;line-height:18px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;color:var(--ink)}
+.era:nth-child(odd){background:color-mix(in srgb,var(--ink) 6%,var(--paper))}
+.era:hover{background:color-mix(in srgb,var(--ink) 14%,var(--paper))}
+.axis{height:22px}
+.tick{position:absolute;top:3px;font-family:var(--mono);font-size:10px;color:var(--muted);transform:translateX(-50%)}
+.lane{position:relative;border-bottom:1px solid var(--rule)}
+.lane:last-child{border-bottom:0}
+.lane[data-lane="places"]{--c:var(--c-places);--on:var(--on-places)}
+.lane[data-lane="works"]{--c:var(--c-works);--on:var(--on-works)}
+.lane[data-lane="people"]{--c:var(--c-people);--on:var(--on-people)}
+.lane[data-lane="events"]{--c:var(--c-events);--on:var(--on-events)}
+.lane[data-lane="popes"]{--c:var(--c-popes);--on:var(--on-popes)}
+.lane[data-lane="history"]{--c:var(--c-history);--on:var(--on-history)}
+.lane-label{position:sticky;left:0;z-index:4;width:calc(var(--left) - 8px);height:100%;background:var(--paper);
+  padding:8px 6px 0 10px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--c);
+  border-right:1px solid var(--rule)}
+.item{position:absolute;display:flex;align-items:center;gap:4px;height:20px;padding:0;margin:0;border:0;background:none;cursor:pointer;color:var(--ink);text-align:left}
+.item .lbl{font-size:11px;white-space:nowrap;line-height:14px}
+.item.pt .mark{width:11px;height:11px;border-radius:50%;padding:0}
+.item:hover .mark{outline:2px solid color-mix(in srgb,var(--ink) 40%,transparent);outline-offset:1px}
+.item.sel .mark{outline:2px solid var(--ink);outline-offset:2px}
+.hint{font-size:12px;color:var(--muted)}
+
+/* detail */
+.detail{background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:18px;display:flex;flex-direction:column;gap:8px}
+.detail h2{font-size:1.7rem;line-height:1.15}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:1px 7px;border:1.5px solid var(--c,var(--muted));border-radius:3px;color:var(--ink)}
+.tag.laneTag{background:var(--c);color:var(--on,var(--ground))}
+.tag.tierTag.t-S{background:color-mix(in srgb,var(--ink) 12%,var(--paper))}
+.tag.tierTag.t-T{border-style:dashed}
+.tag.tierTag.t-D{background:var(--ink);color:var(--ground);border-color:var(--ink)}
+.meta{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.d-text{max-width:70ch;font-size:1.02rem}
+.basis{font-size:13px;color:var(--muted);max-width:70ch}
+.basis b{font-family:var(--mono);font-weight:500;font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin-right:6px}
+.detail .btn{align-self:flex-start;margin-top:4px}
+
+/* list */
+.era-sec{display:flex;flex-direction:column;gap:6px;scroll-margin-top:12px}
+.era-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;border-top:2px solid var(--ink);padding-top:10px}
+.era-head h2{font-size:1.9rem;line-height:1.1}
+.era-head .span{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.era-sum{max-width:70ch;color:var(--muted);margin-bottom:6px}
+.entry{display:grid;grid-template-columns:9.5rem minmax(0,1fr);gap:4px 18px;padding:12px 0;border-bottom:1px solid var(--rule);scroll-margin-top:12px}
+.entry .when{font-family:var(--mono);font-size:12px;color:var(--muted);padding-top:4px}
+.entry h3{font-size:1.25rem;line-height:1.25}
+.entry .body{display:flex;flex-direction:column;gap:5px;min-width:0}
+.entry .tags .tag{font-size:10px}
+.entry p.t{max-width:68ch}
+.entry .basis{font-size:12.5px}
+.entry.flash{background:color-mix(in srgb,var(--accent) 16%,var(--ground))}
+.entry[data-lane="places"]{--c:var(--c-places);--on:var(--on-places)}
+.entry[data-lane="works"]{--c:var(--c-works);--on:var(--on-works)}
+.entry[data-lane="people"]{--c:var(--c-people);--on:var(--on-people)}
+.entry[data-lane="events"]{--c:var(--c-events);--on:var(--on-events)}
+.entry[data-lane="popes"]{--c:var(--c-popes);--on:var(--on-popes)}
+.entry[data-lane="history"]{--c:var(--c-history);--on:var(--on-history)}
+.empty{padding:28px 0;color:var(--muted)}
+
+/* footer */
+.foot{border-top:2px solid var(--ink);padding-top:14px;display:flex;flex-direction:column;gap:10px;max-width:78ch}
+.foot h2{font-size:1.5rem}
+.foot ul{margin:0;padding-left:1.1rem;display:flex;flex-direction:column;gap:4px;font-size:13.5px}
+.foot p{font-size:13.5px;color:var(--muted)}
+
+
+/* set aside entries */
+.item.muted .mark{background:transparent;border:1px solid var(--faint);color:var(--faint)}
+.item.muted .lbl{color:var(--faint)}
+.item.muted.sel .mark{outline-color:var(--faint)}
+.entry.muted h3,.entry.muted .when,.entry.muted .meta,.entry.muted p.t,.entry.muted .basis,
+.detail.muted h2,.detail.muted .meta,.detail.muted .d-text,.detail.muted .basis{color:var(--faint)}
+.entry.muted .tag,.detail.muted .tag{background:transparent;border:1px solid var(--faint);color:var(--faint)}
+
+@media (max-width:640px){
+  .entry{grid-template-columns:minmax(0,1fr)}
+  .entry .when{padding-top:0}
+  .detail{padding:14px}
+}
+@media (prefers-reduced-motion:no-preference){
+  .entry{transition:background-color .6s}
+}
+
+/* verification layer */
+.platform{display:flex;flex-direction:column;gap:8px;max-width:860px}
+.pbar{display:flex;gap:2px;height:10px}
+.pbar .seg{flex:0 1 0;min-width:4px;border-radius:2px}
+.seg-pending{background:color-mix(in srgb,var(--muted) 45%,var(--ground))}
+.seg-flagged{background:var(--s-warn)}
+.seg-disputed{background:var(--s-bad)}
+.seg-verified{background:var(--s-ok)}
+.seg-corrected{background:color-mix(in srgb,var(--s-ok) 50%,var(--ink))}
+.seg-rejected{background:var(--faint)}
+.pnums{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:12px;color:var(--muted)}
+.pn{display:inline-flex;align-items:center;gap:6px}
+.pn b{color:var(--ink);font-variant-numeric:tabular-nums}
+.sw{width:10px;height:10px;border-radius:2px;display:inline-block}
+.pnote{font-size:12px;color:var(--muted);max-width:78ch}
+.chip .n{font-family:var(--mono);font-size:11px;opacity:.75;font-variant-numeric:tabular-nums}
+.tag.st,.tag.lvl{border-color:currentColor;background:transparent}
+.tag.st-pending{color:var(--muted)}
+.tag.st-flagged{color:var(--s-warn)}
+.tag.st-disputed{color:var(--s-bad)}
+.tag.st-verified,.tag.st-corrected{color:var(--s-ok)}
+.tag.st-rejected{color:var(--muted);border-style:dashed}
+.verify{display:flex;flex-direction:column;gap:5px;border-top:1px solid var(--rule);padding-top:8px;margin-top:4px;max-width:70ch;font-size:13px}
+.vrow{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.vorigin{color:var(--muted);font-size:12px}
+.vwarn{color:var(--s-bad)}
+.vflags{margin:0;padding-left:1.1rem}
+.vprop,.vsrc,.vhist{color:var(--muted)}
+.verify b{font-family:var(--mono);font-weight:500;font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin-right:6px}
+.vsrc ul,.vhist ul{margin:2px 0 0;padding-left:1.1rem}
+.stype{font-family:var(--mono);font-size:11px;border:1px solid var(--rule);border-radius:3px;padding:0 5px}
+.stype.adm{border-color:var(--s-ok);color:var(--s-ok)}
+.surl{font-family:var(--mono);font-size:11px;word-break:break-all}
+.hwhen{font-family:var(--mono);font-size:11px}
+.none{color:var(--muted)}
+.panels{display:flex;flex-direction:column;gap:8px}
+.panel{background:var(--paper);border:1px solid var(--rule);border-radius:6px}
+.panel>summary{cursor:pointer;padding:10px 14px;font-family:var(--serif);font-size:1.15rem;display:flex;gap:10px;align-items:baseline}
+.pcount{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.pbody{padding:2px 14px 14px;display:flex;flex-direction:column;gap:10px;font-size:13.5px;min-width:0}
+.att,.chks,.chkitems{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.att li{display:flex;flex-direction:column;gap:2px;border-bottom:1px solid var(--rule);padding-bottom:6px}
+.pick{background:none;border:0;padding:0;cursor:pointer;text-align:left;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;color:var(--ink)}
+.pick:hover .pt{text-decoration:underline}
+.pick .pt{font-family:var(--serif);font-size:1.05rem}
+.pick .pd{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.pick.inline{display:inline;font-weight:600;text-decoration:underline}
+.why,.plain,.chkdesc,.chksum{font-size:12.5px;color:var(--muted);max-width:78ch}
+.chk{border:1px solid var(--rule);border-radius:4px;padding:8px 10px;display:flex;flex-direction:column;gap:3px}
+.chk-error{border-color:var(--s-bad)}
+.chkhead{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.chkitems{font-size:12.5px;margin-top:2px}
+.tag.lvl-pass{color:var(--s-ok)}
+.tag.lvl-info{color:var(--muted)}
+.tag.lvl-warn{color:var(--s-warn)}
+.tag.lvl-error{color:var(--s-bad)}
+.prot h3{font-size:1.05rem}
+.prot dl{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:4px 12px;margin:0}
+.prot dt{font-family:var(--mono);font-size:12px}
+.prot dd{margin:0}
+.prot ol,.prot ul{margin:0;padding-left:1.2rem;display:flex;flex-direction:column;gap:3px}
+.prot pre{margin:0;padding:10px;background:var(--ground);border:1px solid var(--rule);border-radius:4px;overflow-x:auto;font-family:var(--mono);font-size:11.5px;line-height:1.45}
+.prot textarea{width:100%;min-height:120px;background:var(--ground);border:1px solid var(--rule);border-radius:4px;padding:8px;font-family:var(--mono);font-size:12px;color:var(--ink)}
+.patchbtns{display:flex;flex-wrap:wrap;gap:8px}
+.patchmsg{font-size:12.5px;color:var(--muted)}
+.patchmsg.bad{color:var(--s-bad)}
+.legend .gl{font-family:var(--mono)}
+
+/* print */
+@media print{
+  @page{size:A4 landscape;margin:10mm}
+  :root:root:root{
+    --ground:#fff; --paper:#fff; --ink:#1d2328; --muted:#56626c; --rule:#c0cad2; --on-fill:#f1f5f8; --faint:#c9d0d6;
+    --c-places:#2f6a73; --c-works:#a9402a; --c-people:#7d5b17; --c-events:#555d7c; --c-popes:#7a3b78; --c-history:#3f6f3a;
+    color-scheme:light;
+  }
+  *,*::before,*::after{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{padding-inline:0;font-size:12px}
+  .wrap{max-width:none;padding-block:0;gap:12px}
+  .controls,.hint,.detail,.btn,.panels{display:none}
+  .chart{overflow:visible;border:0;border-radius:0}
+  .plot{zoom:.68}
+  .lane{break-inside:avoid}
+  .entry{break-inside:avoid}
+  .era-head{break-after:avoid}
+  .era-sum{break-after:avoid}
+  .foot{break-inside:avoid}
+}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <p class="kicker">1452 to 1519 · places, works, people, events, popes, history</p>
+    <h1>Leonardo Chronology</h1>
+    <p class="lede">Where Leonardo lived, what he made and when, and who stood around him, laid out on six lanes against one time scale, with the papacy and the wider history of the period beneath. Every mark carries its evidence layer, so documented fact, scholarly dating and later tradition stay apart.</p>
+    <p class="status">Working research platform. Records were entered from model recall and stay pending until they are checked against an admitted source. Each record shows how far it has been checked, and doubtful entries are flagged or disputed instead of being removed. Review status, automated checks and the update rules are in the panels below the chart.</p>
+    <div class="legend" aria-label="Evidence layers">
+      <span class="it"><span class="item t-D" style="position:static;height:auto"><span class="mark sw" style="--c:var(--ink)"></span></span> Documented</span>
+      <span class="it"><span class="item t-S" style="position:static;height:auto"><span class="mark sw" style="--c:var(--ink)"></span></span> Scholarly dating or attribution</span>
+      <span class="it"><span class="item t-T" style="position:static;height:auto"><span class="mark sw" style="--c:var(--ink)"></span></span> Later tradition</span>
+      <span class="it gl" style="font-family:var(--mono)">Marks after a title: ✓ verified · ? flagged · ! disputed · ≈ corrected</span>
+    </div>
+  </header>
+
+  <section class="platform" aria-label="Verification status">
+    <div class="pbar" id="pbar" role="img" aria-label="Share of records by verification status"></div>
+    <div class="pnums" id="pnums"></div>
+    <p class="pnote" id="pnote"></p>
+  </section>
+
+  <section class="controls" aria-label="Filters">
+    <div class="group"><span class="glabel">Axes</span><div class="chips" id="laneChips"></div></div>
+    <div class="group"><span class="glabel">Evidence</span><div class="chips" id="tierChips"></div></div>
+    <div class="group"><span class="glabel">Review status</span><div class="chips" id="catChips"></div></div>
+    <div class="group"><label class="glabel" for="typeSel">Work type</label><select id="typeSel"></select></div>
+    <div class="group grow"><label class="glabel" for="q">Search</label><input id="q" type="search" placeholder="Name, place or work" autocomplete="off"></div>
+    <div class="group"><span class="glabel">&nbsp;</span><div class="row"><button class="btn" id="reset" type="button">Reset</button><span class="count" id="count"></span></div></div>
+  </section>
+
+  <section class="chartbox" aria-label="Overview chart">
+    <div class="chart" id="chart"></div>
+    <p class="hint">The chart scrolls sideways. Select any mark for its record, or an era heading to jump to that period below. Bars in the People lane show the span of attested contact or of documented overlap in the same place. They do not measure friendship.</p>
+  </section>
+
+  <section class="detail" id="detail" aria-live="polite"></section>
+
+  <section class="panels" aria-label="Review tools">
+    <details class="panel" open>
+      <summary>Needs attention <span class="pcount" id="attCount"></span></summary>
+      <div class="pbody" id="attBody"></div>
+    </details>
+    <details class="panel">
+      <summary>Automated checks <span class="pcount" id="chkCount"></span></summary>
+      <div class="pbody" id="chkBody"></div>
+    </details>
+    <details class="panel prot">
+      <summary>Update protocol and patch preview</summary>
+      <div class="pbody">
+        <p>This site is a working research platform as well as a publication. Records can be entered before they are verified. Each record carries two independent labels. The evidence layer says what kind of claim it is: documented, scholarly dating or tradition. The review status says how far this site has checked it.</p>
+        <h3>Review statuses</h3>
+        <dl>
+          <dt>Pending</dt><dd>Entered, not yet checked. This is the default.</dd>
+          <dt>Flagged</dt><dd>Pending, with a recorded reason for caution. Derived from the flags field.</dd>
+          <dt>Disputed</dt><dd>A concrete doubt or a proposed correction exists, and it is not yet settled.</dd>
+          <dt>Corrected</dt><dd>The record was changed after review. The history says what changed.</dd>
+          <dt>Verified</dt><dd>Checked against at least one source of an admitted type.</dd>
+          <dt>Not accepted</dt><dd>Set aside by the researcher. Kept visible, shown in grey.</dd>
+        </dl>
+        <h3>Rules</h3>
+        <ol>
+          <li>Admitted source types are critical edition, catalogue raisonné, manuscript study, monograph and archival publication. Web pages, model recall and AI generated text can raise a flag or propose a change. They cannot verify. A record marked verified without an admitted source is shown as pending, and the checks report it.</li>
+          <li>A correction is recorded under proposed and is not applied to the record until a person accepts it. Accepting means editing the base data, setting the status to corrected and adding a history line.</li>
+          <li>History lines are added, never edited or removed.</li>
+          <li>New records go in extra.json, with a lane and the same fields as existing records. They start as pending.</li>
+          <li>The automated checks run on every load. A failing check blocks nothing, but it stays visible until fixed.</li>
+        </ol>
+        <h3>Files</h3>
+        <p>The records are in the page. Reviews and extra records are separate files published beside it, so they can be updated without touching the page. Each published version is kept, which gives an audit trail.</p>
+<pre>reviews.json
+{
+  "schema": "ldv-chronology-reviews/1",
+  "updated": "2026-10-09",
+  "reviews": {
+    "record-id": {
+      "status": "pending | verified | disputed | corrected | rejected",
+      "flags": ["Reason for caution."],
+      "note": "Optional note.",
+      "proposed": { "date": "text", "start": 1499.25 },
+      "sources": [
+        { "type": "edition | catalogue | ms_study | monograph |
+                   archive_publication | web | model_recall | other",
+          "cite": "Full citation with page or document number.",
+          "url": "Optional." }
+      ],
+      "history": [ { "at": "2026-10-09", "by": "name", "note": "What was done." } ]
+    }
+  }
+}
+
+extra.json
+{ "schema": "ldv-chronology-extra/1",
+  "records": [ { "lane": "works", "id": "w-example", "title": "...", "kind": "...",
+                 "start": 1500, "end": 1501, "date": "...", "tier": "D | S | T",
+                 "place": "...", "text": "...", "basis": "..." } ] }</pre>
+        <h3>Patch preview</h3>
+        <p>Paste a reviews patch, for example the output of a research agent, to see its effect in this view before anything is published. Nothing is saved.</p>
+        <label class="glabel" for="patchIn">Reviews patch (JSON)</label>
+        <textarea id="patchIn" spellcheck="false" placeholder='{ "reviews": { "e-vineyard": { "status": "corrected" } } }'></textarea>
+        <div class="patchbtns">
+          <button class="btn" id="patchApply" type="button">Preview patch</button>
+          <button class="btn" id="patchReset" type="button">Discard preview</button>
+          <button class="btn" id="patchCopy" type="button">Copy merged reviews</button>
+        </div>
+        <p class="patchmsg" id="patchMsg" role="status"></p>
+        <textarea id="patchOut" spellcheck="false" readonly hidden aria-label="Merged reviews file"></textarea>
+      </div>
+    </details>
+  </section>
+
+  <main id="list"></main>
+
+  <footer class="foot">
+    <h2>Reference apparatus</h2>
+    <p>Source families behind this draft, listed so that each entry can be checked against them.</p>
+    <ul>
+      <li>Beltrami, Luca. <i>Documenti e memorie riguardanti la vita e le opere di Leonardo da Vinci.</i> Milan, 1919.</li>
+      <li>Villata, Edoardo. <i>Leonardo da Vinci: I documenti e le testimonianze contemporanee.</i> Milan: Ente Raccolta Vinciana, 1999.</li>
+      <li>Marani, Pietro C. <i>Leonardo da Vinci: The Complete Paintings.</i> New York: Abrams, 2000.</li>
+      <li>Zöllner, Frank. <i>Leonardo da Vinci: The Complete Paintings and Drawings.</i> Cologne: Taschen, 2003.</li>
+      <li>Clark, Kenneth, and Carlo Pedretti. <i>The Drawings of Leonardo da Vinci at Windsor Castle.</i> Second edition, 1968.</li>
+    </ul>
+    <p>Scope. This chronology records documents, dated or datable works, and attested relationships. It does not include the project's working hypotheses, such as the Apollonius circle in the Last Supper or deliberate Latin lexical overlap, which belong on a separate hypothesis layer.</p>
+  </footer>
+</div>
+<script>
+/*@@DATA@@*/
+
+/* PLATFORM APP: chart, verification layer, automated checks, patch preview */
+(function(){
+  var Y0 = 1450, Y1 = 1520, PX = 20, LEFT = 92, ROW = 24;
+  var LANES = [
+    {id:'places', name:'Places', data:PLACES},
+    {id:'works',  name:'Works',  data:WORKS},
+    {id:'people', name:'People', data:PEOPLE},
+    {id:'events', name:'Events', data:EVENTS},
+    {id:'popes',  name:'Popes',  data:POPES},
+    {id:'history', name:'History', data:HISTORY}
+  ];
+  var TIERS = {D:'Documented', S:'Scholarly dating', T:'Tradition'};
+  var CATS = ['verified','corrected','pending','flagged','disputed','rejected'];
+  var CAT_LABEL = {verified:'Verified', corrected:'Corrected', pending:'Pending', flagged:'Flagged', disputed:'Disputed', rejected:'Not accepted'};
+  var GLYPH = {verified:'✓', corrected:'≈', flagged:'?', disputed:'!'};
+  var ADMITTED = ['primary','edition','catalogue','ms_study','monograph','archive_publication'];
+  var SRC_LABEL = {primary:'Primary object or manuscript', edition:'Critical edition', catalogue:'Catalogue raisonné', ms_study:'Manuscript study', monograph:'Monograph', archive_publication:'Archival publication', web:'Web page', model_recall:'Model recall', ai_generated:'AI generated text', other:'Other'};
+  var ORIGIN = {model_recall:'Entered from model recall. Not yet checked against an admitted source.', extra:'Added through extra.json. Not yet checked against an admitted source.'};
+  var LANE_NAME = {}; LANES.forEach(function(l){ LANE_NAME[l.id] = l.name; });
+  var LANE_ORDER = {places:0, works:1, people:2, events:3, popes:4, history:5};
+  var MONTHS = {january:1,february:2,march:3,april:4,may:5,june:6,july:7,august:8,september:9,october:10,november:11,december:12,jan:1,feb:2,mar:3,apr:4,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12};
+  var CUM = [0,31,59,90,120,151,181,212,243,273,304,334];
+
+  var ALL = [], BY = {}, TYPES = [];
+  var REV = {}, REV_FILE = {}, META = {updated:null, notes:[], extraProblems:[]};
+  var state = {lanes:new Set(LANES.map(function(l){return l.id;})), tiers:new Set(['D','S','T']), cats:new Set(CATS), type:'all', q:'', sel:'w-lastsupper'};
+
+  function $(id){ return document.getElementById(id); }
+  function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+  function xOf(y){ return LEFT + (y - Y0) * PX; }
+  function labelOf(d){ return d.title + (GLYPH[d._cat] ? ' ' + GLYPH[d._cat] : ''); }
+  function labelW(t){ return Math.ceil(t.length * 6.3) + 8; }
+  function reduceMotion(){ return window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches; }
+  function scrollToEl(el){ if(el) el.scrollIntoView({behavior: reduceMotion() ? 'auto' : 'smooth', block:'start'}); }
+
+  /* ---------- data assembly ---------- */
+  function buildAll(extra){
+    ALL = []; BY = {}; META.extraProblems = [];
+    LANES.forEach(function(l){ l.data.forEach(function(d){ var e = Object.assign({lane:l.id, origin:'model_recall'}, d); ALL.push(e); BY[e.id] = e; }); });
+    (extra || []).forEach(function(r, i){
+      if(!r || typeof r !== 'object'){ META.extraProblems.push('Extra record ' + (i + 1) + ' is not an object.'); return; }
+      if(!r.id || BY[r.id]){ META.extraProblems.push('Extra record ' + (i + 1) + ' has a missing or duplicate id (' + (r.id || 'none') + ').'); return; }
+      if(!LANE_NAME[r.lane]){ META.extraProblems.push('Extra record ' + r.id + ' names an unknown lane (' + r.lane + ').'); return; }
+      var e = Object.assign({origin:'extra'}, r); ALL.push(e); BY[e.id] = e;
+    });
+    TYPES = []; ALL.forEach(function(w){ if(w.lane === 'works' && TYPES.indexOf(w.kind) < 0) TYPES.push(w.kind); });
+  }
+  function pack(items){
+    var rows = [];
+    items.slice().sort(function(a,b){ return a.start - b.start; }).forEach(function(it){
+      var x = xOf(it.start);
+      var span = it.end != null ? (it.end - it.start) * PX : 0;
+      var bar = span >= 14, barW = bar ? span : 11;
+      var lw = labelW(labelOf(it));
+      var inside = bar && barW >= lw;
+      var ext = inside ? barW : barW + 4 + lw;
+      var r = 0; while(r < rows.length && rows[r] + 6 > x) r++;
+      rows[r] = x + ext;
+      it._x = x; it._barW = barW; it._bar = bar; it._inside = inside; it._ext = ext; it._row = r;
+    });
+    return rows.length;
+  }
+  function deriveAll(){
+    ALL.forEach(function(d){
+      var r = REV[d.id] || {};
+      var st = r.status || 'pending';
+      if(CAT_LABEL[st] === undefined || st === 'flagged') st = 'pending';
+      var srcs = r.sources || [];
+      var admitted = srcs.some(function(s){ return ADMITTED.indexOf(s.type) >= 0; });
+      d._invalid = null;
+      if(st === 'verified' && !admitted){ d._invalid = 'Marked verified without an admitted source'; st = 'pending'; }
+      d.rev = r;
+      d._cat = (st === 'pending' && (r.flags || []).length) ? 'flagged' : st;
+      d.muted = d._cat === 'rejected';
+    });
+  }
+  function counts(){ var c = {}; CATS.forEach(function(k){ c[k] = 0; }); ALL.forEach(function(d){ c[d._cat]++; }); return c; }
+  function visible(d){
+    if(!state.lanes.has(d.lane) || !state.tiers.has(d.tier) || !state.cats.has(d._cat)) return false;
+    if(d.lane === 'works' && state.type !== 'all' && d.kind !== state.type) return false;
+    if(state.q){
+      var s = (d.title + ' ' + d.place + ' ' + d.kind + ' ' + d.text + ' ' + d.date).toLowerCase();
+      if(s.indexOf(state.q) < 0) return false;
+    }
+    return true;
+  }
+
+  /* ---------- controls ---------- */
+  function buildControls(){
+    $('laneChips').innerHTML = LANES.map(function(l){
+      return '<button type="button" class="chip" data-lane="' + l.id + '" aria-pressed="true"><span class="dot" style="--c:var(--c-' + l.id + ')"></span>' + l.name + '</button>';
+    }).join('');
+    $('tierChips').innerHTML = ['D','S','T'].map(function(t){ return '<button type="button" class="chip" data-tier="' + t + '" aria-pressed="true">' + TIERS[t] + '</button>'; }).join('');
+    $('catChips').innerHTML = CATS.map(function(c){ return '<button type="button" class="chip" data-cat="' + c + '" aria-pressed="true">' + CAT_LABEL[c] + ' <span class="n" data-n="' + c + '"></span></button>'; }).join('');
+    function toggle(set, v, min){ if(set.has(v)){ if(set.size > min) set.delete(v); } else set.add(v); }
+    $('laneChips').addEventListener('click', function(e){ var b = e.target.closest('button[data-lane]'); if(!b) return; toggle(state.lanes, b.getAttribute('data-lane'), 1); refresh(); });
+    $('tierChips').addEventListener('click', function(e){ var b = e.target.closest('button[data-tier]'); if(!b) return; toggle(state.tiers, b.getAttribute('data-tier'), 1); refresh(); });
+    $('catChips').addEventListener('click', function(e){ var b = e.target.closest('button[data-cat]'); if(!b) return; toggle(state.cats, b.getAttribute('data-cat'), 1); refresh(); });
+    $('typeSel').addEventListener('change', function(){ state.type = $('typeSel').value; refresh(); });
+    $('q').addEventListener('input', function(e){ state.q = e.target.value.trim().toLowerCase(); refresh(); });
+    $('reset').addEventListener('click', function(){
+      state.lanes = new Set(LANES.map(function(l){return l.id;})); state.tiers = new Set(['D','S','T']); state.cats = new Set(CATS); state.type = 'all'; state.q = '';
+      $('q').value = ''; $('typeSel').value = 'all'; refresh();
+    });
+  }
+  function syncControls(){
+    document.querySelectorAll('#laneChips .chip').forEach(function(b){ b.setAttribute('aria-pressed', state.lanes.has(b.getAttribute('data-lane')) ? 'true' : 'false'); });
+    document.querySelectorAll('#tierChips .chip').forEach(function(b){ b.setAttribute('aria-pressed', state.tiers.has(b.getAttribute('data-tier')) ? 'true' : 'false'); });
+    document.querySelectorAll('#catChips .chip').forEach(function(b){ b.setAttribute('aria-pressed', state.cats.has(b.getAttribute('data-cat')) ? 'true' : 'false'); });
+    var c = counts();
+    document.querySelectorAll('#catChips .n').forEach(function(n){ n.textContent = c[n.getAttribute('data-n')]; });
+    var sel = $('typeSel'), cur = state.type;
+    sel.innerHTML = '<option value="all">All works</option>' + TYPES.map(function(t){ return '<option value="' + esc(t) + '">' + esc(t) + '</option>'; }).join('');
+    sel.value = TYPES.indexOf(cur) >= 0 ? cur : 'all';
+  }
+
+  /* ---------- verification blocks ---------- */
+  function propText(p){
+    return Object.keys(p).map(function(k){ return esc(k) + ': ' + esc(p[k]); }).join(' · ');
+  }
+  function verifyHTML(d, full){
+    var r = d.rev || {};
+    var h = '<div class="verify"><p class="vrow"><span class="tag st st-' + d._cat + '">' + CAT_LABEL[d._cat] + '</span><span class="vorigin">' + esc(ORIGIN[d.origin] || ('Origin: ' + d.origin)) + '</span></p>';
+    if(d._invalid) h += '<p class="vwarn">' + esc(d._invalid) + '. Shown as pending.</p>';
+    if(r.note) h += '<p class="vnote">' + esc(r.note) + '</p>';
+    if((r.flags || []).length) h += '<ul class="vflags">' + r.flags.map(function(f){ return '<li>' + esc(f) + '</li>'; }).join('') + '</ul>';
+    if(r.proposed && Object.keys(r.proposed).length) h += '<p class="vprop"><b>Proposed change, not applied</b>' + propText(r.proposed) + '</p>';
+    if(full){
+      var s = r.sources || [];
+      h += '<div class="vsrc"><b>Sources checked</b>' + (s.length ? '<ul>' + s.map(function(x){
+        return '<li><span class="stype' + (ADMITTED.indexOf(x.type) >= 0 ? ' adm' : '') + '">' + esc(SRC_LABEL[x.type] || x.type) + '</span> ' + esc(x.cite || '') + (x.url ? ' <span class="surl">' + esc(x.url) + '</span>' : '') + '</li>';
+      }).join('') + '</ul>' : '<span class="none"> None yet.</span>') + '</div>';
+      var hs = r.history || [];
+      h += '<div class="vhist"><b>History</b>' + (hs.length ? '<ul>' + hs.map(function(x){ return '<li><span class="hwhen">' + esc(x.at || '') + '</span> ' + esc(x.by || '') + ': ' + esc(x.note || '') + '</li>'; }).join('') + '</ul>' : '<span class="none"> No entries.</span>') + '</div>';
+    }
+    return h + '</div>';
+  }
+
+  /* ---------- platform summary ---------- */
+  function renderPlatform(){
+    var c = counts(), n = ALL.length;
+    $('pbar').innerHTML = CATS.map(function(k){ return c[k] ? '<span class="seg seg-' + k + '" style="flex-grow:' + c[k] + '" title="' + CAT_LABEL[k] + ': ' + c[k] + '"></span>' : ''; }).join('');
+    $('pnums').innerHTML = CATS.map(function(k){ return '<span class="pn"><i class="sw seg-' + k + '"></i>' + CAT_LABEL[k] + ' <b>' + c[k] + '</b></span>'; }).join('');
+    var note = n + ' records. ';
+    note += META.updated ? 'Review file updated ' + esc(META.updated) + '. ' : 'No review file loaded. ';
+    note += 'Records without a review are shown as pending and were entered from model recall.';
+    if(META.notes.length) note += ' ' + esc(META.notes.join(' '));
+    $('pnote').innerHTML = note;
+  }
+  function renderAttention(){
+    var items = ALL.filter(function(d){ return d._cat === 'disputed' || d._cat === 'flagged' || d._cat === 'corrected'; })
+      .sort(function(a,b){ return CATS.indexOf(b._cat) - CATS.indexOf(a._cat) || a.start - b.start; });
+    var plain = counts().pending;
+    $('attCount').textContent = items.length;
+    var h = items.length ? '<ul class="att">' + items.map(function(d){
+      var why = ((d.rev.flags || [])[0]) || d.rev.note || '';
+      return '<li><button type="button" class="pick" data-pick="' + d.id + '"><span class="tag st st-' + d._cat + '">' + CAT_LABEL[d._cat] + '</span><span class="pt">' + esc(d.title) + '</span><span class="pd">' + esc(d.date) + '</span></button><span class="why">' + esc(why) + '</span></li>';
+    }).join('') + '</ul>' : '<p class="none">Nothing is flagged or disputed.</p>';
+    h += '<p class="plain">' + plain + ' further records are pending with no specific concern recorded. They are unchecked, not confirmed.</p>';
+    $('attBody').innerHTML = h;
+  }
+
+  /* ---------- automated checks ---------- */
+  function fy(day, month, year){ var leap = year % 4 === 0; var doy = CUM[month - 1] + (month > 2 && leap ? 1 : 0) + day; return year + (doy - 1) / (leap ? 366 : 365); }
+  var DATE_RE = /(\d{1,2}) (January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{4})/g;
+  function runChecks(){
+    var T = [];
+    function test(name, desc){ var t = {name:name, desc:desc, level:'pass', items:[]}; T.push(t); return {
+      add: function(level, id, msg){ t.items.push({level:level, id:id, msg:msg}); if(level === 'error') t.level = 'error'; else if(level === 'warn' && t.level !== 'error') t.level = 'warn'; else if(level === 'info' && t.level === 'pass') t.level = 'info'; } }; }
+
+    var t1 = test('Unique ids and valid extra records', 'Every record has one id. Extra records name a known lane.');
+    var seen = {}; ALL.forEach(function(d){ if(seen[d.id]) t1.add('error', d.id, 'Duplicate id.'); seen[d.id] = 1; });
+    META.extraProblems.forEach(function(m){ t1.add('error', null, m); });
+
+    var t2 = test('Required fields', 'id, title, kind, start, date, tier, place, text and basis are present and typed correctly.');
+    ALL.forEach(function(d){
+      ['id','title','kind','date','tier','place','text','basis'].forEach(function(k){ if(typeof d[k] !== 'string' || !d[k]) t2.add('error', d.id, 'Missing or empty field: ' + k + '.'); });
+      if(typeof d.start !== 'number' || isNaN(d.start)) t2.add('error', d.id, 'start must be a number.');
+      if(d.end != null && (typeof d.end !== 'number' || isNaN(d.end))) t2.add('error', d.id, 'end must be a number.');
+      if(!TIERS[d.tier]) t2.add('error', d.id, 'Unknown evidence layer: ' + d.tier + '.');
+    });
+
+    var t3 = test('Time order and chart range', 'end is not before start. Records outside the chart range are clamped and listed.');
+    ALL.forEach(function(d){
+      if(d.end != null && d.end < d.start) t3.add('error', d.id, 'end is before start.');
+      if(d.start < Y0 || d.start > Y1) t3.add('warn', d.id, 'start lies outside the chart range ' + Y0 + ' to ' + Y1 + '.');
+      if(d.end != null && d.end > Y1) t3.add('warn', d.id, 'end lies beyond the chart range and is cut off.');
+    });
+
+    var t4 = test('Displayed date matches plotted position', 'A full calendar date in the date text is compared with the numeric start and end, within about 11 days. Edges clamped to the chart are skipped.');
+    ALL.forEach(function(d){
+      if(typeof d.date !== 'string') return;
+      var ms = []; DATE_RE.lastIndex = 0; var m;
+      while((m = DATE_RE.exec(d.date))){ ms.push({v: fy(+m[1], MONTHS[m[2].toLowerCase()], +m[3]), i: m.index, len: m[0].length}); }
+      if(!ms.length) return;
+      var first = ms[0], last = ms[ms.length - 1];
+      if(first.i === 0 && d.start !== Y0 && Math.abs(first.v - d.start) > 0.03) t4.add('warn', d.id, 'Date text gives ' + first.v.toFixed(2) + ' but start is ' + d.start + '.');
+      if(d.end != null && last.i + last.len === d.date.length && ms.length + (first.i === 0 ? 0 : 1) > 1 && d.end !== Y1 && Math.abs(last.v - d.end) > 0.03) t4.add('warn', d.id, 'Date text gives ' + last.v.toFixed(2) + ' but end is ' + d.end + '.');
+    });
+
+    var t5 = test('Evidence layer against basis', 'A record in the documented layer should not rest on later sources alone.');
+    ALL.forEach(function(d){ if(d.tier === 'D' && typeof d.basis === 'string' && /later source/i.test(d.basis)) t5.add('warn', d.id, 'Documented layer, but the basis mentions later sources. Consider splitting the claim.'); });
+
+    var t6 = test('Papal reigns in sequence', 'Reigns do not overlap and gaps between them are short.');
+    var popes = ALL.filter(function(d){ return d.lane === 'popes'; }).sort(function(a,b){ return a.start - b.start; });
+    for(var i = 1; i < popes.length; i++){
+      var gap = popes[i].start - (popes[i-1].end != null ? popes[i-1].end : popes[i-1].start);
+      if(gap < -0.005) t6.add('error', popes[i].id, 'Reign overlaps ' + popes[i-1].title + '.');
+      else if(gap > 0.25) t6.add('warn', popes[i].id, 'Gap of ' + gap.toFixed(2) + ' years after ' + popes[i-1].title + '.');
+    }
+
+    var t7 = test('Era coverage', 'Every record falls inside one of the era bands.');
+    ALL.forEach(function(d){ var ok = ERAS.some(function(e){ return d.start >= e.start && d.start < e.end; }); if(!ok) t7.add('warn', d.id, 'start is outside every era band; it is grouped with the last era.'); });
+
+    var t8 = test('Review file integrity', 'Reviews refer to existing records. Statuses are known. Verified records cite an admitted source.');
+    Object.keys(REV).forEach(function(id){
+      var r = REV[id];
+      if(!BY[id]) t8.add('warn', null, 'Review refers to unknown record: ' + id + '.');
+      if(r.status && CAT_LABEL[r.status] === undefined) t8.add('error', id, 'Unknown status: ' + r.status + '.');
+      if(r.status === 'flagged') t8.add('error', id, 'flagged is derived from flags; set status to pending.');
+      if(r.proposed && typeof r.proposed !== 'object') t8.add('error', id, 'proposed must be an object.');
+      (r.sources || []).forEach(function(s){ if(!s || !s.type || !s.cite) t8.add('error', id, 'A source needs a type and a citation.'); else if(!SRC_LABEL[s.type]) t8.add('warn', id, 'Unknown source type: ' + s.type + '.'); });
+    });
+    ALL.forEach(function(d){ if(d._invalid) t8.add('error', d.id, d._invalid + '.'); });
+
+    var t9 = test('Language and punctuation convention', 'Record text is English only and contains no dash characters.');
+    var cjk = new RegExp('[\\u3040-\\u30ff\\u3400-\\u9fff]'), dash = new RegExp('[\\u2012-\\u2015\\u2212]');
+    ALL.forEach(function(d){
+      ['title','date','place','text','basis','kind'].forEach(function(k){
+        if(typeof d[k] !== 'string') return;
+        if(cjk.test(d[k])) t9.add('error', d.id, 'Non English characters in ' + k + '.');
+        if(dash.test(d[k])) t9.add('warn', d.id, 'Dash character in ' + k + '.');
+      });
+    });
+
+    var t10 = test('Data files loaded', 'reviews.json and extra.json were read.');
+    META.notes.forEach(function(n){ t10.add('warn', null, n); });
+
+    return T;
+  }
+  function renderChecks(){
+    var T = runChecks();
+    var bad = T.filter(function(t){ return t.level === 'error'; }).length, warn = T.filter(function(t){ return t.level === 'warn'; }).length;
+    $('chkCount').textContent = bad ? bad + ' failing' : (warn ? warn + ' to review' : 'all passing');
+    var h = '<p class="chksum">' + T.length + ' checks. ' + (T.length - bad - warn) + ' passing, ' + warn + ' with warnings, ' + bad + ' failing.</p><ul class="chks">';
+    T.forEach(function(t){
+      h += '<li class="chk chk-' + t.level + '"><p class="chkhead"><span class="tag lvl lvl-' + t.level + '">' + (t.level === 'pass' ? 'Pass' : t.level === 'error' ? 'Fail' : t.level === 'warn' ? 'Warn' : 'Note') + '</span><b>' + esc(t.name) + '</b></p><p class="chkdesc">' + esc(t.desc) + '</p>';
+      if(t.items.length){
+        h += '<ul class="chkitems">' + t.items.slice(0, 25).map(function(it){
+          return '<li>' + (it.id && BY[it.id] ? '<button type="button" class="pick inline" data-pick="' + it.id + '">' + esc(BY[it.id].title) + '</button> ' : '') + esc(it.msg) + '</li>';
+        }).join('') + (t.items.length > 25 ? '<li>' + (t.items.length - 25) + ' more.</li>' : '') + '</ul>';
+      }
+      h += '</li>';
+    });
+    $('chkBody').innerHTML = h + '</ul>';
+  }
+
+  /* ---------- chart ---------- */
+  function renderChart(){
+    var chart = $('chart'), prev = chart.scrollLeft;
+    var W = LEFT + (Y1 - Y0) * PX + 24;
+    var h = '<div class="plot" style="width:' + W + 'px"><div class="eras">' + ERAS.map(function(e){
+      return '<button type="button" class="era" data-era="' + e.id + '" style="left:' + xOf(e.start) + 'px;width:' + ((e.end - e.start) * PX) + 'px" title="' + esc(e.label + ', ' + e.span) + '">' + esc(e.label) + '</button>';
+    }).join('') + '</div><div class="axis">';
+    for(var y = Y0; y <= Y1; y += 5) h += '<span class="tick" style="left:' + xOf(y) + 'px">' + y + '</span>';
+    h += '</div>';
+    LANES.forEach(function(l){
+      if(!state.lanes.has(l.id)) return;
+      var items = ALL.filter(function(d){ return d.lane === l.id && visible(d); });
+      var rows = pack(items);
+      h += '<div class="lane" data-lane="' + l.id + '" style="height:' + (Math.max(rows, 1) * ROW + 14) + 'px"><div class="lane-label">' + l.name + '</div>';
+      items.forEach(function(it){
+        var cls = 'item t-' + it.tier + (it._bar ? '' : ' pt') + (it.id === state.sel ? ' sel' : '') + (it.muted ? ' muted' : '');
+        var lab = esc(labelOf(it));
+        h += '<button type="button" class="' + cls + '" data-id="' + it.id + '" style="left:' + it._x + 'px;top:' + (7 + it._row * ROW) + 'px;width:' + it._ext + 'px" title="' + esc(it.title + ', ' + it.date + ' (' + TIERS[it.tier] + ', ' + CAT_LABEL[it._cat] + ')') + '">';
+        if(it._bar){
+          h += '<span class="mark" style="width:' + it._barW + 'px">' + (it._inside ? lab : '') + '</span>';
+          if(!it._inside) h += '<span class="lbl">' + lab + '</span>';
+        } else h += '<span class="mark"></span><span class="lbl">' + lab + '</span>';
+        h += '</button>';
+      });
+      h += '</div>';
+    });
+    chart.innerHTML = h + '</div>';
+    chart.scrollLeft = prev;
+  }
+
+  /* ---------- detail and list ---------- */
+  function tagsHTML(d){
+    return '<div class="tags"><span class="tag laneTag" style="--c:var(--c-' + d.lane + ');--on:var(--on-' + d.lane + ')">' + LANE_NAME[d.lane] + ' · ' + esc(d.kind) + '</span><span class="tag tierTag t-' + d.tier + '">' + TIERS[d.tier] + '</span><span class="tag st st-' + d._cat + '">' + CAT_LABEL[d._cat] + '</span></div>';
+  }
+  function renderDetail(){
+    var d = BY[state.sel], el = $('detail');
+    if(!d){ el.innerHTML = ''; return; }
+    el.classList.toggle('muted', !!d.muted);
+    el.innerHTML = tagsHTML(d) + '<h2>' + esc(d.title) + '</h2><p class="meta">' + esc(d.date) + ' · ' + esc(d.place) + '</p><p class="d-text">' + esc(d.text) + '</p><p class="basis"><b>Basis</b>' + esc(d.basis) + '</p>' + verifyHTML(d, true) + '<button type="button" class="btn" data-jump="' + d.id + '">Show in the record below</button>';
+  }
+  function eraOf(y){ for(var i = 0; i < ERAS.length; i++){ if(y >= ERAS[i].start && y < ERAS[i].end) return ERAS[i]; } return ERAS[ERAS.length - 1]; }
+  function renderList(){
+    var vis = ALL.filter(visible).sort(function(a,b){ return a.start - b.start || LANE_ORDER[a.lane] - LANE_ORDER[b.lane]; });
+    $('count').textContent = vis.length + ' of ' + ALL.length + ' entries';
+    var host = $('list');
+    if(!vis.length){ host.innerHTML = '<p class="empty">No entries match these filters. Use Reset to start again.</p>'; return; }
+    var h = '';
+    ERAS.forEach(function(e){
+      var inEra = vis.filter(function(d){ return eraOf(d.start).id === e.id; });
+      if(!inEra.length) return;
+      h += '<section class="era-sec" id="era-' + e.id + '"><div class="era-head"><h2>' + esc(e.label) + '</h2><span class="span">' + e.span + '</span></div><p class="era-sum">' + esc(e.sum) + '</p>';
+      inEra.forEach(function(d){
+        h += '<article class="entry' + (d.muted ? ' muted' : '') + '" id="entry-' + d.id + '" data-lane="' + d.lane + '"><div class="when">' + esc(d.date) + '</div><div class="body"><h3>' + esc(d.title) + '</h3>' + tagsHTML(d) +
+          '<p class="meta">' + esc(d.place) + '</p><p class="t">' + esc(d.text) + '</p><p class="basis"><b>Basis</b>' + esc(d.basis) + '</p>' + ((d.rev.flags || []).length || d.rev.proposed || d._invalid ? verifyHTML(d, false) : '') + '</div></article>';
+      });
+      h += '</section>';
+    });
+    host.innerHTML = h;
+  }
+
+  /* ---------- patch preview ---------- */
+  function mergeReviews(base, patch){
+    var out = JSON.parse(JSON.stringify(base));
+    Object.keys(patch).forEach(function(id){
+      var p = patch[id]; if(!p || typeof p !== 'object') return;
+      var r = out[id] = out[id] || {};
+      ['status','flags','proposed','note'].forEach(function(k){ if(p[k] !== undefined) r[k] = p[k]; });
+      ['sources','history'].forEach(function(k){
+        if(!Array.isArray(p[k])) return;
+        r[k] = r[k] || [];
+        p[k].forEach(function(x){ if(!r[k].some(function(y){ return JSON.stringify(y) === JSON.stringify(x); })) r[k].push(x); });
+      });
+    });
+    return out;
+  }
+  function setPatchMsg(m, bad){ var el = $('patchMsg'); el.textContent = m; el.className = 'patchmsg' + (bad ? ' bad' : ''); }
+  function mergedText(){ return JSON.stringify({schema:'ldv-chronology-reviews/1', updated:META.updated, reviews:REV}, null, 2); }
+  function wirePatch(){
+    $('patchApply').addEventListener('click', function(){
+      var txt = $('patchIn').value.trim();
+      if(!txt){ setPatchMsg('Paste a patch first.', true); return; }
+      var obj;
+      try{ obj = JSON.parse(txt); }catch(err){ setPatchMsg('That is not valid JSON: ' + err.message, true); return; }
+      var map = obj && obj.reviews ? obj.reviews : obj;
+      if(!map || typeof map !== 'object' || Array.isArray(map)){ setPatchMsg('Expected an object of reviews keyed by record id.', true); return; }
+      REV = mergeReviews(REV, map);
+      recompute();
+      setPatchMsg('Patch applied to this view only. Nothing is saved. Copy the merged file to keep it.', false);
+    });
+    $('patchReset').addEventListener('click', function(){ REV = JSON.parse(JSON.stringify(REV_FILE)); recompute(); setPatchMsg('Back to the published review file.', false); });
+    $('patchCopy').addEventListener('click', function(){
+      var out = $('patchOut'); out.hidden = false; out.value = mergedText();
+      function fallback(){ out.focus(); out.select(); setPatchMsg('Select and copy the merged file from the box below.', false); }
+      if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(out.value).then(function(){ setPatchMsg('Merged review file copied.', false); }, fallback); } else fallback();
+    });
+  }
+
+  /* ---------- orchestration ---------- */
+  function refresh(){ syncControls(); renderChart(); renderList(); }
+  function recompute(){ deriveAll(); refresh(); renderDetail(); renderPlatform(); renderAttention(); renderChecks(); }
+  function pick(id){
+    if(!BY[id]) return;
+    state.sel = id; renderChart(); renderDetail(); scrollToEl($('detail'));
+  }
+
+  $('chart').addEventListener('click', function(e){
+    var era = e.target.closest('button[data-era]');
+    if(era){ scrollToEl($('era-' + era.getAttribute('data-era'))); return; }
+    var it = e.target.closest('button[data-id]'); if(!it) return;
+    state.sel = it.getAttribute('data-id');
+    document.querySelectorAll('#chart .item.sel').forEach(function(n){ n.classList.remove('sel'); });
+    it.classList.add('sel'); renderDetail();
+  });
+  $('detail').addEventListener('click', function(e){
+    var b = e.target.closest('button[data-jump]'); if(!b) return;
+    var el = $('entry-' + b.getAttribute('data-jump')); if(!el) return;
+    scrollToEl(el); el.classList.add('flash'); setTimeout(function(){ el.classList.remove('flash'); }, 2200);
+  });
+  document.addEventListener('click', function(e){ var b = e.target.closest('button[data-pick]'); if(b) pick(b.getAttribute('data-pick')); });
+
+  function loadJSON(name){
+    if(window.__INLINE && window.__INLINE[name]) return Promise.resolve(window.__INLINE[name]);
+    return fetch(name, {cache:'no-store'}).then(function(r){ if(!r.ok) throw new Error(name + ' returned ' + r.status); return r.json(); });
+  }
+  buildAll([]);
+  buildControls(); wirePatch();
+  recompute();
+  var d0 = BY[state.sel]; if(d0) $('chart').scrollLeft = Math.max(0, xOf(d0.start) - 220);
+
+  Promise.all([
+    loadJSON('reviews.json').catch(function(err){ META.notes.push('Could not read reviews.json (' + err.message + '). Showing base records only.'); return null; }),
+    loadJSON('extra.json').catch(function(err){ META.notes.push('Could not read extra.json (' + err.message + ').'); return null; })
+  ]).then(function(res){
+    var rv = res[0], ex = res[1];
+    if(rv && rv.reviews && typeof rv.reviews === 'object'){ REV = rv.reviews; META.updated = rv.updated || null; }
+    else if(rv){ META.notes.push('reviews.json has no reviews object.'); }
+    REV_FILE = JSON.parse(JSON.stringify(REV));
+    buildAll(ex && Array.isArray(ex.records) ? ex.records : []);
+    recompute();
+    var d1 = BY[state.sel]; if(d1) $('chart').scrollLeft = Math.max(0, xOf(d1.start) - 220);
+  });
+})();
+</script>
+
+</body></html>
