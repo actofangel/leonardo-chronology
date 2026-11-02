@@ -1,0 +1,79 @@
+{
+  "id": "pe-baroncelli",
+  "type": "person",
+  "label": "Bernardo di Bandino Baroncelli",
+  "born": "c.1420",
+  "died": "29 December 1479",
+  "roles": [
+    "conspirator in the Pazzi plot"
+  ],
+  "summary": "Killer of Giuliano de' Medici in the Pazzi conspiracy of 1478, hanged in Florence in December 1479; Leonardo drew his hanged body.",
+  "relations": [
+    {
+      "rel": "depicted_in",
+      "target": "w-baroncelli",
+      "claim": "c2"
+    },
+    {
+      "rel": "related_event",
+      "target": "h-pazzi"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "died",
+      "value": {
+        "text": "29 December 1479, hanged at the Bargello",
+        "date": 1479.99
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Extradited from Constantinople and hanged at the Palazzo del Bargello on 29 December 1479; one source gives 28 December.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Bernardo Bandini Baroncelli. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Bernardo_Bandini_Baroncelli"
+        },
+        {
+          "type": "other",
+          "cite": "Louvre, Léonard de Vinci 2019 exhibition pages. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://mini-site.louvre.fr/trimestriel/2019/l%c3%a9onard_de_vinciGB/32/"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Landucci, Diario fiorentino",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "contact",
+      "value": {
+        "text": "Leonardo's drawing of him hanged, December 1479",
+        "date": 1479.99
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A drawing by Leonardo (Musée Bonnat Helleu, Bayonne) shows the hanged man with notes on his clothing in Leonardo's mirror script, naming 'Bernardo di Bandino Baroncelli'.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, Léonard de Vinci 2019 exhibition pages. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://mini-site.louvre.fr/trimestriel/2019/l%c3%a9onard_de_vinciGB/32/"
+        },
+        {
+          "ref": "src-richter-1883",
+          "loc": "section 664"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Musée Bonnat Helleu inventory number (to locate)",
+        "Bambach 2019"
+      ]
+    }
+  ]
+}

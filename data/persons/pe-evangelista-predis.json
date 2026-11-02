@@ -1,0 +1,78 @@
+{
+  "id": "pe-evangelista-predis",
+  "type": "person",
+  "label": "Evangelista de Predis",
+  "born": "",
+  "died": "c.1490 to 1491",
+  "roles": [
+    "painter",
+    "gilder"
+  ],
+  "summary": "Milanese painter and brother of Ambrogio, partner in the 1483 Virgin of the Rocks contract.",
+  "relations": [
+    {
+      "rel": "member_of_group",
+      "target": "pe-predis"
+    },
+    {
+      "rel": "sibling_of",
+      "target": "pe-ambrogio-predis"
+    },
+    {
+      "rel": "collaborator",
+      "target": "w-rocks",
+      "claim": "c2"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "died",
+      "value": {
+        "text": "c.1490 to 1491",
+        "start": 1490,
+        "end": 1491
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Said to have died about 1490 to 1491; a later petition to the duke is said to mention him as dead. No date found in this round.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Syson 2011"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "contact",
+      "value": {
+        "text": "Contract of 25 April 1483",
+        "date": 1483.31
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Party to the contract with Leonardo and Ambrogio.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Virgin of the Rocks. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Virgin_of_the_Rocks"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    }
+  ]
+}

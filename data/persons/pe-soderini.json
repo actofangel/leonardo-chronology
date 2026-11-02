@@ -22,6 +22,89 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "born",
+      "value": {
+        "text": "1450 or 1452"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Born in Florence; reference works give 1450 or 1452.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani, Soderini, Piero"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "died",
+      "value": {
+        "text": "13 June 1522, Rome"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Rome.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Correspondence on Leonardo's leave, August to December 1506",
+        "start": 1506.6,
+        "end": 1506.98
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Letters between Charles d'Amboise, Geoffroy Carles and Soderini on extending Leonardo's leave in Milan, newly edited by Fagnart and Miesse (2015). A letter of 9 October 1506 complaining that Leonardo had made only a small beginning on the Anghiari work is often quoted.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Fagnart and Miesse, 'Perché havemo bisogno ancora de maestro Leonardo', new edition of the letters of August to December 1506 between Charles d'Amboise, Geoffroy Carles and Piero Soderini, Raccolta Vinciana XXXVI (2015), pp. 47 to 76. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://orbi.uliege.be/handle/2268/183755"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Fagnart and Miesse 2015",
+        "Villata 1999"
+      ]
+    }
+  ],
+  "born": "1450 or 1452",
+  "died": "13 June 1522",
+  "roles": [
+    "Gonfaloniere a vita of Florence, 1502 to 1512"
+  ],
+  "relations": [
+    {
+      "rel": "related_event",
+      "target": "e-leave"
+    },
+    {
+      "rel": "correspondent_of",
+      "target": "pe-amboise"
     }
   ],
   "timeline": {

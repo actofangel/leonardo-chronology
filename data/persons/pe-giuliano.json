@@ -22,6 +22,152 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "born",
+      "value": {
+        "text": "12 March 1479, Florence"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born in Florence, third son of Lorenzo de' Medici.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Giuliano de' Medici, Duke of Nemours. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Giuliano_de%27_Medici,_Duke_of_Nemours"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "died",
+      "value": {
+        "text": "17 March 1516, Florence",
+        "date": 1516.21
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died at the Badia Fiesolana, Florence.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Giuliano de' Medici, Duke of Nemours. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Giuliano_de%27_Medici,_Duke_of_Nemours"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Patron in Rome, 1513 to 1516",
+        "start": 1513.73,
+        "end": 1516.2
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo lived in the Belvedere under Giuliano's patronage; Leonardo's notes record a departure from Milan on 24 September 1513 (wording not confirmed in this round).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Museo Galileo, Leonardo itinerary, The stay in Rome. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/TheStayRome.html"
+        },
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, Milan 1506 to 13 and Rome 1513 to 16. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.rct.uk/collection/themes/exhibitions/leonardo-da-vinci-a-life-in-drawing/the-queens-gallery-buckingham/milan-1506-13-and-rome-1513-16"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Paris MS E, flyleaf note (to confirm)"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "Note of his departure from Rome, 9 January 1515",
+        "date": 1515.02
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A note in Leonardo's hand records that 'il Magnifico Giuliano de' Medici' left Rome on 9 January 1515 at dawn to marry in Savoy, and that the King of France died that day.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Codex Atlanticus folio (to locate)",
+        "Richter 1883"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "contact",
+      "value": {
+        "text": "Draft letters complaining of Giovanni degli Specchi"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Drafts of a letter to 'Magnifico' complaining about the German mirror maker Giovanni are read as addressed to Giuliano.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Codex Atlanticus folios (to locate)",
+        "Richter 1883"
+      ]
+    }
+  ],
+  "born": "12 March 1479",
+  "died": "17 March 1516",
+  "roles": [
+    "papal captain",
+    "Duke of Nemours"
+  ],
+  "variants": [
+    "Giuliano de' Medici, Duke of Nemours"
+  ],
+  "relations": [
+    {
+      "rel": "child_of",
+      "target": "pe-lorenzo"
+    },
+    {
+      "rel": "sibling_of",
+      "target": "po-leo10"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-giuliano"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-rome-leave"
+    },
+    {
+      "rel": "employer_of",
+      "target": "pe-giovanni-specchi"
     }
   ],
   "timeline": {

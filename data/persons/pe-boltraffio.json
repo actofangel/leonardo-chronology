@@ -22,7 +22,51 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "contact",
+      "value": {
+        "text": "Two assistants named in the 1490 to 1491 Salai theft notes"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo's notes on Salai's thefts (Paris MS C, dated 1490 to 1491) are reported to name a 'Marco' and a 'Gian Antonio' in the house as victims. Identifying them with Marco d'Oggiono and Giovanni Antonio Boltraffio is an interpretation.",
+      "sources": [
+        {
+          "ref": "src-richter-1883",
+          "loc": "section 1458 (to confirm)"
+        },
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Institut de France, MS C f. 15v (to confirm)",
+        "Richter 1883"
+      ]
     }
+  ],
+  "roles": [
+    "group record"
+  ],
+  "variants": [
+    "Boltraffio and Marco d'Oggiono (group)"
+  ],
+  "relations": [
+    {
+      "rel": "has_member",
+      "target": "pe-boltraffio-gian"
+    },
+    {
+      "rel": "has_member",
+      "target": "pe-oggiono"
+    }
+  ],
+  "open_questions": [
+    "Group record of two painters; split bars recommended (pe-boltraffio-gian, pe-oggiono)."
   ],
   "timeline": {
     "lane": "people",

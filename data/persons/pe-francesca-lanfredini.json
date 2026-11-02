@@ -1,0 +1,41 @@
+{
+  "id": "pe-francesca-lanfredini",
+  "type": "person",
+  "label": "Francesca Lanfredini",
+  "roles": [
+    "stepmother of Leonardo",
+    "wife of ser Piero da Vinci"
+  ],
+  "summary": "Second wife of ser Piero, married about 1464 or 1465.",
+  "relations": [
+    {
+      "rel": "married_to",
+      "target": "pe-piero"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "relation",
+      "value": {
+        "text": "Second wife of ser Piero, married about 1464 or 1465."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Francesca di ser Giuliano Lanfredini married ser Piero about 1464 (another source gives c.1465 to 1466) and died before his third marriage of 1475. No children recorded.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Sepoltuario fiorentino online database (University of Virginia), entry for Lanfredini, Francesca di ser Giuliano di Giovanni di Filippo (entry number not confirmed). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://sepoltuario.iath.virginia.edu/"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Sepoltuario entry"
+      ]
+    }
+  ],
+  "died": "before 1475"
+}

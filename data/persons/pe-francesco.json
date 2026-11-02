@@ -22,7 +22,136 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "born",
+      "value": {
+        "text": "1436"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Usually given as born 1436, the younger son of Antonio da Vinci. Appears in the family catasto declarations.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard biographies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "catasto declarations of Antonio da Vinci, as published"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "died",
+      "value": {
+        "text": "1507 (early in the year per one account)",
+        "start": 1506,
+        "end": 1507
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Secondary accounts place his death in 1507; one says early 1507. Some biographies say late 1506. No document of the day was found in this round.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Museo Galileo, Second stay in Milan, and secondary timelines. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/SecondStayMilan.html"
+        },
+        {
+          "type": "web",
+          "cite": "Discovering Da Vinci, timeline 1507 to 1513. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://discoveringdavinci.com/notebooks/timeline/05-1507-1513-milan-ii-the-anatomist-s-peak-and-the-inheritance.html"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, documents on the inheritance",
+        "Archivio di Stato di Firenze, Notarile, will of Francesco"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Will naming Leonardo; dispute with the half brothers, 1507 to 1508",
+        "start": 1507,
+        "end": 1508.5
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Francesco left property to Leonardo; Leonardo's half brothers contested it. Charles d'Amboise and Louis XII wrote to the Florentine government on Leonardo's behalf in 1507, and a draft of Leonardo's letter on the quarrel with his brothers (c.1508) survives in the Codex Atlanticus.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Museo Galileo, Leonardo itinerary, Second stay in Milan. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/SecondStayMilan.html"
+        },
+        {
+          "type": "web",
+          "cite": "Search summary citing a Codex Atlanticus apograph letter on the quarrel with the brothers over the uncle's inheritance, c.1508. Seen in a web search result summary only; the page was not opened in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, documents of 1507 and 1508",
+        "Codex Atlanticus folio of the draft letter (to locate in Pedretti 1978)",
+        "Ambrosiana catalogue"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "Childhood household, 1457",
+        "date": 1458.16
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The 1457 catasto declaration of Antonio da Vinci lists Francesco in the same household in which the five year old Leonardo is listed.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Università di Firenze repository (FLORE), Intervento Colombaria, PDF on the da Vinci family tax declarations. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://flore.unifi.it/retrieve/bc298c89-223b-4ffa-9f48-a5c4b7d36f4d/Intervento%20Colombaria%20oggi.pdf"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, catasto of 1457"
+      ]
     }
+  ],
+  "born": "1436",
+  "died": "1507",
+  "roles": [
+    "uncle of Leonardo",
+    "landholder at Vinci"
+  ],
+  "relations": [
+    {
+      "rel": "child_of",
+      "target": "pe-antonio-vinci"
+    },
+    {
+      "rel": "sibling_of",
+      "target": "pe-piero"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-inherit",
+      "claim": "c4"
+    }
+  ],
+  "open_questions": [
+    "Date of the will (often given as 1504) and date of death: neither was found in a document in this round."
   ],
   "timeline": {
     "lane": "people",

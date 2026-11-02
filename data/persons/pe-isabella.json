@@ -22,6 +22,182 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "born",
+      "value": {
+        "text": "18 May 1474, Ferrara"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born at Ferrara.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Isabella d'Este. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Isabella_d%27Este"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "died",
+      "value": {
+        "text": "13 February 1539, Mantua"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died at Mantua.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Isabella d'Este. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Isabella_d%27Este"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Portrait drawing at Mantua, winter 1499 to 1500",
+        "start": 1499.95,
+        "end": 1500.1
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo drew her at Mantua after leaving Milan; a later letter of 1501 refers to the drawing. The Louvre cartoon is identified with this portrait by interpretation.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Archivio di Stato di Mantova, Leonardo e l'Archivio di Stato (list of documents, PDF). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://archiviodistatomantova.cultura.gov.it/fileadmin/risorse/Pubblicazioni/Leonardo_Archivio_di_Stato.pdf"
+        },
+        {
+          "type": "monograph",
+          "cite": "Ames-Lewis, Isabella and Leonardo: The Artistic Relationship between Isabella d'Este and Leonardo da Vinci, 1500 to 1506 (Yale University Press, 2012), appendix of letters. Cited as the place to check; not read in this session.",
+          "url": "https://yalebooks.yale.edu/9780300121247/isabella-and-leonardo"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Ames-Lewis 2012"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "Gusnasco's report from Venice, March 1500",
+        "date": 1500.2
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Lorenzo Gusnasco wrote to her from Venice that Leonardo had shown him a portrait of her. See pe-gusnasco.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Italian Roots newsletter, Isabella d'Este. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://italianroots.beehiiv.com/p/isabella-deste-and-francesco-gonzago-5891"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "contact",
+      "value": {
+        "text": "Correspondence through Fra Pietro da Novellara, 27 March to 14 April 1501",
+        "start": 1501.24,
+        "end": 1501.29
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "She wrote to Novellara from Mantua on 27 March 1501; he replied from Florence on 3 and 14 April 1501. Archivio di Stato di Mantova.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Archivio di Stato di Mantova, Leonardo e l'Archivio di Stato (list of documents, PDF). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://archiviodistatomantova.cultura.gov.it/fileadmin/risorse/Pubblicazioni/Leonardo_Archivio_di_Stato.pdf"
+        },
+        {
+          "type": "monograph",
+          "cite": "Ames-Lewis, Isabella and Leonardo: The Artistic Relationship between Isabella d'Este and Leonardo da Vinci, 1500 to 1506 (Yale University Press, 2012), appendix of letters. Cited as the place to check; not read in this session.",
+          "url": "https://yalebooks.yale.edu/9780300121247/isabella-and-leonardo"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "contact",
+      "value": {
+        "text": "Letters to Leonardo and agents, 1501 to 1506"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Further letters, including one to Leonardo of 1504 asking for a young Christ, are listed by the Mantua archive and printed by Ames-Lewis.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Archivio di Stato di Mantova, Leonardo e l'Archivio di Stato (list of documents, PDF). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://archiviodistatomantova.cultura.gov.it/fileadmin/risorse/Pubblicazioni/Leonardo_Archivio_di_Stato.pdf"
+        },
+        {
+          "type": "monograph",
+          "cite": "Ames-Lewis, Isabella and Leonardo: The Artistic Relationship between Isabella d'Este and Leonardo da Vinci, 1500 to 1506 (Yale University Press, 2012), appendix of letters. Cited as the place to check; not read in this session.",
+          "url": "https://yalebooks.yale.edu/9780300121247/isabella-and-leonardo"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Ames-Lewis 2012, appendix",
+        "Villata 1999"
+      ]
+    }
+  ],
+  "born": "18 May 1474",
+  "died": "13 February 1539",
+  "roles": [
+    "Marchioness of Mantua",
+    "collector"
+  ],
+  "relations": [
+    {
+      "rel": "depicted_in",
+      "target": "w-isabella"
+    },
+    {
+      "rel": "correspondent_of",
+      "target": "pe-novellara"
+    },
+    {
+      "rel": "correspondent_of",
+      "target": "pe-gusnasco"
+    },
+    {
+      "rel": "correspondent_of",
+      "target": "pe-cecilia"
     }
   ],
   "timeline": {

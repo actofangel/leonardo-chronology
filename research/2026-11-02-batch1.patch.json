@@ -1,0 +1,228 @@
+{
+  "schema": "ldv-chronology-reviews/1",
+  "updated": "2026-11-02",
+  "source": "research batch 1, 2026-11-02 (reports in research/incoming/*/_REPORT.md)",
+  "reviews": {
+    "w-skull": {
+      "flags": [
+        "Only one sheet (RCIN 919059) is reported to carry the date 2 April 1489; the others are dated by association. See the entity's claims."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "w-imola": {
+      "flags": [
+        "The date autumn 1502 is an inference from Borgia's stay at Imola, not written on the sheet."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "w-burlington": {
+      "flags": [
+        "The National Gallery's current dating is reported as c.1506 to 1508, later than the draft."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "w-leicester": {
+      "flags": [
+        "No source seen supports a start in 1504; reported dating c.1508 to 1510. Check the Museo Galileo 2018 catalogue."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "w-madrid1": {
+      "flags": [
+        "Rediscovery reported as 1965 (also 1966 or 1967). Madrid II includes an earlier Milanese part (c.1491 to 1493), not only the Florentine years."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "e-letter": {
+      "flags": [
+        "No folio is given for the letter in the Codex Atlanticus; the date, the hand and whether it was sent are recorded as competing claims."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "w-magi": {
+      "flags": [
+        "The contract is recalled as March 1481. Confirm the day and the later reassignment of the commission.",
+        "The patrons are reported as canons regular, not monks. The day in March 1481 needs a Villata document number."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "w-carnation": {
+      "flags": [
+        "The Alte Pinakothek is reported to date it c.1475, earlier than the draft's c.1478 to 1480."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "w-baptist": {
+      "flags": [
+        "The Louvre is reported to date it c.1508 to 1519, wider than the draft's c.1513 to 1516."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "w-rocks": {
+      "flags": [
+        "The documents of the legal dispute date from 1506 to 1508; the London version now has its own entity (w-rocks-london)."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "pe-peers": {
+      "flags": [
+        "The bar shows an overlap in time and place. It does not record a relationship.",
+        "Contact is documented, not only inferred: Perugino and Lorenzo di Credi sat with Leonardo on the David committee of 25 January 1504. Consider separate bars (pe-perugino, pe-credi)."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "pe-predis": {
+      "flags": [
+        "Evangelista de Predis is reported to have died c.1490 to 1491; the shared bar to 1508 overstates his span. Consider separate bars."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "pe-lisa": {
+      "flags": [
+        "The 1503 date rests on Agostino Vespucci's note (Heidelberg); that Francesco del Giocondo commissioned the portrait rests on Vasari only."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "po-leo10": {
+      "flags": [
+        "Sources differ on the first day of the reign. Both 9 March and 11 March 1513 appear in recall. Check a papal chronology.",
+        "Election (9 or 11 March 1513, disputed), proclamation (11 March) and coronation (19 March) are distinct. The bar starts at the proclamation."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "e-vineyard": {
+      "flags": [
+        "The year may be wrong. Recall suggests the grant to Leonardo dates from 2 April 1499, not 1498.",
+        "Web sources report confirmation of the grant by a ducal letter of 26 April 1499, with possession from 1497 or 1498, and a French confiscation in 1502 not in the draft."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "e-birth": {
+      "flags": [
+        "The place Anchiano follows local tradition. As recalled, Antonio's note names Vinci and not Anchiano. Check the edition.",
+        "No source seen says Antonio's note names Anchiano; the place should read Vinci, with Anchiano as tradition (tier T for the place)."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "e-death": {
+      "flags": [
+        "The original grave at Saint Florentin was lost when the church was demolished (c.1806 to 1810); the identity of the remains now at Saint Hubert is uncertain."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    },
+    "pl-rome": {
+      "flags": [
+        "The Belvedere lodging and the basis 'Vatican payment lists' were not confirmed in this round."
+      ],
+      "history": [
+        {
+          "at": "2026-11-02",
+          "by": "claude, research batch 1 (web search summaries)",
+          "note": "Flag raised from research batch 1. Details and sources in the entity's claims; reports in research/incoming/*/_REPORT.md. Nothing here verifies the record."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "pe-vasari",
+  "type": "person",
+  "label": "Giorgio Vasari",
+  "born": "30 July 1511",
+  "died": "27 June 1574",
+  "roles": [
+    "painter",
+    "architect",
+    "biographer"
+  ],
+  "summary": "Author of the Lives of the artists (1550, revised 1568), which include a life of Leonardo.",
+  "relations": [
+    {
+      "rel": "author_of",
+      "target": "src-vasari-1550"
+    },
+    {
+      "rel": "author_of",
+      "target": "src-vasari-1568"
+    },
+    {
+      "rel": "met",
+      "target": "pe-melzi"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "30 July 1511, Arezzo"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born at Arezzo.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Rubin, Giorgio Vasari: Art and History (1995)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "27 June 1574, Florence"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Florence.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Rubin 1995"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "work",
+      "value": {
+        "text": "Lives of 1550 and 1568"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Published Le vite in 1550 (Torrentino) and a revised edition in 1568 (Giunti), both with a life of Leonardo.",
+      "sources": [
+        {
+          "ref": "src-vasari-1550",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-vasari-1568",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "the editions themselves"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "No contact with Leonardo; met Melzi"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Vasari was seven when Leonardo died. In 1568 he mentions Francesco Melzi as keeper of Leonardo's papers, whom he had met.",
+      "sources": [
+        {
+          "ref": "src-vasari-1568",
+          "loc": "Life of Leonardo"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Vasari 1568"
+      ]
+    }
+  ]
+}

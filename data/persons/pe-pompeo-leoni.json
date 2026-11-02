@@ -1,0 +1,146 @@
+{
+  "id": "pe-pompeo-leoni",
+  "type": "person",
+  "label": "Pompeo Leoni",
+  "born": "c.1533",
+  "died": "1608",
+  "roles": [
+    "sculptor",
+    "collector"
+  ],
+  "summary": "Milanese sculptor at the Spanish court who acquired most of Leonardo's papers from the Melzi heirs and bound them into large volumes, including the Codex Atlanticus and the volume now at Windsor.",
+  "relations": [
+    {
+      "rel": "owned",
+      "target": "w-atlanticus"
+    },
+    {
+      "rel": "owned",
+      "target": "w-madrid1"
+    },
+    {
+      "rel": "acquired_from",
+      "target": "pe-orazio-melzi"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "c.1531 to 1533"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born about 1531 to 1533, son of the sculptor Leone Leoni.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Pompeo Leoni. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Pompeo_Leoni"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "a peer reviewed Leoni monograph"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "1608, Madrid",
+        "date": 1608.77
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Madrid in 1608; the inventory of his Madrid residence lists the album of drawings.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, The Leoni binding. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://col.rct.uk/collection/933320/the-leoni-binding"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Pompeo Leoni. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Pompeo_Leoni"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "died",
+      "value": {
+        "text": "1610"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "One online source gives 1610, with the codex passing to the heir Polidoro Calchi.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Discovering Da Vinci, Codex Atlanticus. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://discoveringdavinci.com/notebooks/codex-atlanticus/"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ],
+      "alternative_to": [
+        "c2"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": {
+        "text": "Acquired the papers from Melzi's heirs, c.1582 to 1590"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Royal Collection provenance: Pompeo Leoni c.1582 to 1590; Thomas Howard, Earl of Arundel, by 1630.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Royal Collection Trust, The Leoni binding. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://col.rct.uk/collection/933320/the-leoni-binding"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Clark and Pedretti 1968"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": {
+        "text": "Formed the Codex Atlanticus"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "He mounted sheets from dismembered notebooks to form the Codex Atlanticus.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Biblioteca Ambrosiana, Codice Atlantico page. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://ambrosiana.it/en/scopri/codice-atlantico-leonardo-da-vinci"
+        },
+        {
+          "ref": "src-pedretti-1978-atlanticus",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Pedretti 1978"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "pe-scorlione",
+  "type": "person",
+  "label": "Bartolomeo Scorlione",
+  "roles": [
+    "prior of the Confraternity of the Immaculate Conception, Milan"
+  ],
+  "summary": "Prior of the confraternity that signed the 1483 contract with Leonardo and the de Predis brothers.",
+  "relations": [
+    {
+      "rel": "commissioned",
+      "target": "w-rocks",
+      "claim": "c1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "contact",
+      "value": {
+        "text": "Contract of 25 April 1483",
+        "date": 1483.31
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Named as prior of the confraternity in the contract of 25 April 1483.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Virgin of the Rocks. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Virgin_of_the_Rocks"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    }
+  ]
+}

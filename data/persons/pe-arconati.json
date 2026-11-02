@@ -1,0 +1,117 @@
+{
+  "id": "pe-arconati",
+  "type": "person",
+  "label": "Galeazzo Arconati",
+  "born": "before 1592",
+  "died": "1649",
+  "roles": [
+    "collector"
+  ],
+  "summary": "Milanese nobleman who gave the Codex Atlanticus and other Leonardo manuscripts to the Biblioteca Ambrosiana.",
+  "relations": [
+    {
+      "rel": "donor_of",
+      "target": "w-atlanticus"
+    },
+    {
+      "rel": "donor_to",
+      "target": "geo-ambrosiana"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "before 1592"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born before 1592.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Leonardo Online (MPIWG), Epilogue: the codices. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://leonardo-online.mpiwg-berlin.mpg.de/"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Ambrosiana deed of gift"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "1649"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died 1649.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Leonardo Online (MPIWG), Epilogue: the codices. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://leonardo-online.mpiwg-berlin.mpg.de/"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Ambrosiana"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "provenance",
+      "value": {
+        "text": "Gift to the Ambrosiana, 1637",
+        "date": 1637
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "In 1637 he donated the Codex Atlanticus and eleven other Leonardo manuscripts to the Biblioteca Ambrosiana.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Leonardo Online (MPIWG), Epilogue: the codices. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://leonardo-online.mpiwg-berlin.mpg.de/"
+        },
+        {
+          "type": "other",
+          "cite": "Biblioteca Ambrosiana, Codice Atlantico. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://ambrosiana.it/en/scopri/codice-atlantico-leonardo-da-vinci"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Ambrosiana, deed of donation (date to locate)",
+        "Pedretti 1978"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": {
+        "text": "Bought from Polidoro Calchi 1625; gift 1636"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "One online source gives purchase from Calchi in 1625 and the gift in 1636.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Discovering Da Vinci, Codex Atlanticus. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://discoveringdavinci.com/notebooks/codex-atlanticus/"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Ambrosiana deed"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    }
+  ]
+}

@@ -22,7 +22,117 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "born",
+      "value": {
+        "text": "12 September 1494, Cognac"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born at Cognac.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Knecht, Renaissance Warrior and Patron (1994)"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "died",
+      "value": {
+        "text": "31 March 1547, Rambouillet"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died at Rambouillet.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Knecht 1994"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Royal accounts: pension to Leonardo and Melzi, 1517 to 1518",
+        "start": 1517,
+        "end": 1518.9
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Royal accounts record payments to 'maistre Lyenard de Vince, paintre ytalien' (2000 écus for two years) and to Melzi. Wording and archive reference to confirm.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        },
+        {
+          "type": "web",
+          "cite": "Museo Galileo, Leonardo itinerary, The three years in France (1516 to 1519). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/TheThreeYearsFrance.html"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, French documents",
+        "Archives nationales, KK 289 (to confirm)"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "Beatis records the king's patronage, October 1517"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Beatis's diary says the king supported Leonardo with a pension.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Jheronimus Bosch Art Center, review of the Beatis diary. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://jeroenboschplaza.com/recensie/de-beatis-1521/?lang=en"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Hale 1979, p. 132"
+      ]
     }
+  ],
+  "born": "12 September 1494",
+  "died": "31 March 1547",
+  "roles": [
+    "King of France from 1 January 1515"
+  ],
+  "variants": [
+    "Francis I of France"
+  ],
+  "relations": [
+    {
+      "rel": "related_event",
+      "target": "e-france"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-festival"
+    }
+  ],
+  "open_questions": [
+    "Vasari's story that Leonardo died in the king's arms conflicts with the royal itinerary (court at Saint Germain en Laye on 1 May 1519, per later historians). Keep as Vasari's statement."
   ],
   "timeline": {
     "lane": "people",

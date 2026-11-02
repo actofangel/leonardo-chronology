@@ -1,0 +1,139 @@
+{
+  "id": "pe-louis12",
+  "type": "person",
+  "label": "Louis XII of France",
+  "born": "27 June 1462",
+  "died": "1 January 1515",
+  "roles": [
+    "King of France from 1498",
+    "Duke of Milan 1499 to 1512"
+  ],
+  "summary": "King of France whose conquest of Milan in 1499 ended Leonardo's first Milanese period, and who later claimed him as his painter.",
+  "relations": [
+    {
+      "rel": "related_event",
+      "target": "h-milan1499"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-inherit"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "27 June 1462, Blois"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born at Blois.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Baumgartner, Louis XII (1994)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "1 January 1515, Paris",
+        "date": 1515
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Paris. Leonardo's note on Giuliano de' Medici's departure of 9 January 1515 also mentions the death of the King of France.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Baumgartner 1994"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Letter of 14 January 1507 to the Signoria",
+        "date": 1507.04
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A royal letter asks Florence to let Leonardo stay in Milan to work for the king.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Museo Galileo, Leonardo itinerary, Second stay in Milan. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/SecondStayMilan.html"
+        },
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Fagnart and Miesse 2015"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Letter of 26 July 1507 on the inheritance case",
+        "date": 1507.57
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A royal letter supports Leonardo, 'nostre paintre et ingenieur ordinaire', in his inheritance case.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "Grant of water rights on the San Cristoforo canal"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The will of 1519 refers to water rights from the San Cristoforo canal granted by Louis XII.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Richter, The Notebooks of Leonardo da Vinci, section 1566 (text of the will, English), online mirror. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.fromoldbooks.org/R.bak/section-22/item-1566.html"
+        },
+        {
+          "type": "web",
+          "cite": "Amoretti, Memorie storiche su la vita, gli studj e le opere di Lionardo da Vinci (1804), page image on Wikisource (Italian text of the will). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://it.wikisource.org/wiki/Pagina:Memorie_storiche_su_la_vita_gli_studj_e_le_opere_di_Lionardo_da_Vinci.djvu/129"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    }
+  ]
+}

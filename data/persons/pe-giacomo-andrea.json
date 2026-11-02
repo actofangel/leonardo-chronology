@@ -1,0 +1,81 @@
+{
+  "id": "pe-giacomo-andrea",
+  "type": "person",
+  "label": "Giacomo Andrea da Ferrara",
+  "born": "",
+  "died": "1500",
+  "roles": [
+    "architect",
+    "Vitruvius scholar"
+  ],
+  "summary": "Ferrarese architect at the Sforza court, named in Leonardo's notes, executed by the French in 1500.",
+  "relations": [
+    {
+      "rel": "related_work",
+      "target": "w-vitruvian"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "died",
+      "value": {
+        "text": "May 1500, Milan (executed)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Executed by the French in Milan in 1500.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "contact",
+      "value": {
+        "text": "Named in the 1490 to 1491 Salai notes and as owner of a Vitruvius"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo notes that Salai dined at Giacomo Andrea's and misbehaved; another note refers to 'Vitruvio di messer Giacomo Andrea'.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Paris MS C (folio to confirm)",
+        "Richter 1883"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "relation",
+      "value": {
+        "text": "Author of a Vitruvian figure drawing (Ferrara)"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "A Vitruvian man drawing in Ferrara has been attributed to him and compared with Leonardo's.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Sgarbi publications (2012), to assess"
+      ]
+    }
+  ]
+}

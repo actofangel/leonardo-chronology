@@ -1,0 +1,18 @@
+{
+  "id": "w-pistoia-altarpiece",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Pistoia Cathedral altarpiece (Madonna di Piazza)",
+  "classification": {
+    "form": "painting",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Entered from model recall on 2026-11-02, not yet checked."
+  },
+  "claims": [],
+  "open_questions": [
+    "Stub created on 2026-11-02 to resolve links. Verrocchio workshop altarpiece; the share of Lorenzo di Credi and any role of Leonardo are attribution questions to research."
+  ]
+}

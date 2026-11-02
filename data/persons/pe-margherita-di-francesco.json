@@ -1,0 +1,51 @@
+{
+  "id": "pe-margherita-di-francesco",
+  "type": "person",
+  "label": "Margherita di Francesco di Jacopo di Guglielmo",
+  "roles": [
+    "stepmother of Leonardo",
+    "wife of ser Piero da Vinci"
+  ],
+  "summary": "Third wife of ser Piero, married 1475; mother of his first legitimate children.",
+  "relations": [
+    {
+      "rel": "married_to",
+      "target": "pe-piero"
+    },
+    {
+      "rel": "parent_of",
+      "target": "pe-giuliano-vinci"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "relation",
+      "value": {
+        "text": "Third wife of ser Piero, married 1475; mother of his first legitimate children."
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Margherita, daughter of Francesco di Jacopo di Guglielmo, married ser Piero in 1475 (the Sepoltuario gives 25 May 1475) and bore his first legitimate children, including Antonio (1476) and Giuliano. She died about 1485. Her patronymic is given in different forms in secondary works.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Sepoltuario fiorentino online database, entry for Margherita, wife of ser Piero (entry number not confirmed). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://sepoltuario.iath.virginia.edu/"
+        },
+        {
+          "type": "model_recall",
+          "cite": "Standard biographies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Giuliano's mother: Margherita (married 1475) on a birth of 1478 or 1479. Check against the family tree in Vezzosi and Sabato."
+  ],
+  "died": "c.1485"
+}

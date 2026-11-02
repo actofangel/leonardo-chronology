@@ -1,0 +1,181 @@
+{
+  "id": "pe-antonio-vinci",
+  "type": "person",
+  "label": "Antonio da Vinci",
+  "born": "c.1372",
+  "died": "c.1465",
+  "roles": [
+    "grandfather of Leonardo",
+    "head of the Vinci household"
+  ],
+  "summary": "Paternal grandfather of Leonardo. His family note records Leonardo's birth on 15 April 1452, and his 1457 catasto declaration lists Leonardo in his household.",
+  "relations": [
+    {
+      "rel": "parent_of",
+      "target": "pe-piero"
+    },
+    {
+      "rel": "parent_of",
+      "target": "pe-francesco"
+    },
+    {
+      "rel": "author_of",
+      "target": "e-birth",
+      "claim": "c3"
+    },
+    {
+      "rel": "author_of",
+      "target": "e-1457",
+      "claim": "c5"
+    },
+    {
+      "rel": "located_in",
+      "target": "geo-vinci"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "c.1372",
+        "start": 1372,
+        "end": 1373
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A transcription of his 1457 catasto declaration reports that he gave his age as 85, which implies birth about 1372. An age in a tax return is not a birth record.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Università di Firenze repository (FLORE), Intervento Colombaria, PDF on the da Vinci family tax declarations. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://flore.unifi.it/retrieve/bc298c89-223b-4ffa-9f48-a5c4b7d36f4d/Intervento%20Colombaria%20oggi.pdf"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, catasto 1457"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "c.1465",
+        "start": 1464,
+        "end": 1469
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Usually said to have died about 1465. No document was found in this round.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard biographies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "later catasto returns of the family (1469)"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Note of Leonardo's birth, 15 April 1452",
+        "date": 1452.29,
+        "place": "Vinci"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "In a family notebook (a protocol that had belonged to his grandfather ser Guido) Antonio recorded: 'Nacque un mio nipote, figliuolo di ser Piero mio figliuolo, a dì 15 d'aprile in sabato a ore 3 di notte. Ebbe nome Lionardo', followed by the baptism and the names of godparents. Reported as found by Emil Möller in 1931 to 1933.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Museo Galileo, Leonardo itinerary, Childhood. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/Childhood.html"
+        },
+        {
+          "type": "web",
+          "cite": "Gingko Edizioni, Was Leonardo da Vinci really born on 15 April 1452 at 3 am? Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.gingkoedizioni.it/was-leonardo-da-vinci-really-born-on-15-april-1452-at-3-am-no-and-read-why/"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "doc. 1 (number to confirm)"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, first document",
+        "Archivio di Stato di Firenze, shelfmark of the protocol (to locate)",
+        "Möller's publication (to locate)"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "content",
+      "value": {
+        "text": "'3 di notte' is Italian hours, counted from sunset"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Converting 'ore 3 di notte' to about 10 to 11 pm modern time, and the date to the Gregorian calendar, are interpretations of the note.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Gingko Edizioni, birth hour article. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.gingkoedizioni.it/was-leonardo-da-vinci-really-born-on-15-april-1452-at-3-am-no-and-read-why/"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Villata 1999 commentary"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "1457 catasto declaration listing Leonardo, aged 5",
+        "date": 1458.16
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The declaration, delivered on 28 February 1457 Florentine style (1458 modern), lists 'Lionardo figliuolo di detto ser Piero non legiptimo nato di lui e della Chaterina' aged 5 among his mouths to feed.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Università di Firenze repository (FLORE), Intervento Colombaria, PDF on the da Vinci family tax declarations. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://flore.unifi.it/retrieve/bc298c89-223b-4ffa-9f48-a5c4b7d36f4d/Intervento%20Colombaria%20oggi.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "Isaacson, Leonardo da Vinci (2017), chapter 1 excerpt (popular biography, not a ground). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://news.wttw.com/sites/default/files/article/file-attachments/Gini_LeonardoDaVinci.pdf"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Archivio di Stato di Firenze, Catasto"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Exact archival shelfmark of the protocol containing the 1452 note, and who first published it (Möller 1931 or 1933)."
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Family",
+    "start": 1452,
+    "end": 1465,
+    "date": "1452 to c.1465",
+    "tier": "S",
+    "place": "Vinci",
+    "text": "Grandfather. Recorded Leonardo's birth in a family note and listed him in his household in the catasto of 1457. The end of the bar is an estimate of his death.",
+    "basis": "Family note of 1452; catasto declaration of 1457."
+  }
+}

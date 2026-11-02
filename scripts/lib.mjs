@@ -18,8 +18,8 @@ export const CLAIM_STATUSES = ['pending', 'verified', 'disputed', 'rejected'];
 export const LAYERS = ['fact', 'interpretation', 'hypothesis'];
 export const GRADES = ['fact', 'strong_interpretation', 'working_hypothesis', 'speculation'];
 export const ADMITTED = ['primary', 'edition', 'catalogue', 'ms_study', 'monograph', 'archive_publication'];
-export const SOURCE_TYPES = [...ADMITTED, 'other', 'web', 'model_recall'];
-export const SOURCE_RANK = { primary: 7, edition: 7, archive_publication: 7, catalogue: 6, ms_study: 6, monograph: 5, other: 3, web: 2, model_recall: 1 };
+export const SOURCE_TYPES = [...ADMITTED, 'narrative', 'other', 'web', 'model_recall'];
+export const SOURCE_RANK = { primary: 7, edition: 7, archive_publication: 7, catalogue: 6, ms_study: 6, monograph: 5, narrative: 4, other: 3, web: 2, model_recall: 1 };
 const STATUS_RANK = { verified: 3, pending: 2, disputed: 1, rejected: 0 };
 const LAYER_RANK = { fact: 3, interpretation: 2, hypothesis: 1 };
 
@@ -59,8 +59,15 @@ export function bestSourceRank(claim, entities) {
   return Math.max(0, ...(claim.sources || []).map((s) => SOURCE_RANK[sourceType(s, entities)] || 0));
 }
 
+/** A source counts as admitted only if its type is admitted and, for a reference, a real locator is given. */
+export function admittedSource(s, entities) {
+  if (!ADMITTED.includes(sourceType(s, entities))) return false;
+  // Every admitted source needs a real locator: page, document number, folio, catalogue or inventory number.
+  return typeof s.loc === 'string' && s.loc.trim() !== '' && !/locate|confirm|unknown|\?/i.test(s.loc);
+}
+
 export function isAdmitted(claim, entities) {
-  return (claim.sources || []).some((s) => ADMITTED.includes(sourceType(s, entities)));
+  return (claim.sources || []).some((s) => admittedSource(s, entities));
 }
 
 /**

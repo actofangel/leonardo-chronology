@@ -1,0 +1,98 @@
+{
+  "id": "pe-giovio",
+  "type": "person",
+  "label": "Paolo Giovio",
+  "born": "1483",
+  "died": "11 December 1552",
+  "roles": [
+    "physician",
+    "historian",
+    "bishop of Nocera"
+  ],
+  "summary": "Historian from Como, author of a short Latin life of Leonardo, one of the earliest biographies.",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "1483 (19 April) or 1486, Como"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Born at Como; reference works give 1483 or 1486.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Repertorium Pomponianum, Paolo Giovio. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.repertoriumpomponianum.it/pomponiani/giovio_paolo.htm"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Zimmermann, Paolo Giovio (Princeton, 1995)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "11 December 1552, Florence"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Florence.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Zimmermann 1995"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "work",
+      "value": {
+        "text": "Leonardi Vincii vita, c.1525 to 1527"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "A short Latin life of Leonardo, usually dated about 1525 to 1527 and connected with his Dialogus (begun after the Sack of Rome, 1527); it remained unpublished until the eighteenth century. The date is inferred.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Michelacci, article in Renaissance and Reformation 46 (2023). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://id.erudit.org/iderudit/1110379ar"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Zimmermann 1995",
+        "Villata 1999 (prints the early lives)"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Possible acquaintance in Rome, 1513 to 1516"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Both were in Rome under Leo X; no document records a meeting.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Zimmermann 1995"
+      ]
+    }
+  ]
+}

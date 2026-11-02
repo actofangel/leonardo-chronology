@@ -23,7 +23,232 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "election",
+      "value": {
+        "text": "elected 9 March 1513",
+        "date": 1513.18
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Several reference works give 9 March 1513 as the election and 11 March as its public proclamation.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Encyclopaedia Britannica, Leo X. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.britannica.com/biography/Leo-X"
+        },
+        {
+          "type": "web",
+          "cite": "The Tudor Society, 11 March: Giovanni di Lorenzo de' Medici becomes Pope Leo X. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.tudorsociety.com/march-11-giovanni-di-lorenzo-de-medici-becomes-pope-leo-x/"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists",
+        "Paris de Grassis, Diarium, for the conclave of March 1513",
+        "Pastor, History of the Popes, vol. VII"
+      ],
+      "alternative_to": [
+        "c3"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "election",
+      "value": {
+        "text": "elected 11 March 1513 (morning scrutiny)",
+        "date": 1513.19
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Another account of the 1513 conclave places the decisive scrutiny on the morning of 11 March 1513, the same day as the proclamation.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, 1513 conclave. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/1513_conclave"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists",
+        "Paris de Grassis, Diarium",
+        "Pastor, History of the Popes, vol. VII"
+      ],
+      "alternative_to": [
+        "c2"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "proclamation",
+      "value": {
+        "text": "11 March 1513",
+        "date": 1513.19
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The election was proclaimed on 11 March 1513.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "The Tudor Society. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.tudorsociety.com/march-11-giovanni-di-lorenzo-de-medici-becomes-pope-leo-x/"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Pope Leo X. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Pope_Leo_X"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "ordination",
+      "value": {
+        "text": "priest 15 March, bishop 17 March 1513 (Britannica); other sources shift these by two days"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "He was a deacon when elected. Britannica gives priestly ordination on 15 March and episcopal consecration on 17 March 1513; Schaff's history gives 17 and 19 March.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Encyclopaedia Britannica, Leo X. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.britannica.com/biography/Leo-X"
+        },
+        {
+          "type": "web",
+          "cite": "Schaff, History of the Christian Church, vol. VI, on Leo X. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://ccel.org/ccel/schaff/hcc6.ii.vii.ix.html"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists",
+        "Pastor vol. VII"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "coronation",
+      "value": {
+        "text": "19 March 1513",
+        "date": 1513.21
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Crowned on 19 March 1513. The possession of the Lateran followed on 11 April 1513, which explains the April date in one contemporary poem.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Encyclopaedia Britannica, Leo X. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.britannica.com/biography/Leo-X"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Pope Leo X. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Pope_Leo_X"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists",
+        "Paris de Grassis, Diarium"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "reign_end",
+      "value": {
+        "text": "died 1 December 1521",
+        "date": 1521.92
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Rome on 1 December 1521.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard papal chronologies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Eubel, Hierarchia catholica medii aevi, vol. II and III, papal lists"
+      ]
+    },
+    {
+      "id": "c8",
+      "about": "contact",
+      "value": {
+        "text": "Vasari's anecdote about Leonardo's slowness"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Vasari reports that Leo X, hearing Leonardo was distilling oils for varnish before starting a work, said 'Oimè, costui non è per far nulla'. This is what Vasari states; no document confirms it.",
+      "sources": [
+        {
+          "ref": "src-vasari-1568",
+          "loc": "Life of Leonardo"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Vasari 1568"
+      ]
+    },
+    {
+      "id": "c9",
+      "about": "contact",
+      "value": {
+        "text": "Leonardo in Rome under his brother Giuliano, 1513 to 1516"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo's Roman years fall in his reign; his patron was the pope's brother Giuliano. No direct papal commission is documented.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Museo Galileo, Leonardo itinerary, The stay in Rome. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/TheStayRome.html"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
     }
+  ],
+  "born": "11 December 1475",
+  "died": "1 December 1521",
+  "roles": [
+    "pope",
+    "cardinal from 1489"
+  ],
+  "variants": [
+    "Giovanni de' Medici"
+  ],
+  "relations": [
+    {
+      "rel": "child_of",
+      "target": "pe-lorenzo"
+    },
+    {
+      "rel": "sibling_of",
+      "target": "pe-giuliano"
+    }
+  ],
+  "open_questions": [
+    "The draft uses 11 March 1513 as the start. Is the election itself 9 or 11 March? Election, proclamation (11 March) and coronation (19 March) should be separate dated claims; the chart could start at 11 March (proclamation) with a note."
   ],
   "timeline": {
     "lane": "popes",

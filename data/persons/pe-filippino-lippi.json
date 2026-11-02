@@ -1,0 +1,135 @@
+{
+  "id": "pe-filippino-lippi",
+  "type": "person",
+  "label": "Filippino Lippi",
+  "born": "c.1457",
+  "died": "18 April 1504",
+  "roles": [
+    "painter"
+  ],
+  "summary": "Florentine painter whose commissions intersected with Leonardo's (San Donato a Scopeto, Santissima Annunziata); present at the David committee of January 1504.",
+  "relations": [
+    {
+      "rel": "related_event",
+      "target": "e-david",
+      "claim": "c3"
+    },
+    {
+      "rel": "related_work",
+      "target": "w-magi"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "c.1457, Prato"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born at Prato about 1457.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Zambrano and Nelson, Filippino Lippi (2004)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "April 1504, Florence",
+        "date": 1504.3
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Florence in April 1504 (18 or 20 April).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, 1504 in art (background only). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/1504_in_art"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Zambrano and Nelson 2004"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "David committee, 25 January 1504",
+        "date": 1504.07
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Named in the minutes with Leonardo.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Levine, The Location of Michelangelo's David: The Meeting of January 25, 1504, The Art Bulletin 56 (1974), transcription of the minutes (journal article, peer reviewed). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://cours.univ-paris1.fr/pluginfile.php/1911558/mod_resource/content/1/Levine-LocationMichelangelosDavid-1974.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "Florence 1504 committee lists in secondary sources (The Florentine; Wikipedia 1504 in art). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.theflorentine.net/?p=32042"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Levine 1974"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Adoration for San Donato a Scopeto, 1496"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "His Adoration of the Magi (Uffizi), dated 1496, was painted for San Donato a Scopeto, the convent whose 1481 commission Leonardo left unfinished.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Zambrano and Nelson 2004",
+        "Zöllner 2003, Adoration entry"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "Withdrew from the Annunziata altarpiece in Leonardo's favour"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Vasari says Filippino gave up the high altarpiece of Santissima Annunziata when Leonardo expressed interest (1500). This is Vasari's statement.",
+      "sources": [
+        {
+          "ref": "src-vasari-1568",
+          "loc": "Life of Leonardo"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Vasari 1568",
+        "Villata 1999"
+      ]
+    }
+  ]
+}

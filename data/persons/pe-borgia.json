@@ -22,6 +22,94 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "born",
+      "value": {
+        "text": "1475 (September per most accounts)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born in 1475 in Rome, son of Cardinal Rodrigo Borgia.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani, Borgia, Cesare"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "died",
+      "value": {
+        "text": "12 March 1507, near Viana (Navarre)",
+        "date": 1507.19
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Killed in a skirmish near Viana.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dizionario Biografico degli Italiani"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Patent of 18 August 1502, Pavia",
+        "date": 1502.63
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "A patent issued at Pavia on 18 August 1502 names Leonardo 'architecto et ingegnero generale' and orders all to assist him. The original is reported in the Melzi d'Eril archive at Vaprio d'Adda.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard biographies. Model recall, not checked in this session."
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, document of 18 August 1502",
+        "location of the original (to confirm)"
+      ]
+    }
+  ],
+  "born": "1475",
+  "died": "12 March 1507",
+  "roles": [
+    "Duke of Valentinois",
+    "Captain general of the Church"
+  ],
+  "relations": [
+    {
+      "rel": "employed",
+      "target": "e-borgia",
+      "claim": "c4"
+    },
+    {
+      "rel": "child_of",
+      "target": "po-alexander6"
+    },
+    {
+      "rel": "related_work",
+      "target": "w-imola"
     }
   ],
   "timeline": {

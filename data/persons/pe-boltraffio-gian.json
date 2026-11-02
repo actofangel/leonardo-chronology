@@ -1,0 +1,105 @@
+{
+  "id": "pe-boltraffio-gian",
+  "type": "person",
+  "label": "Giovanni Antonio Boltraffio",
+  "born": "c.1467",
+  "died": "15 June 1516",
+  "roles": [
+    "painter"
+  ],
+  "summary": "Milanese painter of patrician family, active in Leonardo's circle from about 1490.",
+  "relations": [
+    {
+      "rel": "member_of_group",
+      "target": "pe-boltraffio"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "c.1466 to 1467"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born about 1466 to 1467 (from his age at death on his epitaph).",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Fiorio, Giovanni Antonio Boltraffio (2000)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "15 June 1516, Milan",
+        "date": 1516.45
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Milan on 15 June 1516; epitaph formerly in San Paolo in Compito.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Fiorio 2000"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "'Gian Antonio' in Leonardo's notes, 1491"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identified with the 'Gian Antonio' of the Salai theft notes of 1491.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Richter 1883",
+        "Fiorio 2000"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "relation",
+      "value": {
+        "text": "Pupil of Leonardo"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Vasari names him as Leonardo's pupil ('creato'); stylistic dependence supports this. A pupil relation is an interpretation of the sources.",
+      "sources": [
+        {
+          "ref": "src-vasari-1568",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-syson-2011",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Syson 2011"
+      ]
+    }
+  ]
+}

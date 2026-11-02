@@ -1,0 +1,148 @@
+{
+  "id": "pe-credi",
+  "type": "person",
+  "label": "Lorenzo di Credi",
+  "born": "c.1459",
+  "died": "1537",
+  "roles": [
+    "painter"
+  ],
+  "summary": "Florentine painter in Verrocchio's workshop and later its manager. Present with Leonardo at the David committee of 25 January 1504.",
+  "relations": [
+    {
+      "rel": "member_of_group",
+      "target": "pe-peers"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-david",
+      "claim": "c3"
+    },
+    {
+      "rel": "pupil_of",
+      "target": "pe-verrocchio"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "c.1459"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born in Florence about 1459.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery of Art, Washington, artist information, Lorenzo di Credi. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.nga.gov/Collection/artist-info.1181.html"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dalli Regoli, Lorenzo di Credi (1966)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "12 January 1537",
+        "date": 1537.03
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Florence in January 1537.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dalli Regoli 1966"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "David committee, 25 January 1504",
+        "date": 1504.07
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Named in the minutes of 25 January 1504 together with Leonardo; the NGA biography states he was appointed to the committee.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Levine, The Location of Michelangelo's David: The Meeting of January 25, 1504, The Art Bulletin 56 (1974), transcription of the minutes (journal article, peer reviewed). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://cours.univ-paris1.fr/pluginfile.php/1911558/mod_resource/content/1/Levine-LocationMichelangelosDavid-1974.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "Florence 1504 committee lists in secondary sources (The Florentine; Wikipedia 1504 in art). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.theflorentine.net/?p=32042"
+        },
+        {
+          "type": "other",
+          "cite": "National Gallery of Art, artist information, Lorenzo di Credi. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.nga.gov/Collection/artist-info.1181.html"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Levine 1974",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "relation",
+      "value": {
+        "text": "Verrocchio's executor and heir of the workshop"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Verrocchio's will of 1488 is reported to name Lorenzo di Credi to complete the Colleoni monument and as heir of workshop materials.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Butterfield 1997",
+        "published text of Verrocchio's will"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "attribution",
+      "value": {
+        "text": "Shared work with Leonardo in the Verrocchio shop"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Attributions of parts of works such as the Pistoia altarpiece and the Uffizi Annunciation to Credi or Leonardo are interpretations.",
+      "sources": [
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Zöllner 2003"
+      ]
+    }
+  ]
+}

@@ -22,6 +22,126 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "born",
+      "value": {
+        "text": "1473"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born 1473, nephew of Cardinal Georges d'Amboise.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Charles II d'Amboise. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Charles_II_d%27Amboise"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dictionnaire de biographie française"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "died",
+      "value": {
+        "text": "11 February 1511, Correggio",
+        "date": 1511.11
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died at Correggio.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Charles II d'Amboise. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Charles_II_d%27Amboise"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Dictionnaire de biographie française"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Letters to Florence on Leonardo, 1506",
+        "start": 1506.6,
+        "end": 1506.98
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Letters to the Florentine Signoria requesting extension of Leonardo's leave; a letter of 16 December 1506 praising Leonardo is often cited. New edition by Fagnart and Miesse 2015.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Fagnart and Miesse, 'Perché havemo bisogno ancora de maestro Leonardo', new edition of the letters of August to December 1506 between Charles d'Amboise, Geoffroy Carles and Piero Soderini, Raccolta Vinciana XXXVI (2015), pp. 47 to 76. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://orbi.uliege.be/handle/2268/183755"
+        },
+        {
+          "type": "other",
+          "cite": "Marani, Artibus et Historiae 82 (2020). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://artibusethistoriae.org/chapter992.html"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Fagnart and Miesse 2015",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "Leonardo's draft letters to him, 1508"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Drafts of letters by Leonardo to Charles d'Amboise (Codex Atlanticus) concern the inheritance case and water rights.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Museo Galileo, Leonardo itinerary, Second stay in Milan. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/SecondStayMilan.html"
+        },
+        {
+          "ref": "src-richter-1883",
+          "loc": "sections 1348 to 1352 (to confirm)"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Pedretti 1978, folios to locate"
+      ]
+    }
+  ],
+  "born": "1473",
+  "died": "11 February 1511",
+  "roles": [
+    "Lieutenant general of the King of France in Milan",
+    "Grand Master of France"
+  ],
+  "variants": [
+    "Charles II d'Amboise, seigneur de Chaumont"
+  ],
+  "relations": [
+    {
+      "rel": "related_event",
+      "target": "e-leave"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-amboise-death"
+    },
+    {
+      "rel": "correspondent_of",
+      "target": "pe-soderini"
     }
   ],
   "timeline": {

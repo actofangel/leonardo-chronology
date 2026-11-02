@@ -22,7 +22,118 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "contact",
+      "value": {
+        "text": "Letter of 3 April 1501 from Florence",
+        "date": 1501.25
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Reports to Isabella d'Este on Leonardo's life and on a cartoon of St Anne. Archivio di Stato di Mantova.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Archivio di Stato di Mantova, Leonardo e l'Archivio di Stato (list of documents, PDF). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://archiviodistatomantova.cultura.gov.it/fileadmin/risorse/Pubblicazioni/Leonardo_Archivio_di_Stato.pdf"
+        },
+        {
+          "type": "monograph",
+          "cite": "Ames-Lewis, Isabella and Leonardo: The Artistic Relationship between Isabella d'Este and Leonardo da Vinci, 1500 to 1506 (Yale University Press, 2012), appendix of letters. Cited as the place to check; not read in this session.",
+          "url": "https://yalebooks.yale.edu/9780300121247/isabella-and-leonardo"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Letter of 14 April 1501 from Florence",
+        "date": 1501.28
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Reports that Leonardo is painting a small picture for Florimond Robertet, secretary of the King of France, and is much occupied with geometry. Archivio di Stato di Mantova.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Archivio di Stato di Mantova, Leonardo e l'Archivio di Stato (list of documents, PDF). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://archiviodistatomantova.cultura.gov.it/fileadmin/risorse/Pubblicazioni/Leonardo_Archivio_di_Stato.pdf"
+        },
+        {
+          "type": "monograph",
+          "cite": "Ames-Lewis, Isabella and Leonardo: The Artistic Relationship between Isabella d'Este and Leonardo da Vinci, 1500 to 1506 (Yale University Press, 2012), appendix of letters. Cited as the place to check; not read in this session.",
+          "url": "https://yalebooks.yale.edu/9780300121247/isabella-and-leonardo"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "identity",
+      "value": {
+        "text": "The small picture is the Madonna of the Yarnwinder"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Identification of the work described on 14 April 1501 with the Yarnwinder composition.",
+      "sources": [
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-kemp-2006",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Zöllner 2003"
+      ]
     }
+  ],
+  "roles": [
+    "Carmelite vicar general",
+    "agent of Isabella d'Este"
+  ],
+  "relations": [
+    {
+      "rel": "related_event",
+      "target": "e-novellara",
+      "claim": "c2"
+    },
+    {
+      "rel": "related_work",
+      "target": "w-yarnwinder",
+      "claim": "c3"
+    },
+    {
+      "rel": "related_work",
+      "target": "w-servite",
+      "claim": "c2"
+    }
+  ],
+  "open_questions": [
+    "Birth and death dates not found in this round (a death in 1513 is sometimes stated). Check the Carmelite literature.",
+    "The draft names only the letter of 3 April; add the letter of 14 April 1501 as a second dated contact."
   ],
   "timeline": {
     "lane": "people",

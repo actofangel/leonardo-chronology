@@ -1,0 +1,141 @@
+{
+  "id": "pe-perugino",
+  "type": "person",
+  "label": "Pietro Perugino",
+  "born": "c.1450",
+  "died": "1523",
+  "roles": [
+    "painter"
+  ],
+  "variants": [
+    "Pietro Vannucci",
+    "Pier della Pieve"
+  ],
+  "summary": "Umbrian painter, active in Florence and Perugia. Present with Leonardo at the David committee of 25 January 1504.",
+  "relations": [
+    {
+      "rel": "member_of_group",
+      "target": "pe-peers"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-david",
+      "claim": "c3"
+    },
+    {
+      "rel": "pupil_of",
+      "target": "pe-verrocchio"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "c.1450, Città della Pieve"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born about 1450 at Città della Pieve.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "a peer reviewed Perugino monograph (e.g. Garibaldi)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "1523, Fontignano (plague)",
+        "date": 1523.1
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died of plague at Fontignano near Perugia in early 1523 (some give late 1523 or 1524).",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Garibaldi, Perugino catalogue"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "David committee, 25 January 1504",
+        "date": 1504.07
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Named in the minutes of 25 January 1504 together with Leonardo.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Levine, The Location of Michelangelo's David: The Meeting of January 25, 1504, The Art Bulletin 56 (1974), transcription of the minutes (journal article, peer reviewed). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://cours.univ-paris1.fr/pluginfile.php/1911558/mod_resource/content/1/Levine-LocationMichelangelosDavid-1974.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "Florence 1504 committee lists in secondary sources (The Florentine; Wikipedia 1504 in art). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.theflorentine.net/?p=32042"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Levine 1974",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Giovanni Santi pairs him with Leonardo"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Giovanni Santi's rhymed chronicle for Guidobaldo da Montefeltro (c.1490) names 'Leonardo da Vinci e 'l Perusino' as 'due giovin par d'etate e par d'amori'. The text is a contemporary literary witness; it does not say they trained together.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Santi, Cronaca rimata, Vatican Library manuscript. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Santi, La vita e le gesta di Federico di Montefeltro, ed. Michelini Tocci (1985), page to locate"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "relation",
+      "value": {
+        "text": "Trained with Verrocchio"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Vasari says Perugino trained under Verrocchio; no document confirms it.",
+      "sources": [
+        {
+          "ref": "src-vasari-1568",
+          "loc": "Life of Perugino"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Garibaldi"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "pe-francesco-giocondo",
+  "type": "person",
+  "label": "Francesco del Giocondo",
+  "born": "1465",
+  "died": "1538 or 1539",
+  "roles": [
+    "silk merchant",
+    "Florentine official"
+  ],
+  "summary": "Florentine silk merchant, husband of Lisa Gherardini.",
+  "relations": [
+    {
+      "rel": "member_of_group",
+      "target": "pe-lisa"
+    },
+    {
+      "rel": "married_to",
+      "target": "pe-lisa-gherardini"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "1465"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born 1465 (aged 29 at the marriage of 1495).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Lisa del Giocondo. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Lisa_del_Giocondo"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Pallanti 2004"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "1538 or 1539",
+        "start": 1538,
+        "end": 1539
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Reported to have died in the plague of 1538 after a will of 1537; another reference puts the last record in 1539.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Lisa del Giocondo. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Lisa_del_Giocondo"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Pallanti 2004"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "relation",
+      "value": {
+        "text": "Commissioner of the portrait"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Vasari states that Leonardo painted the portrait for Francesco. No contract or payment is known.",
+      "sources": [
+        {
+          "ref": "src-vasari-1550",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Zöllner 2003"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Ser Piero da Vinci as his notary"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Secondary works report that ser Piero acted as notary for Francesco del Giocondo; dates to locate.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Pallanti 2004 as summarised in biographies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Pallanti 2004"
+      ]
+    }
+  ]
+}

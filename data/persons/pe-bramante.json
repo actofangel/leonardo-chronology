@@ -22,7 +22,107 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "born",
+      "value": {
+        "text": "1444, near Urbino (Fermignano)"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born in 1444 at Monte Asdrualdo (Fermignano) near Urbino.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Bruschi, Bramante (1969 or 1977)"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "died",
+      "value": {
+        "text": "11 March 1514, Rome",
+        "date": 1514.19
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Rome on 11 March 1514, during Leonardo's Roman years.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Bruschi"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Milan cathedral crossing tower consultations, 1487 to 1490",
+        "start": 1487.5,
+        "end": 1490.5
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Both men are recorded in the cathedral's fabric records in connection with the tiburio: Leonardo with payments for a model (1487 to 1488) and Bramante with a written opinion (c.1488 to 1490). Shared involvement is documented; personal exchange is not.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Annali della fabbrica del Duomo, as cited in biographies. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Annali della Fabbrica del Duomo di Milano (1877 to 1885), vol. III",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "Antiquarie prospettiche romane dedicated to Leonardo"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "A printed poem, Antiquarie prospettiche romane (c.1500), by a 'Prospectivo melanese depictore', is dedicated to Leonardo; its attribution to Bramante is debated.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Bruschi",
+        "Kemp 2006"
+      ]
     }
+  ],
+  "born": "1444",
+  "died": "11 March 1514",
+  "roles": [
+    "architect",
+    "painter"
+  ],
+  "relations": [
+    {
+      "rel": "related_work",
+      "target": "w-duomo"
+    }
+  ],
+  "open_questions": [
+    "Locate any note in Leonardo's hand naming Bramante (a 'Bramante' entry in a book list or note is often cited)."
   ],
   "timeline": {
     "lane": "people",

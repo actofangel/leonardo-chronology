@@ -22,6 +22,168 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "born",
+      "value": {
+        "text": "c.1435"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Born in Florence about 1435.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Butterfield, The Sculptures of Andrea del Verrocchio (1997)"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "died",
+      "value": {
+        "text": "1488, Venice",
+        "date": 1488.8
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Died in Venice in 1488 while working on the equestrian monument to Bartolomeo Colleoni.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard reference works. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Butterfield 1997",
+        "Verrocchio's will of 1488 (published, to locate)"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Denunciation of 9 April 1476 places Leonardo with him",
+        "date": 1476.27,
+        "place": "Florence"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The anonymous denunciation to the Ufficiali di Notte dated 9 April 1476 names 'Lionardo di ser Piero da Vinci' who 'sta con Andrea de Verrochio'. This is the earliest document linking the two.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Jacopo Saltarelli. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Jacopo_Saltarelli"
+        },
+        {
+          "type": "web",
+          "cite": "Legal Today, Leonardo da Vinci enjuiciado por sodomía (2021), with a transcription. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.legaltoday.com/opinion/articulos-de-opinion/leonardo-da-vinci-enjuiciado-por-sodomia-2021-08-18/"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, documents of 1476",
+        "Archivio di Stato di Firenze, Ufficiali di Notte e Conservatori dei Monasteri, register (to locate)"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "contact",
+      "value": {
+        "text": "Baptism of Christ: Leonardo's angel"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Vasari states that Leonardo painted an angel in Verrocchio's Baptism of Christ (Uffizi) and that Verrocchio then gave up painting. The statement is Vasari's; the attribution of parts of the panel to Leonardo is an interpretation supported by technical study.",
+      "sources": [
+        {
+          "ref": "src-vasari-1568",
+          "loc": "Life of Leonardo"
+        },
+        {
+          "ref": "src-marani-2000",
+          "loc": "Baptism entry"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "Baptism entry"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Zöllner 2003",
+        "Marani 2000"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "relation",
+      "value": {
+        "text": "Training of Leonardo, start date"
+      },
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "The start of the apprenticeship (often c.1464 to 1469) is not documented; it is estimated from the 1476 record, Vasari's account, and Leonardo's age.",
+      "sources": [
+        {
+          "ref": "src-kemp-2006",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-vasari-1568",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "strong_interpretation",
+      "check_in": [
+        "Villata 1999"
+      ]
+    }
+  ],
+  "born": "c.1435",
+  "died": "1488",
+  "roles": [
+    "painter",
+    "sculptor",
+    "goldsmith",
+    "workshop head"
+  ],
+  "variants": [
+    "Andrea di Michele di Francesco de' Cioni"
+  ],
+  "relations": [
+    {
+      "rel": "master_of",
+      "target": "pe-peers"
+    },
+    {
+      "rel": "master_of",
+      "target": "pe-credi"
+    },
+    {
+      "rel": "related_work",
+      "target": "w-baptism"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-denunciation",
+      "claim": "c4"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-verrocchio"
     }
   ],
   "timeline": {

@@ -1,0 +1,149 @@
+{
+  "id": "pe-giuliano-vinci",
+  "type": "person",
+  "label": "Ser Giuliano da Vinci",
+  "born": "1478 or 1479",
+  "died": "1525",
+  "roles": [
+    "notary",
+    "half brother of Leonardo"
+  ],
+  "summary": "Son of ser Piero da Vinci and a notary like his father. Recipient of Francesco Melzi's letter of 1 June 1519 announcing Leonardo's death.",
+  "relations": [
+    {
+      "rel": "child_of",
+      "target": "pe-piero"
+    },
+    {
+      "rel": "recipient_of_letter_from",
+      "target": "pe-melzi",
+      "claim": "c3"
+    },
+    {
+      "rel": "related_event",
+      "target": "e-inherit"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "1478 or 1479",
+        "start": 1478,
+        "end": 1479
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "Secondary family trees give 1478 or 1479.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Da Vinci family. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Da_Vinci_family"
+        },
+        {
+          "type": "web",
+          "cite": "Kleio family tree page. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://kleio.org/en/history/famtree/vip/771a/"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Vezzosi and Sabato, family tree study (to locate)"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "died",
+      "value": {
+        "text": "1525"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Given as 1525 in a secondary family tree.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Da Vinci family. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Da_Vinci_family"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Vezzosi and Sabato"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "contact",
+      "value": {
+        "text": "Melzi's letter of 1 June 1519",
+        "date": 1519.42,
+        "place": "Amboise to Florence"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Francesco Melzi wrote from Amboise on 1 June 1519 to Giuliano da Vinci and his brothers in Florence, announcing Leonardo's death and the bequest to the brothers; the letter ends 'Datemene risposta per i Gondi'. Printed by Uzielli and in Richter.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Richter, Notebooks, section 1450, online mirror. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.fromoldbooks.org/Richter-NotebooksOfLeonardo/section-22/item-1450.html"
+        },
+        {
+          "ref": "src-richter-1883",
+          "loc": "section 1450"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, text of the letter",
+        "Uzielli, Ricerche intorno a Leonardo da Vinci (to locate)"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "contact",
+      "value": {
+        "text": "Party in the inheritance disputes of 1504 and 1507"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "As one of ser Piero's legitimate sons he was among the half brothers in the disputes over the estates of ser Piero (1504) and of uncle Francesco (1507 to 1508).",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard biographies. Model recall, not checked in this session."
+        },
+        {
+          "type": "web",
+          "cite": "Museo Galileo, Leonardo itinerary, Second stay in Milan. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/itinerary/SecondStayMilan.html"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999, documents of 1504 to 1508"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Was Giuliano personally named in Leonardo's will (the 400 scudi deposited at Santa Maria Nuova were left to the brothers)?"
+  ],
+  "timeline": {
+    "lane": "people",
+    "kind": "Family",
+    "start": 1519.42,
+    "end": 1519.42,
+    "date": "1 June 1519",
+    "tier": "D",
+    "place": "Florence",
+    "text": "Half brother. Melzi announced Leonardo's death to him and his brothers by letter from Amboise.",
+    "basis": "Letter of Francesco Melzi, 1 June 1519."
+  }
+}

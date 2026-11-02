@@ -1,0 +1,38 @@
+{
+  "id": "pe-giovanni-specchi",
+  "type": "person",
+  "label": "Giovanni degli Specchi",
+  "roles": [
+    "German mirror maker in Rome"
+  ],
+  "variants": [
+    "Giovanni Tedesco"
+  ],
+  "summary": "German craftsman in Rome, subject of Leonardo's draft complaints to his patron in 1514 to 1515.",
+  "claims": [
+    {
+      "id": "c1",
+      "about": "contact",
+      "value": {
+        "text": "Draft letters of complaint, c.1514 to 1515"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Leonardo's drafts (Codex Atlanticus) complain that 'Giovanni degli Specchi' obstructed his work and spied on his anatomical studies. Not confirmed in this round.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard literature. Model recall, not checked in this session."
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Pedretti 1978, folios to locate",
+        "Richter 1883"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Dates and identity of Giovanni degli Specchi are not known; a separate 'Giorgio tedesco' is also named in the drafts."
+  ]
+}

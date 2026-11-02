@@ -2,7 +2,7 @@
   "id": "src-vasari-1550",
   "type": "source",
   "label": "Vasari 1550, Le vite (Torrentiniana)",
-  "source_type": "primary",
+  "source_type": "narrative",
   "citation": "Vasari, Giorgio. Le vite de' più eccellenti architetti, pittori, et scultori italiani, da Cimabue insino a' tempi nostri. 2 vols. Firenze: Lorenzo Torrentino, 1550. Critical edition: Le vite ... nelle redazioni del 1550 e 1568, ed. Rosanna Bettarini and Paola Barocchi, Firenze: Sansoni (later S.P.E.S.), 1966 to 1987.",
   "short": "Vasari 1550",
   "language": "it",
@@ -48,6 +48,19 @@
       ],
       "check_in": [
         "Project lead review of source classification"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "admission",
+      "layer": "interpretation",
+      "status": "pending",
+      "statement": "Reclassified on 2026-11-02 as a narrative source (early biography). It is primary evidence of what its author wrote, and later tradition for the events it reports, so it cannot verify a fact about Leonardo's life on its own. A claim of the form 'Vasari states X' can cite it with a page.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Project source admission rules (SCHEMA.md)."
+        }
       ]
     }
   ],

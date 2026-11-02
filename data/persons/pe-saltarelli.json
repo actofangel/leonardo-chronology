@@ -1,0 +1,94 @@
+{
+  "id": "pe-saltarelli",
+  "type": "person",
+  "label": "Jacopo Saltarelli",
+  "born": "c.1459",
+  "died": "",
+  "roles": [
+    "goldsmith's apprentice"
+  ],
+  "summary": "Florentine youth named in the anonymous denunciations of 1476 in which Leonardo was also named.",
+  "relations": [
+    {
+      "rel": "related_event",
+      "target": "e-denunciation",
+      "claim": "c2"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "born",
+      "value": {
+        "text": "c.1459"
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "Described as about seventeen in 1476.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Jacopo Saltarelli. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Jacopo_Saltarelli"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "contact",
+      "value": {
+        "text": "Denunciation of 9 April 1476",
+        "date": 1476.27
+      },
+      "layer": "fact",
+      "status": "pending",
+      "statement": "The anonymous denunciation of 9 April 1476 to the Ufficiali di Notte names Saltarelli and four men, among them Leonardo and Lionardo Tornabuoni.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Jacopo Saltarelli. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Jacopo_Saltarelli"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999",
+        "Archivio di Stato di Firenze, Ufficiali di Notte"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "outcome",
+      "value": {
+        "text": "Dismissed on condition, June 1476"
+      },
+      "layer": "fact",
+      "status": "disputed",
+      "statement": "The charge was dismissed 'cum conditione ut retamburentur' (on condition of no further accusation); a second denunciation is recorded in June 1476. Sources differ on the date and on whether this was an acquittal.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Jacopo Saltarelli. Background only, not a ground. Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://en.wikipedia.org/wiki/Jacopo_Saltarelli"
+        },
+        {
+          "type": "web",
+          "cite": "SparkNotes biography section (popular). Seen in a web search result summary only; the page was not opened in this session.",
+          "url": "https://www.sparknotes.com/biography/davinci/section3"
+        }
+      ],
+      "grade": "fact",
+      "check_in": [
+        "Villata 1999"
+      ]
+    }
+  ]
+}

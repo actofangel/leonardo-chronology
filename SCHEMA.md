@@ -106,11 +106,12 @@ A claim is one assertion about the entity, with its own layer, sources and statu
 | `monograph` (peer reviewed) | yes |
 | `archive_publication` (published archival document) | yes |
 | `primary` (the manuscript or object itself, cited by folio or inventory) | yes |
+| `narrative` (early biographies and narrative sources: Vasari, the Anonimo Gaddiano, Giovio, Bandello) | no: evidence of what the author wrote, tradition for the events |
 | `other` (reference works, museum catalogue pages, journal pieces not yet classed) | no |
 | `web` | no |
 | `model_recall` | no |
 
-A claim is `verified` only with at least one admitted source. The validator enforces this.
+A claim is `verified` only with at least one admitted source. Any admitted source, referenced or inline, counts only when it carries a real locator in `loc` (page, document number, folio, catalogue or inventory number; not empty, not "to locate" or "to confirm"). The validator enforces this.
 
 ## Precedence
 
@@ -118,7 +119,7 @@ When several claims share an `about`, the build picks one to display, in this or
 
 1. status: `verified` over `pending` over `disputed`; `rejected` is never picked
 2. layer: `fact` over `interpretation` over `hypothesis`
-3. best source: `primary`, `edition`, `archive_publication` over `catalogue`, `ms_study` over `monograph` over `other` over `web` over `model_recall`
+3. best source: `primary`, `edition`, `archive_publication` over `catalogue`, `ms_study` over `monograph` over `narrative` over `other` over `web` over `model_recall`
 4. order in the file
 
 The losing claims stay visible as alternatives. A scenario (see below) can override this order.
