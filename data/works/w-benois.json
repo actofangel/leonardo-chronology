@@ -35,7 +35,110 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "current_location",
+      "value": "St Petersburg, State Hermitage Museum, GE-2773",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Hermitage catalogue lists the Madonna and Child (Benois Madonna), Leonardo, inv. GE-2773, oil on canvas transferred from panel, 49.5 x 33 cm.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "State Hermitage Museum, digital collection 29908. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.hermitagemuseum.org/digital-collection/29908?lng=en"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "1478 to 1480",
+        "start": 1478,
+        "end": 1480
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Hermitage dates the painting 1478 to 1480 (museum dating, stylistic).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "State Hermitage Museum, digital collection 29908. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.hermitagemuseum.org/digital-collection/29908?lng=en"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": "Bought 1914 from the Benois family (M. A. Benois), St Petersburg",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Hermitage records the 1914 purchase from M. A. Benois, St Petersburg.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "State Hermitage Museum, digital collection 29908. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.hermitagemuseum.org/digital-collection/29908?lng=en"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "relation",
+      "value": "Possibly one of the 'two Virgin Marys' begun in 1478",
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "The identification of this panel with one of the two Madonnas Leonardo noted as begun in 1478 (a dated inscription on a Uffizi drawing, number to locate) is a scholarly identification, not a documented fact. The inscription text and its number were not checked in this session.",
+      "sources": [
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        },
+        {
+          "type": "model_recall",
+          "cite": "Common identification in the Leonardo literature; recorded here only as a lead."
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry",
+        "Uffizi, Gabinetto Disegni e Stampe, the 1478 inscription, number to locate"
+      ]
     }
+  ],
+  "current_location": "geo-hermitage",
+  "inventory": "GE-2773",
+  "medium": "oil",
+  "support": "canvas, transferred from panel",
+  "dimensions": "49.5 x 33 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-hermitage",
+      "claim": "c2"
+    }
+  ],
+  "open_questions": [
+    "When and by whom was the panel transferred to canvas?"
   ],
   "timeline": {
     "lane": "works",

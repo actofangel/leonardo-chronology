@@ -34,7 +34,146 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "current_location",
+      "value": "Milan, Castello Sforzesco, Sala delle Asse",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Ceiling and wall decoration in a room of the north tower of the Castello Sforzesco, Milan.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Google Arts and Culture, Castello Sforzesco, Sala delle Asse. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://artsandculture.google.com/asset/SwHevAYoSkSRBQ"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "relation",
+      "value": "21 April 1498: Gualtiero da Bascapè reports Leonardo promises to finish by September",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "A letter of the ducal secretary Gualtiero da Bascapè to Ludovico Sforza, April 1498, reports that the large room (camera grande) is being cleared of its planks and quotes 'Magistro Leonardo promete finirla per tuto septembre'. Day given as 21 April by one source, 20 April in the draft query; a second letter of the 23rd reports the room free of the boards.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Google Arts and Culture, Castello Sforzesco, Sala delle Asse. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://artsandculture.google.com/asset/SwHevAYoSkSRBQ"
+        },
+        {
+          "type": "other",
+          "cite": "Bookseller listing quoting the Castello's 2017 publication on the Sala delle Asse. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://prestatest.bazzacco.net/libri/411945-leonardo-da-vinci-la-sala-delle-asse-del-castello-sforzesco-ediz-italiana-e-inglese-vol-1-la-diagnostica-e-il-restauro-del-9788836636778.html"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Sala delle Asse, background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Sala_delle_Asse"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "doc. no. to locate"
+        },
+        {
+          "ref": "src-beltrami-1919",
+          "loc": "doc. no. to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, Bascapè letters of April 1498",
+        "Beltrami 1919, same"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "label",
+      "value": "Name 'Sala delle Asse' given by Luca Beltrami",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The name Sala delle Asse (room of the planks) derives from the wooden boards mentioned in the 1498 letters and was given by Luca Beltrami during his restoration of the castle in the late nineteenth century.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Google Arts and Culture, Sala delle Asse. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://artsandculture.google.com/asset/SwHevAYoSkSRBQ"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "date",
+      "value": {
+        "text": "1498",
+        "start": 1498,
+        "end": 1498
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The decoration is dated 1498 from the Bascapè letters; whether all of it (including the monochrome underdrawing) belongs to 1498, and whether it was finished, are interpretations.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Google Arts and Culture, Sala delle Asse. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://artsandculture.google.com/asset/SwHevAYoSkSRBQ"
+        },
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "content",
+      "value": "Restorations: Ernesto Rusca 1893 to 1902; campaign from 2012",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Repainted by Ernesto Rusca in 1893 to 1902; a diagnostic and restoration campaign began in 2012 and continued in 2019.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Google Arts and Culture, Sala delle Asse restoration items. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://artsandculture.google.com/asset/sala-delle-asse-after-the-intervention-of-the-restorer-ernesto-rusca-1893-1902-leonardo-da-vinci/NgGq1u3tpiTyyQ"
+        }
+      ]
     }
+  ],
+  "current_location": "geo-castello-sforzesco",
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-castello-sforzesco",
+      "claim": "c2"
+    },
+    {
+      "rel": "commissioned_by",
+      "target": "pe-ludovico",
+      "claim": "c3"
+    },
+    {
+      "rel": "mentioned_by",
+      "target": "pe-gualtiero-bascape",
+      "claim": "c3"
+    }
+  ],
+  "open_questions": [
+    "Day of the first Bascapè letter: 20 or 21 April 1498? Read Villata."
   ],
   "timeline": {
     "lane": "works",

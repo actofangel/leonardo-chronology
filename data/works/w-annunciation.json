@@ -35,7 +35,115 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "current_location",
+      "value": "Florence, Gallerie degli Uffizi, inv. 1890 n. 1618",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Uffizi artwork page lists the Annunciation by Leonardo, oil on wood, 90 x 222 cm, inventory 1890 n. 1618.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, artwork page, Annunciation. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/en/artworks/annunciation"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "provenance",
+      "value": "Moved to the Uffizi in 1867 from San Bartolomeo a Monteoliveto, Florence",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Uffizi page states that the painting came to the Uffizi in 1867 from the church of San Bartolomeo a Monteoliveto, and that the original location and commissioner are unknown.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, artwork page, Annunciation. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/en/artworks/annunciation"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "c.1472",
+        "start": 1472,
+        "end": 1472
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Uffizi page dates the panel c.1472 (museum dating on style).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, artwork page, Annunciation. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/en/artworks/annunciation"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "attribution",
+      "value": "Leonardo, early work, from within the Verrocchio workshop",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Attributed to Leonardo by the Uffizi. Attribution rests on style; no document names the painter. Earlier attributions in the literature (to Ghirlandaio and others) need to be traced in the catalogues.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, artwork page. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/en/artworks/annunciation"
+        },
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
     }
+  ],
+  "current_location": "geo-uffizi",
+  "inventory": "Inv. 1890 n. 1618",
+  "dimensions": "90 x 222 cm",
+  "medium": "oil",
+  "support": "wood panel",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-uffizi",
+      "claim": "c2"
+    },
+    {
+      "rel": "located_in",
+      "target": "geo-san-bartolomeo-monteoliveto",
+      "claim": "c3"
+    }
+  ],
+  "open_questions": [
+    "Commissioner and original destination are unknown per the Uffizi; does any catalogue propose one with documents?"
   ],
   "timeline": {
     "lane": "works",

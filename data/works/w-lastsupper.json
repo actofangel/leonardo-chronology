@@ -35,7 +35,297 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "current_location",
+      "value": "Milan, refectory of Santa Maria delle Grazie, north wall",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The mural is on the north wall of the refectory of the Dominican convent of Santa Maria delle Grazie, Milan, facing Montorfano's Crucifixion on the south wall.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Museo del Cenacolo Vinciano, page on the refectory and Montorfano's Crucifixion. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://cenacolovinciano.org/en/?p=1741"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "medium",
+      "value": "Tempera and oil on dry plaster (not buon fresco)",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The technique is a mural in tempera and oil on a dry prepared wall rather than true fresco. Technical literature not read in this session.",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Standard technical description; not checked in this session."
+        },
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry",
+        "Brambilla Barcilon and Marani, restoration report, 1999 to 2001"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "relation",
+      "value": "29 June 1497: Ludovico Sforza instructs Marchesino Stanga to press Leonardo to finish the refectory work",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "A ducal memorandum of 29 June 1497 directs the secretary Marchesino Stanga to urge (sollicitare) Leonardo to finish the work begun in the refectory of the Grazie so that he can then attend to the other wall. The exact wording and archival locator were not read in this session.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Finestre sull'Arte, L'Ultima Cena di Leonardo da Vinci (secondary article quoting the document). Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.finestresullarte.info/opere-e-artisti/ultima-cena-leonardo-da-vinci-nascita-novita-cenacolo-milano"
+        },
+        {
+          "type": "other",
+          "cite": "Finestre sull'Arte, German version. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.finestresullarte.info/de/werke-und-kunstler/das-letzte-abendmahl-von-leonardo-da-vinci-ursprunge-und-neuerungen-des-letzten-abendmahls-in-mailand"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "doc. no. to locate"
+        },
+        {
+          "ref": "src-beltrami-1919",
+          "loc": "doc. no. to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, ducal memorandum of 29 June 1497",
+        "Beltrami 1919, same",
+        "Archivio di Stato di Milano, Registri ducali / Missive"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "relation",
+      "value": "Pacioli describes the Last Supper in the dedicatory letter of De divina proportione",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Luca Pacioli refers to the painting of the Last Supper in the dedicatory letter to Ludovico Sforza of his manuscript De divina proportione, describing the apostles intent at the voice of the truth. The date of the dedication is reported as 9 February 1498 by some accounts and the treatise's conclusion as 14 December 1497 by others (see open questions). The mention indicates the composition was visible by then; it does not say the painting was finished.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Finestre sull'Arte, L'Ultima Cena di Leonardo da Vinci. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.finestresullarte.info/opere-e-artisti/ultima-cena-leonardo-da-vinci-nascita-novita-cenacolo-milano"
+        },
+        {
+          "type": "other",
+          "cite": "Ritratto Pacioli, presentation handout (Dec 2019) on the dates of the codices. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.ritrattopacioli.it/pdf/Presentazione%203%20dic%202019.pdf"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Divina proportione, background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Divina_proportione"
+        }
+      ],
+      "check_in": [
+        "Pacioli, De divina proportione, Milan Ambrosiana codex and Geneva codex, dedicatory letter, folio to locate",
+        "Pacioli 1509 printed edition, folio to locate",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "content",
+      "value": "Opposite wall: Montorfano's Crucifixion, dated 1495 and signed",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Crucifixion on the opposite (south) wall of the refectory bears the date 1495 and the signature of Giovanni Donato da Montorfano on a stone block at the foot of the cross.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Museo del Cenacolo Vinciano, leaflet (English). Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://cenacolovinciano.org/wp-content/uploads/2024/11/Depliant-Cenacolo-ENG.pdf"
+        },
+        {
+          "type": "other",
+          "cite": "Museo del Cenacolo Vinciano, page on the Crucifixion. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://cenacolovinciano.org/en/?p=1741"
+        }
+      ],
+      "bearing": "Fixes the decoration campaign of the refectory around 1495; it does not date Leonardo's mural directly."
+    },
+    {
+      "id": "c7",
+      "about": "content",
+      "value": "1517: Antonio de Beatis records the mural as already deteriorating",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The travel journal of Antonio de Beatis, secretary of Cardinal Luigi of Aragon, records in 1517 that the Last Supper had begun to deteriorate. The Italian wording and folio were not checked in this session.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "New York Review of Books, The Last Last Supper, 2001 (secondary). Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nybooks.com/articles/2001/08/09/the-last-last-supper/"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Antonio de Beatis, background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Antonio_de_Beatis"
+        }
+      ],
+      "check_in": [
+        "de Beatis, travel journal, ed. Pastor 1905, Milan entry",
+        "Hale and Lindon ed., Hakluyt Society 1979"
+      ]
+    },
+    {
+      "id": "c8",
+      "about": "content",
+      "value": "Bandello's account of Leonardo at work (later narrative source)",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Matteo Bandello's dedicatory letter to novella I.58 of his Novelle (first printed 1554) describes Leonardo working on the Last Supper, sometimes painting from dawn to dusk and at other times only adding a few strokes. It is a narrative source printed some sixty years after the event; that Bandello was an eyewitness as a young novice at the Grazie is his own claim and an interpretation of its value.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Meer, A proposito del Cenacolo di Leonardo (secondary). Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.meer.com/it/73613-a-proposito-del-cenacolo-di-leonardo"
+        },
+        {
+          "type": "web",
+          "cite": "Getty Publications, Lives of Leonardo da Vinci (2019), catalogue description including Bandello's account.",
+          "url": "https://shop.getty.edu/products/lives-of-leonardo-da-vinci-978-1606066218"
+        }
+      ],
+      "check_in": [
+        "Bandello, Novelle, Lucca 1554, part I, novella 58, dedicatory letter, page to locate",
+        "Villata 1999, if it includes the passage"
+      ]
+    },
+    {
+      "id": "c9",
+      "about": "attribution",
+      "value": "Bandello's account reflects eyewitness memory",
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "Reading Bandello's anecdote as eyewitness testimony of the working process is an interpretation; its date of composition is not established and it was printed in 1554.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Meer, A proposito del Cenacolo di Leonardo. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.meer.com/it/73613-a-proposito-del-cenacolo-di-leonardo"
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "about": "date",
+      "value": {
+        "text": "c.1495 to 1498",
+        "start": 1495,
+        "end": 1498
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "A start around 1495 and completion by 1498 is the common scholarly range: the end rests on the Pacioli mention and the 1497 memorandum showing the work unfinished in June 1497; the start rests on context (Montorfano's 1495 date, the refectory works). Neither end is fixed by a document of the painting's beginning or completion.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Finestre sull'Arte, L'Ultima Cena di Leonardo da Vinci. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.finestresullarte.info/opere-e-artisti/ultima-cena-leonardo-da-vinci-nascita-novita-cenacolo-milano"
+        },
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c11",
+      "about": "date",
+      "value": {
+        "text": "commission 1494",
+        "start": 1494,
+        "end": 1494
+      },
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "disputed",
+      "statement": "A secondary source returned in search states the friars commissioned the mural in 1494. No document for a 1494 commission was seen.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Search result summary, secondary web source (not identified as admitted). Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://unesco.cultura.gov.it/en/?p=8250"
+        }
+      ],
+      "alternative_to": [
+        "c10"
+      ]
     }
+  ],
+  "current_location": "geo-santa-maria-delle-grazie",
+  "variants": [
+    "Cenacolo",
+    "Ultima Cena"
+  ],
+  "relations": [
+    {
+      "rel": "located_in",
+      "target": "geo-santa-maria-delle-grazie",
+      "claim": "c2"
+    },
+    {
+      "rel": "commissioned_by",
+      "target": "pe-ludovico",
+      "claim": "c4"
+    },
+    {
+      "rel": "mentioned_by",
+      "target": "pe-pacioli",
+      "claim": "c5"
+    },
+    {
+      "rel": "mentioned_by",
+      "target": "pe-bandello",
+      "claim": "c8"
+    },
+    {
+      "rel": "mentioned_by",
+      "target": "pe-beatis",
+      "claim": "c7"
+    }
+  ],
+  "open_questions": [
+    "Exact text and archival locator of the 29 June 1497 memorandum (Villata number).",
+    "Date of Pacioli's dedicatory letter: 9 February 1498 (often cited) or the 14 December 1497 conclusion date? Which codex carries which date?",
+    "Is there any document for the start of work or for a formal commission? Other 1496 to 1498 documents (Leonardo's own letter of complaint to Ludovico; payment notes) should be listed from Villata.",
+    "When did Bandello write the I.58 dedicatory letter, and was he at the Grazie in the 1490s?"
   ],
   "timeline": {
     "lane": "works",

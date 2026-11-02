@@ -104,6 +104,13 @@ ul.plain{margin:0;padding-left:18px;font-size:13.5px;display:flex;flex-direction
 .tile .big{font:600 1.4rem var(--serif)}
 .tile .sm{font-size:12.5px;color:var(--muted)}
 .foot{font-size:12.5px;color:var(--muted);max-width:90ch}
+details.wl{border-top:1px solid var(--faint);padding:6px 0}
+details.wl summary{cursor:pointer;font-size:14px}
+details.wl ul{margin-top:6px;max-height:320px;overflow:auto}
+.map svg{width:100%;height:auto;max-height:70vh;background:var(--card);border:1px solid var(--faint);border-radius:6px}
+.map .mt{fill:var(--accent)} .map .mb{fill:var(--interp);opacity:.8}
+.map .ml{font:15px var(--sans);fill:var(--ink)}
+.map a:hover circle{stroke:var(--ink);stroke-width:2}
 </style>
 </head>
 <body>
@@ -286,9 +293,35 @@ ul.plain{margin:0;padding-left:18px;font-size:13.5px;display:flex;flex-direction
     var att = Object.values(E).filter(function(e){ return (e.claims||[]).some(function(x){ return x.status === 'disputed'; }); }).slice(0, 40);
     var h = '<section class="card"><h2>Overview</h2><div class="home">' + TYPES.map(function(t){ return '<button type="button" class="tile" data-tile="' + t[0] + '"><div class="big">' + (c[t[0]]||0) + '</div><div class="sm">' + t[1] + '</div></button>'; }).join('') + '</div></section>';
     h += '<section class="card"><h3>Entries with disputed claims</h3>' + (att.length ? '<ul class="plain">' + att.map(function(e){ return '<li>' + link(e.id) + ' <span class="rel">' + esc(e.type) + '</span></li>'; }).join('') + '</ul>' : '<p class="empty">None.</p>') + '</section>';
+    var wl = DB.worklist || {}, wk = Object.keys(wl).sort(function(x,y){ return wl[y].length - wl[x].length; });
+    h += '<section class="card"><h3>Verification worklist</h3><p class="empty">Pending claims grouped by the edition or record to check them against. Open a group to see the claims; each links to its entity.</p>' +
+      wk.map(function(k){ var items = wl[k]; return '<details class="wl"><summary><b>' + esc(k) + '</b> <span class="count">' + items.length + ' claims</span></summary><ul class="plain">' +
+        items.slice(0, 300).map(function(it){ return '<li>' + link(it.entity) + ' <span class="rel">#' + esc(it.claim) + ' · ' + esc(it.about) + ' · ' + esc(it.layer) + '</span></li>'; }).join('') + (items.length > 300 ? '<li class="rel">and ' + (items.length - 300) + ' more in db.json</li>' : '') + '</ul></details>'; }).join('') + '</section>';
+    var pl = Object.values(E).filter(function(e){ return e.type === 'place' && e.coords; });
+    if(pl.length) h += '<section class="card"><h3>Places <span class="count">' + pl.length + ' with coordinates</span></h3><div id="map" class="map" role="img" aria-label="Map of places in the database"></div></section>';
     var hyp = Object.values(E).filter(function(e){ return e.type === 'hypothesis'; });
     h += '<section class="card"><h3>Working hypotheses</h3><p class="empty">Held apart from the factual layer. Each states the conditions under which it would fail.</p><ul class="plain">' + hyp.map(function(e){ return '<li>' + link(e.id) + '</li>'; }).join('') + '</ul></section>';
     $('main').innerHTML = h;
+    if(pl.length) drawMap(pl);
+  }
+  function isTown(p){ return ['city','town','hamlet','village','region'].indexOf(p.subtype) >= 0 || (!p.subtype && !p.within); }
+  function drawMap(pl){
+    var box = $('map'); if(!box) return;
+    // Equirectangular projection over the bounding box of the places, Europe scale. No tiles: works offline.
+    // Fixed frame on Leonardo's sphere of activity (northern and central Italy, the Loire); places outside are listed.
+    var la0 = 41.4, la1 = 47.9, lo0 = -0.2, lo1 = 13.6;
+    var outside = pl.filter(function(p){ return p.coords.lat < la0 || p.coords.lat > la1 || p.coords.lon < lo0 || p.coords.lon > lo1; });
+    pl = pl.filter(function(p){ return outside.indexOf(p) < 0; });
+    var W = 1000, kx = Math.cos((la0 + la1) / 2 * Math.PI / 180), H = Math.round(W * (la1 - la0) / ((lo1 - lo0) * kx));
+    function X(lon){ return (lon - lo0) / (lo1 - lo0) * W; } function Y(lat){ return (la1 - lat) / (la1 - la0) * H; }
+    var seen = {}, dots = pl.slice().sort(function(a,b){ return (isTown(b) ? 1 : 0) - (isTown(a) ? 1 : 0); }).map(function(p){
+      var x = X(p.coords.lon), y = Y(p.coords.lat), key = Math.round(x / 40) + ',' + Math.round(y / 18), town = isTown(p);
+      var lab = town && !seen[key] ? '<text x="' + (x + 7).toFixed(1) + '" y="' + (y + 4).toFixed(1) + '" class="ml">' + esc(p.label) + '</text>' : '';
+      seen[key] = 1;
+      return '<a href="#' + esc(p.id) + '"><title>' + esc(p.label) + '</title><circle cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="' + (town ? 4.5 : 2.5) + '" class="' + (town ? 'mt' : 'mb') + '"/>' + lab + '</a>';
+    }).join('');
+    box.innerHTML = '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid meet">' + dots + '</svg><p class="rel">Schematic: positions from recorded coordinates, no base map. Large dots are towns, small dots buildings and collections within them.</p>' +
+      (outside.length ? '<p class="rel">Outside the frame: ' + outside.map(function(p){ return link(p.id); }).join(', ') + '</p>' : '');
   }
   function route(){
     var id = decodeURIComponent(location.hash.slice(1));

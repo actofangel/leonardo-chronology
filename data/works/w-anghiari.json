@@ -33,7 +33,191 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "relation",
+      "value": "24 October 1503: keys of the Sala del Papa at Santa Maria Novella handed to Leonardo",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Leonardo was given the keys of the Sala del Papa at Santa Maria Novella on 24 October 1503 to prepare the cartoon (secondary report).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Finestre sull'Arte, The Battle of Cascina (secondary). Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.finestresullarte.info/en/works-and-artists/the-battle-of-cascina-when-michelangelo-competed-with-leonardo-da-vinci"
+        },
+        {
+          "type": "other",
+          "cite": "La Toscana di Leonardo, Santa Maria Novella. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://latoscanadileonardo.it/en/places/metropolitan-city-of-florence/municipality-of-florence/basilica-of-santa-maria-novella.html"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "doc. no. to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, October 1503 documents"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "relation",
+      "value": "4 May 1504: revised contract with the Signoria, countersigned by Machiavelli",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "A deliberation of the Signoria dated 4 May 1504, signed by Niccolò Machiavelli as secretary, set terms for the cartoon (completion by the end of February 1505) and the painting. The exact text and witnesses were not read in this session.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Finestre sull'Arte, The Battle of Cascina. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.finestresullarte.info/en/works-and-artists/the-battle-of-cascina-when-michelangelo-competed-with-leonardo-da-vinci"
+        },
+        {
+          "type": "other",
+          "cite": "artinwords.de, Leonardo, Schlacht von Anghiari (secondary). Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://artinwords.de/leonardo-schlacht-von-anghiari"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "doc. no. to locate"
+        },
+        {
+          "ref": "src-beltrami-1919",
+          "loc": "doc. no. to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, deliberation of 4 May 1504",
+        "Beltrami 1919"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "relation",
+      "value": "6 June 1505: Leonardo's own note on beginning to paint, in a Madrid codex",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "A note in Leonardo's hand in one of the Madrid codices records that on Friday 6 June 1505 at the stroke of the thirteenth hour he began to paint in the Palazzo, with an accident of the weather. Codex and folio were not confirmed in this session (usually given as Madrid II).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Museum of Fine Arts, Budapest, object record (secondary, museum digital). Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://bu.hu.museum-digital.org/pdf/object/204804.pdf?lang=en"
+        },
+        {
+          "ref": "src-richter-1883",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Madrid codex II, folio to locate",
+        "Villata 1999",
+        "Richter 1883 / Pedretti 1977"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "relation",
+      "value": "Agostino Vespucci's manuscript description of the battle for Leonardo",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "A manuscript text by Agostino Vespucci describing the battle of Anghiari, apparently prepared for Leonardo, is preserved in the Codex Atlanticus (folio to locate); a secondary source cites it as evidence of involvement from October 1503.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Finestre sull'Arte, news on the Battle of Anghiari. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.finestresullarte.info/en/news/no-battle-of-anghiari-in-the-salone-dei-cinquecento-new-studies-on-leonardo-s-lost-painting"
+        },
+        {
+          "ref": "src-pedretti-1978-atlanticus",
+          "loc": "folio to locate"
+        }
+      ],
+      "check_in": [
+        "Codex Atlanticus, folio to locate",
+        "Pedretti 1978 to 1979"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "content",
+      "value": "Abandoned unfinished; known from copies and drawings",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The mural was left unfinished when Leonardo left Florence in 1506 and later covered or destroyed in the remodelling of the hall; the composition of the central fight for the standard is known from copies and from preparatory drawings.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Finestre sull'Arte, news on the Battle of Anghiari. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.finestresullarte.info/en/news/no-battle-of-anghiari-in-the-salone-dei-cinquecento-new-studies-on-leonardo-s-lost-painting"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "content",
+      "value": "Failure attributed to an experimental technique",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "That the painting failed because of an experimental oil based technique is an interpretation drawing on later narrative sources (Anonimo Gaddiano, Vasari), not a contemporary document.",
+      "sources": [
+        {
+          "ref": "src-anonimo-gaddiano",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-vasari-1568",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Anonimo Gaddiano, passage on the Sala del Consiglio",
+        "Vasari 1568, Life of Leonardo"
+      ]
     }
+  ],
+  "current_location": "lost (Palazzo Vecchio, Sala del Gran Consiglio)",
+  "relations": [
+    {
+      "rel": "commissioned_by",
+      "target": "geo-signoria-florence",
+      "claim": "c3"
+    },
+    {
+      "rel": "mentioned_by",
+      "target": "pe-machiavelli",
+      "claim": "c3"
+    },
+    {
+      "rel": "located_in",
+      "target": "geo-palazzo-vecchio",
+      "claim": "c6"
+    },
+    {
+      "rel": "mentioned_by",
+      "target": "pe-agostino-vespucci",
+      "claim": "c5"
+    }
+  ],
+  "open_questions": [
+    "Location of the mural in the hall: a recent study reported by Finestre sull'Arte argues the mural was not in the Salone dei Cinquecento as it now stands; check the literature.",
+    "Exact codex and folio of the 6 June 1505 note."
   ],
   "timeline": {
     "lane": "works",

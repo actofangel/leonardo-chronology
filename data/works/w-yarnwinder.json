@@ -35,7 +35,156 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "relation",
+      "value": "Novellara to Isabella d'Este, Florence, 3 April 1501",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Fra Pietro da Novellara, Carmelite vicar general, wrote to Isabella d'Este from Florence on 3 April 1501, in answer to her letter of 27 March 1501; the Mantua State Archive files this letter under the Saint Anne cartoon.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Archivio di Stato di Mantova, Leonardo e l'Archivio di Stato (index). Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://archiviodistatomantova.cultura.gov.it/fileadmin/risorse/Pubblicazioni/Leonardo_Archivio_di_Stato.pdf"
+        },
+        {
+          "type": "other",
+          "cite": "Archivio di Stato di Mantova, La lettera ritrovata. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://archiviodistatomantova.cultura.gov.it/fileadmin/risorse/Patrimonio_scan/Leonardo/La_Lettera_ritrovata.pdf"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "doc. no. to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, Novellara letters of April 1501",
+        "Archivio di Stato di Mantova, Archivio Gonzaga, busta to confirm"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "relation",
+      "value": "Novellara to Isabella d'Este, Florence, 14 April 1501: the small picture for Florimond Robertet",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Novellara's letter of 14 April 1501 reports that Leonardo was painting a small picture for Florimond Robertet, secretary of the King of France, showing the Madonna with a yarnwinder; the Mantua State Archive publishes a transcription (Archivio Gonzaga, b. 1103 per the archive's transcription file, to confirm).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Archivio di Stato di Mantova, transcription. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://archiviodistatomantova.cultura.gov.it/fileadmin/risorse/Pubblicazioni/Trascrizione.pdf"
+        },
+        {
+          "type": "other",
+          "cite": "Archivio di Stato di Mantova, index. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://archiviodistatomantova.cultura.gov.it/fileadmin/risorse/Pubblicazioni/Leonardo_Archivio_di_Stato.pdf"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "doc. no. to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999",
+        "Archivio di Stato di Mantova, Archivio Gonzaga b. 1103"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "relation",
+      "value": "Two principal versions survive: Buccleuch and Lansdowne",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Two principal versions survive: the Buccleuch Madonna (Duke of Buccleuch collection, on loan to the Scottish National Gallery, Edinburgh) and the Lansdowne Madonna (private collection, on loan to the Metropolitan Museum of Art, New York). Both share an underdrawing according to technical study.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Artlyst, Met's Leonardo studio work.",
+          "url": "https://artlyst.com/mets-leonardo-da-vinci-studio-work-may-be-the-masters-hand"
+        },
+        {
+          "type": "web",
+          "cite": "Louvre, Leonardo exhibition 2019, mini site page on the Yarnwinder.",
+          "url": "https://mini-site.louvre.fr/trimestriel/2019/l%C3%A9onard_de_vinciGB/86/"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Madonna of the Yarnwinder, background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Madonna_of_the_Yarnwinder"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "identity",
+      "value": "Neither surviving version is securely the Robertet picture",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "disputed",
+      "statement": "Which (if either) of the surviving versions corresponds to the picture described in 1501 is a scholarly reconstruction; one view (reported in Wikipedia) takes the Buccleuch as the picture delivered to Robertet in 1507; The Art Newspaper reports another destination (Blois).",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Madonna of the Yarnwinder, background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Madonna_of_the_Yarnwinder"
+        },
+        {
+          "type": "web",
+          "cite": "The Art Newspaper, A tale of two ladies.",
+          "url": "https://www.theartnewspaper.com/archive/a-tale-of-two-ladies"
+        },
+        {
+          "ref": "src-kemp-2006",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry",
+        "Kemp 2006"
+      ]
     }
+  ],
+  "relations": [
+    {
+      "rel": "commissioned_by",
+      "target": "pe-robertet",
+      "claim": "c3"
+    },
+    {
+      "rel": "mentioned_by",
+      "target": "pe-novellara",
+      "claim": "c3"
+    },
+    {
+      "rel": "mentioned_by",
+      "target": "pe-isabella",
+      "claim": "c3"
+    },
+    {
+      "rel": "version",
+      "target": "w-yarnwinder-buccleuch",
+      "claim": "c4"
+    },
+    {
+      "rel": "version",
+      "target": "w-yarnwinder-lansdowne",
+      "claim": "c4"
+    }
+  ],
+  "open_questions": [
+    "Is the 1507 delivery to Robertet documented (letter of 1507), and in which edition?",
+    "Exact wording of the 14 April 1501 description (aspo, fusi), with archival locator."
   ],
   "timeline": {
     "lane": "works",

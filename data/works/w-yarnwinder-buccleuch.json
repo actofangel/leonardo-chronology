@@ -1,0 +1,100 @@
+{
+  "id": "w-yarnwinder-buccleuch",
+  "type": "work",
+  "subtype": "painting",
+  "label": "Madonna of the Yarnwinder (Buccleuch)",
+  "classification": {
+    "form": "painting",
+    "condition": "extant",
+    "subject": [
+      "religious"
+    ],
+    "basis": "Form, technique and support from the research batch of 2026-11-02 (holding institution's record as read through search excerpts) where given, otherwise model recall; subjects editorial. Check against the holding's record."
+  },
+  "current_location": "Duke of Buccleuch collection, on loan to the Scottish National Gallery, Edinburgh",
+  "summary": "Version of the Madonna of the Yarnwinder in the Duke of Buccleuch's collection, on long term loan to the Scottish National Gallery.",
+  "relations": [
+    {
+      "rel": "version_of",
+      "target": "w-yarnwinder",
+      "claim": "c2"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": "Buccleuch collection, on loan to the Scottish National Gallery since 2009",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "On long term loan from the Duke of Buccleuch to the National Galleries of Scotland, on view since 2009.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Artlyst, Met's Leonardo studio work.",
+          "url": "https://artlyst.com/mets-leonardo-da-vinci-studio-work-may-be-the-masters-hand"
+        },
+        {
+          "type": "web",
+          "cite": "Wikipedia, Madonna of the Yarnwinder, background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Madonna_of_the_Yarnwinder"
+        }
+      ],
+      "check_in": [
+        "National Galleries of Scotland loan record"
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "attribution",
+      "value": "Leonardo and workshop; another hand likely contributed",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Authorship is debated; Kemp is reported as holding that another artist likely contributed. The Louvre 2019 exhibition text treats both versions as workshop paintings with varying Leonardo involvement.",
+      "sources": [
+        {
+          "type": "web",
+          "cite": "Wikipedia, Madonna of the Yarnwinder, background only, not grounds.",
+          "url": "https://en.wikipedia.org/wiki/Madonna_of_the_Yarnwinder"
+        },
+        {
+          "type": "web",
+          "cite": "Louvre, Leonardo exhibition 2019, mini site.",
+          "url": "https://mini-site.louvre.fr/trimestriel/2019/l%C3%A9onard_de_vinciGB/86/"
+        },
+        {
+          "ref": "src-kemp-2006",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry",
+        "Kemp 2006"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "provenance",
+      "value": "Stolen from Drumlanrig Castle in 2003, recovered 2007",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Stolen from Drumlanrig Castle in 2003 and recovered in 2007 (not checked in this session).",
+      "sources": [
+        {
+          "type": "model_recall",
+          "cite": "Recalled; not checked."
+        }
+      ],
+      "check_in": [
+        "press archive 2003 and 2007"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Date of the Buccleuch version (c.1501 to 1507 in the literature): who holds which range?"
+  ]
+}

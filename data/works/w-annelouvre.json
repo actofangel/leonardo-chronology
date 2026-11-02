@@ -36,7 +36,179 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "current_location",
+      "value": "Paris, Musée du Louvre, INV 776",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre lists La Vierge, l'Enfant Jésus et sainte Anne, dit La Sainte Anne, INV 776, oil on poplar, H. 1.68 m, W. 1.13 m (later enlarged to c.1.30 m).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 776. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010066107"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1503 to 1519",
+        "start": 1503,
+        "end": 1519
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Louvre dates the work 1503 to 1519, stating it was begun around 1503 at the latest in Florence and kept unfinished until Leonardo's death.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 776. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010066107"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": "October 1517: seen by Cardinal Luigi of Aragon at Cloux",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre notes that the painting was admired by the Cardinal of Aragon at Cloux in October 1517 (recorded in Antonio de Beatis's journal).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 776. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010066107"
+        }
+      ],
+      "check_in": [
+        "de Beatis, journal, entry of 10 October 1517"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": "Probably acquired by Francis I in 1518; royal collection; Louvre 1793",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Louvre says the painting was very probably acquired by Francis I in 1518; inference, not a document read here.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 776. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010066107"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "content",
+      "value": "Restoration 2010 to 2012",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre restoration of 2010 to 2012 revealed late brushstrokes on Saint Anne's dress (per the Louvre record).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 776. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010066107"
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "relation",
+      "value": "Novellara's letter of 3 April 1501 describes a Saint Anne cartoon",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Pietro da Novellara's letter of 3 April 1501 to Isabella d'Este describes a cartoon of the Virgin, Child, Saint Anne and a lamb; the Mantua State Archive files it under the Saint Anne cartoon.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Archivio di Stato di Mantova, index. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://archiviodistatomantova.cultura.gov.it/fileadmin/risorse/Pubblicazioni/Leonardo_Archivio_di_Stato.pdf"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "doc. no. to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c8",
+      "about": "relation",
+      "value": "The Louvre painting develops the composition described in 1501",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "That the Louvre panel derives from the 1501 cartoon (lamb motif) is a scholarly reconstruction; the London cartoon (w-burlington) shows a different composition with the infant Baptist.",
+      "sources": [
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
     }
+  ],
+  "current_location": "geo-louvre",
+  "inventory": "INV 776",
+  "medium": "oil",
+  "support": "poplar panel",
+  "dimensions": "168 x 113 cm (original width; enlarged later to c.130 cm)",
+  "relations": [
+    {
+      "rel": "related_to",
+      "target": "w-burlington",
+      "claim": "c8"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-louvre",
+      "claim": "c2"
+    },
+    {
+      "rel": "mentioned_by",
+      "target": "pe-novellara",
+      "claim": "c7"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-francis",
+      "claim": "c5"
+    }
+  ],
+  "open_questions": [
+    "The Louvre page calls the London cartoon 'the cartoon for the composition'; the Burlington House cartoon's composition differs. Record the relation precisely.",
+    "Commission: the Servite friars of the Santissima Annunziata (w-servite) according to Vasari; documentary support?"
   ],
   "timeline": {
     "lane": "works",

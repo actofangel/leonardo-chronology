@@ -53,6 +53,22 @@ for (const e of entities.values()) for (const [axis, val] of Object.entries(e.cl
 }
 db.facets = facets;
 
+// Verification worklist: pending claims grouped by the edition named in check_in.
+const EDITIONS = [
+  ['Villata 1999', /villata/i], ['Beltrami 1919', /beltrami/i], ['Marani 2000', /marani\b(?! ?(edition|'s edition))/i], ['Zöllner 2003', /z(ö|o)llner/i],
+  ['Pedretti (Codex Atlanticus, Arundel, chronology)', /pedretti/i], ['Clark and Pedretti 1968 (Windsor)', /clark/i], ['Clayton and Philo 2012', /clayton/i],
+  ['Richter', /richter/i], ['Vasari', /vasari/i], ['Anonimo Gaddiano (Frey 1892)', /anonimo|frey/i], ['Marinoni (editions of the manuscripts)', /marinoni/i],
+  ['Edizione Nazionale', /edizione nazionale/i], ['Holding institution record', /museum|gallery|louvre|uffizi|ambrosiana|royal collection|rct|holding|institut|library|biblioteca/i]
+];
+const worklist = {};
+for (const e of entities.values()) for (const c of e.claims || []) {
+  if (c.status === 'verified' || c.status === 'rejected') continue;
+  const hits = new Set();
+  for (const ci of c.check_in || []) { let any = false; for (const [name, re] of EDITIONS) if (re.test(ci)) { hits.add(name); any = true; } if (!any) hits.add('Other sources named in check_in'); }
+  for (const h of hits) (worklist[h] = worklist[h] || []).push({ entity: e.id, claim: c.id, about: c.about, layer: c.layer });
+}
+db.worklist = worklist;
+
 // ---------- chronology records ----------
 const lanes = Object.fromEntries(LANES.map((l) => [l, []]));
 const reviews = {};

@@ -36,7 +36,171 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "current_location",
+      "value": "Kraków, National Museum, Czartoryski Museum, MNK XII-209",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The National Museum in Kraków lists the Lady with an Ermine, object number MNK XII-209, oil on wood panel, c.1490, Milan.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Muzeum Narodowe w Krakowie, collections: Lady with an Ermine. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://mnk.pl/en/collections/lady-with-an-ermine/"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry",
+        "panel species (walnut) and dimensions"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1490",
+        "start": 1490,
+        "end": 1490
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The museum dates the portrait c.1490 (stylistic, and from the sitter identification).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Muzeum Narodowe w Krakowie, Lady with an Ermine. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://mnk.pl/en/collections/lady-with-an-ermine/"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": "Bought in Italy c.1800 by Adam Jerzy Czartoryski; shown at Puławy from 1809",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The museum says the painting was bought around 1800 in Italy by Adam Jerzy Czartoryski, who gave it to the Puławy museum, where it was displayed from 1809.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Muzeum Narodowe w Krakowie, Lady with an Ermine. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://mnk.pl/en/collections/lady-with-an-ermine/"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "relation",
+      "value": "Cecilia Gallerani's letter of 29 April 1498 to Isabella d'Este about her portrait by Leonardo",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "A letter of Cecilia Gallerani to Isabella d'Este, 1498, answering a request to borrow her portrait by Leonardo, is reported in the literature. Date, text and archive location were NOT checked in this session (search budget exhausted).",
+      "sources": [
+        {
+          "ref": "src-villata-1999",
+          "loc": "doc. no. to locate"
+        },
+        {
+          "type": "model_recall",
+          "cite": "Letter recalled from the literature; not checked."
+        }
+      ],
+      "check_in": [
+        "Villata 1999, Gallerani to Isabella d'Este, 1498",
+        "Archivio di Stato di Mantova, Archivio Gonzaga"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "relation",
+      "value": "Bernardo Bellincioni's sonnet on the portrait of Cecilia",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Bernardo Bellincioni's Rime (printed 1493) include a sonnet on a portrait of Cecilia painted by Leonardo. Text and edition page not checked in this session.",
+      "sources": [
+        {
+          "ref": "src-villata-1999",
+          "loc": "to locate"
+        },
+        {
+          "type": "model_recall",
+          "cite": "Recalled; not checked."
+        }
+      ],
+      "check_in": [
+        "Bellincioni, Rime, Milan 1493",
+        "Villata 1999"
+      ]
+    },
+    {
+      "id": "c7",
+      "about": "identity",
+      "value": "Sitter: Cecilia Gallerani",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Identification of the sitter with Cecilia Gallerani rests on the ermine (Greek galê; and Ludovico's ermine order) and on the 1498 letter and Bellincioni sonnet, which mention a portrait of her but do not describe this panel unambiguously.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Muzeum Narodowe w Krakowie, Lady with an Ermine. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://mnk.pl/en/collections/lady-with-an-ermine/"
+        },
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
     }
+  ],
+  "current_location": "geo-czartoryski-krakow",
+  "inventory": "MNK XII-209",
+  "medium": "oil",
+  "support": "wood panel",
+  "relations": [
+    {
+      "rel": "depicts",
+      "target": "pe-cecilia",
+      "claim": "c7"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-czartoryski-krakow",
+      "claim": "c2"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-adam-jerzy-czartoryski",
+      "claim": "c4"
+    }
+  ],
+  "open_questions": [
+    "Read the 1498 Gallerani letter and the Bellincioni sonnet in an edition and record their exact wording and locators.",
+    "Panel species and dimensions: not found on the museum page in this session."
   ],
   "timeline": {
     "lane": "works",

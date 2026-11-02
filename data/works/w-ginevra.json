@@ -35,7 +35,144 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "current_location",
+      "value": "Washington, National Gallery of Art, 1967.6.1.a",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The National Gallery of Art lists the portrait as accession 1967.6.1.a, oil on panel, original panel 38.1 x 37 cm, 42.7 x 37 cm overall with a later addition at the bottom; the reverse is catalogued separately as 1967.6.1.b.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery of Art, Washington, object page 50724, Ginevra de' Benci [obverse]. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nga.gov/artworks/50724-ginevra-de-benci-obverse"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "content",
+      "value": "Reverse: wreath of laurel, palm and juniper with a scroll inscribed VIRTUTEM FORMA DECORAT",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The reverse of the panel bears a wreath of laurel, palm and juniper around a scroll inscribed VIRTUTEM FORMA DECORAT (Latin; translation, an interpretation: 'beauty adorns virtue').",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery of Art, object page 50725, reverse. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nga.gov/artworks/50725-wreath-laurel-palm-and-juniper-scroll-inscribed-virtutem-forma-decorat-reverse"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "c.1474/1478",
+        "start": 1474,
+        "end": 1478
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The National Gallery of Art dates the portrait c.1474/1478 (museum dating, style and the presumed occasion).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery of Art, object page 50724. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nga.gov/artworks/50724-ginevra-de-benci-obverse"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "identity",
+      "value": "Sitter: Ginevra de' Benci",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Identification of the sitter as Ginevra de' Benci rests on the juniper (ginepro) pun and on the early sources that mention a portrait of her by Leonardo; the NGA states the commissioner and the painting's early history are not known.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery of Art, 10 surprising facts about Ginevra de' Benci. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nga.gov/stories/articles/10-surprising-facts-about-leonardo-da-vincis-ginevra-de-benci"
+        },
+        {
+          "ref": "src-anonimo-gaddiano",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-vasari-1568",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry",
+        "Anonimo Gaddiano, passage on Ginevra",
+        "Vasari 1568, Life of Leonardo"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "provenance",
+      "value": "Liechtenstein collection by 1733; sold to NGA 1967",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The NGA provenance states the painting was presumably bought in Florence by Prince Johann Adam Andreas I of Liechtenstein before 1712, was certainly in the Liechtenstein collection by 1733 (a red wax seal of 1733 on the reverse), was listed as Lucas Cranach in the Liechtenstein catalogue of 1780, and was sold by Prince Franz Josef II to the National Gallery of Art in 1967 (Ailsa Mellon Bruce Fund).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "National Gallery of Art, object page 50724, provenance. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.nga.gov/artworks/50724-ginevra-de-benci-obverse"
+        },
+        {
+          "type": "other",
+          "cite": "National Gallery of Art, 1967 acquisition press release. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://nga.gov/content/dam/ngaweb/research/in-depth/provenance-liechtenstein/1967_GinevraAcquisition_NGApressrelease.pdf"
+        }
+      ]
     }
+  ],
+  "current_location": "geo-national-gallery-washington",
+  "inventory": "1967.6.1.a (obverse); 1967.6.1.b (reverse)",
+  "medium": "oil (obverse); tempera (reverse)",
+  "support": "panel",
+  "dimensions": "38.1 x 37 cm (original panel); 42.7 x 37 cm with later addition at bottom",
+  "relations": [
+    {
+      "rel": "depicts",
+      "target": "pe-ginevra-de-benci",
+      "claim": "c5"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-national-gallery-washington",
+      "claim": "c2"
+    },
+    {
+      "rel": "owned_by",
+      "target": "geo-liechtenstein-collection",
+      "claim": "c6"
+    }
+  ],
+  "open_questions": [
+    "Was the panel cut at the bottom (loss of hands)? The NGA mentions a later addition at the bottom; check the catalogues for the reconstruction.",
+    "Who commissioned the portrait (Bernardo Bembo has been proposed in the literature; not checked in this session)?"
   ],
   "timeline": {
     "lane": "works",

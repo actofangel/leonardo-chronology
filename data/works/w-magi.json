@@ -35,7 +35,123 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "current_location",
+      "value": "Florence, Gallerie degli Uffizi, inv. 1890 n. 1594",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Uffizi photographic and inventory database search for opera 1594 in inventory 1890 returns Leonardo's Adoration of the Magi.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Uffizi, Archivio fotografico e inventari, search for 1890 n. 1594. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://fotoinventari.uffizi.it/it/ricerca-opere?isPostBack=1&numero_opera=1594&id_inventario=1."
+        }
+      ],
+      "check_in": [
+        "Uffizi artwork record"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "relation",
+      "value": "Commissioned 1481 for San Donato a Scopeto",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Uffizi states the work was commissioned from Leonardo in 1481 by the Canons Regular of Sant'Agostino for San Donato a Scopeto. The commission documents (month and terms) must be read in Villata.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, event page: Leonardo's Magic Cosmos. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/en/events/leonardo-s-magic-cosmos-the-adoration-of-the-magi-restored"
+        },
+        {
+          "ref": "src-villata-1999",
+          "loc": "doc. no. to locate"
+        },
+        {
+          "ref": "src-beltrami-1919",
+          "loc": "doc. no. to locate"
+        }
+      ],
+      "check_in": [
+        "Villata 1999, 1481 documents of San Donato a Scopeto",
+        "Beltrami 1919, same"
+      ],
+      "bearing": "The draft calls the patrons 'monks'; the Uffizi says Canons Regular of Sant'Agostino."
+    },
+    {
+      "id": "c4",
+      "about": "date",
+      "value": {
+        "text": "left unfinished by 1482",
+        "start": 1481,
+        "end": 1482
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Uffizi pages date the work 1481 to 1482 and connect its abandonment with the move to Milan; the end date rests on the departure, not on a document of the painting itself.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, video page. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/en/video/the-adoration-of-the-magi-by-leonardo"
+        },
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, restauri news. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/news-cat/restauri"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "content",
+      "value": "Restored by the Opificio delle Pietre Dure, 2012 to 2017",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "Diagnostic study began late 2011; the decision to restore was taken October 2012; the panel returned to the Uffizi in March 2017 after restoration by the Opificio delle Pietre Dure (Roberto Bellucci, Patrizia Riitano; direction Marco Ciatti, Cecilia Frosinini); the restorers report that the composition was laid out directly on the panel.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, event page: Leonardo's Magic Cosmos. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/en/events/leonardo-s-magic-cosmos-the-adoration-of-the-magi-restored"
+        },
+        {
+          "type": "other",
+          "cite": "Gallerie degli Uffizi, news on the restoration. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.uffizi.it/news/il-restauro-dell-adorazione-dei-magi-di-leonardo-da-vinci-capire-il-non-finito"
+        }
+      ]
     }
+  ],
+  "current_location": "geo-uffizi",
+  "inventory": "Inv. 1890 n. 1594",
+  "relations": [
+    {
+      "rel": "made_for",
+      "target": "geo-san-donato-scopeto",
+      "claim": "c3"
+    },
+    {
+      "rel": "held_by",
+      "target": "geo-uffizi",
+      "claim": "c2"
+    }
+  ],
+  "open_questions": [
+    "Exact date and wording of the 1481 commission (the draft says March 1481): read Villata.",
+    "Patrons: monks or canons regular of San Donato a Scopeto? Correct the draft wording if Villata confirms canons regular."
   ],
   "timeline": {
     "lane": "works",

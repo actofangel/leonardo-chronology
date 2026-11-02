@@ -35,7 +35,112 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "current_location",
+      "value": "Paris, Musée du Louvre, INV 775 (MR 318)",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre lists Saint Jean Baptiste, INV 775 (MR 318), oil on walnut, H. 0.729 m, W. 0.563 m.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 775. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062374"
+        }
+      ],
+      "check_in": [
+        "Louvre record: current display or loan (a 2022 loan to Louvre Abu Dhabi was reported)"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1508 to 1519",
+        "start": 1508,
+        "end": 1519
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Louvre dates the panel to the first quarter of the sixteenth century, roughly 1508 to 1519. The draft gives c.1513 to 1516.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 775. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062374"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ],
+      "bearing": "Draft range c.1513 to 1516 is narrower than the museum's."
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": "Taken to France by Leonardo; Charles I c.1630; Louis XIV 1662; Louvre 1793",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre press material states the painting stayed with Leonardo, who brought it to France in 1516, passed to Charles I of England around 1630, entered Louis XIV's collection in 1662, and the national collection in 1793.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, press release on the loan of Saint John the Baptist. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://presse.louvre.fr/le-musee-du-louvre-prete-le-saint-jean-baptiste-de-leonard-de-vinci-2/?lang=en"
+        },
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 775. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062374"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "content",
+      "value": "Some parts unfinished at Leonardo's death",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Louvre press text says parts (right arm, fur) were unfinished in 1519; this is a technical reading.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, press release. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://presse.louvre.fr/le-musee-du-louvre-prete-le-saint-jean-baptiste-de-leonard-de-vinci-2/?lang=en"
+        }
+      ]
     }
+  ],
+  "current_location": "geo-louvre",
+  "inventory": "INV 775; MR 318",
+  "medium": "oil",
+  "support": "walnut panel",
+  "dimensions": "72.9 x 56.3 cm (panel)",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre",
+      "claim": "c2"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-charles-i-england",
+      "claim": "c4"
+    }
+  ],
+  "open_questions": [
+    "Is the Baptist one of the three paintings seen by de Beatis in 1517?"
   ],
   "timeline": {
     "lane": "works",

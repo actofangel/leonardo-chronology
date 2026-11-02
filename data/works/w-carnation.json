@@ -35,7 +35,136 @@
         }
       ],
       "check_in": []
+    },
+    {
+      "id": "c2",
+      "about": "current_location",
+      "value": "Munich, Alte Pinakothek, inv. 7779",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Bayerische Staatsgemäldesammlungen collection page lists Madonna mit der Nelke, Leonardo da Vinci, inv. 7779, poplar (Pappelholz), 62 x 48.5 cm.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Sammlung Pinakothek, Madonna mit der Nelke. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.sammlung.pinakothek.de/en/artwork/Y0GR916LRX/leonardo-da-vinci/madonna-mit-der-nelke"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "date",
+      "value": {
+        "text": "c.1475",
+        "start": 1475,
+        "end": 1475
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The museum dates the panel 'um 1475' (stylistic); the draft chronology's c.1478 to 1480 is a different scholarly dating.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Sammlung Pinakothek, Madonna mit der Nelke. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.sammlung.pinakothek.de/en/artwork/Y0GR916LRX/leonardo-da-vinci/madonna-mit-der-nelke"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ],
+      "bearing": "The draft entry w-carnation dates it c.1478 to 1480; the museum dates it c.1475."
+    },
+    {
+      "id": "c4",
+      "about": "provenance",
+      "value": "Bought 1889 from Dr A. Haug, Günzburg",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The museum records acquisition in 1889 from Dr A. Haug in Günzburg.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Sammlung Pinakothek, Madonna mit der Nelke. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.sammlung.pinakothek.de/en/artwork/Y0GR916LRX/leonardo-da-vinci/madonna-mit-der-nelke"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "provenance",
+      "value": "Formerly owned by Giulio de' Medici (Pope Clement VII)",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The museum text says the Madonna was formerly owned by Giulio de' Medici, later Clement VII. This identification probably rests on Vasari's description of a Madonna with a vase of flowers owned by Clement VII; it is an identification, not a documented chain.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Sammlung Pinakothek, Madonna mit der Nelke. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.sammlung.pinakothek.de/en/artwork/Y0GR916LRX/leonardo-da-vinci/madonna-mit-der-nelke"
+        },
+        {
+          "ref": "src-vasari-1568",
+          "loc": "Life of Leonardo, page to locate"
+        }
+      ],
+      "check_in": [
+        "Vasari 1568, Life of Leonardo, passage on the Madonna with a carafe",
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "attribution",
+      "value": "Leonardo, early, within or near the Verrocchio workshop; workshop share debated",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The museum catalogues it as Leonardo; the draft notes debate about workshop participation. Holders of each position must be read in the catalogues.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Sammlung Pinakothek, Madonna mit der Nelke. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.sammlung.pinakothek.de/en/artwork/Y0GR916LRX/leonardo-da-vinci/madonna-mit-der-nelke"
+        },
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
     }
+  ],
+  "current_location": "geo-alte-pinakothek",
+  "inventory": "7779",
+  "support": "poplar panel",
+  "dimensions": "62 x 48.5 cm",
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-alte-pinakothek",
+      "claim": "c2"
+    },
+    {
+      "rel": "owned_by",
+      "target": "pe-clement-vii",
+      "claim": "c5"
+    }
+  ],
+  "open_questions": [
+    "Museum dating c.1475 versus draft c.1478 to 1480: which do Marani and Zöllner give?"
   ],
   "timeline": {
     "lane": "works",

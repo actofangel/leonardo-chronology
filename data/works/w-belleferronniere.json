@@ -1,0 +1,180 @@
+{
+  "id": "w-belleferronniere",
+  "type": "work",
+  "subtype": "painting",
+  "label": "La Belle Ferronnière",
+  "classification": {
+    "form": "painting",
+    "technique": [
+      "oil"
+    ],
+    "support": "panel_walnut",
+    "condition": "extant",
+    "subject": [
+      "portrait"
+    ],
+    "basis": "Form, technique and support from the research batch of 2026-11-02 (holding institution's record as read through search excerpts) where given, otherwise model recall; subjects editorial. Check against the holding's record."
+  },
+  "current_location": "geo-louvre",
+  "inventory": "INV 778; MR 317",
+  "medium": "oil",
+  "support": "walnut panel",
+  "dimensions": "63 x 45 cm",
+  "variants": [
+    "Portrait de femme, dit à tort La Belle Ferronnière",
+    "Portrait of a Woman"
+  ],
+  "summary": "Portrait of a woman in the Louvre (INV 778), first recorded at Fontainebleau in 1642; the title is a later misnomer.",
+  "timeline": {
+    "lane": "works",
+    "kind": "Painting",
+    "start": 1490,
+    "end": 1497,
+    "date": "c.1490 to 1497",
+    "tier": "S",
+    "place": "Milan, now Louvre",
+    "text": "Portrait of a woman of the Milanese court. The sitter's identity is unresolved and the date rests on style.",
+    "basis": "Museum dating; sitter identification interpretive."
+  },
+  "relations": [
+    {
+      "rel": "held_by",
+      "target": "geo-louvre",
+      "claim": "c1"
+    },
+    {
+      "rel": "depicts",
+      "target": "pe-lucrezia-crivelli",
+      "claim": "c5"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "about": "current_location",
+      "value": "Paris, Musée du Louvre, INV 778 (MR 317)",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre catalogues Portrait de femme, dit à tort La Belle Ferronnière, INV 778 (MR 317), oil on walnut, 63 x 45 cm, attributed to Leonardo.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 778. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062372"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "about": "date",
+      "value": {
+        "text": "c.1490 to 1497",
+        "start": 1490,
+        "end": 1497
+      },
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "The Louvre dates the portrait to the late fifteenth century, c.1490 to 1497 (stylistic).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 778. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062372"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c3",
+      "about": "provenance",
+      "value": "First mentioned, almost certainly, in 1642 at Fontainebleau",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre records the first mention (almost certainly this painting) in 1642 at the château of Fontainebleau.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 778. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062372"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "about": "label",
+      "value": "The title 'Belle Ferronnière' is a misnomer",
+      "layer": "fact",
+      "grade": "fact",
+      "status": "pending",
+      "statement": "The Louvre calls the title wrong ('dit à tort'); it arose from confusion with another portrait (the Louvre catalogues a separate panel, INV 786, under that name).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 778. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062372"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "about": "identity",
+      "value": "Sitter possibly Lucrezia Crivelli",
+      "layer": "interpretation",
+      "grade": "speculation",
+      "status": "pending",
+      "statement": "The Louvre visitor material says the sitter may have been Lucrezia Crivelli, a mistress of Ludovico Sforza; the identity is unresolved. Other identifications (e.g. Beatrice d'Este, Cecilia Gallerani) exist in the literature.",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, Treasures of the Italian Renaissance visitor trail. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/treasures-of-the-italian-renaissance"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    },
+    {
+      "id": "c6",
+      "about": "attribution",
+      "value": "Leonardo; workshop participation debated by some",
+      "layer": "interpretation",
+      "grade": "strong_interpretation",
+      "status": "pending",
+      "statement": "Attributed to Leonardo by the Louvre; some scholars have questioned the degree of autograph execution (holders not checked).",
+      "sources": [
+        {
+          "type": "other",
+          "cite": "Louvre, collections database, INV 778. Read via web search result summary in this session; the page itself could not be fetched (host blocked), so the wording must be rechecked on the page.",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010062372"
+        },
+        {
+          "ref": "src-syson-2011",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-marani-2000",
+          "loc": "to locate"
+        },
+        {
+          "ref": "src-zollner-2003",
+          "loc": "to locate"
+        }
+      ],
+      "check_in": [
+        "Marani 2000, catalogue entry",
+        "Zöllner 2003, catalogue entry"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Who holds the Lucrezia Crivelli identification, and on what evidence (the Latin epigrams on a portrait of Lucrezia in Codex Atlanticus)?"
+  ]
+}
