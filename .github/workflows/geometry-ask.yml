@@ -4,6 +4,7 @@ name: Corpus Geometriae, ask
 # form, or comment on any issue with a line starting /geo, for example:
 #   /geo prop I.47        /geo part archimedes-spiral
 #   /geo search gnomon    /geo verify          /geo list
+#   /geo archimedes       /geo arch SC.I.34
 #   /geo works            /geo text archimedes.dimensio-circuli 3      /geo greek μέναιχμ
 # Only the repository owner and collaborators can trigger it.
 on:

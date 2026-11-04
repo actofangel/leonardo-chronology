@@ -5,6 +5,8 @@
     python ops.py part euclid-II-11      one part: layers, checks, GeoGebra, Python
     python ops.py prop I.47              one Elements record: English, Greek, citations, formal proofs
     python ops.py search gnomon          Elements records whose English contains the text
+    python ops.py archimedes             Archimedes proposition by proposition, every check
+    python ops.py arch SC.I.33           one proposition: enunciation, Greek, checks
     python ops.py works                  the Greek texts beyond the Elements (Archimedes, Apollonius, Pappus, ...)
     python ops.py text archimedes.dimensio-circuli 3     one Greek passage
     python ops.py greek μέναιχμ          search the Greek texts (accents and case ignored)
@@ -151,6 +153,50 @@ def search(text):
     return f"## “{text}” in the Elements: {len(hits)} records\n\n| id | enunciation |\n|---|---|\n" + "\n".join(rows) + more
 
 
+def verify_archimedes():
+    import archimedes as A
+    rows, bad, total = [], 0, 0
+    for pid, p in A.PROPS.items():
+        for label, ch in A.run(pid):
+            total += 1
+            bad += not ch.ok
+            rows.append(f"| {'✅' if ch.ok else '❌'} | `{pid}` | {ch.method} | {label} |")
+    head = (f"## Archimedes: {len(A.PROPS)} propositions, {total} checks, " + ("all passed" if not bad else f"**{bad} FAILED**")
+            + "\n\nEach proposition first checks that the Greek numeral at its locus is the expected number. The checks "
+            "establish the stated results in modern terms, not Archimedes' methods of proof.")
+    return head + "\n\n| | proposition | method | check |\n|---|---|---|---|\n" + "\n".join(rows), bad
+
+
+def archimedes_list():
+    import archimedes as A
+    out = ["## Archimedes: propositions with checks", "", "| id | work | locus | enunciation (summary) |", "|---|---|---|---|"]
+    for pid, p in A.PROPS.items():
+        out.append(f"| `{pid}` | {p['work'].split('.', 1)[1]} | {p['locus']} | {p['statement'][:150].replace('|', '/')}{'…' if len(p['statement']) > 150 else ''} |")
+    out.append("\nOne proposition with its Greek: `arch <id>`. Run every check: `verify`.")
+    return "\n".join(out)
+
+
+def archimedes_prop(pid):
+    import archimedes as A
+    pid = pid.strip()
+    if pid not in A.PROPS:
+        near = [k for k in A.PROPS if pid.lower() in k.lower()]
+        return f"No proposition `{pid}`." + (f" Did you mean {', '.join(f'`{k}`' for k in near)}?" if near else " Try `archimedes`.")
+    p = A.PROPS[pid]
+    out = [f"## Archimedes {pid}", f"`{p['work']}` locus `{p['locus']}`", "", f"**Enunciation** (summary of the Greek): {p['statement']}"]
+    if p["note"]:
+        out += ["", f"**Interpretation and method**: {p['note']}"]
+    try:
+        import graeca as G
+        body = G.text(p["work"], p["locus"])
+        out += ["", "<details><summary>Greek (Mugler)</summary>\n\n> " + body[:4000] + ("…" if len(body) > 4000 else "") + "\n</details>"]
+    except Exception:
+        pass
+    out += ["", "### Checks (recomputed now)"]
+    out += [f"* {'✅' if ch.ok else '❌'} `{ch.method}` {label}" for label, ch in A.run(pid)]
+    return "\n".join(out)
+
+
 def works():
     import graeca as G
     out = ["## Greek mathematical texts beyond the Elements", "",
@@ -214,6 +260,10 @@ def ask(text):
         return search(arg.strip())
     if cmd == "works":
         return works()
+    if cmd == "archimedes":
+        return archimedes_list()
+    if cmd == "arch":
+        return archimedes_prop(arg)
     if cmd == "text":
         return greek_text(arg)
     if cmd == "greek":
@@ -231,11 +281,13 @@ def main(argv):
     cmd, arg = argv[1], " ".join(argv[2:])
     if cmd == "verify":
         text, bad = verify()
-        print(text)
-        sys.exit(1 if bad else 0)
+        text2, bad2 = verify_archimedes()
+        print(text + "\n\n" + text2)
+        sys.exit(1 if bad or bad2 else 0)
     text = {"list": lambda: listing(), "part": lambda: part(arg), "prop": lambda: prop(arg),
             "search": lambda: search(arg), "ask": lambda: ask(arg), "works": lambda: works(),
-            "text": lambda: greek_text(arg), "greek": lambda: greek_search(arg)}.get(cmd, lambda: __doc__)()
+            "text": lambda: greek_text(arg), "greek": lambda: greek_search(arg),
+            "archimedes": lambda: archimedes_list(), "arch": lambda: archimedes_prop(arg)}.get(cmd, lambda: __doc__)()
     if len(text) > LIMIT:
         text = text[:LIMIT] + "\n\n*(truncated; run locally for the full output)*"
     print(text)

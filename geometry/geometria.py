@@ -41,7 +41,9 @@ def same(a, b, method="symbolic"):
     d = sp.nsimplify(sp.radsimp(sp.sqrtdenest(d)))
     if d == 0:
         return Check(True, method)
-    return Check(abs(sp.N(d, 60)) < sp.Float("1e-50"), "numeric")
+    if d.free_symbols:  # a symbolic identity that does not simplify to zero is not confirmed by numbers
+        return Check(False, method)
+    return Check(bool(abs(sp.N(d, 60)) < sp.Float("1e-50")), "numeric")
 
 
 def close(a, b):

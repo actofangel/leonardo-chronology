@@ -16,6 +16,7 @@ This folder sits beside the database and is not read by `scripts/validate.mjs` o
 | `concordance.json` | Book I propositions mapped to GeoCoq and LeanEuclid |
 | `formal/GeoCoq/` | GeoCoq `theories/Elements` (254 files), Beeson's formalisation of Euclid's own proofs |
 | `formal/LeanEuclid/` | LeanEuclid `Book/` (48 files), System E, all Book I propositions |
+| `archimedes.py` | Archimedes proposition by proposition: 43 propositions from nine works, 121 exact checks, each tied to its Greek locus |
 | `graeca/` | 47 Greek mathematical works beyond the Elements: all of Archimedes, Eutocius, Apollonius' Conica I to IV, Pappus II to VIII, Euclid's Data, Optica, Catoptrica, Phaenomena, Sectio canonis, Theodosius, Autolycus, Aristarchus, Geminus, Ptolemy's Syntaxis, Hero, Nicomachus, Theon of Smyrna |
 | `graeca.py` | Library over `graeca/`: works, passages, accent insensitive Greek search, Greek sources of each part (`graeca/links.json`) |
 | `extract_graeca.py` | Extractor that produced `graeca/` from First1KGreek and the Open Greek Corpus |
@@ -43,6 +44,26 @@ Each part keeps fact (what the source states), interpretation (modern formalisat
 Checks are marked by method: `symbolic` holds identically in general symbols; `instance` holds exactly for one concrete construction; `numeric` is confirmed to 50 digits and is not a proof.
 
 The citation graph is read from Heath's bracketed references. Euclid's text cites nothing, so the graph and everything computed from it belong to the interpretive layer: it records Heath's reading of each proof.
+
+## Archimedes, proposition by proposition
+
+`archimedes.py` checks the enunciations of Archimedes' works one by one. Every entry gives the work and locus in `graeca/archimedes.json`, a summary of the Greek enunciation (factual layer), and checks. Before its checks run, each entry reads the Greek numeral at its locus and confirms it is the expected proposition: the encoding of De conoidibus skips 23, so from there its loci and Archimedes' numbers differ by one, and this guard catches any such shift.
+
+| Work | Propositions checked |
+| --- | --- |
+| Dimensio circuli | 1, 2, 3 (all of Archimedes' rational bounds for the 96-gons, from the numbers in the Greek) |
+| De sphaera et cylindro | I.13, 14, 16, 33, 34 with corollary, 42 (and 43), 44; II.2, 4, 8, 9 |
+| De conoidibus et sphaeroidibus | 4, 21, 25, 27, 29 (and 31) |
+| De lineis spiralibus | 18, 24, 25, 26, 27 |
+| Quadratura parabolae | 19, 23, 24 |
+| De planorum aequilibriis | I.6 (and 7), I.14 (and 13), II.8, II.10 |
+| Ad Eratosthenem methodus | preface (hoof, two cylinders), 6, 9, 11 |
+| Liber assumptorum | 4, 6, 8, 11, 14, 15 |
+| Arenarius, Problema bovinum | the bound 10⁶³; the first part of the cattle problem solved, the second reduced to Amthor's Pell equation |
+
+All 121 checks are symbolic or exact (instance); none rests on numerical agreement alone. They establish the stated results in modern terms (coordinates, integrals, exact arithmetic), not Archimedes' methods. Remarks that belong to interpretation are kept in each entry's note: Dimensio circuli 2 holds only with π replaced by 22/7 and so depends on proposition 3, which follows it; the Book of Lemmas survives only in Arabic; the reading of the cattle problem's second part as square and triangular numbers is a reading.
+
+Not yet covered: the lemmas and inequalities of De sphaera et cylindro I.1 to 32, the oblique sections of De conoidibus, De corporibus fluitantibus (stability of the paraboloid; Books I.1, I.2, II.5, II.6 survive only in Moerbeke's Latin), the Stomachion, and the Method propositions that repeat results checked elsewhere.
 
 ## Greek texts beyond the Elements
 
@@ -76,7 +97,7 @@ Not yet available on GitHub in any form found: Conica V to VII (Arabic only), Pa
 ## On GitHub
 
 * **Actions, Corpus Geometriae** (`.github/workflows/geometry.yml`): every push that touches `geometry/` reruns all checks and writes the table to the job summary. From the Actions tab, *Run workflow* runs any query (`verify`, `list`, `part`, `prop`, `search`) and shows the answer in the summary.
-* **Issues** (`.github/workflows/geometry-ask.yml`): open an issue with the *Ask the corpus* form, or comment `/geo prop I.47`, `/geo part archimedes-spiral`, `/geo search gnomon`, `/geo works`, `/geo text archimedes.sphaera-cylindrus 1.33`, `/geo greek μέναιχμ` on any issue; a workflow replies with the text, the Greek, the citations, the formal proofs or the recomputed checks. Only the owner and collaborators can trigger it.
+* **Issues** (`.github/workflows/geometry-ask.yml`): open an issue with the *Ask the corpus* form, or comment `/geo prop I.47`, `/geo part archimedes-spiral`, `/geo search gnomon`, `/geo works`, `/geo text archimedes.sphaera-cylindrus 1.33`, `/geo greek μέναιχμ`, `/geo archimedes`, `/geo arch SC.I.34` on any issue; a workflow replies with the text, the Greek, the citations, the formal proofs or the recomputed checks. Only the owner and collaborators can trigger it.
 * **Pages**: the reader is published with the database at `/geometry/`.
 * **Codespaces** (`.devcontainer/`): Python with sympy and JupyterLab, plus Node for the database scripts.
 

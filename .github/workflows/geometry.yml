@@ -12,10 +12,10 @@ on:
       command:
         description: "What to run"
         type: choice
-        options: [verify, list, part, prop, search, works, text, greek]
+        options: [verify, list, part, prop, search, works, text, greek, archimedes, arch]
         default: verify
       argument:
-        description: "Part id (euclid-II-11), Elements id (I.47), work and locus (archimedes.dimensio-circuli 3) or search text"
+        description: "Part id (euclid-II-11), Elements id (I.47), work and locus (archimedes.dimensio-circuli 3), Archimedes proposition (SC.I.34) or search text"
         required: false
         default: ""
 
