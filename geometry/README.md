@@ -16,6 +16,7 @@ This folder sits beside the database and is not read by `scripts/validate.mjs` o
 | `concordance.json` | Book I propositions mapped to GeoCoq and LeanEuclid |
 | `formal/GeoCoq/` | GeoCoq `theories/Elements` (254 files), Beeson's formalisation of Euclid's own proofs |
 | `formal/LeanEuclid/` | LeanEuclid `Book/` (48 files), System E, all Book I propositions |
+| `ops.py` | Markdown reports used by the workflows (`verify`, `list`, `part`, `prop`, `search`, `ask`) |
 | `site.html` | The published reader (single file HTML, data embedded) |
 
 ## Use
@@ -47,6 +48,15 @@ The citation graph is read from Heath's bracketed references. Euclid's text cite
 * GeoGebra sequences have not been tested in GeoGebra itself.
 * Greek text is missing for I.30, II.7, X.6 and XII.7 in the source encoding.
 * The build scripts that generated `site.html` and `parts.json` (metadata, figures, Newclid statements, page builder) were lost with a reset container and are not in this folder; their outputs are preserved in `parts.json` and `site.html`.
+
+## On GitHub
+
+* **Actions, Corpus Geometriae** (`.github/workflows/geometry.yml`): every push that touches `geometry/` reruns all checks and writes the table to the job summary. From the Actions tab, *Run workflow* runs any query (`verify`, `list`, `part`, `prop`, `search`) and shows the answer in the summary.
+* **Issues** (`.github/workflows/geometry-ask.yml`): open an issue with the *Ask the corpus* form, or comment `/geo prop I.47`, `/geo part archimedes-spiral`, `/geo search gnomon` on any issue; a workflow replies with the text, the Greek, the citations, the formal proofs or the recomputed checks. Only the owner and collaborators can trigger it.
+* **Pages**: the reader is published with the database at `/geometry/`.
+* **Codespaces** (`.devcontainer/`): Python with sympy and JupyterLab, plus Node for the database scripts.
+
+The same reports run locally: `python ops.py prop I.47`.
 
 ## Sources and licences
 

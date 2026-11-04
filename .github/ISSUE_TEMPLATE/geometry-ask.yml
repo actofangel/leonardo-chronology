@@ -1,0 +1,16 @@
+name: Ask the corpus
+description: Query Corpus Geometriae or the Elements; a workflow replies in a comment.
+title: "[geo] "
+labels: [geometry]
+body:
+  - type: input
+    id: request
+    attributes:
+      label: Request
+      description: "verify · list · part <id> · prop <id> · search <text>, or just an id such as I.47"
+      placeholder: prop I.47
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "Follow ups can be asked in comments on any issue, one per line starting with `/geo`, for example `/geo prop XIII.18` or `/geo search gnomon`."

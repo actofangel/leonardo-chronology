@@ -24,7 +24,25 @@ import re
 from functools import lru_cache
 
 ROOT = pathlib.Path(__file__).parent
-_D = json.loads((ROOT / "elements.json").read_text())
+ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII"]
+
+
+def _load():
+    """Read elements.json in either layout: the full one written by extract_elements.py (records keyed by id)
+    or the compact one embedded in site.html (a list of records with short keys)."""
+    d = json.loads((ROOT / "elements.json").read_text())
+    if isinstance(d["records"], list):
+        d["records"] = {r["id"]: dict(
+            id=r["id"], book=ROMAN[int(r["b"]) - 1], kind=r["k"], number=r["n"], page=r.get("page"),
+            enunciation=r.get("en") or "", proof=r.get("pr") or "", greek=r.get("gr") or "",
+            notes=r.get("notes") or [], cites=r.get("c") or [], cited_by=r.get("cb") or [],
+            geocoq=r.get("gc") or [], lean=r.get("ln")) for r in d["records"]}
+        d["geocoq"] = {k: dict(file=v["file"], source=v["src"], requires=v.get("req", [])) for k, v in d["geocoq"].items()}
+        d["lean"] = {k: dict(file=v["file"], source=v["src"], uses=v.get("uses", [])) for k, v in d["lean"].items()}
+    return d
+
+
+_D = _load()
 RECORDS = _D["records"]
 SOURCES = _D["sources"]
 GAPS = _D["gaps"]
@@ -111,7 +129,20 @@ def summary():
                 greek_missing=GAPS["missing_greek"])
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" and len(__import__("sys").argv) > 1:
+    import sys
+    cmd, arg = sys.argv[1], " ".join(sys.argv[2:])
+    if cmd == "get":
+        r = get(arg)
+        print(f"{arg}\n\n{r['enunciation']}\n\n{r['greek']}\n\ncites: {', '.join(r['cites']) or 'nothing'}")
+        print(f"cited by: {', '.join(r['cited_by']) or 'nothing'}\nrests on Post. 5: {uses_parallel_postulate(arg)}")
+    elif cmd == "search":
+        print("\n".join(search(arg)))
+    elif cmd == "foundations":
+        print("\n".join(foundations(arg)))
+    else:
+        sys.exit("usage: python elementa.py [get ID | search TEXT | foundations ID]")
+elif __name__ == "__main__":
     for k, v in summary().items():
         print(f"{k:24s} {v}")
     print("I.47 rests on", len(foundations("I.47")), "records, postulates:", foundations("I.47", "post"))
