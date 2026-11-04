@@ -1,0 +1,12 @@
+{
+  "archimedes-circle": [{"work": "archimedes.dimensio-circuli", "locus": "3"}],
+  "archimedes-parabola": [{"work": "archimedes.quadratura-parabolae", "locus": "17"}, {"work": "archimedes.quadratura-parabolae", "locus": "24"}],
+  "archimedes-sphere": [{"work": "archimedes.sphaera-cylindrus", "locus": "1.33"}, {"work": "archimedes.sphaera-cylindrus", "locus": "1.34"}],
+  "archimedes-arbelos": [{"work": "archimedes.liber-assumptorum", "locus": "5", "note": "The Liber assumptorum survives only in Arabic; the Greek is the editor's text, the Latin follows the Arabic tradition."}, {"work": "archimedes.liber-assumptorum-lat", "locus": "5"}],
+  "archimedes-spiral": [{"work": "archimedes.spirales", "locus": "pr", "note": "Preface with the definitions."}, {"work": "archimedes.spirales", "locus": "18"}, {"work": "archimedes.spirales", "locus": "24"}],
+  "apollonius-ellipse": [{"work": "apollonius.conica-1-3", "locus": "3.heiberg-p0436", "note": "Conica III.52 begins on this page of Heiberg vol. 1 (OCR; collate before citing)."}],
+  "apollonius-tangencies": [{"work": "pappus.synagoge-6-8", "locus": "7.hultsch-p0644", "note": "Pappus' summary of the two books of Tangencies, with the general problem (OCR; collate before citing)."}],
+  "apollonius-circle": [{"work": "pappus.synagoge-6-8", "locus": "7.hultsch-p0666", "note": "Plane Loci Book II: points from which lines inflected to two given points are in a given ratio lie on a straight line or a circle (OCR; collate before citing)."}],
+  "menaechmus-cube": [{"work": "eutocius.in-sphaeram-cylindrum", "locus": "31", "note": "Ὡς Μέναιχμος: Menaechmus' two solutions as reported by Eutocius on De sphaera et cylindro II.1."}],
+  "euclid-IV-11": [{"work": "ptolemy.syntaxis", "locus": "1.10", "note": "Almagest I.10, the construction of the sides of the decagon and pentagon."}]
+}

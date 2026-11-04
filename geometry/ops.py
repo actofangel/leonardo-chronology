@@ -5,6 +5,9 @@
     python ops.py part euclid-II-11      one part: layers, checks, GeoGebra, Python
     python ops.py prop I.47              one Elements record: English, Greek, citations, formal proofs
     python ops.py search gnomon          Elements records whose English contains the text
+    python ops.py works                  the Greek texts beyond the Elements (Archimedes, Apollonius, Pappus, ...)
+    python ops.py text archimedes.dimensio-circuli 3     one Greek passage
+    python ops.py greek μέναιχμ          search the Greek texts (accents and case ignored)
     python ops.py ask "prop I.47"        parse a free request (used by the issue workflow)
 
 Output is Markdown on stdout.
@@ -76,6 +79,20 @@ def part(pid):
         out += [f"* {'✅' if ch.ok else '❌'} `{ch.method}` {label}" for label, ch in checks]
     except Exception as exc:  # report, do not hide
         out.append(f"Could not run: `{exc!r}`")
+    try:
+        import graeca as G
+        src = G.sources(pid)
+    except Exception:
+        src = []
+    if src:
+        out += ["", "### Greek source text"]
+        for wid, locus, note in src:
+            w = G.work(wid)
+            flag = " · **OCR, collate with the printed page before citing**" if w["transmission"] == "ocr" else ""
+            body = G.text(wid, locus)
+            out.append(f"<details><summary>{w['author']}, {w['title']}, {locus}{flag}</summary>\n\n"
+                       + (f"*{note}*\n\n" if note else "") + "> " + body[:3000] + ("…" if len(body) > 3000 else "")
+                       + f"\n\n{w['edition'][:200]}. [{w['source']['repo']}]({w['source']['url']})\n</details>")
     out += ["", "### GeoGebra (paste into the Input Bar)", fence(p["ggb"])]
     if p.get("note"):
         out.append(f"*{p['note']}*")
@@ -134,6 +151,48 @@ def search(text):
     return f"## “{text}” in the Elements: {len(hits)} records\n\n| id | enunciation |\n|---|---|\n" + "\n".join(rows) + more
 
 
+def works():
+    import graeca as G
+    out = ["## Greek mathematical texts beyond the Elements", "",
+           "`tei`: curated encoding (First1KGreek). `ocr`: machine transcription by printed page (Open Greek Corpus); "
+           "unresolved readings stay as ⟦a ∥ b⟧ and must be collated before citing.", "",
+           "| work | author | title | transmission | passages |", "|---|---|---|---|---|"]
+    out += [f"| `{w['id']}` | {w['author']} | {w['title']} | {w['transmission']} | {w['passages']} |" for w in G.INDEX]
+    out.append("\nRead one with `text <work> <locus>`; list loci with `text <work>`.")
+    return "\n".join(out)
+
+
+def greek_text(arg):
+    import graeca as G
+    wid, _, locus = arg.strip().partition(" ")
+    try:
+        w = G.work(wid)
+    except KeyError:
+        near = [x["id"] for x in G.INDEX if wid and wid.lower() in x["id"]]
+        return f"No work `{wid}`." + (f" Did you mean {', '.join(f'`{k}`' for k in near)}?" if near else " Try `works`.")
+    if not locus.strip():
+        return f"## {w['author']}, {w['title']}\n\nLoci ({w['units']}): " + ", ".join(f"`{l}`" for l in G.loci(wid))
+    try:
+        body = G.text(wid, locus.strip())
+    except KeyError:
+        return f"`{wid}` has no locus `{locus.strip()}`. Loci: " + ", ".join(f"`{l}`" for l in G.loci(wid)[:80])
+    head = [f"## {w['author']}, {w['title']}, {locus.strip()}", f"*{w['edition'][:300]}*",
+            f"Source: [{w['source']['repo']} `{w['source']['path']}`]({w['source']['url']}), {w['licence']}"]
+    if w["transmission"] == "ocr":
+        head.append(f"> **Caution**: {w.get('caution', 'machine OCR')}")
+    return "\n\n".join(head + ["> " + body])
+
+
+def greek_search(pattern):
+    import graeca as G
+    if not pattern.strip():
+        return "Give Greek text to search for, for example `greek μέναιχμ`."
+    hits = G.search(pattern)
+    rows = [f"| `{w}` | `{l}` |" for w, l in hits[:150]]
+    more = f"\n\n…and {len(hits) - 150} more." if len(hits) > 150 else ""
+    return f"## “{pattern}” in the Greek texts: {len(hits)} passages\n\n| work | locus |\n|---|---|\n" + "\n".join(rows) + more
+
+
 def normalise(rid):
     rid = rid.strip().strip("`")
     m = re.fullmatch(r"(?i)([ivxl]+)[.\s]*(.*)", rid)
@@ -153,6 +212,12 @@ def ask(text):
         return prop(arg)
     if cmd == "search":
         return search(arg.strip())
+    if cmd == "works":
+        return works()
+    if cmd == "text":
+        return greek_text(arg)
+    if cmd == "greek":
+        return greek_search(arg)
     if text in BYID:
         return part(text)
     if re.fullmatch(r"(?i)[ivxl]+\.[\w.]+", text):
@@ -169,7 +234,8 @@ def main(argv):
         print(text)
         sys.exit(1 if bad else 0)
     text = {"list": lambda: listing(), "part": lambda: part(arg), "prop": lambda: prop(arg),
-            "search": lambda: search(arg), "ask": lambda: ask(arg)}.get(cmd, lambda: __doc__)()
+            "search": lambda: search(arg), "ask": lambda: ask(arg), "works": lambda: works(),
+            "text": lambda: greek_text(arg), "greek": lambda: greek_search(arg)}.get(cmd, lambda: __doc__)()
     if len(text) > LIMIT:
         text = text[:LIMIT] + "\n\n*(truncated; run locally for the full output)*"
     print(text)
