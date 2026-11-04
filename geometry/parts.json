@@ -1,0 +1,866 @@
+{
+ "traditions": [
+  {
+   "key": "hippocrates",
+   "name": "Hippocrates Chius",
+   "date": "fl. c. 440 BCE",
+   "edition": "Simplicius, In Aristotelis Physicorum libros commentaria, ed. H. Diels, CAG IX (Berlin 1882)"
+  },
+  {
+   "key": "menaechmus",
+   "name": "Menaechmus",
+   "date": "fl. c. 350 BCE",
+   "edition": "Eutocius, Commentarii in libros De sphaera et cylindro, in Archimedis opera omnia, ed. J. L. Heiberg, vol. III (Leipzig 1915)"
+  },
+  {
+   "key": "euclid",
+   "name": "Euclides",
+   "date": "c. 300 BCE",
+   "edition": "Euclidis Elementa, ed. J. L. Heiberg, 5 vols (Leipzig 1883-1888)"
+  },
+  {
+   "key": "archimedes",
+   "name": "Archimedes",
+   "date": "287-212 BCE",
+   "edition": "Archimedis opera omnia, ed. J. L. Heiberg, 2nd ed., 3 vols (Leipzig 1910-1915)"
+  },
+  {
+   "key": "apollonius",
+   "name": "Apollonius Pergaeus",
+   "date": "c. 240-190 BCE",
+   "edition": "Apollonii Pergaei quae Graece exstant, ed. J. L. Heiberg (Leipzig 1891-1893); Pappi Alexandrini Collectionis quae supersunt, ed. F. Hultsch (Berlin 1876-1878)"
+  },
+  {
+   "key": "ptolemy",
+   "name": "Ptolemaeus",
+   "date": "c. 150 CE",
+   "edition": "Claudii Ptolemaei Syntaxis mathematica, ed. J. L. Heiberg (Leipzig 1898-1903)"
+  },
+  {
+   "key": "alberti",
+   "name": "Leon Battista Alberti",
+   "date": "1435",
+   "edition": "De pictura / Della pittura (Latin 1435, vernacular 1436); ed. C. Grayson (Roma-Bari 1975)"
+  },
+  {
+   "key": "pacioli",
+   "name": "Luca Pacioli",
+   "date": "1494 / 1509",
+   "edition": "Summa de arithmetica (Venezia 1494); Divina proportione (Venezia: Paganino Paganini, 1509)"
+  },
+  {
+   "key": "leonardo",
+   "name": "Leonardo da Vinci",
+   "date": "1452-1519",
+   "edition": "Codice Atlantico, Milano, Biblioteca Ambrosiana; ed. A. Marinoni (Firenze 1973-1980)"
+  }
+ ],
+ "parts": [
+  {
+   "id": "euclid-I-1",
+   "tradition": "euclid",
+   "title": "Equilateral triangle on a given line",
+   "locus": "Elementa I.1",
+   "status": "fixed",
+   "fact": "To construct an equilateral triangle on a given finite straight line. Circles with centres A and B and radius AB meet at C; join CA and CB.",
+   "interp": "The first construction of the Elements, to which later constructions reduce. That the two circles intersect does not follow from the postulates; Euclid assumes it tacitly, a gap filled by modern axiomatisations.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "CA = AB",
+     "ok": true,
+     "method": "instance"
+    },
+    {
+     "label": "CB = AB",
+     "ok": true,
+     "method": "instance"
+    }
+   ],
+   "ggb": "A = (0, 0)\nB = (4, 0)\nc1 = Circle(A, B)\nc2 = Circle(B, A)\nC = Intersect(c1, c2, 1)\nt = Polygon(A, B, C)\ncheck = Distance(C, A) == Distance(A, B)",
+   "note": null,
+   "python": "@part(id=\"euclid-I-1\", tradition=\"euclid\")\ndef euclid_I_1():\n    \"\"\"On a given finite straight line, construct an equilateral triangle.\"\"\"\n    A, B = Point(0, 0), Point(2, 0)\n    c1 = Circle(A, A.distance(B))          # circle with centre A and radius AB\n    c2 = Circle(B, B.distance(A))          # circle with centre B and radius BA\n    C = max(c1.intersection(c2), key=lambda p: p.y)\n    return dict(A=A, B=B, C=C, c1=c1, c2=c2), [\n        (\"CA = AB\", same(C.distance(A), A.distance(B), \"instance\")),\n        (\"CB = AB\", same(C.distance(B), A.distance(B), \"instance\")),\n    ]\n",
+   "formal": [
+    {
+     "name": "GeoCoq",
+     "system": "Coq / Rocq",
+     "license": "LGPL-3.0",
+     "path": "theories/Elements/OriginalProofs/proposition_01.v",
+     "statement": "Lemma proposition_01 : \n   forall A B, \n   neq A B ->\n   exists X, equilateral A B X /\\ Triangle A B X.",
+     "url": "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_01.v"
+    },
+    {
+     "name": "LeanEuclid",
+     "system": "Lean 4 (System E)",
+     "license": "MIT",
+     "path": "Book/Prop01.lean",
+     "statement": "theorem proposition_1 : ∀ (a b : Point) (AB : Line),\n  distinctPointsOnLine a b AB →\n  ∃ c : Point, |(c─a)| = |(a─b)| ∧ |(c─b)| = |(a─b)|",
+     "url": "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop01.lean"
+    }
+   ],
+   "machine": null,
+   "elem": "I.1",
+   "svg": "<svg viewBox=\"0 0 400.0 292.5\" role=\"img\"><circle class=\"a\" cx=\"146.24\" cy=\"146.24\" r=\"107.53\"/><circle class=\"a\" cx=\"253.76\" cy=\"146.24\" r=\"107.53\"/><polygon class=\"f\" points=\"146.24,146.24 253.76,146.24 200.0,53.12\"/><line class=\"g\" x1=\"146.24\" y1=\"146.24\" x2=\"253.76\" y2=\"146.24\"/><line class=\"k\" x1=\"146.24\" y1=\"146.24\" x2=\"200.0\" y2=\"53.12\"/><line class=\"k\" x1=\"253.76\" y1=\"146.24\" x2=\"200.0\" y2=\"53.12\"/><circle class=\"dot g\" cx=\"146.24\" cy=\"146.24\" r=\"3\"/><text class=\"lbl\" x=\"129.84\" y=\"159.84\">A</text><circle class=\"dot g\" cx=\"253.76\" cy=\"146.24\" r=\"3\"/><text class=\"lbl\" x=\"259.76\" y=\"159.84\">B</text><circle class=\"dot k\" cx=\"200.0\" cy=\"53.12\" r=\"3\"/><text class=\"lbl\" x=\"201.8\" y=\"44.32\">C</text></svg>"
+  },
+  {
+   "id": "euclid-I-10",
+   "tradition": "euclid",
+   "title": "Bisecting a line",
+   "locus": "Elementa I.10",
+   "status": "fixed",
+   "fact": "To bisect a given finite straight line.",
+   "interp": "Euclid himself combines the equilateral triangle of I.1 with the angle bisection of I.9. The method used here, joining the two intersections of two circles, is the equivalent modern standard construction, not Euclid's own procedure.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "AM = MB",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "PQ ⊥ AB",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "A = (0, 0)\nB = (4, 0)\nc1 = Circle(A, B)\nc2 = Circle(B, A)\nP = Intersect(c1, c2, 1)\nQ = Intersect(c1, c2, 2)\nM = Intersect(Line(P, Q), Line(A, B))\ncheck = Distance(A, M) == Distance(M, B)",
+   "note": null,
+   "python": "@part(id=\"euclid-I-10\", tradition=\"euclid\")\ndef euclid_I_10():\n    \"\"\"Bisect a given finite straight line (modern two-circle construction).\"\"\"\n    A, B = Point(0, 0), Point(2 * a, 0)\n    c1, c2 = Circle(A, 2 * a), Circle(B, 2 * a)\n    P, Q = c1.intersection(c2)\n    M = Line(P, Q).intersection(Line(A, B))[0]\n    return dict(A=A, B=B, P=P, Q=Q, M=M), [\n        (\"AM = MB\", same(A.distance(M), M.distance(B))),\n        (\"PQ ⊥ AB\", same(Line(P, Q).direction.dot(Line(A, B).direction), 0)),\n    ]\n",
+   "formal": [
+    {
+     "name": "GeoCoq",
+     "system": "Coq / Rocq",
+     "license": "LGPL-3.0",
+     "path": "theories/Elements/OriginalProofs/proposition_10.v",
+     "statement": "Lemma proposition_10 : \n   forall A B, \n   neq A B ->\n   exists X, BetS A X B /\\ Cong X A X B.",
+     "url": "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_10.v"
+    },
+    {
+     "name": "LeanEuclid",
+     "system": "Lean 4 (System E)",
+     "license": "MIT",
+     "path": "Book/Prop10.lean",
+     "statement": "theorem proposition_10 : ∀ (a b : Point) (AB : Line), distinctPointsOnLine a b AB →\n  ∃ d : Point, (between a d b) ∧ (|(a─d)| = |(d─b)|)",
+     "url": "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop10.lean"
+    }
+   ],
+   "machine": {
+    "engine": "Newclid 2.0.2",
+    "seed": 1,
+    "jgex": "a b = segment a b; p = on_circle p a b, on_circle p b a; q = on_circle q a b, on_circle q b a; m = on_line m p q, on_line m a b ? midp m a b",
+    "note": "A genuine derivation by a different route from Euclid's: SSS congruence of APB and AQB, parallels, and the intercept rule r07 give MA = MB. Euclid uses I.1, I.4 and I.9 instead.",
+    "proved": true,
+    "runtime": 1.144,
+    "proof": "==========================\n * From theorem premises:\nA B P Q M : Points\nAP = AB [00]\nBP = BA [01]\nBQ = BA [02]\nAQ = AB [03]\nM,B,A are collinear [04]\nM,Q,P are collinear [05]\n\n * Auxiliary Constructions:\n: Points\n\n\n * Proof steps:\n001. AP = AB [00] & BQ = BA [02] (why_cong_resolution)⇒  QB = PA [06]\n002. BP = BA [01] & AQ = AB [03] (why_cong_resolution)⇒  AQ = BP [07]\n003. QB = PA [06] & AQ = BP [07] (SSS 32)⇒  BQ ∥ AP [08]\n004. BQ ∥ AP [08] & M,B,A are collinear [04] & M,Q,P are collinear [05] (r07)⇒  MQ:MP = MB:MA [09]\n005. BQ ∥ AP [08] & M,B,A are collinear [04] & M,Q,P are collinear [05] (r07)⇒  QB:PA = MQ:MP [10]\n006. QB:PA = MQ:MP [10] & QB = PA [06] (i02)⇒  MQ = MP [11]\n007. MQ:MP = MB:MA [09] & MQ = MP [11] (i02)⇒  MB = MA [12]\n008. M,A,B are collinear [04] & MB = MA [12] (why_midp_resolution)⇒  M is midpoint of AB(*)\n=========================="
+   },
+   "elem": "I.10",
+   "svg": "<svg viewBox=\"0 0 400.0 292.5\" role=\"img\"><circle class=\"a\" cx=\"146.24\" cy=\"146.24\" r=\"107.53\"/><circle class=\"a\" cx=\"253.76\" cy=\"146.24\" r=\"107.53\"/><line class=\"g\" x1=\"146.24\" y1=\"146.24\" x2=\"253.76\" y2=\"146.24\"/><line class=\"k\" x1=\"200.0\" y1=\"53.12\" x2=\"200.0\" y2=\"239.36\"/><circle class=\"dot g\" cx=\"146.24\" cy=\"146.24\" r=\"3\"/><text class=\"lbl\" x=\"129.84\" y=\"159.84\">A</text><circle class=\"dot g\" cx=\"253.76\" cy=\"146.24\" r=\"3\"/><text class=\"lbl\" x=\"259.76\" y=\"159.84\">B</text><circle class=\"dot g\" cx=\"200.0\" cy=\"53.12\" r=\"3\"/><text class=\"lbl\" x=\"206.0\" y=\"47.12\">P</text><circle class=\"dot g\" cx=\"200.0\" cy=\"239.36\" r=\"3\"/><text class=\"lbl\" x=\"206.0\" y=\"250.16000000000003\">Q</text><circle class=\"dot k\" cx=\"200.0\" cy=\"146.24\" r=\"3\"/><text class=\"lbl\" x=\"206.0\" y=\"159.84\">M</text></svg>"
+  },
+  {
+   "id": "euclid-I-47",
+   "tradition": "euclid",
+   "title": "The three squares of a right triangle",
+   "locus": "Elementa I.47",
+   "status": "fixed",
+   "fact": "In right-angled triangles the square on the side subtending the right angle is equal to the squares on the sides containing the right angle.",
+   "interp": "The coordinate distance formula presupposes this theorem, so the Python part computes areas with the shoelace formula and follows the skeleton of Euclid's proof: the perpendicular from the right angle, produced, divides the square on the hypotenuse into two rectangles, each equal to the square on one leg.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "rectangle BDLK = square on AB",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "rectangle KLEC = square on AC",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "square on BC = sum of the two squares",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "A = (0, 0)\nB = (4, 0)\nC = (0, 3)\nt = Polygon(A, B, C)\nsqAB = Polygon(B, A, 4)\nsqAC = Polygon(A, C, 4)\nsqBC = Polygon(C, B, 4)\nh = PerpendicularLine(A, Line(B, C))\ncheck = Area(sqBC) == Area(sqAB) + Area(sqAC)",
+   "note": null,
+   "python": "@part(id=\"euclid-I-47\", tradition=\"euclid\")\ndef euclid_I_47():\n    \"\"\"In a right triangle the square on the hypotenuse equals the squares on the other two sides.\n    The coordinate distance formula presupposes this very theorem, so areas are computed with the\n    shoelace formula, following the skeleton of Euclid's proof (the altitude, extended, divides the\n    square on the hypotenuse into two rectangles).\"\"\"\n    A, B, C = (0, 0), (c, 0), (0, b)                 # right angle at A\n    D, E = (c + b, c), (b, b + c)                    # square B C E D on BC (outward)\n    s = (c * c) / (b * b + c * c)                    # foot of the perpendicular from A: K = B + s·(C - B)\n    K = (c - s * c, s * b)                           # (projection by dot product; no distances used)\n    L = (K[0] + b, K[1] + c)                         # AK extended meets DE at L\n    sq_AB = shoelace((0, 0), (0, -c), (c, -c), (c, 0))\n    sq_AC = shoelace((0, 0), (0, b), (-b, b), (-b, 0))\n    rect_B = shoelace(B, D, L, K)\n    rect_C = shoelace(K, L, E, C)\n    sq_BC = shoelace(B, D, E, C)\n    return dict(A=A, B=B, C=C, D=D, E=E, K=K, L=L), [\n        (\"rectangle BDLK = square on AB\", same(abs(rect_B), abs(sq_AB))),\n        (\"rectangle KLEC = square on AC\", same(abs(rect_C), abs(sq_AC))),\n        (\"square on BC = sum of the two squares\", same(abs(sq_BC), abs(sq_AB) + abs(sq_AC))),\n    ]\n",
+   "formal": [
+    {
+     "name": "GeoCoq",
+     "system": "Coq / Rocq",
+     "license": "LGPL-3.0",
+     "path": "theories/Elements/OriginalProofs/proposition_47.v",
+     "statement": "Lemma proposition_47 : \n   forall A B C D E F G H K, \n   Triangle A B C -> Per B A C -> SQ A B F G -> TS G B A C -> SQ A C K H -> TS H C A B -> SQ B C E D -> TS D C B A ->\n   exists X Y, PG B X Y D /\\ BetS B X C /\\ PG X C E Y /\\ BetS D Y E /\\ EF A B F G B X Y D /\\ EF A C K H X C E Y.",
+     "url": "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_47.v"
+    },
+    {
+     "name": "LeanEuclid",
+     "system": "Lean 4 (System E)",
+     "license": "MIT",
+     "path": "Book/Prop47.lean",
+     "statement": "theorem proposition_47 : ∀ (a b c: Point) (AB BC AC : Line),\n  formTriangle a b c AB BC AC ∧ (∠ b:a:c : ℝ) = ∟ →\n  |(b─c)| * |(b─c)| = |(b─a)| * |(b─a)| + |(a─c)| * |(a─c)|",
+     "url": "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop47.lean"
+    }
+   ],
+   "machine": null,
+   "elem": "I.47",
+   "svg": "<svg viewBox=\"0 0 370.7 400.0\" role=\"img\"><polygon class=\"f\" points=\"126.69,243.99 126.69,361.29 243.99,361.29 243.99,243.99\"/><polygon class=\"f\" points=\"243.99,243.99 331.96,126.69 256.89,70.38 168.91,187.68\"/><polygon class=\"a\" points=\"126.69,243.99 126.69,156.01 38.71,156.01 38.71,243.99\"/><polygon class=\"a\" points=\"168.91,187.68 256.89,70.38 214.66,38.71 126.69,156.01\"/><polygon class=\"g\" points=\"243.99,243.99 331.96,126.69 214.66,38.71 126.69,156.01\"/><polygon class=\"g\" points=\"126.69,243.99 243.99,243.99 126.69,156.01\"/><line class=\"k\" x1=\"126.69\" y1=\"243.99\" x2=\"256.89\" y2=\"70.38\"/><circle class=\"dot g\" cx=\"126.69\" cy=\"243.99\" r=\"3\"/><text class=\"lbl\" x=\"110.28999999999999\" y=\"257.59000000000003\">A</text><circle class=\"dot g\" cx=\"243.99\" cy=\"243.99\" r=\"3\"/><text class=\"lbl\" x=\"251.39000000000001\" y=\"257.59000000000003\">B</text><circle class=\"dot g\" cx=\"126.69\" cy=\"156.01\" r=\"3\"/><text class=\"lbl\" x=\"113.09\" y=\"147.20999999999998\">C</text><circle class=\"dot g\" cx=\"331.96\" cy=\"126.69\" r=\"3\"/><text class=\"lbl\" x=\"337.96\" y=\"120.69\">D</text><circle class=\"dot g\" cx=\"214.66\" cy=\"38.71\" r=\"3\"/><text class=\"lbl\" x=\"212.26\" y=\"29.91\">E</text><circle class=\"dot k\" cx=\"168.91\" cy=\"187.68\" r=\"3\"/><text class=\"lbl\" x=\"152.51\" y=\"187.28\">K</text><circle class=\"dot k\" cx=\"256.89\" cy=\"70.38\" r=\"3\"/><text class=\"lbl\" x=\"262.89\" y=\"61.58\">L</text></svg>"
+  },
+  {
+   "id": "euclid-II-11",
+   "tradition": "euclid",
+   "title": "Division in extreme and mean ratio",
+   "locus": "Elementa II.11; VI Def. 3; VI.30",
+   "status": "fixed",
+   "fact": "To cut a given straight line so that the rectangle contained by the whole and one of the segments is equal to the square on the remaining segment (II.11). VI.30 restates the same division in the language of ratio: to cut a line in extreme and mean ratio.",
+   "interp": "The ratio whole : greater = greater : lesser is what Pacioli called the divina proportione; the name \"golden ratio\" dates from the nineteenth century. Euclid uses neither name.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "AB·GB = AG²",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "AB : AG = AG : GB = φ",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "A = (0, 0)\nB = (6, 0)\nC = Rotate(B, 90°, A)\nsq = Polygon(A, B, Rotate(A, -90°, B), C)\nE = Midpoint(A, C)\nF = E + Distance(E, B) * UnitVector(Vector(C, A))\nG = Intersect(Circle(A, F), Segment(A, B))\nratio = Distance(A, B) / Distance(A, G)\ncheck = Distance(A, B) * Distance(G, B) == Distance(A, G)^2",
+   "note": null,
+   "python": "@part(id=\"euclid-II-11\", tradition=\"euclid\")\ndef euclid_II_11():\n    \"\"\"Cut a given line AB at G so that the rectangle contained by the whole and one segment equals\n    the square on the other segment (extreme and mean ratio, later the \"golden ratio\").\"\"\"\n    AB = a\n    # square ABDC on AB, E the midpoint of AC, F on CA produced with EF = EB, AG = AF\n    EB = sp.sqrt(AB**2 + (AB / 2) ** 2)\n    AG = EB - AB / 2\n    GB = AB - AG\n    return dict(AB=AB, AG=AG, GB=GB), [\n        (\"AB·GB = AG²\", same(AB * GB, AG**2)),\n        (\"AB : AG = AG : GB = φ\", same(AB / AG, phi)),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": "II.11",
+   "svg": "<svg viewBox=\"0 0 276.8 400.0\" role=\"img\"><polygon class=\"a\" points=\"38.71,238.08 238.08,238.08 238.08,38.71 38.71,38.71\"/><polygon class=\"f\" points=\"38.71,238.08 161.92,238.08 161.92,361.29 38.71,361.29\"/><polyline class=\"k\" points=\"238.08,238.08 236.32,241.51 234.51,244.91 232.64,248.28 230.71,251.62 228.72,254.93 226.67,258.2 224.57,261.43 222.42,264.63 220.21,267.78 217.94,270.9 215.62,273.99 213.25,277.03 210.83,280.02 208.35,282.98 205.82,285.89 203.25,288.76 200.62,291.59 197.95,294.36 195.23,297.09 192.46,299.78 189.64,302.41 186.78,305.0 183.88,307.54 180.93,310.02 177.94,312.46 174.91,314.84 171.84,317.17 168.72,319.44 165.57,321.67 162.38,323.83 159.16,325.95 155.89,328.0 152.6,330.0 149.26,331.94 145.9,333.82 142.5,335.65 139.08,337.42 135.62,339.12 132.13,340.77 128.62,342.35 125.08,343.88 121.51,345.34 117.92,346.74 114.3,348.08 110.66,349.36 107.0,350.57 103.32,351.72 99.62,352.81 95.9,353.83 92.17,354.79 88.42,355.68 84.65,356.5 80.87,357.27 77.08,357.96 73.27,358.59 69.46,359.16 65.64,359.66 61.8,360.09 57.97,360.46 54.12,360.76 50.27,360.99 46.42,361.16 42.57,361.26 38.71,361.29\"/><polyline class=\"k\" points=\"38.71,361.29 41.73,361.25 44.76,361.14 47.77,360.96 50.79,360.7 53.79,360.36 56.79,359.96 59.77,359.48 62.75,358.92 65.71,358.3 68.65,357.6 71.57,356.83 74.48,355.98 77.36,355.07 80.22,354.09 83.05,353.03 85.86,351.91 88.64,350.72 91.39,349.46 94.11,348.13 96.79,346.74 99.44,345.28 102.05,343.76 104.63,342.17 107.16,340.52 109.66,338.81 112.11,337.04 114.52,335.21 116.88,333.32 119.19,331.37 121.46,329.37 123.67,327.31 125.84,325.2 127.95,323.04 130.01,320.82 132.01,318.56 133.96,316.24 135.85,313.88 137.68,311.47 139.45,309.02 141.16,306.53 142.81,304.0 144.39,301.42 145.92,298.81 147.38,296.16 148.77,293.47 150.09,290.76 151.35,288.01 152.55,285.23 153.67,282.42 154.72,279.59 155.71,276.73 156.62,273.84 157.46,270.94 158.23,268.01 158.93,265.07 159.56,262.11 160.11,259.14 160.59,256.15 161.0,253.16 161.33,250.15 161.59,247.14 161.78,244.12 161.89,241.1 161.92,238.08\"/><line class=\"g\" x1=\"38.71\" y1=\"238.08\" x2=\"238.08\" y2=\"238.08\"/><line class=\"a\" x1=\"38.71\" y1=\"138.39\" x2=\"238.08\" y2=\"238.08\"/><line class=\"a\" x1=\"38.71\" y1=\"38.71\" x2=\"38.71\" y2=\"361.29\"/><circle class=\"dot g\" cx=\"38.71\" cy=\"238.08\" r=\"3\"/><text class=\"lbl\" x=\"22.31\" y=\"229.28\">A</text><circle class=\"dot g\" cx=\"238.08\" cy=\"238.08\" r=\"3\"/><text class=\"lbl\" x=\"245.48000000000002\" y=\"229.28\">B</text><circle class=\"dot g\" cx=\"38.71\" cy=\"38.71\" r=\"3\"/><text class=\"lbl\" x=\"22.31\" y=\"32.71\">C</text><circle class=\"dot g\" cx=\"238.08\" cy=\"38.71\" r=\"3\"/><text class=\"lbl\" x=\"244.08\" y=\"32.71\">D</text><circle class=\"dot g\" cx=\"38.71\" cy=\"138.39\" r=\"3\"/><text class=\"lbl\" x=\"22.31\" y=\"132.39\">E</text><circle class=\"dot g\" cx=\"38.71\" cy=\"361.29\" r=\"3\"/><text class=\"lbl\" x=\"22.31\" y=\"363.69\">F</text><circle class=\"dot k\" cx=\"161.92\" cy=\"238.08\" r=\"3\"/><text class=\"lbl\" x=\"165.11999999999998\" y=\"227.88000000000002\">G</text></svg>"
+  },
+  {
+   "id": "euclid-III-31",
+   "tradition": "euclid",
+   "title": "The angle in a semicircle",
+   "locus": "Elementa III.31",
+   "status": "fixed",
+   "fact": "In a circle the angle in the semicircle is right.",
+   "interp": "Later tradition (Diogenes Laertius and others) ascribes the theorem to Thales, but no contemporary source confirms this. The attribution belongs to the interpretive layer.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "PA · PB = 0 (∠APB = 90°)",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "O = (0, 0)\nA = (-3, 0)\nB = (3, 0)\nc = Circle(O, 3)\nP = Point(c)\nα = Angle(B, P, A)",
+   "note": null,
+   "python": "@part(id=\"euclid-III-31\", tradition=\"euclid\")\ndef euclid_III_31():\n    \"\"\"The angle in a semicircle is right.\"\"\"\n    A, B = Point(-1, 0), Point(1, 0)\n    P = Point(sp.cos(t), sp.sin(t))                 # arbitrary point on the circle\n    return dict(A=A, B=B, P=P), [\n        (\"PA · PB = 0 (∠APB = 90°)\", same((A - P).dot(B - P), 0)),\n    ]\n",
+   "formal": [],
+   "machine": {
+    "engine": "Newclid 2.0.2",
+    "seed": 1,
+    "jgex": "a b = segment a b; o = midpoint o a b; p = on_circle p o a ? perp a p p b",
+    "note": "Not an independent proof: the decisive step applies rule r20 (circle O A B C, coll O A C ⇒ perp A B B C), which is III.31 itself. The run confirms only that the JGEX statement matches that rule.",
+    "proved": true,
+    "runtime": 0.009,
+    "proof": "==========================\n * From theorem premises:\nA B O P : Points\nOA = OB [00]\nO,B,A are collinear [01]\nOP = OA [02]\n\n * Auxiliary Constructions:\n: Points\n\n\n * Proof steps:\n001. OP = OA [02] & OA = OB [00] (why_circle_resolution)⇒  O is the circumcenter of \\Delta BPA [03]\n002. O is the circumcenter of \\Delta BPA [03] & O,B,A are collinear [01] (r20)⇒  AP ⟂ PB(*)\n=========================="
+   },
+   "elem": "III.31",
+   "svg": "<svg viewBox=\"0 0 400.0 400.0\" role=\"img\"><circle class=\"a\" cx=\"200.0\" cy=\"200.0\" r=\"161.29\"/><line class=\"g\" x1=\"38.71\" y1=\"200.0\" x2=\"361.29\" y2=\"200.0\"/><polygon class=\"f\" points=\"38.71,200.0 275.72,57.59 361.29,200.0\"/><line class=\"k\" x1=\"38.71\" y1=\"200.0\" x2=\"275.72\" y2=\"57.59\"/><line class=\"k\" x1=\"275.72\" y1=\"57.59\" x2=\"361.29\" y2=\"200.0\"/><polyline class=\"k\" points=\"260.51,66.73 269.65,81.93 284.86,72.8\"/><circle class=\"dot g\" cx=\"38.71\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"22.31\" y=\"213.6\">A</text><circle class=\"dot g\" cx=\"361.29\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"367.29\" y=\"213.6\">B</text><circle class=\"dot g\" cx=\"200.0\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"200.4\" y=\"213.6\">O</text><circle class=\"dot k\" cx=\"275.72\" cy=\"57.59\" r=\"3\"/><text class=\"lbl\" x=\"281.72\" y=\"50.190000000000005\">P</text></svg>"
+  },
+  {
+   "id": "euclid-IV-11",
+   "tradition": "ptolemy",
+   "title": "Regular pentagon in a circle",
+   "locus": "Elementa IV.11; XIII.8; Almagest I.10",
+   "status": "fixed",
+   "fact": "Euclid IV.11 inscribes a regular pentagon in a given circle, using the isosceles triangle of IV.10. Ptolemy, preparing the table of chords in Almagest I.10, obtains the sides of the regular decagon and pentagon by a shorter construction from a point on the radius.",
+   "interp": "The part encodes Ptolemy's construction, not Euclid's procedure in IV.11. The same part checks that diagonal and side stand in extreme and mean ratio (XIII.8).",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "OF = side of regular decagon = 2 sin 18°",
+     "ok": true,
+     "method": "instance"
+    },
+    {
+     "label": "AF = side of regular pentagon = 2 sin 36°",
+     "ok": true,
+     "method": "instance"
+    },
+    {
+     "label": "diagonal : side = φ (Elements XIII.8)",
+     "ok": true,
+     "method": "instance"
+    }
+   ],
+   "ggb": "O = (0, 0)\nc = Circle(O, 1)\nA = (0, 1)\nP = (1, 0)\nE = Midpoint(O, P)\nF = Intersect(Circle(E, A), Segment((-1, 0), O))\ns5 = Distance(A, F)\nV2 = Intersect(c, Circle(A, s5), 1)\npent = Polygon(A, V2, 5)\nratio = Distance(A, Vertex(pent, 3)) / s5",
+   "note": "If V2 lands on the x > 0 side, change the Intersect index to 2.",
+   "python": "@part(id=\"euclid-IV-11\", tradition=\"ptolemy\")\ndef ptolemy_pentagon():\n    \"\"\"Construct the side of a regular pentagon inscribed in the unit circle (Ptolemy's method).\"\"\"\n    O, A, P = Point(0, 0), Point(0, 1), Point(1, 0)\n    E = Segment(O, P).midpoint                      # midpoint of OP\n    F = Point(E.x - E.distance(A), 0)               # circle centre E, radius EA, meets the negative x-axis\n    s10, s5 = O.distance(F), A.distance(F)          # side of decagon, side of pentagon\n    V = [Point(sp.cos(sp.pi / 2 + 2 * sp.pi * i / 5), sp.sin(sp.pi / 2 + 2 * sp.pi * i / 5)) for i in range(5)]\n    side, diag = V[0].distance(V[1]), V[0].distance(V[2])\n    return dict(O=O, A=A, E=E, F=F, s5=s5, s10=s10), [\n        (\"OF = side of regular decagon = 2 sin 18°\", same(s10, 2 * sp.sin(sp.pi / 10), \"instance\")),\n        (\"AF = side of regular pentagon = 2 sin 36°\", same(s5, 2 * sp.sin(sp.pi / 5), \"instance\")),\n        (\"diagonal : side = φ (Elements XIII.8)\", same(diag / side, phi, \"instance\")),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": "IV.11",
+   "svg": "<svg viewBox=\"0 0 400.0 400.0\" role=\"img\"><circle class=\"a\" cx=\"200.0\" cy=\"200.0\" r=\"161.29\"/><polygon class=\"f\" points=\"200.0,38.71 46.6,150.16 105.2,330.49 294.8,330.49 353.4,150.16\"/><line class=\"a\" x1=\"38.71\" y1=\"200.0\" x2=\"361.29\" y2=\"200.0\"/><line class=\"a\" x1=\"200.0\" y1=\"200.0\" x2=\"200.0\" y2=\"38.71\"/><polyline class=\"a\" points=\"200.0,38.71 197.22,40.13 194.47,41.6 191.74,43.11 189.04,44.67 186.37,46.28 183.72,47.93 181.11,49.63 178.52,51.38 175.97,53.17 173.44,55.0 170.95,56.87 168.49,58.79 166.06,60.75 163.67,62.76 161.32,64.8 158.99,66.89 156.71,69.01 154.46,71.17 152.25,73.38 150.08,75.62 147.95,77.89 145.86,80.21 143.81,82.56 141.79,84.94 139.82,87.36 137.9,89.81 136.01,92.3 134.17,94.82 132.37,97.37 130.62,99.95 128.91,102.56 127.25,105.2 125.63,107.86 124.06,110.56 122.54,113.28 121.06,116.03 119.63,118.8 118.25,121.6 116.92,124.42 115.64,127.26 114.4,130.13 113.22,133.02 112.09,135.92 111.0,138.85 109.97,141.79 108.99,144.75 108.06,147.73 107.18,150.72 106.35,153.73 105.58,156.75 104.86,159.79 104.19,162.83 103.57,165.89 103.01,168.96 102.5,172.04 102.04,175.12 101.64,178.22 101.29,181.32 100.99,184.42 100.75,187.53 100.56,190.65 100.43,193.76 100.34,196.88 100.32,200.0\"/><line class=\"k\" x1=\"200.0\" y1=\"38.71\" x2=\"100.32\" y2=\"200.0\"/><line class=\"k\" x1=\"200.0\" y1=\"200.0\" x2=\"100.32\" y2=\"200.0\"/><circle class=\"dot g\" cx=\"200.0\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"206.0\" y=\"213.6\">O</text><circle class=\"dot g\" cx=\"200.0\" cy=\"38.71\" r=\"3\"/><text class=\"lbl\" x=\"207.4\" y=\"32.71\">A</text><circle class=\"dot g\" cx=\"361.29\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"367.29\" y=\"213.6\">P</text><circle class=\"dot g\" cx=\"280.65\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"286.65\" y=\"213.6\">E</text><circle class=\"dot k\" cx=\"100.32\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"86.72\" y=\"213.6\">F</text></svg>"
+  },
+  {
+   "id": "euclid-VI-13",
+   "tradition": "euclid",
+   "title": "Mean proportional",
+   "locus": "Elementa VI.13",
+   "status": "fixed",
+   "fact": "To find a mean proportional to two given straight lines. Place the two lines in a straight line, describe a semicircle on the whole, and erect a perpendicular at the junction to meet the semicircle.",
+   "interp": "The same construction as II.14 (squaring a rectangle); the basic operation for obtaining √(ab) by construction.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "D lies on the semicircle",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "CD² = AC·CB",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "a = 4\nb = 1.5\nA = (0, 0)\nC = (a, 0)\nB = (a + b, 0)\nc = Circle(Midpoint(A, B), A)\nl = PerpendicularLine(C, Line(A, B))\nD = Intersect(c, l, 1)\ncheck = Distance(C, D) == sqrt(a b)",
+   "note": null,
+   "python": "@part(id=\"euclid-VI-13\", tradition=\"euclid\")\ndef euclid_VI_13():\n    \"\"\"Find a mean proportional between two given lines a and b.\"\"\"\n    M, R = (a + b) / 2, (a + b) / 2                 # semicircle on AB = a + b as diameter\n    D = (a, sp.sqrt(a * b))                         # perpendicular at C = (a, 0) meets the semicircle\n    return dict(D=D), [\n        (\"D lies on the semicircle\", same((D[0] - M) ** 2 + D[1] ** 2, R**2)),\n        (\"CD² = AC·CB\", same(D[1] ** 2, a * b)),\n    ]\n",
+   "formal": [],
+   "machine": {
+    "engine": "Newclid 2.0.2",
+    "seed": 1,
+    "jgex": "a b = segment a b; o = midpoint o a b; c = on_line c a b; d = on_tline d c a b, on_circle d o a ? eqratio c a c d c d c b",
+    "note": "A genuine derivation that parallels Euclid: the right angle at D comes from rule r20 (III.31), then similar triangles give CA : CD = CD : CB, as Euclid argues from III.31 and VI.8.",
+    "proved": true,
+    "runtime": 0.555,
+    "proof": "==========================\n * From theorem premises:\nA B O C D : Points\nOA = OB [00]\nO,B,A are collinear [01]\nA,C,B are collinear [02]\nCD ⟂ AB [03]\nOD = OA [04]\n\n * Auxiliary Constructions:\n: Points\n\n\n * Proof steps:\n001. CD ⟂ AB [03] (_why_eqangle_eqangle)⇒  ∠(AB-CD) = ∠(CD-AB) [05]\n002. C,A,B are collinear [02] & ∠(AB-CD) = ∠(CD-AB) [05] (why_eqangle6_resolution)⇒  ∠ACD = ∠DCB [06]\n003. OD = OA [04] & OA = OB [00] (why_circle_resolution)⇒  O is the circumcenter of \\Delta BDA [07]\n004. O is the circumcenter of \\Delta BDA [07] & O,B,A are collinear [01] (r20)⇒  DB ⟂ AD [08]\n005. AB ⟂ CD [03] & DB ⟂ AD [08] (r08)⇒  ∠DBA = ∠ADC [09]\n006. C,A,B are collinear [02] & ∠ADC = ∠DBA [09] (why_eqangle6_resolution)⇒  ∠ADC = ∠DBC [10]\n007. ∠ACD = ∠DCB [06] & ∠ADC = ∠DBC [10] (Similar Triangles 34)⇒  CA:CD = CD:CB(*)\n=========================="
+   },
+   "elem": "VI.13",
+   "svg": "<svg viewBox=\"0 0 400.0 268.0\" role=\"img\"><polyline class=\"a\" points=\"361.29,200.0 361.1,192.09 360.51,184.19 359.54,176.33 358.19,168.53 356.46,160.81 354.35,153.18 351.86,145.66 349.01,138.28 345.8,131.04 342.25,123.97 338.34,117.08 334.11,110.39 329.55,103.92 324.68,97.68 319.51,91.68 314.05,85.95 308.32,80.49 302.32,75.32 296.08,70.45 289.61,65.89 282.92,61.66 276.03,57.75 268.96,54.2 261.72,50.99 254.34,48.14 246.82,45.65 239.19,43.54 231.47,41.81 223.67,40.46 215.81,39.49 207.91,38.9 200.0,38.71 192.09,38.9 184.19,39.49 176.33,40.46 168.53,41.81 160.81,43.54 153.18,45.65 145.66,48.14 138.28,50.99 131.04,54.2 123.97,57.75 117.08,61.66 110.39,65.89 103.92,70.45 97.68,75.32 91.68,80.49 85.95,85.95 80.49,91.68 75.32,97.68 70.45,103.92 65.89,110.39 61.66,117.08 57.75,123.97 54.2,131.04 50.99,138.28 48.14,145.66 45.65,153.18 43.54,160.81 41.81,168.53 40.46,176.33 39.49,184.19 38.9,192.09 38.71,200.0\"/><line class=\"g\" x1=\"38.71\" y1=\"200.0\" x2=\"361.29\" y2=\"200.0\"/><line class=\"k\" x1=\"273.31\" y1=\"200.0\" x2=\"273.31\" y2=\"56.33\"/><line class=\"a\" x1=\"38.71\" y1=\"200.0\" x2=\"273.31\" y2=\"56.33\"/><line class=\"a\" x1=\"273.31\" y1=\"56.33\" x2=\"361.29\" y2=\"200.0\"/><circle class=\"dot g\" cx=\"38.71\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"25.110000000000003\" y=\"213.6\">A</text><circle class=\"dot g\" cx=\"273.31\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"279.31\" y=\"213.6\">C</text><circle class=\"dot g\" cx=\"361.29\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"367.29\" y=\"213.6\">B</text><circle class=\"dot k\" cx=\"273.31\" cy=\"56.33\" r=\"3\"/><text class=\"lbl\" x=\"279.31\" y=\"48.93\">D</text><text class=\"cap\" text-anchor=\"middle\" x=\"156.01\" y=\"229.33\">a</text><text class=\"cap\" text-anchor=\"middle\" x=\"317.3\" y=\"229.33\">b</text></svg>"
+  },
+  {
+   "id": "euclid-XIII-18",
+   "tradition": "euclid",
+   "title": "Edges of the five regular solids",
+   "locus": "Elementa XIII.13-18",
+   "status": "fixed",
+   "fact": "XIII.13 to 17 construct in turn the five regular solids inscribed in a given sphere; XIII.18 sets out their edges and compares them.",
+   "interp": "The ratio of each edge to the circumradius R is computed exactly from normalised vertex coordinates. The polyhedra plates of Pacioli's 1509 edition treat the same five solids and their variants.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "tetrahedron: edge = √(8/3)·R",
+     "ok": true,
+     "method": "instance"
+    },
+    {
+     "label": "octahedron: edge = √2·R",
+     "ok": true,
+     "method": "instance"
+    },
+    {
+     "label": "cube: edge = 2/√3·R",
+     "ok": true,
+     "method": "instance"
+    },
+    {
+     "label": "icosahedron: edge = 4/√(10+2√5)·R",
+     "ok": true,
+     "method": "instance"
+    },
+    {
+     "label": "dodecahedron: edge = (√15−√3)/3·R",
+     "ok": true,
+     "method": "instance"
+    },
+    {
+     "label": "order: tetrahedron > octahedron > cube > icosahedron > dodecahedron",
+     "ok": true,
+     "method": "numeric"
+    }
+   ],
+   "ggb": "P1 = (1, 1, 1)\nP2 = (1, -1, -1)\nP3 = (-1, 1, -1)\nP4 = (-1, -1, 1)\nT = Pyramid(P1, P2, P3, P4)\ns = Sphere((0, 0, 0), sqrt(3))\nratios = {sqrt(8/3), sqrt(2), 2/sqrt(3), 4/sqrt(10 + 2sqrt(5)), (sqrt(15) - sqrt(3))/3}\ncheck = Distance(P1, P2) / sqrt(3) == Element(ratios, 1)",
+   "note": "Run in the 3D Graphics view.",
+   "python": "@part(id=\"euclid-XIII-18\", tradition=\"euclid\")\ndef euclid_XIII_18():\n    \"\"\"Compare the edges of the five regular solids inscribed in the same sphere.\"\"\"\n    ratio = {}\n    for name in (\"tetra\", \"octa\", \"cube\", \"icosa\", \"dodeca\"):\n        V = _solid(name)\n        e2 = min(_dist2(p, q) for p, q in combinations(V, 2))\n        R2 = _dist2(V[0], (0, 0, 0))\n        ratio[name] = sp.sqrt(sp.nsimplify(e2 / R2))  # edge / circumradius\n    order = [\"tetra\", \"octa\", \"cube\", \"icosa\", \"dodeca\"]\n    return dict(ratio=ratio), [\n        (\"tetrahedron: edge = √(8/3)·R\", same(ratio[\"tetra\"], sp.sqrt(sp.Rational(8, 3)), \"instance\")),\n        (\"octahedron: edge = √2·R\", same(ratio[\"octa\"], sp.sqrt(2), \"instance\")),\n        (\"cube: edge = 2/√3·R\", same(ratio[\"cube\"], 2 / sp.sqrt(3), \"instance\")),\n        (\"icosahedron: edge = 4/√(10+2√5)·R\", same(ratio[\"icosa\"], 4 / sp.sqrt(10 + 2 * sp.sqrt(5)), \"instance\")),\n        (\"dodecahedron: edge = (√15−√3)/3·R\", same(ratio[\"dodeca\"], (sp.sqrt(15) - sp.sqrt(3)) / 3, \"instance\")),\n        (\"order: tetrahedron > octahedron > cube > icosahedron > dodecahedron\",\n         Check(all(sp.N(ratio[p] - ratio[q], 50) > 0 for p, q in zip(order, order[1:])), \"numeric\")),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": "XIII.18",
+   "svg": "<svg viewBox=\"0 0 400.0 400.0\" role=\"img\"><line class=\"a\" x1=\"38.71\" y1=\"49.83\" x2=\"38.71\" y2=\"361.29\"/><line class=\"a\" x1=\"261.18\" y1=\"49.83\" x2=\"261.18\" y2=\"361.29\"/><polygon class=\"f\" points=\"38.71,94.33 220.36,94.33 220.36,118.8 38.71,118.8\"/><polygon class=\"f\" points=\"38.71,149.94 196.02,149.94 196.02,174.42 38.71,174.42\"/><polygon class=\"f\" points=\"38.71,205.56 167.15,205.56 167.15,230.03 38.71,230.03\"/><polygon class=\"f\" points=\"38.71,261.18 155.67,261.18 155.67,285.65 38.71,285.65\"/><polygon class=\"f\" points=\"38.71,316.8 118.09,316.8 118.09,341.27 38.71,341.27\"/><text class=\"cap\" text-anchor=\"middle\" x=\"261.18\" y=\"38.71\">2R (diameter)</text><text class=\"cap\" text-anchor=\"start\" x=\"227.03\" y=\"113.24\">tetrahedron  1.6330 R</text><text class=\"cap\" text-anchor=\"start\" x=\"202.69\" y=\"168.85\">octahedron  1.4142 R</text><text class=\"cap\" text-anchor=\"start\" x=\"173.83\" y=\"224.47\">cube  1.1547 R</text><text class=\"cap\" text-anchor=\"start\" x=\"162.34\" y=\"280.09\">icosahedron  1.0515 R</text><text class=\"cap\" text-anchor=\"start\" x=\"124.77\" y=\"335.71\">dodecahedron  0.7136 R</text><text class=\"cap\" text-anchor=\"start\" x=\"361.29\" y=\"116.57\"></text></svg>"
+  },
+  {
+   "id": "archimedes-circle",
+   "tradition": "archimedes",
+   "title": "Measurement of the circle: bounds for π",
+   "locus": "Dimensio circuli, prop. 3",
+   "status": "fixed",
+   "fact": "The ratio of the circumference of any circle to its diameter is less than 3 1/7 and greater than 3 10/71. Starting from the circumscribed and inscribed hexagons, the sides are doubled up to the 96-gon.",
+   "interp": "Archimedes rounds square roots to rational upper and lower bounds as he goes; here the same doubling recurrence (harmonic mean for the circumscribed, geometric mean for the inscribed polygon) is run with exact radicals and only the final comparison is made to 50 digits. The inequalities are therefore confirmed numerically.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "half-perimeter of inscribed 96-gon = 96·sin(π/96)",
+     "ok": true,
+     "method": "numeric"
+    },
+    {
+     "label": "3 10/71 < inscribed 96-gon",
+     "ok": true,
+     "method": "numeric"
+    },
+    {
+     "label": "circumscribed 96-gon < 3 1/7",
+     "ok": true,
+     "method": "numeric"
+    },
+    {
+     "label": "hence 223/71 < π < 22/7",
+     "ok": true,
+     "method": "numeric"
+    }
+   ],
+   "ggb": "n = Slider(3, 96, 1)\nc = Circle((0, 0), 1)\ninner = Polygon((1, 0), (cos(2π / n), sin(2π / n)), n)\nouter = Polygon((1, -tan(π / n)), (1, tan(π / n)), n)\nlo = n sin(π / n)\nhi = n tan(π / n)\ncheck = lo > 223/71 ∧ hi < 22/7",
+   "note": "check becomes true at n = 96.",
+   "python": "@part(id=\"archimedes-circle\", tradition=\"archimedes\")\ndef archimedes_pi():\n    \"\"\"Double the sides from the hexagon to the 96-gon and bound the ratio of circumference to diameter.\"\"\"\n    p, P = sp.Integer(3), 2 * sp.sqrt(3)            # half-perimeters of inscribed and circumscribed hexagons (radius 1)\n    n = 6\n    while n < 96:\n        P = 2 * p * P / (p + P)                     # circumscribed 2n-gon: harmonic mean\n        p = sp.sqrt(p * P)                          # inscribed 2n-gon: geometric mean\n        n *= 2\n    return dict(n=n, inner=p, outer=P), [\n        (\"half-perimeter of inscribed 96-gon = 96·sin(π/96)\", close(p, 96 * sp.sin(sp.pi / 96))),\n        (\"3 10/71 < inscribed 96-gon\", greater(p, sp.Rational(223, 71))),\n        (\"circumscribed 96-gon < 3 1/7\", greater(sp.Rational(22, 7), P)),\n        (\"hence 223/71 < π < 22/7\", Check(greater(p, sp.Rational(223, 71)).ok and greater(sp.Rational(22, 7), P).ok\n                                          and greater(sp.pi, p).ok and greater(P, sp.pi).ok, \"numeric\")),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": null,
+   "svg": "<svg viewBox=\"0 0 355.5 400.0\" role=\"img\"><polygon class=\"a\" points=\"316.8,140.5 279.54,75.97 215.01,38.71 140.5,38.71 75.97,75.97 38.71,140.5 38.71,215.01 75.97,279.54 140.5,316.8 215.01,316.8 279.54,279.54 316.8,215.01\"/><circle class=\"g\" cx=\"177.75\" cy=\"177.75\" r=\"139.04\"/><polygon class=\"f\" points=\"316.8,177.75 298.17,108.23 247.27,57.34 177.75,38.71 108.23,57.34 57.34,108.23 38.71,177.75 57.34,247.27 108.23,298.17 177.75,316.8 247.27,298.17 298.17,247.27\"/><polygon class=\"k\" points=\"316.8,177.75 298.17,108.23 247.27,57.34 177.75,38.71 108.23,57.34 57.34,108.23 38.71,177.75 57.34,247.27 108.23,298.17 177.75,316.8 247.27,298.17 298.17,247.27\"/><circle class=\"dot g\" cx=\"177.75\" cy=\"177.75\" r=\"3\"/><text class=\"cap\" text-anchor=\"middle\" x=\"177.75\" y=\"361.29\">n = 12 here, 96 in the proposition</text></svg>"
+  },
+  {
+   "id": "archimedes-parabola",
+   "tradition": "archimedes",
+   "title": "Quadrature of the parabola",
+   "locus": "Quadratura parabolae, props. 17, 24",
+   "status": "fixed",
+   "fact": "The segment bounded by a straight line and a parabola is 4/3 of the triangle with the same base and equal height. Prop. 17 proves it by the mechanical method, prop. 24 geometrically by inscribing successive triangles (method of exhaustion).",
+   "interp": "Checked directly for a general chord by integration, together with the geometric series of the exhaustion argument, 1 + 1/4 + 1/16 + ... = 4/3. Integration is a means of verification, not Archimedes' method.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "segment = (4/3)·triangle",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "exhaustion: 1 + 1/4 + 1/16 + ... = 4/3",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "f(x) = x^2\np = -1\nq = 2\nchord(x) = f(p) + (f(q) - f(p)) / (q - p) (x - p)\nseg = IntegralBetween(chord, f, p, q)\nm = (p + q) / 2\ntri = Polygon((p, f(p)), (m, f(m)), (q, f(q)))\nratio = seg / tri",
+   "note": null,
+   "python": "@part(id=\"archimedes-parabola\", tradition=\"archimedes\")\ndef archimedes_parabola():\n    \"\"\"A parabolic segment is 4/3 of the triangle with the same base and height.\"\"\"\n    f = lambda u: u**2\n    p, q = a, a + b                                 # x-coordinates of the chord's endpoints (b > 0)\n    m = (p + q) / 2                                 # point of tangency parallel to the chord (vertex of the segment)\n    chord = f(p) + (f(q) - f(p)) / (q - p) * (x - p)\n    segment = sp.integrate(chord - f(x), (x, p, q))\n    triangle = sp.Abs(shoelace((p, f(p)), (m, f(m)), (q, f(q))))\n    n = sp.symbols(\"n\", integer=True, nonnegative=True)\n    return dict(segment=segment, triangle=triangle), [\n        (\"segment = (4/3)·triangle\", same(segment, sp.Rational(4, 3) * triangle)),\n        (\"exhaustion: 1 + 1/4 + 1/16 + ... = 4/3\", same(sp.summation(sp.Rational(1, 4) ** n, (n, 0, sp.oo)), sp.Rational(4, 3))),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": null,
+   "svg": "<svg viewBox=\"0 0 260.1 400.0\" role=\"img\"><polygon class=\"f\" points=\"57.94,267.54 60.34,272.23 62.75,276.68 65.15,280.89 67.55,284.85 69.96,288.58 72.36,292.06 74.77,295.31 77.17,298.31 79.57,301.08 81.98,303.6 84.38,305.88 86.78,307.93 89.19,309.73 91.59,311.29 94.0,312.61 96.4,313.7 98.8,314.54 101.21,315.14 103.61,315.5 106.01,315.62 108.42,315.5 110.82,315.14 113.23,314.54 115.63,313.7 118.03,312.61 120.44,311.29 122.84,309.73 125.24,307.93 127.65,305.88 130.05,303.6 132.46,301.08 134.86,298.31 137.26,295.31 139.67,292.06 142.07,288.58 144.47,284.85 146.88,280.89 149.28,276.68 151.69,272.23 154.09,267.54 156.49,262.62 158.9,257.45 161.3,252.04 163.7,246.39 166.11,240.5 168.51,234.37 170.91,228.0 173.32,221.39 175.72,214.54 178.13,207.45 180.53,200.12 182.93,192.55 185.34,184.74 187.74,176.68 190.14,168.39 192.55,159.86 194.95,151.08 197.36,142.07 199.76,132.82 202.16,123.32 57.94,267.54\"/><polyline class=\"g\" points=\"38.71,221.39 40.99,227.68 43.28,233.75 45.56,239.6 47.84,245.23 50.13,250.65 52.41,255.85 54.69,260.84 56.98,265.6 59.26,270.15 61.55,274.49 63.83,278.6 66.11,282.5 68.4,286.18 70.68,289.65 72.96,292.9 75.25,295.93 77.53,298.74 79.81,301.34 82.1,303.72 84.38,305.88 86.66,307.83 88.95,309.56 91.23,311.07 93.51,312.37 95.8,313.45 98.08,314.31 100.37,314.96 102.65,315.38 104.93,315.6 107.22,315.59 109.5,315.37 111.78,314.93 114.07,314.27 116.35,313.4 118.63,312.31 120.92,311.0 123.2,309.48 125.48,307.73 127.77,305.78 130.05,303.6 132.33,301.21 134.62,298.6 136.9,295.77 139.19,292.73 141.47,289.47 143.75,285.99 146.04,282.3 148.32,278.39 150.6,274.26 152.89,269.92 155.17,265.36 157.45,260.58 159.74,255.58 162.02,250.37 164.3,244.94 166.59,239.3 168.87,233.43 171.16,227.35 173.44,221.06 175.72,214.54 178.01,207.81 180.29,200.86 182.57,193.7 184.86,186.32 187.14,178.72 189.42,170.9 191.71,162.87 193.99,154.62 196.27,146.16 198.56,137.47 200.84,128.57 203.12,119.46 205.41,110.12 207.69,100.57 209.98,90.8 212.26,80.82 214.54,70.62 216.83,60.2 219.11,49.56 221.39,38.71\"/><line class=\"g\" x1=\"57.94\" y1=\"267.54\" x2=\"202.16\" y2=\"123.32\"/><polygon class=\"k\" points=\"57.94,267.54 130.05,303.6 202.16,123.32\"/><line class=\"a\" x1=\"72.36\" y1=\"361.29\" x2=\"187.74\" y2=\"245.91\"/><circle class=\"dot g\" cx=\"57.94\" cy=\"267.54\" r=\"3\"/><circle class=\"dot g\" cx=\"202.16\" cy=\"123.32\" r=\"3\"/><circle class=\"dot k\" cx=\"130.05\" cy=\"303.6\" r=\"3\"/></svg>"
+  },
+  {
+   "id": "archimedes-sphere",
+   "tradition": "archimedes",
+   "title": "Sphere and cylinder",
+   "locus": "De sphaera et cylindro I.33-34 and corollary",
+   "status": "fixed",
+   "fact": "The surface of any sphere is four times its greatest circle (I.33). Any sphere is four times the cone with base equal to the greatest circle and height equal to the radius (I.34). Corollary: the circumscribed cylinder is half again as large as the sphere, and so is its surface.",
+   "interp": "Cicero (Tusculanae disputationes V.64-66) reports that Archimedes' tomb bore a sphere and cylinder. The Python part obtains the volume by integrating circular cross-sections, which verifies the result but is not Archimedes' argument.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "sphere : cylinder = 2 : 3",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "sphere = 4 × cone with base a great circle and height the radius",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "surface of sphere = lateral surface of cylinder",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "r = 1\ns = Sphere((0, 0, 0), r)\ncyl = Cylinder((0, 0, -r), (0, 0, r), r)\nratio = (4/3 π r^3) / (π r^2 2r)\nside = (4π r^2) == (2π r 2r)",
+   "note": "Run in the 3D Graphics view.",
+   "python": "@part(id=\"archimedes-sphere\", tradition=\"archimedes\")\ndef archimedes_sphere():\n    \"\"\"A sphere is 2/3 of its circumscribed cylinder, and its surface equals the cylinder's lateral surface.\"\"\"\n    V_sphere = sp.integrate(sp.pi * (r**2 - z**2), (z, -r, r))   # stack circular cross-sections\n    V_cyl = sp.pi * r**2 * 2 * r\n    V_cone = sp.pi * r**2 * r / 3\n    S_sphere = sp.diff(V_sphere, r)\n    S_cyl_side = 2 * sp.pi * r * 2 * r\n    return dict(V_sphere=V_sphere), [\n        (\"sphere : cylinder = 2 : 3\", same(V_sphere / V_cyl, sp.Rational(2, 3))),\n        (\"sphere = 4 × cone with base a great circle and height the radius\", same(V_sphere, 4 * V_cone)),\n        (\"surface of sphere = lateral surface of cylinder\", same(S_sphere, S_cyl_side)),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": null,
+   "svg": "<svg viewBox=\"0 0 360.4 400.0\" role=\"img\"><polygon class=\"g\" points=\"38.71,321.68 321.68,321.68 321.68,38.71 38.71,38.71\"/><circle class=\"f\" cx=\"180.19\" cy=\"180.19\" r=\"141.48\"/><circle class=\"k\" cx=\"180.19\" cy=\"180.19\" r=\"141.48\"/><polygon class=\"a\" points=\"38.71,38.71 321.68,38.71 180.19,180.19\"/><polygon class=\"a\" points=\"38.71,321.68 321.68,321.68 180.19,180.19\"/><line class=\"a\" x1=\"38.71\" y1=\"180.19\" x2=\"321.68\" y2=\"180.19\"/><circle class=\"dot g\" cx=\"180.19\" cy=\"180.19\" r=\"3\"/><text class=\"cap\" text-anchor=\"middle\" x=\"180.19\" y=\"361.29\">sphere : cylinder = 2 : 3</text></svg>"
+  },
+  {
+   "id": "archimedes-arbelos",
+   "tradition": "archimedes",
+   "title": "The twin circles of the arbelos",
+   "locus": "Liber assumptorum, prop. 5",
+   "status": "fixed",
+   "fact": "In the arbelos (a large semicircle less two smaller ones), draw on either side of the perpendicular at the point of contact a circle tangent to the perpendicular and to two of the semicircles: the two circles are equal.",
+   "interp": "The Liber assumptorum survives only in the Arabic translation of Thābit ibn Qurra, and whether it can be ascribed to Archimedes in its present form is debated. The attribution belongs to the interpretive layer.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "radius of left circle = ab/(a+b)",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "radius of right circle = radius of left circle",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "a = 2\nb = 1\nA = (0, 0)\nC = (2a, 0)\nB = (2a + 2b, 0)\nbig = Semicircle(A, B)\ns1 = Semicircle(A, C)\ns2 = Semicircle(C, B)\nwall: x = 2a\nρ = a b / (a + b)\nL = Circle((2a - ρ, sqrt(4a ρ)), ρ)\nR = Circle((2a + ρ, sqrt(4b ρ)), ρ)",
+   "note": null,
+   "python": "@part(id=\"archimedes-arbelos\", tradition=\"archimedes\")\ndef arbelos_twins():\n    \"\"\"The twin circles of the arbelos are equal, with radius ab/(a+b).\"\"\"\n    rr, yy = sp.symbols(\"rho y0\", positive=True)\n    # A=(0,0), C=(2a,0), B=(2a+2b,0). Left twin: centre (2a−ρ, y0), tangent to the line x = 2a\n    eqs = [\n        sp.Eq((2 * a - rr - a) ** 2 + yy**2, (a + rr) ** 2),          # externally tangent to small semicircle (radius a)\n        sp.Eq((2 * a - rr - (a + b)) ** 2 + yy**2, (a + b - rr) ** 2),  # internally tangent to large semicircle (radius a+b)\n    ]\n    rho_L = sp.solve(eqs, [rr, yy], dict=True)[0][rr]\n    eqs_R = [\n        sp.Eq((2 * a + rr - (2 * a + b)) ** 2 + yy**2, (b + rr) ** 2),\n        sp.Eq((2 * a + rr - (a + b)) ** 2 + yy**2, (a + b - rr) ** 2),\n    ]\n    rho_R = sp.solve(eqs_R, [rr, yy], dict=True)[0][rr]\n    return dict(rho_L=rho_L, rho_R=rho_R), [\n        (\"radius of left circle = ab/(a+b)\", same(rho_L, a * b / (a + b))),\n        (\"radius of right circle = radius of left circle\", same(rho_R, rho_L)),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": null,
+   "svg": "<svg viewBox=\"0 0 400.0 238.7\" role=\"img\"><polygon class=\"f\" points=\"361.29,200.0 361.1,192.09 360.51,184.19 359.54,176.33 358.19,168.53 356.46,160.81 354.35,153.18 351.86,145.66 349.01,138.28 345.8,131.04 342.25,123.97 338.34,117.08 334.11,110.39 329.55,103.92 324.68,97.68 319.51,91.68 314.05,85.95 308.32,80.49 302.32,75.32 296.08,70.45 289.61,65.89 282.92,61.66 276.03,57.75 268.96,54.2 261.72,50.99 254.34,48.14 246.82,45.65 239.19,43.54 231.47,41.81 223.67,40.46 215.81,39.49 207.91,38.9 200.0,38.71 192.09,38.9 184.19,39.49 176.33,40.46 168.53,41.81 160.81,43.54 153.18,45.65 145.66,48.14 138.28,50.99 131.04,54.2 123.97,57.75 117.08,61.66 110.39,65.89 103.92,70.45 97.68,75.32 91.68,80.49 85.95,85.95 80.49,91.68 75.32,97.68 70.45,103.92 65.89,110.39 61.66,117.08 57.75,123.97 54.2,131.04 50.99,138.28 48.14,145.66 45.65,153.18 43.54,160.81 41.81,168.53 40.46,176.33 39.49,184.19 38.9,192.09 38.71,200.0 38.71,200.0 38.84,194.72 39.23,189.46 39.87,184.22 40.78,179.02 41.93,173.87 43.34,168.79 45.0,163.78 46.89,158.85 49.03,154.03 51.41,149.31 54.01,144.72 56.83,140.26 59.87,135.95 63.12,131.79 66.56,127.79 70.2,123.97 74.03,120.33 78.02,116.88 82.18,113.63 86.5,110.59 90.96,107.77 95.55,105.17 100.26,102.8 105.09,100.66 110.01,98.76 115.02,97.1 120.11,95.7 125.26,94.54 130.46,93.64 135.7,92.99 140.96,92.6 146.24,92.47 151.51,92.6 156.78,92.99 162.01,93.64 167.21,94.54 172.36,95.7 177.45,97.1 182.46,98.76 187.39,100.66 192.21,102.8 196.92,105.17 201.52,107.77 205.98,110.59 210.29,113.63 214.45,116.88 218.45,120.33 222.27,123.97 225.91,127.79 229.36,131.79 232.6,135.95 235.64,140.26 238.47,144.72 241.07,149.31 243.44,154.03 245.58,158.85 247.48,163.78 249.13,168.79 250.54,173.87 251.7,179.02 252.6,184.22 253.25,189.46 253.63,194.72 253.76,200.0 253.76,200.0 253.83,197.36 254.02,194.73 254.35,192.11 254.8,189.51 255.37,186.94 256.08,184.39 256.91,181.89 257.86,179.43 258.93,177.01 260.11,174.66 261.41,172.36 262.82,170.13 264.34,167.97 265.97,165.89 267.69,163.89 269.51,161.98 271.42,160.16 273.42,158.44 275.5,156.82 277.66,155.3 279.89,153.89 282.18,152.58 284.54,151.4 286.95,150.33 289.41,149.38 291.92,148.55 294.46,147.85 297.04,147.27 299.64,146.82 302.26,146.5 304.89,146.3 307.53,146.24 310.16,146.3 312.8,146.5 315.42,146.82 318.02,147.27 320.59,147.85 323.13,148.55 325.64,149.38 328.1,150.33 330.51,151.4 332.87,152.58 335.17,153.89 337.4,155.3 339.55,156.82 341.63,158.44 343.63,160.16 345.54,161.98 347.36,163.89 349.09,165.89 350.71,167.97 352.23,170.13 353.64,172.36 354.94,174.66 356.13,177.01 357.2,179.43 358.15,181.89 358.98,184.39 359.68,186.94 360.26,189.51 360.71,192.11 361.03,194.73 361.23,197.36 361.29,200.0\"/><polyline class=\"g\" points=\"361.29,200.0 361.1,192.09 360.51,184.19 359.54,176.33 358.19,168.53 356.46,160.81 354.35,153.18 351.86,145.66 349.01,138.28 345.8,131.04 342.25,123.97 338.34,117.08 334.11,110.39 329.55,103.92 324.68,97.68 319.51,91.68 314.05,85.95 308.32,80.49 302.32,75.32 296.08,70.45 289.61,65.89 282.92,61.66 276.03,57.75 268.96,54.2 261.72,50.99 254.34,48.14 246.82,45.65 239.19,43.54 231.47,41.81 223.67,40.46 215.81,39.49 207.91,38.9 200.0,38.71 192.09,38.9 184.19,39.49 176.33,40.46 168.53,41.81 160.81,43.54 153.18,45.65 145.66,48.14 138.28,50.99 131.04,54.2 123.97,57.75 117.08,61.66 110.39,65.89 103.92,70.45 97.68,75.32 91.68,80.49 85.95,85.95 80.49,91.68 75.32,97.68 70.45,103.92 65.89,110.39 61.66,117.08 57.75,123.97 54.2,131.04 50.99,138.28 48.14,145.66 45.65,153.18 43.54,160.81 41.81,168.53 40.46,176.33 39.49,184.19 38.9,192.09 38.71,200.0\"/><polyline class=\"g\" points=\"38.71,200.0 38.84,194.72 39.23,189.46 39.87,184.22 40.78,179.02 41.93,173.87 43.34,168.79 45.0,163.78 46.89,158.85 49.03,154.03 51.41,149.31 54.01,144.72 56.83,140.26 59.87,135.95 63.12,131.79 66.56,127.79 70.2,123.97 74.03,120.33 78.02,116.88 82.18,113.63 86.5,110.59 90.96,107.77 95.55,105.17 100.26,102.8 105.09,100.66 110.01,98.76 115.02,97.1 120.11,95.7 125.26,94.54 130.46,93.64 135.7,92.99 140.96,92.6 146.24,92.47 151.51,92.6 156.78,92.99 162.01,93.64 167.21,94.54 172.36,95.7 177.45,97.1 182.46,98.76 187.39,100.66 192.21,102.8 196.92,105.17 201.52,107.77 205.98,110.59 210.29,113.63 214.45,116.88 218.45,120.33 222.27,123.97 225.91,127.79 229.36,131.79 232.6,135.95 235.64,140.26 238.47,144.72 241.07,149.31 243.44,154.03 245.58,158.85 247.48,163.78 249.13,168.79 250.54,173.87 251.7,179.02 252.6,184.22 253.25,189.46 253.63,194.72 253.76,200.0\"/><polyline class=\"g\" points=\"253.76,200.0 253.83,197.36 254.02,194.73 254.35,192.11 254.8,189.51 255.37,186.94 256.08,184.39 256.91,181.89 257.86,179.43 258.93,177.01 260.11,174.66 261.41,172.36 262.82,170.13 264.34,167.97 265.97,165.89 267.69,163.89 269.51,161.98 271.42,160.16 273.42,158.44 275.5,156.82 277.66,155.3 279.89,153.89 282.18,152.58 284.54,151.4 286.95,150.33 289.41,149.38 291.92,148.55 294.46,147.85 297.04,147.27 299.64,146.82 302.26,146.5 304.89,146.3 307.53,146.24 310.16,146.3 312.8,146.5 315.42,146.82 318.02,147.27 320.59,147.85 323.13,148.55 325.64,149.38 328.1,150.33 330.51,151.4 332.87,152.58 335.17,153.89 337.4,155.3 339.55,156.82 341.63,158.44 343.63,160.16 345.54,161.98 347.36,163.89 349.09,165.89 350.71,167.97 352.23,170.13 353.64,172.36 354.94,174.66 356.13,177.01 357.2,179.43 358.15,181.89 358.98,184.39 359.68,186.94 360.26,189.51 360.71,192.11 361.03,194.73 361.23,197.36 361.29,200.0\"/><line class=\"a\" x1=\"38.71\" y1=\"200.0\" x2=\"361.29\" y2=\"200.0\"/><line class=\"a\" x1=\"253.76\" y1=\"200.0\" x2=\"253.76\" y2=\"47.93\"/><circle class=\"k\" cx=\"217.92\" cy=\"75.84\" r=\"35.84\"/><circle class=\"k\" cx=\"289.61\" cy=\"112.2\" r=\"35.84\"/><circle class=\"dot g\" cx=\"38.71\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"25.110000000000003\" y=\"213.6\">A</text><circle class=\"dot g\" cx=\"253.76\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"259.76\" y=\"213.6\">C</text><circle class=\"dot g\" cx=\"361.29\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"367.29\" y=\"213.6\">B</text></svg>"
+  },
+  {
+   "id": "archimedes-spiral",
+   "tradition": "archimedes",
+   "title": "The spiral of Archimedes",
+   "locus": "De lineis spiralibus, defs.; props. 18, 24; Pappus, Collectio IV",
+   "status": "fixed",
+   "fact": "A point moves uniformly along a ray while the ray turns uniformly about its origin; the point traces the spiral. Prop. 18: the tangent at the end of the first turn meets the line drawn through the origin perpendicular to the initial ray at a distance equal to the circumference of the first circle. Prop. 24: the area bounded by the first turn and the initial ray is one third of the first circle.",
+   "interp": "Written in polar form as r = aθ, a notation Archimedes does not use. Because prop. 18 turns a circumference into a straight line, the spiral rectifies, and hence squares, the circle. Pappus (Collectio IV) also uses it to divide an angle in any given ratio; the third check encodes that property. The locus of the trisection in Hultsch's Pappus is still to be checked.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "area of first turn = 1/3 of the first circle (prop. 24)",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "OT = circumference of the first circle (prop. 18)",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "radius divided in ratio 1 : 3 gives angle divided in ratio 1 : 3",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "a = 1\nspiral = Curve(a t cos(t), a t sin(t), t, 0, 2π)\nfirst = Circle((0, 0), 2π a)\nP = (2π a, 0)\ntangent = Tangent(P, spiral)\nT = Intersect(tangent, yAxis)\ncheck1 = Distance((0, 0), T) == 2π (2π a)\narea = Integral(0.5 a^2 x^2, 0, 2π)\ncheck2 = area == π (2π a)^2 / 3",
+   "note": "If Tangent does not accept the parametric curve in your version, use the line through P with direction (a, 2π a).",
+   "python": "@part(id=\"archimedes-spiral\", tradition=\"archimedes\")\ndef archimedes_spiral():\n    \"\"\"The spiral r = aθ: the area of the first turn is 1/3 of the first circle, the tangent at the end of the\n    first turn cuts off on the perpendicular a line equal to the circumference of that circle, and the\n    spiral divides any angle in any given ratio.\"\"\"\n    th = sp.symbols(\"theta\", positive=True)\n    rho = a * th\n    R = rho.subs(th, 2 * sp.pi)                     # radius of the \"first circle\"\n    area_turn = sp.integrate(rho**2 / 2, (th, 0, 2 * sp.pi))\n    # tangent at P = end of the first turn, meeting the line through O perpendicular to OP at T\n    X, Y = rho * sp.cos(th), rho * sp.sin(th)\n    P = (X.subs(th, 2 * sp.pi), Y.subs(th, 2 * sp.pi))\n    v = (sp.diff(X, th).subs(th, 2 * sp.pi), sp.diff(Y, th).subs(th, 2 * sp.pi))\n    s = -P[0] / v[0]                                # parameter where the tangent crosses x = 0\n    OT = sp.Abs(P[1] + s * v[1])\n    third = sp.solve(sp.Eq(rho, rho.subs(th, t) / 3), th)[0]\n    return dict(R=R, area=area_turn, OT=OT), [\n        (\"area of first turn = 1/3 of the first circle (prop. 24)\", same(area_turn, sp.pi * R**2 / 3)),\n        (\"OT = circumference of the first circle (prop. 18)\", same(OT, 2 * sp.pi * R)),\n        (\"radius divided in ratio 1 : 3 gives angle divided in ratio 1 : 3\", same(third, t / 3)),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": null,
+   "svg": "<svg viewBox=\"0 0 367.7 400.0\" role=\"img\"><circle class=\"a\" cx=\"183.83\" cy=\"183.83\" r=\"145.12\"/><polygon class=\"f\" points=\"183.83,183.83 184.56,183.81 185.28,183.74 186.0,183.63 186.71,183.47 187.42,183.26 188.11,183.02 188.79,182.72 189.45,182.39 190.1,182.01 190.73,181.59 191.34,181.13 191.93,180.63 192.49,180.09 193.02,179.51 193.53,178.89 194.01,178.24 194.45,177.55 194.86,176.83 195.23,176.08 195.57,175.3 195.87,174.49 196.13,173.66 196.35,172.8 196.53,171.91 196.66,171.0 196.75,170.08 196.79,169.14 196.78,168.18 196.73,167.21 196.63,166.22 196.48,165.23 196.27,164.23 196.02,163.22 195.72,162.21 195.36,161.2 194.95,160.2 194.49,159.19 193.98,158.2 193.42,157.21 192.8,156.23 192.13,155.26 191.41,154.31 190.64,153.38 189.81,152.47 188.94,151.58 188.02,150.72 187.04,149.88 186.02,149.07 184.95,148.29 183.83,147.55 182.67,146.84 181.46,146.17 180.21,145.55 178.92,144.96 177.59,144.41 176.22,143.92 174.81,143.47 173.37,143.07 171.89,142.72 170.38,142.43 168.84,142.19 167.27,142.0 165.68,141.88 164.06,141.81 162.42,141.81 160.76,141.87 159.08,141.99 157.39,142.17 155.69,142.42 153.98,142.74 152.26,143.12 150.53,143.58 148.8,144.1 147.08,144.69 145.35,145.35 143.63,146.08 141.92,146.88 140.22,147.76 138.54,148.7 136.87,149.71 135.22,150.8 133.59,151.95 131.99,153.17 130.42,154.47 128.88,155.83 127.37,157.26 125.9,158.76 124.46,160.33 123.07,161.96 121.72,163.65 120.42,165.41 119.17,167.23 117.98,169.11 116.83,171.05 115.75,173.05 114.72,175.1 113.76,177.21 112.86,179.37 112.03,181.58 111.27,183.83 110.58,186.13 109.97,188.48 109.43,190.87 108.96,193.29 108.58,195.75 108.28,198.24 108.06,200.77 107.93,203.32 107.88,205.9 107.92,208.5 108.05,211.12 108.27,213.75 108.58,216.4 108.99,219.05 109.48,221.72 110.07,224.38 110.76,227.05 111.54,229.71 112.42,232.37 113.39,235.01 114.46,237.64 115.62,240.26 116.88,242.85 118.24,245.42 119.7,247.97 121.25,250.48 122.89,252.96 124.63,255.4 126.46,257.79 128.39,260.15 130.4,262.45 132.51,264.7 134.71,266.9 136.99,269.04 139.36,271.11 141.81,273.12 144.35,275.07 146.97,276.93 149.67,278.73 152.44,280.45 155.29,282.08 158.21,283.63 161.2,285.1 164.25,286.47 167.37,287.75 170.55,288.94 173.79,290.02 177.09,291.01 180.44,291.9 183.83,292.67 187.27,293.35 190.76,293.91 194.28,294.36 197.84,294.7 201.43,294.92 205.04,295.02 208.68,295.01 212.34,294.88 216.02,294.62 219.71,294.25 223.4,293.75 227.1,293.13 230.8,292.38 234.5,291.51 238.19,290.51 241.86,289.38 245.52,288.13 249.15,286.76 252.76,285.26 256.34,283.63 259.88,281.87 263.39,280.0 266.85,277.99 270.26,275.87 273.62,273.62 276.93,271.25 280.17,268.77 283.35,266.16 286.46,263.44 289.5,260.6 292.46,257.65 295.34,254.59 298.13,251.43 300.83,248.15 303.44,244.78 305.95,241.3 308.36,237.72 310.67,234.05 312.87,230.29 314.95,226.44 316.92,222.5 318.77,218.48 320.5,214.38 322.11,210.21 323.58,205.97 324.93,201.66 326.14,197.28 327.22,192.85 328.16,188.37 328.95,183.83 183.83,183.83\"/><polyline class=\"k\" points=\"183.83,183.83 184.56,183.81 185.28,183.74 186.0,183.63 186.71,183.47 187.42,183.26 188.11,183.02 188.79,182.72 189.45,182.39 190.1,182.01 190.73,181.59 191.34,181.13 191.93,180.63 192.49,180.09 193.02,179.51 193.53,178.89 194.01,178.24 194.45,177.55 194.86,176.83 195.23,176.08 195.57,175.3 195.87,174.49 196.13,173.66 196.35,172.8 196.53,171.91 196.66,171.0 196.75,170.08 196.79,169.14 196.78,168.18 196.73,167.21 196.63,166.22 196.48,165.23 196.27,164.23 196.02,163.22 195.72,162.21 195.36,161.2 194.95,160.2 194.49,159.19 193.98,158.2 193.42,157.21 192.8,156.23 192.13,155.26 191.41,154.31 190.64,153.38 189.81,152.47 188.94,151.58 188.02,150.72 187.04,149.88 186.02,149.07 184.95,148.29 183.83,147.55 182.67,146.84 181.46,146.17 180.21,145.55 178.92,144.96 177.59,144.41 176.22,143.92 174.81,143.47 173.37,143.07 171.89,142.72 170.38,142.43 168.84,142.19 167.27,142.0 165.68,141.88 164.06,141.81 162.42,141.81 160.76,141.87 159.08,141.99 157.39,142.17 155.69,142.42 153.98,142.74 152.26,143.12 150.53,143.58 148.8,144.1 147.08,144.69 145.35,145.35 143.63,146.08 141.92,146.88 140.22,147.76 138.54,148.7 136.87,149.71 135.22,150.8 133.59,151.95 131.99,153.17 130.42,154.47 128.88,155.83 127.37,157.26 125.9,158.76 124.46,160.33 123.07,161.96 121.72,163.65 120.42,165.41 119.17,167.23 117.98,169.11 116.83,171.05 115.75,173.05 114.72,175.1 113.76,177.21 112.86,179.37 112.03,181.58 111.27,183.83 110.58,186.13 109.97,188.48 109.43,190.87 108.96,193.29 108.58,195.75 108.28,198.24 108.06,200.77 107.93,203.32 107.88,205.9 107.92,208.5 108.05,211.12 108.27,213.75 108.58,216.4 108.99,219.05 109.48,221.72 110.07,224.38 110.76,227.05 111.54,229.71 112.42,232.37 113.39,235.01 114.46,237.64 115.62,240.26 116.88,242.85 118.24,245.42 119.7,247.97 121.25,250.48 122.89,252.96 124.63,255.4 126.46,257.79 128.39,260.15 130.4,262.45 132.51,264.7 134.71,266.9 136.99,269.04 139.36,271.11 141.81,273.12 144.35,275.07 146.97,276.93 149.67,278.73 152.44,280.45 155.29,282.08 158.21,283.63 161.2,285.1 164.25,286.47 167.37,287.75 170.55,288.94 173.79,290.02 177.09,291.01 180.44,291.9 183.83,292.67 187.27,293.35 190.76,293.91 194.28,294.36 197.84,294.7 201.43,294.92 205.04,295.02 208.68,295.01 212.34,294.88 216.02,294.62 219.71,294.25 223.4,293.75 227.1,293.13 230.8,292.38 234.5,291.51 238.19,290.51 241.86,289.38 245.52,288.13 249.15,286.76 252.76,285.26 256.34,283.63 259.88,281.87 263.39,280.0 266.85,277.99 270.26,275.87 273.62,273.62 276.93,271.25 280.17,268.77 283.35,266.16 286.46,263.44 289.5,260.6 292.46,257.65 295.34,254.59 298.13,251.43 300.83,248.15 303.44,244.78 305.95,241.3 308.36,237.72 310.67,234.05 312.87,230.29 314.95,226.44 316.92,222.5 318.77,218.48 320.5,214.38 322.11,210.21 323.58,205.97 324.93,201.66 326.14,197.28 327.22,192.85 328.16,188.37 328.95,183.83\"/><line class=\"g\" x1=\"183.83\" y1=\"183.83\" x2=\"328.95\" y2=\"183.83\"/><circle class=\"dot g\" cx=\"183.83\" cy=\"183.83\" r=\"3\"/><text class=\"lbl\" x=\"184.23000000000002\" y=\"197.43\">O</text><circle class=\"dot g\" cx=\"328.95\" cy=\"183.83\" r=\"3\"/><text class=\"lbl\" x=\"336.34999999999997\" y=\"197.43\">P</text><text class=\"cap\" text-anchor=\"middle\" x=\"183.83\" y=\"361.29\">turn = 1/3 of the first circle</text></svg>"
+  },
+  {
+   "id": "apollonius-tangencies",
+   "tradition": "apollonius",
+   "title": "The Problem of Apollonius",
+   "locus": "Pappus, Collectio VII (report of the Tangencies, Περὶ ἐπαφῶν); Viète, Apollonius Gallus (Paris 1600)",
+   "status": "verify",
+   "fact": "Apollonius' two books On Tangencies are lost; Pappus' summary in Collectio VII reports that they treat, among the ten combinations of given points, lines and circles, the construction of a circle tangent to three given circles. François Viète published a reconstruction of the ruler and compass solution as Apollonius Gallus (1600).",
+   "interp": "Formalised for three given circles as three quadratic equations in the centre and radius of the unknown circle, one for each choice of external or internal tangency; their differences are linear, which reduces the problem to one quadratic. For three mutually external circles there are in general eight solutions, which the part finds and checks. This is not Apollonius' or Viète's method. Distinct from the circle of Apollonius (the locus of a constant ratio of distances), which is a separate part.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "eight distinct real solutions",
+     "ok": true,
+     "method": "instance"
+    },
+    {
+     "label": "each solution is tangent to all three given circles",
+     "ok": true,
+     "method": "numeric"
+    }
+   ],
+   "ggb": "c1 = Circle((0, 0), 1)\nc2 = Circle((6, 0), 2)\nc3 = Circle((2, 5), 1.5)\ns = {1, 1, 1}\nsol = NSolve({x^2 + y^2 = (r + Element(s, 1))^2, (x - 6)^2 + y^2 = (r + 2Element(s, 2))^2, (x - 2)^2 + (y - 5)^2 = (r + 1.5Element(s, 3))^2}, {x, y, r})",
+   "note": "Run NSolve in the CAS view. Change the signs in s (each +1 for external, -1 for internal tangency) to obtain the other solutions; keep those with r > 0.",
+   "python": "@part(id=\"apollonius-tangencies\", tradition=\"apollonius\")\ndef apollonius_tangencies():\n    \"\"\"Given three circles, find the circles tangent to all three (the Problem of Apollonius): in general eight.\"\"\"\n    given = [((0, 0), 1), ((6, 0), 2), ((2, 5), sp.Rational(3, 2))]\n    X, Y, R = sp.symbols(\"X Y R\", real=True)\n    found = []\n    for signs in product((1, -1), repeat=3):        # +1: tangent externally, -1: tangent internally\n        eqs = [(X - cx) ** 2 + (Y - cy) ** 2 - (R + s * ri) ** 2 for ((cx, cy), ri), s in zip(given, signs)]\n        # differences of the equations are linear in X, Y, R (the reduction used since Viète)\n        for sol in sp.solve(eqs, [X, Y, R], dict=True):\n            if sp.N(sol[R]) > 0 and all(abs(sp.N(sol[R] - f[R])) > 1e-9 or abs(sp.N(sol[X] - f[X])) > 1e-9 for f in found):\n                found.append(sol)\n    tangent = all(\n        any(close((f[X] - cx) ** 2 + (f[Y] - cy) ** 2, (f[R] + s * ri) ** 2).ok for s in (1, -1))\n        for f in found for (cx, cy), ri in given)\n    return dict(given=given, solutions=found), [\n        (\"eight distinct real solutions\", Check(len(found) == 8, \"instance\")),\n        (\"each solution is tangent to all three given circles\", Check(tangent, \"numeric\")),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": null,
+   "svg": "<svg viewBox=\"0 0 393.7 400.0\" role=\"img\"><circle class=\"k\" cx=\"166.45\" cy=\"197.25\" r=\"43.48\"/><circle class=\"k\" cx=\"162.01\" cy=\"156.05\" r=\"70.14\"/><circle class=\"k\" cx=\"214.31\" cy=\"220.16\" r=\"81.23\"/><circle class=\"k\" cx=\"234.12\" cy=\"159.55\" r=\"120.84\"/><circle class=\"k\" cx=\"143.45\" cy=\"213.94\" r=\"60.49\"/><circle class=\"k\" cx=\"128.7\" cy=\"168.8\" r=\"89.99\"/><circle class=\"k\" cx=\"191.3\" cy=\"255.66\" r=\"105.63\"/><circle class=\"k\" cx=\"192.74\" cy=\"191.99\" r=\"114.25\"/><circle class=\"f\" cx=\"111.29\" cy=\"233.81\" r=\"22.69\"/><circle class=\"g\" cx=\"111.29\" cy=\"233.81\" r=\"22.69\"/><circle class=\"f\" cx=\"247.45\" cy=\"233.81\" r=\"45.39\"/><circle class=\"g\" cx=\"247.45\" cy=\"233.81\" r=\"45.39\"/><circle class=\"f\" cx=\"156.68\" cy=\"120.34\" r=\"34.04\"/><circle class=\"g\" cx=\"156.68\" cy=\"120.34\" r=\"34.04\"/></svg>"
+  },
+  {
+   "id": "apollonius-circle",
+   "tradition": "apollonius",
+   "title": "Circle of Apollonius",
+   "locus": "Pappus, Collectio VII (report of the Plane Loci); Aristoteles, Meteorologica III.5",
+   "status": "verify",
+   "fact": "The locus of points whose distances from two fixed points are in a given ratio is a circle. Apollonius' Plane Loci (Τόποι ἐπίπεδοι) is lost; its contents survive in Pappus' summary in Collectio VII. The same locus already appears in Aristotle's account of the rainbow, Meteorologica III.5.",
+   "interp": "For general d and k, the locus equation is shown to be a constant multiple of the equation of the circle whose diameter joins the internal and external points of division of AB in ratio k. The page in Hultsch's Pappus is still to be checked.",
+   "hypo": "A part for testing the researcher's working hypothesis that the constructive properties of the Apollonian circle are embedded in the Last Supper. The part verifies the theorem only; it neither supports nor refutes the hypothesis.",
+   "checks": [
+    {
+     "label": "locus equation = (1−k²)·(circle on P1P2)",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "centre = −k²d/(1−k²)",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "A = (0, 0)\nB = (4, 0)\nk = Slider(0.1, 4, 0.05)\nP1 = A + k / (1 + k) (B - A)\nP2 = A + k / (k - 1) (B - A)\nap = Circle(Midpoint(P1, P2), P1)\nP = Point(ap)\nratio = Distance(P, A) / Distance(P, B)",
+   "note": "At k = 1 the locus is the perpendicular bisector of AB and the circle is undefined.",
+   "python": "@part(id=\"apollonius-circle\", tradition=\"apollonius\")\ndef apollonius_circle():\n    \"\"\"The locus of points whose distances from two fixed points A, B are in a constant ratio k (≠1) is a circle.\"\"\"\n    A, B = (0, 0), (d, 0)\n    locus = (x**2 + y**2) - k**2 * ((x - d) ** 2 + y**2)            # PA² − k²·PB² = 0\n    P1 = k / (1 + k) * d                            # internal division of AB in ratio k\n    P2 = k / (k - 1) * d                            # external division of AB in ratio k\n    m, rho = (P1 + P2) / 2, (P2 - P1) / 2\n    circle = (x - m) ** 2 + y**2 - rho**2           # circle on P1P2 as diameter\n    return dict(P1=P1, P2=P2, center=sp.simplify(m), radius=sp.simplify(rho)), [\n        (\"locus equation = (1−k²)·(circle on P1P2)\", same(locus, (1 - k**2) * circle)),\n        (\"centre = −k²d/(1−k²)\", same(m, -k**2 * d / (1 - k**2))),\n    ]\n",
+   "formal": [],
+   "machine": {
+    "engine": "Newclid 2.0.2",
+    "seed": 1,
+    "jgex": "a b p = triangle a b p; c = angle_bisector c a p b, on_line c a b; d = on_tline d p p c, on_line d a b ? eqratio p a p b d a d b",
+    "note": "Angle chasing shows PD bisects the exterior angle at P; rule r12 (the bisector theorem, Elements VI.3 and its exterior form) then gives PA : PB = DA : DB. Together with the interior case, C and D are fixed by the ratio alone, so P lies on the circle on CD as diameter.",
+    "proved": true,
+    "runtime": 0.481,
+    "proof": "==========================\n * From theorem premises:\nA B P C D : Points\n∠APC = ∠CPB [00]\nDP ⟂ CP [01]\nD,B,A are collinear [02]\n\n * Auxiliary Constructions:\n: Points\n\n\n * Proof steps:\n001. ∠APC = ∠CPB [00] & DP ⟂ CP [01] (Angle chase)⇒  ∠BPD = ∠DPA [03]\n002. ∠BPD = ∠DPA [03] & D,B,A are collinear [02] (r12)⇒  PA:PB = DA:DB(*)\n=========================="
+   },
+   "elem": null,
+   "svg": "<svg viewBox=\"0 0 400.0 300.8\" role=\"img\"><circle class=\"k\" cx=\"247.79\" cy=\"134.29\" r=\"95.58\"/><line class=\"a\" x1=\"38.71\" y1=\"134.29\" x2=\"361.29\" y2=\"134.29\"/><line class=\"g\" x1=\"216.89\" y1=\"43.84\" x2=\"56.63\" y2=\"134.29\"/><line class=\"g\" x1=\"216.89\" y1=\"43.84\" x2=\"200.0\" y2=\"134.29\"/><circle class=\"dot g\" cx=\"56.63\" cy=\"134.29\" r=\"3\"/><text class=\"lbl\" x=\"48.63\" y=\"147.89\">A</text><circle class=\"dot g\" cx=\"200.0\" cy=\"134.29\" r=\"3\"/><text class=\"lbl\" x=\"206.0\" y=\"147.89\">B</text><circle class=\"dot k\" cx=\"152.21\" cy=\"134.29\" r=\"3\"/><text class=\"lbl\" x=\"149.81\" y=\"147.89\">P₁</text><circle class=\"dot k\" cx=\"343.37\" cy=\"134.29\" r=\"3\"/><text class=\"lbl\" x=\"349.37\" y=\"147.89\">P₂</text><circle class=\"dot g\" cx=\"216.89\" cy=\"43.84\" r=\"3\"/><text class=\"lbl\" x=\"222.89\" y=\"37.84\">P</text><text class=\"cap\" text-anchor=\"middle\" x=\"247.79\" y=\"262.13\">PA : PB = 2 : 1</text></svg>"
+  },
+  {
+   "id": "apollonius-ellipse",
+   "tradition": "apollonius",
+   "title": "Focal property of the ellipse",
+   "locus": "Conica III.52",
+   "status": "fixed",
+   "fact": "For any point of an ellipse, the two lines drawn to the two foci together equal the major axis. Apollonius does not name the foci; he treats them as points fixed by an application of areas.",
+   "interp": "The word \"focus\" and the definition by the sum of distances from two points are later. PF1 and PF2 are each confirmed by squaring, without extracting roots, and the sum follows because both sides are positive.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "PF1² = (a − e·cos t)²",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "PF2² = (a + e·cos t)²",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "PF1 + PF2 = 2a",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "F1 = (-3, 0)\nF2 = (3, 0)\ne = Ellipse(F1, F2, 5)\nP = Point(e)\ns = Distance(P, F1) + Distance(P, F2)",
+   "note": null,
+   "python": "@part(id=\"apollonius-ellipse\", tradition=\"apollonius\")\ndef apollonius_ellipse():\n    \"\"\"The sum of the distances from a point of an ellipse to the two foci equals the major axis.\"\"\"\n    e = sp.sqrt(a**2 - b**2)                        # focal distance (a > b)\n    Px, Py = a * sp.cos(t), b * sp.sin(t)\n    d1sq, d2sq = (Px - e) ** 2 + Py**2, (Px + e) ** 2 + Py**2\n    # without taking roots, confirm PF1 = a − e cos t and PF2 = a + e cos t by squaring (both sides positive)\n    return dict(focus=e), [\n        (\"PF1² = (a − e·cos t)²\", same(d1sq, (a - e * sp.cos(t)) ** 2)),\n        (\"PF2² = (a + e·cos t)²\", same(d2sq, (a + e * sp.cos(t)) ** 2)),\n        (\"PF1 + PF2 = 2a\", same((a - e * sp.cos(t)) + (a + e * sp.cos(t)), 2 * a)),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": null,
+   "svg": "<svg viewBox=\"0 0 400.0 300.0\" role=\"img\"><polygon class=\"k\" points=\"361.29,135.48 361.07,130.42 360.41,125.37 359.3,120.35 357.77,115.36 355.79,110.44 353.4,105.58 350.58,100.8 347.35,96.12 343.71,91.55 339.68,87.1 335.27,82.78 330.49,78.6 325.35,74.58 319.86,70.73 314.05,67.05 307.92,63.57 301.5,60.28 294.8,57.19 287.85,54.32 280.65,51.67 273.22,49.26 265.6,47.08 257.8,45.14 249.84,43.45 241.75,42.01 233.53,40.82 225.23,39.9 216.86,39.24 208.44,38.84 200.0,38.71 191.56,38.84 183.14,39.24 174.77,39.9 166.47,40.82 158.25,42.01 150.16,43.45 142.2,45.14 134.4,47.08 126.78,49.26 119.35,51.67 112.15,54.32 105.2,57.19 98.5,60.28 92.08,63.57 85.95,67.05 80.14,70.73 74.65,74.58 69.51,78.6 64.73,82.78 60.32,87.1 56.29,91.55 52.65,96.12 49.42,100.8 46.6,105.58 44.21,110.44 42.23,115.36 40.7,120.35 39.59,125.37 38.93,130.42 38.71,135.48 38.93,140.55 39.59,145.6 40.7,150.62 42.23,155.6 44.21,160.53 46.6,165.39 49.42,170.16 52.65,174.85 56.29,179.42 60.32,183.87 64.73,188.19 69.51,192.37 74.65,196.39 80.14,200.24 85.95,203.91 92.08,207.4 98.5,210.69 105.2,213.78 112.15,216.65 119.35,219.29 126.78,221.71 134.4,223.89 142.2,225.83 150.16,227.52 158.25,228.96 166.47,230.14 174.77,231.07 183.14,231.73 191.56,232.13 200.0,232.26 208.44,232.13 216.86,231.73 225.23,231.07 233.53,230.14 241.75,228.96 249.84,227.52 257.8,225.83 265.6,223.89 273.22,221.71 280.65,219.29 287.85,216.65 294.8,213.78 301.5,210.69 307.92,207.4 314.05,203.91 319.86,200.24 325.35,196.39 330.49,192.37 335.27,188.19 339.68,183.87 343.71,179.42 347.35,174.85 350.58,170.16 353.4,165.39 355.79,160.53 357.77,155.6 359.3,150.62 360.41,145.6 361.07,140.55\"/><line class=\"a\" x1=\"38.71\" y1=\"135.48\" x2=\"361.29\" y2=\"135.48\"/><line class=\"g\" x1=\"273.16\" y1=\"49.24\" x2=\"70.97\" y2=\"135.48\"/><line class=\"g\" x1=\"273.16\" y1=\"49.24\" x2=\"329.03\" y2=\"135.48\"/><circle class=\"dot g\" cx=\"70.97\" cy=\"135.48\" r=\"3\"/><text class=\"lbl\" x=\"68.57\" y=\"149.07999999999998\">F₁</text><circle class=\"dot g\" cx=\"329.03\" cy=\"135.48\" r=\"3\"/><text class=\"lbl\" x=\"326.63\" y=\"149.07999999999998\">F₂</text><circle class=\"dot g\" cx=\"273.16\" cy=\"49.24\" r=\"3\"/><text class=\"lbl\" x=\"279.16\" y=\"41.84\">P</text><text class=\"cap\" text-anchor=\"middle\" x=\"200.0\" y=\"261.29\">PF₁ + PF₂ = 2a</text></svg>"
+  },
+  {
+   "id": "hippocrates-lune",
+   "tradition": "hippocrates",
+   "title": "The lune of Hippocrates of Chios",
+   "locus": "Simplicius, In Phys. pp. 60-68 Diels (quoting Eudemus)",
+   "status": "verify",
+   "fact": "Simplicius, quoting Eudemus' history of geometry, reports that Hippocrates squared lunes bounded by circular arcs, showing them equal to rectilinear figures. The first case is the lune on the side of an isosceles right triangle.",
+   "interp": "Read as the oldest example of an exactly quadrable curvilinear figure, in connection with the problem of squaring the circle. Leonardo's lunule studies can be seen as a large-scale development of this type of equal-area transformation. Line numbers in Diels still to be checked.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "lune = triangle AOC",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "two lunes = triangle ABC",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "O = (0, 0)\nA = (-1, 0)\nB = (1, 0)\nC = (0, 1)\nbig = Circle(O, 1)\nsAC = Circle(Midpoint(A, C), A)\nsCB = Circle(Midpoint(C, B), C)\ntri = Polygon(A, B, C)\nlune = π (sqrt(2) / 2)^2 / 2 - (π / 4 - 1 / 2)\ncheck = 2 lune == Area(tri)",
+   "note": null,
+   "python": "@part(id=\"hippocrates-lune\", tradition=\"hippocrates\")\ndef hippocrates_lune():\n    \"\"\"The lune on a side of an isosceles right triangle equals a triangle in area.\"\"\"\n    # isosceles right triangle ABC inscribed in a circle of radius r (AB a diameter, right angle at C)\n    AC = sp.sqrt(2) * r\n    semicircle_AC = sp.pi * (AC / 2) ** 2 / 2       # outward semicircle on AC as diameter\n    segment_AC = sp.pi * r**2 / 4 - r**2 / 2        # segment of the large circle cut off by chord AC\n    lune = semicircle_AC - segment_AC\n    tri_AOC = r**2 / 2\n    return dict(lune=lune), [\n        (\"lune = triangle AOC\", same(lune, tri_AOC)),\n        (\"two lunes = triangle ABC\", same(2 * lune, r**2)),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": null,
+   "svg": "<svg viewBox=\"0 0 400.0 238.7\" role=\"img\"><polygon class=\"f\" points=\"66.38,200.0 63.19,196.64 60.16,193.13 57.3,189.47 54.63,185.68 52.15,181.76 49.87,177.73 47.78,173.59 45.9,169.35 44.23,165.02 42.78,160.62 41.54,156.15 40.53,151.62 39.73,147.05 39.16,142.45 38.82,137.83 38.71,133.19 38.82,128.56 39.16,123.93 39.73,119.33 40.53,114.76 41.54,110.23 42.78,105.76 44.23,101.36 45.9,97.03 47.78,92.8 49.87,88.65 52.15,84.62 54.63,80.7 57.3,76.91 60.16,73.25 63.19,69.74 66.38,66.38 69.74,63.19 73.25,60.16 76.91,57.3 80.7,54.63 84.62,52.15 88.65,49.87 92.8,47.78 97.03,45.9 101.36,44.23 105.76,42.78 110.23,41.54 114.76,40.53 119.33,39.73 123.93,39.16 128.56,38.82 133.19,38.71 137.83,38.82 142.45,39.16 147.05,39.73 151.62,40.53 156.15,41.54 160.62,42.78 165.02,44.23 169.35,45.9 173.59,47.78 177.73,49.87 181.76,52.15 185.68,54.63 189.47,57.3 193.13,60.16 196.64,63.19 200.0,66.38 200.0,66.38 196.72,66.42 193.44,66.54 190.17,66.74 186.9,67.03 183.64,67.39 180.39,67.83 177.16,68.35 173.93,68.95 170.72,69.63 167.53,70.39 164.36,71.22 161.21,72.14 158.09,73.13 154.99,74.19 151.91,75.34 148.87,76.55 145.85,77.85 142.87,79.21 139.92,80.65 137.01,82.16 134.14,83.74 131.31,85.39 128.52,87.11 125.77,88.9 123.06,90.76 120.4,92.68 117.79,94.66 115.23,96.71 112.72,98.82 110.27,101.0 107.87,103.23 105.52,105.52 103.23,107.87 101.0,110.27 98.82,112.72 96.71,115.23 94.66,117.79 92.68,120.4 90.76,123.06 88.9,125.77 87.11,128.52 85.39,131.31 83.74,134.14 82.16,137.01 80.65,139.92 79.21,142.87 77.85,145.85 76.55,148.87 75.34,151.91 74.19,154.99 73.13,158.09 72.14,161.21 71.22,164.36 70.39,167.53 69.63,170.72 68.95,173.93 68.35,177.16 67.83,180.39 67.39,183.64 67.03,186.9 66.74,190.17 66.54,193.44 66.42,196.72 66.38,200.0\"/><polygon class=\"f\" points=\"200.0,66.38 203.36,63.19 206.87,60.16 210.53,57.3 214.32,54.63 218.24,52.15 222.27,49.87 226.41,47.78 230.65,45.9 234.98,44.23 239.38,42.78 243.85,41.54 248.38,40.53 252.95,39.73 257.55,39.16 262.17,38.82 266.81,38.71 271.44,38.82 276.07,39.16 280.67,39.73 285.24,40.53 289.77,41.54 294.24,42.78 298.64,44.23 302.97,45.9 307.2,47.78 311.35,49.87 315.38,52.15 319.3,54.63 323.09,57.3 326.75,60.16 330.26,63.19 333.62,66.38 336.81,69.74 339.84,73.25 342.7,76.91 345.37,80.7 347.85,84.62 350.13,88.65 352.22,92.8 354.1,97.03 355.77,101.36 357.22,105.76 358.46,110.23 359.47,114.76 360.27,119.33 360.84,123.93 361.18,128.56 361.29,133.19 361.18,137.83 360.84,142.45 360.27,147.05 359.47,151.62 358.46,156.15 357.22,160.62 355.77,165.02 354.1,169.35 352.22,173.59 350.13,177.73 347.85,181.76 345.37,185.68 342.7,189.47 339.84,193.13 336.81,196.64 333.62,200.0 333.62,200.0 333.58,196.72 333.46,193.44 333.26,190.17 332.97,186.9 332.61,183.64 332.17,180.39 331.65,177.16 331.05,173.93 330.37,170.72 329.61,167.53 328.78,164.36 327.86,161.21 326.87,158.09 325.81,154.99 324.66,151.91 323.45,148.87 322.15,145.85 320.79,142.87 319.35,139.92 317.84,137.01 316.26,134.14 314.61,131.31 312.89,128.52 311.1,125.77 309.24,123.06 307.32,120.4 305.34,117.79 303.29,115.23 301.18,112.72 299.0,110.27 296.77,107.87 294.48,105.52 292.13,103.23 289.73,101.0 287.28,98.82 284.77,96.71 282.21,94.66 279.6,92.68 276.94,90.76 274.23,88.9 271.48,87.11 268.69,85.39 265.86,83.74 262.99,82.16 260.08,80.65 257.13,79.21 254.15,77.85 251.13,76.55 248.09,75.34 245.01,74.19 241.91,73.13 238.79,72.14 235.64,71.22 232.47,70.39 229.28,69.63 226.07,68.95 222.84,68.35 219.61,67.83 216.36,67.39 213.1,67.03 209.83,66.74 206.56,66.54 203.28,66.42 200.0,66.38\"/><polyline class=\"g\" points=\"333.62,200.0 333.46,193.44 332.97,186.9 332.17,180.39 331.05,173.93 329.61,167.53 327.86,161.21 325.81,154.99 323.45,148.87 320.79,142.87 317.84,137.01 314.61,131.31 311.1,125.77 307.32,120.4 303.29,115.23 299.0,110.27 294.48,105.52 289.73,101.0 284.77,96.71 279.6,92.68 274.23,88.9 268.69,85.39 262.99,82.16 257.13,79.21 251.13,76.55 245.01,74.19 238.79,72.14 232.47,70.39 226.07,68.95 219.61,67.83 213.1,67.03 206.56,66.54 200.0,66.38 193.44,66.54 186.9,67.03 180.39,67.83 173.93,68.95 167.53,70.39 161.21,72.14 154.99,74.19 148.87,76.55 142.87,79.21 137.01,82.16 131.31,85.39 125.77,88.9 120.4,92.68 115.23,96.71 110.27,101.0 105.52,105.52 101.0,110.27 96.71,115.23 92.68,120.4 88.9,125.77 85.39,131.31 82.16,137.01 79.21,142.87 76.55,148.87 74.19,154.99 72.14,161.21 70.39,167.53 68.95,173.93 67.83,180.39 67.03,186.9 66.54,193.44 66.38,200.0\"/><line class=\"a\" x1=\"66.38\" y1=\"200.0\" x2=\"333.62\" y2=\"200.0\"/><polyline class=\"k\" points=\"66.38,200.0 63.19,196.64 60.16,193.13 57.3,189.47 54.63,185.68 52.15,181.76 49.87,177.73 47.78,173.59 45.9,169.35 44.23,165.02 42.78,160.62 41.54,156.15 40.53,151.62 39.73,147.05 39.16,142.45 38.82,137.83 38.71,133.19 38.82,128.56 39.16,123.93 39.73,119.33 40.53,114.76 41.54,110.23 42.78,105.76 44.23,101.36 45.9,97.03 47.78,92.8 49.87,88.65 52.15,84.62 54.63,80.7 57.3,76.91 60.16,73.25 63.19,69.74 66.38,66.38 69.74,63.19 73.25,60.16 76.91,57.3 80.7,54.63 84.62,52.15 88.65,49.87 92.8,47.78 97.03,45.9 101.36,44.23 105.76,42.78 110.23,41.54 114.76,40.53 119.33,39.73 123.93,39.16 128.56,38.82 133.19,38.71 137.83,38.82 142.45,39.16 147.05,39.73 151.62,40.53 156.15,41.54 160.62,42.78 165.02,44.23 169.35,45.9 173.59,47.78 177.73,49.87 181.76,52.15 185.68,54.63 189.47,57.3 193.13,60.16 196.64,63.19 200.0,66.38\"/><polyline class=\"k\" points=\"200.0,66.38 203.36,63.19 206.87,60.16 210.53,57.3 214.32,54.63 218.24,52.15 222.27,49.87 226.41,47.78 230.65,45.9 234.98,44.23 239.38,42.78 243.85,41.54 248.38,40.53 252.95,39.73 257.55,39.16 262.17,38.82 266.81,38.71 271.44,38.82 276.07,39.16 280.67,39.73 285.24,40.53 289.77,41.54 294.24,42.78 298.64,44.23 302.97,45.9 307.2,47.78 311.35,49.87 315.38,52.15 319.3,54.63 323.09,57.3 326.75,60.16 330.26,63.19 333.62,66.38 336.81,69.74 339.84,73.25 342.7,76.91 345.37,80.7 347.85,84.62 350.13,88.65 352.22,92.8 354.1,97.03 355.77,101.36 357.22,105.76 358.46,110.23 359.47,114.76 360.27,119.33 360.84,123.93 361.18,128.56 361.29,133.19 361.18,137.83 360.84,142.45 360.27,147.05 359.47,151.62 358.46,156.15 357.22,160.62 355.77,165.02 354.1,169.35 352.22,173.59 350.13,177.73 347.85,181.76 345.37,185.68 342.7,189.47 339.84,193.13 336.81,196.64 333.62,200.0\"/><polygon class=\"g\" points=\"66.38,200.0 333.62,200.0 200.0,66.38\"/><circle class=\"dot g\" cx=\"66.38\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"49.97999999999999\" y=\"213.6\">A</text><circle class=\"dot g\" cx=\"333.62\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"339.62\" y=\"213.6\">B</text><circle class=\"dot g\" cx=\"200.0\" cy=\"66.38\" r=\"3\"/><text class=\"lbl\" x=\"200.4\" y=\"56.17999999999999\">C</text><circle class=\"dot g\" cx=\"200.0\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"200.4\" y=\"213.6\">O</text></svg>"
+  },
+  {
+   "id": "menaechmus-cube",
+   "tradition": "menaechmus",
+   "title": "Menaechmus' duplication of the cube",
+   "locus": "Eutocius, In De sphaera et cylindro II.1",
+   "status": "fixed",
+   "fact": "Eutocius collects and transmits the ancient solutions to the duplication of the cube (the Delian problem); among them are two by Menaechmus, one of which uses the intersection of two parabolas.",
+   "interp": "Inserting two mean proportionals X, Y between a and 2a gives X³ = 2a³ (Hippocrates' reduction of the problem). The name \"parabola\" did not exist in Menaechmus' time; it dates from Apollonius.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "(X, Y) lies on y² = 2a·x",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "X³ = 2a³ (edge of the doubled cube)",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "a : X = X : Y = Y : 2a (two mean proportionals)",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "a = 1\nf(x) = x^2 / a\ng(x) = sqrt(2a x)\nS = Intersect(f, g, 0.5, 2)\ncheck = x(S) - a cbrt(2)",
+   "note": "check comes out at approximately 0.",
+   "python": "@part(id=\"menaechmus-cube\", tradition=\"menaechmus\")\ndef menaechmus_cube():\n    \"\"\"From the intersection of two parabolas, obtain the duplication of the cube (∛2).\"\"\"\n    X = a * sp.cbrt(2)\n    Y = X**2 / a                                    # on the parabola x² = a·y\n    return dict(X=X, Y=Y), [\n        (\"(X, Y) lies on y² = 2a·x\", same(Y**2, 2 * a * X)),\n        (\"X³ = 2a³ (edge of the doubled cube)\", same(X**3, 2 * a**3)),\n        (\"a : X = X : Y = Y : 2a (two mean proportionals)\",\n         Check(same(a / X, X / Y).ok and same(X / Y, Y / (2 * a)).ok, \"symbolic\")),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": null,
+   "svg": "<svg viewBox=\"0 0 370.7 400.0\" role=\"img\"><line class=\"a\" x1=\"38.71\" y1=\"361.29\" x2=\"331.96\" y2=\"361.29\"/><line class=\"a\" x1=\"38.71\" y1=\"361.29\" x2=\"38.71\" y2=\"38.71\"/><polyline class=\"g\" points=\"38.71,361.29 44.28,361.08 49.85,360.44 55.43,359.38 61.0,357.9 66.57,356.0 72.14,353.67 77.71,350.92 83.28,347.74 88.86,344.14 94.43,340.12 100.0,335.67 105.57,330.8 111.14,325.51 116.72,319.79 122.29,313.65 127.86,307.09 133.43,300.1 139.0,292.69 144.57,284.86 150.15,276.6 155.72,267.92 161.29,258.81 166.86,249.29 172.43,239.33 178.01,228.96 183.58,218.16 189.15,206.94 194.72,195.29 200.29,183.23 205.87,170.73 211.44,157.82 217.01,144.48 222.58,130.72 228.15,116.53 233.72,101.92 239.3,86.89 244.87,71.43 250.44,55.55 256.01,39.25\"/><polyline class=\"g\" points=\"38.71,361.29 44.28,320.87 49.85,304.12 55.43,291.28 61.0,280.45 66.57,270.9 72.14,262.28 77.71,254.34 83.28,246.96 88.86,240.02 94.43,233.46 100.0,227.22 105.57,221.26 111.14,215.55 116.72,210.04 122.29,204.73 127.86,199.6 133.43,194.62 139.0,189.79 144.57,185.09 150.15,180.52 155.72,176.05 161.29,171.69 166.86,167.43 172.43,163.26 178.01,159.18 183.58,155.18 189.15,151.25 194.72,147.39 200.29,143.61 205.87,139.89 211.44,136.23 217.01,132.63 222.58,129.08 228.15,125.59 233.72,122.15 239.3,118.76 244.87,115.41 250.44,112.11 256.01,108.85 261.58,105.64 267.16,102.46 272.73,99.32 278.3,96.22 283.87,93.16 289.44,90.13 295.01,87.13 300.59,84.17 306.16,81.24 311.73,78.33 317.3,75.46\"/><line class=\"k\" x1=\"223.45\" y1=\"361.29\" x2=\"223.45\" y2=\"128.53\"/><circle class=\"dot k\" cx=\"223.45\" cy=\"128.53\" r=\"3\"/><text class=\"lbl\" x=\"229.45\" y=\"122.53\">S</text><circle class=\"dot k\" cx=\"223.45\" cy=\"361.29\" r=\"3\"/><text class=\"lbl\" x=\"222.45\" y=\"376.29\">∛2</text><text class=\"cap\" text-anchor=\"start\" x=\"265.98\" y=\"185.34\">y² = 2x</text><text class=\"cap\" text-anchor=\"start\" x=\"141.35\" y=\"82.7\">y = x²</text></svg>"
+  },
+  {
+   "id": "alberti-perspective",
+   "tradition": "alberti",
+   "title": "Costruzione legittima",
+   "locus": "De pictura I.19-20",
+   "status": "verify",
+   "fact": "Alberti treats the picture as an open window and describes how to draw a floor of squares: orthogonals converge on the centric point, and transversals close up with distance. Their positions are fixed with an auxiliary side view and checked with a diagonal.",
+   "interp": "Formalised as a central projection with eye height h and viewing distance d. That the images of the diagonals pass through a single point (the distance point) is the basis of the later distance-point method. Perspective analysis of the Last Supper (geometric construction layer) presupposes this model; whether Leonardo consulted Alberti's text directly requires separate examination.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "orthogonal X = c converges to the centric point (0, h)",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "every diagonal's image passes through the distance point (d, h)",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "height of transversal y_n = h·n/(d + n)",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "h = 3\nd = 6\nVP = (0, h)\nDP = (d, h)\nhorizon = Line(VP, DP)\north = Sequence(Segment((c, 0), VP), c, -4, 4)\nrows = Sequence(Segment((-4d / (d + n), h n / (d + n)), (4d / (d + n), h n / (d + n))), n, 0, 12)\ndiag = Segment((-4, 0), DP)",
+   "note": null,
+   "python": "@part(id=\"alberti-perspective\", tradition=\"alberti\")\ndef alberti_perspective():\n    \"\"\"Costruzione legittima: project the floor grid onto the picture plane, eye height h, viewing distance d.\"\"\"\n    def project(X, Z):                              # floor point (X, depth Z) -> picture (x', y')\n        return (X * d / (d + Z), h * Z / (d + Z))\n    vp = (0, h)                                     # centric (vanishing) point\n    Z = sp.Symbol(\"Z\", positive=True)\n    ortho = [sp.limit(c_, Z, sp.oo) for c_ in project(c, Z)]\n    diag = project(Z + c, Z)                        # floor diagonal X = Z + c\n    dist_pt = (d, h)                                # distance point\n    collinear = sp.Matrix([[*project(c, 0), 1], [*diag, 1], [*dist_pt, 1]]).det()\n    rows = [project(0, n)[1] for n in range(4)]\n    return dict(rows=rows), [\n        (\"orthogonal X = c converges to the centric point (0, h)\", same(ortho[0] - vp[0] + ortho[1] - vp[1], 0)),\n        (\"every diagonal's image passes through the distance point (d, h)\", same(collinear, 0)),\n        (\"height of transversal y_n = h·n/(d + n)\", same(rows[2], 2 * h / (d + 2))),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": null,
+   "svg": "<svg viewBox=\"0 0 400.0 154.8\" role=\"img\"><line class=\"a\" x1=\"38.71\" y1=\"38.71\" x2=\"361.29\" y2=\"38.71\"/><line class=\"g\" x1=\"90.32\" y1=\"116.13\" x2=\"193.55\" y2=\"38.71\"/><line class=\"g\" x1=\"116.13\" y1=\"116.13\" x2=\"193.55\" y2=\"38.71\"/><line class=\"g\" x1=\"141.94\" y1=\"116.13\" x2=\"193.55\" y2=\"38.71\"/><line class=\"g\" x1=\"167.74\" y1=\"116.13\" x2=\"193.55\" y2=\"38.71\"/><line class=\"g\" x1=\"193.55\" y1=\"116.13\" x2=\"193.55\" y2=\"38.71\"/><line class=\"g\" x1=\"219.35\" y1=\"116.13\" x2=\"193.55\" y2=\"38.71\"/><line class=\"g\" x1=\"245.16\" y1=\"116.13\" x2=\"193.55\" y2=\"38.71\"/><line class=\"g\" x1=\"270.97\" y1=\"116.13\" x2=\"193.55\" y2=\"38.71\"/><line class=\"g\" x1=\"296.77\" y1=\"116.13\" x2=\"193.55\" y2=\"38.71\"/><line class=\"g\" x1=\"90.32\" y1=\"116.13\" x2=\"296.77\" y2=\"116.13\"/><line class=\"g\" x1=\"105.07\" y1=\"105.07\" x2=\"282.03\" y2=\"105.07\"/><line class=\"g\" x1=\"116.13\" y1=\"96.77\" x2=\"270.97\" y2=\"96.77\"/><line class=\"g\" x1=\"124.73\" y1=\"90.32\" x2=\"262.37\" y2=\"90.32\"/><line class=\"g\" x1=\"131.61\" y1=\"85.16\" x2=\"255.48\" y2=\"85.16\"/><line class=\"g\" x1=\"137.24\" y1=\"80.94\" x2=\"249.85\" y2=\"80.94\"/><line class=\"g\" x1=\"141.94\" y1=\"77.42\" x2=\"245.16\" y2=\"77.42\"/><line class=\"g\" x1=\"145.91\" y1=\"74.44\" x2=\"241.19\" y2=\"74.44\"/><line class=\"g\" x1=\"149.31\" y1=\"71.89\" x2=\"237.79\" y2=\"71.89\"/><line class=\"g\" x1=\"152.26\" y1=\"69.68\" x2=\"234.84\" y2=\"69.68\"/><line class=\"g\" x1=\"154.84\" y1=\"67.74\" x2=\"232.26\" y2=\"67.74\"/><line class=\"g\" x1=\"157.12\" y1=\"66.03\" x2=\"229.98\" y2=\"66.03\"/><line class=\"g\" x1=\"159.14\" y1=\"64.52\" x2=\"227.96\" y2=\"64.52\"/><line class=\"k\" x1=\"90.32\" y1=\"116.13\" x2=\"348.39\" y2=\"38.71\"/><circle class=\"dot g\" cx=\"193.55\" cy=\"38.71\" r=\"3\"/><text class=\"lbl\" x=\"163.15\" y=\"28.51\">centric point</text><circle class=\"dot k\" cx=\"348.39\" cy=\"38.71\" r=\"3\"/><text class=\"lbl\" x=\"303.99\" y=\"28.51\">distance point</text></svg>"
+  },
+  {
+   "id": "pacioli-proportion",
+   "tradition": "pacioli",
+   "title": "Properties of the divine proportion",
+   "locus": "Divina proportione (1509), Compendium de divina proportione",
+   "status": "verify",
+   "fact": "Pacioli names the extreme and mean ratio divina proportione and enumerates its effects (effetti). Much of their content rests on Euclid, Elements XIII.1-5.",
+   "interp": "Algebraic notation such as φ² = φ + 1 is modern. The correspondence between each effetto and Euclid's propositions, and the chapter numbers, are still to be checked in the original.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "whole : greater = greater : lesser",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "φ² = φ + 1",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "1/φ = φ − 1",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "(greater + half the whole)² = 5·(half the whole)² (XIII.1)",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "g = (1 + sqrt(5)) / 2\ne1 = g^2 == g + 1\ne2 = 1 / g == g - 1\ne3 = (1 + g / 2)^2 == 5 (g / 2)^2",
+   "note": null,
+   "python": "@part(id=\"pacioli-proportion\", tradition=\"pacioli\")\ndef pacioli_proportion():\n    \"\"\"Algebraic properties of the extreme and mean ratio (divina proportione).\"\"\"\n    lesser, greater_, whole = 1 / phi, 1, phi       # the whole φ divided in extreme and mean ratio\n    half = whole / 2\n    return dict(phi=phi), [\n        (\"whole : greater = greater : lesser\", same(whole / greater_, greater_ / lesser)),\n        (\"φ² = φ + 1\", same(phi**2, phi + 1)),\n        (\"1/φ = φ − 1\", same(1 / phi, phi - 1)),\n        (\"(greater + half the whole)² = 5·(half the whole)² (XIII.1)\", same((greater_ + half) ** 2, 5 * half**2)),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": null,
+   "svg": "<svg viewBox=\"0 0 400.0 312.7\" role=\"img\"><polygon class=\"g\" points=\"38.71,238.08 361.29,238.08 361.29,38.71 38.71,38.71\"/><polygon class=\"f\" points=\"38.71,238.08 238.08,238.08 238.08,38.71 38.71,38.71\"/><polygon class=\"a\" points=\"238.08,161.92 361.29,161.92 361.29,38.71 238.08,38.71\"/><polygon class=\"a\" points=\"285.14,238.08 361.29,238.08 361.29,161.92 285.14,161.92\"/><polygon class=\"a\" points=\"238.08,238.08 285.14,238.08 285.14,191.01 238.08,191.01\"/><polygon class=\"a\" points=\"238.08,191.01 267.16,191.01 267.16,161.92 238.08,161.92\"/><polygon class=\"a\" points=\"267.16,179.9 285.14,179.9 285.14,161.92 267.16,161.92\"/><polygon class=\"a\" points=\"274.03,191.01 285.14,191.01 285.14,179.9 274.03,179.9\"/><polygon class=\"a\" points=\"267.16,191.01 274.03,191.01 274.03,184.15 267.16,184.15\"/><text class=\"cap\" text-anchor=\"middle\" x=\"200.0\" y=\"273.96\">1 : φ = φ : φ + 1</text></svg>"
+  },
+  {
+   "id": "pacioli-icosahedron",
+   "tradition": "pacioli",
+   "title": "Three golden rectangles and the icosahedron",
+   "locus": "Divina proportione (1509), plates of the solids",
+   "status": "verify",
+   "fact": "The 1509 edition contains plates of the regular solids and their truncated and stellated forms, each drawn both solid (solidus) and as an open frame (vacuus). Pacioli states in the text that Leonardo drew these figures.",
+   "interp": "The coordinate description, in which the vertices of three mutually perpendicular golden rectangles form a regular icosahedron, is modern; whether Pacioli's text presents it in this form is still to be checked.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "12 vertices",
+     "ok": true,
+     "method": "instance"
+    },
+    {
+     "label": "30 edges (all of length 2)",
+     "ok": true,
+     "method": "instance"
+    },
+    {
+     "label": "5 edges at every vertex",
+     "ok": true,
+     "method": "instance"
+    },
+    {
+     "label": "20 faces (equilateral triangles)",
+     "ok": true,
+     "method": "instance"
+    },
+    {
+     "label": "Euler V − E + F = 2",
+     "ok": true,
+     "method": "instance"
+    }
+   ],
+   "ggb": "g = (1 + sqrt(5)) / 2\nr1 = Polygon((0, -1, -g), (0, 1, -g), (0, 1, g), (0, -1, g))\nr2 = Polygon((-1, -g, 0), (1, -g, 0), (1, g, 0), (-1, g, 0))\nr3 = Polygon((-g, 0, -1), (-g, 0, 1), (g, 0, 1), (g, 0, -1))\nedge = Distance((0, 1, g), (1, g, 0))",
+   "note": "Run in the 3D Graphics view. edge = 2.",
+   "python": "@part(id=\"pacioli-icosahedron\", tradition=\"pacioli\")\ndef pacioli_icosahedron():\n    \"\"\"The 12 vertices of three mutually perpendicular golden rectangles form a regular icosahedron.\"\"\"\n    V = _solid(\"icosa\")\n    edges = [(p, q) for p, q in combinations(V, 2) if _dist2(p, q) == 4]\n    degree = {v: sum(v in e for e in edges) for v in V}\n    faces = [f for f in combinations(V, 3) if all(_dist2(p, q) == 4 for p, q in combinations(f, 2))]\n    return dict(vertices=V, edges=edges), [\n        (\"12 vertices\", Check(len(V) == 12, \"instance\")),\n        (\"30 edges (all of length 2)\", Check(len(edges) == 30, \"instance\")),\n        (\"5 edges at every vertex\", Check(set(degree.values()) == {5}, \"instance\")),\n        (\"20 faces (equilateral triangles)\", Check(len(faces) == 20, \"instance\")),\n        (\"Euler V − E + F = 2\", Check(len(V) - len(edges) + len(faces) == 2, \"instance\")),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": null,
+   "svg": "<svg viewBox=\"0 0 400.0 363.6\" role=\"img\"><polygon class=\"f\" points=\"135.45,300.13 135.45,138.5 264.55,63.47 264.55,225.1\"/><polygon class=\"f\" points=\"124.97,300.23 275.03,324.89 275.03,63.36 124.97,38.71\"/><polygon class=\"f\" points=\"38.71,185.04 118.5,138.67 361.29,178.56 281.5,224.93\"/><line class=\"k\" x1=\"264.55\" y1=\"63.47\" x2=\"275.03\" y2=\"63.36\"/><line class=\"k\" x1=\"264.55\" y1=\"63.47\" x2=\"361.29\" y2=\"178.56\"/><line class=\"k\" x1=\"264.55\" y1=\"63.47\" x2=\"118.5\" y2=\"138.67\"/><line class=\"k\" x1=\"264.55\" y1=\"63.47\" x2=\"264.55\" y2=\"225.1\"/><line class=\"k\" x1=\"264.55\" y1=\"63.47\" x2=\"124.97\" y2=\"38.71\"/><line class=\"k\" x1=\"275.03\" y1=\"63.36\" x2=\"361.29\" y2=\"178.56\"/><line class=\"k\" x1=\"275.03\" y1=\"63.36\" x2=\"135.45\" y2=\"138.5\"/><line class=\"k\" x1=\"275.03\" y1=\"63.36\" x2=\"124.97\" y2=\"38.71\"/><line class=\"k\" x1=\"275.03\" y1=\"63.36\" x2=\"281.5\" y2=\"224.93\"/><line class=\"k\" x1=\"361.29\" y1=\"178.56\" x2=\"275.03\" y2=\"324.89\"/><line class=\"k\" x1=\"361.29\" y1=\"178.56\" x2=\"264.55\" y2=\"225.1\"/><line class=\"k\" x1=\"361.29\" y1=\"178.56\" x2=\"281.5\" y2=\"224.93\"/><line class=\"k\" x1=\"135.45\" y1=\"138.5\" x2=\"124.97\" y2=\"38.71\"/><line class=\"k\" x1=\"135.45\" y1=\"138.5\" x2=\"281.5\" y2=\"224.93\"/><line class=\"k\" x1=\"135.45\" y1=\"138.5\" x2=\"135.45\" y2=\"300.13\"/><line class=\"k\" x1=\"135.45\" y1=\"138.5\" x2=\"38.71\" y2=\"185.04\"/><line class=\"k\" x1=\"275.03\" y1=\"324.89\" x2=\"264.55\" y2=\"225.1\"/><line class=\"k\" x1=\"275.03\" y1=\"324.89\" x2=\"281.5\" y2=\"224.93\"/><line class=\"k\" x1=\"275.03\" y1=\"324.89\" x2=\"135.45\" y2=\"300.13\"/><line class=\"k\" x1=\"275.03\" y1=\"324.89\" x2=\"124.97\" y2=\"300.23\"/><line class=\"k\" x1=\"118.5\" y1=\"138.67\" x2=\"264.55\" y2=\"225.1\"/><line class=\"k\" x1=\"118.5\" y1=\"138.67\" x2=\"124.97\" y2=\"38.71\"/><line class=\"k\" x1=\"118.5\" y1=\"138.67\" x2=\"124.97\" y2=\"300.23\"/><line class=\"k\" x1=\"118.5\" y1=\"138.67\" x2=\"38.71\" y2=\"185.04\"/><line class=\"k\" x1=\"264.55\" y1=\"225.1\" x2=\"124.97\" y2=\"300.23\"/><line class=\"k\" x1=\"124.97\" y1=\"38.71\" x2=\"38.71\" y2=\"185.04\"/><line class=\"k\" x1=\"281.5\" y1=\"224.93\" x2=\"135.45\" y2=\"300.13\"/><line class=\"k\" x1=\"135.45\" y1=\"300.13\" x2=\"124.97\" y2=\"300.23\"/><line class=\"k\" x1=\"135.45\" y1=\"300.13\" x2=\"38.71\" y2=\"185.04\"/><line class=\"k\" x1=\"124.97\" y1=\"300.23\" x2=\"38.71\" y2=\"185.04\"/><circle class=\"dot g\" cx=\"264.55\" cy=\"63.47\" r=\"3\"/><circle class=\"dot g\" cx=\"275.03\" cy=\"63.36\" r=\"3\"/><circle class=\"dot g\" cx=\"361.29\" cy=\"178.56\" r=\"3\"/><circle class=\"dot g\" cx=\"135.45\" cy=\"138.5\" r=\"3\"/><circle class=\"dot g\" cx=\"275.03\" cy=\"324.89\" r=\"3\"/><circle class=\"dot g\" cx=\"118.5\" cy=\"138.67\" r=\"3\"/><circle class=\"dot g\" cx=\"264.55\" cy=\"225.1\" r=\"3\"/><circle class=\"dot g\" cx=\"124.97\" cy=\"38.71\" r=\"3\"/><circle class=\"dot g\" cx=\"281.5\" cy=\"224.93\" r=\"3\"/><circle class=\"dot g\" cx=\"135.45\" cy=\"300.13\" r=\"3\"/><circle class=\"dot g\" cx=\"124.97\" cy=\"300.23\" r=\"3\"/><circle class=\"dot g\" cx=\"38.71\" cy=\"185.04\" r=\"3\"/></svg>"
+  },
+  {
+   "id": "leonardo-lunulae",
+   "tradition": "leonardo",
+   "title": "The square and its four lunes",
+   "locus": "Codice Atlantico, studies of lunules (De ludo geometrico)",
+   "status": "verify",
+   "fact": "The Codice Atlantico contains many drawings that transform lunes bounded by circular arcs into equal rectilinear figures; Leonardo gave this study the name De ludo geometrico.",
+   "interp": "The theorem placed here is a classical result of Hippocratean type, not a discovery of Leonardo's. Correspondence with specific folios (folio numbers, dating) is still to be checked in Marinoni's edition and against Pedretti's chronology.",
+   "hypo": null,
+   "checks": [
+    {
+     "label": "four lunes = square",
+     "ok": true,
+     "method": "symbolic"
+    },
+    {
+     "label": "four semicircles = circle",
+     "ok": true,
+     "method": "symbolic"
+    }
+   ],
+   "ggb": "O = (0, 0)\nc = Circle(O, 1)\nsq = Polygon((1, 0), (0, 1), (-1, 0), (0, -1))\narcs = Sequence(Circle(Midpoint(Vertex(sq, i), Vertex(sq, Mod(i, 4) + 1)), Vertex(sq, i)), i, 1, 4)\nlunes = 4 π (sqrt(2) / 2)^2 / 2 - (π - Area(sq))\ncheck = lunes == Area(sq)",
+   "note": null,
+   "python": "@part(id=\"leonardo-lunulae\", tradition=\"leonardo\")\ndef leonardo_lunulae():\n    \"\"\"Erect outward semicircles on the sides of a square inscribed in a circle: the four lunes together equal the square.\"\"\"\n    side = sp.sqrt(2) * r\n    square = side**2\n    four_semicircles = 4 * sp.pi * (side / 2) ** 2 / 2\n    circle_minus_square = sp.pi * r**2 - square     # the four circular segments together\n    lunes = four_semicircles - circle_minus_square\n    return dict(lunes=lunes), [\n        (\"four lunes = square\", same(lunes, square)),\n        (\"four semicircles = circle\", same(four_semicircles, sp.pi * r**2)),\n    ]\n",
+   "formal": [],
+   "machine": null,
+   "elem": null,
+   "svg": "<svg viewBox=\"0 0 400.0 400.0\" role=\"img\"><polygon class=\"f\" points=\"333.62,200.0 336.81,196.64 339.84,193.13 342.7,189.47 345.37,185.68 347.85,181.76 350.13,177.73 352.22,173.59 354.1,169.35 355.77,165.02 357.22,160.62 358.46,156.15 359.47,151.62 360.27,147.05 360.84,142.45 361.18,137.83 361.29,133.19 361.18,128.56 360.84,123.93 360.27,119.33 359.47,114.76 358.46,110.23 357.22,105.76 355.77,101.36 354.1,97.03 352.22,92.8 350.13,88.65 347.85,84.62 345.37,80.7 342.7,76.91 339.84,73.25 336.81,69.74 333.62,66.38 330.26,63.19 326.75,60.16 323.09,57.3 319.3,54.63 315.38,52.15 311.35,49.87 307.2,47.78 302.97,45.9 298.64,44.23 294.24,42.78 289.77,41.54 285.24,40.53 280.67,39.73 276.07,39.16 271.44,38.82 266.81,38.71 262.17,38.82 257.55,39.16 252.95,39.73 248.38,40.53 243.85,41.54 239.38,42.78 234.98,44.23 230.65,45.9 226.41,47.78 222.27,49.87 218.24,52.15 214.32,54.63 210.53,57.3 206.87,60.16 203.36,63.19 200.0,66.38 200.0,66.38 190.17,66.74 180.39,67.83 170.72,69.63 161.21,72.14 151.91,75.34 142.87,79.21 134.14,83.74 125.77,88.9 117.79,94.66 110.27,101.0 103.23,107.87 96.71,115.23 90.76,123.06 85.39,131.31 80.65,139.92 76.55,148.87 73.13,158.09 70.39,167.53 68.35,177.16 67.03,186.9 66.42,196.72 66.54,206.56 67.39,216.36 68.95,226.07 71.22,235.64 74.19,245.01 77.85,254.15 82.16,262.99 87.11,271.48 92.68,279.6 98.82,287.28 105.52,294.48 112.72,301.18 120.4,307.32 128.52,312.89 137.01,317.84 145.85,322.15 154.99,325.81 164.36,328.78 173.93,331.05 183.64,332.61 193.44,333.46 203.28,333.58 213.1,332.97 222.84,331.65 232.47,329.61 241.91,326.87 251.13,323.45 260.08,319.35 268.69,314.61 276.94,309.24 284.77,303.29 292.13,296.77 299.0,289.73 305.34,282.21 311.1,274.23 316.26,265.86 320.79,257.13 324.66,248.09 327.86,238.79 330.37,229.28 332.17,219.61 333.26,209.83 333.62,200.0\"/><polyline class=\"k\" points=\"333.62,200.0 336.81,196.64 339.84,193.13 342.7,189.47 345.37,185.68 347.85,181.76 350.13,177.73 352.22,173.59 354.1,169.35 355.77,165.02 357.22,160.62 358.46,156.15 359.47,151.62 360.27,147.05 360.84,142.45 361.18,137.83 361.29,133.19 361.18,128.56 360.84,123.93 360.27,119.33 359.47,114.76 358.46,110.23 357.22,105.76 355.77,101.36 354.1,97.03 352.22,92.8 350.13,88.65 347.85,84.62 345.37,80.7 342.7,76.91 339.84,73.25 336.81,69.74 333.62,66.38 330.26,63.19 326.75,60.16 323.09,57.3 319.3,54.63 315.38,52.15 311.35,49.87 307.2,47.78 302.97,45.9 298.64,44.23 294.24,42.78 289.77,41.54 285.24,40.53 280.67,39.73 276.07,39.16 271.44,38.82 266.81,38.71 262.17,38.82 257.55,39.16 252.95,39.73 248.38,40.53 243.85,41.54 239.38,42.78 234.98,44.23 230.65,45.9 226.41,47.78 222.27,49.87 218.24,52.15 214.32,54.63 210.53,57.3 206.87,60.16 203.36,63.19 200.0,66.38\"/><polygon class=\"f\" points=\"200.0,66.38 196.64,63.19 193.13,60.16 189.47,57.3 185.68,54.63 181.76,52.15 177.73,49.87 173.59,47.78 169.35,45.9 165.02,44.23 160.62,42.78 156.15,41.54 151.62,40.53 147.05,39.73 142.45,39.16 137.83,38.82 133.19,38.71 128.56,38.82 123.93,39.16 119.33,39.73 114.76,40.53 110.23,41.54 105.76,42.78 101.36,44.23 97.03,45.9 92.8,47.78 88.65,49.87 84.62,52.15 80.7,54.63 76.91,57.3 73.25,60.16 69.74,63.19 66.38,66.38 63.19,69.74 60.16,73.25 57.3,76.91 54.63,80.7 52.15,84.62 49.87,88.65 47.78,92.8 45.9,97.03 44.23,101.36 42.78,105.76 41.54,110.23 40.53,114.76 39.73,119.33 39.16,123.93 38.82,128.56 38.71,133.19 38.82,137.83 39.16,142.45 39.73,147.05 40.53,151.62 41.54,156.15 42.78,160.62 44.23,165.02 45.9,169.35 47.78,173.59 49.87,177.73 52.15,181.76 54.63,185.68 57.3,189.47 60.16,193.13 63.19,196.64 66.38,200.0 66.38,200.0 66.74,209.83 67.83,219.61 69.63,229.28 72.14,238.79 75.34,248.09 79.21,257.13 83.74,265.86 88.9,274.23 94.66,282.21 101.0,289.73 107.87,296.77 115.23,303.29 123.06,309.24 131.31,314.61 139.92,319.35 148.87,323.45 158.09,326.87 167.53,329.61 177.16,331.65 186.9,332.97 196.72,333.58 206.56,333.46 216.36,332.61 226.07,331.05 235.64,328.78 245.01,325.81 254.15,322.15 262.99,317.84 271.48,312.89 279.6,307.32 287.28,301.18 294.48,294.48 301.18,287.28 307.32,279.6 312.89,271.48 317.84,262.99 322.15,254.15 325.81,245.01 328.78,235.64 331.05,226.07 332.61,216.36 333.46,206.56 333.58,196.72 332.97,186.9 331.65,177.16 329.61,167.53 326.87,158.09 323.45,148.87 319.35,139.92 314.61,131.31 309.24,123.06 303.29,115.23 296.77,107.87 289.73,101.0 282.21,94.66 274.23,88.9 265.86,83.74 257.13,79.21 248.09,75.34 238.79,72.14 229.28,69.63 219.61,67.83 209.83,66.74 200.0,66.38\"/><polyline class=\"k\" points=\"200.0,66.38 196.64,63.19 193.13,60.16 189.47,57.3 185.68,54.63 181.76,52.15 177.73,49.87 173.59,47.78 169.35,45.9 165.02,44.23 160.62,42.78 156.15,41.54 151.62,40.53 147.05,39.73 142.45,39.16 137.83,38.82 133.19,38.71 128.56,38.82 123.93,39.16 119.33,39.73 114.76,40.53 110.23,41.54 105.76,42.78 101.36,44.23 97.03,45.9 92.8,47.78 88.65,49.87 84.62,52.15 80.7,54.63 76.91,57.3 73.25,60.16 69.74,63.19 66.38,66.38 63.19,69.74 60.16,73.25 57.3,76.91 54.63,80.7 52.15,84.62 49.87,88.65 47.78,92.8 45.9,97.03 44.23,101.36 42.78,105.76 41.54,110.23 40.53,114.76 39.73,119.33 39.16,123.93 38.82,128.56 38.71,133.19 38.82,137.83 39.16,142.45 39.73,147.05 40.53,151.62 41.54,156.15 42.78,160.62 44.23,165.02 45.9,169.35 47.78,173.59 49.87,177.73 52.15,181.76 54.63,185.68 57.3,189.47 60.16,193.13 63.19,196.64 66.38,200.0\"/><polygon class=\"f\" points=\"66.38,200.0 63.19,203.36 60.16,206.87 57.3,210.53 54.63,214.32 52.15,218.24 49.87,222.27 47.78,226.41 45.9,230.65 44.23,234.98 42.78,239.38 41.54,243.85 40.53,248.38 39.73,252.95 39.16,257.55 38.82,262.17 38.71,266.81 38.82,271.44 39.16,276.07 39.73,280.67 40.53,285.24 41.54,289.77 42.78,294.24 44.23,298.64 45.9,302.97 47.78,307.2 49.87,311.35 52.15,315.38 54.63,319.3 57.3,323.09 60.16,326.75 63.19,330.26 66.38,333.62 69.74,336.81 73.25,339.84 76.91,342.7 80.7,345.37 84.62,347.85 88.65,350.13 92.8,352.22 97.03,354.1 101.36,355.77 105.76,357.22 110.23,358.46 114.76,359.47 119.33,360.27 123.93,360.84 128.56,361.18 133.19,361.29 137.83,361.18 142.45,360.84 147.05,360.27 151.62,359.47 156.15,358.46 160.62,357.22 165.02,355.77 169.35,354.1 173.59,352.22 177.73,350.13 181.76,347.85 185.68,345.37 189.47,342.7 193.13,339.84 196.64,336.81 200.0,333.62 200.0,333.62 209.83,333.26 219.61,332.17 229.28,330.37 238.79,327.86 248.09,324.66 257.13,320.79 265.86,316.26 274.23,311.1 282.21,305.34 289.73,299.0 296.77,292.13 303.29,284.77 309.24,276.94 314.61,268.69 319.35,260.08 323.45,251.13 326.87,241.91 329.61,232.47 331.65,222.84 332.97,213.1 333.58,203.28 333.46,193.44 332.61,183.64 331.05,173.93 328.78,164.36 325.81,154.99 322.15,145.85 317.84,137.01 312.89,128.52 307.32,120.4 301.18,112.72 294.48,105.52 287.28,98.82 279.6,92.68 271.48,87.11 262.99,82.16 254.15,77.85 245.01,74.19 235.64,71.22 226.07,68.95 216.36,67.39 206.56,66.54 196.72,66.42 186.9,67.03 177.16,68.35 167.53,70.39 158.09,73.13 148.87,76.55 139.92,80.65 131.31,85.39 123.06,90.76 115.23,96.71 107.87,103.23 101.0,110.27 94.66,117.79 88.9,125.77 83.74,134.14 79.21,142.87 75.34,151.91 72.14,161.21 69.63,170.72 67.83,180.39 66.74,190.17 66.38,200.0\"/><polyline class=\"k\" points=\"66.38,200.0 63.19,203.36 60.16,206.87 57.3,210.53 54.63,214.32 52.15,218.24 49.87,222.27 47.78,226.41 45.9,230.65 44.23,234.98 42.78,239.38 41.54,243.85 40.53,248.38 39.73,252.95 39.16,257.55 38.82,262.17 38.71,266.81 38.82,271.44 39.16,276.07 39.73,280.67 40.53,285.24 41.54,289.77 42.78,294.24 44.23,298.64 45.9,302.97 47.78,307.2 49.87,311.35 52.15,315.38 54.63,319.3 57.3,323.09 60.16,326.75 63.19,330.26 66.38,333.62 69.74,336.81 73.25,339.84 76.91,342.7 80.7,345.37 84.62,347.85 88.65,350.13 92.8,352.22 97.03,354.1 101.36,355.77 105.76,357.22 110.23,358.46 114.76,359.47 119.33,360.27 123.93,360.84 128.56,361.18 133.19,361.29 137.83,361.18 142.45,360.84 147.05,360.27 151.62,359.47 156.15,358.46 160.62,357.22 165.02,355.77 169.35,354.1 173.59,352.22 177.73,350.13 181.76,347.85 185.68,345.37 189.47,342.7 193.13,339.84 196.64,336.81 200.0,333.62\"/><polygon class=\"f\" points=\"200.0,333.62 203.36,336.81 206.87,339.84 210.53,342.7 214.32,345.37 218.24,347.85 222.27,350.13 226.41,352.22 230.65,354.1 234.98,355.77 239.38,357.22 243.85,358.46 248.38,359.47 252.95,360.27 257.55,360.84 262.17,361.18 266.81,361.29 271.44,361.18 276.07,360.84 280.67,360.27 285.24,359.47 289.77,358.46 294.24,357.22 298.64,355.77 302.97,354.1 307.2,352.22 311.35,350.13 315.38,347.85 319.3,345.37 323.09,342.7 326.75,339.84 330.26,336.81 333.62,333.62 336.81,330.26 339.84,326.75 342.7,323.09 345.37,319.3 347.85,315.38 350.13,311.35 352.22,307.2 354.1,302.97 355.77,298.64 357.22,294.24 358.46,289.77 359.47,285.24 360.27,280.67 360.84,276.07 361.18,271.44 361.29,266.81 361.18,262.17 360.84,257.55 360.27,252.95 359.47,248.38 358.46,243.85 357.22,239.38 355.77,234.98 354.1,230.65 352.22,226.41 350.13,222.27 347.85,218.24 345.37,214.32 342.7,210.53 339.84,206.87 336.81,203.36 333.62,200.0 333.62,200.0 333.26,190.17 332.17,180.39 330.37,170.72 327.86,161.21 324.66,151.91 320.79,142.87 316.26,134.14 311.1,125.77 305.34,117.79 299.0,110.27 292.13,103.23 284.77,96.71 276.94,90.76 268.69,85.39 260.08,80.65 251.13,76.55 241.91,73.13 232.47,70.39 222.84,68.35 213.1,67.03 203.28,66.42 193.44,66.54 183.64,67.39 173.93,68.95 164.36,71.22 154.99,74.19 145.85,77.85 137.01,82.16 128.52,87.11 120.4,92.68 112.72,98.82 105.52,105.52 98.82,112.72 92.68,120.4 87.11,128.52 82.16,137.01 77.85,145.85 74.19,154.99 71.22,164.36 68.95,173.93 67.39,183.64 66.54,193.44 66.42,203.28 67.03,213.1 68.35,222.84 70.39,232.47 73.13,241.91 76.55,251.13 80.65,260.08 85.39,268.69 90.76,276.94 96.71,284.77 103.23,292.13 110.27,299.0 117.79,305.34 125.77,311.1 134.14,316.26 142.87,320.79 151.91,324.66 161.21,327.86 170.72,330.37 180.39,332.17 190.17,333.26 200.0,333.62\"/><polyline class=\"k\" points=\"200.0,333.62 203.36,336.81 206.87,339.84 210.53,342.7 214.32,345.37 218.24,347.85 222.27,350.13 226.41,352.22 230.65,354.1 234.98,355.77 239.38,357.22 243.85,358.46 248.38,359.47 252.95,360.27 257.55,360.84 262.17,361.18 266.81,361.29 271.44,361.18 276.07,360.84 280.67,360.27 285.24,359.47 289.77,358.46 294.24,357.22 298.64,355.77 302.97,354.1 307.2,352.22 311.35,350.13 315.38,347.85 319.3,345.37 323.09,342.7 326.75,339.84 330.26,336.81 333.62,333.62 336.81,330.26 339.84,326.75 342.7,323.09 345.37,319.3 347.85,315.38 350.13,311.35 352.22,307.2 354.1,302.97 355.77,298.64 357.22,294.24 358.46,289.77 359.47,285.24 360.27,280.67 360.84,276.07 361.18,271.44 361.29,266.81 361.18,262.17 360.84,257.55 360.27,252.95 359.47,248.38 358.46,243.85 357.22,239.38 355.77,234.98 354.1,230.65 352.22,226.41 350.13,222.27 347.85,218.24 345.37,214.32 342.7,210.53 339.84,206.87 336.81,203.36 333.62,200.0\"/><circle class=\"g\" cx=\"200.0\" cy=\"200.0\" r=\"133.62\"/><polygon class=\"g\" points=\"333.62,200.0 200.0,66.38 66.38,200.0 200.0,333.62\"/><circle class=\"dot g\" cx=\"200.0\" cy=\"200.0\" r=\"3\"/><text class=\"lbl\" x=\"200.4\" y=\"213.6\">O</text></svg>"
+  }
+ ]
+}

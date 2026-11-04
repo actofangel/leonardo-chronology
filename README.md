@@ -21,6 +21,7 @@ Most records were first entered from model recall or from web research. They are
 | `scripts/build.mjs` | Builds `dist/`: entity browser, chronology, `db.json`, scenario views |
 | `scripts/merge-incoming.mjs` | Additive merge of research batches into `data/` |
 | `research/` | Research briefs, incoming batches, reports and unapplied review patches |
+| `geometry/` | Corpus Geometriae: classical constructions as Python and GeoGebra with sympy checks, the complete Elements, and Book I formal proofs (see `geometry/README.md`) |
 | `SCHEMA.md` | The data model, source admission and precedence rules |
 | `CONTRIBUTING.md` | How to add evidence, propose corrections, and work on hypotheses in branches |
 
