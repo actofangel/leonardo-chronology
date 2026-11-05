@@ -17,6 +17,7 @@ This folder sits beside the database and is not read by `scripts/validate.mjs` o
 | `formal/GeoCoq/` | GeoCoq `theories/Elements` (254 files), Beeson's formalisation of Euclid's own proofs |
 | `formal/LeanEuclid/` | LeanEuclid `Book/` (48 files), System E, all Book I propositions |
 | `archimedes.py` | Archimedes proposition by proposition: 43 propositions from nine works, 121 exact checks, each tied to its Greek locus |
+| `auctores.py` | The other authors proposition by proposition: 18 propositions from Euclid's Optica and Data, Apollonius' Conica IV, Aristarchus, Theodosius, Hero, Ptolemy, Pappus, Nicomachus and Theon of Smyrna, 70 checks |
 | `graeca/` | 47 Greek mathematical works beyond the Elements: all of Archimedes, Eutocius, Apollonius' Conica I to IV, Pappus II to VIII, Euclid's Data, Optica, Catoptrica, Phaenomena, Sectio canonis, Theodosius, Autolycus, Aristarchus, Geminus, Ptolemy's Syntaxis, Hero, Nicomachus, Theon of Smyrna |
 | `graeca.py` | Library over `graeca/`: works, passages, accent insensitive Greek search, Greek sources of each part (`graeca/links.json`) |
 | `extract_graeca.py` | Extractor that produced `graeca/` from First1KGreek and the Open Greek Corpus |
@@ -65,6 +66,26 @@ All 121 checks are symbolic or exact (instance); none rests on numerical agreeme
 
 Not yet covered: the lemmas and inequalities of De sphaera et cylindro I.1 to 32, the oblique sections of De conoidibus, De corporibus fluitantibus (stability of the paraboloid; Books I.1, I.2, II.5, II.6 survive only in Moerbeke's Latin), the Stomachion, and the Method propositions that repeat results checked elsewhere.
 
+## The other authors, proposition by proposition
+
+`auctores.py` applies the same conventions to the other works in `graeca/`, including the guard on the Greek numeral (which skips Hultsch's section numbers in Pappus and the heading ΠΡΟΤΑΣΙΣ in Theodosius).
+
+| Author, work | Propositions checked |
+| --- | --- |
+| Euclid, Optica; Data | Optica 8; Data 84, 85 |
+| Apollonius, Conica IV | IV.1 (harmonic division, for the general conic), IV.25 (two conics meet in at most four points) |
+| Aristarchus | 7 (the sun 18 to 20 times as far as the moon, bounded with Archimedes' values of π), 9 |
+| Theodosius, Sphaerica | I.1 |
+| Hero, Metrica | I.8 (the area from the three sides, and the approximation of √720 as written) |
+| Ptolemy, Syntaxis | I.10 (seven chords in sexagesimals as written in the Greek; the construction of the decagon side) |
+| Pappus, Collectio | III.11 (the three means in one semicircle), IV.1 (the parallelogram generalisation of I.47), V.1, V.2, V.5 (isoperimetry) |
+| Nicomachus, Introductio | II.20 (cubes as sums of consecutive odd numbers) |
+| Theon of Smyrna | side and diagonal numbers |
+
+One finding: five of Ptolemy's seven chords in I.10 are the true values rounded to the nearest second of a part; two are one second high. The chord of 144° (114;7,37) is exactly what his own rounded decagon side 37;4,55 gives through I.47; the chord of ¾° (0;47,8) agrees with half his 1;34,15 rounded up, but his route runs through values not all in the text, so its origin is left open.
+
+Not covered: Conica I to III and Pappus VI to VIII, whose text is OCR by printed page without proposition numbers; Ptolemy's chord table (I.11), of which the encoding keeps only the heading.
+
 ## Greek texts beyond the Elements
 
 `graeca/` holds the Greek of the mathematical authors as passages cited by the units of each encoding (mostly book.proposition), so that a part can show the words of its source.
@@ -97,7 +118,7 @@ Not yet available on GitHub in any form found: Conica V to VII (Arabic only), Pa
 ## On GitHub
 
 * **Actions, Corpus Geometriae** (`.github/workflows/geometry.yml`): every push that touches `geometry/` reruns all checks and writes the table to the job summary. From the Actions tab, *Run workflow* runs any query (`verify`, `list`, `part`, `prop`, `search`) and shows the answer in the summary.
-* **Issues** (`.github/workflows/geometry-ask.yml`): open an issue with the *Ask the corpus* form, or comment `/geo prop I.47`, `/geo part archimedes-spiral`, `/geo search gnomon`, `/geo works`, `/geo text archimedes.sphaera-cylindrus 1.33`, `/geo greek μέναιχμ`, `/geo archimedes`, `/geo arch SC.I.34` on any issue; a workflow replies with the text, the Greek, the citations, the formal proofs or the recomputed checks. Only the owner and collaborators can trigger it.
+* **Issues** (`.github/workflows/geometry-ask.yml`): open an issue with the *Ask the corpus* form, or comment `/geo prop I.47`, `/geo part archimedes-spiral`, `/geo search gnomon`, `/geo works`, `/geo text archimedes.sphaera-cylindrus 1.33`, `/geo greek μέναιχμ`, `/geo archimedes`, `/geo auctores`, `/geo arch SC.I.34`, `/geo arch PT.I.10` on any issue; a workflow replies with the text, the Greek, the citations, the formal proofs or the recomputed checks. Only the owner and collaborators can trigger it.
 * **Pages**: the reader is published with the database at `/geometry/`.
 * **Codespaces** (`.devcontainer/`): Python with sympy and JupyterLab, plus Node for the database scripts.
 

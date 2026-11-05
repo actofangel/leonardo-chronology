@@ -6,7 +6,8 @@
     python ops.py prop I.47              one Elements record: English, Greek, citations, formal proofs
     python ops.py search gnomon          Elements records whose English contains the text
     python ops.py archimedes             Archimedes proposition by proposition, every check
-    python ops.py arch SC.I.33           one proposition: enunciation, Greek, checks
+    python ops.py auctores               the other authors (Euclid's minor works, Apollonius, Ptolemy, Pappus, ...)
+    python ops.py arch SC.I.33           one proposition (Archimedes or the others): enunciation, Greek, checks
     python ops.py works                  the Greek texts beyond the Elements (Archimedes, Apollonius, Pappus, ...)
     python ops.py text archimedes.dimensio-circuli 3     one Greek passage
     python ops.py greek μέναιχμ          search the Greek texts (accents and case ignored)
@@ -153,47 +154,71 @@ def search(text):
     return f"## “{text}” in the Elements: {len(hits)} records\n\n| id | enunciation |\n|---|---|\n" + "\n".join(rows) + more
 
 
-def verify_archimedes():
-    import archimedes as A
+SUITES = [("archimedes", "Archimedes"), ("auctores", "Euclid's minor works, Apollonius, Aristarchus, Theodosius, Hero, Ptolemy, Pappus, Nicomachus, Theon")]
+
+
+def _suite(name):
+    import importlib
+    return importlib.import_module(name)
+
+
+def verify_suite(name, title):
+    M = _suite(name)
     rows, bad, total = [], 0, 0
-    for pid, p in A.PROPS.items():
-        for label, ch in A.run(pid):
+    for pid in M.PROPS:
+        for label, ch in M.run(pid):
             total += 1
             bad += not ch.ok
             rows.append(f"| {'✅' if ch.ok else '❌'} | `{pid}` | {ch.method} | {label} |")
-    head = (f"## Archimedes: {len(A.PROPS)} propositions, {total} checks, " + ("all passed" if not bad else f"**{bad} FAILED**")
-            + "\n\nEach proposition first checks that the Greek numeral at its locus is the expected number. The checks "
-            "establish the stated results in modern terms, not Archimedes' methods of proof.")
+    head = (f"## {title}: {len(M.PROPS)} propositions, {total} checks, " + ("all passed" if not bad else f"**{bad} FAILED**")
+            + "\n\nEach proposition first checks that the Greek numeral at its locus is the expected number, where the "
+            "encoding writes one. The checks establish the stated results in modern terms, not the ancient proofs.")
     return head + "\n\n| | proposition | method | check |\n|---|---|---|---|\n" + "\n".join(rows), bad
 
 
-def archimedes_list():
-    import archimedes as A
-    out = ["## Archimedes: propositions with checks", "", "| id | work | locus | enunciation (summary) |", "|---|---|---|---|"]
-    for pid, p in A.PROPS.items():
-        out.append(f"| `{pid}` | {p['work'].split('.', 1)[1]} | {p['locus']} | {p['statement'][:150].replace('|', '/')}{'…' if len(p['statement']) > 150 else ''} |")
+def verify_archimedes():
+    return verify_suite(*SUITES[0])
+
+
+def suite_list(name, title):
+    M = _suite(name)
+    out = [f"## {title}: propositions with checks", "", "| id | work | locus | enunciation (summary) |", "|---|---|---|---|"]
+    for pid, p in M.PROPS.items():
+        out.append(f"| `{pid}` | {p['work']} | {p['locus']} | {p['statement'][:150].replace('|', '/')}{'…' if len(p['statement']) > 150 else ''} |")
     out.append("\nOne proposition with its Greek: `arch <id>`. Run every check: `verify`.")
     return "\n".join(out)
 
 
+def archimedes_list():
+    return suite_list(*SUITES[0])
+
+
+def auctores_list():
+    return suite_list(*SUITES[1])
+
+
 def archimedes_prop(pid):
-    import archimedes as A
     pid = pid.strip()
-    if pid not in A.PROPS:
-        near = [k for k in A.PROPS if pid.lower() in k.lower()]
-        return f"No proposition `{pid}`." + (f" Did you mean {', '.join(f'`{k}`' for k in near)}?" if near else " Try `archimedes`.")
-    p = A.PROPS[pid]
-    out = [f"## Archimedes {pid}", f"`{p['work']}` locus `{p['locus']}`", "", f"**Enunciation** (summary of the Greek): {p['statement']}"]
+    for name, title in SUITES:
+        M = _suite(name)
+        if pid in M.PROPS:
+            break
+    else:
+        near = [k for name, _ in SUITES for k in _suite(name).PROPS if pid and pid.lower() in k.lower()]
+        return f"No proposition `{pid}`." + (f" Did you mean {', '.join(f'`{k}`' for k in near)}?" if near else " Try `archimedes` or `auctores`.")
+    p = M.PROPS[pid]
+    out = [f"## {pid}", f"`{p['work']}` locus `{p['locus']}`", "", f"**Enunciation** (summary of the Greek): {p['statement']}"]
     if p["note"]:
         out += ["", f"**Interpretation and method**: {p['note']}"]
     try:
         import graeca as G
         body = G.text(p["work"], p["locus"])
-        out += ["", "<details><summary>Greek (Mugler)</summary>\n\n> " + body[:4000] + ("…" if len(body) > 4000 else "") + "\n</details>"]
+        w = G.work(p["work"])
+        out += ["", f"<details><summary>Greek ({w['author']}, {w['title']})</summary>\n\n> " + body[:4000] + ("…" if len(body) > 4000 else "") + "\n</details>"]
     except Exception:
         pass
     out += ["", "### Checks (recomputed now)"]
-    out += [f"* {'✅' if ch.ok else '❌'} `{ch.method}` {label}" for label, ch in A.run(pid)]
+    out += [f"* {'✅' if ch.ok else '❌'} `{ch.method}` {label}" for label, ch in M.run(pid)]
     return "\n".join(out)
 
 
@@ -262,6 +287,8 @@ def ask(text):
         return works()
     if cmd == "archimedes":
         return archimedes_list()
+    if cmd == "auctores":
+        return auctores_list()
     if cmd == "arch":
         return archimedes_prop(arg)
     if cmd == "text":
@@ -281,13 +308,18 @@ def main(argv):
     cmd, arg = argv[1], " ".join(argv[2:])
     if cmd == "verify":
         text, bad = verify()
-        text2, bad2 = verify_archimedes()
-        print(text + "\n\n" + text2)
-        sys.exit(1 if bad or bad2 else 0)
+        parts, bads = [text], [bad]
+        for name, title in SUITES:
+            tx, bd = verify_suite(name, title)
+            parts.append(tx)
+            bads.append(bd)
+        print("\n\n".join(parts))
+        sys.exit(1 if any(bads) else 0)
     text = {"list": lambda: listing(), "part": lambda: part(arg), "prop": lambda: prop(arg),
             "search": lambda: search(arg), "ask": lambda: ask(arg), "works": lambda: works(),
             "text": lambda: greek_text(arg), "greek": lambda: greek_search(arg),
-            "archimedes": lambda: archimedes_list(), "arch": lambda: archimedes_prop(arg)}.get(cmd, lambda: __doc__)()
+            "archimedes": lambda: archimedes_list(), "auctores": lambda: auctores_list(),
+            "arch": lambda: archimedes_prop(arg)}.get(cmd, lambda: __doc__)()
     if len(text) > LIMIT:
         text = text[:LIMIT] + "\n\n*(truncated; run locally for the full output)*"
     print(text)

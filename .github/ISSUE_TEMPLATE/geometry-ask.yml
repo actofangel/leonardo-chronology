@@ -7,7 +7,7 @@ body:
     id: request
     attributes:
       label: Request
-      description: "verify · list · part <id> · prop <id> · search <text> · works · text <work> <locus> · greek <text> · archimedes · arch <id>, or just an id such as I.47"
+      description: "verify · list · part <id> · prop <id> · search <text> · works · text <work> <locus> · greek <text> · archimedes · auctores · arch <id>, or just an id such as I.47"
       placeholder: prop I.47
     validations:
       required: true
