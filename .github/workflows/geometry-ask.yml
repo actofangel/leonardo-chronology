@@ -1,0 +1,58 @@
+name: Corpus Geometriae, ask
+
+# Answers questions posted as issues. Open an issue with the "Ask the corpus"
+# form, or comment on any issue with a line starting /geo, for example:
+#   /geo prop I.47        /geo part archimedes-spiral
+#   /geo search gnomon    /geo verify          /geo list
+#   /geo archimedes       /geo auctores        /geo arch PT.I.10
+#   /geo works            /geo text archimedes.dimensio-circuli 3      /geo greek μέναιχμ
+# Only the repository owner and collaborators can trigger it.
+on:
+  issues:
+    types: [opened, edited]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  answer:
+    if: >-
+      (github.event_name == 'issues' && contains(github.event.issue.labels.*.name, 'geometry')) ||
+      (github.event_name == 'issue_comment' && startsWith(github.event.comment.body, '/geo') &&
+       contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r geometry/requirements.txt
+      - name: Read the request
+        id: req
+        env:
+          EVENT: ${{ github.event_name }}
+          TITLE: ${{ github.event.issue.title }}
+          BODY: ${{ github.event.issue.body }}
+          COMMENT: ${{ github.event.comment.body }}
+        run: |
+          if [ "$EVENT" = issue_comment ]; then
+            q=$(printf '%s\n' "$COMMENT" | head -n1 | sed 's#^/geo[[:space:]]*##')
+          else
+            # issue form: the answer under "### Request"; otherwise the title
+            q=$(printf '%s\n' "$BODY" | awk '/^### Request/{f=1;next} /^### /{f=0} f && NF{print; exit}')
+            [ -n "$q" ] || q=$(printf '%s' "$TITLE" | sed 's#^\[geo\][[:space:]]*##')
+          fi
+          printf '%s' "$q" > request.txt
+      - name: Answer
+        working-directory: geometry
+        run: |
+          q=$(cat ../request.txt)
+          { printf '> `%s`\n\n' "$q"; python ops.py ask "$q"; } > ../answer.md || true
+      - name: Reply
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body-file answer.md

@@ -1,0 +1,425 @@
+[
+ {
+  "id": "archimedes.sphaera-cylindrus",
+  "author": "Archimedes",
+  "title": "De sphaera et cylindro",
+  "transmission": "tei",
+  "passages": 57,
+  "units": "book.proposition (pr = preface)",
+  "file": "graeca/archimedes.json"
+ },
+ {
+  "id": "archimedes.dimensio-circuli",
+  "author": "Archimedes",
+  "title": "Dimensio circuli",
+  "transmission": "tei",
+  "passages": 4,
+  "units": "proposition",
+  "file": "graeca/archimedes.json"
+ },
+ {
+  "id": "archimedes.conoides",
+  "author": "Archimedes",
+  "title": "De conoidibus et sphaeroidibus",
+  "transmission": "tei",
+  "passages": 33,
+  "units": "proposition (pr = preface)",
+  "file": "graeca/archimedes.json"
+ },
+ {
+  "id": "archimedes.spirales",
+  "author": "Archimedes",
+  "title": "De lineis spiralibus",
+  "transmission": "tei",
+  "passages": 30,
+  "units": "proposition (pr = preface)",
+  "file": "graeca/archimedes.json"
+ },
+ {
+  "id": "archimedes.aequilibria",
+  "author": "Archimedes",
+  "title": "De planorum aequilibriis",
+  "transmission": "tei",
+  "passages": 28,
+  "units": "book.proposition",
+  "file": "graeca/archimedes.json"
+ },
+ {
+  "id": "archimedes.arenarius",
+  "author": "Archimedes",
+  "title": "Arenarius",
+  "transmission": "tei",
+  "passages": 5,
+  "units": "chapter",
+  "file": "graeca/archimedes.json"
+ },
+ {
+  "id": "archimedes.quadratura-parabolae",
+  "author": "Archimedes",
+  "title": "Quadratura parabolae",
+  "transmission": "tei",
+  "passages": 26,
+  "units": "proposition (pr = preface)",
+  "file": "graeca/archimedes.json"
+ },
+ {
+  "id": "archimedes.fluitantia",
+  "author": "Archimedes",
+  "title": "De corporibus fluitantibus",
+  "transmission": "tei",
+  "passages": 22,
+  "units": "book.proposition",
+  "file": "graeca/archimedes.json"
+ },
+ {
+  "id": "archimedes.stomachion",
+  "author": "Archimedes",
+  "title": "Stomachion",
+  "transmission": "tei",
+  "passages": 1,
+  "units": "fragment",
+  "file": "graeca/archimedes.json"
+ },
+ {
+  "id": "archimedes.methodus",
+  "author": "Archimedes",
+  "title": "Ad Eratosthenem methodus",
+  "transmission": "tei",
+  "passages": 17,
+  "units": "proposition (pr = preface)",
+  "file": "graeca/archimedes.json"
+ },
+ {
+  "id": "archimedes.liber-assumptorum",
+  "author": "Archimedes",
+  "title": "Liber assumptorum (Greek)",
+  "transmission": "tei",
+  "passages": 16,
+  "units": "proposition",
+  "file": "graeca/archimedes.json"
+ },
+ {
+  "id": "archimedes.liber-assumptorum-lat",
+  "author": "Archimedes",
+  "title": "Liber assumptorum (Latin, from the Arabic)",
+  "transmission": "tei",
+  "passages": 16,
+  "units": "proposition",
+  "file": "graeca/archimedes.json"
+ },
+ {
+  "id": "archimedes.problema-bovinum",
+  "author": "Archimedes",
+  "title": "Problema bovinum",
+  "transmission": "tei",
+  "passages": 2,
+  "units": "chapter",
+  "file": "graeca/archimedes.json"
+ },
+ {
+  "id": "archimedes.fragmenta",
+  "author": "Archimedes",
+  "title": "Fragmenta",
+  "transmission": "tei",
+  "passages": 7,
+  "units": "fragment",
+  "file": "graeca/archimedes.json"
+ },
+ {
+  "id": "eutocius.in-sphaeram-cylindrum",
+  "author": "Eutocius",
+  "title": "Commentarii in libros De sphaera et cylindro",
+  "transmission": "tei",
+  "passages": 50,
+  "units": "section",
+  "file": "graeca/eutocius.json"
+ },
+ {
+  "id": "eutocius.in-dimensionem-circuli",
+  "author": "Eutocius",
+  "title": "Commentarius in Dimensionem circuli",
+  "transmission": "tei",
+  "passages": 132,
+  "units": "section.paragraph",
+  "file": "graeca/eutocius.json"
+ },
+ {
+  "id": "eutocius.in-aequilibria",
+  "author": "Eutocius",
+  "title": "Commentarius in libros De planorum aequilibriis",
+  "transmission": "tei",
+  "passages": 20,
+  "units": "chapter.section",
+  "file": "graeca/eutocius.json"
+ },
+ {
+  "id": "apollonius.conica-4",
+  "author": "Apollonius Pergaeus",
+  "title": "Conica, Book IV",
+  "transmission": "tei",
+  "passages": 57,
+  "units": "proposition (locus prefixed with book 4)",
+  "file": "graeca/apollonius.json"
+ },
+ {
+  "id": "apollonius.conica-1-3",
+  "author": "Apollonius Pergaeus",
+  "title": "Conica, Books I to III",
+  "transmission": "ocr",
+  "passages": 225,
+  "units": "book.page of Heiberg's edition (OCR consensus by printed page, not by proposition)",
+  "file": "graeca/apollonius.json"
+ },
+ {
+  "id": "pappus.synagoge-2-5",
+  "author": "Pappus Alexandrinus",
+  "title": "Synagoge (Collectio), Books II to V",
+  "transmission": "tei",
+  "passages": 307,
+  "units": "book.chapter (the encoding numbers Hultsch's Books II to V as 1 to 4; corrected here)",
+  "file": "graeca/pappus.json"
+ },
+ {
+  "id": "pappus.synagoge-6-8",
+  "author": "Pappus Alexandrinus",
+  "title": "Synagoge (Collectio), Books VI to VIII",
+  "transmission": "ocr",
+  "passages": 331,
+  "units": "book.page of Hultsch's edition (OCR consensus by printed page)",
+  "file": "graeca/pappus.json"
+ },
+ {
+  "id": "euclid-minora.data",
+  "author": "Euclides",
+  "title": "Data",
+  "transmission": "tei",
+  "passages": 95,
+  "units": "section (definitions, then propositions)",
+  "file": "graeca/euclid-minora.json"
+ },
+ {
+  "id": "euclid-minora.data-alterae",
+  "author": "Euclides",
+  "title": "Data, demonstrationes alterae",
+  "transmission": "tei",
+  "passages": 23,
+  "units": "section",
+  "file": "graeca/euclid-minora.json"
+ },
+ {
+  "id": "euclid-minora.optica",
+  "author": "Euclides",
+  "title": "Optica",
+  "transmission": "tei",
+  "passages": 59,
+  "units": "proposition",
+  "file": "graeca/euclid-minora.json"
+ },
+ {
+  "id": "euclid-minora.optica-theonis",
+  "author": "Euclides",
+  "title": "Opticorum recensio Theonis",
+  "transmission": "tei",
+  "passages": 59,
+  "units": "proposition",
+  "file": "graeca/euclid-minora.json"
+ },
+ {
+  "id": "euclid-minora.catoptrica",
+  "author": "Euclides",
+  "title": "Catoptrica (recensio Theonis?)",
+  "transmission": "tei",
+  "passages": 32,
+  "units": "proposition",
+  "file": "graeca/euclid-minora.json"
+ },
+ {
+  "id": "euclid-minora.phaenomena",
+  "author": "Euclides",
+  "title": "Phaenomena",
+  "transmission": "tei",
+  "passages": 18,
+  "units": "proposition",
+  "file": "graeca/euclid-minora.json"
+ },
+ {
+  "id": "euclid-minora.phaenomena-b",
+  "author": "Euclides",
+  "title": "Phaenomena (recensio b)",
+  "transmission": "tei",
+  "passages": 1,
+  "units": "work",
+  "file": "graeca/euclid-minora.json"
+ },
+ {
+  "id": "euclid-minora.phaenomena-b-alterae",
+  "author": "Euclides",
+  "title": "Phaenomena (demonstrationes alterae recensionis b)",
+  "transmission": "tei",
+  "passages": 4,
+  "units": "chapter",
+  "file": "graeca/euclid-minora.json"
+ },
+ {
+  "id": "euclid-minora.sectio-canonis",
+  "author": "Euclides",
+  "title": "Sectio canonis [Sp.]",
+  "transmission": "tei",
+  "passages": 22,
+  "units": "chapter",
+  "file": "graeca/euclid-minora.json"
+ },
+ {
+  "id": "euclid-minora.fragmenta",
+  "author": "Euclides",
+  "title": "Fragmenta",
+  "transmission": "tei",
+  "passages": 58,
+  "units": "chapter.section",
+  "file": "graeca/euclid-minora.json"
+ },
+ {
+  "id": "euclid-minora.marinus-in-data",
+  "author": "Marinus",
+  "title": "Commentarium in Euclidis Data",
+  "transmission": "tei",
+  "passages": 1,
+  "units": "work",
+  "file": "graeca/euclid-minora.json"
+ },
+ {
+  "id": "sphaerica.theodosius-sphaerica",
+  "author": "Theodosius",
+  "title": "Sphaerica",
+  "transmission": "tei",
+  "passages": 66,
+  "units": "book.proposition.section",
+  "file": "graeca/sphaerica.json"
+ },
+ {
+  "id": "sphaerica.autolycus-sphaera",
+  "author": "Autolycus",
+  "title": "De sphaera quae movetur",
+  "transmission": "tei",
+  "passages": 16,
+  "units": "chapter.section",
+  "file": "graeca/sphaerica.json"
+ },
+ {
+  "id": "sphaerica.autolycus-ortus",
+  "author": "Autolycus",
+  "title": "De ortibus et occasibus",
+  "transmission": "tei",
+  "passages": 44,
+  "units": "book.chapter.section",
+  "file": "graeca/sphaerica.json"
+ },
+ {
+  "id": "sphaerica.aristarchus-magnitudines",
+  "author": "Aristarchus",
+  "title": "De magnitudinibus et distantiis solis et lunae",
+  "transmission": "tei",
+  "passages": 19,
+  "units": "proposition",
+  "file": "graeca/sphaerica.json"
+ },
+ {
+  "id": "sphaerica.geminus-elementa",
+  "author": "Geminus",
+  "title": "Elementa astronomiae",
+  "transmission": "tei",
+  "passages": 541,
+  "units": "chapter",
+  "file": "graeca/sphaerica.json"
+ },
+ {
+  "id": "ptolemy.syntaxis",
+  "author": "Claudius Ptolemaeus",
+  "title": "Syntaxis mathematica (Almagest)",
+  "transmission": "tei",
+  "passages": 168,
+  "units": "book.chapter",
+  "file": "graeca/ptolemy.json"
+ },
+ {
+  "id": "hero.metrica",
+  "author": "Hero Alexandrinus",
+  "title": "Metrica",
+  "transmission": "tei",
+  "passages": 83,
+  "units": "book.chapter",
+  "file": "graeca/hero.json"
+ },
+ {
+  "id": "hero.dioptra",
+  "author": "Hero Alexandrinus",
+  "title": "Dioptra",
+  "transmission": "tei",
+  "passages": 38,
+  "units": "chapter",
+  "file": "graeca/hero.json"
+ },
+ {
+  "id": "hero.catoptrica",
+  "author": "Hero Alexandrinus",
+  "title": "Catoptrica (fragment)",
+  "transmission": "tei",
+  "passages": 2,
+  "units": "chapter",
+  "file": "graeca/hero.json"
+ },
+ {
+  "id": "hero.stereometrica",
+  "author": "Hero Alexandrinus",
+  "title": "Stereometrica",
+  "transmission": "tei",
+  "passages": 271,
+  "units": "book.chapter.section",
+  "file": "graeca/hero.json"
+ },
+ {
+  "id": "hero.de-mensuris",
+  "author": "Hero Alexandrinus",
+  "title": "De mensuris",
+  "transmission": "tei",
+  "passages": 149,
+  "units": "chapter.section",
+  "file": "graeca/hero.json"
+ },
+ {
+  "id": "hero.geodaesia",
+  "author": "Hero Alexandrinus",
+  "title": "Geodaesia [Sp.]",
+  "transmission": "tei",
+  "passages": 122,
+  "units": "chapter.section",
+  "file": "graeca/hero.json"
+ },
+ {
+  "id": "hero.geeponicus",
+  "author": "Hero Alexandrinus",
+  "title": "Liber geeponicus [Sp.]",
+  "transmission": "tei",
+  "passages": 206,
+  "units": "chapter",
+  "file": "graeca/hero.json"
+ },
+ {
+  "id": "arithmetica.nicomachus-introductio",
+  "author": "Nicomachus Gerasenus",
+  "title": "Introductio arithmetica",
+  "transmission": "tei",
+  "passages": 55,
+  "units": "book.chapter",
+  "file": "graeca/arithmetica.json"
+ },
+ {
+  "id": "arithmetica.theon-utilitas",
+  "author": "Theon Smyrnaeus",
+  "title": "De utilitate mathematicae",
+  "transmission": "tei",
+  "passages": 219,
+  "units": "chapter",
+  "file": "graeca/arithmetica.json"
+ }
+]

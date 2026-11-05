@@ -1,0 +1,486 @@
+[
+ {
+  "n": 1,
+  "part": "euclid-I-1",
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_01.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop01.lean"
+  ]
+ },
+ {
+  "n": 2,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_02.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop02.lean"
+  ]
+ },
+ {
+  "n": 3,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_03.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop03.lean"
+  ]
+ },
+ {
+  "n": 4,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_04.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop04.lean"
+  ]
+ },
+ {
+  "n": 5,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_05.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop05.lean"
+  ]
+ },
+ {
+  "n": 6,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_06.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop06.lean"
+  ]
+ },
+ {
+  "n": 7,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_07.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop07.lean"
+  ]
+ },
+ {
+  "n": 8,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_08.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop08.lean"
+  ]
+ },
+ {
+  "n": 9,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_09.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop09.lean"
+  ]
+ },
+ {
+  "n": 10,
+  "part": "euclid-I-10",
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_10.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop10.lean"
+  ]
+ },
+ {
+  "n": 11,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_11.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop11.lean"
+  ]
+ },
+ {
+  "n": 12,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_12.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop12.lean"
+  ]
+ },
+ {
+  "n": 13,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_13.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop13.lean"
+  ]
+ },
+ {
+  "n": 14,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_14.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop14.lean"
+  ]
+ },
+ {
+  "n": 15,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_15.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop15.lean"
+  ]
+ },
+ {
+  "n": 16,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_16.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop16.lean"
+  ]
+ },
+ {
+  "n": 17,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_17.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop17.lean"
+  ]
+ },
+ {
+  "n": 18,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_18.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop18.lean"
+  ]
+ },
+ {
+  "n": 19,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_19.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop19.lean"
+  ]
+ },
+ {
+  "n": 20,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_20.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop20.lean"
+  ]
+ },
+ {
+  "n": 21,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_21.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop21.lean"
+  ]
+ },
+ {
+  "n": 22,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_22.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop22.lean"
+  ]
+ },
+ {
+  "n": 23,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_23.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop23.lean"
+  ]
+ },
+ {
+  "n": 24,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_24.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop24.lean"
+  ]
+ },
+ {
+  "n": 25,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_25.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop25.lean"
+  ]
+ },
+ {
+  "n": 26,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_26A.v",
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_26B.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop26.lean"
+  ]
+ },
+ {
+  "n": 27,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_27.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop27.lean"
+  ]
+ },
+ {
+  "n": 28,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_28A.v",
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_28B.v",
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_28C.v",
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_28D.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop28.lean"
+  ]
+ },
+ {
+  "n": 29,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_29.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop29.lean"
+  ]
+ },
+ {
+  "n": 30,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_30.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop30.lean"
+  ]
+ },
+ {
+  "n": 31,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_31.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop31.lean"
+  ]
+ },
+ {
+  "n": 32,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_32.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop32.lean"
+  ]
+ },
+ {
+  "n": 33,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_33.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop33.lean"
+  ]
+ },
+ {
+  "n": 34,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_34.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop34.lean"
+  ]
+ },
+ {
+  "n": 35,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_35.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop35.lean"
+  ]
+ },
+ {
+  "n": 36,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_36.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop36.lean"
+  ]
+ },
+ {
+  "n": 37,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_37.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop37.lean"
+  ]
+ },
+ {
+  "n": 38,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_38.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop38.lean"
+  ]
+ },
+ {
+  "n": 39,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_39.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop39.lean"
+  ]
+ },
+ {
+  "n": 40,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_40.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop40.lean"
+  ]
+ },
+ {
+  "n": 41,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_41.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop41.lean"
+  ]
+ },
+ {
+  "n": 42,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_42.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop42.lean"
+  ]
+ },
+ {
+  "n": 43,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_43.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop43.lean"
+  ]
+ },
+ {
+  "n": 44,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_44.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop44.lean"
+  ]
+ },
+ {
+  "n": 45,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_45.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop45.lean"
+  ]
+ },
+ {
+  "n": 46,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_46.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop46.lean"
+  ]
+ },
+ {
+  "n": 47,
+  "part": "euclid-I-47",
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_47.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop47.lean"
+  ]
+ },
+ {
+  "n": 48,
+  "part": null,
+  "geocoq": [
+   "https://github.com/GeoCoq/GeoCoq/blob/87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6/theories/Elements/OriginalProofs/proposition_48.v"
+  ],
+  "leaneuclid": [
+   "https://github.com/loganrjmurphy/LeanEuclid/blob/33a72c0fa83914202532998a2e7b8771295c3cc7/Book/Prop48.lean"
+  ]
+ }
+]

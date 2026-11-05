@@ -40,6 +40,8 @@ jobs:
             id=$(basename "$f" .json)
             node scripts/build.mjs --scenario "$id" --out "dist/scenarios/$id"
           done
+      - name: Add the Corpus Geometriae reader
+        run: mkdir -p dist/geometry && cp geometry/site.html dist/geometry/index.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

@@ -1,0 +1,16 @@
+{
+ "geocoq": {
+  "name": "GeoCoq",
+  "system": "Coq / Rocq",
+  "license": "LGPL-3.0",
+  "repo": "GeoCoq/GeoCoq",
+  "commit": "87e8f9c3bc9cb2f782b86153bcf8d5bac52d7ef6"
+ },
+ "leaneuclid": {
+  "name": "LeanEuclid",
+  "system": "Lean 4 (System E)",
+  "license": "MIT",
+  "repo": "loganrjmurphy/LeanEuclid",
+  "commit": "33a72c0fa83914202532998a2e7b8771295c3cc7"
+ }
+}
